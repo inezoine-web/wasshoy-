@@ -23,6 +23,15 @@
 - `data/festivals.json` — 祭りの構造化データ
 - `data/schema.md` — データ項目と記録方針
 - `reports/` — Issue単位・地域単位の調査レポート
+- `scripts/build_site.py` — JSONとMarkdownからGitHub Pages用HTMLを生成
+- `site/` — 公開サイトのスタイル
+
+## レポートサイト
+
+`python scripts/build_site.py` で `_site/` に依存パッケージ不要の静的サイトを生成します。
+`reports/` にMarkdownを追加すると、次回のビルドでレポート一覧とHTML版へ自動的に反映されます。
+GitHub Actionsは既定ブランチへのpushまたは手動実行で成果物をGitHub Pagesへ公開します。リポジトリの
+**Settings → Pages → Source** は **GitHub Actions** を選択してください。
 
 ## 実験で見たいこと
 
