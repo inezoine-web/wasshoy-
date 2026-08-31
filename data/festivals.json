@@ -893,6 +893,64 @@
       "last_verified": "2026-08-31"
     },
     {
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "東京都",
+      "location": null,
+      "event_dates": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "last_verified": "2026-08-31",
+      "id": "tokyo-adachi-daishi-natsu-matsuri",
+      "name": "大師夏まつり",
+      "municipality": "足立区",
+      "district": "西新井",
+      "venue": "西新井大師境内",
+      "usual_schedule": null,
+      "categories": [
+        "temple_festival",
+        "bon_odori",
+        "citizen_festival"
+      ],
+      "features": [
+        "盆踊り",
+        "縁日"
+      ],
+      "summary": "西新井大師境内で盆踊りや縁日を行う地域の夏祭り。",
+      "sources": [
+        {
+          "url": "https://daishi-natsumatsuri.jimdofree.com/",
+          "title": "大師夏まつり",
+          "publisher": "大師夏まつり実行委員会",
+          "accessed": "2026-08-31",
+          "supports": [
+            "candidate_discovery"
+          ]
+        },
+        {
+          "url": "https://www.nishiaraidaishi.or.jp/event-seasons/",
+          "title": "行事・四季",
+          "publisher": "西新井大師",
+          "accessed": "2026-08-31",
+          "supports": [
+            "candidate_discovery"
+          ]
+        }
+      ],
+      "notes": [
+        "検索結果で主催者公式サイトと西新井大師の行事ページを発見したが、本文を取得できなかった。検索語:「西新井大師 祭り」「大師夏まつり 西新井 公式 実行委員会」。開催継続、年次日程、主催体制の本文確認が必要。"
+      ]
+    },
+    {
       "id": "tokyo-sumida-sumidagawa-hanabi",
       "name": "隅田川花火大会",
       "aliases": [],
@@ -1016,6 +1074,246 @@
       "last_verified": "2026-08-31"
     },
     {
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "東京都",
+      "location": null,
+      "event_dates": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "last_verified": "2026-08-31",
+      "id": "tokyo-sumida-sumidagawa-jinja-reitaisai",
+      "name": "隅田川神社例大祭",
+      "municipality": "墨田区",
+      "district": "堤通",
+      "venue": "隅田川神社と氏子地域",
+      "usual_schedule": null,
+      "categories": [
+        "shrine_festival",
+        "mikoshi"
+      ],
+      "features": [
+        "神輿渡御"
+      ],
+      "summary": "隅田川神社と氏子地域で行われる例大祭の候補。",
+      "sources": [
+        {
+          "url": "https://visit-sumida.jp/event/sumidagawajinjyareitaisai2025/",
+          "title": "隅田川神社例大祭",
+          "publisher": "墨田区観光協会",
+          "accessed": "2026-08-31",
+          "supports": [
+            "candidate_discovery"
+          ]
+        }
+      ],
+      "notes": [
+        "墨田区観光協会の2025年イベントページを検索結果で発見したが、本文を取得できなかった。検索語:「墨田区 神社 例大祭 公式 観光」。通常日程や祭礼内容は未確認。"
+      ]
+    },
+    {
+      "id": "tokyo-taito-sanja-matsuri",
+      "name": "三社祭",
+      "aliases": [
+        "浅草神社例大祭"
+      ],
+      "status": "verified",
+      "confidence": "high",
+      "prefecture": "東京都",
+      "municipality": "台東区",
+      "district": "浅草",
+      "venue": "浅草神社と浅草氏子区域",
+      "location": null,
+      "usual_schedule": "5月第3金曜・土曜・日曜",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "mikoshi",
+        "procession"
+      ],
+      "features": [
+        "浅草神社の例大祭",
+        "町内神輿連合渡御",
+        "本社神輿各町渡御"
+      ],
+      "history": "浅草神社の公式案内は、正和元年（1312年）の『三社の祭礼』を起源として紹介する。",
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": 3,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "浅草神社を中心に、町内神輿と本社神輿が浅草の氏子区域を渡御する例大祭。",
+      "sources": [
+        {
+          "url": "https://www.asakusajinja.jp/sanjamatsuri/",
+          "title": "三社祭",
+          "publisher": "浅草神社",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "venue",
+            "usual_schedule",
+            "history",
+            "features"
+          ]
+        },
+        {
+          "url": "https://www.sanjasama.jp/",
+          "title": "浅草神社例大祭 三社祭 公式情報",
+          "publisher": "浅草神社奉賛会",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "event_information",
+            "features"
+          ]
+        }
+      ],
+      "notes": [
+        "年次日程と渡御順路は開催年の公式告知で再確認が必要。"
+      ],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "tokyo-taito-asakusa-tori-no-ichi",
+      "name": "浅草酉の市",
+      "aliases": [
+        "酉の市御例祭"
+      ],
+      "status": "verified",
+      "confidence": "high",
+      "prefecture": "東京都",
+      "municipality": "台東区",
+      "district": "千束",
+      "venue": "鷲神社・長國寺",
+      "location": null,
+      "usual_schedule": "11月の酉の日",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "temple_festival",
+        "market"
+      ],
+      "features": [
+        "熊手御守",
+        "開運・商売繁昌の祭礼",
+        "神社と寺院にまたがる酉の市"
+      ],
+      "history": "鷲神社の公式案内は、江戸時代から続く祭礼として紹介する。",
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": [
+          "暦により二の酉または三の酉まで行われる"
+        ]
+      },
+      "summary": "11月の酉の日に鷲神社と長國寺で行われ、縁起熊手を求める参詣者でにぎわう祭礼。",
+      "sources": [
+        {
+          "url": "https://www.otorisama.or.jp/kotoshi.html",
+          "title": "今年の酉の市",
+          "publisher": "鷲神社",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "venue",
+            "usual_schedule",
+            "history",
+            "features"
+          ]
+        },
+        {
+          "url": "https://www.torinoichi.jp/",
+          "title": "浅草 酉の市",
+          "publisher": "浅草酉の市保存会",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "venue",
+            "usual_schedule",
+            "features"
+          ]
+        }
+      ],
+      "notes": [
+        "酉の日の日付と回数は年ごとに異なるため、年次日程は公式告知で確認する。"
+      ],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "東京都",
+      "location": null,
+      "event_dates": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "last_verified": "2026-08-31",
+      "id": "tokyo-taito-torigoe-matsuri",
+      "name": "鳥越祭",
+      "municipality": "台東区",
+      "district": "鳥越",
+      "venue": "鳥越神社と氏子地域",
+      "usual_schedule": null,
+      "categories": [
+        "shrine_festival",
+        "mikoshi"
+      ],
+      "features": [
+        "本社神輿渡御"
+      ],
+      "summary": "鳥越神社を中心に行われる祭礼の候補。",
+      "sources": [
+        {
+          "url": "https://www.city.taito.lg.jp/event/kanko/torikoematsuri.html",
+          "title": "鳥越祭",
+          "publisher": "台東区",
+          "accessed": "2026-08-31",
+          "supports": [
+            "candidate_discovery"
+          ]
+        },
+        {
+          "url": "https://t-navi.city.taito.lg.jp/event/1411",
+          "title": "鳥越祭",
+          "publisher": "台東区公式観光情報サイト",
+          "accessed": "2026-08-31",
+          "supports": [
+            "candidate_discovery"
+          ]
+        }
+      ],
+      "notes": [
+        "台東区と区公式観光情報サイトの専用ページを検索結果で発見したが、本文を取得できなかった。検索語:「site:city.taito.lg.jp 下谷神社 鳥越祭 祭」。日程・規模の本文確認が必要。"
+      ]
+    },
+    {
       "id": "tokyo-kita-oji-jinja-reitaisai-dengaku",
       "name": "王子神社例大祭（王子田楽）",
       "aliases": [],
@@ -1127,6 +1425,64 @@
         "主催団体の公式年次告知を追加確認できていない。"
       ],
       "last_verified": "2026-08-31"
+    },
+    {
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "東京都",
+      "location": null,
+      "event_dates": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "last_verified": "2026-08-31",
+      "id": "tokyo-kita-kumano-jinja-shirozake-matsuri",
+      "name": "白酒祭（オビシャ行事）",
+      "municipality": "北区",
+      "district": "志茂",
+      "venue": "熊野神社",
+      "usual_schedule": null,
+      "categories": [
+        "shrine_festival",
+        "traditional_ritual",
+        "unusual_festival"
+      ],
+      "features": [
+        "白酒",
+        "オビシャ行事"
+      ],
+      "summary": "熊野神社で行われるオビシャ行事の候補。",
+      "sources": [
+        {
+          "url": "https://kanko.city.kita.lg.jp/event/597-2/",
+          "title": "白酒祭［オビシャ行事］（熊野神社）",
+          "publisher": "東京都北区観光ホームページ",
+          "accessed": "2026-08-31",
+          "supports": [
+            "candidate_discovery"
+          ]
+        },
+        {
+          "url": "https://www.city.kita.lg.jp/city-information/pr/1011994/1025348/1025349.html",
+          "title": "熊野神社で「白酒祭」開催",
+          "publisher": "北区",
+          "accessed": "2026-08-31",
+          "supports": [
+            "candidate_discovery"
+          ]
+        }
+      ],
+      "notes": [
+        "北区観光ページと北区の事前案内を検索結果で発見したが、本文を取得できなかった。検索語:「site:city.kita.lg.jp 白酒祭 熊野神社」。開催日、由来、現在の実施内容は本文確認が必要。"
+      ]
     },
     {
       "id": "tokyo-katsushika-katsushika-noryo-hanabi",
@@ -1245,6 +1601,55 @@
       ],
       "notes": [],
       "last_verified": "2026-08-31"
+    },
+    {
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "東京都",
+      "location": null,
+      "event_dates": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "last_verified": "2026-08-31",
+      "id": "tokyo-katsushika-kasai-jinja-reitaisai",
+      "name": "葛西神社例大祭",
+      "municipality": "葛飾区",
+      "district": "東金町",
+      "venue": "葛西神社と氏子地域",
+      "usual_schedule": null,
+      "categories": [
+        "shrine_festival",
+        "mikoshi",
+        "traditional_performing_art"
+      ],
+      "features": [
+        "神輿",
+        "葛西囃子"
+      ],
+      "summary": "葛西神社と氏子地域で行われる例大祭の候補。",
+      "sources": [
+        {
+          "url": "https://www.kasaijinja.jp/event/reitaisai.html",
+          "title": "年中行事 例大祭",
+          "publisher": "葛西神社",
+          "accessed": "2026-08-31",
+          "supports": [
+            "candidate_discovery"
+          ]
+        }
+      ],
+      "notes": [
+        "葛西神社公式の例大祭ページを検索結果で発見したが、本文を取得できなかった。検索語:「葛飾区 神社 例大祭 祭り 公式」。葛西囃子との関係、日程、渡御内容は本文確認が必要。"
+      ]
     },
     {
       "id": "tokyo-edogawa-edogawa-ku-hanabi",
@@ -1422,6 +1827,63 @@
       ],
       "notes": [],
       "last_verified": "2026-08-31"
+    },
+    {
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "東京都",
+      "location": null,
+      "event_dates": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "last_verified": "2026-08-31",
+      "id": "tokyo-edogawa-shinozaki-sengen-nobori-matsuri",
+      "name": "幟祭り",
+      "municipality": "江戸川区",
+      "district": "上篠崎",
+      "venue": "篠崎浅間神社",
+      "usual_schedule": null,
+      "categories": [
+        "shrine_festival",
+        "traditional_ritual"
+      ],
+      "features": [
+        "大幟",
+        "幟上げ"
+      ],
+      "summary": "篠崎浅間神社で大幟を立てる区指定無形民俗文化財の祭礼候補。",
+      "sources": [
+        {
+          "url": "https://www.city.edogawa.tokyo.jp/e004/kuseijoho/kohokocho/press/2025/06/0624.html",
+          "title": "区指定無形民俗文化財「幟祭り」29日幟上げ",
+          "publisher": "江戸川区",
+          "accessed": "2026-08-31",
+          "supports": [
+            "candidate_discovery"
+          ]
+        },
+        {
+          "url": "https://www.city.edogawa.tokyo.jp/e004/kuseijoho/kohokocho/promotion/bunka/sengenjinja.html",
+          "title": "浅間神社（社叢、富士講碑、幟祭り）",
+          "publisher": "江戸川区",
+          "accessed": "2026-08-31",
+          "supports": [
+            "candidate_discovery"
+          ]
+        }
+      ],
+      "notes": [
+        "江戸川区の2025年報道発表と文化紹介ページを検索結果で発見したが、本文を取得できなかった。検索語:「江戸川区 幟祭り 2025 浅間神社 日程」。文化財指定の正式名称、開催周期、2025年の全日程は本文確認が必要。"
+      ]
     }
   ]
 }
