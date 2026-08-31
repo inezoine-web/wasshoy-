@@ -1705,6 +1705,413 @@
         "公式・公的ページの本文を確認できなかったためcandidate。現在の開催継続、正式名称、会場、主催者を要再確認。",
         "探索語: 江南市 市民花火大会、江南市 花火 公式"
       ]
+    },
+    {
+      "id": "tokyo-adachi-hanahata-ootori-jinja-shishimai",
+      "name": "花畑大鷲神社獅子舞",
+      "aliases": [
+        "花畑祈祷獅子舞"
+      ],
+      "status": "candidate",
+      "confidence": "medium",
+      "prefecture": "東京都",
+      "municipality": "足立区",
+      "district": "花畑",
+      "venue": "花畑大鷲神社（花畑7-15-1）",
+      "location": null,
+      "usual_schedule": "海の日の前日（日曜日）とする区公式ページの手掛かりあり（本文再確認要）",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "lion_dance",
+        "traditional_performing_art"
+      ],
+      "features": [
+        "一人立三匹獅子舞",
+        "祈祷獅子舞"
+      ],
+      "history": "区公式検索結果には江戸時代の花又村鷲宿に伝わるとの記述があるが、本文を再確認する。",
+      "cultural_property": {
+        "designated": true,
+        "level": "municipal",
+        "designation_name": "花畑大鷲神社獅子舞",
+        "designation_type": "足立区指定無形民俗文化財"
+      },
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "花畑の大鷲神社に奉納される三匹獅子舞。区指定無形民俗文化財との公式な手掛かりを確認した。",
+      "sources": [
+        {
+          "url": "https://www.city.adachi.tokyo.jp/hakubutsukan/chiikibunka/hakubutsukan/manabu-h-shishimai.html",
+          "title": "花畑大鷲神社獅子舞",
+          "publisher": "足立区",
+          "accessed": "2026-08-31",
+          "supports": [
+            "candidate_discovery",
+            "venue",
+            "usual_schedule",
+            "cultural_property"
+          ]
+        },
+        {
+          "url": "https://www.city.adachi.tokyo.jp/hakubutsukan/folklore_akueki-taisan.html",
+          "title": "悪疫退散の民俗",
+          "publisher": "足立区",
+          "accessed": "2026-08-31",
+          "supports": [
+            "candidate_discovery",
+            "history",
+            "features"
+          ]
+        }
+      ],
+      "notes": [
+        "区公式ページは検索結果で発見したが、調査環境のアウトバウンド制限で本文を取得できなかったためcandidateとした。日程・歴史・指定名称は本文で再確認する。"
+      ],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "tokyo-adachi-shikahama-shishimai",
+      "name": "鹿浜獅子舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "medium",
+      "prefecture": "東京都",
+      "municipality": "足立区",
+      "district": "鹿浜",
+      "venue": "鹿浜地区（詳細会場は本文再確認要）",
+      "location": null,
+      "usual_schedule": "9月15日に近い土日とする区公式ページの手掛かりあり（正式日は8月下旬決定、本文再確認要）",
+      "event_dates": [],
+      "categories": [
+        "lion_dance",
+        "traditional_performing_art"
+      ],
+      "features": [
+        "大獅子・中獅子・女獅子の三匹獅子舞",
+        "笛奏者",
+        "花笠衆"
+      ],
+      "history": "旧鹿浜村の村組に伝わるとする区公式ページの手掛かりがある。",
+      "cultural_property": {
+        "designated": true,
+        "level": "municipal",
+        "designation_name": "鹿浜獅子舞",
+        "designation_type": "足立区指定無形民俗文化財"
+      },
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": [
+          "獅子3匹、花笠衆4名とする区公式検索結果の記述あり"
+        ]
+      },
+      "summary": "旧鹿浜村に伝わる、大獅子・中獅子・女獅子からなる三匹獅子舞。",
+      "sources": [
+        {
+          "url": "https://www.city.adachi.tokyo.jp/hakubutsukan/chiikibunka/hakubutsukan/manabu-s-shishimai.html",
+          "title": "鹿浜獅子舞",
+          "publisher": "足立区",
+          "accessed": "2026-08-31",
+          "supports": [
+            "candidate_discovery",
+            "usual_schedule",
+            "features",
+            "cultural_property"
+          ]
+        }
+      ],
+      "notes": [
+        "区公式ページは検索結果で発見したが本文を取得できなかったためcandidate。会場、直近実施、文化財の正式な指定名称を再確認する。"
+      ],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "tokyo-adachi-bonden-matsuri",
+      "name": "梵天祭り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "medium",
+      "prefecture": "東京都",
+      "municipality": "足立区",
+      "district": "足立・辰沼",
+      "venue": "西之宮稲荷神社・辰沼稲荷神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "unusual_festival"
+      ],
+      "features": [
+        "五色の幣束",
+        "集落の災厄除け"
+      ],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "五色の幣束を作り集落の災厄除けをする、二つの稲荷神社に伝わる行事。",
+      "sources": [
+        {
+          "url": "https://www.city.adachi.tokyo.jp/hakubutsukan/chiikibunka/hakubutsukan/manabu-bondenmatsuri.html",
+          "title": "梵天祭り（ぼんでんまつり）",
+          "publisher": "足立区",
+          "accessed": "2026-08-31",
+          "supports": [
+            "candidate_discovery",
+            "venue",
+            "features",
+            "cancellation_information"
+          ]
+        }
+      ],
+      "notes": [
+        "区公式検索結果には辰沼稲荷神社の行事が2024年中止との記述がある。現在の継続状況、両社の行事を一件として扱う妥当性、日程を本文・神社情報で再確認する。"
+      ],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "tokyo-adachi-adachi-2-banjin-matsuri",
+      "name": "足立二丁目の番神祭",
+      "aliases": [
+        "番神祭"
+      ],
+      "status": "candidate",
+      "confidence": "medium",
+      "prefecture": "東京都",
+      "municipality": "足立区",
+      "district": "足立二丁目",
+      "venue": "三十番神七面明神社（足立二丁目8番）",
+      "location": null,
+      "usual_schedule": "毎年4月15日とする区公式ページの手掛かりあり（本文再確認要）",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [
+        "五反野祭囃子保存会の迎え囃子",
+        "三十番神七面明神社"
+      ],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "足立二丁目の三十番神七面明神社で、迎え囃子とともに営まれる祭り。",
+      "sources": [
+        {
+          "url": "https://www.city.adachi.tokyo.jp/hakubutsukan/chiikibunka/hakubutsukan/manabu-a2-banjin.html",
+          "title": "足立二丁目の番神祭（ばんじんさい）",
+          "publisher": "足立区",
+          "accessed": "2026-08-31",
+          "supports": [
+            "candidate_discovery",
+            "venue",
+            "usual_schedule",
+            "features"
+          ]
+        }
+      ],
+      "notes": [
+        "区公式ページは検索結果で発見したが本文を取得できなかったためcandidate。直近年の斎行と一般見学の可否を再確認する。"
+      ],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "tokyo-adachi-kojiya-myorinji-banjin-matsuri",
+      "name": "古千谷妙蓮寺の番神祭",
+      "aliases": [
+        "番神祭り"
+      ],
+      "status": "candidate",
+      "confidence": "medium",
+      "prefecture": "東京都",
+      "municipality": "足立区",
+      "district": "古千谷一丁目",
+      "venue": "日蓮宗慶山妙蓮寺",
+      "location": null,
+      "usual_schedule": "毎年1月17日とする区公式ページの手掛かりあり（本文再確認要）",
+      "event_dates": [],
+      "categories": [
+        "temple_festival"
+      ],
+      "features": [
+        "番神堂",
+        "三十番神"
+      ],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "古千谷の妙蓮寺番神堂で三十番神をまつる祭事。",
+      "sources": [
+        {
+          "url": "https://www.city.adachi.tokyo.jp/hakubutsukan/chiikibunka/hakubutsukan/manabu-kojiya-banjin.html",
+          "title": "古千谷妙蓮寺の番神祭（ばんじんさい）",
+          "publisher": "足立区",
+          "accessed": "2026-08-31",
+          "supports": [
+            "candidate_discovery",
+            "venue",
+            "usual_schedule",
+            "features"
+          ]
+        }
+      ],
+      "notes": [
+        "区公式ページは検索結果で発見したが本文を取得できなかったためcandidate。直近年の斎行を寺院または地域の一次情報で再確認する。"
+      ],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "tokyo-adachi-hanahata-ootori-jinja-tori-no-ichi",
+      "name": "花畑大鷲神社の酉の市",
+      "aliases": [
+        "大鷲神社の酉の市"
+      ],
+      "status": "candidate",
+      "confidence": "medium",
+      "prefecture": "東京都",
+      "municipality": "足立区",
+      "district": "花畑",
+      "venue": "花畑大鷲神社",
+      "location": null,
+      "usual_schedule": "11月の酉の日とする観光協会ページの手掛かりあり",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "market_festival"
+      ],
+      "features": [
+        "かっこめ（札付き熊手）",
+        "露店"
+      ],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": [
+          "約100店の屋台とする観光協会検索結果の記述あり"
+        ]
+      },
+      "summary": "花畑大鷲神社で11月の酉の日に開かれ、かっこめや露店でにぎわう市。",
+      "sources": [
+        {
+          "url": "https://www.adachikanko.net/event/%E3%80%90%E4%BC%9D%E7%B5%B1%E3%83%BB%E6%96%87%E5%8C%96%E3%80%91%E9%85%89%E3%81%AE%E5%B8%82-%E8%8A%B1%E7%95%91-%E5%A4%A7%E9%B7%B2%E7%A5%9E%E7%A4%BE",
+          "title": "【伝統・文化】酉の市 花畑 大鷲神社",
+          "publisher": "足立区観光交流協会",
+          "accessed": "2026-08-31",
+          "supports": [
+            "candidate_discovery",
+            "venue",
+            "usual_schedule",
+            "features",
+            "scale"
+          ]
+        }
+      ],
+      "notes": [
+        "観光協会ページは検索結果で発見したが本文を取得できなかったためcandidate。直近年の開催と屋台数を再確認する。"
+      ],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "tokyo-adachi-senju-autumn-festivals",
+      "name": "千住の秋祭り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "medium",
+      "prefecture": "東京都",
+      "municipality": "足立区",
+      "district": "千住",
+      "venue": "千住地区の各神社・町会・商店街",
+      "location": null,
+      "usual_schedule": "9月第2または第3土・日曜日を中心とする区公式ページの手掛かりあり",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "mikoshi",
+        "dashi",
+        "traditional_performing_art"
+      ],
+      "features": [
+        "町会ごとの神輿",
+        "屋台",
+        "囃子山車",
+        "曳き太鼓",
+        "宵宮・本宮"
+      ],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "千住地区で町会・神社ごとに営まれ、神輿、囃子山車、曳き太鼓などが巡行する秋祭りの総称。",
+      "sources": [
+        {
+          "url": "https://www.city.adachi.tokyo.jp/hakubutsukan/chiikibunka/hakubutsukan/manabu-akimatsuri.html",
+          "title": "千住の秋祭り",
+          "publisher": "足立区",
+          "accessed": "2026-08-31",
+          "supports": [
+            "candidate_discovery",
+            "district",
+            "usual_schedule",
+            "features"
+          ]
+        },
+        {
+          "url": "https://www.city.adachi.tokyo.jp/kuminjimu/chiikibunka/kuminsanka/senjyunomatsuri2026.html",
+          "title": "令和8年度千住地区の盆踊り・祭り開催一覧",
+          "publisher": "足立区",
+          "accessed": "2026-08-31",
+          "supports": [
+            "candidate_discovery",
+            "annual_event_listing"
+          ]
+        }
+      ],
+      "notes": [
+        "複数の神社・町会祭礼を束ねる総称として仮登録。個別祭礼との重複を避けるため、千住神社例大祭などの正式名称、氏子区域、2026年日程を本文確認後に分割・整理する。"
+      ],
+      "last_verified": "2026-08-31"
     }
   ]
 }
