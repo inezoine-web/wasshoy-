@@ -779,6 +779,649 @@
       ],
       "notes": [],
       "last_verified": "2026-08-31"
+    },
+    {
+      "id": "tokyo-adachi-adachi-no-hanabi",
+      "name": "足立の花火",
+      "aliases": [],
+      "status": "verified",
+      "confidence": "high",
+      "prefecture": "東京都",
+      "municipality": "足立区",
+      "district": "千住・西新井側荒川河川敷",
+      "venue": "荒川河川敷（東京メトロ千代田線鉄橋～西新井橋間）",
+      "location": null,
+      "usual_schedule": "開催回ごとに要確認",
+      "event_dates": [],
+      "categories": [
+        "fireworks"
+      ],
+      "features": [
+        "荒川河川敷",
+        "1時間に約1万4千発"
+      ],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": [
+          "第48回案内は約14,000発を予定"
+        ]
+      },
+      "summary": "荒川河川敷で短時間に多数の花火を打ち上げる足立区の花火大会。",
+      "sources": [
+        {
+          "url": "https://www.adachikanko.net/adachi_no_hanabi48",
+          "title": "第48回 足立の花火（2026）",
+          "publisher": "足立区観光交流協会",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "venue",
+            "features",
+            "event_information"
+          ]
+        },
+        {
+          "url": "https://www.gotokyo.org/jp/spot/ev041/index.html",
+          "title": "足立の花火",
+          "publisher": "東京都・東京観光財団",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "venue",
+            "features"
+          ]
+        }
+      ],
+      "notes": [],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "tokyo-adachi-adachi-kumin-matsuri",
+      "name": "あだち区民まつり「A-Festa」",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "medium",
+      "prefecture": "東京都",
+      "municipality": "足立区",
+      "district": "千住",
+      "venue": "荒川河川敷・虹の広場",
+      "location": null,
+      "usual_schedule": "10月ごろ",
+      "event_dates": [],
+      "categories": [
+        "citizen_festival",
+        "dance"
+      ],
+      "features": [
+        "ステージ",
+        "物産展",
+        "子ども向け催事"
+      ],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "荒川河川敷でステージや物産、体験企画を展開する区民まつり。",
+      "sources": [
+        {
+          "url": "https://www.adachikanko.net/a-festa",
+          "title": "あだち区民まつり「A-Festa」",
+          "publisher": "足立区観光交流協会",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "venue",
+            "features"
+          ]
+        }
+      ],
+      "notes": [
+        "確認時に公式ページの直近開催内容を十分取得できず、次回年次告知を再確認する。"
+      ],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "tokyo-sumida-sumidagawa-hanabi",
+      "name": "隅田川花火大会",
+      "aliases": [],
+      "status": "verified",
+      "confidence": "high",
+      "prefecture": "東京都",
+      "municipality": "墨田区",
+      "district": "隅田川沿岸",
+      "venue": "隅田川（第一会場・第二会場）",
+      "location": null,
+      "usual_schedule": "7月最終土曜日",
+      "event_dates": [],
+      "categories": [
+        "fireworks"
+      ],
+      "features": [
+        "二会場",
+        "花火コンクール"
+      ],
+      "history": "公式サイトは享保18年（1733年）の「両国の川開き」に由来すると紹介する。",
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "江戸時代の両国川開きに由来すると公式に紹介される隅田川の花火大会。",
+      "sources": [
+        {
+          "url": "https://www.sumidagawa-hanabi.com/",
+          "title": "隅田川花火大会 公式Webサイト",
+          "publisher": "隅田川花火大会実行委員会",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "usual_schedule",
+            "venue",
+            "history",
+            "features"
+          ]
+        },
+        {
+          "url": "https://visit-sumida.jp/event/sumidagawa-hanabi2025/",
+          "title": "隅田川花火大会",
+          "publisher": "墨田区観光協会",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "venue",
+            "features"
+          ]
+        }
+      ],
+      "notes": [],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "tokyo-sumida-ushijima-jinja-taisai",
+      "name": "牛嶋神社大祭",
+      "aliases": [],
+      "status": "verified",
+      "confidence": "high",
+      "prefecture": "東京都",
+      "municipality": "墨田区",
+      "district": "向島",
+      "venue": "牛嶋神社と氏子地域",
+      "location": null,
+      "usual_schedule": "9月中旬ごろ（大祭は5年に一度）",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "mikoshi",
+        "procession"
+      ],
+      "features": [
+        "鳳輦渡御",
+        "氏子神輿",
+        "5年に一度の大祭"
+      ],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "牛嶋神社と氏子地域で行われ、5年に一度の大祭では鳳輦渡御を伴う祭礼。",
+      "sources": [
+        {
+          "url": "https://visit-sumida.jp/event/ushijimajinjya_taisai091417/",
+          "title": "牛嶋神社大祭",
+          "publisher": "墨田区観光協会",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "venue",
+            "usual_schedule",
+            "features"
+          ]
+        },
+        {
+          "url": "http://www.tokyo-jinjacho.or.jp/sumida/5692",
+          "title": "牛嶋神社",
+          "publisher": "東京都神社庁",
+          "accessed": "2026-08-31",
+          "supports": [
+            "venue",
+            "shrine_information"
+          ]
+        }
+      ],
+      "notes": [
+        "通常年の祭礼と5年に一度の大祭を混同せず、年次日程は都度確認が必要。"
+      ],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "tokyo-kita-oji-jinja-reitaisai-dengaku",
+      "name": "王子神社例大祭（王子田楽）",
+      "aliases": [],
+      "status": "verified",
+      "confidence": "high",
+      "prefecture": "東京都",
+      "municipality": "北区",
+      "district": "王子本町",
+      "venue": "王子神社",
+      "location": null,
+      "usual_schedule": "8月上旬",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [
+        "田楽舞",
+        "魔除けの花笠"
+      ],
+      "history": "北区観光ページは、鎌倉時代に始まったと伝わる田楽舞として紹介する。",
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "王子神社の例大祭で奉納される、中世以来と伝わる田楽舞。",
+      "sources": [
+        {
+          "url": "https://kanko.city.kita.lg.jp/event/535-2-4/",
+          "title": "王子神社例大祭（王子田楽）",
+          "publisher": "東京都北区",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "venue",
+            "usual_schedule",
+            "history",
+            "features"
+          ]
+        },
+        {
+          "url": "https://www.japan47go.travel/ja/detail/f7384641-aca0-4ba5-a513-a65f170a2f4b",
+          "title": "王子田楽",
+          "publisher": "日本観光振興協会",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "features",
+            "cultural_context"
+          ]
+        }
+      ],
+      "notes": [],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "tokyo-kita-oji-kitsune-no-gyoretsu",
+      "name": "王子狐の行列",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "medium",
+      "prefecture": "東京都",
+      "municipality": "北区",
+      "district": "王子",
+      "venue": "装束稲荷神社から王子稲荷神社",
+      "location": null,
+      "usual_schedule": "大晦日から元日",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "procession",
+        "unusual_festival"
+      ],
+      "features": [
+        "狐の装束",
+        "年越し行列"
+      ],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "狐の装束をした参加者が装束稲荷から王子稲荷へ向かう年越し行事。",
+      "sources": [
+        {
+          "url": "https://www.gotokyo.org/jp/spot/ev104/index.html",
+          "title": "王子狐の行列",
+          "publisher": "東京都・東京観光財団",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "venue",
+            "usual_schedule",
+            "features"
+          ]
+        }
+      ],
+      "notes": [
+        "主催団体の公式年次告知を追加確認できていない。"
+      ],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "tokyo-katsushika-katsushika-noryo-hanabi",
+      "name": "葛飾納涼花火大会",
+      "aliases": [],
+      "status": "verified",
+      "confidence": "high",
+      "prefecture": "東京都",
+      "municipality": "葛飾区",
+      "district": "柴又",
+      "venue": "江戸川河川敷（葛飾区柴又野球場）",
+      "location": null,
+      "usual_schedule": "7月下旬",
+      "event_dates": [],
+      "categories": [
+        "fireworks"
+      ],
+      "features": [
+        "河川敷から間近に観覧",
+        "短時間で連続打上げ"
+      ],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "柴又の江戸川河川敷で開催される葛飾区の花火大会。",
+      "sources": [
+        {
+          "url": "https://www.city.katsushika.lg.jp/tourism/1000064/1000065/1031830.html",
+          "title": "葛飾納涼花火大会",
+          "publisher": "葛飾区",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "venue",
+            "features"
+          ]
+        },
+        {
+          "url": "https://www.gotokyo.org/jp/spot/ev038/index.html",
+          "title": "葛飾納涼花火大会",
+          "publisher": "東京都・東京観光財団",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "venue",
+            "usual_schedule"
+          ]
+        }
+      ],
+      "notes": [],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "tokyo-katsushika-katsushika-shobu-matsuri",
+      "name": "葛飾菖蒲まつり",
+      "aliases": [],
+      "status": "verified",
+      "confidence": "medium",
+      "prefecture": "東京都",
+      "municipality": "葛飾区",
+      "district": "堀切・水元公園",
+      "venue": "堀切菖蒲園・都立水元公園",
+      "location": null,
+      "usual_schedule": "5月下旬から6月中旬",
+      "event_dates": [],
+      "categories": [
+        "flower_festival",
+        "citizen_festival"
+      ],
+      "features": [
+        "二会場",
+        "花菖蒲"
+      ],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "堀切菖蒲園と水元公園を会場に花菖蒲を楽しむ初夏の祭り。",
+      "sources": [
+        {
+          "url": "https://www.city.katsushika.lg.jp/tourism/1000064/1000065/1031831.html",
+          "title": "葛飾菖蒲まつり",
+          "publisher": "葛飾区",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "venue",
+            "usual_schedule",
+            "features"
+          ]
+        },
+        {
+          "url": "https://www.gotokyo.org/jp/spot/ev037/index.html",
+          "title": "葛飾菖蒲まつり",
+          "publisher": "東京都・東京観光財団",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "venue",
+            "features"
+          ]
+        }
+      ],
+      "notes": [],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "tokyo-edogawa-edogawa-ku-hanabi",
+      "name": "江戸川区花火大会",
+      "aliases": [],
+      "status": "verified",
+      "confidence": "high",
+      "prefecture": "東京都",
+      "municipality": "江戸川区",
+      "district": "上篠崎",
+      "venue": "江戸川河川敷（都立篠崎公園先）",
+      "location": null,
+      "usual_schedule": "開催回ごとに要確認",
+      "event_dates": [],
+      "categories": [
+        "fireworks"
+      ],
+      "features": [
+        "オープニング集中打上げ",
+        "市川市民納涼花火大会と共同開催"
+      ],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "江戸川河川敷で対岸の市川市と共同開催される花火大会。",
+      "sources": [
+        {
+          "url": "https://www.city.edogawa.tokyo.jp/hanabi/",
+          "title": "江戸川区花火大会",
+          "publisher": "江戸川区花火大会実行委員会・江戸川区",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "venue",
+            "features",
+            "event_information"
+          ]
+        },
+        {
+          "url": "https://www.gotokyo.org/jp/spot/ev030/index.html",
+          "title": "江戸川区花火大会",
+          "publisher": "東京都・東京観光財団",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "venue",
+            "features"
+          ]
+        }
+      ],
+      "notes": [],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "tokyo-edogawa-kingyo-matsuri",
+      "name": "江戸川区特産金魚まつり",
+      "aliases": [],
+      "status": "verified",
+      "confidence": "high",
+      "prefecture": "東京都",
+      "municipality": "江戸川区",
+      "district": "北葛西",
+      "venue": "行船公園",
+      "location": null,
+      "usual_schedule": "7月ごろ",
+      "event_dates": [],
+      "categories": [
+        "citizen_festival",
+        "unusual_festival"
+      ],
+      "features": [
+        "金魚すくい",
+        "江戸川区特産金魚の展示販売"
+      ],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "江戸川区の特産である金魚を展示・販売し、金魚すくいなどを行う祭り。",
+      "sources": [
+        {
+          "url": "https://www.city.edogawa.tokyo.jp/e032/sports/kankomidokoro/kingyo/index.html",
+          "title": "江戸川区特産 金魚まつり",
+          "publisher": "江戸川区",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "venue",
+            "features"
+          ]
+        },
+        {
+          "url": "https://www.city.edogawa.tokyo.jp/e004/kuseijoho/kohokocho/press/2026/07/0702-2.html",
+          "title": "「第55回江戸川区特産金魚まつり」18・19日開催",
+          "publisher": "江戸川区",
+          "accessed": "2026-08-31",
+          "supports": [
+            "event_information",
+            "features"
+          ]
+        }
+      ],
+      "notes": [],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "tokyo-edogawa-edogawa-kumin-matsuri",
+      "name": "江戸川区民まつり",
+      "aliases": [],
+      "status": "verified",
+      "confidence": "high",
+      "prefecture": "東京都",
+      "municipality": "江戸川区",
+      "district": "上篠崎",
+      "venue": "都立篠崎公園",
+      "location": null,
+      "usual_schedule": "10月ごろ",
+      "event_dates": [],
+      "categories": [
+        "citizen_festival",
+        "parade",
+        "dance"
+      ],
+      "features": [
+        "パレード",
+        "ステージ",
+        "区内団体の出展"
+      ],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "都立篠崎公園でパレード、ステージ、地域団体の催事を行う区民まつり。",
+      "sources": [
+        {
+          "url": "https://www.city.edogawa.tokyo.jp/kumin_fes/",
+          "title": "江戸川区民まつり",
+          "publisher": "江戸川区民まつり実行委員会・江戸川区",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "venue",
+            "features"
+          ]
+        },
+        {
+          "url": "https://www.city.edogawa.tokyo.jp/kumin_fes/gaiyou/index.html",
+          "title": "概要 江戸川区民まつり",
+          "publisher": "江戸川区民まつり実行委員会・江戸川区",
+          "accessed": "2026-08-31",
+          "supports": [
+            "venue",
+            "features"
+          ]
+        }
+      ],
+      "notes": [],
+      "last_verified": "2026-08-31"
     }
   ]
 }
