@@ -2112,6 +2112,233 @@
         "複数の神社・町会祭礼を束ねる総称として仮登録。個別祭礼との重複を避けるため、千住神社例大祭などの正式名称、氏子区域、2026年日程を本文確認後に分割・整理する。"
       ],
       "last_verified": "2026-08-31"
+    },
+    {
+      "id": "tokyo-adachi-nishiarai-daishi-furin-matsuri",
+      "name": "西新井大師 風鈴祭り",
+      "aliases": [
+        "西新井大師風鈴祭り"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "東京都",
+      "municipality": "足立区",
+      "district": "西新井",
+      "venue": "西新井大師（總持寺）",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "temple_festival"
+      ],
+      "features": [
+        "風鈴"
+      ],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "西新井大師で風鈴を主題に開催される夏の行事として再調査対象になった祭り。",
+      "sources": [],
+      "notes": [
+        "既知候補から寺院年間行事・夏の風物へ探索語を展開して候補化。調査環境ではWeb検索と公式本文取得が拒否され、開催継続、正式表記、年次日程、催事内容を本文確認できていない。",
+        "再確認用探索語: 西新井大師 風鈴祭り、總持寺 年間行事 風鈴、site:nishiaraidaishi.or.jp 風鈴"
+      ],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "tokyo-adachi-shobu-matsuri",
+      "name": "しょうぶまつり",
+      "aliases": [
+        "しょうぶまつり＆世界の食広場"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "東京都",
+      "municipality": "足立区",
+      "district": "北綾瀬・東綾瀬",
+      "venue": "しょうぶ沼公園ほか（正式な会場構成は要確認）",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "citizen_festival"
+      ],
+      "features": [
+        "花菖蒲"
+      ],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "花菖蒲を入口に、地域催事と組み合わせて開催される行事として再調査対象になった祭り。",
+      "sources": [],
+      "notes": [
+        "既知候補から公園・季節の花・観光行事へ探索語を展開して候補化。調査環境ではWeb検索と公式本文取得が拒否され、正式名称、会場構成、開催継続、年次日程を本文確認できていない。",
+        "再確認用探索語: 足立区 しょうぶまつり、しょうぶ沼公園 まつり、しょうぶまつり 世界の食広場、site:city.adachi.tokyo.jp しょうぶ"
+      ],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "shizuoka-kosai-shirasuka-shukuba-matsuri",
+      "name": "白須賀宿場まつり",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "湖西市",
+      "district": "白須賀",
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "citizen_festival"
+      ],
+      "features": [
+        "宿場"
+      ],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "旧宿場の地域行事として再調査対象になった祭り。",
+      "sources": [],
+      "notes": [
+        "白須賀地区・宿場という地域レンズから得た未検証シード。Web本文を取得できず、正式名称、開催継続、会場、内容を確認できていない。",
+        "再確認用探索語: 湖西市 白須賀 宿場まつり、おんやど白須賀 まつり"
+      ],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "shizuoka-kosai-arai-sekisho-matsuri",
+      "name": "新居関所まつり",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "湖西市",
+      "district": "新居町",
+      "venue": "新居関所周辺（要確認）",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "citizen_festival"
+      ],
+      "features": [
+        "新居関所"
+      ],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "新居関所を手掛かりに再調査対象になった地域行事。",
+      "sources": [],
+      "notes": [
+        "新居地区・文化施設という探索レンズから得た未検証シード。Web本文を取得できず、開催継続、正式名称、会場、内容を確認できていない。",
+        "再確認用探索語: 湖西市 新居関所まつり、新居関所 イベント 祭り"
+      ],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "aichi-konan-kitano-tenjinsha-fude-matsuri",
+      "name": "北野天神社筆まつり",
+      "aliases": [
+        "筆まつり"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "愛知県",
+      "municipality": "江南市",
+      "district": "北野町",
+      "venue": "北野天神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [
+        "筆"
+      ],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "北野天神社で筆を主題に行われる祭りとして再調査対象になった行事。",
+      "sources": [],
+      "notes": [
+        "寺社年間行事・地域固有の風物という探索レンズから得た未検証シード。Web本文を取得できず、開催継続、日程、祭事内容を確認できていない。",
+        "再確認用探索語: 江南市 北野天神社 筆まつり、北野天神社 年間行事 筆"
+      ],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "aichi-konan-konan-shimin-summer-festa",
+      "name": "江南市民サマーフェスタ",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "愛知県",
+      "municipality": "江南市",
+      "district": "古知野・江南駅周辺（要確認）",
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "citizen_festival",
+        "dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "江南市の夏の市民行事として再調査対象になった催事。",
+      "sources": [],
+      "notes": [
+        "市民祭・商店街・夏の行事という探索レンズから得た未検証シード。Web本文を取得できず、開催継続、会場、内容、主催者を確認できていない。",
+        "再確認用探索語: 江南市民サマーフェスタ、江南駅 夏まつり、古知野 商店街 祭り"
+      ],
+      "last_verified": "2026-08-31"
     }
   ]
 }

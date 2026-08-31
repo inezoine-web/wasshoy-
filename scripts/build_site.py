@@ -7,6 +7,7 @@ import html
 import json
 import re
 import shutil
+from collections import defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -25,8 +26,16 @@ def markdown(text: str) -> str:
     """Render the small Markdown subset used by research reports."""
     parts: list[str] = []
     list_type: str | None = None
-    for raw in text.splitlines():
+    lines = text.splitlines()
+    index = 0
+    while index < len(lines):
+        raw = lines[index]
         line = raw.rstrip()
+        table = (
+            line.startswith("|")
+            and index + 1 < len(lines)
+            and re.match(r"^\|(?:\s*:?-+:?\s*\|)+$", lines[index + 1].strip())
+        )
         match = re.match(r"^(#{1,4})\s+(.+)$", line)
         bullet = re.match(r"^[-*]\s+(.+)$", line)
         numbered = re.match(r"^\d+\.\s+(.+)$", line)
@@ -34,6 +43,20 @@ def markdown(text: str) -> str:
         if list_type and wanted != list_type:
             parts.append(f"</{list_type}>")
             list_type = None
+        if table:
+            headers = [cell.strip() for cell in line.strip("|").split("|")]
+            rows = []
+            index += 2
+            while index < len(lines) and lines[index].strip().startswith("|"):
+                rows.append([cell.strip() for cell in lines[index].strip().strip("|").split("|")])
+                index += 1
+            head = "".join(f"<th>{inline(cell)}</th>" for cell in headers)
+            body = "".join(
+                "<tr>" + "".join(f"<td>{inline(cell)}</td>" for cell in row) + "</tr>"
+                for row in rows
+            )
+            parts.append(f"<div class=\"table-wrap\"><table><thead><tr>{head}</tr></thead><tbody>{body}</tbody></table></div>")
+            continue
         if match:
             level = len(match.group(1))
             parts.append(f"<h{level}>{inline(match.group(2))}</h{level}>")
@@ -45,6 +68,7 @@ def markdown(text: str) -> str:
             parts.append(f"<li>{inline(item)}</li>")
         elif line:
             parts.append(f"<p>{inline(line)}</p>")
+        index += 1
     if list_type:
         parts.append(f"</{list_type}>")
     return "\n".join(parts)
@@ -67,12 +91,28 @@ def main() -> None:
     shutil.copy(ROOT / "data/festivals.json", OUT / "data/festivals.json")
     shutil.copy(ROOT / "site/style.css", OUT / "assets/style.css")
     data = json.loads((ROOT / "data/festivals.json").read_text())
-    cards = []
+    regions: dict[str, dict[str, list[str]]] = defaultdict(lambda: defaultdict(list))
     for festival in data["festivals"]:
         tags = "".join(f"<span>{html.escape(tag)}</span>" for tag in festival["categories"])
-        cards.append(f"""<article><p class="place">{festival['municipality']}・{festival.get('district') or '市内'}</p>
+        card = f"""<article><p class="place">{html.escape(festival.get('district') or '市区町村内')}</p>
 <h3>{html.escape(festival['name'])}</h3><p>{html.escape(festival['summary'])}</p>
-<div class="tags">{tags}</div><p class="meta">{festival['status']} / 確信度 {festival['confidence']}</p></article>""")
+<div class="tags">{tags}</div><p class="meta">{html.escape(festival['status'])} / 確信度 {html.escape(festival['confidence'])}</p></article>"""
+        regions[festival["prefecture"]][festival["municipality"]].append(card)
+    region_sections = []
+    for prefecture in sorted(regions):
+        municipalities = regions[prefecture]
+        prefecture_count = sum(len(items) for items in municipalities.values())
+        municipality_sections = []
+        for municipality in sorted(municipalities):
+            cards = municipalities[municipality]
+            municipality_sections.append(
+                f'<section class="municipality"><div class="municipality-head"><h3>{html.escape(municipality)}</h3>'
+                f'<span>{len(cards)}件</span></div><div class="grid">{"".join(cards)}</div></section>'
+            )
+        region_sections.append(
+            f'<section class="prefecture"><div class="prefecture-head"><h2>{html.escape(prefecture)}</h2>'
+            f'<strong>{prefecture_count}件</strong></div>{"".join(municipality_sections)}</section>'
+        )
     reports = []
     for path in sorted((ROOT / "reports").glob("*.md"), reverse=True):
         if path.name == "README.md":
@@ -82,7 +122,7 @@ def main() -> None:
         reports.append(f'<li><a href="reports/{path.stem}.html">{path.stem}</a></li>')
     body = f"""<section class="hero"><p class="eyebrow">OPEN RESEARCH ARCHIVE</p><h1>近くの祭りを、<br>根拠といっしょに。</h1>
 <p>自治体・主催者などの公開情報をたどり、まだ知らない地域行事に出会えるデータを育てています。</p></section>
-<section><div class="section-head"><h2>今回の調査</h2><strong>{len(cards)}件</strong></div><div class="grid">{''.join(cards)}</div></section>
+<section><div class="section-head"><h2>地域から祭りを探す</h2><strong>{len(data['festivals'])}件</strong></div>{''.join(region_sections)}</section>
 <section class="reports"><h2>調査レポート</h2><ul>{''.join(reports)}</ul><p><a href="data/festivals.json">JSONデータを開く →</a></p></section>"""
     (OUT / "index.html").write_text(page("祭り調査アーカイブ", body))
 
