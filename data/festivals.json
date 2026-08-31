@@ -1,5 +1,784 @@
 {
   "schema_version": 1,
-  "updated_at": null,
-  "festivals": []
+  "updated_at": "2026-08-31",
+  "festivals": [
+    {
+      "id": "ibaraki-moriya-moriya-gion-matsuri",
+      "name": "守谷祇園祭",
+      "aliases": [],
+      "status": "verified",
+      "confidence": "medium",
+      "prefecture": "茨城県",
+      "municipality": "守谷市",
+      "district": "本町",
+      "venue": "八坂神社と旧市街",
+      "location": null,
+      "usual_schedule": "7月最終土曜日",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "mikoshi",
+        "dashi"
+      ],
+      "features": [
+        "八坂神社の例大祭",
+        "神輿渡御",
+        "山車巡行"
+      ],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "八坂神社を中心に神輿と山車が旧市街を巡る夏祭り。",
+      "sources": [
+        {
+          "url": "https://www.city.moriya.ibaraki.jp/tanoshimu/event/1001877.html",
+          "title": "守谷祇園祭",
+          "publisher": "守谷市",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "usual_schedule",
+            "venue",
+            "features"
+          ]
+        },
+        {
+          "url": "https://www.moriya-kankou.jp/matsuri/",
+          "title": "守谷のまつり",
+          "publisher": "守谷市観光協会",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "features"
+          ]
+        }
+      ],
+      "notes": [
+        "開催年ごとの日程は公式告知で再確認が必要。"
+      ],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "ibaraki-moriya-moriya-shoko-matsuri",
+      "name": "守谷市商工まつり～きらめき守谷夢彩都フェスタ～",
+      "aliases": [],
+      "status": "verified",
+      "confidence": "medium",
+      "prefecture": "茨城県",
+      "municipality": "守谷市",
+      "district": "中央",
+      "venue": "守谷駅西口駅前広場・土塔口",
+      "location": null,
+      "usual_schedule": "9月下旬",
+      "event_dates": [],
+      "categories": [
+        "citizen_festival",
+        "dance"
+      ],
+      "features": [
+        "ステージ",
+        "地域団体の出展"
+      ],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "守谷駅前で商工業と市民活動を紹介する市民祭。",
+      "sources": [
+        {
+          "url": "https://www.city.moriya.ibaraki.jp/tanoshimu/event/1001880.html",
+          "title": "守谷市商工まつり",
+          "publisher": "守谷市",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "venue",
+            "usual_schedule"
+          ]
+        },
+        {
+          "url": "https://www.moriya-cci.or.jp/",
+          "title": "守谷市商工会",
+          "publisher": "守谷市商工会",
+          "accessed": "2026-08-31",
+          "supports": [
+            "organizer"
+          ]
+        }
+      ],
+      "notes": [],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "ibaraki-tsukubamirai-tsunahiki",
+      "name": "綱火",
+      "aliases": [],
+      "status": "verified",
+      "confidence": "high",
+      "prefecture": "茨城県",
+      "municipality": "つくばみらい市",
+      "district": "小張・高岡",
+      "venue": "小張愛宕神社／高岡愛宕神社",
+      "location": null,
+      "usual_schedule": "8月下旬",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "fire_festival",
+        "traditional_performing_art"
+      ],
+      "features": [
+        "空中に張った綱で人形を操る",
+        "花火と人形芝居"
+      ],
+      "history": "慶長年間から伝わるとされ、小張松下流と高岡流の二流派が継承する。",
+      "cultural_property": {
+        "designated": true,
+        "level": "national",
+        "designation_name": "綱火",
+        "designation_type": "重要無形民俗文化財"
+      },
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": 2,
+        "participating_districts": 2,
+        "other": [
+          "小張松下流と高岡流の2流派"
+        ]
+      },
+      "summary": "火薬を仕込んだ人形を綱で操る、二つの流派の伝統的な火祭り。",
+      "sources": [
+        {
+          "url": "https://www.city.tsukubamirai.lg.jp/page/page000683.html",
+          "title": "国指定重要無形民俗文化財「綱火」",
+          "publisher": "つくばみらい市",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "history",
+            "cultural_property",
+            "features"
+          ]
+        },
+        {
+          "url": "https://www.bunka.go.jp/prmagazine/rensai/matsuri/matsuri_023.html",
+          "title": "祭り歳時記 綱火",
+          "publisher": "文化庁",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "history",
+            "features"
+          ]
+        }
+      ],
+      "notes": [],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "ibaraki-tsukubamirai-itabashi-fudoson-daruma-ichi",
+      "name": "板橋不動尊だるま市",
+      "aliases": [],
+      "status": "verified",
+      "confidence": "medium",
+      "prefecture": "茨城県",
+      "municipality": "つくばみらい市",
+      "district": "板橋",
+      "venue": "板橋不動尊（清安山不動院）",
+      "location": null,
+      "usual_schedule": "毎年1月28日",
+      "event_dates": [],
+      "categories": [
+        "temple_festival",
+        "traditional_market"
+      ],
+      "features": [
+        "だるま市",
+        "護摩祈祷"
+      ],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "板橋不動尊の縁日に境内で開かれる新春のだるま市。",
+      "sources": [
+        {
+          "url": "https://www.city.tsukubamirai.lg.jp/page/page000690.html",
+          "title": "板橋不動尊",
+          "publisher": "つくばみらい市",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "venue",
+            "usual_schedule"
+          ]
+        },
+        {
+          "url": "https://www.ibarakiguide.jp/spot.php?mode=detail&code=639",
+          "title": "板橋不動尊",
+          "publisher": "茨城県観光物産協会",
+          "accessed": "2026-08-31",
+          "supports": [
+            "venue",
+            "features"
+          ]
+        }
+      ],
+      "notes": [],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "ibaraki-tsukuba-matsuri-tsukuba",
+      "name": "まつりつくば",
+      "aliases": [],
+      "status": "verified",
+      "confidence": "high",
+      "prefecture": "茨城県",
+      "municipality": "つくば市",
+      "district": "吾妻",
+      "venue": "つくば駅周辺",
+      "location": null,
+      "usual_schedule": "8月下旬",
+      "event_dates": [],
+      "categories": [
+        "citizen_festival",
+        "dashi",
+        "dance"
+      ],
+      "features": [
+        "大パレード",
+        "ねぶた",
+        "神輿"
+      ],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": 2,
+        "participating_districts": null,
+        "other": [
+          "つくば市最大級と市が紹介"
+        ]
+      },
+      "summary": "つくば駅周辺で大パレードなどを展開する市最大級の市民祭。",
+      "sources": [
+        {
+          "url": "https://www.city.tsukuba.lg.jp/tourism/tsukubacitytourism/1001455.html",
+          "title": "まつりつくば",
+          "publisher": "つくば市",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "usual_schedule",
+            "venue",
+            "features"
+          ]
+        },
+        {
+          "url": "https://www.matsuri-tsukuba.com/",
+          "title": "まつりつくば公式サイト",
+          "publisher": "まつりつくば大会本部",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "features",
+            "organizer"
+          ]
+        }
+      ],
+      "notes": [],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "ibaraki-tsukuba-tsukubasan-jinja-ozagae-sai",
+      "name": "筑波山神社御座替祭",
+      "aliases": [],
+      "status": "verified",
+      "confidence": "high",
+      "prefecture": "茨城県",
+      "municipality": "つくば市",
+      "district": "筑波",
+      "venue": "筑波山神社",
+      "location": null,
+      "usual_schedule": "毎年4月1日・11月1日",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "procession"
+      ],
+      "features": [
+        "春秋の例大祭",
+        "神衣祭",
+        "神幸祭"
+      ],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "筑波山神社で春と秋に行われる、神衣祭・神幸祭などから成る例大祭。",
+      "sources": [
+        {
+          "url": "https://www.tsukubasanjinja.jp/event/",
+          "title": "年間祭事",
+          "publisher": "筑波山神社",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "usual_schedule",
+            "features"
+          ]
+        },
+        {
+          "url": "https://www.city.tsukuba.lg.jp/tourism/tsukubacitytourism/1001463.html",
+          "title": "筑波山神社御座替祭",
+          "publisher": "つくば市",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "venue",
+            "usual_schedule"
+          ]
+        }
+      ],
+      "notes": [],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "ibaraki-tsukuba-tsukubasan-gama-matsuri",
+      "name": "筑波山がままつり",
+      "aliases": [],
+      "status": "verified",
+      "confidence": "medium",
+      "prefecture": "茨城県",
+      "municipality": "つくば市",
+      "district": "筑波",
+      "venue": "筑波山門前通り周辺",
+      "location": null,
+      "usual_schedule": "8月",
+      "event_dates": [],
+      "categories": [
+        "citizen_festival",
+        "unusual_festival"
+      ],
+      "features": [
+        "ガマの油売り口上",
+        "がまレース"
+      ],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "筑波山名物「ガマの油売り口上」にちなむ祭り。",
+      "sources": [
+        {
+          "url": "https://www.ttca.jp/?page_id=125",
+          "title": "筑波山がままつり",
+          "publisher": "つくば観光コンベンション協会",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "venue",
+            "features"
+          ]
+        },
+        {
+          "url": "https://www.city.tsukuba.lg.jp/tourism/tsukubacitytourism/1001457.html",
+          "title": "筑波山がままつり",
+          "publisher": "つくば市",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "usual_schedule"
+          ]
+        }
+      ],
+      "notes": [],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "ibaraki-tsukuba-karima-bonzuna",
+      "name": "刈間の盆綱",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "medium",
+      "prefecture": "茨城県",
+      "municipality": "つくば市",
+      "district": "刈間",
+      "venue": "刈間地区",
+      "location": null,
+      "usual_schedule": "8月15日ごろ",
+      "event_dates": [],
+      "categories": [
+        "bon_festival",
+        "traditional_custom",
+        "unusual_festival"
+      ],
+      "features": [
+        "子どもが藁綱を曳く",
+        "盆の精霊送り"
+      ],
+      "history": null,
+      "cultural_property": {
+        "designated": true,
+        "level": "municipal",
+        "designation_name": "刈間の盆綱",
+        "designation_type": "無形民俗文化財"
+      },
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "刈間地区で子どもたちが藁の大綱を曳く盆行事。",
+      "sources": [
+        {
+          "url": "https://www.city.tsukuba.lg.jp/material/files/group/30/bonzuna.pdf",
+          "title": "つくば市の民俗文化財 刈間の盆綱",
+          "publisher": "つくば市",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "usual_schedule",
+            "features",
+            "cultural_property"
+          ]
+        }
+      ],
+      "notes": [
+        "公開資料が限られ、直近年の実施継続は未確認。"
+      ],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "ibaraki-tsukuba-rokuto-waraji-matsuri",
+      "name": "六斗のわらじ祭り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "medium",
+      "prefecture": "茨城県",
+      "municipality": "つくば市",
+      "district": "六斗",
+      "venue": "六斗地区",
+      "location": null,
+      "usual_schedule": "9月",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "unusual_festival"
+      ],
+      "features": [
+        "大わらじ",
+        "地区内を練り歩く"
+      ],
+      "history": null,
+      "cultural_property": {
+        "designated": true,
+        "level": "municipal",
+        "designation_name": "六斗のわらじ祭り",
+        "designation_type": "無形民俗文化財"
+      },
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "大きなわらじを作り地区内を巡る、六斗地区の伝統行事。",
+      "sources": [
+        {
+          "url": "https://www.city.tsukuba.lg.jp/material/files/group/30/rokuto.pdf",
+          "title": "六斗のわらじ祭り",
+          "publisher": "つくば市",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "features",
+            "cultural_property"
+          ]
+        }
+      ],
+      "notes": [
+        "直近開催日と継続状況を示す主催者情報を確認できていない。"
+      ],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "ibaraki-koga-koga-chochin-saomomi-matsuri",
+      "name": "古河提灯竿もみまつり",
+      "aliases": [],
+      "status": "verified",
+      "confidence": "high",
+      "prefecture": "茨城県",
+      "municipality": "古河市",
+      "district": "古河駅西口周辺",
+      "venue": "古河駅西口おまつり特設会場",
+      "location": null,
+      "usual_schedule": "毎年12月第1土曜日",
+      "event_dates": [],
+      "categories": [
+        "citizen_festival",
+        "unusual_festival"
+      ],
+      "features": [
+        "長い竹竿の先の提灯を揉み合う",
+        "関東の奇祭"
+      ],
+      "history": "野木神社の神事「七郷めぐり」の帰路、迎えの提灯を揉み合ったことに由来すると紹介される。",
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": 1,
+        "participating_districts": null,
+        "other": [
+          "約20メートルの竹竿を使用"
+        ]
+      },
+      "summary": "長い竹竿の先につけた提灯の火を消し合う冬の祭り。",
+      "sources": [
+        {
+          "url": "https://www.city.ibaraki-koga.lg.jp/soshiki/kankou/1/1458.html",
+          "title": "古河提灯竿もみまつり",
+          "publisher": "古河市",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "history",
+            "usual_schedule",
+            "features"
+          ]
+        },
+        {
+          "url": "https://www.kogakanko.jp/chochin",
+          "title": "古河提灯竿もみまつり",
+          "publisher": "古河市観光協会",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "venue",
+            "features"
+          ]
+        }
+      ],
+      "notes": [],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "ibaraki-koga-koga-hanabi-taikai",
+      "name": "古河花火大会",
+      "aliases": [],
+      "status": "verified",
+      "confidence": "medium",
+      "prefecture": "茨城県",
+      "municipality": "古河市",
+      "district": "西町",
+      "venue": "古河ゴルフリンクス",
+      "location": null,
+      "usual_schedule": "8月第1土曜日",
+      "event_dates": [],
+      "categories": [
+        "fireworks"
+      ],
+      "features": [
+        "渡良瀬川河川敷",
+        "三尺玉"
+      ],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "渡良瀬川河川敷で三尺玉を含む花火を打ち上げる大会。",
+      "sources": [
+        {
+          "url": "https://www.city.ibaraki-koga.lg.jp/soshiki/kankou/1/1460.html",
+          "title": "古河花火大会",
+          "publisher": "古河市",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "usual_schedule",
+            "venue",
+            "features"
+          ]
+        },
+        {
+          "url": "https://www.kogakanko.jp/hanabi",
+          "title": "古河花火大会",
+          "publisher": "古河市観光協会",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "features"
+          ]
+        }
+      ],
+      "notes": [
+        "開催回ごとの打上数は変わるため固定値を記録していない。"
+      ],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "ibaraki-koga-suzume-jinja-reitaisai",
+      "name": "雀神社夏季例大祭",
+      "aliases": [],
+      "status": "verified",
+      "confidence": "medium",
+      "prefecture": "茨城県",
+      "municipality": "古河市",
+      "district": "宮前町",
+      "venue": "雀神社と古河市街",
+      "location": null,
+      "usual_schedule": "7月中旬",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "mikoshi"
+      ],
+      "features": [
+        "神輿渡御"
+      ],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "古河総鎮守の雀神社から神輿が市街へ渡御する夏季例大祭。",
+      "sources": [
+        {
+          "url": "https://www.city.ibaraki-koga.lg.jp/soshiki/syogaigakusyu/3/3624.html",
+          "title": "雀神社",
+          "publisher": "古河市",
+          "accessed": "2026-08-31",
+          "supports": [
+            "venue",
+            "history"
+          ]
+        },
+        {
+          "url": "https://www.kogakanko.jp/suzumejinja",
+          "title": "雀神社夏季例大祭",
+          "publisher": "古河市観光協会",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "usual_schedule",
+            "features"
+          ]
+        }
+      ],
+      "notes": [],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "ibaraki-koga-koga-momo-matsuri",
+      "name": "古河桃まつり",
+      "aliases": [],
+      "status": "verified",
+      "confidence": "medium",
+      "prefecture": "茨城県",
+      "municipality": "古河市",
+      "district": "鴻巣",
+      "venue": "古河公方公園（古河総合公園）",
+      "location": null,
+      "usual_schedule": "3月中旬から下旬",
+      "event_dates": [],
+      "categories": [
+        "flower_festival",
+        "citizen_festival"
+      ],
+      "features": [
+        "ハナモモ",
+        "ステージ行事"
+      ],
+      "history": "江戸時代に古河藩主土井利勝が領民に桃を植えさせた故事にちなむ。",
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "古河公方公園のハナモモを中心に開催される春の市民祭。",
+      "sources": [
+        {
+          "url": "https://www.city.ibaraki-koga.lg.jp/soshiki/kankou/1/1459.html",
+          "title": "古河桃まつり",
+          "publisher": "古河市",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "history",
+            "usual_schedule",
+            "venue"
+          ]
+        },
+        {
+          "url": "https://www.kogakanko.jp/momo",
+          "title": "古河桃まつり",
+          "publisher": "古河市観光協会",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "features"
+          ]
+        }
+      ],
+      "notes": [],
+      "last_verified": "2026-08-31"
+    }
+  ]
 }
