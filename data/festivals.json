@@ -2339,6 +2339,380 @@
         "再確認用探索語: 江南市民サマーフェスタ、江南駅 夏まつり、古知野 商店街 祭り"
       ],
       "last_verified": "2026-08-31"
+    },
+    {
+      "id": "tochigi-kanuma-imamiya-jinja-yatai-gyoji",
+      "name": "鹿沼今宮神社祭の屋台行事",
+      "aliases": [
+        "鹿沼秋まつり"
+      ],
+      "status": "verified",
+      "confidence": "high",
+      "prefecture": "栃木県",
+      "municipality": "鹿沼市",
+      "district": null,
+      "venue": "今宮神社氏子区域",
+      "location": null,
+      "usual_schedule": "10月第2土・日曜日（文化財指定時の公開日）",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "yatai_float",
+        "traditional_performing_art"
+      ],
+      "features": [
+        "彫刻屋台の曳行",
+        "囃子の奉納",
+        "屋台の繰り込み"
+      ],
+      "history": null,
+      "cultural_property": {
+        "designated": true,
+        "level": "national",
+        "designation_name": "鹿沼今宮神社祭の屋台行事",
+        "designation_type": "重要無形民俗文化財"
+      },
+      "scale": {
+        "attendance": null,
+        "floats": "屋台を持つ27町から毎年約20基が奉納（指定時解説）",
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": 27,
+        "other": []
+      },
+      "summary": "今宮神社の例祭に合わせ、氏子町の彫刻屋台が曳き出され、囃子を奉納する祭礼行事。",
+      "notes": [
+        "公開日・規模は文化財指定時の情報であり、開催年ごとの告知は鹿沼市教育委員会等で再確認が必要。"
+      ],
+      "sources": [
+        {
+          "url": "https://kunishitei.bunka.go.jp/heritage/detail/302/754",
+          "title": "鹿沼今宮神社祭の屋台行事",
+          "publisher": "文化庁 国指定文化財等データベース",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "usual_schedule",
+            "venue",
+            "features",
+            "cultural_property",
+            "scale"
+          ]
+        }
+      ],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "saitama-chichibu-chichibu-matsuri-yatai-kagura",
+      "name": "秩父祭の屋台行事と神楽",
+      "aliases": [
+        "秩父夜祭"
+      ],
+      "status": "verified",
+      "confidence": "high",
+      "prefecture": "埼玉県",
+      "municipality": "秩父市",
+      "district": null,
+      "venue": "秩父神社氏子区域",
+      "location": null,
+      "usual_schedule": "12月3日を中心とする祭礼（文化財指定時情報には12月3日・6日と記載）",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "yatai_float",
+        "traditional_performing_art"
+      ],
+      "features": [
+        "笠鉾と屋台の曳行",
+        "神楽",
+        "3日夜の祭礼は秩父夜祭の名で知られる"
+      ],
+      "history": null,
+      "cultural_property": {
+        "designated": true,
+        "level": "national",
+        "designation_name": "秩父祭の屋台行事と神楽",
+        "designation_type": "重要無形民俗文化財"
+      },
+      "scale": {
+        "attendance": null,
+        "floats": "笠鉾2基・屋台4基",
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "秩父神社例大祭で笠鉾・屋台を曳き、神楽を奉納する行事。特に3日夜は「秩父夜祭」と呼ばれる。",
+      "notes": [
+        "国指定文化財等データベースの公開日欄は「毎年12月3日、6日」と記載する。年次日程は秩父市教育委員会等で要確認。"
+      ],
+      "sources": [
+        {
+          "url": "https://kunishitei.bunka.go.jp/heritage/detail/302/38",
+          "title": "秩父祭の屋台行事と神楽",
+          "publisher": "文化庁 国指定文化財等データベース",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "usual_schedule",
+            "venue",
+            "features",
+            "cultural_property",
+            "scale",
+            "aliases"
+          ]
+        }
+      ],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "chiba-katori-sawara-dashi-gyoji",
+      "name": "佐原の山車行事",
+      "aliases": [
+        "佐原の大祭"
+      ],
+      "status": "verified",
+      "confidence": "high",
+      "prefecture": "千葉県",
+      "municipality": "香取市",
+      "district": "佐原（本宿・新宿）",
+      "venue": "八坂神社・諏訪神社の氏子区域",
+      "location": null,
+      "usual_schedule": "本宿は7月、 新宿は10月（文化財指定時の公開日規則あり）",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "dashi",
+        "traditional_performing_art"
+      ],
+      "features": [
+        "巨大な人形を飾る山車",
+        "佐原囃子",
+        "本宿と新宿の二つの祭礼"
+      ],
+      "history": null,
+      "cultural_property": {
+        "designated": true,
+        "level": "national",
+        "designation_name": "佐原の山車行事",
+        "designation_type": "重要無形民俗文化財"
+      },
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": 24,
+        "other": [
+          "指定時解説では本宿10町内・新宿14町内から山車が出る"
+        ]
+      },
+      "summary": "佐原の八坂神社と諏訪神社の祭礼に、巨大な人形を飾った山車が佐原囃子に合わせて曳かれる行事。",
+      "notes": [
+        "公開日と町内数は文化財指定時の情報。開催年ごとの日程・参加町内は香取市教育委員会等で要確認。"
+      ],
+      "sources": [
+        {
+          "url": "https://kunishitei.bunka.go.jp/heritage/detail/302/767",
+          "title": "佐原の山車行事",
+          "publisher": "文化庁 国指定文化財等データベース",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "usual_schedule",
+            "venue",
+            "features",
+            "cultural_property",
+            "scale"
+          ]
+        }
+      ],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "kanagawa-oiso-sagicho",
+      "name": "大磯の左義長",
+      "aliases": [],
+      "status": "verified",
+      "confidence": "high",
+      "prefecture": "神奈川県",
+      "municipality": "大磯町",
+      "district": "南下町・北下町・山王・長者",
+      "venue": "大磯の海岸",
+      "location": null,
+      "usual_schedule": "1月第3土曜日（国指定文化財等データベースの公開日欄）",
+      "event_dates": [],
+      "categories": [
+        "fire_festival",
+        "traditional_performing_art"
+      ],
+      "features": [
+        "小正月の火祭り",
+        "サイトを海岸で燃やす",
+        "ヤンナゴッコと呼ばれる綱引き"
+      ],
+      "history": null,
+      "cultural_property": {
+        "designated": true,
+        "level": "national",
+        "designation_name": "大磯の左義長",
+        "designation_type": "重要無形民俗文化財"
+      },
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": 9,
+        "other": []
+      },
+      "summary": "九つの地区が海岸にサイトを立てて燃やし、豊漁を祈る綱引き「ヤンナゴッコ」を行う小正月の火祭り。",
+      "notes": [
+        "解説本文は指定時の旧日程（1月14日）を含む。現在の年次日程は大磯町教育委員会等で要確認。"
+      ],
+      "sources": [
+        {
+          "url": "https://kunishitei.bunka.go.jp/heritage/detail/302/675",
+          "title": "大磯の左義長",
+          "publisher": "文化庁 国指定文化財等データベース",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "usual_schedule",
+            "venue",
+            "features",
+            "cultural_property",
+            "scale"
+          ]
+        }
+      ],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "gifu-hida-furukawa-matsuri",
+      "name": "古川祭の起し太鼓・屋台行事",
+      "aliases": [
+        "古川祭"
+      ],
+      "status": "verified",
+      "confidence": "high",
+      "prefecture": "岐阜県",
+      "municipality": "飛騨市",
+      "district": "古川町",
+      "venue": "気多若宮神社と古川町内",
+      "location": null,
+      "usual_schedule": "4月19日・20日（文化財データベースの公開日欄）",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "yatai_float",
+        "traditional_performing_art"
+      ],
+      "features": [
+        "起し太鼓",
+        "屋台行列",
+        "獅子舞と鶏闘楽"
+      ],
+      "history": null,
+      "cultural_property": {
+        "designated": true,
+        "level": "national",
+        "designation_name": "古川祭の起し太鼓・屋台行事",
+        "designation_type": "重要無形民俗文化財"
+      },
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "気多若宮神社の祭礼で、神輿渡御に屋台行列、獅子舞、鶏闘楽が伴い、起し太鼓も行われる。",
+      "notes": [
+        "出典ページは記録作成等の措置を講ずべき無形の民俗文化財「古川祭」の記録で、本文中に1980年の重要無形民俗文化財指定を明記する。現在の年次日程は飛騨市教育委員会等で要確認。"
+      ],
+      "sources": [
+        {
+          "url": "https://kunishitei.bunka.go.jp/heritage/detail/312/357",
+          "title": "古川祭",
+          "publisher": "文化庁 国指定文化財等データベース",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "usual_schedule",
+            "venue",
+            "features",
+            "cultural_property",
+            "aliases"
+          ]
+        }
+      ],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "mie-iga-ueno-tenjin-matsuri-danjiri",
+      "name": "上野天神祭のダンジリ行事",
+      "aliases": [
+        "上野天神祭"
+      ],
+      "status": "verified",
+      "confidence": "high",
+      "prefecture": "三重県",
+      "municipality": "伊賀市",
+      "district": "上野",
+      "venue": "菅原神社と祭り町",
+      "location": null,
+      "usual_schedule": "10月25日の直前の金・土・日曜日（国指定文化財等データベースの公開日欄）",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "dashi",
+        "traditional_performing_art"
+      ],
+      "features": [
+        "印とダンジリ",
+        "鬼行列",
+        "神輿巡幸"
+      ],
+      "history": null,
+      "cultural_property": {
+        "designated": true,
+        "level": "national",
+        "designation_name": "上野天神祭のダンジリ行事",
+        "designation_type": "重要無形民俗文化財"
+      },
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": 13,
+        "other": [
+          "ダンジリ町9町・鬼町4町（指定時解説）"
+        ]
+      },
+      "summary": "菅原神社の秋祭りで、神輿の巡幸に加え、印、ダンジリ、鬼行列が上野の町を巡行する。",
+      "notes": [
+        "祭り町数と行事構成は文化財指定時解説。開催年ごとの日程は伊賀市教育委員会等で要確認。"
+      ],
+      "sources": [
+        {
+          "url": "https://kunishitei.bunka.go.jp/heritage/detail/302/747",
+          "title": "上野天神祭のダンジリ行事",
+          "publisher": "文化庁 国指定文化財等データベース",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "usual_schedule",
+            "venue",
+            "features",
+            "cultural_property",
+            "scale"
+          ]
+        }
+      ],
+      "last_verified": "2026-08-31"
     }
   ]
 }
