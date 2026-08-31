@@ -1016,6 +1016,143 @@
       "last_verified": "2026-08-31"
     },
     {
+      "id": "tokyo-taito-sanja-matsuri",
+      "name": "三社祭",
+      "aliases": [
+        "浅草神社例大祭"
+      ],
+      "status": "verified",
+      "confidence": "high",
+      "prefecture": "東京都",
+      "municipality": "台東区",
+      "district": "浅草",
+      "venue": "浅草神社と浅草氏子区域",
+      "location": null,
+      "usual_schedule": "5月第3金曜・土曜・日曜",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "mikoshi",
+        "procession"
+      ],
+      "features": [
+        "浅草神社の例大祭",
+        "町内神輿連合渡御",
+        "本社神輿各町渡御"
+      ],
+      "history": "浅草神社の公式案内は、正和元年（1312年）の『三社の祭礼』を起源として紹介する。",
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": 3,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": "浅草神社を中心に、町内神輿と本社神輿が浅草の氏子区域を渡御する例大祭。",
+      "sources": [
+        {
+          "url": "https://www.asakusajinja.jp/sanjamatsuri/",
+          "title": "三社祭",
+          "publisher": "浅草神社",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "venue",
+            "usual_schedule",
+            "history",
+            "features"
+          ]
+        },
+        {
+          "url": "https://www.sanjasama.jp/",
+          "title": "浅草神社例大祭 三社祭 公式情報",
+          "publisher": "浅草神社奉賛会",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "event_information",
+            "features"
+          ]
+        }
+      ],
+      "notes": [
+        "年次日程と渡御順路は開催年の公式告知で再確認が必要。"
+      ],
+      "last_verified": "2026-08-31"
+    },
+    {
+      "id": "tokyo-taito-asakusa-tori-no-ichi",
+      "name": "浅草酉の市",
+      "aliases": [
+        "酉の市御例祭"
+      ],
+      "status": "verified",
+      "confidence": "high",
+      "prefecture": "東京都",
+      "municipality": "台東区",
+      "district": "千束",
+      "venue": "鷲神社・長國寺",
+      "location": null,
+      "usual_schedule": "11月の酉の日",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "temple_festival",
+        "market"
+      ],
+      "features": [
+        "熊手御守",
+        "開運・商売繁昌の祭礼",
+        "神社と寺院にまたがる酉の市"
+      ],
+      "history": "鷲神社の公式案内は、江戸時代から続く祭礼として紹介する。",
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": [
+          "暦により二の酉または三の酉まで行われる"
+        ]
+      },
+      "summary": "11月の酉の日に鷲神社と長國寺で行われ、縁起熊手を求める参詣者でにぎわう祭礼。",
+      "sources": [
+        {
+          "url": "https://www.otorisama.or.jp/kotoshi.html",
+          "title": "今年の酉の市",
+          "publisher": "鷲神社",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "venue",
+            "usual_schedule",
+            "history",
+            "features"
+          ]
+        },
+        {
+          "url": "https://www.torinoichi.jp/",
+          "title": "浅草 酉の市",
+          "publisher": "浅草酉の市保存会",
+          "accessed": "2026-08-31",
+          "supports": [
+            "existence",
+            "venue",
+            "usual_schedule",
+            "features"
+          ]
+        }
+      ],
+      "notes": [
+        "酉の日の日付と回数は年ごとに異なるため、年次日程は公式告知で確認する。"
+      ],
+      "last_verified": "2026-08-31"
+    },
+    {
       "id": "tokyo-kita-oji-jinja-reitaisai-dengaku",
       "name": "王子神社例大祭（王子田楽）",
       "aliases": [],
