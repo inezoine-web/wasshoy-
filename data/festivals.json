@@ -1559,6 +1559,152 @@
       ],
       "notes": [],
       "last_verified": "2026-08-31"
+    },
+    {
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "location": null,
+      "event_dates": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "sources": [],
+      "last_verified": "2026-08-31",
+      "id": "shizuoka-kosai-arai-tezutsu-hanabi",
+      "name": "新居の手筒花火",
+      "prefecture": "静岡県",
+      "municipality": "湖西市",
+      "district": "新居町",
+      "venue": "新居地区",
+      "usual_schedule": null,
+      "categories": [
+        "shrine_festival",
+        "fireworks"
+      ],
+      "features": [
+        "手筒花火"
+      ],
+      "summary": "新居地区で行われる手筒花火の祭礼として探索対象になった行事。",
+      "notes": [
+        "公式・公的ページの本文を確認できなかったためcandidate。正式な祭礼名、会場、開催時期、主催者を要再確認。",
+        "探索語: 湖西市 新居 手筒花火、湖西市 新居 祭礼 奉納煙火"
+      ]
+    },
+    {
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "location": null,
+      "event_dates": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "sources": [],
+      "last_verified": "2026-08-31",
+      "id": "shizuoka-kosai-kosai-oiden-matsuri",
+      "name": "湖西おいでん祭",
+      "prefecture": "静岡県",
+      "municipality": "湖西市",
+      "district": null,
+      "venue": null,
+      "usual_schedule": null,
+      "categories": [
+        "citizen_festival"
+      ],
+      "features": [],
+      "summary": "湖西市の市民祭として探索対象になった行事。",
+      "notes": [
+        "公式・公的ページの本文を確認できなかったためcandidate。現在の開催継続、会場、内容を要再確認。",
+        "探索語: 湖西市 おいでん祭、site:city.kosai.shizuoka.jp おいでん祭"
+      ]
+    },
+    {
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "location": null,
+      "event_dates": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "sources": [],
+      "last_verified": "2026-08-31",
+      "id": "aichi-konan-konan-fuji-matsuri",
+      "name": "こうなん藤まつり",
+      "prefecture": "愛知県",
+      "municipality": "江南市",
+      "district": null,
+      "venue": "曼陀羅寺公園（要再確認）",
+      "usual_schedule": null,
+      "categories": [
+        "citizen_festival"
+      ],
+      "features": [
+        "藤"
+      ],
+      "summary": "曼陀羅寺公園の藤に結び付いた催事として探索対象になった行事。",
+      "notes": [
+        "公式・公的ページの本文を確認できなかったためcandidate。正式表記、年次日程、催事内容を要再確認。",
+        "探索語: 江南市 藤まつり、曼陀羅寺公園 藤まつり"
+      ]
+    },
+    {
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "location": null,
+      "event_dates": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "sources": [],
+      "last_verified": "2026-08-31",
+      "id": "aichi-konan-konan-shimin-hanabi-taikai",
+      "name": "江南市民花火大会",
+      "prefecture": "愛知県",
+      "municipality": "江南市",
+      "district": null,
+      "venue": null,
+      "usual_schedule": null,
+      "categories": [
+        "fireworks",
+        "citizen_festival"
+      ],
+      "features": [],
+      "summary": "江南市の市民花火大会として探索対象になった行事。",
+      "notes": [
+        "公式・公的ページの本文を確認できなかったためcandidate。現在の開催継続、正式名称、会場、主催者を要再確認。",
+        "探索語: 江南市 市民花火大会、江南市 花火 公式"
+      ]
     }
   ]
 }
