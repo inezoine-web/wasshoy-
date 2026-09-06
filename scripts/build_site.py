@@ -95,7 +95,7 @@ def main() -> None:
     for festival in data["festivals"]:
         tags = "".join(f"<span>{html.escape(tag)}</span>" for tag in festival["categories"])
         card = f"""<article><p class="place">{html.escape(festival.get('district') or '市区町村内')}</p>
-<h3>{html.escape(festival['name'])}</h3><p>{html.escape(festival['summary'])}</p>
+<h3>{html.escape(festival['name'])}</h3><p>{html.escape(festival.get('summary') or '概要は未確認')}</p>
 <div class="tags">{tags}</div><p class="meta">{html.escape(festival['status'])} / 確信度 {html.escape(festival['confidence'])}</p></article>"""
         regions[festival["prefecture"]][festival["municipality"]].append(card)
     region_sections = []
