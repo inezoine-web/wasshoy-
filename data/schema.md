@@ -128,5 +128,8 @@
 - `fireworks`
 - `citizen_festival`
 - `unusual_festival`
+- `seasonal_flower_nature`
+- `ichi_fair`
+- `unclassified`
 
 分類語彙は調査を進めながら必要に応じて追加する。既存カテゴリとの重複を避ける。
