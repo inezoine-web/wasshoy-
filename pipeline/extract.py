@@ -276,9 +276,13 @@ def candidate_strings(text: str) -> list[tuple[str, str]]:
     return out
 
 
-def context_for(text: str, needle: str, width: int = 160) -> str:
-    """名称の周辺テキスト。日付・会場の手掛かりを拾うために使う。"""
-    flat = normalize_space(clean(text))
+def context_for(flat: str, needle: str, width: int = 160) -> str:
+    """名称の周辺テキスト。日付・会場の手掛かりを拾うために使う。
+
+    引数は整形済みの平文。ページ全体の整形は1ページにつき1回だけ行う。
+    候補ごとに整形し直していたため、1ページに数十候補あると二乗的に
+    遅くなり、6850ページの抽出が10分以上かかっていた。
+    """
     idx = flat.find(needle)
     if idx < 0:
         return ""
@@ -288,6 +292,7 @@ def context_for(text: str, needle: str, width: int = 160) -> str:
 def extract_page(text: str, page_url: str, municipality: str = "") -> list[dict[str, str]]:
     rows: list[dict[str, str]] = []
     seen: set[str] = set()
+    flat = normalize_space(clean(text))  # ページ全体の整形は1回だけ
     for raw, origin in candidate_strings(text):
         name = clean_name(raw)
         if name in seen:
@@ -296,7 +301,7 @@ def extract_page(text: str, page_url: str, municipality: str = "") -> list[dict[
         if reason is None:
             continue
         seen.add(name)
-        ctx = context_for(text, name) or normalize_space(raw)
+        ctx = context_for(flat, name) or normalize_space(raw)
         dates = DATE_PATTERN.findall(ctx)
         venues = [v for v in VENUE_PATTERN.findall(ctx) if v not in name]
         rows.append(
@@ -312,6 +317,39 @@ def extract_page(text: str, page_url: str, municipality: str = "") -> list[dict[
             }
         )
     return rows
+
+
+PREFECTURE_WIDE = "(県全域)"
+
+
+def load_municipality_names(prefecture: str) -> list[str]:
+    path = REPO_ROOT / "registry" / "municipalities.tsv"
+    if not path.is_file():
+        return []
+    with path.open(encoding="utf-8", newline="") as fh:
+        return [
+            r["municipality"]
+            for r in csv.DictReader(fh, delimiter="\t")
+            if r["prefecture"] == prefecture
+        ]
+
+
+def assign_municipality(context: str, names: list[str]) -> str:
+    """県単位レンズで拾った行事に所在市町村を割り当てる。
+
+    県教育委員会の文化財一覧には所在欄が無いことがある。旧手法では
+    これが理由で19件を登録できずに落としていた (前回レポート §7-7)。
+    周辺テキストに市町村名が1つだけ現れる場合にのみ採用し、
+    複数現れる場合は判断できないので割り当てない。推測しない。
+    """
+    hits = {n for n in names if n in context}
+    if len(hits) == 1:
+        return hits.pop()
+    # 「大子町の…」と「大子」だけの表記が混ざるため、接尾辞なしでも見る
+    bare = {n for n in names if len(n) > 2 and n[:-1] in context}
+    if len(bare) == 1:
+        return bare.pop()
+    return ""
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -331,6 +369,10 @@ def main(argv: list[str] | None = None) -> int:
         pages = [p for p in pages if p["municipality"] == args.municipality]
 
     fetcher = Fetcher(offline=True)  # ネットへは出ない
+    # 県単位レンズで拾った行事に所在市町村を割り当てるための名簿
+    muni_names = load_municipality_names(args.prefecture) if args.prefecture else []
+    pref_wide_rows = 0
+    pref_wide_assigned = 0
     out_path = WORK_DIR / "candidates.tsv"
     fields = [
         "prefecture", "municipality", "name", "name_raw", "origin", "reason",
@@ -347,10 +389,19 @@ def main(argv: list[str] | None = None) -> int:
             if doc is None:
                 missing += 1
                 continue
-            for row in extract_page(doc.text, page["url"], page["municipality"]):
+            muni = page["municipality"]
+            for row in extract_page(doc.text, page["url"], "" if muni == PREFECTURE_WIDE else muni):
+                resolved = muni
+                if muni == PREFECTURE_WIDE:
+                    pref_wide_rows += 1
+                    resolved = assign_municipality(
+                        f"{row['context']} {page['title']}", muni_names
+                    ) or PREFECTURE_WIDE
+                    if resolved != PREFECTURE_WIDE:
+                        pref_wide_assigned += 1
                 row.update(
                     prefecture=page["prefecture"],
-                    municipality=page["municipality"],
+                    municipality=resolved,
                     page_title=page["title"],
                 )
                 for k in fields:
@@ -359,6 +410,11 @@ def main(argv: list[str] | None = None) -> int:
                 total += 1
 
     print(f"candidates.tsv: {total} 行 (ページ {len(pages)} 件、キャッシュ無し {missing} 件)")
+    if pref_wide_rows:
+        print(
+            f"  県単位レンズ: {pref_wide_rows} 行、うち所在市町村を割り当てられた "
+            f"{pref_wide_assigned} 行 (残りは {PREFECTURE_WIDE} のまま S4 へ)"
+        )
     return 0
 
 

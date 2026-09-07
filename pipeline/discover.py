@@ -31,6 +31,7 @@ import urllib.parse
 import xml.etree.ElementTree as ET
 import heapq
 import itertools
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -236,6 +237,40 @@ def discover_site(
     return records
 
 
+PREFECTURE_WIDE = "(県全域)"
+
+
+def load_prefecture_sites(prefecture: str | None) -> list[dict[str, str]]:
+    """都道府県の公式サイト・教育委員会を、県単位の探索レンズとして返す。
+
+    文化財・無形民俗文化財の一覧は市町村サイトではなく県教育委員会に
+    まとまっていることが多い。市町村ごとに回すより、県で1本にまとめた
+    ほうが安く網羅的になる (AGENTS.md §3.1 レンズ7)。
+    このレンズで見つけた行事は所在市町村が自明でないため、
+    municipality を PREFECTURE_WIDE にしておき extract.py で割り当てる。
+    """
+    path = REGISTRY_DIR / "pref_sites.tsv"
+    if not path.is_file():
+        return []
+    with path.open(encoding="utf-8", newline="") as fh:
+        rows = list(csv.DictReader(fh, delimiter="\t"))
+    if prefecture:
+        rows = [r for r in rows if r["prefecture"] == prefecture]
+    out = []
+    for r in rows:
+        if r["official_url"] or r["education_url"]:
+            out.append(
+                {
+                    "prefecture": r["prefecture"],
+                    "municipality": PREFECTURE_WIDE,
+                    # 文化財一覧を持つ教育委員会を先に見る
+                    "official_url": r["education_url"] or r["official_url"],
+                    "tourism_url": r["official_url"] if r["education_url"] else "",
+                }
+            )
+    return out
+
+
 def load_sites(prefecture: str | None, municipality: str | None) -> list[dict[str, str]]:
     path = REGISTRY_DIR / "sites.tsv"
     if not path.is_file():
@@ -253,14 +288,26 @@ def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--prefecture")
     ap.add_argument("--municipality")
-    ap.add_argument("--max-pages", type=int, default=40, help="1自治体あたりの取得上限")
+    ap.add_argument("--max-pages", type=int, default=150, help="1自治体あたりの取得上限")
+    ap.add_argument("--pref-lens-pages", type=int, default=250,
+                    help="県単位レンズ(教育委員会の文化財一覧等)の取得上限")
+    ap.add_argument("--no-prefecture-lens", action="store_true",
+                    help="県単位レンズを使わない")
+    ap.add_argument("--workers", type=int, default=8,
+                    help="並行して探索する自治体数 (礼儀はホスト単位の制約なので"
+                         "別ホストへは同時にアクセスしてよい)")
     ap.add_argument("--max-depth", type=int, default=2)
     ap.add_argument("--delay", type=float, default=1.0)
     ap.add_argument("--offline", action="store_true")
     args = ap.parse_args(argv)
 
     sites = load_sites(args.prefecture, args.municipality)
-    if not sites:
+    pref_sites = (
+        []
+        if (args.no_prefecture_lens or args.municipality)
+        else load_prefecture_sites(args.prefecture)
+    )
+    if not sites and not pref_sites:
         raise SystemExit("対象がありません")
 
     fetcher = Fetcher(delay=args.delay, offline=args.offline)
@@ -275,17 +322,35 @@ def main(argv: list[str] | None = None) -> int:
             fieldnames=["prefecture", "municipality", "url", "fetch_url", "kind", "depth", "title"],
         )
         w.writeheader()
-        for site in sites:
+        fh.flush()
+
+        def crawl(site: dict[str, str]):
             seeds = [u for u in (site["official_url"], site["tourism_url"]) if u]
-            recs = discover_site(fetcher, seeds, args.max_pages, args.max_depth)
-            for r in recs:
-                r.update(prefecture=site["prefecture"], municipality=site["municipality"])
-                # タブと改行はTSVを壊すので落とす
-                r["title"] = r["title"].replace("\t", " ")
-                w.writerow(r)
-            written += len(recs)
-            fh.flush()
-            print(f"  {site['municipality']:12s} {len(recs):3d} pages  (net={fetcher.stats['network']} cache={fetcher.stats['cache']})")
+            budget = (
+                args.pref_lens_pages
+                if site["municipality"] == PREFECTURE_WIDE
+                else args.max_pages
+            )
+            return site, discover_site(fetcher, seeds, budget, args.max_depth)
+
+        # 自治体ごとに別ホストなので並行して回せる。同一ホストへの直列
+        # アクセスと1秒間隔は Fetcher がホスト単位のロックで保証する。
+        # 直列に回すと待ち時間が積み上がり、150ページ×44市町村で
+        # 10時間近くかかっていた。
+        with ThreadPoolExecutor(max_workers=max(1, args.workers)) as pool:
+            for site, recs in pool.map(crawl, sites + pref_sites):
+                for r in recs:
+                    r.update(prefecture=site["prefecture"], municipality=site["municipality"])
+                    # タブと改行はTSVを壊すので落とす
+                    r["title"] = r["title"].replace("\t", " ")
+                w.writerows(recs)
+                fh.flush()
+                written += len(recs)
+                print(
+                    f"  {site['municipality']:12s} {len(recs):3d} pages  "
+                    f"(net={fetcher.stats['network']} cache={fetcher.stats['cache']})",
+                    flush=True,
+                )
 
     print(f"\npages.tsv: {written} ページ")
     print("fetcher stats:", fetcher.stats)

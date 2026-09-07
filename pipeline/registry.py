@@ -381,10 +381,92 @@ def resolve_sites(fetcher: Fetcher, prefecture: str | None) -> Path:
     return out
 
 
+# ------------------------------------------------- 都道府県レベルの入口
+
+# 都道府県の公式サイトと教育委員会。文化財一覧は市町村サイトではなく
+# ここにあることが多い (旧手法で最も費用対効果が高かった経路)。
+_PREF_HOST_PATTERNS = (
+    "www.pref.{r}.jp",
+    "www.pref.{r}.lg.jp",
+    "pref.{r}.jp",
+    "www.metro.{r}.lg.jp",  # 東京都
+)
+_EDU_HOST_PATTERNS = (
+    "kyoiku.pref.{r}.jp",
+    "www.edu.pref.{r}.jp",
+    "www.pref.{r}.ed.jp",
+    "edu.pref.{r}.jp",
+    "www.kyoiku.metro.{r}.lg.jp",
+)
+
+
+def resolve_prefecture_sites(fetcher: Fetcher, prefecture: str | None) -> Path:
+    """都道府県の公式サイトと教育委員会サイトを解決する。
+
+    市町村と同じく、ドメイン規則で候補を組み立てて取得し、
+    ページ本文に都道府県名があることを確認してから採用する。
+    """
+    src = REGISTRY_DIR / "municipalities.tsv"
+    if not src.is_file():
+        raise SystemExit("先に --build-municipalities を実行してください")
+    with src.open(encoding="utf-8", newline="") as fh:
+        rows = list(csv.DictReader(fh, delimiter="\t"))
+
+    prefs: dict[str, str] = {}
+    for r in rows:
+        prefs.setdefault(r["prefecture"], _PREF_DOMAIN_OVERRIDE.get(r["prefecture"], r["pref_romaji"]))
+    if prefecture:
+        prefs = {k: v for k, v in prefs.items() if k == prefecture}
+    if not prefs:
+        raise SystemExit(f"該当する都道府県がありません: {prefecture}")
+
+    out = REGISTRY_DIR / "pref_sites.tsv"
+    existing: dict[str, dict[str, str]] = {}
+    if out.is_file():
+        with out.open(encoding="utf-8", newline="") as fh:
+            for row in csv.DictReader(fh, delimiter="\t"):
+                existing[row["prefecture"]] = row
+
+    for pref, romaji in prefs.items():
+        official, education = "", ""
+        for pattern in _PREF_HOST_PATTERNS:
+            url = f"https://{pattern.format(r=romaji)}/"
+            ok, _why = verify_site(fetcher, url, pref)
+            if ok:
+                official = url
+                break
+        for pattern in _EDU_HOST_PATTERNS:
+            url = f"https://{pattern.format(r=romaji)}/"
+            ok, _why = verify_site(fetcher, url, pref)
+            if ok:
+                education = url
+                break
+        existing[pref] = {
+            "prefecture": pref,
+            "official_url": official,
+            "education_url": education,
+            "resolved": "本文に都道府県名を確認" if official else "候補URLがすべて外れ",
+        }
+        print(f"  {pref:8s} {official or '-':40s} {education or '-'}")
+
+    with out.open("w", encoding="utf-8", newline="\n") as fh:
+        w = csv.DictWriter(
+            fh, delimiter="\t", lineterminator="\n",
+            fieldnames=["prefecture", "official_url", "education_url", "resolved"],
+        )
+        w.writeheader()
+        w.writerows(sorted(existing.values(), key=lambda r: r["prefecture"]))
+    hit = sum(1 for r in existing.values() if r["official_url"])
+    edu = sum(1 for r in existing.values() if r["education_url"])
+    print(f"\npref_sites.tsv: {len(existing)} 件 / 公式 {hit} / 教育委員会 {edu}")
+    return out
+
+
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--build-municipalities", action="store_true")
     ap.add_argument("--resolve-sites", action="store_true")
+    ap.add_argument("--resolve-prefecture-sites", action="store_true")
     ap.add_argument("--prefecture")
     ap.add_argument("--offline", action="store_true")
     ap.add_argument("--delay", type=float, default=1.0)
@@ -395,7 +477,9 @@ def main(argv: list[str] | None = None) -> int:
         build_municipalities(fetcher)
     if args.resolve_sites:
         resolve_sites(fetcher, args.prefecture)
-    if not (args.build_municipalities or args.resolve_sites):
+    if args.resolve_prefecture_sites:
+        resolve_prefecture_sites(fetcher, args.prefecture)
+    if not (args.build_municipalities or args.resolve_sites or args.resolve_prefecture_sites):
         ap.print_help()
         return 2
     return 0

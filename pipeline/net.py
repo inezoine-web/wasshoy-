@@ -16,6 +16,7 @@ import os
 import re
 import ssl
 import sys
+import threading
 import time
 import urllib.error
 import urllib.parse
@@ -168,6 +169,21 @@ class Fetcher:
         self._robots: dict[str, urllib.robotparser.RobotFileParser | None] = {}
         self._host_count: dict[str, int] = {}
         self.stats = {"network": 0, "cache": 0, "blocked": 0, "error": 0}
+        # 複数スレッドから使えるようにする。礼儀 (1秒間隔) はホスト単位の
+        # 制約なので、別ホストへは同時にアクセスしてよい。同一ホストへは
+        # ホストごとのロックで直列を保つ。
+        self._lock = threading.Lock()
+        self._host_locks: dict[str, threading.Lock] = {}
+
+    def _lock_for(self, host: str) -> threading.Lock:
+        with self._lock:
+            if host not in self._host_locks:
+                self._host_locks[host] = threading.Lock()
+            return self._host_locks[host]
+
+    def _bump(self, key: str) -> None:
+        with self._lock:
+            self.stats[key] += 1
 
     # ------------------------------------------------------------------ cache
 
@@ -210,8 +226,9 @@ class Fetcher:
     def _robots_for(self, url: str) -> urllib.robotparser.RobotFileParser | None:
         parsed = urllib.parse.urlparse(url)
         origin = f"{parsed.scheme}://{parsed.netloc}"
-        if origin in self._robots:
-            return self._robots[origin]
+        with self._lock:
+            if origin in self._robots:
+                return self._robots[origin]
 
         rp: urllib.robotparser.RobotFileParser | None = None
         robots_url = origin + "/robots.txt"
@@ -226,7 +243,8 @@ class Fetcher:
         # robots.txt が無い自治体サイトは多い (鉾田市・龍ケ崎市等はいずれも404)。
         # その場合 rp は None = 明示的な禁止なしとして扱うが、
         # レート制限と取得上限は同じように適用する。
-        self._robots[origin] = rp
+        with self._lock:
+            self._robots[origin] = rp
         return rp
 
     def allowed(self, url: str) -> bool:
@@ -241,12 +259,14 @@ class Fetcher:
     # ------------------------------------------------------------------ fetch
 
     def _throttle(self, host: str) -> None:
-        last = self._last_hit.get(host)
+        with self._lock:
+            last = self._last_hit.get(host)
         if last is not None:
             wait = self.delay - (time.monotonic() - last)
             if wait > 0:
                 time.sleep(wait)
-        self._last_hit[host] = time.monotonic()
+        with self._lock:
+            self._last_hit[host] = time.monotonic()
 
     def _raw_get(
         self, url: str, respect_robots: bool = True
@@ -278,35 +298,43 @@ class Fetcher:
         url = url.split("#", 1)[0]
         cached = self._read_cache(url)
         if cached is not None:
-            self.stats["cache"] += 1
+            self._bump("cache")
             return cached
         if self.offline:
             return None
 
         host = urllib.parse.urlparse(url).netloc
-        if self.max_per_host is not None and self._host_count.get(host, 0) >= self.max_per_host:
-            self.stats["blocked"] += 1
+        with self._lock:
+            over = (
+                self.max_per_host is not None
+                and self._host_count.get(host, 0) >= self.max_per_host
+            )
+        if over:
+            self._bump("blocked")
             return None
         if not self.allowed(url):
-            self.stats["blocked"] += 1
+            self._bump("blocked")
             return None
 
-        try:
-            raw = self._raw_get(url)
-        except urllib.error.HTTPError as exc:
-            self.stats["error"] += 1
-            self._note_failure(url, f"HTTP {exc.code}")
-            return None
-        except Exception as exc:  # ネットワーク/TLS/タイムアウト
-            self.stats["error"] += 1
-            self._note_failure(url, f"{type(exc).__name__}: {exc}")
-            return None
+        # 同一ホストへの並行アクセスを禁じる。別ホストへは並行してよい。
+        with self._lock_for(host):
+            try:
+                raw = self._raw_get(url)
+            except urllib.error.HTTPError as exc:
+                self._bump("error")
+                self._note_failure(url, f"HTTP {exc.code}")
+                return None
+            except Exception as exc:  # ネットワーク/TLS/タイムアウト
+                self._bump("error")
+                self._note_failure(url, f"{type(exc).__name__}: {exc}")
+                return None
 
         if raw is None:
             return None
         status, body, content_type, final_url = raw
-        self.stats["network"] += 1
-        self._host_count[host] = self._host_count.get(host, 0) + 1
+        self._bump("network")
+        with self._lock:
+            self._host_count[host] = self._host_count.get(host, 0) + 1
         fetched_at = time.strftime("%Y-%m-%dT%H:%M:%S")
         self._write_cache(
             url,

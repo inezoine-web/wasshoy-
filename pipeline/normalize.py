@@ -183,8 +183,12 @@ def reading_for(name: str, context: str) -> str | None:
     bare = re.sub(r"[（(].*?[)）]", "", name).strip()
     if is_kana(bare.replace(" ", "")):
         return bare.replace(" ", "")
+    # 括弧が名称の末尾にある場合だけ、全体の読みとして採用する。
+    # 「潮(うしお)祭」のように途中にある括弧は一部分の振り仮名でしかなく、
+    # 読みとして使うと `ushio` という誤ったIDになる。IDは同一性を決める値
+    # なので、確信が持てなければ生成しない。
     m = _PAREN_KANA.search(name)
-    if m:
+    if m and m.end() >= len(name.rstrip()):
         return m.group(1).replace(" ", "")
     idx = context.find(bare)
     if idx >= 0:
