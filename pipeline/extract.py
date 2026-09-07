@@ -341,7 +341,8 @@ def main(argv: list[str] | None = None) -> int:
         w = csv.DictWriter(fh, delimiter="\t", lineterminator="\n", fieldnames=fields)
         w.writeheader()
         for page in pages:
-            doc = fetcher.get(page["url"])
+            # キャッシュはリクエストURLで引く (リダイレクト後のURLでは当たらない)
+            doc = fetcher.get(page.get("fetch_url") or page["url"])
             if doc is None:
                 missing += 1
                 continue

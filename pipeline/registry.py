@@ -235,35 +235,92 @@ _TOURISM_LABEL = re.compile(r"観光協会|観光物産|観光コンベンショ
 # リンク文字列が「観光情報」のように一般的でも、ホスト名で判別できることが多い
 # (日立市 -> www.kankou-hitachi.jp)
 _TOURISM_HOST = re.compile(r"kanko|kankou|tourism|-tpa\.|tpa\.|kankokyokai", re.I)
+# SNS・動画・地図サービスは観光協会サイトではない。
+# 「観光協会Facebook」のようなリンクを起点に採ってしまい、探索枠を
+# 無駄にした上に robots.txt で拒否される (龍ケ崎市・常陸大宮市で実際に発生)。
+_NOT_A_SITE = re.compile(
+    r"(^|\.)(facebook|instagram|twitter|x|youtube|youtu\.be|tiktok|line|"
+    r"google|goo\.gl|maps\.google|pinterest|note|ameblo|jimdo|wixsite)\.",
+    re.I,
+)
 
 
-def find_tourism_site(fetcher: Fetcher, official_url: str, municipality: str) -> str:
-    """公式サイトの外部リンクから観光協会サイトを拾う。
+def _scan_for_tourism(text: str, official_host: str, muni_romaji: str) -> str:
+    """1ページ分の外部リンクから観光協会サイトを探す。
 
-    旧手法では検索で当てていた部分。公式サイトからのリンクで置き換える。
-    リンク文字列だけでなく alt 属性とホスト名も見る。実データでは、
-    リンク名が空で alt に「（一社）古河市観光協会こがナビ」が入っていたり、
-    リンク名が「観光情報」でホストが kankou-hitachi.jp だったりする。
+    リンク文字列だけでは足りない。実データで確認できた形:
+      - リンク名が空で alt に「（一社）古河市観光協会こがナビ」
+      - リンク名が「観光情報」でホストが kankou-hitachi.jp
+      - 画像リンクで alt が空、**title 属性**に「観光協会Youtube」(北茨城市)
     """
-    doc = fetcher.get(official_url)
-    if doc is None:
-        return ""
-    official_host = urllib.parse.urlparse(doc.final_url).netloc
     fallback = ""
-    for m in re.finditer(r'<a[^>]+href="(https?://[^"]+)"[^>]*>(.*?)</a>', doc.text, re.S):
+    for m in re.finditer(r'<a[^>]+href="(https?://[^"]+)"[^>]*>(.*?)</a>', text, re.S):
         href, inner = m.group(1), m.group(2)
         parsed = urllib.parse.urlparse(href)
         host = parsed.netloc
         if not host or host == official_host or host.endswith(".lg.jp"):
             continue
+        if _NOT_A_SITE.search(host):
+            continue
         label = html.unescape(re.sub(r"<[^>]+>", "", inner)).strip()
-        alt = " ".join(re.findall(r'alt="([^"]*)"', inner))
-        blob = f"{label} {alt}"
+        attrs = " ".join(
+            html.unescape(x) for x in re.findall(r'(?:alt|title)="([^"]*)"', inner)
+        )
+        blob = f"{label} {attrs}"
         if _TOURISM_LABEL.search(blob):
             return f"{parsed.scheme}://{host}/"
-        if not fallback and _TOURISM_HOST.search(host) and "観光" in blob:
+        if fallback:
+            continue
+        # ホスト名が観光協会を示し、かつ自治体名のローマ字を含むなら、
+        # リンク文字列に頼らず採用してよい
+        # (kitaibarakishi-kankokyokai.gr.jp のような形)
+        if _TOURISM_HOST.search(host) and (muni_romaji and muni_romaji in host.lower()):
+            fallback = f"{parsed.scheme}://{host}/"
+        elif _TOURISM_HOST.search(host) and "観光" in blob:
             fallback = f"{parsed.scheme}://{host}/"
     return fallback
+
+
+# 観光系のカテゴリページ。トップに観光協会へのリンクが無い自治体で、
+# もう1階層だけ辿るための入口。
+_TOURISM_SECTION = re.compile(r"観光|見どころ|楽しむ|遊ぶ|魅力|イベント")
+
+
+def find_tourism_site(
+    fetcher: Fetcher, official_url: str, municipality: str, muni_romaji: str = ""
+) -> str:
+    """公式サイトから観光協会サイトを拾う。
+
+    旧手法では検索で当てていた部分。公式サイトからのリンクで置き換える。
+    トップページに無い自治体があるため (水戸市・常総市・下妻市・境町で確認)、
+    見つからなければ観光カテゴリのページを1つだけ辿る。
+    """
+    doc = fetcher.get(official_url)
+    if doc is None:
+        return ""
+    official_host = urllib.parse.urlparse(doc.final_url).netloc
+    found = _scan_for_tourism(doc.text, official_host, muni_romaji)
+    if found:
+        return found
+
+    # トップに無い場合だけ、観光カテゴリのページを最大3つ辿る
+    seen: set[str] = set()
+    for m in re.finditer(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', doc.text, re.S):
+        label = html.unescape(re.sub(r"<[^>]+>", "", m.group(2))).strip()
+        if not _TOURISM_SECTION.search(label):
+            continue
+        child = urllib.parse.urljoin(doc.final_url, html.unescape(m.group(1))).split("#")[0]
+        if urllib.parse.urlparse(child).netloc != official_host or child in seen:
+            continue
+        seen.add(child)
+        sub = fetcher.get(child)
+        if sub is not None:
+            found = _scan_for_tourism(sub.text, official_host, muni_romaji)
+            if found:
+                return found
+        if len(seen) >= 3:
+            break
+    return ""
 
 
 def resolve_sites(fetcher: Fetcher, prefecture: str | None) -> Path:
@@ -292,7 +349,11 @@ def resolve_sites(fetcher: Fetcher, prefecture: str | None) -> Path:
             if ok:
                 official, note = url, why
                 break
-        tourism = find_tourism_site(fetcher, official, m["municipality"]) if official else ""
+        tourism = (
+            find_tourism_site(fetcher, official, m["municipality"], m["muni_romaji"])
+            if official
+            else ""
+        )
         existing[m["code"]] = {
             "code": m["code"],
             "prefecture": m["prefecture"],

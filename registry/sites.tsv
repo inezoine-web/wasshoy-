@@ -4,27 +4,27 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 082031	茨城県	土浦市	https://www.city.tsuchiura.lg.jp/	https://www.tsuchiura-kankou.jp/	本文に自治体名を確認
 082040	茨城県	古河市	https://www.city.ibaraki-koga.lg.jp/	https://www.kogakanko.jp/	本文に自治体名を確認
 082058	茨城県	石岡市	https://www.city.ishioka.lg.jp/	https://www.ishioka-kankou.com/	本文に自治体名を確認
-082074	茨城県	結城市	https://www.city.yuki.lg.jp/		本文に自治体名を確認
+082074	茨城県	結城市	https://www.city.yuki.lg.jp/	http://yuki-kankou.com/	本文に自治体名を確認
 082082	茨城県	龍ケ崎市	https://www.city.ryugasaki.ibaraki.jp/		本文に自治体名を確認
 082104	茨城県	下妻市	https://www.city.shimotsuma.lg.jp/		本文に自治体名を確認
-082112	茨城県	常総市	https://www.city.joso.lg.jp/		本文に自治体名を確認
-082121	茨城県	常陸太田市	https://www.city.hitachiota.ibaraki.jp/		本文に自治体名を確認
-082147	茨城県	高萩市	https://www.city.takahagi.ibaraki.jp/		本文に自治体名を確認
-082155	茨城県	北茨城市	https://www.city.kitaibaraki.lg.jp/		本文に自治体名を確認
-082163	茨城県	笠間市	https://www.city.kasama.lg.jp/		本文に自治体名を確認
-082171	茨城県	取手市	https://www.city.toride.ibaraki.jp/		本文に自治体名を確認
+082112	茨城県	常総市	https://www.city.joso.lg.jp/	https://www.joso-kankou.com/	本文に自治体名を確認
+082121	茨城県	常陸太田市	https://www.city.hitachiota.ibaraki.jp/	https://www.kanko-hitachiota.com/	本文に自治体名を確認
+082147	茨城県	高萩市	https://www.city.takahagi.ibaraki.jp/	https://www.takahagi-kanko.jp/	本文に自治体名を確認
+082155	茨城県	北茨城市	https://www.city.kitaibaraki.lg.jp/	http://www.kitaibarakishi-kankokyokai.gr.jp/	本文に自治体名を確認
+082163	茨城県	笠間市	https://www.city.kasama.lg.jp/	https://www.kasama-kankou.jp/	本文に自治体名を確認
+082171	茨城県	取手市	https://www.city.toride.ibaraki.jp/	http://www.toride-kankou.net/	本文に自治体名を確認
 082198	茨城県	牛久市	https://www.city.ushiku.lg.jp/		本文に自治体名を確認
-082201	茨城県	つくば市	https://www.city.tsukuba.lg.jp/		本文に自治体名を確認
-082210	茨城県	ひたちなか市	https://www.city.hitachinaka.lg.jp/		本文に自治体名を確認
+082201	茨城県	つくば市	https://www.city.tsukuba.lg.jp/	https://ttca.jp/	本文に自治体名を確認
+082210	茨城県	ひたちなか市	https://www.city.hitachinaka.lg.jp/	http://www.hitachinaka-sa.com/	本文に自治体名を確認
 082228	茨城県	鹿嶋市	https://www.city.kashima.ibaraki.jp/		本文に自治体名を確認
 082236	茨城県	潮来市	https://www.city.itako.lg.jp/		本文に自治体名を確認
 082244	茨城県	守谷市	https://www.city.moriya.ibaraki.jp/		本文に自治体名を確認
 082252	茨城県	常陸大宮市	https://www.city.hitachiomiya.lg.jp/		本文に自治体名を確認
 082261	茨城県	那珂市	https://www.city.naka.lg.jp/	https://www.naka-kanko.jp/	本文に自治体名を確認
-082279	茨城県	筑西市	https://www.city.chikusei.lg.jp/		本文に自治体名を確認
+082279	茨城県	筑西市	https://www.city.chikusei.lg.jp/	http://www.chikuseikanko.jp/	本文に自治体名を確認
 082287	茨城県	坂東市	https://www.city.bando.lg.jp/	https://bandokanko.jp/	本文に自治体名を確認
 082295	茨城県	稲敷市	https://www.city.inashiki.lg.jp/		本文に自治体名を確認
-082309	茨城県	かすみがうら市	https://www.city.kasumigaura.lg.jp/		本文に自治体名を確認
+082309	茨城県	かすみがうら市	https://www.city.kasumigaura.lg.jp/	http://www.kasumigaura-kankou.jp/	本文に自治体名を確認
 082317	茨城県	桜川市	https://www.city.sakuragawa.lg.jp/	http://www.kankou-sakuragawa.jp/	本文に自治体名を確認
 082325	茨城県	神栖市	https://www.city.kamisu.ibaraki.jp/		本文に自治体名を確認
 082333	茨城県	行方市	https://www.city.namegata.ibaraki.jp/		本文に自治体名を確認
@@ -35,7 +35,7 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 083097	茨城県	大洗町	https://www.town.oarai.lg.jp/	https://www.oarai-info.jp/	本文に自治体名を確認
 083101	茨城県	城里町	https://www.town.shirosato.lg.jp/		本文に自治体名を確認
 083411	茨城県	東海村	https://www.vill.tokai.ibaraki.jp/	https://www.tokai-kanko.com/	本文に自治体名を確認
-083640	茨城県	大子町	https://www.town.daigo.ibaraki.jp/		本文に自治体名を確認
+083640	茨城県	大子町	https://www.town.daigo.ibaraki.jp/	https://www.daigo-kanko.jp/	本文に自治体名を確認
 084425	茨城県	美浦村	https://www.vill.miho.lg.jp/		本文に自治体名を確認
 084433	茨城県	阿見町	https://www.town.ami.lg.jp/	http://www.amikan.jp/	本文に自治体名を確認
 084476	茨城県	河内町	https://www.town.ibaraki-kawachi.lg.jp/		本文に自治体名を確認

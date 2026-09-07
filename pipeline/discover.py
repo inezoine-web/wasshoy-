@@ -180,7 +180,11 @@ def discover_site(
         is_xml = body.startswith("<?xml") or "<rss" in body[:400] or "<urlset" in body[:400] or "<feed" in body[:400]
         records.append(
             {
+                # url は出典として残す最終URL、fetch_url はキャッシュの引き当てキー。
+                # リダイレクトがあると両者が食い違い、final_url で引くと
+                # キャッシュに当たらず本文が抽出から静かに漏れる (実測144ページ)。
                 "url": doc.final_url,
+                "fetch_url": url,
                 "kind": kind,
                 "depth": str(depth),
                 "title": page_title(doc.text),
@@ -251,7 +255,7 @@ def main(argv: list[str] | None = None) -> int:
             fh,
             delimiter="\t",
             lineterminator="\n",
-            fieldnames=["prefecture", "municipality", "url", "kind", "depth", "title"],
+            fieldnames=["prefecture", "municipality", "url", "fetch_url", "kind", "depth", "title"],
         )
         w.writeheader()
         for site in sites:
