@@ -1,0 +1,72 @@
+name: Research pipeline (S0-S3)
+
+# 手動実行のみ。自治体サイトへ実際に取得しに行くため、
+# push のたびに走らせない。
+on:
+  workflow_dispatch:
+    inputs:
+      prefecture:
+        description: "対象都道府県 (例: 茨城県)"
+        required: true
+        type: string
+      max_pages:
+        description: "1市町村あたりの取得ページ上限"
+        required: false
+        default: "40"
+        type: string
+      resolve_sites:
+        description: "公式サイト/観光協会URLの台帳を作り直す"
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # 依存パッケージは無い (標準ライブラリのみ)。pip install は行わない。
+
+      - name: S0 台帳 (市区町村コード)
+        run: python pipeline/registry.py --build-municipalities
+
+      - name: S0 台帳 (サイトURLの解決)
+        if: ${{ inputs.resolve_sites }}
+        run: python pipeline/registry.py --resolve-sites --prefecture "${{ inputs.prefecture }}"
+
+      - name: S1 発見
+        run: |
+          python pipeline/discover.py \
+            --prefecture "${{ inputs.prefecture }}" \
+            --max-pages "${{ inputs.max_pages }}"
+
+      - name: S2 抽出
+        run: python pipeline/extract.py --prefecture "${{ inputs.prefecture }}"
+
+      - name: S3 正規化
+        run: python pipeline/normalize.py --prefecture "${{ inputs.prefecture }}"
+
+      - name: S6 評価 (ベンチマークがあれば)
+        run: |
+          bench="benchmarks/ibaraki-2026-09-06"
+          if [ "${{ inputs.prefecture }}" = "茨城県" ] && [ -d "$bench" ]; then
+            python pipeline/evaluate.py --benchmark "$bench"
+          else
+            echo "この都道府県のベンチマークは無いので評価は省略"
+          fi
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: research-${{ inputs.prefecture }}
+          path: |
+            work/
+            registry/
+          retention-days: 14

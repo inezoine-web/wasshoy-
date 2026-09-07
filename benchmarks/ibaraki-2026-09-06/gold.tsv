@@ -1,0 +1,35 @@
+name	municipality	source_url	tier	in_snapshot	why
+守谷祇園祭	守谷市	https://www.city.moriya.ibaraki.jp/tanoshimu/event/1001877.html	core	yes	snapshot内で status=verified
+守谷市商工まつり～きらめき守谷夢彩都フェスタ～	守谷市	https://www.city.moriya.ibaraki.jp/tanoshimu/event/1001880.html	core	yes	snapshot内で status=verified
+綱火	つくばみらい市	https://www.city.tsukubamirai.lg.jp/page/page000683.html	core	yes	snapshot内で status=verified
+板橋不動尊だるま市	つくばみらい市	https://www.city.tsukubamirai.lg.jp/page/page000690.html	core	yes	snapshot内で status=verified
+まつりつくば	つくば市	https://www.city.tsukuba.lg.jp/tourism/tsukubacitytourism/1001455.html	core	yes	snapshot内で status=verified
+筑波山神社御座替祭	つくば市	https://www.tsukubasanjinja.jp/event/	core	yes	snapshot内で status=verified
+筑波山がままつり	つくば市	https://www.ttca.jp/?page_id=125	core	yes	snapshot内で status=verified
+古河提灯竿もみまつり	古河市	https://www.city.ibaraki-koga.lg.jp/soshiki/kankou/1/1458.html	core	yes	snapshot内で status=verified
+古河花火大会	古河市	https://www.city.ibaraki-koga.lg.jp/soshiki/kankou/1/1460.html	core	yes	snapshot内で status=verified
+雀神社夏季例大祭	古河市	https://www.city.ibaraki-koga.lg.jp/soshiki/syogaigakusyu/3/3624.html	core	yes	snapshot内で status=verified
+古河桃まつり	古河市	https://www.city.ibaraki-koga.lg.jp/soshiki/kankou/1/1459.html	core	yes	snapshot内で status=verified
+常陸大津の御船祭	北茨城市	https://www.kitaibarakishi-kankokyokai.gr.jp/sp/page/dir000198.html	notable	yes	レポート§4「特徴的な候補」
+日立風流物	日立市		notable	no	レポート§4に記載。§7-7により所在未確認でfestivals.json未登録＝旧手法の取りこぼし
+東金砂神社田楽舞	常陸太田市	https://kyoiku.pref.ibaraki.jp/bunkazai/ken-286/	notable	yes	レポート§4「特徴的な候補」
+西金砂神社田楽舞	常陸太田市	https://kyoiku.pref.ibaraki.jp/bunkazai/	notable	yes	レポート§4「特徴的な候補」
+撞舞（つくまい）	龍ケ崎市	https://www.city.ryugasaki.ibaraki.jp/kanko/bunka/bunkazai/tukumai.html	notable	yes	レポート§4「特徴的な候補」
+からかさ万灯	土浦市	https://www.tsuchiura-kankou.jp/event/	notable	yes	レポート§4「特徴的な候補」
+延方相撲	潮来市		notable	no	レポート§4に記載。§7-7により所在未確認でfestivals.json未登録＝旧手法の取りこぼし
+大生神社巫女舞神事	潮来市		notable	no	レポート§4に記載。§7-7により所在未確認でfestivals.json未登録＝旧手法の取りこぼし
+潮来ばやし	潮来市	https://kyoiku.pref.ibaraki.jp/bunkazai/ken-297/	notable	yes	レポート§4「特徴的な候補」
+化蘇沼稲荷神社奉納相撲	行方市	https://rurubu.jp/andmore/spot/20000419	notable	yes	レポート§4「特徴的な候補」
+どぶろく祭り	行方市	https://rurubu.jp/andmore/spot/20000419	notable	yes	レポート§4「特徴的な候補」
+麻生祇園馬出し祭	行方市	https://rurubu.jp/andmore/spot/20002654	notable	yes	レポート§4「特徴的な候補」
+蒟蒻神社祭礼	大子町	https://www.daigo-kanko.jp/events.html	notable	yes	レポート§4「特徴的な候補」
+塔ケ崎十一面観世音大縁日	鉾田市	https://hokota.mypl.net/article/visit_hokotashi/1587	notable	yes	レポート§4「特徴的な候補」
+丹生神社の棒ささら	高萩市	https://www.city.takahagi.ibaraki.jp/edu/shougaigakushuka/geijutsu_bunka/page002898.html	notable	yes	レポート§4「特徴的な候補」
+花園のささら	北茨城市	https://www.kitaibarakishi-kankokyokai.gr.jp/page/page000963.html	notable	yes	レポート§4「特徴的な候補」
+浅川のささら	大子町		notable	no	レポート§4に記載。§7-7により所在未確認でfestivals.json未登録＝旧手法の取りこぼし
+六町目獅子とみろく	ひたちなか市	https://www.city.hitachinaka.lg.jp/shiminkatsudo/bunka/1002389/1008219/1006218.html	notable	yes	レポート§4「特徴的な候補」
+真壁のひなまつり	桜川市	http://www.kankou-sakuragawa.jp/page/page001206.html	notable	yes	レポート§4「特徴的な候補」
+境達磨市	境町	https://www.sakaimachi.jp/ibaraki-sakaimachi-matsuri-event.html	notable	yes	レポート§4「特徴的な候補」
+君島ひょっとこ踊り	阿見町	https://www.town.ami.lg.jp/0000000734.html	notable	yes	レポート§4「特徴的な候補」
+縄文ムラまつり	美浦村	https://www.vill.miho.lg.jp/page/page001726.html	notable	yes	レポート§4「特徴的な候補」
+初山祭	龍ケ崎市	https://www.city.ryugasaki.ibaraki.jp/kanko/kankokyokai/information/event/index.html	notable	yes	レポート§4「特徴的な候補」
