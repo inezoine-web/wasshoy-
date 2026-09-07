@@ -116,6 +116,24 @@ def urls_from_xml(text: str, base_url: str) -> list[str]:
     return urls
 
 
+_FEED_ROOT = re.compile(r"<\s*(urlset|sitemapindex|rss|feed)\b", re.I)
+
+
+def is_feed_or_sitemap(text: str) -> bool:
+    """sitemap.xml / RSS / Atom かどうか。
+
+    XML宣言の有無で判定してはいけない。XHTMLで書かれた自治体サイトは
+    `<?xml version="1.0"?>` で始まるため、サイトマップと誤認して
+    本文のリンクを一切辿らなくなる。龍ケ崎市と取手市が実際にこれで
+    トップページ1枚しか取得できていなかった。
+    ルート要素で判定し、HTMLなら除外する。
+    """
+    head = text.lstrip()[:600]
+    if re.search(r"<\s*(!DOCTYPE\s+html|html)\b", head, re.I):
+        return False
+    return bool(_FEED_ROOT.search(head))
+
+
 def same_site(url: str, hosts: set[str]) -> bool:
     return urllib.parse.urlparse(url).netloc in hosts
 
@@ -176,8 +194,7 @@ def discover_site(
         if doc is None or doc.status != 200:
             continue
 
-        body = doc.text.lstrip()
-        is_xml = body.startswith("<?xml") or "<rss" in body[:400] or "<urlset" in body[:400] or "<feed" in body[:400]
+        is_xml = is_feed_or_sitemap(doc.text)
         records.append(
             {
                 # url は出典として残す最終URL、fetch_url はキャッシュの引き当てキー。

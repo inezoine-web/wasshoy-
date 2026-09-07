@@ -113,6 +113,11 @@ def infer_categories(name: str, venue: str, municipality: str = "") -> list[str]
 
 _ROUND = re.compile(r"第\s*[0-9０-９一二三四五六七八九十百]+\s*回\s*")
 _YEAR = re.compile(r"(令和|平成)\s*\d+\s*年度?|\d{4}\s*年度?")
+# 括弧の中身が全部かなならふりがな。名称の一部ではないので照合前に落とす。
+# 「東金砂神社田楽舞（ひがしかなさじんじゃでんがくまい）」と
+# 「東金砂神社田楽舞」は同じものだが、落とさないと別レコードになる。
+# 中身がかな以外を含む場合 (「延方相撲（鹿嶋吉田神社祭礼）」) は落とさない。
+_FURIGANA = re.compile(r"[（(]\s*[ぁ-ゖァ-ヺーー\s]+\s*[)）]")
 
 
 def dedup_key(name: str) -> str:
@@ -122,9 +127,12 @@ def dedup_key(name: str) -> str:
     「同一と判断できない場合は無理に統合しない」ため、
     漢字とかなの対応 (祇園祭 / ぎおんさい 等) は畳まない。
     """
-    key = _ROUND.sub("", name)
+    key = _FURIGANA.sub("", name)
+    key = _ROUND.sub("", key)
     key = _YEAR.sub("", key)
-    key = re.sub(r"[\s　・,、。!！?？'\"()（）「」【】]", "", key)
+    # 「〜」は名称の飾りとして使われる (守谷市商工まつり～きらめき…～)。
+    # 照合キーからは落とす。長音符「ー」は語の一部なので落とさない。
+    key = re.sub(r"[\s　・,、。!！?？'\"()（）「」【】〜～~]", "", key)
     key = to_hiragana(key)
     key = key.replace("祭り", "祭").replace("まつり", "祭").replace("マツリ", "祭")
     return key
