@@ -56,13 +56,50 @@ NAV_SKIP = re.compile(
     r"サイトポリシー|アクセシビリティ|プライバシー|よくある質問|"
     r"新型コロナ|ワクチン|防災|避難|水道|下水|道路工事|求人|入札結果"
 )
+# 自治体CMSのURLはセクションをローマ字で切る。日本語の語彙では
+# URLから何も読み取れないので、同じ判断をローマ字でも行う。
+# リンク文字列側の祭り語彙。extract.py の FESTIVAL_WORD とほぼ同じだが、
+# こちらは「探索を優先するか」の判断にだけ使う。
+_FESTIVAL_LABEL = re.compile(
+    r"祭|まつり|マツリ|花火|盆踊|神輿|山車|囃子|ばやし|獅子舞|"
+    r"文化財|民俗|芸能|保存会|縁日|だるま市|達磨市|朝市|"
+    r"ささら|田楽|神楽|綱火|盆綱|流鏑馬|万灯|大道芸|不動尊"
+)
+_ROMAJI_FESTIVAL = re.compile(
+    r"matsuri|maturi|omatsuri|bunkazai|minzoku|geino|geinou|"
+    r"hanabi|mikoshi|dashi|shishimai|bonodori|saiten|reitaisai"
+)
+_ROMAJI_TOURISM = re.compile(
+    r"kanko|kankou|kanko_|tanoshimu|tanosimu|asobu|miru|event|ivent|"
+    r"sightsee|tourism|guide|meisho|midokoro|bunka|rekishi|shiseki|"
+    r"kyodo|kyoudo|calendar|nenkan|gyoji|gyouji|shizen|koen|kouen|"
+    # 文化財は生涯学習・教育委員会の配下に置かれていることが多い
+    r"shogaigakushu|syogaigakusyu|shougaigakushuu|gakushu|kyoiku|kyouiku"
+)
+NAV_SKIP_ROMAJI = re.compile(
+    r"gomi|haikibutsu|zeikin|/zei|kokuho|hoken|nenkin|nyusatsu|keiyaku|"
+    r"saiyo|saiyou|jinji|kyuyo|jorei|reiki|gikai|yosan|kessan|tokei|"
+    r"bosai|hinan|suido|gesui|kosodate|fukushi|kaigo|kenshin|yobou|"
+    r"privacy|sitemap_policy|accessibility|faq|toiawase|shinsei|"
+    r"todokede|tetsuzuki|koho_|kouhou_|pubcom|corona|vaccine"
+)
 SKIP_EXT = re.compile(r"\.(pdf|docx?|xlsx?|pptx?|zip|jpe?g|png|gif|svg|mp4|mp3)$", re.I)
 
 FEED_HINT = re.compile(r"rss|atom|feed", re.I)
 
 # 1自治体あたりの探索キューの上限。取得上限が決まっているので
-# これ以上抱えても使われない。
+# これ以上抱えても使われない。並列数を掛けた分だけメモリを食うので
+# 控えめにする (このPCは実装容量6GB、空き数百MBで動かしている)。
 MAX_QUEUE = 20000
+
+# 行政手続き系リンクの優先度。捨てるのではなく最後尾に回す。
+DEPRIORITIZED = 90
+
+# URLのローマ字パスを「優先」の根拠に使うか。除外(優先度下げ)には常に使う。
+# 茨城の実測では優先側を有効にすると再現率が 66% -> 64% に下がったため、
+# 既定では無効。bunka/event/koen のような広い語が大きな低収量の部分木を
+# 引き上げてしまうのが原因と見ている。
+USE_ROMAJI_BOOST = False
 
 
 def clean_text(fragment: str) -> str:
@@ -140,14 +177,25 @@ def same_site(url: str, hosts: set[str]) -> bool:
 
 
 def link_priority(url: str, label: str) -> int:
-    """探索順の優先度。小さいほど先に見る。"""
-    blob = f"{label} {urllib.parse.unquote(url)}"
-    if NAV_SKIP.search(blob):
-        return 99
+    """探索順の優先度。小さいほど先に見る。
+
+    リンク文字列だけでなく URL のローマ字パスも見る。自治体CMSは
+    セクションをローマ字で切っており (/tanoshimu/ /kankyo_gomi/ /shisei/)、
+    日本語の語彙だけで採点するとURLから何も読み取れない。実際に守谷市では
+    ごみ収集の配下に19ページを使い、祇園祭のある /tanoshimu/ に
+    1ページも入れていなかった。
+    """
+    path = urllib.parse.unquote(urllib.parse.urlparse(url).path).lower()
+    blob = f"{label} {path}"
+    if NAV_SKIP.search(blob) or NAV_SKIP_ROMAJI.search(path):
+        # 捨てずに最後尾へ回す。トップページから数本しかリンクが無い
+        # 自治体があり (下妻市はJS駆動のナビで同一ホスト5本のみ)、
+        # 除外語で弾くと探索が手詰まりになって1ページも進まない。
+        return DEPRIORITIZED
     score = 5
-    if re.search(r"祭|まつり|マツリ|花火|盆踊|神輿|山車|囃子|獅子舞|文化財|民俗|芸能", blob):
+    if _FESTIVAL_LABEL.search(blob) or (USE_ROMAJI_BOOST and _ROMAJI_FESTIVAL.search(path)):
         score = 0
-    elif re.search(r"観光|イベント|催し|行事|年間|カレンダー|歳時|季節", blob):
+    elif re.search(r"観光|イベント|催し|行事|年間|カレンダー|歳時|季節", blob) or (USE_ROMAJI_BOOST and _ROMAJI_TOURISM.search(path)):
         score = 1
     elif NAV_HINT.search(blob):
         score = 3
@@ -230,9 +278,7 @@ def discover_site(
         for child, label in iter_links(doc.text, url):
             if child in visited or not same_site(child, hosts) or SKIP_EXT.search(child):
                 continue
-            p = link_priority(child, label)
-            if p < 99:
-                push(child, depth + 1, "index", p)
+            push(child, depth + 1, "index", link_priority(child, label))
 
     return records
 
@@ -293,9 +339,10 @@ def main(argv: list[str] | None = None) -> int:
                     help="県単位レンズ(教育委員会の文化財一覧等)の取得上限")
     ap.add_argument("--no-prefecture-lens", action="store_true",
                     help="県単位レンズを使わない")
-    ap.add_argument("--workers", type=int, default=8,
-                    help="並行して探索する自治体数 (礼儀はホスト単位の制約なので"
-                         "別ホストへは同時にアクセスしてよい)")
+    ap.add_argument("--workers", type=int, default=4,
+                    help="並行して探索する自治体数。礼儀はホスト単位の制約なので"
+                         "別ホストへは同時にアクセスしてよいが、並列数だけ"
+                         "メモリを食う。空きメモリが少ない環境では下げる")
     ap.add_argument("--max-depth", type=int, default=2)
     ap.add_argument("--delay", type=float, default=1.0)
     ap.add_argument("--offline", action="store_true")
