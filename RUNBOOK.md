@@ -139,6 +139,13 @@ grep -rn "festival\['" scripts/ | grep -v "\.get("
 | コンソールの日本語が化ける | `PYTHONIOENCODING=utf-8` を付けて実行する |
 | `sed` / `awk` が CRLF ファイルの CR を落とす | 加工は Python で行う |
 | `git push` が応答しない | Git Credential Manager のGUI待ち。`git -c credential.helper='!gh auth git-credential' push -u origin <branch>` |
+| クロールがメモリ不足で強制終了する | **リポジトリがクラウド同期フォルダ (OneDrive 等) の中にある場合、`cache/` の数千個の小ファイルを同期しようとして落ちる。** 茨城の実走で実際に2回強制終了した (7000ファイル/129MB)。`WASSHOY_CACHE_DIR` に同期対象外の場所を指定する:<br>`export WASSHOY_CACHE_DIR="C:/Users/<user>/AppData/Local/wasshoy-cache"` |
+
+### キャッシュの置き場所
+
+`cache/` は既定でリポジトリ直下（クローンしてすぐ動くように）。環境変数
+`WASSHOY_CACHE_DIR` で移せる。**同期フォルダの中で長時間のクロールを回さないこと。**
+移動しても取得済みページはそのまま使えるので、途中で移して再開してよい。
 
 ## GitHub Actions で回す
 

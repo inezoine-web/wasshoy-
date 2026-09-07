@@ -25,7 +25,13 @@ from dataclasses import dataclass
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-CACHE_DIR = REPO_ROOT / "cache"
+
+# 既定はリポジトリ直下の cache/ (クローンしてすぐ動くように)。
+# ただしリポジトリがクラウド同期フォルダ (OneDrive/Dropbox 等) の中にあると、
+# 数千個の小ファイルを同期しようとして実行中にメモリを食い潰す。
+# 実際にこの環境でクロールが2回強制終了した。その場合は
+# WASSHOY_CACHE_DIR に同期対象外の場所を指定する。
+CACHE_DIR = Path(os.environ.get("WASSHOY_CACHE_DIR") or (REPO_ROOT / "cache"))
 
 # 連絡先を含める。自治体サイトの管理者が誰の巡回か判別できるようにするため。
 USER_AGENT = (

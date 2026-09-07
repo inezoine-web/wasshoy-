@@ -29,7 +29,8 @@ import re
 import sys
 import urllib.parse
 import xml.etree.ElementTree as ET
-from collections import deque
+import heapq
+import itertools
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -57,6 +58,10 @@ NAV_SKIP = re.compile(
 SKIP_EXT = re.compile(r"\.(pdf|docx?|xlsx?|pptx?|zip|jpe?g|png|gif|svg|mp4|mp3)$", re.I)
 
 FEED_HINT = re.compile(r"rss|atom|feed", re.I)
+
+# 1自治体あたりの探索キューの上限。取得上限が決まっているので
+# これ以上抱えても使われない。
+MAX_QUEUE = 20000
 
 
 def clean_text(fragment: str) -> str:
@@ -140,15 +145,30 @@ def discover_site(
     hosts = {urllib.parse.urlparse(s).netloc for s in seeds if s}
     visited: set[str] = set()
     records: list[dict[str, str]] = []
-    queue: deque[tuple[str, int, str]] = deque()
+    # 優先度付きキュー。1自治体あたりの取得数には上限があるので、
+    # 単純な幅優先だと優先度の低い浅いページが枠を食い潰し、
+    # 祭り一覧のような深い高優先ページに届かない。
+    queue: list[tuple[int, int, int, str, str]] = []
+    order = itertools.count()
+
+    def push(url: str, depth: int, kind: str, priority: int) -> None:
+        # 深さを増やすとキューが青天井に伸びる。取得上限が決まっている以上、
+        # 優先度の低い末尾を抱え続けても使われないので捨てる。
+        if len(queue) >= MAX_QUEUE:
+            if priority >= queue[-1][0]:
+                return
+            queue.pop()
+            heapq.heapify(queue)
+        heapq.heappush(queue, (priority, depth, next(order), url, kind))
+
     for s in seeds:
         if s:
-            queue.append((s, 0, "seed"))
+            push(s, 0, "seed", -1)
             # sitemap.xml は無い自治体が多いが、あれば一番安い経路
-            queue.append((urllib.parse.urljoin(s, "/sitemap.xml"), 0, "sitemap"))
+            push(urllib.parse.urljoin(s, "/sitemap.xml"), 0, "sitemap", -1)
 
     while queue and len(records) < max_pages:
-        url, depth, kind = queue.popleft()
+        _priority, depth, _seq, url, kind = heapq.heappop(queue)
         if url in visited or not same_site(url, hosts) or SKIP_EXT.search(url):
             continue
         visited.add(url)
@@ -173,24 +193,24 @@ def discover_site(
         if is_xml:
             for child in urls_from_xml(doc.text, url)[:200]:
                 if child not in visited and same_site(child, hosts):
-                    queue.append((child, depth + 1, "sitemap" if kind == "sitemap" else "feed"))
+                    # sitemap/フィードの項目はURLしか手掛かりが無いので、
+                    # URL自体を採点する
+                    push(child, depth + 1,
+                         "sitemap" if kind == "sitemap" else "feed",
+                         link_priority(child, ""))
             continue
 
         if depth == 0:
             for feed in find_feeds(doc.text, url):
                 if feed not in visited and same_site(feed, hosts):
-                    queue.appendleft((feed, depth + 1, "feed"))
+                    push(feed, depth + 1, "feed", 0)
 
-        scored = []
         for child, label in iter_links(doc.text, url):
             if child in visited or not same_site(child, hosts) or SKIP_EXT.search(child):
                 continue
             p = link_priority(child, label)
             if p < 99:
-                scored.append((p, child))
-        scored.sort(key=lambda t: t[0])
-        for _p, child in scored[:60]:
-            queue.append((child, depth + 1, "index"))
+                push(child, depth + 1, "index", p)
 
     return records
 

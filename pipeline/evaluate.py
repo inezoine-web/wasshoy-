@@ -70,6 +70,29 @@ def match(
     return False, ""
 
 
+def loose_match(name: str, municipality: str, rows: list[dict[str, str]]) -> str:
+    """参考値用のゆるい照合。同一市町村内で4文字以上の共通部分を持つか。
+
+    厳密な照合では取りこぼすが実際には発見できている例がある。
+    守谷市の「守谷祇園祭」に対しパイプラインは「八坂神社祇園祭」を
+    見つけており、同じ行事の別名だが名称キーは一致しない。
+    **この値は再現率として使わない。** 別名で拾えているのか、
+    まったく届いていないのかを切り分けるための診断値である。
+    """
+    key = dedup_key(name)
+    for r in rows:
+        if r["municipality"] != municipality:
+            continue
+        other = dedup_key(r["name"])
+        if key in other or other in key:
+            return r["name"]
+        for size in range(len(key), 3, -1):
+            for i in range(len(key) - size + 1):
+                if key[i : i + size] in other:
+                    return r["name"]
+    return ""
+
+
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--benchmark", required=True)
@@ -118,6 +141,10 @@ def main(argv: list[str] | None = None) -> int:
         (snap_hits if ok else snap_misses).append(f)
     n = len(snapshot["festivals"])
     print(f"  再現: {len(snap_hits)}/{n}  ({len(snap_hits) * 100 // max(1, n)}%)")
+
+    loose = [f for f in snap_misses if loose_match(f["name"], f["municipality"], rows)]
+    print(f"  参考値: 厳密には外れたが同一市町村内に名称の一部が一致する候補がある: {len(loose)}")
+    print("    (別名で拾えている可能性。再現率としては数えない)")
 
     per_muni: dict[str, list[int]] = {}
     for f in snapshot["festivals"]:

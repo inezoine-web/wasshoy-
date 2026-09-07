@@ -39,7 +39,9 @@ FESTIVAL_WORD = re.compile(
     r"囃子|ばやし|ばやし|獅子舞|ささら|田楽|神楽|風流|万灯|燈籠|灯籠|"
     r"山車|神輿|みこし|曳山|屋台|山鉾|鉾曳|奉納|渡御|行列|パレード|"
     r"どんど焼き|どんと祭|裸祭|火渡|柴燈|梯子乗|太鼓|踊り|おどり|"
-    r"フェスティバル|フェスタ|カーニバル"
+    r"フェスティバル|フェスタ|カーニバル|"
+    # 実データで取りこぼした語 (茨城パイロットの評価から追加)
+    r"大道芸|人形浄瑠璃|綱火|盆綱|わらじ|流鏑馬|献灯|燈明"
 )
 # 単独では祭りと言い切れないが、地域行事の入口になる語 (AGENTS.md §3.1 レンズ6)
 SEASONAL_WORD = re.compile(
@@ -103,7 +105,8 @@ _BRACKETS = "「」『』【】《》〈〉（）()［］[]｛｝{}"
 _TRAILERS = re.compile(
     r"(の開催について|を開催します|が開催されます|を開催!?|開催のお知らせ|"
     r"のお知らせ|のご案内|の御案内|について|情報|ページ|一覧|最新|"
-    r"が行われました|を行いました|は終了しました|レポート|"
+    r"が行われました|を行いました|は?終了しました|終了|レポート|"
+    r"を開催します|を開催しました|イベント|"
     r"の中止について|中止のお知らせ|開催|"
     r"とは|のみどころ|の見どころ|を見る|の詳細を見る|ホーム|"
     r"当日チラシ|チラシ|日程|部門日程|スケジュール|会場案内|交通規制)+$"
@@ -191,7 +194,10 @@ def clean_name(raw: str) -> str:
     name = normalize_space(_NOISE.sub(" ", name))
     name = strip_wrapping(name.strip(" 　・:：-−―"))
     name = _PAREN_SUFFIX.sub("", name)
+    # 「…を開催します！」の「！」を先に落とさないと、末尾を見る _TRAILERS が効かない
+    name = name.rstrip("！!？?。 　")
     name = _TRAILERS.sub("", name)
+    name = name.rstrip("！!？?。 　")
     name = strip_wrapping(name.strip(" 　・:：-−―"))
     # 開き括弧が閉じないまま終わっていたら、その手前で切る
     for opener, closer in _PAIRS.items():
@@ -206,7 +212,7 @@ def looks_like_festival(name: str, municipality: str = "") -> str | None:
     レンズごとに理由を残すのは、後で「どの経路で見つかったか」を
     カバレッジ表に出すため。
     """
-    if not (3 <= len(name) <= 30):
+    if not (2 <= len(name) <= 30):
         return None
     if EXCLUDE.search(name) or NOT_A_NAME.search(name) or NAV_LABEL.match(name):
         return None
@@ -259,6 +265,12 @@ def candidate_strings(text: str) -> list[tuple[str, str]]:
         frag = m.group(1)
         if len(frag) < 200 and "<li" not in frag:
             out.append((clean(frag), "list_item"))
+
+    # 告知文の中で鉤括弧に入っている固有名。自治体サイトは行事名を
+    # 「常陸大津の御船祭」がユネスコ…、国指定重要無形民俗文化財「綱火」が…
+    # のように文中へ埋める。文ごと弾くと名称まで失われる。
+    for m in re.finditer(r"[「『]([^「」『』\n]{2,30})[」』]", clean(text)):
+        out.append((m.group(1), "quoted"))
 
     return out
 
