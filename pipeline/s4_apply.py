@@ -70,6 +70,51 @@ def load_verdicts() -> tuple[dict[str, dict[str, str]], list[str]]:
     return verdicts, problems
 
 
+# 一覧表や投稿ナビ由来の飾りが名称に残る。抽出時には行事名との区別が
+# つかないが、S4で keep と判定できた後なら機械的に落とせる。
+# 落とした元の名称は aliases に残すので情報は失われない。
+_NAME_FIXES: list[tuple[re.Pattern[str], str]] = [
+    # 「新しい投稿 …」「NEW! F …」のような投稿ナビの語
+    (re.compile(r"^(?:新しい投稿|古い投稿|NEW!\s*\S?)\s*"), ""),
+    # 一覧表の連番 「4.塚崎の獅子舞」「39 立延の盆綱」
+    (re.compile(r"^\s*\d{1,3}\s*[.．、]\s*"), ""),
+    (re.compile(r"^\s*\d{1,3}\s+(?=[^\d\s])"), ""),
+    # 「県指定 富田のささら 所在地 石岡市国府5」→ 中身だけ残す
+    (re.compile(r"^(?:国|県|市|町|村)指定\s+"), ""),
+    (re.compile(r"\s+所在地\s+.*$"), ""),
+    # 「ユネスコ無形文化遺産・国指定重要無形民俗文化財「日立風流物」」
+    (re.compile(
+        r"^(?:ユネスコ無形文化遺産|国指定重要無形民俗文化財|"
+        r"茨城県指定無形民俗文化財|[^「]*?指定[^「]*?文化財)[・\s]*"
+        r"[「『]([^」』]+)[」』].*$"), r"\1"),
+    # 末尾の括弧注記 「三和祇園ばやし（無形民俗文化財）」
+    (re.compile(
+        r"\s*[（(](?:無形民俗文化財|[国県市町村]指定|"
+        r"pdf[^)）]*|jpg[^)）]*)[)）]\s*$", re.I), ""),
+]
+
+# 「保存会」は行事そのものではないが行事の存在を示す。名称からは落として
+# 行事名に寄せ、元の名称は aliases に残す (ユーザーの判断)。
+_ORG_SUFFIX = re.compile(r"(?:保存|連合|振興)?(?:保存会|連合会|振興会|会)$")
+
+
+def clean_display_name(name: str, is_organization: bool) -> str:
+    """一覧表・投稿ナビ由来の飾りを落として行事名に寄せる。
+
+    S2の段階では行事名との区別がつかないが、S4で keep と判定できた後なら
+    落としてよい。短くなりすぎる場合は元の名称を保つ。
+    """
+    out = name
+    for pattern, repl in _NAME_FIXES:
+        out = pattern.sub(repl, out).strip()
+    if is_organization:
+        stripped = _ORG_SUFFIX.sub("", out).strip()
+        if len(stripped) >= 3:
+            out = stripped
+    out = out.strip(" 　「」『』")
+    return out if len(out) >= 2 else name
+
+
 def _place(rid: str, index: dict, verdicts: dict) -> str:
     """S4で所在が与えられていればそれを、無ければ入力の市町村を返す。"""
     given = (verdicts.get(rid) or {}).get("municipality") or ""
@@ -194,10 +239,52 @@ def main(argv: list[str] | None = None) -> int:
                             f"id {rid}: slug {candidate} が id {slugs[candidate]} と衝突"
                         )
 
+        # 名称の整形は keep 行だけに行う。元の名称は aliases に残す。
         row["s4_verdict"] = verdict
         row["s4_reason"] = v.get("reason", "")
         row["s4_alias_of"] = v.get("alias_of", "")
+        if verdict == "keep":
+            cleaned = clean_display_name(
+                row["name"], v.get("reason") == "organization"
+            )
+            if cleaned != row["name"]:
+                aliases = [a for a in row.get("aliases", "").split("|") if a]
+                if row["name"] not in aliases:
+                    aliases.append(row["name"])
+                row["aliases"] = "|".join(aliases)
+                row["name"] = cleaned
+                stats["name_cleaned"] += 1
         out_rows.append(row)
+
+    # 名称を整形すると、判定時には別名だと分からなかった重複が見えてくる
+    # (「井草大杉囃子保存会」と「井草大杉囃子」)。同一市町村で整形後の名称が
+    # 一致し、どちらも別名指定を持たない行は、機械的に統合してよい。
+    by_name: dict[tuple[str, str], list[dict]] = collections.defaultdict(list)
+    id_of = {id(r): rid for rid, r in zip(sorted(by_id), out_rows)}
+    for r in out_rows:
+        if r["s4_verdict"] == "keep" and not r["s4_alias_of"]:
+            by_name[(r["municipality"], r["name"])].append(r)
+    for group in by_name.values():
+        if len(group) < 2:
+            continue
+        # 根拠の多いものを正とする。同数なら先に出てきたもの。
+        canonical = max(group, key=lambda r: len(r["source_urls"].split("|")))
+        for r in group:
+            if r is canonical:
+                continue
+            r["s4_alias_of"] = id_of[id(canonical)]
+            stats["merged_after_clean"] += 1
+            merged = [a for a in canonical["aliases"].split("|") if a]
+            for a in [r["name"], *r["aliases"].split("|")]:
+                if a and a not in merged and a != canonical["name"]:
+                    merged.append(a)
+            canonical["aliases"] = "|".join(merged)
+            urls = [u for u in canonical["source_urls"].split("|") if u]
+            for u in r["source_urls"].split("|"):
+                if u and u not in urls:
+                    urls.append(u)
+            canonical["source_urls"] = "|".join(urls[:8])
+            canonical["source_count"] = str(len(urls))
 
     out = WORK_DIR / "judged.tsv"
     fields = list(out_rows[0].keys()) if out_rows else ["prefecture"]
@@ -210,6 +297,8 @@ def main(argv: list[str] | None = None) -> int:
     print(f"  keep {stats['keep']} / drop {stats['drop']} / unsure {stats['unsure']}")
     print(f"  所在を確定できた   : {stats['municipality_resolved']}")
     print(f"  slug を確定できた  : {stats['slug_resolved']}")
+    print(f"  名称を整形         : {stats['name_cleaned']}  (元の名称は aliases に残す)")
+    print(f"  整形で判明した重複 : {stats['merged_after_clean']}  (機械的に統合した)")
     print(f"  別名として統合     : {sum(1 for r in out_rows if r['s4_alias_of'])}")
     still = sum(1 for r in out_rows if r["slug"] == "PENDING")
     print(f"  slug PENDING 残り  : {still}")
