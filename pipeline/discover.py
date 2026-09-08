@@ -90,7 +90,7 @@ FEED_HINT = re.compile(r"rss|atom|feed", re.I)
 # 1自治体あたりの探索キューの上限。取得上限が決まっているので
 # これ以上抱えても使われない。並列数を掛けた分だけメモリを食うので
 # 控えめにする (このPCは実装容量6GB、空き数百MBで動かしている)。
-MAX_QUEUE = 20000
+MAX_QUEUE = 5000
 
 # 行政手続き系リンクの優先度。捨てるのではなく最後尾に回す。
 DEPRIORITIZED = 90
@@ -317,6 +317,19 @@ def load_prefecture_sites(prefecture: str | None) -> list[dict[str, str]]:
     return out
 
 
+def already_done(path: Path) -> set[tuple[str, str]]:
+    """pages.tsv に既に記録がある (都道府県, 市町村) を返す。
+
+    このPCは実装6GBで、長時間のクロールが何度も強制終了されている。
+    やり直すたびに最初から歩き直すのは無駄なので、済んだ市町村は飛ばす。
+    キャッシュがあるので再取得は起きないが、それでも数分は縮む。
+    """
+    if not path.is_file():
+        return set()
+    with path.open(encoding="utf-8", newline="") as fh:
+        return {(r["prefecture"], r["municipality"]) for r in csv.DictReader(fh, delimiter="\t")}
+
+
 def load_sites(prefecture: str | None, municipality: str | None) -> list[dict[str, str]]:
     path = REGISTRY_DIR / "sites.tsv"
     if not path.is_file():
@@ -346,6 +359,8 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--max-depth", type=int, default=2)
     ap.add_argument("--delay", type=float, default=1.0)
     ap.add_argument("--offline", action="store_true")
+    ap.add_argument("--resume", action="store_true",
+                    help="pages.tsv に既に記録がある市町村を飛ばして追記する")
     args = ap.parse_args(argv)
 
     sites = load_sites(args.prefecture, args.municipality)
@@ -354,22 +369,32 @@ def main(argv: list[str] | None = None) -> int:
         if (args.no_prefecture_lens or args.municipality)
         else load_prefecture_sites(args.prefecture)
     )
-    if not sites and not pref_sites:
-        raise SystemExit("対象がありません")
+    targets = sites + pref_sites
+    done: set = set()
+    if args.resume:
+        done = already_done(WORK_DIR / "pages.tsv")
+        before = len(targets)
+        targets = [t for t in targets if (t["prefecture"], t["municipality"]) not in done]
+        print(f"--resume: {before - len(targets)} 市町村は済んでいるので飛ばす")
+    if not targets:
+        raise SystemExit("対象がありません" if not done else "すべて済んでいる")
 
     fetcher = Fetcher(delay=args.delay, offline=args.offline)
     WORK_DIR.mkdir(parents=True, exist_ok=True)
     out = WORK_DIR / "pages.tsv"
     written = 0
-    with out.open("w", encoding="utf-8", newline="\n") as fh:
+    # --resume で既に済んだ分があるときだけ追記。それ以外は作り直す。
+    mode = "a" if (args.resume and done) else "w"
+    with out.open(mode, encoding="utf-8", newline="\n") as fh:
         w = csv.DictWriter(
             fh,
             delimiter="\t",
             lineterminator="\n",
             fieldnames=["prefecture", "municipality", "url", "fetch_url", "kind", "depth", "title"],
         )
-        w.writeheader()
-        fh.flush()
+        if mode == "w":
+            w.writeheader()
+            fh.flush()
 
         def crawl(site: dict[str, str]):
             seeds = [u for u in (site["official_url"], site["tourism_url"]) if u]
@@ -385,7 +410,7 @@ def main(argv: list[str] | None = None) -> int:
         # 直列に回すと待ち時間が積み上がり、150ページ×44市町村で
         # 10時間近くかかっていた。
         with ThreadPoolExecutor(max_workers=max(1, args.workers)) as pool:
-            for site, recs in pool.map(crawl, sites + pref_sites):
+            for site, recs in pool.map(crawl, targets):
                 for r in recs:
                     r.update(prefecture=site["prefecture"], municipality=site["municipality"])
                     # タブと改行はTSVを壊すので落とす

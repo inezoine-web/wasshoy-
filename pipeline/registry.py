@@ -22,8 +22,10 @@ import argparse
 import csv
 import html
 import io
+import os
 import re
 import sys
+import time
 import urllib.parse
 import xml.etree.ElementTree as ET
 import zipfile
@@ -203,6 +205,12 @@ def candidate_domains(muni_romaji: str, muni_type: str, pref_romaji: str) -> lis
             f"www.{label}.{name}.{pref_romaji}.jp",
             f"{label}.{name}.lg.jp",
             f"{label}.{name}.{pref_romaji}.jp",
+            # 裸の .jp を使う自治体がある (名古屋市 www.city.nagoya.jp)。
+            # 政令市など古くからドメインを持つところに多い。
+            # 取得して自治体名を確認するので、誤って他人のドメインを
+            # 拾うことはない。
+            f"www.{label}.{name}.jp",
+            f"{label}.{name}.jp",
         ):
             if pref_romaji or ".lg.jp" in host:
                 urls.append(f"https://{host}/")
@@ -323,6 +331,32 @@ def find_tourism_site(
     return ""
 
 
+_SITE_FIELDS = ["code", "prefecture", "municipality", "official_url", "tourism_url", "resolved"]
+
+
+def _write_sites(out: Path, rows_by_code: dict[str, dict[str, str]]) -> None:
+    """1件ごとに書き出すために切り出した。長時間の解決中に落とされても
+    進捗が消えないようにするため（このPCは実装6GBで実際に強制終了される）。"""
+    # 一時ファイルへ書いてから置き換える。同じファイルを何度も開くと、
+    # クラウド同期フォルダ (OneDrive) にロックされて PermissionError になる。
+    # 置換なら開いている時間が短く、書きかけの内容が残ることもない。
+    tmp = out.with_suffix(out.suffix + ".tmp")
+    with tmp.open("w", encoding="utf-8", newline="\n") as fh:
+        w = csv.DictWriter(
+            fh, delimiter="\t", lineterminator="\n", fieldnames=_SITE_FIELDS
+        )
+        w.writeheader()
+        w.writerows(sorted(rows_by_code.values(), key=lambda r: r["code"]))
+    for attempt in range(5):
+        try:
+            os.replace(tmp, out)
+            return
+        except PermissionError:
+            if attempt == 4:
+                raise
+            time.sleep(0.5)
+
+
 def resolve_sites(fetcher: Fetcher, prefecture: str | None) -> Path:
     src = REGISTRY_DIR / "municipalities.tsv"
     if not src.is_file():
@@ -363,17 +397,12 @@ def resolve_sites(fetcher: Fetcher, prefecture: str | None) -> Path:
             "resolved": note,
         }
         print(f"  {m['municipality']:12s} {official or '-':45s} {tourism or '-':35s} {note}")
+        # 1件ごとに書き出す。長時間の解決中に落とされても進捗が消えないように
+        # (このPCは実装6GBで、実際に何度か強制終了されている)。
+        _write_sites(out, existing)
 
     rows = sorted(existing.values(), key=lambda r: r["code"])
-    with out.open("w", encoding="utf-8", newline="\n") as fh:
-        w = csv.DictWriter(
-            fh,
-            delimiter="\t",
-            lineterminator="\n",
-            fieldnames=["code", "prefecture", "municipality", "official_url", "tourism_url", "resolved"],
-        )
-        w.writeheader()
-        w.writerows(rows)
+    _write_sites(out, existing)
     hit = sum(1 for r in rows if r["official_url"])
     tour = sum(1 for r in rows if r["tourism_url"])
     print(f"\nsites.tsv: {len(rows)} 件 / 公式サイト解決 {hit} / 観光協会 {tour}")
