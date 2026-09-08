@@ -29,7 +29,7 @@ Haikuサブエージェント9本で約55万トークンを使い、AI利用枠5
 | S2 | `extract.py` | 不要 | 不要 | キャッシュ済みページから候補行を抽出 |
 | S3 | `normalize.py` | 不要 | 不要 | 重複統合・日付仕分け・カテゴリ推定・slug生成 |
 | S4 | `s4_prepare.py` / `s4_apply.py` | 不要 | **要** | 対象/対象外の判断、別名統合、所在の帰属、読み。**AIが要るのはここだけ** |
-| S5 | （未実装） | 不要 | 不要 | `data/festivals.json` へマージ |
+| S5 | `merge.py` | 不要 | 不要 | `data/festivals.json` へマージ。**既存データを読んでよいのはここと `evaluate.py` だけ** |
 | S6 | `evaluate.py` | 不要 | 不要 | 凍結ベンチマークとの突合 |
 
 ## 実行
@@ -55,9 +55,21 @@ python pipeline/s4_prepare.py --prefecture 茨城県 --batch-size 120
 python pipeline/s4_apply.py --prefecture 茨城県     # 機械チェックしてから適用
 python pipeline/s4_apply.py --prefecture 茨城県 --strict   # 未回答があれば失敗させる
 
+# S5: マージ (既存を入れ替える場合は --replace)
+python pipeline/merge.py --prefecture 茨城県 --replace --dry-run   # まず確認
+python pipeline/merge.py --prefecture 茨城県 --replace
+
 # S6: 評価 (ベンチマークのある都道府県のみ)
 python pipeline/evaluate.py --benchmark benchmarks/ibaraki-2026-09-06
+python pipeline/evaluate.py --benchmark benchmarks/ibaraki-2026-09-06 --judged  # S4判定後
 ```
+
+`merge.py` は書き込み前に**消費側チェック**を必ず通す。
+`scripts/build_site.py` がガードなしで参照する
+`name` / `status` / `confidence` / `prefecture` / `municipality` / `categories`
+が非nullであること、`sources` が空でないこと、id が重複していないこと
+(他県のレコードとの衝突も含む) を検査し、1つでも引っかかれば書き込まない。
+過去に `summary: null` を212件追加してPagesのビルドを落としているため。
 
 ### S4 でAIに任せること / 任せないこと
 
@@ -129,11 +141,13 @@ python pipeline/discover.py --prefecture 茨城県 --municipality 鉾田市 --ma
 機械的に確認できる:
 
 ```bash
-grep -rn "open(\|read_text(\|json.load" pipeline/*.py | grep -i "festivals\|snapshot\|gold"
+python pipeline/check_leak.py     # 問題があれば exit 1
 ```
 
-ファイルを実際に開いている箇所だけを見る (説明コメントに拾われないため)。
-`merge.py` と `evaluate.py` 以外がヒットしたらリークである。
+構文木の文字列リテラルを全部見る。grep では
+`DATA = REPO_ROOT / "data" / "festivals.json"` のようにパスを変数へ
+入れてから開く形を取り逃すため。既存データを読んでよいのは
+`merge.py` と `evaluate.py` だけ。
 
 ### 2. 推測で埋めない（AGENTS.md §1）
 

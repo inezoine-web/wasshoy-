@@ -12,6 +12,7 @@
 | file | 内容 |
 | --- | --- |
 | `snapshot.json` | 茨城県225件の完全な凍結コピー。**以後変更しない** |
+| | 2026-09-08 に `data/festivals.json` からこの225件を外し、パイプラインの出力596件へ入れ替えた。**このファイルが旧データの唯一の保存先である。** |
 | `gold.tsv` | 「必ず取れるべき」最小集合 34件 |
 
 `gold.tsv` の列:
@@ -79,8 +80,10 @@ python pipeline/evaluate.py --benchmark benchmarks/ibaraki-2026-09-06
 この分離は機械的に確認できる:
 
 ```bash
-grep -rn "open(\|read_text(\|json.load" pipeline/*.py | grep -i "festivals\|snapshot\|gold"
+python pipeline/check_leak.py     # 問題があれば exit 1
 ```
 
-ファイルを実際に開いている箇所だけを見る (説明コメントに拾われないため)。
-`merge.py` と `evaluate.py` 以外がヒットしたらリークである。
+構文木の文字列リテラルを全部見る。grep では
+`DATA = REPO_ROOT / "data" / "festivals.json"` のようにパスを変数へ
+入れてから開く形を取り逃すため。既存データを読んでよいのは
+`merge.py` と `evaluate.py` だけ。
