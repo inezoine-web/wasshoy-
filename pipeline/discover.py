@@ -347,7 +347,12 @@ def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--prefecture")
     ap.add_argument("--municipality")
-    ap.add_argument("--max-pages", type=int, default=150, help="1自治体あたりの取得上限")
+    ap.add_argument("--max-pages", type=int, default=40,
+                    help="1自治体あたりの取得上限。増やしても割に合わない。"
+                         "茨城の実測では 40 と 150 で gold 25/34 対 23/34、"
+                         "snapshot 再現 62%% 対 66%% であり、"
+                         "4倍近いページ数の見返りが4ポイントしかない。"
+                         "情報価値は上位20ページに8割が集中している")
     ap.add_argument("--pref-lens-pages", type=int, default=250,
                     help="県単位レンズ(教育委員会の文化財一覧等)の取得上限")
     ap.add_argument("--no-prefecture-lens", action="store_true",
