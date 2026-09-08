@@ -28,7 +28,7 @@ Haikuサブエージェント9本で約55万トークンを使い、AI利用枠5
 | S1 | `discover.py` | 要 | 不要 | 台帳のトップページから祭り情報のあるページを幅優先で収集 |
 | S2 | `extract.py` | 不要 | 不要 | キャッシュ済みページから候補行を抽出 |
 | S3 | `normalize.py` | 不要 | 不要 | 重複統合・日付仕分け・カテゴリ推定・slug生成 |
-| S4 | （未実装） | 不要 | **要** | 対象/対象外の境界判断、別名統合、帰属、summary、PENDING slug |
+| S4 | `s4_prepare.py` / `s4_apply.py` | 不要 | **要** | 対象/対象外の判断、別名統合、所在の帰属、読み。**AIが要るのはここだけ** |
 | S5 | （未実装） | 不要 | 不要 | `data/festivals.json` へマージ |
 | S6 | `evaluate.py` | 不要 | 不要 | 凍結ベンチマークとの突合 |
 
@@ -48,9 +48,41 @@ python pipeline/discover.py --prefecture 茨城県 --max-pages 40
 python pipeline/extract.py   --prefecture 茨城県
 python pipeline/normalize.py --prefecture 茨城県
 
+# S4: AI判定 (唯一AIが要る工程)
+python pipeline/s4_prepare.py --prefecture 茨城県 --batch-size 120
+#   -> work/s4/s4_batch_NNN.tsv ができる。AIがこれを読み、
+#      work/s4/s4_verdict_NNN.tsv を「同じ順序・同じ件数」で返す
+python pipeline/s4_apply.py --prefecture 茨城県     # 機械チェックしてから適用
+python pipeline/s4_apply.py --prefecture 茨城県 --strict   # 未回答があれば失敗させる
+
 # S6: 評価 (ベンチマークのある都道府県のみ)
 python pipeline/evaluate.py --benchmark benchmarks/ibaraki-2026-09-06
 ```
+
+### S4 でAIに任せること / 任せないこと
+
+渡すのは判断に要る列だけ (id・市町村・名称・カテゴリ・会場・日程・ホスト名)。
+本文もURL全文も渡さない。実測で **1行あたり約90トークン**。
+
+| AIに任せる | 任せない |
+| --- | --- |
+| 行事か、断片・団体名・一般語か | slugの生成 |
+| 同一行事の別名かどうか | ローマ字化 |
+| 県レンズで拾った行事の所在市町村 | カテゴリの機械推定 |
+| 名称の**読み（ひらがな）** | 日付の仕分け |
+
+**読みはかなで返させ、ローマ字化と slug 生成は `romaji.py` が行う。**
+過去にローマ字化を委託して漢字が残ったまま返ってきた事故があるため、
+識別子そのものは委託しない。`s4_apply.py` は適用前に必ず次を確認する。
+
+- 入力の id が過不足なく1回ずつ返ってきたか
+- `verdict` が `keep` / `drop` / `unsure` のいずれかか
+- `alias_of` が実在し、自分自身でなく、`keep` された行を指し、循環していないか
+- `reading` がひらがなだけか
+- 生成した slug が `^[a-z0-9-]+$` を満たし、重複しないか
+
+`(県全域)` の行だけは、所在を確定したうえで市町村側の行の別名にしてよい
+（「国指定重要無形民俗文化財「綱火」」→ つくばみらい市の「綱火」）。
 
 新しい都道府県を調べるときは `--prefecture` を差し替えるだけでよい。
 `registry.py --build-municipalities` は全国分を一度に作るので再実行は不要。
