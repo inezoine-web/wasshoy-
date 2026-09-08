@@ -186,7 +186,7 @@ grep -rn "festival\['" scripts/ | grep -v "\.get("
 
 | 症状 | 原因と対処 |
 | --- | --- |
-| `UnicodeDecodeError: 'cp932' codec` | Windows の既定エンコーディングが cp932。ファイル入出力には必ず `encoding="utf-8"` を明示する。`scripts/build_site.py` は未修正でローカルでは落ちる（CIのLinuxでは通る） |
+| `UnicodeDecodeError: 'cp932' codec` | Windows の既定エンコーディングが cp932。ファイル入出力には必ず `encoding="utf-8"` を明示する。`scripts/build_site.py` は 2026-09-08 に修正済みで、ローカルでも `python scripts/build_site.py` が通る |
 | `CERTIFICATE_VERIFY_FAILED: certificate has expired` | Windows の既定CAストアが古い。`net.py` の `build_ssl_context()` が `SSL_CERT_FILE` → `certifi` → Git for Windows 同梱バンドルの順に解決する。**証明書検証を無効化しないこと** |
 | コンソールの日本語が化ける | `PYTHONIOENCODING=utf-8` を付けて実行する |
 | `sed` / `awk` が CRLF ファイルの CR を落とす | 加工は Python で行う |
