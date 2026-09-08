@@ -74,7 +74,7 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 223255	静岡県	函南町	https://www.town.kannami.shizuoka.jp/		本文に自治体名を確認
 223417	静岡県	清水町	https://www.town.shimizu.shizuoka.jp/		本文に自治体名を確認
 223425	静岡県	長泉町	https://www.town.nagaizumi.lg.jp/		本文に自治体名を確認
-223441	静岡県	小山町			候補URLがすべて外れ
+223441	静岡県	小山町	http://www.fuji-oyama.jp/		県公式サイトのリンク集から (本文に自治体名を確認)
 224243	静岡県	吉田町	https://www.town.yoshida.shizuoka.jp/		本文に自治体名を確認
 224294	静岡県	川根本町	https://www.town.kawanehon.shizuoka.jp/	https://www.okuooi.gr.jp/	本文に自治体名を確認
 224618	静岡県	森町	https://www.town.morimachi.shizuoka.jp/	https://www.mori-kanko.jp/	本文に自治体名を確認

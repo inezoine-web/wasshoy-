@@ -247,6 +247,18 @@ def verify_site(fetcher: Fetcher, url: str, municipality: str) -> tuple[bool, st
     return False, "本文に自治体名が見つからない"
 
 
+def safe_join(base_url: str, href: str) -> str:
+    """urljoin の例外を潰す。壊れた href は空文字を返す。
+
+    自治体サイトには href="//＃Jump01" のような全角文字を含むリンクがあり、
+    urljoin が NFKC 正規化の検査で ValueError を投げる。
+    """
+    try:
+        return urllib.parse.urljoin(base_url, href)
+    except ValueError:
+        return ""
+
+
 _TOURISM_LABEL = re.compile(r"観光協会|観光物産|観光コンベンション|観光局|観光振興|観光情報|観光サイト")
 # リンク文字列が「観光情報」のように一般的でも、ホスト名で判別できることが多い
 # (日立市 -> www.kankou-hitachi.jp)
@@ -325,7 +337,9 @@ def find_tourism_site(
         label = html.unescape(re.sub(r"<[^>]+>", "", m.group(2))).strip()
         if not _TOURISM_SECTION.search(label):
             continue
-        child = urllib.parse.urljoin(doc.final_url, html.unescape(m.group(1))).split("#")[0]
+        child = safe_join(doc.final_url, html.unescape(m.group(1))).split("#")[0]
+        if not child:
+            continue
         if urllib.parse.urlparse(child).netloc != official_host or child in seen:
             continue
         seen.add(child)
@@ -365,6 +379,99 @@ def _write_sites(out: Path, rows_by_code: dict[str, dict[str, str]]) -> None:
             time.sleep(0.5)
 
 
+def _pref_official(prefecture: str) -> str:
+    """pref_sites.tsv から県公式サイトのURLを引く。無ければ空。"""
+    path = REGISTRY_DIR / "pref_sites.tsv"
+    if not path.is_file():
+        return ""
+    with path.open(encoding="utf-8", newline="") as fh:
+        for row in csv.DictReader(fh, delimiter="	"):
+            if row["prefecture"] == prefecture:
+                return row.get("official_url", "")
+    return ""
+
+
+# 県公式サイトが持つ市町村リンク集。命名規則から外れたドメインは、
+# 読み仮名からは原理的に導けない (小山町 www.fuji-oyama.jp)。
+# 手で書けば直るが、それを47都道府県ぶん積むのは避けたい。
+# 県は自分の市町村へのリンクを必ず持っているので、そこから引く。
+_MUNI_LINK_SECTION = re.compile(r"市町村|市区町村|市町|各市|リンク|一覧|ホームページ")
+_PREF_LINK_PAGES = 6
+
+
+def _collect_external_links(text: str, self_host: str) -> list[tuple[str, str]]:
+    """(リンク文字列, URL) の一覧。自ホストとSNSは除く。"""
+    out: list[tuple[str, str]] = []
+    for m in re.finditer(r'<a[^>]+href="(https?://[^"]+)"[^>]*>(.*?)</a>', text, re.S):
+        href, inner = m.group(1), m.group(2)
+        host = urllib.parse.urlparse(href).netloc
+        if not host or host == self_host or _NOT_A_SITE.search(host):
+            continue
+        label = html.unescape(re.sub(r"<[^>]+>", "", inner)).strip()
+        attrs = " ".join(
+            html.unescape(x) for x in re.findall(r'(?:alt|title)="([^"]*)"', inner)
+        )
+        out.append((f"{label} {attrs}".strip(), href))
+    return out
+
+
+def prefecture_link_index(fetcher: Fetcher, pref_official_url: str) -> list[tuple[str, str]]:
+    """県公式サイトから外部リンクを集める。市町村サイトを引くための索引。
+
+    トップページに市町村一覧を置いている県は少ないので、リンク集らしい
+    ページを数枚だけ辿る。県ごとに1回作れば全市町村で使い回せる。
+    """
+    if not pref_official_url:
+        return []
+    doc = fetcher.get(pref_official_url)
+    if doc is None or doc.status != 200:
+        return []
+    self_host = urllib.parse.urlparse(doc.final_url).netloc
+    links = _collect_external_links(doc.text, self_host)
+    # 同一ホスト内のリンク集ページを数枚だけ辿る
+    seen: set[str] = {doc.final_url}
+    followed = 0
+    for m in re.finditer(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', doc.text, re.S):
+        if followed >= _PREF_LINK_PAGES:
+            break
+        href = safe_join(doc.final_url, m.group(1))
+        if not href:
+            continue
+        if urllib.parse.urlparse(href).netloc != self_host or href in seen:
+            continue
+        label = html.unescape(re.sub(r"<[^>]+>", "", m.group(2))).strip()
+        if not _MUNI_LINK_SECTION.search(label):
+            continue
+        seen.add(href)
+        followed += 1
+        sub = fetcher.get(href)
+        if sub is not None and sub.status == 200:
+            links.extend(_collect_external_links(sub.text, self_host))
+    return links
+
+
+def find_via_prefecture_links(
+    fetcher: Fetcher, links: list[tuple[str, str]], municipality: str
+) -> tuple[str, str]:
+    """リンク集から1市町村の公式サイトを引き当てる。
+
+    リンク文字列に自治体名が入っていることだけを手掛かりにし、採用前に
+    本文を取得して自治体名を確認する。検証は命名規則の場合と同じなので、
+    ここで推測が混ざることはない。
+    """
+    # 「町」「村」を落とした形も見る (リンク集が「小山」と書く県がある)
+    short = re.sub(r"(市|区|町|村)$", "", municipality)
+    for label, href in links:
+        if municipality not in label and (len(short) < 2 or short not in label):
+            continue
+        parsed = urllib.parse.urlparse(href)
+        url = f"{parsed.scheme}://{parsed.netloc}/"
+        ok, why = verify_site(fetcher, url, municipality)
+        if ok:
+            return url, f"県公式サイトのリンク集から ({why})"
+    return "", ""
+
+
 def resolve_sites(fetcher: Fetcher, prefecture: str | None) -> Path:
     src = REGISTRY_DIR / "municipalities.tsv"
     if not src.is_file():
@@ -383,6 +490,10 @@ def resolve_sites(fetcher: Fetcher, prefecture: str | None) -> Path:
             for row in csv.DictReader(fh, delimiter="\t"):
                 existing[row["code"]] = row
 
+    # 県公式サイトのリンク集。命名規則が外れた市町村のためだけに使うので、
+    # 実際に外れるまで作らない。
+    pref_links: dict[str, list[tuple[str, str]]] = {}
+
     for m in munis:
         pref_romaji = _PREF_DOMAIN_OVERRIDE.get(m["prefecture"], m["pref_romaji"])
         official, note = "", "候補URLがすべて外れ"
@@ -391,6 +502,15 @@ def resolve_sites(fetcher: Fetcher, prefecture: str | None) -> Path:
             if ok:
                 official, note = url, why
                 break
+        if not official:
+            pref = m["prefecture"]
+            if pref not in pref_links:
+                pref_links[pref] = prefecture_link_index(fetcher, _pref_official(pref))
+            found, why = find_via_prefecture_links(
+                fetcher, pref_links[pref], m["municipality"]
+            )
+            if found:
+                official, note = found, why
         tourism = (
             find_tourism_site(fetcher, official, m["municipality"], m["muni_romaji"])
             if official

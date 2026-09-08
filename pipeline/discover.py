@@ -111,6 +111,20 @@ def page_title(text: str) -> str:
     return re.sub(r"\s+", " ", clean_text(m.group(1))) if m else ""
 
 
+def safe_join(base_url: str, href: str) -> str:
+    """urljoin の例外を潰す。壊れた href は空文字を返す。
+
+    href="//＃Jump01" のような全角文字を含むリンクで urljoin が
+    NFKC 正規化の検査に引っかかって ValueError を投げる。静岡県では
+    これ1本で県全体の実行が落ちた。自治体サイトのHTMLは手書きが多く、
+    壊れたリンクは想定内として扱う。
+    """
+    try:
+        return urllib.parse.urljoin(base_url, href)
+    except ValueError:
+        return ""
+
+
 def iter_links(text: str, base_url: str) -> list[tuple[str, str]]:
     """(絶対URL, アンカーテキスト) を返す。"""
     out = []
@@ -119,7 +133,10 @@ def iter_links(text: str, base_url: str) -> list[tuple[str, str]]:
         if href.startswith(("javascript:", "mailto:", "tel:", "#")):
             continue
         label = re.sub(r"\s+", " ", clean_text(m.group(2)))
-        out.append((urllib.parse.urljoin(base_url, href).split("#", 1)[0], label))
+        absolute = safe_join(base_url, href)
+        if not absolute:
+            continue
+        out.append((absolute.split("#", 1)[0], label))
     return out
 
 
@@ -128,7 +145,9 @@ def find_feeds(text: str, base_url: str) -> list[str]:
     for m in re.finditer(
         r'<link[^>]+type="application/(?:rss|atom)\+xml"[^>]*href="([^"]+)"', text, re.I
     ):
-        feeds.append(urllib.parse.urljoin(base_url, html.unescape(m.group(1))))
+        feed = safe_join(base_url, html.unescape(m.group(1)))
+        if feed:
+            feeds.append(feed)
     for url, _label in iter_links(text, base_url):
         if FEED_HINT.search(urllib.parse.urlparse(url).path + "?" + (urllib.parse.urlparse(url).query or "")):
             feeds.append(url)
@@ -148,7 +167,9 @@ def urls_from_xml(text: str, base_url: str) -> list[str]:
         if tag in ("loc", "link"):
             value = (el.text or "").strip() or el.get("href", "")
             if value:
-                urls.append(urllib.parse.urljoin(base_url, value))
+                child = safe_join(base_url, value)
+                if child:
+                    urls.append(child)
         elif tag == "guid" and (el.text or "").startswith("http"):
             urls.append(el.text.strip())
     return urls
@@ -408,7 +429,16 @@ def main(argv: list[str] | None = None) -> int:
                 if site["municipality"] == PREFECTURE_WIDE
                 else args.max_pages
             )
-            return site, discover_site(fetcher, seeds, budget, args.max_depth)
+            try:
+                return site, discover_site(fetcher, seeds, budget, args.max_depth)
+            except Exception as exc:  # noqa: BLE001
+                # 1自治体で落ちても他の43件を巻き添えにしない。
+                # 静岡県では壊れた href 1本で県全体が失敗した。
+                print(
+                    f"  {site['municipality']:12s} 失敗: {type(exc).__name__}: {exc}",
+                    flush=True,
+                )
+                return site, []
 
         # 自治体ごとに別ホストなので並行して回せる。同一ホストへの直列
         # アクセスと1秒間隔は Fetcher がホスト単位のロックで保証する。
