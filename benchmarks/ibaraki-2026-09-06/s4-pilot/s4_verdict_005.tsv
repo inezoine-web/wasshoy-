@@ -1,0 +1,121 @@
+id	verdict	reason	alias_of	municipality	reading
+00481	keep	shrine	00485
+00482	drop	fragment
+00483	keep	shrine	00485
+00484	keep	citizen	00497
+00485	keep	shrine			おおあらいはっさくまつり
+00486	keep	citizen
+00487	keep	citizen
+00488	drop	fragment
+00489	keep	fireworks
+00490	keep	citizen
+00491	drop	generic
+00492	drop	out_of_area
+00493	keep	fireworks	00489
+00494	drop	fragment
+00495	keep	fireworks	00489
+00496	drop	generic
+00497	keep	citizen
+00498	drop	fragment
+00499	keep	shrine	00502
+00500	keep	shrine			とうろうまつり
+00501	keep	market
+00502	keep	shrine			やさかじんじゃれいたいさい
+00503	keep	mikoshi	00502
+00504	keep	dashi	00502
+00505	keep	citizen	00509
+00506	drop	fragment
+00507	drop	fragment
+00508	drop	generic
+00509	keep	citizen
+00510	keep	citizen	00509
+00511	drop	generic
+00512	drop	fragment
+00513	drop	generic
+00514	drop	generic
+00515	drop	generic
+00516	drop	generic
+00517	drop	generic
+00518	keep	citizen
+00519	keep	seasonal
+00520	keep	citizen
+00521	keep	citizen
+00522	keep	citizen	00509
+00523	drop	generic
+00524	keep	shrine	00597
+00525	keep	mikoshi	00596
+00526	keep	folk	00592
+00527	keep	mikoshi	00590
+00528	keep	folk	00607
+00529	keep	folk	00571
+00530	keep	folk	00592
+00531	keep	shrine	00593
+00532	keep	folk	00576
+00533	keep	folk	00592
+00534	keep	folk	00598
+00535	keep	shrine	00597
+00536	drop	fragment
+00537	drop	fragment
+00538	keep	mikoshi	00590
+00539	keep	shrine	00597
+00540	keep	folk	00571
+00541	keep	folk	00592
+00542	keep	shrine	00593
+00543	keep	folk	00576
+00544	keep	folk	00598
+00545	drop	fragment
+00546	drop	fragment
+00547	drop	fragment
+00548	drop	fragment
+00549	drop	fragment
+00550	drop	fragment
+00551	drop	generic
+00552	keep	citizen
+00553	drop	commercial
+00554	keep	fireworks			おみたまはなびたいかい
+00555	keep	citizen
+00556	drop	generic
+00557	keep	citizen	00558
+00558	keep	citizen
+00559	keep	citizen	00558
+00560	drop	fragment
+00561	drop	fragment
+00562	drop	fragment
+00563	drop	fragment
+00564	drop	fragment
+00565	drop	fragment
+00566	keep	citizen
+00567	keep	shrine	00595
+00568	drop	fragment
+00569	drop	generic
+00570	drop	generic
+00571	keep	folk			しもばんばばやし
+00572	drop	fragment
+00573	drop	fragment
+00574	keep	shrine
+00575	drop	fragment
+00576	keep	folk			かたくらばやし
+00577	keep	citizen
+00578	drop	organization
+00579	drop	fragment
+00580	keep	shrine	00597
+00581	drop	fragment
+00582	keep	citizen
+00583	drop	fragment
+00584	keep	citizen	00566
+00585	drop	fragment
+00586	keep	seasonal
+00587	keep	citizen
+00588	drop	generic
+00589	keep	shrine
+00590	keep	mikoshi
+00591	drop	generic
+00592	keep	folk			たちのべのぼんづな
+00593	keep	shrine			たちのべのあおやさい
+00594	keep	seasonal
+00595	keep	shrine
+00596	keep	mikoshi
+00597	keep	shrine			そがじんじゃぎおんさい
+00598	keep	folk			はとりばやし
+00599	drop	generic
+00600	drop	generic

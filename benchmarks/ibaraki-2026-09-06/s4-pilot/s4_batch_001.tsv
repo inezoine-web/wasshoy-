@@ -1,0 +1,138 @@
+# S4 判定バッチ
+#
+# 各行について次を判定し、s4_verdict_<n>.tsv に**同じ順序・同じ件数**で返す。
+# 列: id / verdict / reason / alias_of / municipality / reading
+#
+# verdict:
+#   keep   … 地域の祭り・祭礼・伝統行事・花火・市民祭・季節の行事として記録する価値がある
+#   drop   … 行事ではない (団体名・会場名・一般語・文の断片・グッズ・交通情報・他県の事例)
+#   unsure … 判断できない。理由を reason に書く
+# reason: 短い語 (festival / shrine / temple / folk / fireworks / citizen / seasonal /
+#         market / fragment / organization / venue_only / generic / out_of_area / commercial)
+# alias_of: 同一市町村内の別行に対する別名なら、その id。なければ空
+# municipality: 入力が (県全域) の行だけ、確認できる場合に市町村名を書く。不明なら空
+# reading: 名称全体の読みを**ひらがなだけ**で。自信がなければ空。
+#          ローマ字にしない。一部だけの読みを書かない。
+#
+# 推測で埋めない。分からないものは unsure か空欄にする。
+id	municipality	name	categories	venue	schedule	source
+00001	(県全域)	いちょうまつり	unclassified		特定年の日程か例年の規則かは未確認: 11月7日	www.pref.ibaraki.jp
+00002	(県全域)	お囃子	traditional_performing_art		情報源に特定年の日付として記載: 2026年9月4日	www.pref.ibaraki.jp
+00003	(県全域)	ユネスコ無形文化遺産・国指定重要無形民俗文化財「日立風流物」	shrine_festival|traditional_performing_art	代時期は20年ごとの熊野神社		kyoiku.pref.ibaraki.jp
+00004	(県全域)	亀城太鼓保存会	traditional_performing_art			www.pref.ibaraki.jp
+00005	(県全域)	井草大杉囃子保存会	traditional_performing_art		特定年の日程か例年の規則かは未確認: 11月7日	www.pref.ibaraki.jp
+00006	(県全域)	京都紙園祭の山鉾行事	dashi		特定年の日程か例年の規則かは未確認: 5月	kyoiku.pref.ibaraki.jp
+00007	(県全域)	全国学校安全フェスタ	citizen_festival		情報源に特定年の日付として記載: 令和8年8月28日	kyoiku.pref.ibaraki.jp
+00008	(県全域)	古河神楽保存会	traditional_performing_art		情報源に特定年の日付として記載: 令和5年12月28日	kyoiku.pref.ibaraki.jp
+00009	(県全域)	和太鼓らふ	traditional_performing_art			www.pref.ibaraki.jp
+00010	(県全域)	国指定重要無形民俗文化財「綱火」	unclassified			kyoiku.pref.ibaraki.jp
+00011	(県全域)	国民文化祭いばらき2008	shrine_festival	毎年7月下旬の八坂神社	毎年7月下旬	kyoiku.pref.ibaraki.jp
+00012	(県全域)	塚崎獅子舞保存会	lion_dance		特定年の日程か例年の規則かは未確認: 3月28日	kyoiku.pref.ibaraki.jp
+00013	(県全域)	太々神楽保存会	shrine_festival|traditional_performing_art	小栗内外大神宮	特定年の日程か例年の規則かは未確認: 4月21日	kyoiku.pref.ibaraki.jp
+00014	(県全域)	太鼓	traditional_performing_art			www.pref.ibaraki.jp
+00015	(県全域)	小張松下流綱火	shrine_festival	愛宕神社		kyoiku.pref.ibaraki.jp
+00016	(県全域)	山・鉾・屋台行事	shrine_festival|dashi	造船が神社	情報源に特定年の日付として記載: 2025年12月11日	kyoiku.pref.ibaraki.jp
+00017	(県全域)	山･鉾･屋台行事	dashi		毎年4月上旬	kyoiku.pref.ibaraki.jp
+00018	(県全域)	常陸大津の御船祭保存会	unclassified		情報源に特定年の日付として記載: 2025年12月11日	kyoiku.pref.ibaraki.jp
+00019	(県全域)	当夜祭	shrine_festival	信州諏訪大社		kyoiku.pref.ibaraki.jp
+00020	(県全域)	日本のおどり㐂座キッズ	dance			www.pref.ibaraki.jp
+00021	(県全域)	日立さくらまつり	shrine_festival|seasonal_flower_nature	神峰神社	毎年4月上旬	kyoiku.pref.ibaraki.jp
+00022	(県全域)	日立のささら	traditional_performing_art			kyoiku.pref.ibaraki.jp
+00023	(県全域)	日立風流物	shrine_festival|traditional_performing_art	代時期は20年ごとの熊野神社		kyoiku.pref.ibaraki.jp
+00024	(県全域)	本陣太鼓	shrine_festival|traditional_performing_art	笠間稲荷		www.pref.ibaraki.jp
+00025	(県全域)	水海道神楽	shrine_festival|traditional_performing_art	ともに天満宮		kyoiku.pref.ibaraki.jp
+00026	(県全域)	浅川ささら保存会	shrine_festival|traditional_performing_art	代時期は20年ごとの熊野神社	特定年の日程か例年の規則かは未確認: 6月25日	kyoiku.pref.ibaraki.jp
+00027	(県全域)	潮来ばやし	shrine_festival|traditional_performing_art	して神社	特定年の日程か例年の規則かは未確認: 8月	kyoiku.pref.ibaraki.jp
+00028	(県全域)	県指定 富田のささら 所在地 石岡市国府5	shrine_festival|traditional_performing_art	日枝神社	特定年の日程か例年の規則かは未確認: 1月25日	kyoiku.pref.ibaraki.jp
+00029	(県全域)	県指定 水戸大神楽 所在地 柳貴家正楽社中	shrine_festival|traditional_performing_art	日枝神社	特定年の日程か例年の規則かは未確認: 1月26日	kyoiku.pref.ibaraki.jp
+00030	(県全域)	県指定 石岡ばやし 所在地 石岡市石岡2444	traditional_performing_art		特定年の日程か例年の規則かは未確認: 1月24日	kyoiku.pref.ibaraki.jp
+00031	(県全域)	石岡ばやし(県指定) 富田のささら(県指定)	traditional_performing_art		毎年4月	kyoiku.pref.ibaraki.jp
+00032	(県全域)	祇園祭	shrine_festival	五丁目の天王山に素鵞熊野神社	毎年8月	kyoiku.pref.ibaraki.jp
+00033	(県全域)	綱火保存連合会	unclassified		特定年の日程か例年の規則かは未確認: 8月24日	kyoiku.pref.ibaraki.jp
+00034	(県全域)	茨城 いばらき のおもなおまつり	unclassified		特定年の日程か例年の規則かは未確認: 4 月	kyoiku.pref.ibaraki.jp
+00035	(県全域)	茨城県小中学校芸術祭	unclassified	ヒロサワシティ会館	特定年の日程か例年の規則かは未確認: 10月21日	kyoiku.pref.ibaraki.jp
+00036	(県全域)	茨城県指定無形民俗文化財「日立のささら」	traditional_performing_art			kyoiku.pref.ibaraki.jp
+00037	(県全域)	茨城県指定無形民俗文化財「潮来ばやし」	shrine_festival|traditional_performing_art|mikoshi	海辺で神輿を降ろして神社	情報源に特定年の日付として記載: 2025年12月11日	kyoiku.pref.ibaraki.jp
+00038	(県全域)	茨城県高等学校総合文化祭	unclassified			kyoiku.pref.ibaraki.jp
+00039	(県全域)	西丸山祈祷囃子保存会	shrine_festival|traditional_performing_art	の大杉神社	特定年の日程か例年の規則かは未確認: 8月23日	kyoiku.pref.ibaraki.jp
+00040	(県全域)	踊り	dance			www.pref.ibaraki.jp
+00041	(県全域)	選定した“茨城のおまつり”	unclassified		毎年4月	kyoiku.pref.ibaraki.jp
+00042	(県全域)	鉾田囃子連合保存会	traditional_performing_art|dashi		特定年の日程か例年の規則かは未確認: 11月7日	www.pref.ibaraki.jp
+00043	(県全域)	高岡流綱火	shrine_festival	愛宕神社		kyoiku.pref.ibaraki.jp
+00044	かすみがうら市	☆富士見塚古墳フェスタ2023を開催します☆	citizen_festival			www.city.kasumigaura.lg.jp
+00045	かすみがうら市	あゆみ祭り	unclassified		情報源に特定年の日付として記載: 2026年7月16日	www.city.kasumigaura.lg.jp
+00046	かすみがうら市	いばキャラ祭り in イオンタウン水戸南に参加したよ	unclassified		情報源に特定年の日付として記載: 2026年6月1日	www.city.kasumigaura.lg.jp
+00047	かすみがうら市	いばキャラ祭り2025inイオンタウン水戸南に参加してきたよ	unclassified		情報源に特定年の日付として記載: 2025年7月25日	www.city.kasumigaura.lg.jp
+00048	かすみがうら市	おばんずくみ祭礼	shrine_festival	十五社神社	特定年の日程か例年の規則かは未確認: 12月15日	www.city.kasumigaura.lg.jp
+00049	かすみがうら市	かすみがうらフェスタ	citizen_festival		情報源に特定年の日付として記載: 2026年7月16日	www.city.kasumigaura.lg.jp
+00050	かすみがうら市	かすみがうらマラソンでランナーさんを応援＆前夜祭に参加	unclassified	歩崎公園		www.city.kasumigaura.lg.jp
+00051	かすみがうら市	かすみがうらマラソン前夜祭＆当日応援にかけつけたよ	unclassified		特定年の日程か例年の規則かは未確認: 7月25日	www.city.kasumigaura.lg.jp
+00052	かすみがうら市	かすみがうら祭	unclassified	に第1常陸野公園	情報源に特定年の日付として記載: 2023年9月1日	www.city.kasumigaura.lg.jp
+00053	かすみがうら市	出島あゆみ祭り	temple_festival	として信仰されてきた歩崎観音	毎年8月	www.kasumigaura-kankou.jp
+00054	かすみがうら市	子育て講習会『ベビーヨガ』(やまゆり館子育てルーム)	seasonal_flower_nature			www.city.kasumigaura.lg.jp
+00055	かすみがうら市	富士見塚古墳フェスタ	citizen_festival	富士見塚古墳公園	情報源に特定年の日付として記載: 2017年8月30日	www.city.kasumigaura.lg.jp
+00056	かすみがうら市	成井ばやし	temple_festival|traditional_performing_art	木造聖観音		www.city.kasumigaura.lg.jp
+00057	かすみがうら市	所有者又は管理者 西成井祭保存会	temple_festival	木造十一面観音	毎年7月下旬	www.city.kasumigaura.lg.jp
+00058	かすみがうら市	神立さかさい祭り	unclassified	神立駅前	情報源に特定年の日付として記載: 令和8年10月3日	www.kasumigaura-kankou.jp
+00059	かすみがうら市	茨城空港周年祭2026に参加したよ	unclassified		情報源に特定年の日付として記載: 2026年5月1日	www.city.kasumigaura.lg.jp
+00060	かすみがうら市	藤切り祇園祭	shrine_festival|temple_festival|seasonal_flower_nature	木造千手観音	情報源に特定年の日付として記載: 2017年8月30日	www.city.kasumigaura.lg.jp
+00061	かすみがうら市	鍋かけず祭礼	shrine_festival	十五社神社	特定年の日程か例年の規則かは未確認: 12月15日	www.city.kasumigaura.lg.jp
+00062	かすみがうら市	雪入十五社神社祭礼幕	shrine_festival|temple_festival|seasonal_flower_nature	長興寺		www.city.kasumigaura.lg.jp
+00063	かすみがうら市	鹿島踊り	shrine_festival|dance	十五社神社	特定年の日程か例年の規則かは未確認: 12月15日	www.city.kasumigaura.lg.jp
+00064	つくばみらい市	(R8)文化祭PR文書依頼	unclassified		特定年の日程か例年の規則かは未確認: 9月12日	www.city.tsukubamirai.lg.jp
+00065	つくばみらい市	(R8)文化祭展示の部参加調査票	unclassified		特定年の日程か例年の規則かは未確認: 9月12日	www.city.tsukubamirai.lg.jp
+00066	つくばみらい市	1月｜西丸山祈祷ばやし	shrine_festival|traditional_performing_art	伊奈神社	情報源に特定年の日付として記載: 2014年7月	mirai-kankou.com
+00067	つくばみらい市	4月｜きらくやま桜まつり	seasonal_flower_nature	総合運動公園	特定年の日程か例年の規則かは未確認: 8月24日	mirai-kankou.com
+00068	つくばみらい市	8月｜みらいフェスタ	shrine_festival|citizen_festival	伊奈神社	月第１土曜日	mirai-kankou.com
+00069	つくばみらい市	8月｜綱火 小張松下流･高岡流	shrine_festival	伊奈神社	月第１土曜日	mirai-kankou.com
+00070	つくばみらい市	R7子育て応援イベント 第1弾 「夏まつり」＠BLOOM	unclassified		情報源に特定年の日付として記載: 2025年8月14日	www.city.tsukubamirai.lg.jp
+00071	つくばみらい市	​小張松下流綱火	unclassified			www.city.tsukubamirai.lg.jp
+00072	つくばみらい市	おやこハロウィンパレード2023	unclassified		情報源に特定年の日付として記載: 令和5年10月20日	www.city.tsukubamirai.lg.jp
+00073	つくばみらい市	お子様も楽しめる「縁日コーナー」	temple_festival			www.city.tsukubamirai.lg.jp
+00074	つくばみらい市	きらくやま桜まつり	seasonal_flower_nature		特定年の日程か例年の規則かは未確認: 4月	mirai-kankou.com
+00075	つくばみらい市	こども夏まつり	unclassified		情報源に特定年の日付として記載: 令和8年9月12日	www.city.tsukubamirai.lg.jp
+00076	つくばみらい市	つくばみらい市商工感謝祭2023	unclassified		特定年の日程か例年の規則かは未確認: 11月10日	www.city.tsukubamirai.lg.jp
+00077	つくばみらい市	つくばみらい市商工感謝祭2024	unclassified	が野球場	月第一土曜日	www.city.tsukubamirai.lg.jp
+00078	つくばみらい市	つくばみらい市文化祭要項	unclassified		特定年の日程か例年の規則かは未確認: 8月	www.city.tsukubamirai.lg.jp
+00079	つくばみらい市	まつりなどの地域交流の場づくり	unclassified			www.city.tsukubamirai.lg.jp
+00080	つくばみらい市	みんなで踊ろう♬ぼんおどり	dance			www.city.tsukubamirai.lg.jp
+00081	つくばみらい市	初囃子	shrine_festival|traditional_performing_art	地区の鎮守の鹿島神社	特定年の日程か例年の規則かは未確認: 1月	kyoiku.pref.ibaraki.jp
+00082	つくばみらい市	和太鼓演奏	traditional_performing_art			www.city.tsukubamirai.lg.jp
+00083	つくばみらい市	商工感謝祭	shrine_festival	伊奈神社	特定年の日程か例年の規則かは未確認: 10月	mirai-kankou.com
+00084	つくばみらい市	国指定重要無形民俗文化財「綱火」	unclassified		情報源に特定年の日付として記載: 2026年8月5日	www.city.tsukubamirai.lg.jp
+00085	つくばみらい市	夏まつり	unclassified		情報源に特定年の日付として記載: 2025年8月14日	www.city.tsukubamirai.lg.jp
+00086	つくばみらい市	子育てイベント「こども夏まつり」に参加しませんか	unclassified			www.city.tsukubamirai.lg.jp
+00087	つくばみらい市	子育て応援イベント 第2弾「こども夏まつり」	unclassified		特定年の日程か例年の規則かは未確認: 7月30日	www.city.tsukubamirai.lg.jp
+00088	つくばみらい市	子育て支援室BLOOM 夏まつり	unclassified		情報源に特定年の日付として記載: 令和7年7月17日	www.city.tsukubamirai.lg.jp
+00089	つくばみらい市	小張松下流綱火	shrine_festival	小張愛宕神社	情報源に特定年の日付として記載: 令和8年8月24日	mirai-kankou.com
+00090	つくばみらい市	市制施行20周年記念事業 令和8年度つくばみらい市文化祭	unclassified			www.city.tsukubamirai.lg.jp
+00091	つくばみらい市	市文化祭申込み（団体または個人名）	unclassified		特定年の日程か例年の規則かは未確認: 6月	www.city.tsukubamirai.lg.jp
+00092	つくばみらい市	御事囃子	shrine_festival|traditional_performing_art	地区の鎮守の鹿島神社	特定年の日程か例年の規則かは未確認: 1月	kyoiku.pref.ibaraki.jp
+00093	つくばみらい市	手作り神輿をかつごう	mikoshi			www.city.tsukubamirai.lg.jp
+00094	つくばみらい市	文化祭参加申込書	unclassified		特定年の日程か例年の規則かは未確認: 7月3日	www.city.tsukubamirai.lg.jp
+00095	つくばみらい市	疫病退散!「西丸山祈祷ばやし」	traditional_performing_art		情報源に特定年の日付として記載: 2024年12月9日	www.city.tsukubamirai.lg.jp
+00096	つくばみらい市	祈祷囃子	traditional_performing_art		特定年の日程か例年の規則かは未確認: 1月	kyoiku.pref.ibaraki.jp
+00097	つくばみらい市	福岡堰さくらまつり	seasonal_flower_nature	遊歩道や多目的広場	情報源に特定年の日付として記載: 2026年7月15日	mirai-kankou.com
+00098	つくばみらい市	綱火	unclassified		特定年の日程か例年の規則かは未確認: 8月6日	www.city.tsukubamirai.lg.jp
+00099	つくばみらい市	綱火 つなび	unclassified		情報源に特定年の日付として記載: 令和8年8月24日	www.city.tsukubamirai.lg.jp
+00100	つくばみらい市	綱火保存連合会	unclassified			www.city.tsukubamirai.lg.jp
+00101	つくばみらい市	綱火開催に伴う無料シャトルバスの運行時刻表	unclassified		情報源に特定年の日付として記載: 2026年7月31日	www.city.tsukubamirai.lg.jp
+00102	つくばみらい市	縁日コーナー	temple_festival	つくばみらい市総合運動公園	情報源に特定年の日付として記載: 令和6年11月17日	www.city.tsukubamirai.lg.jp
+00103	つくばみらい市	西丸山祈祷ばやし	traditional_performing_art		特定年の日程か例年の規則かは未確認: 1月	mirai-kankou.com
+00104	つくばみらい市	西丸山祈祷囃子保存会	shrine_festival|traditional_performing_art	阿波の大杉神社	毎年1月15日	www.city.tsukubamirai.lg.jp
+00105	つくばみらい市	高岡流綱火	shrine_festival	小張愛宕神社	情報源に特定年の日付として記載: 令和8年8月24日	mirai-kankou.com
+00106	つくばみらい市	🌟みんなで踊ろう♬ぼんおどり	dance			www.city.tsukubamirai.lg.jp
+00107	つくばみらい市	🙌手作り神輿をかつごう	mikoshi			www.city.tsukubamirai.lg.jp
+00108	つくばみらい市	🥁和太鼓演奏	traditional_performing_art			www.city.tsukubamirai.lg.jp
+00109	つくば市	\🎆#まつりつくば2026🎆/ こんばんは	unclassified			ttca.jp
+00110	つくば市	vol.45 スペース田楽 さん	traditional_performing_art	ス兼整体院	情報源に特定年の日付として記載: 2025年08月25日	www.city.tsukuba.lg.jp
+00111	つくば市	つくばスポーツフェスティバル&つくパラ2026	citizen_festival	親子木育おもちゃ広場	情報源に特定年の日付として記載: 2026年6月27日	www.city.tsukuba.lg.jp
+00112	つくば市	つくばフェスティバル	citizen_festival	筑波北部公園	情報源に特定年の日付として記載: 令和7年9月23日	www.city.tsukuba.lg.jp
+00113	つくば市	つくばラーメンフェスタ	citizen_festival		情報源に特定年の日付として記載: ２０１２年１０月	ttca.jp
+00114	つくば市	つくば市民文化祭	unclassified			www.city.tsukuba.lg.jp
+00115	つくば市	つくば福来らーめん納涼祭	unclassified		情報源に特定年の日付として記載: ２０１７年１月	ttca.jp
+00116	つくば市	まつりつくば	unclassified		情報源に特定年の日付として記載: 2026年09月07日	www.city.tsukuba.lg.jp
+00117	つくば市	スペース田楽	traditional_performing_art	ス兼整体院	情報源に特定年の日付として記載: 2025年08月25日	www.city.tsukuba.lg.jp
+00118	つくば市	常陸乃国 ふるさと太鼓会	traditional_performing_art			ttca.jp
+00119	つくば市	感謝祭でやってみたいこと	unclassified	令和8年度第2回洞峰公園	情報源に特定年の日付として記載: 2026年9月10日	www.city.tsukuba.lg.jp
+00120	つくば市	桜総合体育館会議室	seasonal_flower_nature		特定年の日程か例年の規則かは未確認: 11月10日	www.city.tsukuba.lg.jp

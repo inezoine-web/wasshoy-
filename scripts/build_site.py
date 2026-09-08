@@ -9,6 +9,7 @@ import re
 import shutil
 from collections import defaultdict
 from pathlib import Path
+from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "_site"
@@ -90,13 +91,27 @@ def main() -> None:
     (OUT / "data").mkdir()
     shutil.copy(ROOT / "data/festivals.json", OUT / "data/festivals.json")
     shutil.copy(ROOT / "site/style.css", OUT / "assets/style.css")
-    data = json.loads((ROOT / "data/festivals.json").read_text())
+    data = json.loads((ROOT / "data/festivals.json").read_text(encoding="utf-8"))
     regions: dict[str, dict[str, list[str]]] = defaultdict(lambda: defaultdict(list))
     for festival in data["festivals"]:
         tags = "".join(f"<span>{html.escape(tag)}</span>" for tag in festival["categories"])
+        name = html.escape(festival["name"])
+        # 概要が未確認でも、出典へ飛べれば「なんだこれ?」を確かめられる。
+        # 祭り名そのものをリンクにして、行き先のホスト名を meta に出す。
+        sources = festival.get("sources") or []
+        heading = f"<h3>{name}</h3>"
+        source_line = ""
+        if sources and sources[0].get("url"):
+            url = html.escape(sources[0]["url"], quote=True)
+            heading = (
+                f'<h3><a href="{url}" target="_blank" rel="noopener noreferrer">{name}</a></h3>'
+            )
+            host = html.escape(urlparse(sources[0]["url"]).netloc)
+            more = f"　ほか{len(sources) - 1}件" if len(sources) > 1 else ""
+            source_line = f'<p class="src">{host}{more}</p>'
         card = f"""<article><p class="place">{html.escape(festival.get('district') or '市区町村内')}</p>
-<h3>{html.escape(festival['name'])}</h3><p>{html.escape(festival.get('summary') or '概要は未確認')}</p>
-<div class="tags">{tags}</div><p class="meta">{html.escape(festival['status'])} / 確信度 {html.escape(festival['confidence'])}</p></article>"""
+{heading}<p>{html.escape(festival.get('summary') or '概要は未確認')}</p>
+<div class="tags">{tags}</div>{source_line}<p class="meta">{html.escape(festival['status'])} / 確信度 {html.escape(festival['confidence'])}</p></article>"""
         regions[festival["prefecture"]][festival["municipality"]].append(card)
     region_sections = []
     for prefecture in sorted(regions):
@@ -118,13 +133,18 @@ def main() -> None:
         if path.name == "README.md":
             continue
         target = OUT / "reports" / f"{path.stem}.html"
-        target.write_text(page(path.stem, markdown(path.read_text()), "../"))
+        target.write_text(
+            page(path.stem, markdown(path.read_text(encoding="utf-8")), "../"),
+            encoding="utf-8",
+        )
         reports.append(f'<li><a href="reports/{path.stem}.html">{path.stem}</a></li>')
     body = f"""<section class="hero"><p class="eyebrow">OPEN RESEARCH ARCHIVE</p><h1>近くの祭りを、<br>根拠といっしょに。</h1>
 <p>自治体・主催者などの公開情報をたどり、まだ知らない地域行事に出会えるデータを育てています。</p></section>
 <section><div class="section-head"><h2>地域から祭りを探す</h2><strong>{len(data['festivals'])}件</strong></div>{''.join(region_sections)}</section>
 <section class="reports"><h2>調査レポート</h2><ul>{''.join(reports)}</ul><p><a href="data/festivals.json">JSONデータを開く →</a></p></section>"""
-    (OUT / "index.html").write_text(page("祭り調査アーカイブ", body))
+    (OUT / "index.html").write_text(
+        page("祭り調査アーカイブ", body), encoding="utf-8"
+    )
 
 
 if __name__ == "__main__":

@@ -1,0 +1,36 @@
+id	verdict	reason	alias_of	municipality	reading
+01561	keep	citizen	01594
+01562	drop	generic
+01563	drop	generic
+01564	drop	fragment
+01565	keep	folk	01593
+01566	keep	seasonal
+01567	keep	shrine
+01568	keep	citizen
+01569	drop	generic
+01570	keep	shrine
+01571	drop	fragment
+01572	keep	citizen
+01573	keep	shrine			つくまい
+01574	keep	shrine			やさかじんじゃぎおんさい
+01575	drop	generic
+01576	drop	generic
+01577	keep	folk
+01578	keep	folk	01593
+01579	drop	generic
+01580	drop	fragment
+01581	drop	fragment
+01582	drop	fragment
+01583	keep	market
+01584	keep	temple			ひぶせたいさい
+01585	keep	temple	01584
+01586	keep	citizen	01594
+01587	drop	fragment
+01588	keep	shrine			せつぶんたいさい
+01589	drop	fragment
+01590	keep	shrine
+01591	keep	citizen
+01592	keep	shrine
+01593	keep	folk			かいはらづかおこどばやし
+01594	keep	citizen
+01595	drop	generic

@@ -1,0 +1,121 @@
+id	verdict	reason	alias_of	municipality	reading
+00841	keep	folk
+00842	drop	organization
+00843	keep	temple
+00844	keep	seasonal			みとのさくらまつり
+00845	keep	seasonal			みとのうめまつり
+00846	keep	seasonal
+00847	keep	seasonal
+00848	keep	mikoshi
+00849	drop	generic
+00850	keep	fireworks
+00851	drop	generic
+00852	drop	generic
+00853	drop	fragment
+00854	keep	citizen			みとこうもんまつり
+00855	keep	citizen
+00856	drop	generic
+00857	drop	fragment
+00858	keep	citizen
+00859	keep	citizen	00858
+00860	drop	generic
+00861	drop	generic
+00862	keep	citizen
+00863	drop	generic
+00864	keep	citizen
+00865	drop	generic
+00866	drop	fragment
+00867	drop	fragment
+00868	drop	generic
+00869	keep	shrine			ながさおのぎおんさい
+00870	drop	generic
+00871	drop	fragment
+00872	keep	seasonal	00905
+00873	drop	fragment
+00874	drop	fragment
+00875	drop	fragment
+00876	drop	fragment
+00877	keep	seasonal	00906
+00878	keep	folk
+00879	drop	generic
+00880	keep	shrine
+00881	keep	folk			じょうごのししまい
+00882	keep	folk	00881
+00883	keep	shrine
+00884	drop	fragment
+00885	drop	fragment
+00886	keep	shrine
+00887	drop	generic
+00888	drop	generic
+00889	keep	shrine
+00890	drop	fragment
+00891	keep	shrine			おおうじんじゃていじょうさい
+00892	drop	generic
+00893	drop	generic
+00894	drop	generic
+00895	drop	generic
+00896	keep	shrine			みこまいしんじ
+00897	keep	shrine			のぶかたずもう
+00898	keep	shrine
+00899	keep	shrine	00898
+00900	drop	fragment
+00901	keep	shrine
+00902	keep	seasonal
+00903	drop	fragment
+00904	keep	citizen
+00905	keep	seasonal			すいごういたこあやめまつり
+00906	keep	seasonal
+00907	keep	fireworks
+00908	keep	folk			いたこばやし
+00909	drop	fragment
+00910	drop	fragment
+00911	drop	fragment
+00912	drop	generic
+00913	drop	generic
+00914	keep	seasonal
+00915	keep	organization	00919
+00916	drop	generic
+00917	drop	generic
+00918	drop	generic
+00919	keep	shrine			いたこぎおんさいれい
+00920	keep	shrine
+00921	drop	generic
+00922	keep	shrine	00919
+00923	keep	shrine
+00924	drop	commercial
+00925	drop	generic
+00926	keep	shrine
+00927	keep	shrine
+00928	drop	generic
+00929	keep	citizen	00904
+00930	keep	citizen			うしくわいわいまつり
+00931	keep	citizen			うしくかっぱまつり
+00932	keep	seasonal
+00933	keep	citizen
+00934	drop	fragment
+00935	drop	generic
+00936	keep	folk			しんかわばやし
+00937	keep	folk
+00938	drop	generic
+00939	drop	generic
+00940	drop	fragment
+00941	drop	fragment
+00942	keep	citizen	00933
+00943	drop	fragment
+00944	drop	fragment
+00945	drop	fragment
+00946	drop	fragment
+00947	drop	fragment
+00948	drop	fragment
+00949	drop	fragment
+00950	drop	fragment
+00951	drop	fragment
+00952	drop	fragment
+00953	drop	fragment
+00954	drop	fragment
+00955	drop	fragment
+00956	drop	fragment
+00957	drop	fragment
+00958	drop	fragment
+00959	keep	citizen	01008
+00960	keep	shrine	01010

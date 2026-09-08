@@ -1,0 +1,121 @@
+id	verdict	reason	alias_of	municipality	reading
+01201	keep	seasonal
+01202	keep	seasonal
+01203	drop	fragment
+01204	keep	folk
+01205	keep	seasonal
+01206	keep	citizen	01207
+01207	keep	citizen
+01208	drop	generic
+01209	drop	generic
+01210	drop	generic
+01211	keep	seasonal
+01212	drop	fragment
+01213	drop	fragment
+01214	drop	fragment
+01215	keep	citizen
+01216	keep	folk
+01217	drop	fragment
+01218	keep	shrine			らいじんじゃのゆたてさい
+01219	keep	shrine	01218
+01220	drop	generic
+01221	keep	seasonal
+01222	drop	fragment
+01223	drop	fragment
+01224	drop	fragment
+01225	keep	seasonal
+01226	drop	fragment
+01227	keep	market	01238
+01228	drop	fragment
+01229	keep	citizen
+01230	keep	citizen
+01231	drop	fragment
+01232	drop	fragment
+01233	drop	fragment
+01234	drop	generic
+01235	drop	generic
+01236	keep	shrine			たけだすがじんじゃかきたいさい
+01237	drop	fragment
+01238	keep	market
+01239	keep	shrine			なごしさい
+01240	keep	shrine	01239
+01241	drop	organization
+01242	keep	folk
+01243	drop	fragment
+01244	keep	organization	01245
+01245	keep	organization
+01246	keep	temple			やまかわふどうそんえんにち
+01247	drop	organization
+01248	keep	market
+01249	drop	fragment
+01250	drop	generic
+01251	keep	citizen			まつりゆうき
+01252	keep	shrine
+01253	drop	fragment
+01254	drop	fragment
+01255	keep	seasonal			ゆうきのひなまつり
+01256	keep	citizen
+01257	keep	citizen	01251
+01258	keep	citizen	01251
+01259	keep	seasonal	01255
+01260	keep	citizen	01251
+01261	keep	citizen
+01262	keep	citizen
+01263	keep	folk
+01264	drop	generic
+01265	keep	citizen	01251
+01266	drop	fragment
+01267	drop	fragment
+01268	drop	fragment
+01269	drop	fragment
+01270	drop	fragment
+01271	keep	citizen
+01272	keep	citizen	01271
+01273	drop	fragment
+01274	drop	generic
+01275	keep	market
+01276	keep	citizen			きはらしろやままつり
+01277	drop	fragment
+01278	keep	citizen
+01279	drop	generic
+01280	drop	fragment
+01281	keep	shrine	01289
+01282	drop	fragment
+01283	keep	seasonal	01295
+01284	keep	shrine	01289
+01285	keep	citizen	01291
+01286	keep	citizen	01291
+01287	keep	citizen	01291
+01288	keep	seasonal	01295
+01289	keep	shrine			あんばまつり
+01290	keep	folk
+01291	keep	citizen			いばらきまつり
+01292	drop	generic
+01293	keep	folk
+01294	keep	folk
+01295	keep	seasonal			ひぬまあじさいまつり
+01296	drop	organization
+01297	drop	generic
+01298	keep	folk
+01299	drop	out_of_area
+01300	drop	out_of_area
+01301	drop	out_of_area
+01302	keep	folk			おばたひょっとこばやし
+01303	drop	out_of_area
+01304	drop	out_of_area
+01305	drop	fragment
+01306	drop	generic
+01307	drop	out_of_area
+01308	drop	organization
+01309	drop	out_of_area
+01310	keep	citizen
+01311	drop	generic
+01312	drop	fragment
+01313	keep	folk			あきばばやし
+01314	keep	organization	01313
+01315	keep	folk			あきばあしぐろだいかぐら
+01316	drop	out_of_area
+01317	drop	fragment
+01318	drop	generic
+01319	drop	generic
+01320	drop	generic

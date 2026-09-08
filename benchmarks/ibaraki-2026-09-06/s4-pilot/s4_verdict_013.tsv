@@ -1,0 +1,121 @@
+id	verdict	reason	alias_of	municipality	reading
+01441	keep	folk	01449
+01442	drop	generic
+01443	drop	fragment
+01444	drop	generic
+01445	drop	generic
+01446	keep	citizen			まいあみまつり
+01447	drop	fragment
+01448	keep	market
+01449	keep	folk
+01450	drop	organization
+01451	drop	generic
+01452	drop	generic
+01453	drop	generic
+01454	drop	generic
+01455	drop	organization
+01456	drop	fragment
+01457	drop	out_of_area
+01458	keep	folk			かけまばやし
+01459	drop	out_of_area
+01460	keep	folk	01466
+01461	drop	generic
+01462	drop	generic
+01463	drop	generic
+01464	keep	temple			ふくだまつり
+01465	drop	generic
+01466	keep	folk
+01467	keep	folk	01449
+01468	keep	shrine
+01469	drop	generic
+01470	drop	fragment
+01471	keep	seasonal	01500
+01472	keep	folk			しもきみたのささら
+01473	keep	folk			にうじんじゃのぼうささら
+01474	drop	generic
+01475	drop	fragment
+01476	drop	fragment
+01477	drop	fragment
+01478	drop	fragment
+01479	drop	fragment
+01480	keep	seasonal	01500
+01481	keep	folk	01473
+01482	drop	fragment
+01483	drop	fragment
+01484	drop	fragment
+01485	drop	fragment
+01486	drop	fragment
+01487	drop	fragment
+01488	drop	fragment
+01489	drop	fragment
+01490	drop	generic
+01491	drop	organization
+01492	keep	seasonal	01493
+01493	keep	seasonal			はなぬきけいこくこうようまつり
+01494	keep	citizen			たかはぎまつり
+01495	drop	fragment
+01496	drop	fragment
+01497	drop	fragment
+01498	drop	fragment
+01499	keep	citizen
+01500	keep	seasonal
+01501	keep	seasonal	01500
+01502	keep	citizen	01548
+01503	drop	fragment
+01504	drop	fragment
+01505	drop	fragment
+01506	drop	generic
+01507	drop	generic
+01508	drop	generic
+01509	keep	citizen	01536
+01510	drop	generic
+01511	drop	generic
+01512	drop	generic
+01513	keep	citizen	01552
+01514	drop	fragment
+01515	drop	fragment
+01516	drop	fragment
+01517	keep	citizen
+01518	keep	citizen	01517
+01519	keep	shrine	01529
+01520	drop	fragment
+01521	drop	fragment
+01522	drop	fragment
+01523	keep	shrine
+01524	drop	fragment
+01525	keep	shrine			みふねまつり
+01526	keep	shrine
+01527	drop	generic
+01528	keep	citizen
+01529	keep	shrine			さいとうさい
+01530	keep	shrine	01529
+01531	drop	fragment
+01532	keep	citizen	01542
+01533	drop	generic
+01534	keep	shrine
+01535	drop	fragment
+01536	keep	citizen
+01537	drop	fragment
+01538	drop	fragment
+01539	drop	fragment
+01540	keep	citizen
+01541	keep	seasonal
+01542	keep	citizen
+01543	keep	citizen
+01544	keep	citizen
+01545	keep	shrine
+01546	keep	shrine	01534
+01547	keep	shrine
+01548	keep	citizen			かしままつり
+01549	drop	fragment
+01550	drop	fragment
+01551	keep	citizen	01548
+01552	keep	citizen
+01553	drop	generic
+01554	keep	fireworks
+01555	keep	seasonal
+01556	drop	organization
+01557	keep	seasonal	01558
+01558	keep	seasonal			たつのこやまさくらまつり
+01559	drop	generic
+01560	drop	generic

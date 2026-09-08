@@ -1,0 +1,121 @@
+id	verdict	reason	alias_of	municipality	reading
+00001	drop	generic
+00002	drop	generic
+00003	keep	folk	00023	日立市
+00004	keep	organization		土浦市
+00005	keep	organization		境町
+00006	drop	out_of_area
+00007	drop	generic
+00008	keep	organization		古河市
+00009	drop	organization
+00010	keep	folk	00098	つくばみらい市
+00011	drop	generic
+00012	keep	organization		龍ケ崎市
+00013	keep	organization		筑西市
+00014	drop	generic
+00015	keep	folk	00089	つくばみらい市
+00016	drop	generic
+00017	drop	generic
+00018	keep	organization		北茨城市
+00019	drop	out_of_area
+00020	drop	organization
+00021	keep	seasonal		日立市	ひたちさくらまつり
+00022	keep	folk		日立市	ひたちのささら
+00023	keep	folk		日立市
+00024	keep	folk		笠間市
+00025	keep	folk		常総市
+00026	keep	organization		大子町
+00027	keep	folk		潮来市	いたこばやし
+00028	keep	folk		石岡市
+00029	keep	folk		水戸市
+00030	keep	folk		石岡市
+00031	drop	fragment
+00032	unsure	generic
+00033	keep	organization		つくばみらい市
+00034	drop	fragment
+00035	drop	generic
+00036	keep	folk	00022	日立市
+00037	keep	folk	00027	潮来市
+00038	drop	generic
+00039	keep	organization		つくばみらい市
+00040	drop	generic
+00041	drop	fragment
+00042	keep	organization		鉾田市
+00043	keep	folk	00105	つくばみらい市
+00044	keep	citizen	00055
+00045	keep	temple	00053
+00046	drop	fragment
+00047	drop	fragment
+00048	keep	shrine			おばんずくみさいれい
+00049	keep	citizen
+00050	drop	fragment
+00051	drop	fragment
+00052	keep	citizen
+00053	keep	temple			でじまあゆみまつり
+00054	drop	generic
+00055	keep	citizen
+00056	keep	folk			なるいばやし
+00057	drop	fragment
+00058	keep	citizen
+00059	drop	fragment
+00060	keep	shrine			ふじきりぎおんさい
+00061	keep	shrine
+00062	drop	generic
+00063	keep	folk			かしまおどり
+00064	drop	fragment
+00065	drop	fragment
+00066	keep	folk	00103
+00067	keep	seasonal	00074
+00068	keep	citizen
+00069	keep	folk	00098
+00070	drop	generic
+00071	keep	folk	00089
+00072	drop	generic
+00073	drop	fragment
+00074	keep	seasonal			きらくやまさくらまつり
+00075	drop	generic
+00076	keep	citizen	00083
+00077	keep	citizen	00083
+00078	drop	fragment
+00079	drop	fragment
+00080	drop	generic
+00081	keep	folk			はつばやし
+00082	drop	generic
+00083	keep	citizen			しょうこうかんしゃさい
+00084	keep	folk	00098
+00085	drop	generic
+00086	drop	generic
+00087	drop	generic
+00088	drop	generic
+00089	keep	folk			こばりまつしたりゅうつなび
+00090	drop	generic
+00091	drop	fragment
+00092	keep	folk
+00093	drop	fragment
+00094	drop	fragment
+00095	keep	folk	00103
+00096	keep	folk	00103
+00097	keep	seasonal			ふくおかぜきさくらまつり
+00098	keep	folk			つなび
+00099	keep	folk	00098
+00100	keep	organization	00098
+00101	drop	fragment
+00102	drop	fragment
+00103	keep	folk			にしまるやまきとうばやし
+00104	keep	organization	00103
+00105	keep	folk			たかおかりゅうつなび
+00106	drop	generic
+00107	drop	fragment
+00108	drop	generic
+00109	drop	fragment
+00110	drop	organization
+00111	drop	generic
+00112	keep	citizen
+00113	drop	commercial
+00114	keep	citizen
+00115	drop	commercial
+00116	keep	citizen			まつりつくば
+00117	drop	organization
+00118	drop	organization
+00119	drop	fragment
+00120	drop	venue_only

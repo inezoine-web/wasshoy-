@@ -1,0 +1,121 @@
+id	verdict	reason	alias_of	municipality	reading
+00721	keep	citizen			ひたちこくさいだいどうげい
+00722	keep	citizen
+00723	keep	fireworks
+00724	keep	folk
+00725	drop	fragment
+00726	drop	fragment
+00727	drop	fragment
+00728	keep	citizen			よかっぺまつり
+00729	drop	fragment
+00730	drop	generic
+00731	drop	fragment
+00732	keep	folk	00746
+00733	drop	generic
+00734	drop	fragment
+00735	keep	citizen			じゅうおうまつり
+00736	keep	citizen			ひたちあんどんまつり
+00737	keep	seasonal			ひたちさくらまつり
+00738	drop	generic
+00739	drop	organization
+00740	keep	folk			ひたちのささら
+00741	drop	venue_only
+00742	drop	organization
+00743	drop	fragment
+00744	keep	citizen
+00745	keep	citizen			ひたちみなとまつり
+00746	keep	folk			ひたちふうりゅうもの
+00747	drop	generic
+00748	keep	folk	00740
+00749	keep	shrine			かみねじんじゃだいさいれい
+00750	drop	generic
+00751	drop	fragment
+00752	drop	generic
+00753	drop	organization
+00754	keep	folk			かなさだいでんがく
+00755	keep	citizen	00716
+00756	drop	generic
+00757	drop	fragment
+00758	keep	citizen	00768
+00759	drop	generic
+00760	drop	fragment
+00761	drop	fragment
+00762	drop	generic
+00763	drop	generic
+00764	drop	fragment
+00765	drop	generic
+00766	drop	fragment
+00767	drop	fragment
+00768	keep	citizen
+00769	keep	seasonal
+00770	keep	citizen			とうかいまつり
+00771	drop	fragment
+00772	keep	citizen
+00773	drop	generic
+00774	keep	citizen
+00775	drop	generic
+00776	keep	fireworks
+00777	keep	fireworks	00776
+00778	drop	generic
+00779	keep	seasonal	00817
+00780	keep	citizen
+00781	drop	generic
+00782	keep	shrine	00819
+00783	keep	shrine	00801
+00784	keep	seasonal
+00785	keep	shrine			かったてまつり
+00786	keep	market	00793
+00787	keep	market
+00788	drop	fragment
+00789	drop	fragment
+00790	drop	fragment
+00791	drop	fragment
+00792	keep	temple
+00793	keep	market			まかべあさいち
+00794	drop	generic
+00795	drop	generic
+00796	keep	citizen
+00797	keep	temple			まだらきしんさい
+00798	keep	shrine
+00799	drop	generic
+00800	keep	citizen
+00801	keep	shrine			まほろばやぶさめがっせん
+00802	keep	temple
+00803	keep	citizen
+00804	keep	shrine
+00805	keep	seasonal	00812
+00806	drop	fragment
+00807	drop	fragment
+00808	drop	fragment
+00809	drop	generic
+00810	drop	generic
+00811	drop	generic
+00812	keep	seasonal
+00813	drop	fragment
+00814	drop	generic
+00815	keep	shrine			かしょうさい
+00816	keep	seasonal
+00817	keep	seasonal			まかべのひなまつり
+00818	keep	folk
+00819	keep	shrine			まかべぎおんさい
+00820	keep	shrine	00804
+00821	keep	shrine	00819
+00822	keep	shrine	00804
+00823	keep	temple
+00824	drop	generic
+00825	drop	generic
+00826	drop	generic
+00827	keep	shrine			くわのまつり
+00828	drop	generic
+00829	keep	seasonal	00817
+00830	drop	generic
+00831	keep	citizen
+00832	drop	fragment
+00833	drop	generic
+00834	keep	citizen
+00835	drop	generic
+00836	drop	fragment
+00837	drop	fragment
+00838	drop	generic
+00839	keep	shrine			ありがじんじゃのいそとぎょ
+00840	drop	generic
