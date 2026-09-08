@@ -382,7 +382,12 @@ def main(argv: list[str] | None = None) -> int:
                     help="並行して探索する自治体数。礼儀はホスト単位の制約なので"
                          "別ホストへは同時にアクセスしてよいが、並列数だけ"
                          "メモリを食う。空きメモリが少ない環境では下げる")
-    ap.add_argument("--max-depth", type=int, default=2)
+    ap.add_argument("--max-depth", type=int, default=3,
+                    help="起点から何リンク先まで辿るか。ベンチマークを取った"
+                         "構成は深さ3であり、既定値もそこに揃えてある。"
+                         "湖西市の実測では、深さ3で40ページ取るのと"
+                         "深さ2で150ページ取るのが同じ件数だった。"
+                         "予算より深さのほうが効く")
     ap.add_argument("--delay", type=float, default=1.0)
     ap.add_argument("--offline", action="store_true")
     ap.add_argument("--resume", action="store_true",
