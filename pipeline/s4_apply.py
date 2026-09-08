@@ -23,12 +23,14 @@ from __future__ import annotations
 import argparse
 import collections
 import csv
+import hashlib
 import re
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
+from normalize import dedup_key  # noqa: E402
 from romaji import is_kana, romanize, slugify  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -113,6 +115,34 @@ def clean_display_name(name: str, is_organization: bool) -> str:
             out = stripped
     out = out.strip(" 　「」『』")
     return out if len(out) >= 2 else name
+
+
+def stable_id(prefecture_romaji: str, municipality_romaji: str,
+              name: str, reading: str | None) -> tuple[str, str]:
+    """安定IDを決める。戻り値は (id, 由来)。
+
+    読みが確認できればヘボン式ローマ字を使う。読めない漢字は珍しくないので
+    （「化蘇沼」「鷲子」「安居」…）、確認できない場合は**名称から導いた
+    ハッシュ**を使う。推測で読みを作らない。
+
+    **一度決めたIDは変えない。** あとから読みが分かってもIDは据え置き、
+    読みは別のフィールドに記録する。IDを変えると既存レコードとの突合や
+    重複検出が破綻するため、可読性より同一性を優先する。
+
+    ハッシュIDは `x` で始めるので、ローマ字由来かどうかが一目でわかる
+    （日本語のローマ字は x では始まらない）。
+    """
+    if reading and is_kana(reading):
+        romaji = romanize(reading)
+        if romaji:
+            slug = slugify(romaji)
+            if slug:
+                return f"{prefecture_romaji}-{municipality_romaji}-{slug}", "reading"
+    # dedup_key を種にする。表記揺れ (第N回・年号・空白) では変わらない。
+    digest = hashlib.sha1(
+        f"{prefecture_romaji}/{municipality_romaji}/{dedup_key(name)}".encode("utf-8")
+    ).hexdigest()[:8]
+    return f"{prefecture_romaji}-{municipality_romaji}-x{digest}", "hash"
 
 
 def _place(rid: str, index: dict, verdicts: dict) -> str:
@@ -222,22 +252,7 @@ def main(argv: list[str] | None = None) -> int:
             row["municipality"] = v["municipality"]
             stats["municipality_resolved"] += 1
 
-        # slug は必ずこちらで生成する。AIのローマ字は使わない。
-        reading = v.get("reading", "")
-        if row["slug"] == "PENDING" and reading and is_kana(reading):
-            romaji = romanize(reading)
-            if romaji:
-                pref_r, muni_r = _romaji_for(row["prefecture"], row["municipality"])
-                if pref_r and muni_r:
-                    candidate = f"{pref_r}-{muni_r}-{slugify(romaji)}"
-                    if SLUG_RE.match(candidate) and candidate not in slugs:
-                        row["slug"] = candidate
-                        slugs[candidate] = rid
-                        stats["slug_resolved"] += 1
-                    elif candidate in slugs:
-                        problems.append(
-                            f"id {rid}: slug {candidate} が id {slugs[candidate]} と衝突"
-                        )
+        row["_reading"] = v.get("reading", "")
 
         # 名称の整形は keep 行だけに行う。元の名称は aliases に残す。
         row["s4_verdict"] = verdict
@@ -263,7 +278,9 @@ def main(argv: list[str] | None = None) -> int:
     id_of = {id(r): rid for rid, r in zip(sorted(by_id), out_rows)}
     for r in out_rows:
         if r["s4_verdict"] == "keep" and not r["s4_alias_of"]:
-            by_name[(r["municipality"], r["name"])].append(r)
+            # 表記揺れも畳んだキーで見る。整形で「○○まつり」と「○○祭り」が
+            # 同じものになる場合があり、名称の完全一致だけでは取り逃す。
+            by_name[(r["municipality"], dedup_key(r["name"]))].append(r)
     for group in by_name.values():
         if len(group) < 2:
             continue
@@ -286,6 +303,33 @@ def main(argv: list[str] | None = None) -> int:
             canonical["source_urls"] = "|".join(urls[:8])
             canonical["source_count"] = str(len(urls))
 
+    # --- ID付与 ---
+    # 名称の整形と重複統合が終わってから、代表行 (別名でない keep) にだけ与える。
+    # 整形前の名称でIDを作ると、統合されるはずの行に別のIDが振られてしまう。
+    for rid, row in zip(sorted(by_id), out_rows):
+        if row["s4_verdict"] != "keep" or row["s4_alias_of"]:
+            row["slug"] = ""          # 別名行はIDを持たない
+            continue
+        if row["slug"] != "PENDING":  # S3で読みから決まっていたものはそのまま
+            slugs.setdefault(row["slug"], rid)
+            stats["id_reading"] += 1
+            continue
+        pref_r, muni_r = _romaji_for(row["prefecture"], row["municipality"])
+        if not (pref_r and muni_r):
+            problems.append(f"id {rid}: 市町村のローマ字が引けない ({row['municipality']})")
+            continue
+        candidate, origin = stable_id(pref_r, muni_r, row["name"], row.get("_reading"))
+        if not SLUG_RE.match(candidate):
+            problems.append(f"id {rid}: 生成IDの形式が不正 ({candidate})")
+        elif candidate in slugs:
+            problems.append(f"id {rid}: ID {candidate} が id {slugs[candidate]} と衝突")
+        else:
+            row["slug"] = candidate
+            slugs[candidate] = rid
+            stats[f"id_{origin}"] += 1
+    for row in out_rows:
+        row.pop("_reading", None)
+
     out = WORK_DIR / "judged.tsv"
     fields = list(out_rows[0].keys()) if out_rows else ["prefecture"]
     with out.open("w", encoding="utf-8", newline="\n") as fh:
@@ -296,12 +340,17 @@ def main(argv: list[str] | None = None) -> int:
     print(f"judged.tsv: {len(out_rows)} 件")
     print(f"  keep {stats['keep']} / drop {stats['drop']} / unsure {stats['unsure']}")
     print(f"  所在を確定できた   : {stats['municipality_resolved']}")
-    print(f"  slug を確定できた  : {stats['slug_resolved']}")
+    print(f"  ID: 読み由来       : {stats['id_reading']}")
+    print(f"  ID: ハッシュ由来   : {stats['id_hash']}")
     print(f"  名称を整形         : {stats['name_cleaned']}  (元の名称は aliases に残す)")
     print(f"  整形で判明した重複 : {stats['merged_after_clean']}  (機械的に統合した)")
     print(f"  別名として統合     : {sum(1 for r in out_rows if r['s4_alias_of'])}")
-    still = sum(1 for r in out_rows if r["slug"] == "PENDING")
-    print(f"  slug PENDING 残り  : {still}")
+    canon = [r for r in out_rows if r["s4_verdict"] == "keep" and not r["s4_alias_of"]]
+    print(f"  代表行 (別名を除く) : {len(canon)}")
+    still = sum(1 for r in canon if r["slug"] in ("", "PENDING"))
+    print(f"  ID 未確定          : {still}  (0であるべき)")
+    ids = [r["slug"] for r in canon if r["slug"]]
+    print(f"  ID の重複          : {len(ids) - len(set(ids))}  (0であるべき)")
     return 0
 
 
