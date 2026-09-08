@@ -26,7 +26,20 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 WORK_DIR = REPO_ROOT / "work"
 
 
-def load_output() -> list[dict[str, str]]:
+def load_output(judged: bool = False) -> list[dict[str, str]]:
+    """S3の出力、または S4 判定後の出力を読む。
+
+    judged=True では `keep` の行だけを対象にする。別名として統合された行は
+    残す — 同じ行事を別名で拾っていること自体が発見の成果であり、
+    ベンチマークとの照合ではどちらの表記で当たっても構わないため。
+    """
+    if judged:
+        path = WORK_DIR / "judged.tsv"
+        if not path.is_file():
+            raise SystemExit("先に s4_apply.py を実行してください")
+        with path.open(encoding="utf-8", newline="") as fh:
+            rows = list(csv.DictReader(fh, delimiter="\t"))
+        return [r for r in rows if r.get("s4_verdict") == "keep"]
     path = WORK_DIR / "normalized.tsv"
     if not path.is_file():
         raise SystemExit("先に normalize.py を実行してください")
@@ -98,6 +111,8 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--benchmark", required=True)
     ap.add_argument("--show-misses", action="store_true")
     ap.add_argument("--sample-new", type=int, default=30)
+    ap.add_argument("--judged", action="store_true",
+                    help="S4判定後 (judged.tsv の keep 行) を評価する")
     args = ap.parse_args(argv)
 
     bench = Path(args.benchmark)
@@ -105,7 +120,7 @@ def main(argv: list[str] | None = None) -> int:
     with (bench / "gold.tsv").open(encoding="utf-8", newline="") as fh:
         gold = list(csv.DictReader(fh, delimiter="\t"))
 
-    rows = load_output()
+    rows = load_output(args.judged)
     prefecture = snapshot["prefecture"]
     rows = [r for r in rows if r["prefecture"] == prefecture]
     by_muni_name, by_name, urls = index_output(rows)

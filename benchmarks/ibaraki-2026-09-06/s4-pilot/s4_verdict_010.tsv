@@ -1,0 +1,121 @@
+id	verdict	reason	alias_of	municipality	reading
+01081	drop	generic
+01082	keep	folk			しもすだのぼんづな
+01083	keep	shrine
+01084	drop	fragment
+01085	keep	organization	01089
+01086	keep	folk
+01087	keep	shrine
+01088	keep	organization	01087
+01089	keep	folk			おおすぎじんじゃじゅうにざかぐら
+01090	keep	shrine
+01091	keep	shrine
+01092	keep	shrine
+01093	drop	organization
+01094	keep	shrine			えどさきぎおんさい
+01095	drop	fragment
+01096	drop	fragment
+01097	drop	generic
+01098	drop	generic
+01099	drop	generic
+01100	keep	shrine			はつうまさい
+01101	drop	generic
+01102	drop	generic
+01103	drop	generic
+01104	drop	generic
+01105	drop	generic
+01106	keep	seasonal
+01107	keep	citizen
+01108	drop	fragment
+01109	keep	citizen	01134
+01110	keep	citizen
+01111	keep	mikoshi
+01112	drop	generic
+01113	keep	shrine	01115
+01114	keep	mikoshi
+01115	keep	shrine
+01116	keep	shrine
+01117	keep	shrine
+01118	keep	shrine			あいきじんじゃれいたいさい
+01119	drop	generic
+01120	keep	shrine	01116
+01121	keep	shrine	01131
+01122	drop	fragment
+01123	drop	generic
+01124	drop	fragment
+01125	keep	folk			あごとうろうねんぶつ
+01126	keep	folk			いわまばやし
+01127	keep	mikoshi	01114
+01128	keep	folk
+01129	keep	folk	01125
+01130	keep	folk	01126
+01131	keep	shrine
+01132	keep	shrine			あくたいまつり
+01133	drop	fragment
+01134	keep	citizen
+01135	drop	fragment
+01136	keep	shrine	01137
+01137	keep	shrine			やぶさめ
+01138	drop	out_of_area
+01139	drop	fragment
+01140	drop	fragment
+01141	keep	seasonal			かさまつつじまつり
+01142	keep	citizen
+01143	drop	generic
+01144	keep	seasonal			かさまのきくまつり
+01145	keep	citizen			かさまのひまつり
+01146	drop	fragment
+01147	keep	citizen
+01148	keep	shrine	01137
+01149	keep	shrine
+01150	drop	commercial
+01151	drop	fragment
+01152	drop	fragment
+01153	keep	shrine	01176
+01154	drop	fragment
+01155	drop	fragment
+01156	keep	seasonal
+01157	keep	citizen
+01158	drop	organization
+01159	drop	generic
+01160	keep	citizen
+01161	keep	market	01173
+01162	keep	citizen
+01163	keep	citizen	01162
+01164	keep	fireworks
+01165	keep	citizen
+01166	drop	organization
+01167	drop	organization
+01168	drop	organization
+01169	drop	fragment
+01170	drop	generic
+01171	drop	organization
+01172	keep	seasonal
+01173	keep	market			しもだてだるまいち
+01174	drop	fragment
+01175	keep	folk
+01176	keep	shrine			しもだてぎおんまつり
+01177	keep	shrine	01176
+01178	drop	fragment
+01179	keep	folk	01187
+01180	keep	folk	01187
+01181	drop	generic
+01182	drop	organization
+01183	drop	fragment
+01184	keep	folk
+01185	keep	organization	01187
+01186	keep	folk	01187
+01187	keep	folk			だいだいかぐら
+01188	keep	mikoshi
+01189	keep	folk			おぐりないげだいじんぐうだいだいかぐら
+01190	keep	citizen			おぐりはんがんまつり
+01191	keep	folk	01189
+01192	keep	fireworks
+01193	keep	fireworks
+01194	keep	shrine
+01195	keep	mikoshi
+01196	drop	fragment
+01197	drop	generic
+01198	keep	mikoshi
+01199	keep	citizen
+01200	drop	generic

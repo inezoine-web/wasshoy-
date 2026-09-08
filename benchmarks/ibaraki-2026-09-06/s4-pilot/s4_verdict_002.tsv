@@ -1,0 +1,121 @@
+id	verdict	reason	alias_of	municipality	reading
+00121	drop	organization
+00122	keep	citizen
+00123	keep	organization
+00124	keep	citizen
+00125	keep	shrine			つくばさんがままつり
+00126	keep	seasonal
+00127	keep	shrine	00128
+00128	keep	shrine			かんげつさい
+00129	keep	seasonal
+00130	keep	fireworks
+00131	drop	fragment
+00132	keep	shrine
+00133	drop	generic
+00134	drop	generic
+00135	drop	generic
+00136	keep	shrine			さわあきばじんじゃのひまつり
+00137	keep	shrine	00136
+00138	drop	generic
+00139	drop	generic
+00140	keep	shrine			はっさくさい
+00141	keep	shrine
+00142	drop	generic
+00143	drop	generic
+00144	keep	shrine
+00145	keep	organization	00144
+00146	keep	folk
+00147	keep	shrine			ひらいそさんじゃまつり
+00148	drop	generic
+00149	drop	out_of_area
+00150	keep	shrine
+00151	keep	organization
+00152	drop	generic
+00153	keep	fireworks
+00154	keep	citizen
+00155	keep	shrine			たばんかさい
+00156	drop	fragment
+00157	keep	shrine
+00158	keep	citizen
+00159	keep	citizen	00158
+00160	drop	fragment
+00161	keep	seasonal
+00162	keep	citizen			たがやじだいまつり
+00163	keep	citizen
+00164	keep	citizen
+00165	keep	citizen
+00166	keep	citizen	00165
+00167	drop	organization
+00168	keep	citizen
+00169	drop	fragment
+00170	drop	fragment
+00171	keep	citizen
+00172	drop	fragment
+00173	keep	fireworks	00176
+00174	drop	fragment
+00175	keep	citizen
+00176	keep	fireworks
+00177	keep	shrine
+00178	drop	fragment
+00179	drop	fragment
+00180	keep	fireworks	00176
+00181	drop	generic
+00182	drop	fragment
+00183	keep	citizen	00186
+00184	drop	fragment
+00185	keep	citizen
+00186	keep	citizen
+00187	drop	venue_only
+00188	drop	fragment
+00189	drop	fragment
+00190	keep	seasonal
+00191	keep	folk			あわんとり
+00192	keep	seasonal
+00193	keep	citizen
+00194	keep	seasonal
+00195	keep	citizen
+00196	drop	generic
+00197	keep	fireworks
+00198	keep	fireworks	00197
+00199	keep	citizen
+00200	keep	citizen	00195
+00201	drop	generic
+00202	keep	temple			たちまつり
+00203	keep	shrine
+00204	drop	generic
+00205	drop	fragment
+00206	drop	organization
+00207	drop	fragment
+00208	keep	shrine
+00209	drop	fragment
+00210	drop	generic
+00211	drop	generic
+00212	drop	fragment
+00213	keep	folk	00221
+00214	keep	citizen
+00215	keep	shrine	00218
+00216	keep	folk
+00217	drop	generic
+00218	keep	shrine			ひたちおおつのみふねまつり
+00219	drop	fragment
+00220	drop	venue_only
+00221	keep	folk			はなぞののささら
+00222	keep	citizen	00230
+00223	keep	shrine	00234
+00224	keep	citizen
+00225	keep	citizen	00224
+00226	drop	generic
+00227	drop	fragment
+00228	drop	fragment
+00229	drop	generic
+00230	keep	citizen
+00231	drop	organization
+00232	drop	fragment
+00233	drop	generic
+00234	keep	shrine			やさかじんじゃれいたいさい
+00235	drop	fragment
+00236	drop	fragment
+00237	drop	fragment
+00238	drop	fragment
+00239	drop	fragment
+00240	drop	organization

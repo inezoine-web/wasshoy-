@@ -1,0 +1,121 @@
+id	verdict	reason	alias_of	municipality	reading
+01321	drop	out_of_area
+01322	drop	out_of_area
+01323	drop	out_of_area
+01324	drop	fragment
+01325	drop	generic
+01326	drop	generic
+01327	drop	out_of_area
+01328	keep	citizen
+01329	drop	fragment
+01330	drop	fragment
+01331	drop	fragment
+01332	drop	generic
+01333	keep	shrine			どぶろくまつり
+01334	drop	generic
+01335	drop	generic
+01336	keep	shrine	01337
+01337	keep	shrine			けそぬまいなりじんじゃれいたいさい
+01338	keep	shrine
+01339	keep	shrine
+01340	keep	shrine
+01341	drop	generic
+01342	keep	temple
+01343	keep	temple
+01344	keep	temple			さいれんじじょうぎょうざんまいえ
+01345	keep	shrine			あそうぎおんうまだしまつり
+01346	keep	citizen	01370
+01347	keep	citizen	01373
+01348	keep	citizen	01361
+01349	keep	citizen	01358
+01350	keep	citizen	01373
+01351	keep	citizen	01375
+01352	keep	seasonal	01366
+01353	keep	folk	01389
+01354	keep	seasonal	01391
+01355	keep	citizen
+01356	keep	shrine	01381
+01357	keep	shrine	01395
+01358	keep	citizen
+01359	keep	market
+01360	keep	seasonal
+01361	keep	citizen
+01362	keep	citizen
+01363	keep	seasonal
+01364	keep	citizen
+01365	drop	generic
+01366	keep	seasonal			やえざくらまつり
+01367	drop	generic
+01368	keep	folk			だいすけばやし
+01369	drop	venue_only
+01370	keep	citizen
+01371	drop	fragment
+01372	drop	fragment
+01373	keep	citizen
+01374	drop	organization
+01375	keep	citizen
+01376	keep	citizen	01388
+01377	drop	fragment
+01378	keep	shrine	01393
+01379	drop	out_of_area
+01380	drop	fragment
+01381	keep	shrine			すがやまつり
+01382	keep	folk	01368
+01383	keep	seasonal
+01384	keep	organization
+01385	drop	generic
+01386	drop	fragment
+01387	drop	generic
+01388	keep	citizen
+01389	keep	folk			かどべひょっとこおどり
+01390	keep	folk
+01391	keep	seasonal
+01392	keep	seasonal	01391
+01393	keep	shrine			しずじんじゃしゅうきたいさい
+01394	keep	citizen
+01395	keep	shrine			ぬかだまつり
+01396	drop	fragment
+01397	drop	fragment
+01398	keep	citizen	01425
+01399	keep	citizen	01425
+01400	drop	fragment
+01401	drop	fragment
+01402	drop	fragment
+01403	keep	citizen
+01404	drop	fragment
+01405	keep	fireworks	01432
+01406	keep	citizen
+01407	keep	citizen	01406
+01408	keep	citizen
+01409	drop	fragment
+01410	drop	fragment
+01411	drop	fragment
+01412	drop	commercial
+01413	keep	citizen	01436
+01414	keep	citizen	01406
+01415	keep	citizen	01406
+01416	keep	temple	01417
+01417	keep	temple			とうがさきじゅういちめんかんぜおんえんにちだいほうようさい
+01418	keep	temple	01417
+01419	keep	temple	01417
+01420	keep	fireworks	01432
+01421	keep	citizen	01406
+01422	keep	citizen	01428
+01423	keep	seasonal
+01424	drop	generic
+01425	keep	citizen
+01426	drop	fragment
+01427	drop	out_of_area
+01428	keep	citizen
+01429	drop	fragment
+01430	drop	fragment
+01431	keep	folk
+01432	keep	fireworks			ほこたはなびたいかい
+01433	keep	shrine			ほこじんじゃかきれいたいさい
+01434	keep	shrine	01433
+01435	drop	generic
+01436	keep	citizen
+01437	keep	citizen	01436
+01438	drop	fragment
+01439	keep	temple	01464
+01440	keep	citizen	01446
