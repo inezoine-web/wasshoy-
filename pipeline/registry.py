@@ -192,12 +192,20 @@ def candidate_domains(muni_romaji: str, muni_type: str, pref_romaji: str) -> lis
     label = _TYPE_LABEL.get(muni_type)
     if label is None:
         return []
+    # 町村の読みは「モリマチ」「オヤマチョウ」のように種別を含むが、
+    # ローマ字列からは落としてある。ドメインには残している自治体があるので
+    # (森町 www.town.morimachi.shizuoka.jp)、接尾辞つきも候補に出す。
+    # マチ/チョウ、ムラ/ソン のどちらを読むかは表から判らないため両方試す。
+    _SUFFIXES = {"町": ("machi", "cho"), "村": ("mura", "son"), "市": ("shi",)}
     names: list[str] = []
     for variant in romaji_variants(muni_romaji):
-        names.append(variant)
-        if pref_romaji:
-            # 同名市がある場合は都道府県名を前置する (古河市 -> ibaraki-koga)
-            names.append(f"{pref_romaji}-{variant}")
+        forms = [variant]
+        forms += [variant + suf for suf in _SUFFIXES.get(muni_type, ())]
+        for form in forms:
+            names.append(form)
+            if pref_romaji:
+                # 同名市がある場合は都道府県名を前置する (古河市 -> ibaraki-koga)
+                names.append(f"{pref_romaji}-{form}")
     urls: list[str] = []
     for name in names:
         for host in (

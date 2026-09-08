@@ -43,6 +43,41 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 085421	茨城県	五霞町	https://www.town.goka.lg.jp/		本文に自治体名を確認
 085464	茨城県	境町	https://www.town.ibaraki-sakai.lg.jp/		本文に自治体名を確認
 085642	茨城県	利根町	https://www.town.tone.ibaraki.jp/		本文に自治体名を確認
+221007	静岡県	静岡市	https://www.city.shizuoka.lg.jp/	https://www.visit-shizuoka.com/	本文に自治体名を確認
+221309	静岡県	浜松市	https://www.city.hamamatsu.shizuoka.jp/	http://hamamatsu-daisuki.net/	本文に自治体名を確認
+222038	静岡県	沼津市	https://www.city.numazu.shizuoka.jp/	https://numazukanko.jp/	本文に自治体名を確認
+222054	静岡県	熱海市	https://www.city.atami.lg.jp/	http://www.ataminews.gr.jp/	本文に自治体名を確認
+222062	静岡県	三島市	https://www.city.mishima.shizuoka.jp/		本文に自治体名を確認
+222071	静岡県	富士宮市	https://www.city.fujinomiya.lg.jp/		本文に自治体名を確認
+222089	静岡県	伊東市	https://www.city.ito.shizuoka.jp/	https://itospa.com/	本文に自治体名を確認
+222097	静岡県	島田市	https://www.city.shimada.shizuoka.jp/	https://oi-river-trip.com/	本文に自治体名を確認
+222101	静岡県	富士市	https://www.city.fuji.shizuoka.jp/		本文に自治体名を確認
+222119	静岡県	磐田市	https://www.city.iwata.shizuoka.jp/	https://kanko-iwata.jp/	本文に自治体名を確認
+222127	静岡県	焼津市	https://www.city.yaizu.lg.jp/		本文に自治体名を確認
+222135	静岡県	掛川市	https://www.city.kakegawa.shizuoka.jp/	https://www.guidoor.jp/	本文に自治体名を確認
+222143	静岡県	藤枝市	https://www.city.fujieda.shizuoka.jp/	https://www.fujieda.gr.jp/	本文に自治体名を確認
+222151	静岡県	御殿場市	https://www.city.gotemba.lg.jp/	http://gotembatourism.jp/	本文に自治体名を確認
+222160	静岡県	袋井市	https://www.city.fukuroi.shizuoka.jp/	https://www.fukuroi-kankou.jp/	本文に自治体名を確認
+222194	静岡県	下田市	https://www.city.shimoda.shizuoka.jp/	https://www.shimoda-city.info/	本文に自治体名を確認
+222208	静岡県	裾野市	https://www.city.susono.shizuoka.jp/	https://www.susonokanko.jp/	本文に自治体名を確認
+222216	静岡県	湖西市	https://www.city.kosai.shizuoka.jp/	https://hamanako-kosai.jp/	本文に自治体名を確認
+222224	静岡県	伊豆市	https://www.city.izu.shizuoka.jp/	https://kanko.city.izu.shizuoka.jp/	本文に自治体名を確認
+222232	静岡県	御前崎市	https://www.city.omaezaki.shizuoka.jp/		本文に自治体名を確認
+222241	静岡県	菊川市	https://www.city.kikugawa.shizuoka.jp/	http://kikugawakanko.com/	本文に自治体名を確認
+222259	静岡県	伊豆の国市	https://www.city.izunokuni.shizuoka.jp/	http://izunotabi.com/	本文に自治体名を確認
+222267	静岡県	牧之原市	https://www.city.makinohara.shizuoka.jp/		本文に自治体名を確認
+223018	静岡県	東伊豆町	https://www.town.higashiizu.lg.jp/		本文に自治体名を確認
+223026	静岡県	河津町	https://www.town.kawazu.shizuoka.jp/	https://kankou.town.kawazu.shizuoka.jp/	本文に自治体名を確認
+223042	静岡県	南伊豆町	https://www.town.minamiizu.shizuoka.jp/	https://www.minami-izu.jp/	本文に自治体名を確認
+223051	静岡県	松崎町	https://www.town.matsuzaki.shizuoka.jp/	https://izumatsuzakinet.com/	本文に自治体名を確認
+223069	静岡県	西伊豆町	https://www.town.nishiizu.shizuoka.jp/	https://www.nishiizu-kankou.com/	本文に自治体名を確認
+223255	静岡県	函南町	https://www.town.kannami.shizuoka.jp/		本文に自治体名を確認
+223417	静岡県	清水町	https://www.town.shimizu.shizuoka.jp/		本文に自治体名を確認
+223425	静岡県	長泉町	https://www.town.nagaizumi.lg.jp/		本文に自治体名を確認
+223441	静岡県	小山町			候補URLがすべて外れ
+224243	静岡県	吉田町	https://www.town.yoshida.shizuoka.jp/		本文に自治体名を確認
+224294	静岡県	川根本町	https://www.town.kawanehon.shizuoka.jp/	https://www.okuooi.gr.jp/	本文に自治体名を確認
+224618	静岡県	森町	https://www.town.morimachi.shizuoka.jp/	https://www.mori-kanko.jp/	本文に自治体名を確認
 231002	愛知県	名古屋市	https://www.city.nagoya.jp/		本文に自治体名を確認
 232017	愛知県	豊橋市	https://www.city.toyohashi.lg.jp/	https://www.honokuni.or.jp/	本文に自治体名を確認
 232025	愛知県	岡崎市	https://www.city.okazaki.lg.jp/	https://okazaki-kanko.jp/	本文に自治体名を確認
