@@ -40,6 +40,7 @@ from extract import FESTIVAL_WORD, SEASONAL_WORD  # noqa: E402
 REPO_ROOT = Path(__file__).resolve().parent.parent
 REGISTRY_DIR = REPO_ROOT / "registry"
 BUNKAZAI_TSV = REGISTRY_DIR / "bunkazai.tsv"
+BUNKAZAI_LOCAL_TSV = REGISTRY_DIR / "bunkazai_local.tsv"
 MUNI_TSV = REGISTRY_DIR / "municipalities.tsv"
 OUT_TSV = REGISTRY_DIR / "vocab_regional.tsv"
 
@@ -117,8 +118,26 @@ def terms_of(name: str) -> list[str]:
     return out
 
 
-def build() -> list[dict[str, str]]:
+def source_rows() -> list[dict[str, str]]:
+    """国指定 (bunkazai.tsv) と県・市町村指定 (bunkazai_local.tsv) を揃えて返す。
+
+    列の形が違うので、県・市町村指定側は category に種別を移して合わせる。
+    国指定は全国966件しかなく、語彙の種としては薄い。県・市町村指定を足せる
+    県では、そちらが主な供給源になる。
+    """
     rows = read_tsv(BUNKAZAI_TSV)
+    for r in read_tsv(BUNKAZAI_LOCAL_TSV):
+        rows.append({
+            "prefecture": r.get("prefecture", ""),
+            "name": r.get("name", ""),
+            "category": r.get("kind", ""),
+            "subcategory": "",
+        })
+    return rows
+
+
+def build() -> list[dict[str, str]]:
+    rows = source_rows()
     if not rows:
         raise SystemExit("registry/bunkazai.tsv が無い。先に bunkazai.py --build を実行する")
     places = place_names()
