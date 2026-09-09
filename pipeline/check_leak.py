@@ -26,7 +26,7 @@ PIPELINE = Path(__file__).resolve().parent
 FORBIDDEN = ("festivals.json", "snapshot.json", "gold.tsv", "benchmarks")
 
 # 既存データを読んでよいスクリプト
-ALLOWED = {"merge.py", "evaluate.py", "check_leak.py"}
+ALLOWED = {"merge.py", "evaluate.py", "check_leak.py", "novelty.py"}
 
 
 def literals(tree: ast.AST):

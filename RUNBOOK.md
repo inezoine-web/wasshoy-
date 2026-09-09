@@ -20,17 +20,48 @@ Haikuサブエージェント9本で約55万トークンを使い、AI利用枠5
 このパイプラインは、その定型工程をゼロトークンのスクリプトへ移し、
 **AIの判断を S4 だけに残す**ための構成である。
 
+## 語彙が天井になっている (2026-09-09に判明)
+
+`extract.py` の `FESTIVAL_WORD` は茨城・愛知・静岡の実データから育てた語彙で、
+**既知の祭りから作ったので既知の祭りしか見つけられない**。実測:
+
+| 対象 | 不一致 |
+| --- | --- |
+| 本州の有名どころ (祇園祭・ねぶた・阿波おどり…) | 0/7 (0%) |
+| 沖縄 (エイサー・パーントゥ・シヌグ…) | 22/27 (81%) |
+| 北海道・アイヌ (イオマンテ・カムイノミ…) | 11/13 (85%) |
+| その他の地方 (なまはげ・御柱・六斎念仏・田遊び…) | 24/26 (92%) |
+
+沖縄・北海道の特別チューニングの問題ではない。「その他の地方」が最も悪く、
+なまはげも御柱もユネスコ登録の有名な行事である。当初目的
+(知らなかった祭り・マイナーな祭りを見つける) に対して、天井はクロール予算
+ではなく**検出器そのもの**だった。
+
+対策は名前で判定するのをやめ、**指定の枠**で引くこと。「重要無形民俗文化財」
+という枠は名前に依存しないので、語彙を知らないままパーントゥもアイヌ古式舞踊も
+出てくる (S0.5)。そこから県別語彙を機械生成する (S0.6)。
+
+あわせて**指標も差し替えた**。`evaluate.py` の recall は
+`benchmarks/ibaraki-2026-09-06` (旧AI手法の出力そのもの) への一致率なので、
+「すでに見つけたものを、また見つける」性能しか測らない。新規に発見した祭りは
+0点になる。`novelty.py` (S6b) で「既存データにもWikipediaにも無い件数」を測る。
+recall は**壊れていないことの確認**として残す。
+
 ## 工程
 
 | 段階 | スクリプト | ネット | AI | 役割 |
 | --- | --- | --- | --- | --- |
 | S0 | `registry.py` | 要 | 不要 | 全国市区町村コード表と、公式サイト/観光協会URLの台帳 |
+| S0.5 | `bunkazai.py` | 要 | 不要 | 文化庁DBから無形の民俗文化財を種別×県で取得 (全国966件) |
+| S0.6 | `vocab.py` | 不要 | 不要 | 指定名称から**県別の行事語彙**を生成 (678語/新規460語) |
+| S0.7 | `gazetteer.py` | 要 | 不要 | Wikipediaの祭り記事一覧 = **既知の除外リスト** (全国1609件) |
 | S1 | `discover.py` | 要 | 不要 | 台帳のトップページから祭り情報のあるページを幅優先で収集 |
 | S2 | `extract.py` | 不要 | 不要 | キャッシュ済みページから候補行を抽出 |
 | S3 | `normalize.py` | 不要 | 不要 | 重複統合・日付仕分け・カテゴリ推定・slug生成 |
 | S4 | `s4_prepare.py` / `s4_apply.py` | 不要 | **要** | 対象/対象外の判断、別名統合、所在の帰属、読み。**AIが要るのはここだけ** |
 | S5 | `merge.py` | 不要 | 不要 | `data/festivals.json` へマージ。**既存データを読んでよいのはここと `evaluate.py` だけ** |
 | S6 | `evaluate.py` | 不要 | 不要 | 凍結ベンチマークとの突合 |
+| S6b | `novelty.py` | 不要 | 不要 | **新規性**の測定。既存データにもWikipediaにも無い件数 |
 
 ## 実行
 
@@ -40,6 +71,11 @@ python pipeline/registry.py --build-municipalities
 
 # S0-2: 対象都道府県の公式サイト/観光協会URLを解決 (結果はコミットする)
 python pipeline/registry.py --resolve-sites --prefecture 茨城県
+
+# S0-3: 民俗文化財の台帳と県別語彙 (一度だけ。結果はコミットする)
+python pipeline/bunkazai.py --build          # 全国966件、約8分
+python pipeline/vocab.py --build --summary   # registry/vocab_regional.tsv
+python pipeline/gazetteer.py --build         # 全国1609件、約12分
 
 # S1: ページ収集 (時間がかかる。1市町村40ページ上限、同一ホスト1秒間隔)
 python pipeline/discover.py --prefecture 茨城県 --max-pages 40
@@ -62,6 +98,9 @@ python pipeline/merge.py --prefecture 茨城県 --replace
 # S6: 評価 (ベンチマークのある都道府県のみ)
 python pipeline/evaluate.py --benchmark benchmarks/ibaraki-2026-09-06
 python pipeline/evaluate.py --benchmark benchmarks/ibaraki-2026-09-06 --judged  # S4判定後
+
+# S6b: 新規性 (知らなかった祭りをどれだけ見つけたか)
+python pipeline/novelty.py --input work/judged.tsv --list 30
 ```
 
 `merge.py` は書き込み前に**消費側チェック**を必ず通す。

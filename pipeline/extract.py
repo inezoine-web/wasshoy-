@@ -54,6 +54,24 @@ SEASONAL_WORD = re.compile(
 # 市(いち)を指す複合語だけを対象にする。
 MARKET_WORD = re.compile(r"朝市|大市|達磨市|だるま市|骨董市|植木市|六斎市|楽市")
 
+# 県別の行事語彙 (registry/vocab_regional.tsv)。main() が --prefecture から
+# 読み込む。既存の FESTIVAL_WORD は既知の祭りから育てた語彙なので、
+# 地方の行事名をほとんど拾えない (沖縄81%・その他地方92%が不一致)。
+# 民俗文化財の指定名称から機械生成した語をここで足す。
+REGIONAL_WORD: re.Pattern | None = None
+
+
+def set_regional_vocab(prefecture: str) -> int:
+    """県別語彙を読み込む。読み込んだ語数を返す。"""
+    global REGIONAL_WORD
+    try:
+        import vocab
+        REGIONAL_WORD = vocab.regional_pattern(prefecture)
+        return len(vocab.load_terms(prefecture))
+    except Exception:
+        REGIONAL_WORD = None
+        return 0
+
 # サイトのナビゲーション見出し。行事名ではない。
 NAV_LABEL = re.compile(
     r"^(観光|イベント|祭り?|まつり|催し|行事|文化|スポーツ|グルメ|自然|"
@@ -237,6 +255,8 @@ def looks_like_festival(name: str, municipality: str = "") -> str | None:
         return "seasonal"
     if MARKET_WORD.search(probe):
         return "market"
+    if REGIONAL_WORD is not None and REGIONAL_WORD.search(probe):
+        return "regional_vocab"
     return None
 
 
@@ -371,6 +391,9 @@ def main(argv: list[str] | None = None) -> int:
     fetcher = Fetcher(offline=True)  # ネットへは出ない
     # 県単位レンズで拾った行事に所在市町村を割り当てるための名簿
     muni_names = load_municipality_names(args.prefecture) if args.prefecture else []
+    if args.prefecture:
+        n = set_regional_vocab(args.prefecture)
+        print("県別語彙: %s %d語" % (args.prefecture, n))
     pref_wide_rows = 0
     pref_wide_assigned = 0
     out_path = WORK_DIR / "candidates.tsv"
