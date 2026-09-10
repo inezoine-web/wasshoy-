@@ -73,13 +73,22 @@ def match(
     by_name: dict,
     urls: set[str],
 ) -> tuple[bool, str]:
+    """名称でのみ照合する。
+
+    以前は根拠URLの一致も当たりとして数えていたが、それは
+    「その祭りを見つけた」ことを意味しない。gold の URL がたまたま
+    別の候補の根拠に入っていれば当たりになってしまう。実際に龍ケ崎市の
+    「初山祭」は、どちらの実行でも名称が一度も抽出されていないのに
+    当たりと数えられており、`normalize.py` の根拠URL上限が
+    5本から動いた途端に外れた。名前を見つけていないなら見つけていない。
+
+    `source_url` と `urls` は呼び出し側の互換のために残してあるが使わない。
+    """
     key = dedup_key(name)
     if (municipality, key) in by_muni_name:
         return True, "名称+市町村"
     if key in by_name:
         return True, f"名称のみ (市町村不一致: {by_name[key][0]['municipality']})"
-    if source_url and source_url in urls:
-        return True, "根拠URLのみ"
     return False, ""
 
 
