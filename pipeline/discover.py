@@ -85,12 +85,63 @@ NAV_SKIP_ROMAJI = re.compile(
 )
 SKIP_EXT = re.compile(r"\.(pdf|docx?|xlsx?|pptx?|zip|jpe?g|png|gif|svg|mp4|mp3)$", re.I)
 
+# --- 文化財レンズ ---------------------------------------------------------
+# 一般クロールは文化財セクションをほとんど踏まない。茨城の実測では、
+# 6850ページのうち文化財らしきページは409枚 (6.0%)、1自治体あたり中央値9枚で、
+# 7自治体 (日立市 石岡市 笠間市 結城市 茨城町 行方市 鉾田市) は0枚だった。
+# 県・市町村指定の民俗文化財は `bunkazai_local.py` の唯一の入力なので、
+# ここが薄いままだと語彙の種が増えない (茨城で国指定17件に対し29件どまり)。
+#
+# そこで一般クロールとは**別枠**の第2段を置く。第1段の出力は変えないので、
+# ベンチマークの再現率は構造的に落ちない。
+CULTURAL_STRONG = re.compile(r"文化財|民俗|無形|保存会|郷土芸能|伝統芸能|指定文化財")
+CULTURAL_STRONG_ROMAJI = re.compile(
+    r"bunkazai|bunka_zai|bunkazi|minzoku|minzoku|mukei|hozonkai|"
+    r"kyodogeino|kyoudogeinou|geino|geinou"
+)
+# 文化財の入口になりやすいが、それ自体は文化財ではないもの。
+# 強い語より後回しにする。
+CULTURAL_NAV = re.compile(r"教育委員会|生涯学習|文化課|文化振興|歴史|郷土|伝承")
+# 短い語はパスの区切りで囲む。`kyodo` を素で当てると
+# `/danjokyodosankaku/` (男女共同参画) に当たり、レンズの枠を1枚食った。
+CULTURAL_NAV_ROMAJI = re.compile(
+    r"kyoiku|kyouiku|shogaigakushu|syogaigakusyu|shougaigakushuu|rekishi|"
+    r"(?:^|[/_.-])(?:kyou?do|densho[uo]?)(?:[/_.-]|$)"
+)
+
+
+# 「○指定文化財一覧」が最も価値が高い。カテゴリのインデックス
+# (「県指定文化財」) は仏像も古墳も混ざった項目リンクの羅列で、種別が
+# 書かれていないため `bunkazai_local.py` が何も取れない。種別の列を持つのは
+# 一覧表のほうで、石岡市では実際に「県指定文化財一覧」が別ページにあり、
+# そこに辿り着けずレンズの枠を「文化財防火デー」「保存事業補助金」に
+# 使っていた。
+CULTURAL_LIST = re.compile(r"一覧|覧表|リスト|目録|台帳|list")
+
+
+def cultural_rank(url: str, label: str) -> int | None:
+    """文化財レンズでの優先度。小さいほど先。対象外なら None。
+
+    URLのローマ字パスも見る。自治体CMSは `/bunkazai/` のようにローマ字で
+    セクションを切っており、リンク文字列が「一覧」だけのことも多い。
+    """
+    path = urllib.parse.unquote(urllib.parse.urlparse(url).path).lower()
+    blob = f"{label} {path}"
+    strong = bool(CULTURAL_STRONG.search(blob) or CULTURAL_STRONG_ROMAJI.search(path))
+    if strong and CULTURAL_LIST.search(blob):
+        return -1
+    if strong:
+        return 0
+    if CULTURAL_NAV.search(blob) or CULTURAL_NAV_ROMAJI.search(path):
+        return 4
+    return None
+
 FEED_HINT = re.compile(r"rss|atom|feed", re.I)
 
 # 1自治体あたりの探索キューの上限。取得上限が決まっているので
 # これ以上抱えても使われない。並列数を掛けた分だけメモリを食うので
 # 控えめにする (このPCは実装容量6GB、空き数百MBで動かしている)。
-MAX_QUEUE = 20000
+MAX_QUEUE = 5000
 
 # 行政手続き系リンクの優先度。捨てるのではなく最後尾に回す。
 DEPRIORITIZED = 90
@@ -111,6 +162,20 @@ def page_title(text: str) -> str:
     return re.sub(r"\s+", " ", clean_text(m.group(1))) if m else ""
 
 
+def safe_join(base_url: str, href: str) -> str:
+    """urljoin の例外を潰す。壊れた href は空文字を返す。
+
+    href="//＃Jump01" のような全角文字を含むリンクで urljoin が
+    NFKC 正規化の検査に引っかかって ValueError を投げる。静岡県では
+    これ1本で県全体の実行が落ちた。自治体サイトのHTMLは手書きが多く、
+    壊れたリンクは想定内として扱う。
+    """
+    try:
+        return urllib.parse.urljoin(base_url, href)
+    except ValueError:
+        return ""
+
+
 def iter_links(text: str, base_url: str) -> list[tuple[str, str]]:
     """(絶対URL, アンカーテキスト) を返す。"""
     out = []
@@ -119,7 +184,10 @@ def iter_links(text: str, base_url: str) -> list[tuple[str, str]]:
         if href.startswith(("javascript:", "mailto:", "tel:", "#")):
             continue
         label = re.sub(r"\s+", " ", clean_text(m.group(2)))
-        out.append((urllib.parse.urljoin(base_url, href).split("#", 1)[0], label))
+        absolute = safe_join(base_url, href)
+        if not absolute:
+            continue
+        out.append((absolute.split("#", 1)[0], label))
     return out
 
 
@@ -128,7 +196,9 @@ def find_feeds(text: str, base_url: str) -> list[str]:
     for m in re.finditer(
         r'<link[^>]+type="application/(?:rss|atom)\+xml"[^>]*href="([^"]+)"', text, re.I
     ):
-        feeds.append(urllib.parse.urljoin(base_url, html.unescape(m.group(1))))
+        feed = safe_join(base_url, html.unescape(m.group(1)))
+        if feed:
+            feeds.append(feed)
     for url, _label in iter_links(text, base_url):
         if FEED_HINT.search(urllib.parse.urlparse(url).path + "?" + (urllib.parse.urlparse(url).query or "")):
             feeds.append(url)
@@ -148,7 +218,9 @@ def urls_from_xml(text: str, base_url: str) -> list[str]:
         if tag in ("loc", "link"):
             value = (el.text or "").strip() or el.get("href", "")
             if value:
-                urls.append(urllib.parse.urljoin(base_url, value))
+                child = safe_join(base_url, value)
+                if child:
+                    urls.append(child)
         elif tag == "guid" and (el.text or "").startswith("http"):
             urls.append(el.text.strip())
     return urls
@@ -207,6 +279,7 @@ def discover_site(
     seeds: list[str],
     max_pages: int,
     max_depth: int,
+    bunkazai_pages: int = 0,
 ) -> list[dict[str, str]]:
     """1自治体分の探索。訪問したページの記録を返す。"""
     hosts = {urllib.parse.urlparse(s).netloc for s in seeds if s}
@@ -280,6 +353,44 @@ def discover_site(
                 continue
             push(child, depth + 1, "index", link_priority(child, label))
 
+    # --- 第2段: 文化財レンズ ---------------------------------------------
+    # ここに来る時点で第1段の records は確定している。**一切書き換えない。**
+    # 追加分は別枠なので、これを有効にしても既存のベンチマークは動かない。
+    #
+    # 深さも別に持つ。文化財一覧は「教育委員会 > 生涯学習 > 文化財 > 一覧」
+    # のように深いことが多く、第1段の深さ3では入口までしか届かない。
+    taken = 0
+    cultural_depth = max_depth + 2
+    while queue and taken < bunkazai_pages:
+        _priority, depth, _seq, url, kind = heapq.heappop(queue)
+        if url in visited or not same_site(url, hosts) or SKIP_EXT.search(url):
+            continue
+        if cultural_rank(url, "") is None:
+            continue
+        visited.add(url)
+        doc = fetcher.get(url)
+        if doc is None or doc.status != 200:
+            continue
+        taken += 1
+        records.append(
+            {
+                "url": doc.final_url,
+                "fetch_url": url,
+                "kind": "bunkazai",
+                "depth": str(depth),
+                "title": page_title(doc.text),
+            }
+        )
+        if depth >= cultural_depth or is_feed_or_sitemap(doc.text):
+            continue
+        for child, label in iter_links(doc.text, url):
+            if child in visited or not same_site(child, hosts) or SKIP_EXT.search(child):
+                continue
+            rank = cultural_rank(child, label)
+            if rank is None:
+                continue
+            push(child, depth + 1, "bunkazai", rank)
+
     return records
 
 
@@ -317,6 +428,19 @@ def load_prefecture_sites(prefecture: str | None) -> list[dict[str, str]]:
     return out
 
 
+def already_done(path: Path) -> set[tuple[str, str]]:
+    """pages.tsv に既に記録がある (都道府県, 市町村) を返す。
+
+    このPCは実装6GBで、長時間のクロールが何度も強制終了されている。
+    やり直すたびに最初から歩き直すのは無駄なので、済んだ市町村は飛ばす。
+    キャッシュがあるので再取得は起きないが、それでも数分は縮む。
+    """
+    if not path.is_file():
+        return set()
+    with path.open(encoding="utf-8", newline="") as fh:
+        return {(r["prefecture"], r["municipality"]) for r in csv.DictReader(fh, delimiter="\t")}
+
+
 def load_sites(prefecture: str | None, municipality: str | None) -> list[dict[str, str]]:
     path = REGISTRY_DIR / "sites.tsv"
     if not path.is_file():
@@ -334,18 +458,35 @@ def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--prefecture")
     ap.add_argument("--municipality")
-    ap.add_argument("--max-pages", type=int, default=150, help="1自治体あたりの取得上限")
+    ap.add_argument("--max-pages", type=int, default=40,
+                    help="1自治体あたりの取得上限。増やしても割に合わない。"
+                         "茨城の実測では 40 と 150 で gold 25/34 対 23/34、"
+                         "snapshot 再現 62%% 対 66%% であり、"
+                         "4倍近いページ数の見返りが4ポイントしかない。"
+                         "情報価値は上位20ページに8割が集中している")
     ap.add_argument("--pref-lens-pages", type=int, default=250,
                     help="県単位レンズ(教育委員会の文化財一覧等)の取得上限")
+    ap.add_argument("--bunkazai-pages", type=int, default=15,
+                    help="文化財レンズの取得上限。--max-pages とは別枠で、"
+                         "一般クロールが終わったあとに文化財らしいURLだけを"
+                         "追加で取る。第1段の出力は変えないので、これを"
+                         "増やしてもベンチマークの再現率は動かない。0で無効")
     ap.add_argument("--no-prefecture-lens", action="store_true",
                     help="県単位レンズを使わない")
     ap.add_argument("--workers", type=int, default=4,
                     help="並行して探索する自治体数。礼儀はホスト単位の制約なので"
                          "別ホストへは同時にアクセスしてよいが、並列数だけ"
                          "メモリを食う。空きメモリが少ない環境では下げる")
-    ap.add_argument("--max-depth", type=int, default=2)
+    ap.add_argument("--max-depth", type=int, default=3,
+                    help="起点から何リンク先まで辿るか。ベンチマークを取った"
+                         "構成は深さ3であり、既定値もそこに揃えてある。"
+                         "湖西市の実測では、深さ3で40ページ取るのと"
+                         "深さ2で150ページ取るのが同じ件数だった。"
+                         "予算より深さのほうが効く")
     ap.add_argument("--delay", type=float, default=1.0)
     ap.add_argument("--offline", action="store_true")
+    ap.add_argument("--resume", action="store_true",
+                    help="pages.tsv に既に記録がある市町村を飛ばして追記する")
     args = ap.parse_args(argv)
 
     sites = load_sites(args.prefecture, args.municipality)
@@ -354,22 +495,32 @@ def main(argv: list[str] | None = None) -> int:
         if (args.no_prefecture_lens or args.municipality)
         else load_prefecture_sites(args.prefecture)
     )
-    if not sites and not pref_sites:
-        raise SystemExit("対象がありません")
+    targets = sites + pref_sites
+    done: set = set()
+    if args.resume:
+        done = already_done(WORK_DIR / "pages.tsv")
+        before = len(targets)
+        targets = [t for t in targets if (t["prefecture"], t["municipality"]) not in done]
+        print(f"--resume: {before - len(targets)} 市町村は済んでいるので飛ばす")
+    if not targets:
+        raise SystemExit("対象がありません" if not done else "すべて済んでいる")
 
     fetcher = Fetcher(delay=args.delay, offline=args.offline)
     WORK_DIR.mkdir(parents=True, exist_ok=True)
     out = WORK_DIR / "pages.tsv"
     written = 0
-    with out.open("w", encoding="utf-8", newline="\n") as fh:
+    # --resume で既に済んだ分があるときだけ追記。それ以外は作り直す。
+    mode = "a" if (args.resume and done) else "w"
+    with out.open(mode, encoding="utf-8", newline="\n") as fh:
         w = csv.DictWriter(
             fh,
             delimiter="\t",
             lineterminator="\n",
             fieldnames=["prefecture", "municipality", "url", "fetch_url", "kind", "depth", "title"],
         )
-        w.writeheader()
-        fh.flush()
+        if mode == "w":
+            w.writeheader()
+            fh.flush()
 
         def crawl(site: dict[str, str]):
             seeds = [u for u in (site["official_url"], site["tourism_url"]) if u]
@@ -378,14 +529,24 @@ def main(argv: list[str] | None = None) -> int:
                 if site["municipality"] == PREFECTURE_WIDE
                 else args.max_pages
             )
-            return site, discover_site(fetcher, seeds, budget, args.max_depth)
+            try:
+                return site, discover_site(fetcher, seeds, budget, args.max_depth,
+                                           args.bunkazai_pages)
+            except Exception as exc:  # noqa: BLE001
+                # 1自治体で落ちても他の43件を巻き添えにしない。
+                # 静岡県では壊れた href 1本で県全体が失敗した。
+                print(
+                    f"  {site['municipality']:12s} 失敗: {type(exc).__name__}: {exc}",
+                    flush=True,
+                )
+                return site, []
 
         # 自治体ごとに別ホストなので並行して回せる。同一ホストへの直列
         # アクセスと1秒間隔は Fetcher がホスト単位のロックで保証する。
         # 直列に回すと待ち時間が積み上がり、150ページ×44市町村で
         # 10時間近くかかっていた。
         with ThreadPoolExecutor(max_workers=max(1, args.workers)) as pool:
-            for site, recs in pool.map(crawl, sites + pref_sites):
+            for site, recs in pool.map(crawl, targets):
                 for r in recs:
                     r.update(prefecture=site["prefecture"], municipality=site["municipality"])
                     # タブと改行はTSVを壊すので落とす

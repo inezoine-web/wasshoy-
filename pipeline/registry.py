@@ -22,8 +22,10 @@ import argparse
 import csv
 import html
 import io
+import os
 import re
 import sys
+import time
 import urllib.parse
 import xml.etree.ElementTree as ET
 import zipfile
@@ -190,12 +192,20 @@ def candidate_domains(muni_romaji: str, muni_type: str, pref_romaji: str) -> lis
     label = _TYPE_LABEL.get(muni_type)
     if label is None:
         return []
+    # 町村の読みは「モリマチ」「オヤマチョウ」のように種別を含むが、
+    # ローマ字列からは落としてある。ドメインには残している自治体があるので
+    # (森町 www.town.morimachi.shizuoka.jp)、接尾辞つきも候補に出す。
+    # マチ/チョウ、ムラ/ソン のどちらを読むかは表から判らないため両方試す。
+    _SUFFIXES = {"町": ("machi", "cho"), "村": ("mura", "son"), "市": ("shi",)}
     names: list[str] = []
     for variant in romaji_variants(muni_romaji):
-        names.append(variant)
-        if pref_romaji:
-            # 同名市がある場合は都道府県名を前置する (古河市 -> ibaraki-koga)
-            names.append(f"{pref_romaji}-{variant}")
+        forms = [variant]
+        forms += [variant + suf for suf in _SUFFIXES.get(muni_type, ())]
+        for form in forms:
+            names.append(form)
+            if pref_romaji:
+                # 同名市がある場合は都道府県名を前置する (古河市 -> ibaraki-koga)
+                names.append(f"{pref_romaji}-{form}")
     urls: list[str] = []
     for name in names:
         for host in (
@@ -203,6 +213,12 @@ def candidate_domains(muni_romaji: str, muni_type: str, pref_romaji: str) -> lis
             f"www.{label}.{name}.{pref_romaji}.jp",
             f"{label}.{name}.lg.jp",
             f"{label}.{name}.{pref_romaji}.jp",
+            # 裸の .jp を使う自治体がある (名古屋市 www.city.nagoya.jp)。
+            # 政令市など古くからドメインを持つところに多い。
+            # 取得して自治体名を確認するので、誤って他人のドメインを
+            # 拾うことはない。
+            f"www.{label}.{name}.jp",
+            f"{label}.{name}.jp",
         ):
             if pref_romaji or ".lg.jp" in host:
                 urls.append(f"https://{host}/")
@@ -229,6 +245,18 @@ def verify_site(fetcher: Fetcher, url: str, municipality: str) -> tuple[bool, st
     if bare and bare in text:
         return True, "本文に自治体名(接尾辞なし)を確認"
     return False, "本文に自治体名が見つからない"
+
+
+def safe_join(base_url: str, href: str) -> str:
+    """urljoin の例外を潰す。壊れた href は空文字を返す。
+
+    自治体サイトには href="//＃Jump01" のような全角文字を含むリンクがあり、
+    urljoin が NFKC 正規化の検査で ValueError を投げる。
+    """
+    try:
+        return urllib.parse.urljoin(base_url, href)
+    except ValueError:
+        return ""
 
 
 _TOURISM_LABEL = re.compile(r"観光協会|観光物産|観光コンベンション|観光局|観光振興|観光情報|観光サイト")
@@ -309,7 +337,9 @@ def find_tourism_site(
         label = html.unescape(re.sub(r"<[^>]+>", "", m.group(2))).strip()
         if not _TOURISM_SECTION.search(label):
             continue
-        child = urllib.parse.urljoin(doc.final_url, html.unescape(m.group(1))).split("#")[0]
+        child = safe_join(doc.final_url, html.unescape(m.group(1))).split("#")[0]
+        if not child:
+            continue
         if urllib.parse.urlparse(child).netloc != official_host or child in seen:
             continue
         seen.add(child)
@@ -321,6 +351,125 @@ def find_tourism_site(
         if len(seen) >= 3:
             break
     return ""
+
+
+_SITE_FIELDS = ["code", "prefecture", "municipality", "official_url", "tourism_url", "resolved"]
+
+
+def _write_sites(out: Path, rows_by_code: dict[str, dict[str, str]]) -> None:
+    """1件ごとに書き出すために切り出した。長時間の解決中に落とされても
+    進捗が消えないようにするため（このPCは実装6GBで実際に強制終了される）。"""
+    # 一時ファイルへ書いてから置き換える。同じファイルを何度も開くと、
+    # クラウド同期フォルダ (OneDrive) にロックされて PermissionError になる。
+    # 置換なら開いている時間が短く、書きかけの内容が残ることもない。
+    tmp = out.with_suffix(out.suffix + ".tmp")
+    with tmp.open("w", encoding="utf-8", newline="\n") as fh:
+        w = csv.DictWriter(
+            fh, delimiter="\t", lineterminator="\n", fieldnames=_SITE_FIELDS
+        )
+        w.writeheader()
+        w.writerows(sorted(rows_by_code.values(), key=lambda r: r["code"]))
+    for attempt in range(5):
+        try:
+            os.replace(tmp, out)
+            return
+        except PermissionError:
+            if attempt == 4:
+                raise
+            time.sleep(0.5)
+
+
+def _pref_official(prefecture: str) -> str:
+    """pref_sites.tsv から県公式サイトのURLを引く。無ければ空。"""
+    path = REGISTRY_DIR / "pref_sites.tsv"
+    if not path.is_file():
+        return ""
+    with path.open(encoding="utf-8", newline="") as fh:
+        for row in csv.DictReader(fh, delimiter="	"):
+            if row["prefecture"] == prefecture:
+                return row.get("official_url", "")
+    return ""
+
+
+# 県公式サイトが持つ市町村リンク集。命名規則から外れたドメインは、
+# 読み仮名からは原理的に導けない (小山町 www.fuji-oyama.jp)。
+# 手で書けば直るが、それを47都道府県ぶん積むのは避けたい。
+# 県は自分の市町村へのリンクを必ず持っているので、そこから引く。
+_MUNI_LINK_SECTION = re.compile(r"市町村|市区町村|市町|各市|リンク|一覧|ホームページ")
+_PREF_LINK_PAGES = 6
+
+
+def _collect_external_links(text: str, self_host: str) -> list[tuple[str, str]]:
+    """(リンク文字列, URL) の一覧。自ホストとSNSは除く。"""
+    out: list[tuple[str, str]] = []
+    for m in re.finditer(r'<a[^>]+href="(https?://[^"]+)"[^>]*>(.*?)</a>', text, re.S):
+        href, inner = m.group(1), m.group(2)
+        host = urllib.parse.urlparse(href).netloc
+        if not host or host == self_host or _NOT_A_SITE.search(host):
+            continue
+        label = html.unescape(re.sub(r"<[^>]+>", "", inner)).strip()
+        attrs = " ".join(
+            html.unescape(x) for x in re.findall(r'(?:alt|title)="([^"]*)"', inner)
+        )
+        out.append((f"{label} {attrs}".strip(), href))
+    return out
+
+
+def prefecture_link_index(fetcher: Fetcher, pref_official_url: str) -> list[tuple[str, str]]:
+    """県公式サイトから外部リンクを集める。市町村サイトを引くための索引。
+
+    トップページに市町村一覧を置いている県は少ないので、リンク集らしい
+    ページを数枚だけ辿る。県ごとに1回作れば全市町村で使い回せる。
+    """
+    if not pref_official_url:
+        return []
+    doc = fetcher.get(pref_official_url)
+    if doc is None or doc.status != 200:
+        return []
+    self_host = urllib.parse.urlparse(doc.final_url).netloc
+    links = _collect_external_links(doc.text, self_host)
+    # 同一ホスト内のリンク集ページを数枚だけ辿る
+    seen: set[str] = {doc.final_url}
+    followed = 0
+    for m in re.finditer(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', doc.text, re.S):
+        if followed >= _PREF_LINK_PAGES:
+            break
+        href = safe_join(doc.final_url, m.group(1))
+        if not href:
+            continue
+        if urllib.parse.urlparse(href).netloc != self_host or href in seen:
+            continue
+        label = html.unescape(re.sub(r"<[^>]+>", "", m.group(2))).strip()
+        if not _MUNI_LINK_SECTION.search(label):
+            continue
+        seen.add(href)
+        followed += 1
+        sub = fetcher.get(href)
+        if sub is not None and sub.status == 200:
+            links.extend(_collect_external_links(sub.text, self_host))
+    return links
+
+
+def find_via_prefecture_links(
+    fetcher: Fetcher, links: list[tuple[str, str]], municipality: str
+) -> tuple[str, str]:
+    """リンク集から1市町村の公式サイトを引き当てる。
+
+    リンク文字列に自治体名が入っていることだけを手掛かりにし、採用前に
+    本文を取得して自治体名を確認する。検証は命名規則の場合と同じなので、
+    ここで推測が混ざることはない。
+    """
+    # 「町」「村」を落とした形も見る (リンク集が「小山」と書く県がある)
+    short = re.sub(r"(市|区|町|村)$", "", municipality)
+    for label, href in links:
+        if municipality not in label and (len(short) < 2 or short not in label):
+            continue
+        parsed = urllib.parse.urlparse(href)
+        url = f"{parsed.scheme}://{parsed.netloc}/"
+        ok, why = verify_site(fetcher, url, municipality)
+        if ok:
+            return url, f"県公式サイトのリンク集から ({why})"
+    return "", ""
 
 
 def resolve_sites(fetcher: Fetcher, prefecture: str | None) -> Path:
@@ -341,6 +490,10 @@ def resolve_sites(fetcher: Fetcher, prefecture: str | None) -> Path:
             for row in csv.DictReader(fh, delimiter="\t"):
                 existing[row["code"]] = row
 
+    # 県公式サイトのリンク集。命名規則が外れた市町村のためだけに使うので、
+    # 実際に外れるまで作らない。
+    pref_links: dict[str, list[tuple[str, str]]] = {}
+
     for m in munis:
         pref_romaji = _PREF_DOMAIN_OVERRIDE.get(m["prefecture"], m["pref_romaji"])
         official, note = "", "候補URLがすべて外れ"
@@ -349,6 +502,15 @@ def resolve_sites(fetcher: Fetcher, prefecture: str | None) -> Path:
             if ok:
                 official, note = url, why
                 break
+        if not official:
+            pref = m["prefecture"]
+            if pref not in pref_links:
+                pref_links[pref] = prefecture_link_index(fetcher, _pref_official(pref))
+            found, why = find_via_prefecture_links(
+                fetcher, pref_links[pref], m["municipality"]
+            )
+            if found:
+                official, note = found, why
         tourism = (
             find_tourism_site(fetcher, official, m["municipality"], m["muni_romaji"])
             if official
@@ -363,17 +525,12 @@ def resolve_sites(fetcher: Fetcher, prefecture: str | None) -> Path:
             "resolved": note,
         }
         print(f"  {m['municipality']:12s} {official or '-':45s} {tourism or '-':35s} {note}")
+        # 1件ごとに書き出す。長時間の解決中に落とされても進捗が消えないように
+        # (このPCは実装6GBで、実際に何度か強制終了されている)。
+        _write_sites(out, existing)
 
     rows = sorted(existing.values(), key=lambda r: r["code"])
-    with out.open("w", encoding="utf-8", newline="\n") as fh:
-        w = csv.DictWriter(
-            fh,
-            delimiter="\t",
-            lineterminator="\n",
-            fieldnames=["code", "prefecture", "municipality", "official_url", "tourism_url", "resolved"],
-        )
-        w.writeheader()
-        w.writerows(rows)
+    _write_sites(out, existing)
     hit = sum(1 for r in rows if r["official_url"])
     tour = sum(1 for r in rows if r["tourism_url"])
     print(f"\nsites.tsv: {len(rows)} 件 / 公式サイト解決 {hit} / 観光協会 {tour}")

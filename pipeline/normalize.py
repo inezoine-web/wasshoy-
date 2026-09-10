@@ -282,7 +282,12 @@ def main(argv: list[str] | None = None) -> int:
                 "usual_schedule": usual_schedule or "",
                 "date_note": date_note,
                 "source_count": str(len(urls)),
-                "source_urls": "|".join(urls[:5]),
+                # 上限8本。5本だったとき、証拠が1本増えただけで既存の根拠が
+                # 押し出される事故が起きた (龍ケ崎市の gold URL が
+                # 「節分大祭・だるま市」の5本目ちょうどにあり、文化財レンズで
+                # 証拠が増えた途端に消えた)。source_count には切り詰め前の
+                # 本数が入るので、何本落としたかは追える。
+                "source_urls": "|".join(urls[:8]),
                 "origins": "|".join(origins),
                 "reasons": "|".join(reasons),
             }

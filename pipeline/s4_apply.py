@@ -35,6 +35,7 @@ from romaji import is_kana, romanize, slugify  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 WORK_DIR = REPO_ROOT / "work"
+REGISTRY_DIR = REPO_ROOT / "registry"
 BATCH_DIR = WORK_DIR / "s4"
 
 VERDICTS = {"keep", "drop", "unsure"}
@@ -50,6 +51,47 @@ def load_index() -> dict[str, dict[str, str]]:
         return {r["id"]: r for r in csv.DictReader(fh, delimiter="\t")}
 
 
+_ID = re.compile(r"^\d{4,6}$")
+_KANA = re.compile(r"^[ぁ-んゔー・\s]+$")
+_MUNI = re.compile(r"[^\s]+[市町村区]$")
+_VERDICT = re.compile(r"^(keep|drop|unsure)$", re.I)
+
+
+def parse_verdict_line(cells: list[str]) -> dict[str, str] | None:
+    """1行を (id, verdict, reason, alias_of, municipality, reading) に直す。
+
+    **位置で読んではいけない。** 実測では同じ工程の返答で列数が 3〜7 に散った。
+    末尾の空欄を落とすエージェント、alias_of を空けずに読みを前へ詰める
+    エージェントが混在する。列数を揃えろと指示しても揃わないので、
+    受け側で内容から判別する。判別は排他的で曖昧さが無い:
+
+        5桁の数字        -> id か alias_of
+        keep/drop/unsure -> verdict
+        ひらがなだけ      -> reading
+        末尾が市町村区    -> municipality
+        それ以外の英字    -> reason
+    """
+    cells = [c.strip() for c in cells]
+    if not cells or not _ID.match(cells[0]):
+        return None
+    out = {"id": cells[0], "verdict": "", "reason": "",
+           "alias_of": "", "municipality": "", "reading": ""}
+    for c in cells[1:]:
+        if not c:
+            continue
+        if not out["verdict"] and _VERDICT.match(c):
+            out["verdict"] = c.lower()
+        elif _ID.match(c):
+            out["alias_of"] = c
+        elif _KANA.match(c):
+            out["reading"] = c.strip()
+        elif _MUNI.match(c):
+            out["municipality"] = c
+        elif not out["reason"]:
+            out["reason"] = c
+    return out
+
+
 def load_verdicts() -> tuple[dict[str, dict[str, str]], list[str]]:
     verdicts: dict[str, dict[str, str]] = {}
     problems: list[str] = []
@@ -57,18 +99,17 @@ def load_verdicts() -> tuple[dict[str, dict[str, str]], list[str]]:
     if not files:
         raise SystemExit(f"{BATCH_DIR} に s4_verdict_*.tsv がありません")
     for path in files:
-        with path.open(encoding="utf-8", newline="") as fh:
-            reader = csv.DictReader(
-                (line for line in fh if not line.startswith("#")), delimiter="\t"
-            )
-            for row in reader:
-                rid = (row.get("id") or "").strip()
-                if not rid:
-                    continue
-                if rid in verdicts:
-                    problems.append(f"id {rid} が {path.name} で重複している")
-                    continue
-                verdicts[rid] = {k: (v or "").strip() for k, v in row.items()}
+        for line in path.read_text(encoding="utf-8").splitlines():
+            if not line.strip() or line.startswith("#"):
+                continue
+            row = parse_verdict_line(line.split("\t"))
+            if row is None:
+                continue  # ヘッダ行や空行
+            rid = row["id"]
+            if rid in verdicts:
+                problems.append(f"id {rid} が {path.name} で重複している")
+                continue
+            verdicts[rid] = row
     return verdicts, problems
 
 
@@ -165,6 +206,72 @@ def _same_place(rid: str, alias: str, index: dict, verdicts: dict) -> bool:
     return PREFECTURE_WIDE in (index[rid]["municipality"], index[alias]["municipality"])
 
 
+# --- 所在の機械的な推定 -------------------------------------------------
+# 県単位レンズ (教育委員会・県公式サイト) で拾った行は市町村が (県全域) の
+# ままで、slug に市町村のローマ字が要るため PENDING で止まる。S4 の指示では
+# AIに「読み取れるなら市町村を書く」と頼んでいるが、茨城では18行中9行しか
+# 埋まらなかった。残りは既にある台帳と突き合わせれば機械的に解ける。
+_PLACE_CACHE: dict[str, dict] = {}
+
+
+def _place_sources(prefecture: str) -> dict:
+    """(指定台帳の名称->市町村, 市町村の語幹) を用意する。"""
+    if prefecture in _PLACE_CACHE:
+        return _PLACE_CACHE[prefecture]
+    desig: dict[str, str] = {}
+    for name in ("bunkazai_local.tsv", "bunkazai_ai.tsv"):
+        path = REGISTRY_DIR / name
+        if not path.exists():
+            continue
+        lines = path.read_text(encoding="utf-8").splitlines()
+        if not lines:
+            continue
+        header = lines[0].split("\t")
+        for ln in lines[1:]:
+            if not ln.strip():
+                continue
+            r = dict(zip(header, ln.split("\t")))
+            muni = r.get("municipality", "")
+            if r.get("prefecture") == prefecture and muni and muni != PREFECTURE_WIDE:
+                desig.setdefault(dedup_key(r.get("name", "")), muni)
+    stems: dict[str, str] = {}
+    muni_path = REGISTRY_DIR / "municipalities.tsv"
+    if muni_path.exists():
+        lines = muni_path.read_text(encoding="utf-8").splitlines()
+        header = lines[0].split("\t")
+        for ln in lines[1:]:
+            if not ln.strip():
+                continue
+            r = dict(zip(header, ln.split("\t")))
+            if r.get("prefecture") != prefecture:
+                continue
+            m = r.get("municipality", "")
+            stem = re.sub(r"[市町村区]$", "", m)
+            if len(stem) >= 2:
+                stems[m] = stem
+    out = {"desig": desig, "stems": stems}
+    _PLACE_CACHE[prefecture] = out
+    return out
+
+
+def _guess_place(row: dict, prefecture: str) -> tuple[str, str]:
+    """(市町村, 根拠) を返す。分からなければ ("", "")。
+
+    根拠の強い順に見る。指定台帳との名称一致がいちばん堅い。
+    """
+    src = _place_sources(prefecture)
+    key = dedup_key(row.get("name", ""))
+    hit = src["desig"].get(key)
+    if hit:
+        return hit, "designation"
+    blob = " ".join([row.get("name", ""), row.get("venue", ""),
+                     row.get("date_note", "")])
+    for muni, stem in src["stems"].items():
+        if stem in blob:
+            return muni, "name"
+    return "", ""
+
+
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--prefecture")
@@ -225,6 +332,7 @@ def main(argv: list[str] | None = None) -> int:
             seen.add(cur)
             cur = alias_map.get(cur)
 
+    shown_problems = len(problems)
     if problems:
         print("=== 検証で問題が見つかった ===")
         for p in problems[:30]:
@@ -251,6 +359,15 @@ def main(argv: list[str] | None = None) -> int:
         if base["municipality"] == PREFECTURE_WIDE and v.get("municipality"):
             row["municipality"] = v["municipality"]
             stats["municipality_resolved"] += 1
+        elif base["municipality"] == PREFECTURE_WIDE and verdict == "keep":
+            # AIが所在を書けなかった行を、機械的な手がかりで埋める。
+            # 県レンズ (教育委員会・県公式) で拾った行は所在が空のままで、
+            # slug に市町村のローマ字が要るため PENDING で止まる。
+            guess, how = _guess_place(row, args.prefecture or base["prefecture"])
+            if guess:
+                row["municipality"] = guess
+                stats["municipality_resolved"] += 1
+                stats["place_from_" + how] += 1
 
         row["_reading"] = v.get("reading", "")
 
@@ -311,7 +428,15 @@ def main(argv: list[str] | None = None) -> int:
             row["slug"] = ""          # 別名行はIDを持たない
             continue
         if row["slug"] != "PENDING":  # S3で読みから決まっていたものはそのまま
-            slugs.setdefault(row["slug"], rid)
+            # ここでも衝突を見る。setdefault で黙って捨てていたため、
+            # 笠間市の「流鏑馬 やぶさめ」と「流鏑馬（やぶさめ）」が同じIDのまま
+            # 両方 data/festivals.json へ行き、S5の消費側検査で初めて落ちた。
+            if row["slug"] in slugs:
+                row["s4_alias_of"] = slugs[row["slug"]]
+                row["slug"] = ""
+                stats["merged_by_id"] += 1
+                continue
+            slugs[row["slug"]] = rid
             stats["id_reading"] += 1
             continue
         pref_r, muni_r = _romaji_for(row["prefecture"], row["municipality"])
@@ -322,11 +447,30 @@ def main(argv: list[str] | None = None) -> int:
         if not SLUG_RE.match(candidate):
             problems.append(f"id {rid}: 生成IDの形式が不正 ({candidate})")
         elif candidate in slugs:
-            problems.append(f"id {rid}: ID {candidate} が id {slugs[candidate]} と衝突")
+            # **同一市町村でIDが衝突するのは重複の証拠であって異常ではない。**
+            # IDは (県, 市町村, 読み or dedup_key(名称)) から決まるので、
+            # 衝突は「同じ市町村で読みまたは正規化名称が一致した」ことを意味する。
+            # 実際に「つくばみらい市の綱火が2行」「北茨城市の常陸大津の御船祭が
+            # 2行」といった、S4の別名判定が拾えなかった重複だった。
+            # 以前はここでエラーにして PENDING のまま放置し、しかもその
+            # 問題文は表示されていなかったので34行が黙って落ちていた。
+            row["s4_alias_of"] = slugs[candidate]
+            row["slug"] = ""
+            stats["merged_by_id"] += 1
         else:
             row["slug"] = candidate
             slugs[candidate] = rid
             stats[f"id_{origin}"] += 1
+    # slug生成で出た問題は、上の検証ブロックより後に積まれる。以前は
+    # 一度も表示されず、42行が黙って PENDING のまま残っていた。ここで出す。
+    if len(problems) > shown_problems:
+        print()
+        print("=== ID生成で問題が見つかった ===")
+        for p in problems[shown_problems:][:30]:
+            print(f"  - {p}")
+        if len(problems) - shown_problems > 30:
+            print(f"  ... 他 {len(problems) - shown_problems - 30} 件")
+
     for row in out_rows:
         row.pop("_reading", None)
 
