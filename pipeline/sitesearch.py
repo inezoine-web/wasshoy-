@@ -80,10 +80,19 @@ def text_of(fragment: str) -> str:
 
 
 def zero_municipalities(prefecture: str) -> list[dict[str, str]]:
-    """その県で、指定が1件も取れていない自治体の台帳行を返す。"""
+    """その県で、指定が1件も取れていない自治体の台帳行を返す。
+
+    出所は2つある。機械抽出 (`bunkazai_local.tsv`) と AI由来
+    (`bunkazai_ai.tsv`)。片方しか見ないと、AIが既に拾った自治体へ
+    無駄に検索を投げることになる。
+    """
     have: set[str] = set()
-    if B.OUT_TSV.exists():
-        lines = B.OUT_TSV.read_text(encoding="utf-8").splitlines()
+    for path in (B.OUT_TSV, REGISTRY_DIR / "bunkazai_ai.tsv"):
+        if not path.exists():
+            continue
+        lines = path.read_text(encoding="utf-8").splitlines()
+        if not lines:
+            continue
         header = lines[0].split("\t")
         for ln in lines[1:]:
             if not ln.strip():
