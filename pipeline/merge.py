@@ -139,13 +139,26 @@ def main(argv: list[str] | None = None) -> int:
         raise SystemExit("先に s4_apply.py を実行してください")
     with src.open(encoding="utf-8", newline="") as fh:
         judged = list(csv.DictReader(fh, delimiter="\t"))
+    # slug が PENDING の行は入れない。IDが決まっていないものを入れると、
+    # 全部が同じ "PENDING" というIDで衝突する。所在が (県全域) のまま
+    # 残ったものがこれにあたる (茨城で8件)。捨てるのではなく、
+    # 所在が決まってから入る。
+    pending = [
+        r for r in judged
+        if r["s4_verdict"] == "keep" and not r["s4_alias_of"]
+        and r["prefecture"] == args.prefecture and r["slug"] == "PENDING"
+    ]
     new_rows = [
         r for r in judged
         if r["s4_verdict"] == "keep"
         and not r["s4_alias_of"]
         and r["prefecture"] == args.prefecture
         and r["slug"]
+        and r["slug"] != "PENDING"
     ]
+    if pending:
+        print(f"ID未確定のため見送る: {len(pending)} 件 "
+              f"({', '.join(r['name'][:14] for r in pending[:5])}…)")
     if not new_rows:
         raise SystemExit(f"{args.prefecture} の判定済みレコードがありません")
 

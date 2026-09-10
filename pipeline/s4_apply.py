@@ -428,7 +428,15 @@ def main(argv: list[str] | None = None) -> int:
             row["slug"] = ""          # 別名行はIDを持たない
             continue
         if row["slug"] != "PENDING":  # S3で読みから決まっていたものはそのまま
-            slugs.setdefault(row["slug"], rid)
+            # ここでも衝突を見る。setdefault で黙って捨てていたため、
+            # 笠間市の「流鏑馬 やぶさめ」と「流鏑馬（やぶさめ）」が同じIDのまま
+            # 両方 data/festivals.json へ行き、S5の消費側検査で初めて落ちた。
+            if row["slug"] in slugs:
+                row["s4_alias_of"] = slugs[row["slug"]]
+                row["slug"] = ""
+                stats["merged_by_id"] += 1
+                continue
+            slugs[row["slug"]] = rid
             stats["id_reading"] += 1
             continue
         pref_r, muni_r = _romaji_for(row["prefecture"], row["municipality"])
