@@ -50,6 +50,47 @@ def load_index() -> dict[str, dict[str, str]]:
         return {r["id"]: r for r in csv.DictReader(fh, delimiter="\t")}
 
 
+_ID = re.compile(r"^\d{4,6}$")
+_KANA = re.compile(r"^[ぁ-んゔー・\s]+$")
+_MUNI = re.compile(r"[^\s]+[市町村区]$")
+_VERDICT = re.compile(r"^(keep|drop|unsure)$", re.I)
+
+
+def parse_verdict_line(cells: list[str]) -> dict[str, str] | None:
+    """1行を (id, verdict, reason, alias_of, municipality, reading) に直す。
+
+    **位置で読んではいけない。** 実測では同じ工程の返答で列数が 3〜7 に散った。
+    末尾の空欄を落とすエージェント、alias_of を空けずに読みを前へ詰める
+    エージェントが混在する。列数を揃えろと指示しても揃わないので、
+    受け側で内容から判別する。判別は排他的で曖昧さが無い:
+
+        5桁の数字        -> id か alias_of
+        keep/drop/unsure -> verdict
+        ひらがなだけ      -> reading
+        末尾が市町村区    -> municipality
+        それ以外の英字    -> reason
+    """
+    cells = [c.strip() for c in cells]
+    if not cells or not _ID.match(cells[0]):
+        return None
+    out = {"id": cells[0], "verdict": "", "reason": "",
+           "alias_of": "", "municipality": "", "reading": ""}
+    for c in cells[1:]:
+        if not c:
+            continue
+        if not out["verdict"] and _VERDICT.match(c):
+            out["verdict"] = c.lower()
+        elif _ID.match(c):
+            out["alias_of"] = c
+        elif _KANA.match(c):
+            out["reading"] = c.strip()
+        elif _MUNI.match(c):
+            out["municipality"] = c
+        elif not out["reason"]:
+            out["reason"] = c
+    return out
+
+
 def load_verdicts() -> tuple[dict[str, dict[str, str]], list[str]]:
     verdicts: dict[str, dict[str, str]] = {}
     problems: list[str] = []
@@ -57,18 +98,17 @@ def load_verdicts() -> tuple[dict[str, dict[str, str]], list[str]]:
     if not files:
         raise SystemExit(f"{BATCH_DIR} に s4_verdict_*.tsv がありません")
     for path in files:
-        with path.open(encoding="utf-8", newline="") as fh:
-            reader = csv.DictReader(
-                (line for line in fh if not line.startswith("#")), delimiter="\t"
-            )
-            for row in reader:
-                rid = (row.get("id") or "").strip()
-                if not rid:
-                    continue
-                if rid in verdicts:
-                    problems.append(f"id {rid} が {path.name} で重複している")
-                    continue
-                verdicts[rid] = {k: (v or "").strip() for k, v in row.items()}
+        for line in path.read_text(encoding="utf-8").splitlines():
+            if not line.strip() or line.startswith("#"):
+                continue
+            row = parse_verdict_line(line.split("\t"))
+            if row is None:
+                continue  # ヘッダ行や空行
+            rid = row["id"]
+            if rid in verdicts:
+                problems.append(f"id {rid} が {path.name} で重複している")
+                continue
+            verdicts[rid] = row
     return verdicts, problems
 
 
