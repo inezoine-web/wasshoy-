@@ -414,6 +414,26 @@ def append_rows(rows: list[dict[str, str]]) -> None:
             fh.write(TAB.join(r[c].replace(TAB, " ") for c in COLUMNS) + NL)
 
 
+def read_all_rows() -> list[dict[str, str]]:
+    if not OUT_TSV.exists():
+        return []
+    lines = OUT_TSV.read_text(encoding="utf-8").splitlines()
+    if not lines:
+        return []
+    header = lines[0].split(TAB)
+    return [dict(zip(header, ln.split(TAB))) for ln in lines[1:] if ln.strip()]
+
+
+def write_all_rows(rows: list[dict[str, str]]) -> None:
+    REGISTRY_DIR.mkdir(parents=True, exist_ok=True)
+    body = TAB.join(COLUMNS) + NL
+    body += "".join(TAB.join(r.get(c, "").replace(TAB, " ") for c in COLUMNS) + NL
+                    for r in rows)
+    tmp = OUT_TSV.with_suffix(".tsv.tmp")
+    tmp.write_text(body, encoding="utf-8", newline=NL)
+    tmp.replace(OUT_TSV)
+
+
 def done_hosts() -> set[str]:
     if not STATE.exists():
         return set()
@@ -463,8 +483,16 @@ def build(prefectures: list[str] | None, resume: bool) -> None:
     h2m = host_map()
     skip = done_hosts() if resume else set()
     if not resume:
+        # **他県の行を巻き添えにしない。** 以前はファイルごと消していたので、
+        # `--prefecture 静岡県` を回した時点で茨城の85件が消えた。
+        # AI由来を別ファイルに分けたのと同じ種類の事故である。
         if OUT_TSV.exists():
-            OUT_TSV.unlink()
+            if prefectures:
+                keep = [r for r in read_all_rows()
+                        if r.get("prefecture") not in set(prefectures)]
+                write_all_rows(keep)
+            else:
+                OUT_TSV.unlink()
         if STATE.exists():
             STATE.unlink()
 
