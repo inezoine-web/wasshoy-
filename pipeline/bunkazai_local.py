@@ -77,8 +77,10 @@ KIND_ONLY = re.compile(r"^(?:" + KIND + r")$")
 
 # 名称として不適当なもの
 NOT_NAME = re.compile(
-    r"^(?:名称|種別|区分|指定|所在地|所有者|員数|時代|年月日|備考|一覧|合計|"
+    r"^(?:名称|種別|種類|区分|指定|所在地|所有者|員数|時代|年月日|備考|一覧|合計|"
     r"その他|ページ|関連|詳細|リンク|お問い合わせ)$|"
+    # 「無形文化財 （工芸技術）」のような分類の見出しが名称欄に来る
+    r"^(?:重要)?(?:有形|無形)(?:民俗)?文化財\s*[（(]|"
     r"[。、！？]|^\d+$|^[〇○◯×]+$|"
     r"(?:について|ください|します|ました|しています)$|"
     # 分類語そのもの。名称の位置に見出しが入り込んだ場合に出る。
@@ -216,6 +218,122 @@ def rows_from_table_context(page_text: str, desig: str) -> list[tuple[str, str, 
     return out
 
 
+# --- 文脈スキャン -------------------------------------------------------
+# 指定は (指定区分, 種別, 名称) の3つ組だが、**どれがどこに書いてあるかは
+# サイトごとに違う**。実際に見つかった3通り:
+#
+#   石岡市  見出しに指定区分、表のセルに種別
+#           <title>県指定文化財一覧</title>
+#           | 指定区分       | 指定文化財名 | ... |
+#           | 無形民俗文化財 | 富田のささら | ... |
+#
+#   結城市  表のセルに指定区分(1文字)、見出しに種別
+#           <h?>民俗文化財の部</h?>
+#           | 番号 | 名称                   | 指定 | 所在地 | ... |
+#           | 1    | 上山川諏訪神社太々神楽 | 県   | ...    |
+#
+#   城里町  表が無く、種別の見出しの下に項目リンクが並ぶ
+#           <h1>県指定文化財</h1>  史跡 / 無形文化財 / 工芸品 / 彫刻
+#
+# そこで文書順に見出しを追い、行やリンクに足りない属性を直前の見出しから
+# 補う。行に書いてあればそちらを優先する。
+_HEADING = re.compile(r"<(h[1-6]|caption|th)\b[^>]*>(.*?)</\1>", re.S | re.I)
+_ROW_OR_ITEM = re.compile(r"<(tr|li)\b[^>]*>(.*?)</\1>", re.S | re.I)
+_LINK = re.compile(r'<a\b[^>]*href="([^"]*)"[^>]*>(.*?)</a>', re.S | re.I)
+
+# 行事にあたる種別。「有形民俗文化財」は物なので入れない。
+FOLK_KIND = re.compile(r"(?<!有形)(?:無形民俗文化財|民俗文化財|無形民俗|民俗芸能|風俗慣習|民俗行事)")
+# 種別を名乗る語すべて。folk でないものも文脈を上書きさせるために要る
+# (結城市の「無形文化財の部」= 結城紬 を、ページ見出しの「民俗文化財」で
+# 拾ってしまわないため)。
+ANY_KIND = re.compile(
+    r"有形民俗文化財|無形民俗文化財|民俗文化財|無形民俗|民俗芸能|風俗慣習|民俗行事|"
+    r"無形文化財|有形文化財|建造物|絵画|彫刻|工芸品|書跡|典籍|古文書|考古資料|"
+    r"歴史資料|史跡|名勝|天然記念物|記念物"
+)
+# 指定区分。セルには「県」の1文字だけのこともある。
+LEVEL_CELL = re.compile(r"^(国|県|都|道|府|市|町|村)(?:\s*指定)?$")
+LEVEL_ANY = re.compile(r"(国|県|都|道|府|市|町|村)\s*指定")
+
+
+def _level_of(text: str) -> str:
+    m = LEVEL_ANY.search(text)
+    return re.sub(r"\s+", "", m.group(0)) if m else ""
+
+
+def _kind_of(text: str) -> str:
+    m = ANY_KIND.search(text)
+    return m.group(0) if m else ""
+
+
+def rows_from_context(page_text: str, page_url: str = "") -> list[tuple[str, str, str]]:
+    """文書順に見出しの文脈を持ち回って行・項目を読む。"""
+    title = ""
+    m = _TITLE.search(page_text)
+    if m:
+        title = text_of(m.group(1))
+    page_level, page_kind = _level_of(title), _kind_of(title)
+
+    heads = [(m.start(), text_of(m.group(2))) for m in _HEADING.finditer(page_text)]
+    heads = [(p, h) for p, h in heads if h]
+
+    # ページのディレクトリ。項目リンクはこの配下にある。
+    page_dir = ""
+    if page_url:
+        path = urllib.parse.urlparse(page_url).path
+        page_dir = path.rsplit("/", 1)[0] + "/"
+
+    def context_at(pos: int) -> tuple[str, str, bool]:
+        """(指定区分, 種別, 種別が見出し由来か) を返す。"""
+        level, kind, from_head = page_level, page_kind, False
+        for p, h in heads:
+            if p > pos:
+                break
+            lv, kd = _level_of(h), _kind_of(h)
+            if lv:
+                level = lv
+            if kd:
+                kind, from_head = kd, True
+        return level, kind, from_head
+
+    out: list[tuple[str, str, str]] = []
+    for m in _ROW_OR_ITEM.finditer(page_text):
+        block = m.group(2)
+        ctx_level, ctx_kind, kind_from_head = context_at(m.start())
+        cells = [text_of(c) for c in TD.findall(block)]
+        if cells:
+            # **文脈から補ってよいのは片方だけ。** 指定区分も種別も行に無い行を
+            # 文脈だけで採ると、同じページの有形の項目まで巻き込む。実際に
+            # 龍ケ崎市で「丸木舟」「十一面観音像」「多宝塔」が、高萩市で
+            # キャンプ場が、県指定無形民俗文化財として出た。
+            # ここが担当するのは「指定区分は行にあり (「県」の1文字)、
+            # 種別は見出しにある」形 (結城市)。それ以外は他の経路に任せる。
+            level = next((LEVEL_CELL.match(c).group(1) + "指定"
+                          for c in cells if LEVEL_CELL.match(c)), "")
+            kind = next((c for c in cells if ANY_KIND.fullmatch(c)), "") or ctx_kind
+            if not level or not kind_from_head:
+                continue
+            if not FOLK_KIND.search(kind):
+                continue
+            for c in cells:
+                if not c or ANY_KIND.fullmatch(c) or LEVEL_CELL.match(c):
+                    continue
+                if _NOT_A_NAME_CELL.match(c) or _ADDRESS_CELL.search(c):
+                    continue
+                name = clean_name(c)
+                if 2 <= len(name) <= MAX_NAME and not NOT_NAME.search(name):
+                    out.append((level, kind, name))
+                    break
+        # リンクだけの一覧 (城里町) は扱わない。最初の実装はページ表題の
+        # 種別をグローバルナビの <li> 全部に適用してしまい、「トップページ」
+        # 「ごみとリサイクル」「AED（自動体外式除細動器）」が県指定無形民俗
+        # 文化財として出た (茨城614件のうち大半)。同一ディレクトリ配下に
+        # 限る条件を足しても、観光サイトのように本文が1階層に収まる形では
+        # 効かず、キャンプ場や「日立さくらまつりのみどころ」が残った。
+        # 得られたのは1自治体1件で、リスクに見合わない。
+    return out
+
+
 def ok_flat_name(name: str) -> bool:
     """平文から拾った断片を名称として認めるか。表より厳しくする。"""
     if not (2 <= len(name) <= MAX_NAME):
@@ -271,6 +389,7 @@ def rows_of_page(raw: bytes, content_type: str, src: str,
     out = []
     found = (rows_from_table(text)
              + rows_from_table_context(text, page_designation(text))
+             + rows_from_context(text, src)
              + rows_from_flat(text))
     for desig, kind, name in found:
         out.append({
