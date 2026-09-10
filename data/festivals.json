@@ -84352,9 +84352,11 @@
       "last_verified": null
     },
     {
-      "id": "aichi-nagoya-x2d8caf2e",
-      "name": "のカッチン玉祭り",
-      "aliases": [],
+      "id": "aichi-nagoya-xc56bfb74",
+      "name": "カッチン玉祭り",
+      "aliases": [
+        "のカッチン玉祭り"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "愛知県",
@@ -84394,9 +84396,11 @@
       "last_verified": null
     },
     {
-      "id": "aichi-nagoya-x8c6b12af",
-      "name": "の一色まつり",
-      "aliases": [],
+      "id": "aichi-nagoya-x4c2b24c9",
+      "name": "一色まつり",
+      "aliases": [
+        "の一色まつり"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "愛知県",
@@ -84436,9 +84440,11 @@
       "last_verified": null
     },
     {
-      "id": "aichi-nagoya-x115ebf92",
-      "name": "の七夕祭り",
-      "aliases": [],
+      "id": "aichi-nagoya-xf0270366",
+      "name": "七夕祭り",
+      "aliases": [
+        "の七夕祭り"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "愛知県",
@@ -84479,9 +84485,11 @@
       "last_verified": null
     },
     {
-      "id": "aichi-nagoya-x40fb092f",
-      "name": "の吉根納涼夏祭り（提灯山）",
-      "aliases": [],
+      "id": "aichi-nagoya-xd55c4690",
+      "name": "吉根納涼夏祭り（提灯山）",
+      "aliases": [
+        "の吉根納涼夏祭り（提灯山）"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "愛知県",
@@ -84521,9 +84529,11 @@
       "last_verified": null
     },
     {
-      "id": "aichi-nagoya-x93dc6a9c",
-      "name": "の圓通寺秋葉大祭・火まつり",
-      "aliases": [],
+      "id": "aichi-nagoya-xb75a0438",
+      "name": "圓通寺秋葉大祭・火まつり",
+      "aliases": [
+        "の圓通寺秋葉大祭・火まつり"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "愛知県",
@@ -84563,9 +84573,11 @@
       "last_verified": null
     },
     {
-      "id": "aichi-nagoya-x89f45dfd",
-      "name": "の大高祭り",
-      "aliases": [],
+      "id": "aichi-nagoya-x2c626244",
+      "name": "大高祭り",
+      "aliases": [
+        "の大高祭り"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "愛知県",
@@ -84605,9 +84617,11 @@
       "last_verified": null
     },
     {
-      "id": "aichi-nagoya-x8450cef0",
-      "name": "の提灯山と納涼盆踊り大会",
-      "aliases": [],
+      "id": "aichi-nagoya-x82386328",
+      "name": "提灯山と納涼盆踊り大会",
+      "aliases": [
+        "の提灯山と納涼盆踊り大会"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "愛知県",
@@ -84648,9 +84662,11 @@
       "last_verified": null
     },
     {
-      "id": "aichi-nagoya-x1f850fc0",
-      "name": "の洲崎神社ちょうちん祭",
-      "aliases": [],
+      "id": "aichi-nagoya-x71a58131",
+      "name": "洲崎神社ちょうちん祭",
+      "aliases": [
+        "の洲崎神社ちょうちん祭"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "愛知県",
@@ -84690,9 +84706,11 @@
       "last_verified": null
     },
     {
-      "id": "aichi-nagoya-x61aeb7c2",
-      "name": "の烏森三社秋祭り",
-      "aliases": [],
+      "id": "aichi-nagoya-x50a65504",
+      "name": "烏森三社秋祭り",
+      "aliases": [
+        "の烏森三社秋祭り"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "愛知県",
@@ -84732,9 +84750,11 @@
       "last_verified": null
     },
     {
-      "id": "aichi-nagoya-x0b415040",
-      "name": "の百灯祭納涼盆踊り大会（提灯山）",
-      "aliases": [],
+      "id": "aichi-nagoya-x62a3177c",
+      "name": "百灯祭納涼盆踊り大会（提灯山）",
+      "aliases": [
+        "の百灯祭納涼盆踊り大会（提灯山）"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "愛知県",
@@ -84776,9 +84796,11 @@
       "last_verified": null
     },
     {
-      "id": "aichi-nagoya-x238ae7e7",
-      "name": "の蛇池神社万灯流し大祭",
-      "aliases": [],
+      "id": "aichi-nagoya-x56ca661c",
+      "name": "蛇池神社万灯流し大祭",
+      "aliases": [
+        "の蛇池神社万灯流し大祭"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "愛知県",
@@ -84819,9 +84841,11 @@
       "last_verified": null
     },
     {
-      "id": "aichi-nagoya-xdc194354",
-      "name": "の針名神社天王祭",
-      "aliases": [],
+      "id": "aichi-nagoya-xc1ebc650",
+      "name": "針名神社天王祭",
+      "aliases": [
+        "の針名神社天王祭"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "愛知県",
@@ -84861,9 +84885,11 @@
       "last_verified": null
     },
     {
-      "id": "aichi-nagoya-xede30135",
-      "name": "の鍬形祭り",
-      "aliases": [],
+      "id": "aichi-nagoya-xd0fcefa2",
+      "name": "鍬形祭り",
+      "aliases": [
+        "の鍬形祭り"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "愛知県",
@@ -84969,48 +84995,6 @@
         }
       ],
       "notes": "情報源に特定年の日付として記載: 2026年8月4日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
-      "id": "aichi-nagoya-xc56bfb74",
-      "name": "カッチン玉祭り",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "愛知県",
-      "municipality": "名古屋市",
-      "district": null,
-      "venue": "圓通寺",
-      "location": null,
-      "usual_schedule": "毎年10月",
-      "event_dates": [],
-      "categories": [
-        "temple_festival"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.city.nagoya.jp/kankou/rekishi/1017203/1017220.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
       "last_verified": null
     },
     {
@@ -85136,133 +85120,6 @@
         },
         {
           "url": "https://www.city.nagoya.jp/kankou/sports/1017416/index.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
-      "id": "aichi-nagoya-x4c2b24c9",
-      "name": "一色まつり",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "愛知県",
-      "municipality": "名古屋市",
-      "district": null,
-      "venue": "諏訪神社",
-      "location": null,
-      "usual_schedule": "毎年8月14日",
-      "event_dates": [],
-      "categories": [
-        "shrine_festival"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.city.nagoya.jp/kankou/rekishi/1017203/1017220.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
-      "id": "aichi-nagoya-xf0270366",
-      "name": "七夕祭り",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "愛知県",
-      "municipality": "名古屋市",
-      "district": null,
-      "venue": "川原神社",
-      "location": null,
-      "usual_schedule": "毎年5月5日",
-      "event_dates": [],
-      "categories": [
-        "shrine_festival",
-        "seasonal_flower_nature"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.city.nagoya.jp/kankou/rekishi/1017203/1017220.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
-      "id": "aichi-nagoya-xd55c4690",
-      "name": "吉根納涼夏祭り（提灯山）",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "愛知県",
-      "municipality": "名古屋市",
-      "district": null,
-      "venue": "多奈波太神社",
-      "location": null,
-      "usual_schedule": "毎年8月",
-      "event_dates": [],
-      "categories": [
-        "shrine_festival"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.city.nagoya.jp/kankou/rekishi/1017203/1017220.html",
           "title": null,
           "publisher": null,
           "accessed": "2026-09-08",
@@ -85503,48 +85360,6 @@
         }
       ],
       "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
-      "id": "aichi-nagoya-otakamatsuri",
-      "name": "大高祭り",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "愛知県",
-      "municipality": "名古屋市",
-      "district": null,
-      "venue": "蛇池神社",
-      "location": null,
-      "usual_schedule": "第2土曜日",
-      "event_dates": [],
-      "categories": [
-        "shrine_festival"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.city.nagoya.jp/kankou/rekishi/1017203/1017220.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
@@ -86000,92 +85815,6 @@
       "last_verified": null
     },
     {
-      "id": "aichi-nagoya-x50a65504",
-      "name": "烏森三社秋祭り",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "愛知県",
-      "municipality": "名古屋市",
-      "district": null,
-      "venue": "圓通寺",
-      "location": null,
-      "usual_schedule": "毎年8月20日",
-      "event_dates": [],
-      "categories": [
-        "temple_festival"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.city.nagoya.jp/kankou/rekishi/1017203/1017220.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
-      "id": "aichi-nagoya-hyakutosainoryobonodoritaikai",
-      "name": "百灯祭納涼盆踊り大会（提灯山）",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "愛知県",
-      "municipality": "名古屋市",
-      "district": null,
-      "venue": "針名神社",
-      "location": null,
-      "usual_schedule": "毎年7月",
-      "event_dates": [],
-      "categories": [
-        "shrine_festival",
-        "bon_odori",
-        "dance"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.city.nagoya.jp/kankou/rekishi/1017203/1017220.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
-      "last_verified": null
-    },
-    {
       "id": "aichi-nagoya-kagurayashiki",
       "name": "神楽屋形",
       "aliases": [],
@@ -86245,133 +85974,6 @@
         },
         {
           "url": "https://www.city.nagoya.jp/kankou/sports/1017416/index.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
-      "last_verified": null
-    },
-    {
-      "id": "aichi-nagoya-jaikejinjamantonagashitaisai",
-      "name": "蛇池神社万灯流し大祭",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "愛知県",
-      "municipality": "名古屋市",
-      "district": null,
-      "venue": "諏訪神社",
-      "location": null,
-      "usual_schedule": "毎年8月13日",
-      "event_dates": [],
-      "categories": [
-        "shrine_festival",
-        "traditional_performing_art"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.city.nagoya.jp/kankou/rekishi/1017203/1017220.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
-      "last_verified": null
-    },
-    {
-      "id": "aichi-nagoya-harinajinjatennosai",
-      "name": "針名神社天王祭",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "愛知県",
-      "municipality": "名古屋市",
-      "district": null,
-      "venue": "川原神社",
-      "location": null,
-      "usual_schedule": "毎年5月5日",
-      "event_dates": [],
-      "categories": [
-        "shrine_festival"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.city.nagoya.jp/kankou/rekishi/1017203/1017220.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
-      "last_verified": null
-    },
-    {
-      "id": "aichi-nagoya-kuwagatamatsuri",
-      "name": "鍬形祭り",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "愛知県",
-      "municipality": "名古屋市",
-      "district": null,
-      "venue": "川原神社",
-      "location": null,
-      "usual_schedule": "毎年5月5日",
-      "event_dates": [],
-      "categories": [
-        "shrine_festival"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.city.nagoya.jp/kankou/rekishi/1017203/1017220.html",
           "title": null,
           "publisher": null,
           "accessed": "2026-09-08",
@@ -99196,114 +98798,7 @@
       "last_verified": null
     },
     {
-      "id": "aichi-toei-x751d5709",
-      "name": "お祭り・行事の紹介",
-      "aliases": [
-        "お祭り・行事 の紹介"
-      ],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "愛知県",
-      "municipality": "東栄町",
-      "district": null,
-      "venue": null,
-      "location": null,
-      "usual_schedule": null,
-      "event_dates": [],
-      "categories": [
-        "unclassified"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.toeinavi.jp/",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.toeinavi.jp/column/detail/37/",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.toeinavi.jp/column/detail/72/",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.toeinavi.jp/event/detail/1368/",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.toeinavi.jp/event/detail/1371/",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.toeinavi.jp/event/detail/1377/",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.toeinavi.jp/event/detail/1380/",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.toeinavi.jp/event/detail/1384/",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
-      "id": "aichi-toei-x654fcab0",
+      "id": "aichi-toei-shikauchishinji",
       "name": "しかうち神事",
       "aliases": [
         "しかうち 神事"
@@ -99406,11 +98901,11 @@
           ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-toei-x7c14c967",
+      "id": "aichi-toei-shimodasuwajinjasaiten",
       "name": "下田諏訪神社祭典",
       "aliases": [],
       "status": "candidate",
@@ -99457,11 +98952,11 @@
           ]
         }
       ],
-      "notes": "情報源に特定年の日付として記載: 2026年08月08日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "情報源に特定年の日付として記載: 2026年08月08日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-toei-xe970daae",
+      "id": "aichi-toei-shimoawashirochikuhanamatsuri",
       "name": "下粟代地区花祭",
       "aliases": [
         "下粟代地区花祭/東栄町"
@@ -99564,11 +99059,11 @@
           ]
         }
       ],
-      "notes": "特定年の日程か例年の規則かは未確認: 8月26日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "特定年の日程か例年の規則かは未確認: 8月26日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-toei-xebd9bfc7",
+      "id": "aichi-toei-nakazaikechikuhanamatsuri",
       "name": "中在家地区花祭",
       "aliases": [
         "中在家地区花祭/東栄町"
@@ -99671,11 +99166,11 @@
           ]
         }
       ],
-      "notes": "情報源に特定年の日付として記載: 2024年08月26日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "情報源に特定年の日付として記載: 2024年08月26日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-toei-x971ce212",
+      "id": "aichi-toei-nakashitarachikuhanamatsuri",
       "name": "中設楽地区花祭",
       "aliases": [
         "中設楽地区花祭/東栄町"
@@ -99778,11 +99273,11 @@
           ]
         }
       ],
-      "notes": "情報源に特定年の日付として記載: 2024年08月26日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "情報源に特定年の日付として記載: 2024年08月26日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-toei-xfedcb51f",
+      "id": "aichi-toei-furuedochikuhanamatsuri",
       "name": "古戸地区花祭",
       "aliases": [
         "古戸地区花祭/東栄町"
@@ -99885,11 +99380,11 @@
           ]
         }
       ],
-      "notes": "特定年の日程か例年の規則かは未確認: 8月26日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "特定年の日程か例年の規則かは未確認: 8月26日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-toei-xc19fd2e5",
+      "id": "aichi-toei-kobayashichikuhanamatsuri",
       "name": "小林地区花祭",
       "aliases": [
         "小林地区花祭/東栄町"
@@ -99992,11 +99487,11 @@
           ]
         }
       ],
-      "notes": "情報源に特定年の日付として記載: 2026年08月27日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "情報源に特定年の日付として記載: 2026年08月27日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-toei-x79374b04",
+      "id": "aichi-toei-nunokawachikuhanamatsuri",
       "name": "布川地区花祭",
       "aliases": [],
       "status": "candidate",
@@ -100097,11 +99592,11 @@
           ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-toei-xc390a0c1",
+      "id": "aichi-toei-misonochikuhanamatsuri",
       "name": "御園地区花祭",
       "aliases": [
         "御園地区花祭/東栄町"
@@ -100204,11 +99699,11 @@
           ]
         }
       ],
-      "notes": "情報源に特定年の日付として記載: 2026年08月27日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "情報源に特定年の日付として記載: 2026年08月27日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-toei-x6dba84f5",
+      "id": "aichi-toei-nembutsuodori",
       "name": "念仏踊り",
       "aliases": [
         "念仏踊りと手踊り"
@@ -100257,11 +99752,11 @@
           ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-toei-xb7bee370",
+      "id": "aichi-toei-teodori",
       "name": "手踊り",
       "aliases": [],
       "status": "candidate",
@@ -100308,11 +99803,11 @@
           ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-toei-x65cad51c",
+      "id": "aichi-toei-hoshizoraongakusai",
       "name": "星空おんがく祭2021 オンライン配信",
       "aliases": [],
       "status": "candidate",
@@ -100350,166 +99845,11 @@
           ]
         }
       ],
-      "notes": "特定年の日程か例年の規則かは未確認: 7月17日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "特定年の日程か例年の規則かは未確認: 7月17日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-toei-x15cb16a3",
-      "name": "星空おんがく祭2022 ダイジェスト映像",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "愛知県",
-      "municipality": "東栄町",
-      "district": null,
-      "venue": null,
-      "location": null,
-      "usual_schedule": null,
-      "event_dates": [],
-      "categories": [
-        "unclassified"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.town.toei.aichi.jp/item/4317.htm",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "特定年の日程か例年の規則かは未確認: 7月17日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
-      "id": "aichi-toei-x2711eae6",
-      "name": "星空おんがく祭2026",
-      "aliases": [
-        "星空おんがく祭2026/東栄町"
-      ],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "愛知県",
-      "municipality": "東栄町",
-      "district": null,
-      "venue": null,
-      "location": null,
-      "usual_schedule": null,
-      "event_dates": [],
-      "categories": [
-        "unclassified"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.toeinavi.jp/",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.toeinavi.jp/event/detail/1384/",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.town.toei.aichi.jp/item/4317.htm",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.town.toei.aichi.jp/kanko/",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "情報源に特定年の日付として記載: 2026年09月19日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
-      "id": "aichi-toei-xfeb5f7bb",
-      "name": "星空おんがく祭公式",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "愛知県",
-      "municipality": "東栄町",
-      "district": null,
-      "venue": null,
-      "location": null,
-      "usual_schedule": null,
-      "event_dates": [],
-      "categories": [
-        "unclassified"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.town.toei.aichi.jp/item/4317.htm",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "情報源に特定年の日付として記載: 2026年9月20日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
-      "id": "aichi-toei-xa0f25711",
+      "id": "aichi-toei-tsukichikuhanamatsuri",
       "name": "月地区花祭",
       "aliases": [
         "月地区花祭/東栄町"
@@ -100612,11 +99952,11 @@
           ]
         }
       ],
-      "notes": "情報源に特定年の日付として記載: 2026年08月21日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "情報源に特定年の日付として記載: 2026年08月21日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-toei-xee101626",
+      "id": "aichi-toei-hongomatsuri",
       "name": "本郷まつり",
       "aliases": [],
       "status": "candidate",
@@ -100663,53 +100003,11 @@
           ]
         }
       ],
-      "notes": "情報源に特定年の日付として記載: 2026年08月29日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "情報源に特定年の日付として記載: 2026年08月29日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-toei-x8953eca1",
-      "name": "本郷まつり奉納煙火",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "愛知県",
-      "municipality": "東栄町",
-      "district": null,
-      "venue": "本年も例年通り",
-      "location": null,
-      "usual_schedule": null,
-      "event_dates": [],
-      "categories": [
-        "unclassified"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.toeinavi.jp/event/detail/1377/",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "情報源に特定年の日付として記載: 2026年10月03日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
-      "id": "aichi-toei-x43c85fad",
+      "id": "aichi-toei-toeifesutibaru",
       "name": "東栄フェスティバル",
       "aliases": [
         "東栄フェスティバル2026"
@@ -100767,11 +100065,11 @@
           ]
         }
       ],
-      "notes": "情報源に特定年の日付として記載: 2026年09月09日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "情報源に特定年の日付として記載: 2026年09月09日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-toei-x7099f4c8",
+      "id": "aichi-toei-bonodori",
       "name": "東栄町の伝統的な盆踊りと盆唄",
       "aliases": [],
       "status": "candidate",
@@ -100810,71 +100108,11 @@
           ]
         }
       ],
-      "notes": "情報源に特定年の日付として記載: 2026年9月7日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "情報源に特定年の日付として記載: 2026年9月7日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-toei-xbaec79c3",
-      "name": "東栄町の伝統神事 花祭",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "愛知県",
-      "municipality": "東栄町",
-      "district": null,
-      "venue": "諏訪神社",
-      "location": null,
-      "usual_schedule": null,
-      "event_dates": [],
-      "categories": [
-        "shrine_festival"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.toeinavi.jp/",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.toeinavi.jp/column/detail/37/",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.toeinavi.jp/column/detail/72/",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "特定年の日程か例年の規則かは未確認: １０月１７日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
-      "id": "aichi-toei-x85ac7f1f",
+      "id": "aichi-toei-higashisonomechikuhanamatsuri",
       "name": "東薗目地区花祭",
       "aliases": [
         "東薗目地区花祭/東栄町"
@@ -100977,11 +100215,11 @@
           ]
         }
       ],
-      "notes": "情報源に特定年の日付として記載: 2026年08月21日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "情報源に特定年の日付として記載: 2026年08月21日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-toei-xc932a92a",
+      "id": "aichi-toei-kawachichikuhanamatsuri",
       "name": "河内地区花祭",
       "aliases": [
         "河内地区花祭/東栄町"
@@ -101084,11 +100322,11 @@
           ]
         }
       ],
-      "notes": "特定年の日程か例年の規則かは未確認: 08月17日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "特定年の日程か例年の規則かは未確認: 08月17日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-toei-x293a33e6",
+      "id": "aichi-toei-hakusammatsuri",
       "name": "白山祭",
       "aliases": [
         "白山祭り"
@@ -101191,12 +100429,12 @@
           ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-toei-x24f42238",
-      "name": "盆踊り",
+      "id": "aichi-toei-shizentokyosonsurushinji",
+      "name": "自然と共存する神事",
       "aliases": [],
       "status": "candidate",
       "confidence": "low",
@@ -101205,50 +100443,7 @@
       "district": null,
       "venue": null,
       "location": null,
-      "usual_schedule": null,
-      "event_dates": [],
-      "categories": [
-        "bon_odori",
-        "dance"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.toeinavi.jp/",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "情報源に特定年の日付として記載: 2026年9月7日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
-      "id": "aichi-toei-xc5b45c10",
-      "name": "祭文化に触れる",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "愛知県",
-      "municipality": "東栄町",
-      "district": null,
-      "venue": null,
-      "location": null,
-      "usual_schedule": null,
+      "usual_schedule": "毎年11月から3月",
       "event_dates": [],
       "categories": [
         "unclassified"
@@ -101266,96 +100461,6 @@
       },
       "summary": null,
       "sources": [
-        {
-          "url": "https://www.toeinavi.jp/",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
-      "id": "aichi-toei-x8a6894d1",
-      "name": "花祭",
-      "aliases": [
-        "花祭（はなまつり）",
-        "花祭（ガイドパンフレット）"
-      ],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "愛知県",
-      "municipality": "東栄町",
-      "district": null,
-      "venue": null,
-      "location": null,
-      "usual_schedule": "毎年11月から1月",
-      "event_dates": [],
-      "categories": [
-        "unclassified"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.toeinavi.jp/",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.toeinavi.jp/column/detail/37/",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.toeinavi.jp/column/detail/72/",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.toeinavi.jp/event/detail/1368/",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.toeinavi.jp/life/",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
         {
           "url": "https://www.toeinavi.jp/life/event",
           "title": null,
@@ -101373,157 +100478,13 @@
           "supports": [
             "name_mentioned"
           ]
-        },
-        {
-          "url": "https://www.town.toei.aichi.jp/1584.htm",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-toei-x19a027a3",
-      "name": "花祭 (本年日程)",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "愛知県",
-      "municipality": "東栄町",
-      "district": null,
-      "venue": null,
-      "location": null,
-      "usual_schedule": null,
-      "event_dates": [],
-      "categories": [
-        "unclassified"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.town.toei.aichi.jp/5388.htm",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.town.toei.aichi.jp/hana_maturi/",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
-      "id": "aichi-toei-xd5bb3eb5",
-      "name": "花祭とは/東栄町",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "愛知県",
-      "municipality": "東栄町",
-      "district": null,
-      "venue": null,
-      "location": null,
-      "usual_schedule": null,
-      "event_dates": [],
-      "categories": [
-        "unclassified"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.town.toei.aichi.jp/5423.htm",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
-      "id": "aichi-toei-x09d85658",
-      "name": "花祭開催予定表",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "愛知県",
-      "municipality": "東栄町",
-      "district": null,
-      "venue": null,
-      "location": null,
-      "usual_schedule": null,
-      "event_dates": [],
-      "categories": [
-        "unclassified"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.town.toei.aichi.jp/services/rdf/rss10/1036.xml",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
-      "id": "aichi-toei-x7d2d491d",
+      "id": "aichi-toei-nishisonomedengaku",
       "name": "西薗目田楽",
       "aliases": [
         "西薗目田楽/東栄町"
@@ -101626,11 +100587,11 @@
           ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-toei-x1ed98985",
+      "id": "aichi-toei-ashikomichikuhanamatsuri",
       "name": "足込地区花祭",
       "aliases": [
         "足込地区花祭/東栄町"
@@ -101733,7 +100694,7 @@
           ]
         }
       ],
-      "notes": "情報源に特定年の日付として記載: 2026年08月17日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "情報源に特定年の日付として記載: 2026年08月17日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
@@ -101797,7 +100758,7 @@
       "last_verified": null
     },
     {
-      "id": "aichi-higashiura-x6bbb6f53",
+      "id": "aichi-higashiura-omantomatsuri",
       "name": "おまんと祭り（駆け馬）",
       "aliases": [],
       "status": "candidate",
@@ -101835,11 +100796,11 @@
           ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-higashiura-xab44bd3a",
+      "id": "aichi-higashiura-omanto",
       "name": "おまんと（駆け馬） 藤江のだんつく獅子舞",
       "aliases": [],
       "status": "candidate",
@@ -101879,11 +100840,11 @@
           ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-higashiura-x0951b752",
+      "id": "aichi-higashiura-okagura",
       "name": "お神楽",
       "aliases": [],
       "status": "candidate",
@@ -101921,7 +100882,7 @@
           ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
@@ -101970,7 +100931,7 @@
       "last_verified": null
     },
     {
-      "id": "aichi-higashiura-x4c28e2bc",
+      "id": "aichi-higashiura-dantsukushishimai",
       "name": "だんつく獅子舞",
       "aliases": [
         "八ッ頭舞楽（だんつく獅子舞）"
@@ -102019,53 +100980,11 @@
           ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-higashiura-x2683cc10",
-      "name": "はたらく人にありがとう",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "愛知県",
-      "municipality": "東浦町",
-      "district": null,
-      "venue": null,
-      "location": null,
-      "usual_schedule": null,
-      "event_dates": [],
-      "categories": [
-        "unclassified"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.town.aichi-higashiura.lg.jp/kanko_bunka/event/15417.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "情報源に特定年の日付として記載: 2026年7月1日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
-      "id": "aichi-higashiura-xe2531885",
+      "id": "aichi-higashiura-hokuhokumatsuri",
       "name": "ほくほく祭",
       "aliases": [],
       "status": "candidate",
@@ -102103,11 +101022,11 @@
           ]
         }
       ],
-      "notes": "特定年の日程か例年の規則かは未確認: 9月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "特定年の日程か例年の規則かは未確認: 9月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-higashiura-x559a4549",
+      "id": "aichi-higashiura-ikujijinjakagura",
       "name": "伊久智神社神楽",
       "aliases": [
         "伊久智神社神楽保存会"
@@ -102157,11 +101076,11 @@
           ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-higashiura-xc4934c13",
+      "id": "aichi-higashiura-ikujijinjasairei",
       "name": "伊久智神社祭礼",
       "aliases": [
         "伊久智神社祭礼／東浦町"
@@ -102219,11 +101138,11 @@
           ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-higashiura-xc7cad282",
+      "id": "aichi-higashiura-dentonoakimatsuri",
       "name": "伝統の秋祭り",
       "aliases": [
         "伝統の秋祭り／東浦町"
@@ -102281,11 +101200,11 @@
           ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-higashiura-xe53c4e61",
+      "id": "aichi-higashiura-gantansai",
       "name": "元旦祭 左義長どんと焼き かるた大会",
       "aliases": [],
       "status": "candidate",
@@ -102323,53 +101242,11 @@
           ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-higashiura-xeac0203a",
-      "name": "勇壮なおまんと祭り（駆け馬）",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "愛知県",
-      "municipality": "東浦町",
-      "district": null,
-      "venue": "町内各地区の神社",
-      "location": null,
-      "usual_schedule": "第3日曜日",
-      "event_dates": [],
-      "categories": [
-        "shrine_festival"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.town.aichi-higashiura.lg.jp/kanko_bunka/kanko/event/1474360178701.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
-      "id": "aichi-higashiura-x3ef64feb",
+      "id": "aichi-higashiura-unohanataiko",
       "name": "卯の花太鼓",
       "aliases": [],
       "status": "candidate",
@@ -102408,11 +101285,11 @@
           ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-higashiura-x6eaebfa7",
+      "id": "aichi-higashiura-wataiko",
       "name": "和太鼓 志多ら知多公演 音還",
       "aliases": [],
       "status": "candidate",
@@ -102450,11 +101327,11 @@
           ]
         }
       ],
-      "notes": "特定年の日程か例年の規則かは未確認: 8月8日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "特定年の日程か例年の規則かは未確認: 8月8日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-higashiura-xe39c5bfe",
+      "id": "aichi-higashiura-natsumatsuri",
       "name": "夏まつり",
       "aliases": [],
       "status": "candidate",
@@ -102492,11 +101369,11 @@
           ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-higashiura-x7feeae83",
+      "id": "aichi-higashiura-yamajinjatennosai",
       "name": "山神社天王祭",
       "aliases": [
         "山神社天王祭／東浦町"
@@ -102554,11 +101431,11 @@
           ]
         }
       ],
-      "notes": "情報源に特定年の日付として記載: 2019年3月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "情報源に特定年の日付として記載: 2019年3月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-higashiura-x22abd139",
+      "id": "aichi-higashiura-higashiuramyujikkufesutibaru",
       "name": "巨峰ぶどう狩り 盆踊り大会 東浦ミュージックフェスティバル",
       "aliases": [],
       "status": "candidate",
@@ -102599,11 +101476,95 @@
           ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-higashiura-xf80754a9",
+      "id": "aichi-higashiura-hirabayashiyotsuha",
+      "name": "平林 よつ葉（ひらばやし よつは）",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "愛知県",
+      "municipality": "東浦町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.town.aichi-higashiura.lg.jp/kanko_bunka/kanko/event/1515110613587.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "aichi-higashiura-hirabayashichika",
+      "name": "平林 知華（ひらばやし ちか）",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "愛知県",
+      "municipality": "東浦町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.town.aichi-higashiura.lg.jp/kanko_bunka/kanko/event/1515110613587.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "aichi-higashiura-oaimatsuri",
       "name": "於大まつり",
       "aliases": [],
       "status": "candidate",
@@ -102668,11 +101629,11 @@
           ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-higashiura-x8f95eef4",
+      "id": "aichi-higashiura-oaigyoretsu",
       "name": "於大行列",
       "aliases": [
         "於大行列（当日の予定）"
@@ -102712,113 +101673,11 @@
           ]
         }
       ],
-      "notes": "情報源に特定年の日付として記載: 2026年2月21日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "情報源に特定年の日付として記載: 2026年2月21日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-higashiura-x6e022e8c",
-      "name": "日本の古き時代の楽器（三味線・和太鼓）に触れて",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "愛知県",
-      "municipality": "東浦町",
-      "district": null,
-      "venue": null,
-      "location": null,
-      "usual_schedule": null,
-      "event_dates": [],
-      "categories": [
-        "traditional_performing_art"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.town.aichi-higashiura.lg.jp/kanko_bunka/event/event.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.town.aichi-higashiura.lg.jp/kanko_bunka/event/index.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "特定年の日程か例年の規則かは未確認: 10月11日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
-      "id": "aichi-higashiura-xb53a7791",
-      "name": "東浦ミュージックフェスティバル2026",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "愛知県",
-      "municipality": "東浦町",
-      "district": null,
-      "venue": null,
-      "location": null,
-      "usual_schedule": null,
-      "event_dates": [],
-      "categories": [
-        "citizen_festival"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.town.aichi-higashiura.lg.jp/kanko_bunka/event/event.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.town.aichi-higashiura.lg.jp/kanko_bunka/event/index.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "特定年の日程か例年の規則かは未確認: 09月05日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
-      "id": "aichi-higashiura-x21f6a448",
+      "id": "aichi-higashiura-higashiuragokasommushikuyogyoji",
       "name": "東浦五ヶ村虫供養行事",
       "aliases": [],
       "status": "candidate",
@@ -102856,11 +101715,11 @@
           ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-higashiura-x764c55be",
+      "id": "aichi-higashiura-moriokamurakijinjaomantomatsuri",
       "name": "森岡の村木神社おまんと祭り",
       "aliases": [],
       "status": "candidate",
@@ -102899,11 +101758,11 @@
           ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-higashiura-x4ed27c7d",
+      "id": "aichi-higashiura-mushagyoretsu",
       "name": "武者行列",
       "aliases": [],
       "status": "candidate",
@@ -102941,11 +101800,11 @@
           ]
         }
       ],
-      "notes": "情報源に特定年の日付として記載: 2026年4月18日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "情報源に特定年の日付として記載: 2026年4月18日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-higashiura-x5884b78c",
+      "id": "aichi-higashiura-hiwatarishinji",
       "name": "火渡り神事",
       "aliases": [],
       "status": "candidate",
@@ -102983,11 +101842,11 @@
           ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-higashiura-xb3dc1a1a",
+      "id": "aichi-higashiura-sangyomatsuri",
       "name": "産業まつり",
       "aliases": [],
       "status": "candidate",
@@ -103052,11 +101911,11 @@
           ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-higashiura-x8bc67f29",
+      "id": "aichi-higashiura-shichigosan",
       "name": "産業まつり 七五三",
       "aliases": [],
       "status": "candidate",
@@ -103094,11 +101953,11 @@
           ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-higashiura-x7761df11",
+      "id": "aichi-higashiura-chitanomushikuyogyoji",
       "name": "知多の虫供養行事",
       "aliases": [],
       "status": "candidate",
@@ -103145,11 +102004,11 @@
           ]
         }
       ],
-      "notes": "特定年の日程か例年の規則かは未確認: 12月3日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "特定年の日程か例年の規則かは未確認: 12月3日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-higashiura-x969ddde6",
+      "id": "aichi-higashiura-ishihamainarijinjanosairei",
       "name": "石浜稲荷神社の祭礼",
       "aliases": [
         "石浜稲荷神社の祭礼／東浦町"
@@ -103208,11 +102067,11 @@
           ]
         }
       ],
-      "notes": "特定年の日程か例年の規則かは未確認: 3月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "特定年の日程か例年の規則かは未確認: 3月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-higashiura-x305bfe9f",
+      "id": "aichi-higashiura-shinseinaokagura",
       "name": "神聖なお神楽",
       "aliases": [],
       "status": "candidate",
@@ -103252,156 +102111,11 @@
           ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-higashiura-x70a2711b",
-      "name": "祭りの概要",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "愛知県",
-      "municipality": "東浦町",
-      "district": null,
-      "venue": "藤江神社",
-      "location": null,
-      "usual_schedule": "第2日曜日",
-      "event_dates": [],
-      "categories": [
-        "shrine_festival",
-        "seasonal_flower_nature"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.town.aichi-higashiura.lg.jp/kanko_bunka/bunkazai/TraditionalCulture/9352.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.town.aichi-higashiura.lg.jp/kanko_bunka/bunkazai/TraditionalCulture/9353.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
-      "id": "aichi-higashiura-xe002fcc8",
-      "name": "祭り紹介",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "愛知県",
-      "municipality": "東浦町",
-      "district": null,
-      "venue": "入海神社",
-      "location": null,
-      "usual_schedule": "第2土曜日",
-      "event_dates": [],
-      "categories": [
-        "shrine_festival"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.town.aichi-higashiura.lg.jp/kanko_bunka/bunkazai/TraditionalCulture/9349.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
-      "id": "aichi-higashiura-x6b1ae58a",
-      "name": "祭り紹介と歴史",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "愛知県",
-      "municipality": "東浦町",
-      "district": null,
-      "venue": "津島神社",
-      "location": null,
-      "usual_schedule": "第4日曜日",
-      "event_dates": [],
-      "categories": [
-        "shrine_festival"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.town.aichi-higashiura.lg.jp/kanko_bunka/bunkazai/TraditionalCulture/9350.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.town.aichi-higashiura.lg.jp/kanko_bunka/bunkazai/TraditionalCulture/9351.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
-      "id": "aichi-higashiura-xd2c64ebd",
+      "id": "aichi-higashiura-ogawasairei",
       "name": "緒川祭礼",
       "aliases": [
         "緒川祭礼／東浦町"
@@ -103459,11 +102173,11 @@
           ]
         }
       ],
-      "notes": "情報源に特定年の日付として記載: 2019年3月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "情報源に特定年の日付として記載: 2019年3月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-higashiura-x10dac43d",
+      "id": "aichi-higashiura-geinosai",
       "name": "芸能祭",
       "aliases": [],
       "status": "candidate",
@@ -103519,11 +102233,11 @@
           ]
         }
       ],
-      "notes": "特定年の日程か例年の規則かは未確認: 10月03日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "特定年の日程か例年の規則かは未確認: 10月03日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-higashiura-x4f3b76e7",
+      "id": "aichi-higashiura-fujienodantsukushishimai",
       "name": "藤江のだんつく獅子舞",
       "aliases": [],
       "status": "candidate",
@@ -103562,11 +102276,11 @@
           ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-higashiura-x9e7866c7",
+      "id": "aichi-higashiura-fujiejinjareitaisai",
       "name": "藤江神社例大祭",
       "aliases": [
         "藤江神社例大祭／東浦町"
@@ -103625,11 +102339,53 @@
           ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-higashiura-xc8351231",
+      "id": "aichi-higashiura-gyoretsushuppatsu",
+      "name": "行列出発（9時40分頃）",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "愛知県",
+      "municipality": "東浦町",
+      "district": null,
+      "venue": "明徳寺",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "temple_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.town.aichi-higashiura.lg.jp/kanko_bunka/kanko/event/1515110613587.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "aichi-higashiura-hojotoamagoikigannoshishimai",
       "name": "豊穣と雨乞い祈願の獅子舞",
       "aliases": [],
       "status": "candidate",
@@ -103669,11 +102425,11 @@
           ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-tokai-x22160ab2",
+      "id": "aichi-tokai-ohanashitomonokaifesutibaru",
       "name": "(中央図書館)第70回お話友の会フェスティバルの様子",
       "aliases": [],
       "status": "candidate",
@@ -103729,11 +102485,97 @@
           ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-tokai-x0af11c5a",
+      "id": "aichi-tokai-mizumatsuri",
+      "name": "ミズマツリ",
+      "aliases": [
+        "2 ミズマツリ"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "愛知県",
+      "municipality": "東海市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.aichi.jp/soshiki/startup/e-palette-mizumaturi.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 令和8年7月11日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "aichi-tokai-baitarititokaiwoku",
+      "name": "9月1日 Vitality とうかい ウォーク",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "愛知県",
+      "municipality": "東海市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.city.tokai.aichi.jp/",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 9月7日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "aichi-tokai-zariganikurabumatsuri",
       "name": "ざりがにクラブまつりに遊びに行こう",
       "aliases": [],
       "status": "candidate",
@@ -103834,7 +102676,7 @@
           ]
         }
       ],
-      "notes": "特定年の日程か例年の規則かは未確認: ９月２７日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "特定年の日程か例年の規則かは未確認: ９月２７日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
@@ -103889,7 +102731,67 @@
       "last_verified": null
     },
     {
-      "id": "aichi-tokai-x903f65ed",
+      "id": "aichi-tokai-tokaimatsurihanabitaikai",
+      "name": "協賛者御芳名記載漏れに伴う東海まつり花火大会プログラムの訂正",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "愛知県",
+      "municipality": "東海市",
+      "district": null,
+      "venue": "太田川駅前",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "fireworks"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.city.tokai.aichi.jp/",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.tokai.aichi.jp/bunka/1002737/1006610/1011418.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.tokai.aichi.jp/bunka/1002737/1006610/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "aichi-tokai-otamatsuri",
       "name": "大田まつり",
       "aliases": [],
       "status": "candidate",
@@ -103927,11 +102829,11 @@
           ]
         }
       ],
-      "notes": "情報源に特定年の日付として記載: 平成24年6月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "情報源に特定年の日付として記載: 平成24年6月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-tokai-xc4a93094",
+      "id": "aichi-tokai-yokosukaotanodashi",
       "name": "東海市 横須賀・大田の山車",
       "aliases": [],
       "status": "candidate",
@@ -103969,11 +102871,11 @@
           ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-tokai-xb190f045",
+      "id": "aichi-tokai-bonodorikoshukai",
       "name": "盆踊り講習会",
       "aliases": [
         "(2026年度)盆踊り講習会"
@@ -104059,11 +102961,11 @@
           ]
         }
       ],
-      "notes": "情報源に特定年の日付として記載: 2026年6月12日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "情報源に特定年の日付として記載: 2026年6月12日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-tokai-xfea200c2",
+      "id": "aichi-tokai-sakefain",
       "name": "酒fine2026 秋の酒蔵祭in太田川駅 今年も開催決定",
       "aliases": [],
       "status": "candidate",
@@ -104164,11 +103066,11 @@
           ]
         }
       ],
-      "notes": "情報源に特定年の日付として記載: 令和５年７月1日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "情報源に特定年の日付として記載: 令和５年７月1日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-togo-x7e86de12",
+      "id": "aichi-togo-togochominnoryomatsuri",
       "name": "東郷町民納涼まつり",
       "aliases": [],
       "status": "candidate",
@@ -104206,11 +103108,11 @@
           ]
         }
       ],
-      "notes": "情報源に特定年の日付として記載: 2026年9月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "情報源に特定年の日付として記載: 2026年9月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-togo-xcc938763",
+      "id": "aichi-togo-morowahayashitaiko",
       "name": "諸輪の囃太鼓",
       "aliases": [],
       "status": "candidate",
@@ -104267,11 +103169,11 @@
           ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-togo-xffb2c4f4",
+      "id": "aichi-togo-hetanomatsuribayashi",
       "name": "部田の祭ばやし",
       "aliases": [],
       "status": "candidate",
@@ -104328,11 +103230,11 @@
           ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-togo-x8faf3c6b",
+      "id": "aichi-togo-ongakusai",
       "name": "音楽祭 in TOGO（12月6日）",
       "aliases": [
         "音楽祭 in TOGO（12月6日）／東郷町"
@@ -104399,11 +103301,53 @@
           ]
         }
       ],
-      "notes": "特定年の日程か例年の規則かは未確認: 9月29日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "特定年の日程か例年の規則かは未確認: 9月29日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-konan-xd261c61f",
+      "id": "aichi-taketoyo-furusatomatsuri",
+      "name": "8月15日 ふるさとまつり LINE配信に伴うお詫びと訂正",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "愛知県",
+      "municipality": "武豊町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "citizen_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.town.taketoyo.lg.jp/",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 2026年8月24日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "aichi-konan-kitanotenjinshafudematsuri",
       "name": "10月27日 北野天神社筆まつり",
       "aliases": [],
       "status": "candidate",
@@ -104441,11 +103385,11 @@
           ]
         }
       ],
-      "notes": "特定年の日程か例年の規則かは未確認: 8月19日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "特定年の日程か例年の規則かは未確認: 8月19日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-konan-x52699e32",
+      "id": "aichi-konan-konanshidanjokyodosankakushiminfesuta",
       "name": "2024江南市男女共同参画市民フェスタ",
       "aliases": [],
       "status": "candidate",
@@ -104546,11 +103490,53 @@
           ]
         }
       ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-konan-xea474120",
+      "id": "aichi-konan-reddotorozukuritaiken",
+      "name": "LED灯籠づくり体験",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "愛知県",
+      "municipality": "江南市",
+      "district": null,
+      "venue": "前飛保会館",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.city.konan.lg.jp/event/moyooshi/1018595.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 令和7年11月8日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "aichi-konan-konanfujinopammatsuri",
       "name": "※ こうなん藤のパンまつり",
       "aliases": [
         "※ こうなん藤のパンまつり 終了しました 2026年4月7日"
@@ -104608,11 +103594,11 @@
           ]
         }
       ],
-      "notes": "情報源に特定年の日付として記載: 2026年8月21日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "情報源に特定年の日付として記載: 2026年8月21日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
-      "id": "aichi-konan-x45673ae7",
+      "id": "aichi-konan-konanfujimatsuri",
       "name": "こうなん藤まつり",
       "aliases": [
         "こうなん藤まつりキャンペーン出発式",
@@ -104720,7 +103706,7 @@
           ]
         }
       ],
-      "notes": "情報源に特定年の日付として記載: 令和8年7月22日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "notes": "情報源に特定年の日付として記載: 令和8年7月22日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
@@ -105906,48 +104892,6 @@
       "last_verified": null
     },
     {
-      "id": "aichi-tsushima-xd819ad96",
-      "name": "の尾張津島天王祭",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "愛知県",
-      "municipality": "津島市",
-      "district": null,
-      "venue": null,
-      "location": null,
-      "usual_schedule": null,
-      "event_dates": [],
-      "categories": [
-        "unclassified"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.city.tsushima.lg.jp/shokai/matsurikyoudo/tennnoumaturi/index.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
       "id": "aichi-tsushima-x0a95f221",
       "name": "まつり・郷土芸能",
       "aliases": [
@@ -106467,7 +105411,8 @@
         "尾張津島天王祭の流れ",
         "尾張津島天王祭の由来",
         "尾張津島天王祭の舞台（津島川）",
-        "尾張津島天王祭観覧席(東側)の販売"
+        "尾張津島天王祭観覧席(東側)の販売",
+        "の尾張津島天王祭"
       ],
       "status": "candidate",
       "confidence": "low",
