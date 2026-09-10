@@ -109,6 +109,37 @@ S1 は1自治体40ページの一般クロールで、文化財セクション�
 既定値は 15 のままにしてある。20 まで上げても効率は落ちないが、
 指定件数への寄与が確認できていないので既定は動かさない。
 
+### 書式チューニングは打ち切った (2026-09-10)
+
+`bunkazai_local.py` に書式の型を足していく方法は**スケールしない**。実測:
+
+- 変動の単位は県でもCMSでもなく**自治体ごと**。石岡市・結城市・常総市・潮来市は
+  同じCMS (`page\d+.html`) だが、石岡市は「見出しに指定区分/セルに種別」、
+  結城市は「セルに指定区分/見出しに種別」と**逆**だった。CMSはページ編集機能を
+  与えるだけで、表は各自治体の担当者が手で組んでいる
+- 茨城1県だけで4通りの型が出て、実装は2回巻き戻した (614件→255件→83件)
+
+書式に依存せず成立した規則は1つだけ:
+
+> **指定区分と種別のうち、文脈から補ってよいのは片方だけ。両方とも
+> 書いていない行は根拠にならない。**
+
+これで83件・14/45自治体。残りは任意の表の意味を読む仕事なので、そこだけ
+AIに渡す (S0.5c)。対象は機械的に定義できる ——「無形民俗等を含むのに
+`bunkazai_local` が0件だったページ」。**AIに探索させない。**渡すのは確定した
+小さな入力で、やるのは「この表から指定されている行事名を書き出す」だけ。
+
+整形は `bunkazai_ai_prepare.py` が行う。素のHTMLを渡すと WordPress の
+inline JS と CSS が本文を埋めるため、script/style/nav を落として見出しと表
+だけを残す。実測で **1ページ930文字 → 375文字**。
+
+任務カードは `pipeline/bunkazai_ai_card.md` に置き、バッチ先頭へそのまま
+埋め込む。サブエージェントには**カード以外の規約ファイルを配らない**
+(AGENTS.md 全文を配ると枠を食う)。戻り値は4列固定
+`page_id / designation / kind / name` で、ページ本文が親のコンテキストへ
+流れ込まないようにする。**IDとローマ字は委託しない** —
+`bunkazai_ai_apply.py` が受け取るのは名称までで、slug生成は機械工程が行う。
+
 ## 工程
 
 | 段階 | スクリプト | ネット | AI | 役割 |
@@ -116,6 +147,7 @@ S1 は1自治体40ページの一般クロールで、文化財セクション�
 | S0 | `registry.py` | 要 | 不要 | 全国市区町村コード表と、公式サイト/観光協会URLの台帳 |
 | S0.5 | `bunkazai.py` | 要 | 不要 | 文化庁DBから無形の民俗文化財を種別×県で取得 (全国966件) |
 | S0.5b | `bunkazai_local.py` | 不要 | 不要 | 県・市町村指定をキャッシュ済みHTMLから拾う (クロール済みの県のみ) |
+| S0.5c | `bunkazai_ai_prepare.py` / `bunkazai_ai_apply.py` | 不要 | **要** | 機械抽出が0件だったページだけAIに読ませる |
 | S0.6 | `vocab.py` | 不要 | 不要 | 指定名称から**県別の行事語彙**を生成 (678語/新規460語) |
 | S0.7 | `gazetteer.py` | 要 | 不要 | Wikipediaの祭り記事一覧 = **既知の除外リスト** (全国1609件) |
 | S1 | `discover.py` | 要 | 不要 | 台帳のトップページから祭り情報のあるページを幅優先で収集 |
@@ -138,6 +170,13 @@ python pipeline/registry.py --resolve-sites --prefecture 茨城県
 # S0-3: 民俗文化財の台帳と県別語彙 (一度だけ。結果はコミットする)
 python pipeline/bunkazai.py --build          # 全国966件、約8分
 python pipeline/bunkazai_local.py --build    # 県・市町村指定 (ネット不要、S1の後で)
+
+# S0.5c: 残余をAIに渡す (S0.5b の後。唯一AIが要る工程その2)
+python pipeline/bunkazai_ai_prepare.py --prefecture 茨城県 --limit 120
+#   -> work/bunkazai_ai/bz_batch_NNN.txt (先頭に任務カードが入っている)
+#      AIはこれを読み work/bunkazai_ai/bz_verdict_NNN.tsv を返す
+python pipeline/bunkazai_ai_apply.py --prefecture 茨城県 --dry-run
+python pipeline/bunkazai_ai_apply.py --prefecture 茨城県
 python pipeline/vocab.py --build --summary   # registry/vocab_regional.tsv
 python pipeline/gazetteer.py --build         # 全国1609件、約12分
 
