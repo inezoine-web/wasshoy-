@@ -99,10 +99,20 @@ def place_names() -> set[str]:
     return names
 
 
+# 名称に添えられた読み仮名。「元町みろく（もとまちみろく）」の括弧を
+# 末尾だけ落とすと「元町みろく（もとまちみろく」という開き括弧の残った
+# 語ができるので、括弧ごと消す。
+_READING = re.compile(r"[（(][ぁ-んァ-ヶー・\s]{2,24}[）)]")
+# 読み以外の注記が閉じないまま残った場合は、開き括弧で切る。
+_UNBALANCED = re.compile(r"[（(][^）)]*$")
+
+
 def terms_of(name: str) -> list[str]:
     """1つの指定名称から語の候補を返す。"""
+    name = _READING.sub("", name)
     out: list[str] = []
     for seg in _SPLIT.split(name):
+        seg = _UNBALANCED.sub("", seg)
         seg = _TRIM.sub("", seg)
         if not seg:
             continue
@@ -113,6 +123,9 @@ def terms_of(name: str) -> list[str]:
         # 「の」で切った結果が一般語 (小浜島の芸能 -> 芸能) や1文字
         # (小浜島の盆 -> 盆) なら、その断片は語彙にしない。
         cand = _TRIM.sub("", _NO_PREFIX.sub("", seg))
+        # _TRIM は末尾の閉じ括弧を落とすので、ここで初めて釣り合いが崩れる
+        # (「プーリィ（豊年祭）」-> 「プーリィ（豊年祭」)。開き括弧で切り直す。
+        cand = _UNBALANCED.sub("", cand).strip()
         if len(cand) >= MIN_LEN and cand not in STOPWORD:
             out.append(cand)
     return out

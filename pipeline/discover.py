@@ -85,6 +85,57 @@ NAV_SKIP_ROMAJI = re.compile(
 )
 SKIP_EXT = re.compile(r"\.(pdf|docx?|xlsx?|pptx?|zip|jpe?g|png|gif|svg|mp4|mp3)$", re.I)
 
+# --- 文化財レンズ ---------------------------------------------------------
+# 一般クロールは文化財セクションをほとんど踏まない。茨城の実測では、
+# 6850ページのうち文化財らしきページは409枚 (6.0%)、1自治体あたり中央値9枚で、
+# 7自治体 (日立市 石岡市 笠間市 結城市 茨城町 行方市 鉾田市) は0枚だった。
+# 県・市町村指定の民俗文化財は `bunkazai_local.py` の唯一の入力なので、
+# ここが薄いままだと語彙の種が増えない (茨城で国指定17件に対し29件どまり)。
+#
+# そこで一般クロールとは**別枠**の第2段を置く。第1段の出力は変えないので、
+# ベンチマークの再現率は構造的に落ちない。
+CULTURAL_STRONG = re.compile(r"文化財|民俗|無形|保存会|郷土芸能|伝統芸能|指定文化財")
+CULTURAL_STRONG_ROMAJI = re.compile(
+    r"bunkazai|bunka_zai|bunkazi|minzoku|minzoku|mukei|hozonkai|"
+    r"kyodogeino|kyoudogeinou|geino|geinou"
+)
+# 文化財の入口になりやすいが、それ自体は文化財ではないもの。
+# 強い語より後回しにする。
+CULTURAL_NAV = re.compile(r"教育委員会|生涯学習|文化課|文化振興|歴史|郷土|伝承")
+# 短い語はパスの区切りで囲む。`kyodo` を素で当てると
+# `/danjokyodosankaku/` (男女共同参画) に当たり、レンズの枠を1枚食った。
+CULTURAL_NAV_ROMAJI = re.compile(
+    r"kyoiku|kyouiku|shogaigakushu|syogaigakusyu|shougaigakushuu|rekishi|"
+    r"(?:^|[/_.-])(?:kyou?do|densho[uo]?)(?:[/_.-]|$)"
+)
+
+
+# 「○指定文化財一覧」が最も価値が高い。カテゴリのインデックス
+# (「県指定文化財」) は仏像も古墳も混ざった項目リンクの羅列で、種別が
+# 書かれていないため `bunkazai_local.py` が何も取れない。種別の列を持つのは
+# 一覧表のほうで、石岡市では実際に「県指定文化財一覧」が別ページにあり、
+# そこに辿り着けずレンズの枠を「文化財防火デー」「保存事業補助金」に
+# 使っていた。
+CULTURAL_LIST = re.compile(r"一覧|覧表|リスト|目録|台帳|list")
+
+
+def cultural_rank(url: str, label: str) -> int | None:
+    """文化財レンズでの優先度。小さいほど先。対象外なら None。
+
+    URLのローマ字パスも見る。自治体CMSは `/bunkazai/` のようにローマ字で
+    セクションを切っており、リンク文字列が「一覧」だけのことも多い。
+    """
+    path = urllib.parse.unquote(urllib.parse.urlparse(url).path).lower()
+    blob = f"{label} {path}"
+    strong = bool(CULTURAL_STRONG.search(blob) or CULTURAL_STRONG_ROMAJI.search(path))
+    if strong and CULTURAL_LIST.search(blob):
+        return -1
+    if strong:
+        return 0
+    if CULTURAL_NAV.search(blob) or CULTURAL_NAV_ROMAJI.search(path):
+        return 4
+    return None
+
 FEED_HINT = re.compile(r"rss|atom|feed", re.I)
 
 # 1自治体あたりの探索キューの上限。取得上限が決まっているので
@@ -228,6 +279,7 @@ def discover_site(
     seeds: list[str],
     max_pages: int,
     max_depth: int,
+    bunkazai_pages: int = 0,
 ) -> list[dict[str, str]]:
     """1自治体分の探索。訪問したページの記録を返す。"""
     hosts = {urllib.parse.urlparse(s).netloc for s in seeds if s}
@@ -300,6 +352,44 @@ def discover_site(
             if child in visited or not same_site(child, hosts) or SKIP_EXT.search(child):
                 continue
             push(child, depth + 1, "index", link_priority(child, label))
+
+    # --- 第2段: 文化財レンズ ---------------------------------------------
+    # ここに来る時点で第1段の records は確定している。**一切書き換えない。**
+    # 追加分は別枠なので、これを有効にしても既存のベンチマークは動かない。
+    #
+    # 深さも別に持つ。文化財一覧は「教育委員会 > 生涯学習 > 文化財 > 一覧」
+    # のように深いことが多く、第1段の深さ3では入口までしか届かない。
+    taken = 0
+    cultural_depth = max_depth + 2
+    while queue and taken < bunkazai_pages:
+        _priority, depth, _seq, url, kind = heapq.heappop(queue)
+        if url in visited or not same_site(url, hosts) or SKIP_EXT.search(url):
+            continue
+        if cultural_rank(url, "") is None:
+            continue
+        visited.add(url)
+        doc = fetcher.get(url)
+        if doc is None or doc.status != 200:
+            continue
+        taken += 1
+        records.append(
+            {
+                "url": doc.final_url,
+                "fetch_url": url,
+                "kind": "bunkazai",
+                "depth": str(depth),
+                "title": page_title(doc.text),
+            }
+        )
+        if depth >= cultural_depth or is_feed_or_sitemap(doc.text):
+            continue
+        for child, label in iter_links(doc.text, url):
+            if child in visited or not same_site(child, hosts) or SKIP_EXT.search(child):
+                continue
+            rank = cultural_rank(child, label)
+            if rank is None:
+                continue
+            push(child, depth + 1, "bunkazai", rank)
 
     return records
 
@@ -376,6 +466,11 @@ def main(argv: list[str] | None = None) -> int:
                          "情報価値は上位20ページに8割が集中している")
     ap.add_argument("--pref-lens-pages", type=int, default=250,
                     help="県単位レンズ(教育委員会の文化財一覧等)の取得上限")
+    ap.add_argument("--bunkazai-pages", type=int, default=15,
+                    help="文化財レンズの取得上限。--max-pages とは別枠で、"
+                         "一般クロールが終わったあとに文化財らしいURLだけを"
+                         "追加で取る。第1段の出力は変えないので、これを"
+                         "増やしてもベンチマークの再現率は動かない。0で無効")
     ap.add_argument("--no-prefecture-lens", action="store_true",
                     help="県単位レンズを使わない")
     ap.add_argument("--workers", type=int, default=4,
@@ -435,7 +530,8 @@ def main(argv: list[str] | None = None) -> int:
                 else args.max_pages
             )
             try:
-                return site, discover_site(fetcher, seeds, budget, args.max_depth)
+                return site, discover_site(fetcher, seeds, budget, args.max_depth,
+                                           args.bunkazai_pages)
             except Exception as exc:  # noqa: BLE001
                 # 1自治体で落ちても他の43件を巻き添えにしない。
                 # 静岡県では壊れた href 1本で県全体が失敗した。

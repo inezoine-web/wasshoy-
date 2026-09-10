@@ -127,6 +127,8 @@ def clean_name(raw: str) -> str:
     n = CUT.sub("", raw).strip(" 　・:：|｜/／")
     # 一覧の行頭に付く記号・番号を落とす (「※浅川のささら」「1 舘獅子」)
     n = re.sub(r"^[※＊*・□■○●◇◆▲△\-–—\d０-９.．)）]+\s*", "", n)
+    # 行頭の注記括弧を落とす (「（国選択） 真家みたまおどり」)
+    n = re.sub(r"^[（(][^）)]{1,8}[）)]\s*", "", n)
     n = re.sub(r"^(?:" + DESIGNATION + r")\s*", "", n)
     n = re.sub(r"^(?:" + KIND + r")\s*", "", n)
     return n.strip()
@@ -152,6 +154,63 @@ def rows_from_table(page_text: str) -> list[tuple[str, str, str]]:
                 continue
             name = clean_name(c)
             if 2 <= len(name) <= 30 and not NOT_NAME.search(name):
+                out.append((desig, kind, name))
+                break
+    return out
+
+
+# 「○指定文化財一覧」の表は、指定区分が行ではなく**ページ見出し**にある。
+# 石岡市の実例:
+#
+#     <title>県指定文化財一覧</title>
+#     | 指定区分       | 指定文化財名 | 指定年月日   | 所在地 |
+#     | 史跡           | 石岡の一里塚 | 昭和33年3月12日 | 泉町   |
+#     | 無形民俗文化財 | 富田のささら | ...          | ...    |
+#
+# 「指定区分」列に入っているのは種別 (史跡/有形/無形民俗) であって国県市の別
+# ではない。行の中に「県指定」というセルが無いので、行だけを見る経路では
+# 1件も取れなかった。ここが県・市町村指定の本体なので、見出しから補う。
+PAGE_DESIG = re.compile(r"(?:国|県|都|道|府|市|町|村)\s*指定")
+_TITLE = re.compile(r"<title[^>]*>(.*?)</title>", re.S | re.I)
+_H1 = re.compile(r"<h1[^>]*>(.*?)</h1>", re.S | re.I)
+# 名称の位置に日付や番号が来た場合の門番
+_NOT_A_NAME_CELL = re.compile(r"^(?:昭和|平成|令和|大正|明治|\d|[0-9０-９])")
+# 所在地の列を名称として拾ってしまう。実際に「ひたちなか市佐和1」
+# 「ひたちなか市湊本町ほか」が名称として出た。住所の形を弾く。
+# 末尾が数字の行事名はこの列にはほぼ無いので、数字止まりも住所とみなす。
+_ADDRESS_CELL = re.compile(r"丁目|番地|[0-9０-９]$|ほか$|地内$|^[^\s]{2,7}[市区町村][^\s]{0,14}[0-9０-９]")
+
+
+def page_designation(page_text: str) -> str:
+    """ページ見出しから「県指定」などを取る。無ければ空。"""
+    head = ""
+    m = _TITLE.search(page_text)
+    if m:
+        head += text_of(m.group(1)) + " "
+    m = _H1.search(page_text)
+    if m:
+        head += text_of(m.group(1))
+    m = PAGE_DESIG.search(head)
+    return re.sub(r"\s+", "", m.group(0)) if m else ""
+
+
+def rows_from_table_context(page_text: str, desig: str) -> list[tuple[str, str, str]]:
+    """種別セルはあるが指定区分セルが無い表を、見出しの指定区分で補って読む。"""
+    if not desig:
+        return []
+    out = []
+    for row_match in TR.finditer(page_text):
+        cells = [text_of(c) for c in TD.findall(row_match.group(1))]
+        if len(cells) < 2:
+            continue
+        kind = next((c for c in cells if KIND_ONLY.match(c)), "")
+        if not kind:
+            continue
+        for c in cells:
+            if c == kind or not c or _NOT_A_NAME_CELL.match(c) or _ADDRESS_CELL.search(c):
+                continue
+            name = clean_name(c)
+            if 2 <= len(name) <= MAX_NAME and not NOT_NAME.search(name):
                 out.append((desig, kind, name))
                 break
     return out
@@ -210,7 +269,10 @@ def rows_of_page(raw: bytes, content_type: str, src: str,
     except Exception:
         return []
     out = []
-    for desig, kind, name in rows_from_table(text) + rows_from_flat(text):
+    found = (rows_from_table(text)
+             + rows_from_table_context(text, page_designation(text))
+             + rows_from_flat(text))
+    for desig, kind, name in found:
         out.append({
             "prefecture": who[0],
             "municipality": who[1],
