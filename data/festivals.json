@@ -6546,7 +6546,9 @@
     {
       "id": "ibaraki-goka-gokamarushe",
       "name": "ごかマルシェ（利根川大花火大会 五霞町会場）",
-      "aliases": [],
+      "aliases": [
+        "利根川大花火大会【五霞町会場】"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "茨城県",
@@ -6574,6 +6576,15 @@
       "sources": [
         {
           "url": "https://www.town.goka.lg.jp/kurashi-machi-shigoto/gokanabi/event/page005922.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.town.goka.lg.jp/kurashi-machi-shigoto/gokanabi/event/page006491.html",
           "title": null,
           "publisher": null,
           "accessed": "2026-09-08",
@@ -6730,48 +6741,6 @@
         }
       ],
       "notes": "情報源に特定年の日付として記載: 2024年12月20日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
-      "last_verified": null
-    },
-    {
-      "id": "ibaraki-goka-tonegawaohanabitaikai",
-      "name": "利根川大花火大会【五霞町会場】",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "茨城県",
-      "municipality": "五霞町",
-      "district": null,
-      "venue": null,
-      "location": null,
-      "usual_schedule": null,
-      "event_dates": [],
-      "categories": [
-        "fireworks"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.town.goka.lg.jp/kurashi-machi-shigoto/gokanabi/event/page006491.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
@@ -13398,7 +13367,9 @@
     {
       "id": "ibaraki-oarai-hassakusai",
       "name": "八朔祭",
-      "aliases": [],
+      "aliases": [
+        "大洗八朔祭"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "茨城県",
@@ -13450,40 +13421,7 @@
           "supports": [
             "name_mentioned"
           ]
-        }
-      ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
-      "last_verified": null
-    },
-    {
-      "id": "ibaraki-oarai-oaraihassakusai",
-      "name": "大洗八朔祭",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "茨城県",
-      "municipality": "大洗町",
-      "district": null,
-      "venue": null,
-      "location": null,
-      "usual_schedule": null,
-      "event_dates": [],
-      "categories": [
-        "unclassified"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
+        },
         {
           "url": "https://www.oarai-info.jp/category/event/",
           "title": null,
@@ -13503,7 +13441,7 @@
           ]
         }
       ],
-      "notes": "特定年の日程か例年の規則かは未確認: 6月14日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
@@ -13695,48 +13633,6 @@
         }
       ],
       "notes": "情報源に特定年の日付として記載: 令和8年6月21日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
-      "last_verified": null
-    },
-    {
-      "id": "ibaraki-oarai-kaijohanabitaikai",
-      "name": "海上花火大会",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "茨城県",
-      "municipality": "大洗町",
-      "district": null,
-      "venue": null,
-      "location": null,
-      "usual_schedule": null,
-      "event_dates": [],
-      "categories": [
-        "fireworks"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.oarai-info.jp/season/postid_2653/",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
@@ -14727,7 +14623,9 @@
     {
       "id": "ibaraki-omitama-ogawagionsai",
       "name": "小川祇園祭（素鵞神社祇園祭）",
-      "aliases": [],
+      "aliases": [
+        "素鵞神社祇園祭"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "茨城県",
@@ -14755,6 +14653,15 @@
       "sources": [
         {
           "url": "http://omitan.net/tourism/ogawa-gion.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.omitama.lg.jp/0966/info-0000012089-0.html",
           "title": null,
           "publisher": null,
           "accessed": "2026-09-08",
@@ -14942,48 +14849,6 @@
         }
       ],
       "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
-      "id": "ibaraki-omitama-sogajinjagionsai",
-      "name": "素鵞神社祇園祭",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "茨城県",
-      "municipality": "小美玉市",
-      "district": null,
-      "venue": null,
-      "location": null,
-      "usual_schedule": null,
-      "event_dates": [],
-      "categories": [
-        "shrine_festival"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.city.omitama.lg.jp/0966/info-0000012089-0.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "特定年の日程か例年の規則かは未確認: 12月1日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
@@ -16086,7 +15951,9 @@
       "id": "ibaraki-joso-naganoirinoshishimai",
       "name": "長ノ入の獅子舞（馬鹿囃子）",
       "aliases": [
-        "長ノ入の獅子舞(馬鹿囃子)(ながのいりのししまい)"
+        "長ノ入の獅子舞(馬鹿囃子)(ながのいりのししまい)",
+        "馬鹿囃子",
+        "馬鹿囃子祭る"
       ],
       "status": "candidate",
       "confidence": "low",
@@ -16188,50 +16055,6 @@
         }
       ],
       "notes": "特定年の日程か例年の規則かは未確認: 12月7日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
-      "last_verified": null
-    },
-    {
-      "id": "ibaraki-joso-bakabayashi",
-      "name": "馬鹿囃子",
-      "aliases": [
-        "馬鹿囃子祭る"
-      ],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "茨城県",
-      "municipality": "常総市",
-      "district": null,
-      "venue": null,
-      "location": null,
-      "usual_schedule": "毎年8月24日",
-      "event_dates": [],
-      "categories": [
-        "traditional_performing_art"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.city.joso.lg.jp/kankou_ijyu/dentou/page001923.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
@@ -19122,7 +18945,13 @@
       "name": "さくらまつり",
       "aliases": [
         "さくらまつり メイン",
-        "さくらまつりatひたちぎんざもーる"
+        "さくらまつりatひたちぎんざもーる",
+        "日立さくらまつり",
+        "日立さくらまつり メインイベント ※関連イベントを含む",
+        "日立さくらまつり「交通規制」",
+        "日立さくらまつりにおける夜桜ライトアップ点灯",
+        "日立さくらまつり当日チラシ(両面)",
+        "日立さくらまつり開催のお知らせ【随時更新】"
       ],
       "status": "candidate",
       "confidence": "low",
@@ -19736,117 +19565,6 @@
         }
       ],
       "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
-      "last_verified": null
-    },
-    {
-      "id": "ibaraki-hitachi-hitachisakuramatsuri",
-      "name": "日立さくらまつり",
-      "aliases": [
-        "日立さくらまつり メインイベント ※関連イベントを含む",
-        "日立さくらまつり「交通規制」",
-        "日立さくらまつりにおける夜桜ライトアップ点灯",
-        "日立さくらまつり当日チラシ(両面)",
-        "日立さくらまつり開催のお知らせ【随時更新】"
-      ],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "茨城県",
-      "municipality": "日立市",
-      "district": null,
-      "venue": "の日立さくらまつりは予定通り",
-      "location": null,
-      "usual_schedule": null,
-      "event_dates": [],
-      "categories": [
-        "seasonal_flower_nature"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.kankou-hitachi.jp/",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.kankou-hitachi.jp/news/page000385.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.kankou-hitachi.jp/news/page000394.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.kankou-hitachi.jp/news/page000395.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.kankou-hitachi.jp/news/page000397.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.kankou-hitachi.jp/page/page000025.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.kankou-hitachi.jp/sakura/",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.kankou-hitachi.jp/sakura/about.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "情報源に特定年の日付として記載: 2026年4月4日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
@@ -25007,7 +24725,8 @@
       "id": "ibaraki-itako-itakogiommatsurirei",
       "name": "潮来祇園祭禮",
       "aliases": [
-        "潮来祇園祭禮踊り披露"
+        "潮来祇園祭禮踊り披露",
+        "素鵞熊野神社（潮来祇園祭禮）"
       ],
       "status": "candidate",
       "confidence": "low",
@@ -25159,66 +24878,6 @@
         }
       ],
       "notes": "特定年の日程か例年の規則かは未確認: 6 月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
-      "id": "ibaraki-itako-xbb07e85c",
-      "name": "素鵞熊野神社（潮来祇園祭禮）",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "茨城県",
-      "municipality": "潮来市",
-      "district": null,
-      "venue": "権現山公園",
-      "location": null,
-      "usual_schedule": null,
-      "event_dates": [],
-      "categories": [
-        "shrine_festival"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.city.itako.lg.jp/kankou/kankou-itakokankou/kankou-spot/",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.city.itako.lg.jp/kankou/kankou-itakokankou/kankou-spot/kankou-mainspot/",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.city.itako.lg.jp/kankou/kankou-itakokankou/kankou-spot/kankou-mainspot/page002985.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "情報源に特定年の日付として記載: 2022年5月21日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
       "last_verified": null
     },
     {
@@ -34947,7 +34606,9 @@
     {
       "id": "ibaraki-miho-x918628e9",
       "name": "17日(日曜日) 映画祭",
-      "aliases": [],
+      "aliases": [
+        "9日(日曜日) 映画祭"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "茨城県",
@@ -34981,40 +34642,7 @@
           "supports": [
             "name_mentioned"
           ]
-        }
-      ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
-      "id": "ibaraki-miho-xa94768f5",
-      "name": "9日(日曜日) 映画祭",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "茨城県",
-      "municipality": "美浦村",
-      "district": null,
-      "venue": null,
-      "location": null,
-      "usual_schedule": null,
-      "event_dates": [],
-      "categories": [
-        "unclassified"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
+        },
         {
           "url": "https://www.vill.miho.lg.jp/kankou-event/kankou-event-news/page014726.html",
           "title": null,
@@ -35270,7 +34898,10 @@
     {
       "id": "ibaraki-ibaraki-xefd5a4eb",
       "name": "2025いばらきまつり",
-      "aliases": [],
+      "aliases": [
+        "2026いばらきまつり",
+        "いばらきまつり"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "茨城県",
@@ -35373,111 +35004,6 @@
       "last_verified": null
     },
     {
-      "id": "ibaraki-ibaraki-x606e8a5c",
-      "name": "2026いばらきまつり",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "茨城県",
-      "municipality": "茨城町",
-      "district": null,
-      "venue": "度水戸市医師会看護専門学院",
-      "location": null,
-      "usual_schedule": null,
-      "event_dates": [],
-      "categories": [
-        "unclassified"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.town.ibaraki.lg.jp/gyousei/index.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.town.ibaraki.lg.jp/gyousei/news/division3/syoukoukankou/000121.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.town.ibaraki.lg.jp/gyousei/news/division3/syoukoukankou/000447.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.town.ibaraki.lg.jp/gyousei/news/division3/syoukoukankou/001480.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.town.ibaraki.lg.jp/gyousei/news/division3/syoukoukankou/001981.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.town.ibaraki.lg.jp/gyousei/news/division3/syoukoukankou/002338.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.town.ibaraki.lg.jp/gyousei/news/division3/syoukoukankou/002625.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        },
-        {
-          "url": "https://www.town.ibaraki.lg.jp/gyousei/news/division3/syoukoukankou/002672.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "情報源に特定年の日付として記載: 2026年9月4日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
       "id": "ibaraki-ibaraki-ajisaimatsuriseremoni",
       "name": "あじさいまつりセレモニー",
       "aliases": [],
@@ -35560,48 +35086,6 @@
         }
       ],
       "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
-      "id": "ibaraki-ibaraki-ibarakimatsuri",
-      "name": "いばらきまつり",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "茨城県",
-      "municipality": "茨城町",
-      "district": null,
-      "venue": "涸沼自然公園",
-      "location": null,
-      "usual_schedule": null,
-      "event_dates": [],
-      "categories": [
-        "unclassified"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://kankou-ibamachi.com/pages/77/",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "特定年の日程か例年の規則かは未確認: 6月14日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
     },
     {
@@ -37826,48 +37310,6 @@
       "last_verified": null
     },
     {
-      "id": "ibaraki-naka-x9bda9b16",
-      "name": "2026八重桜まつり",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "茨城県",
-      "municipality": "那珂市",
-      "district": null,
-      "venue": "静峰ふるさと公園",
-      "location": null,
-      "usual_schedule": null,
-      "event_dates": [],
-      "categories": [
-        "seasonal_flower_nature"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.city.naka.lg.jp/event-kankou/event-info/page006243.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "情報源に特定年の日付として記載: 令和8年4月9日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
       "id": "ibaraki-naka-xa5e2ffff",
       "name": "市指定無形民俗文化財 門部ひょっとこ踊り",
       "aliases": [
@@ -38336,7 +37778,8 @@
       "id": "ibaraki-naka-x56dd5b16",
       "name": "八重桜まつり",
       "aliases": [
-        "八重桜まつり写真コンテスト"
+        "八重桜まつり写真コンテスト",
+        "2026八重桜まつり"
       ],
       "status": "candidate",
       "confidence": "low",
@@ -40898,48 +40341,6 @@
       "last_verified": null
     },
     {
-      "id": "ibaraki-takahagi-sakuramatsuri",
-      "name": "桜祭り",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "茨城県",
-      "municipality": "高萩市",
-      "district": null,
-      "venue": "緑豊かな里山と風光明媚な海岸",
-      "location": null,
-      "usual_schedule": null,
-      "event_dates": [],
-      "categories": [
-        "seasonal_flower_nature"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.takahagi-kanko.jp/",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "情報源に特定年の日付として記載: 2026年8月10日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
-      "last_verified": null
-    },
-    {
       "id": "ibaraki-takahagi-koyomatsuri",
       "name": "紅葉まつり期間",
       "aliases": [
@@ -41119,7 +40520,9 @@
     {
       "id": "ibaraki-takahagi-takahagisakuramatsuri",
       "name": "高萩桜まつり",
-      "aliases": [],
+      "aliases": [
+        "桜祭り"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "茨城県",
@@ -41334,7 +40737,9 @@
     {
       "id": "ibaraki-kashima-yosakoifesuta",
       "name": "よさこいフェスタ",
-      "aliases": [],
+      "aliases": [
+        "鹿嶋よさこいフェスタ"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "茨城県",
@@ -42070,49 +41475,6 @@
       "last_verified": null
     },
     {
-      "id": "ibaraki-kashima-kashimayosakoifesuta",
-      "name": "鹿嶋よさこいフェスタ",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "茨城県",
-      "municipality": "鹿嶋市",
-      "district": null,
-      "venue": "卜伝の郷運動公園",
-      "location": null,
-      "usual_schedule": null,
-      "event_dates": [],
-      "categories": [
-        "citizen_festival",
-        "dance"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.city.kashima.ibaraki.jp/site/kankou/73666.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "特定年の日程か例年の規則かは未確認: 10月3日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
-      "last_verified": null
-    },
-    {
       "id": "ibaraki-kashima-kashimashibunkafesutibaru",
       "name": "鹿嶋市文化フェスティバル",
       "aliases": [],
@@ -42336,49 +41698,9 @@
     {
       "id": "ibaraki-ryugasaki-nishunenkanshasai",
       "name": "2周年感謝祭",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "茨城県",
-      "municipality": "龍ケ崎市",
-      "district": null,
-      "venue": null,
-      "location": null,
-      "usual_schedule": null,
-      "event_dates": [],
-      "categories": [
-        "unclassified"
+      "aliases": [
+        "3周年感謝祭"
       ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.city.ryugasaki.ibaraki.jp/event/omatsuri/index.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "特定年の日程か例年の規則かは未確認: 7月22日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
-      "last_verified": null
-    },
-    {
-      "id": "ibaraki-ryugasaki-sanshunenkanshasai",
-      "name": "3周年感謝祭",
-      "aliases": [],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "茨城県",
