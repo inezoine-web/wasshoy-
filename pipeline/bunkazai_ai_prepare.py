@@ -112,21 +112,74 @@ def page_id(url: str) -> str:
     return hashlib.sha1(url.encode("utf-8")).hexdigest()[:8]
 
 
-def collect(prefecture: str, limit: int) -> list[dict[str, str]]:
+PAGES_DIR = BATCH_DIR / "pages"
+STATE = BATCH_DIR / "prepare.state"
+TAB = "\t"
+NL = "\n"
+
+
+def done_hosts() -> set[str]:
+    if not STATE.exists():
+        return set()
+    return {ln.strip() for ln in STATE.read_text(encoding="utf-8").splitlines() if ln.strip()}
+
+
+def load_pages() -> list[dict[str, str]]:
+    """収集済みのページを index.tsv と pages/ から読み直す。"""
+    idx_path = BATCH_DIR / "index.tsv"
+    if not idx_path.exists():
+        return []
+    lines = idx_path.read_text(encoding="utf-8").splitlines()
+    header = lines[0].split(TAB)
+    out = []
+    for ln in lines[1:]:
+        if not ln.strip():
+            continue
+        r = dict(zip(header, ln.split(TAB)))
+        f = PAGES_DIR / (r["page_id"] + ".txt")
+        if f.exists():
+            r["body"] = f.read_text(encoding="utf-8")
+            out.append(r)
+    return out
+
+
+def collect(prefecture: str, limit: int, resume: bool) -> int:
+    """ホスト単位で走査し、1ホスト終わるごとに書き出す。
+
+    このPCは空きメモリが数百MBしかなく、キャッシュ全走査は何度もOOMで
+    強制終了された。件数を溜めず、落ちても `--resume` で続きから拾える
+    ようにする (`bunkazai_local.py` と同じ作り)。
+    """
     h2m = B.host_map()
-    out: list[dict[str, str]] = []
-    seen: set[str] = set()
-    for host_dir in sorted(B.CACHE_DIR.iterdir()):
-        if len(out) >= limit:
+    BATCH_DIR.mkdir(parents=True, exist_ok=True)
+    PAGES_DIR.mkdir(parents=True, exist_ok=True)
+    idx_path = BATCH_DIR / "index.tsv"
+
+    skip = done_hosts() if resume else set()
+    if not resume:
+        for old in PAGES_DIR.glob("*.txt"):
+            old.unlink()
+        if STATE.exists():
+            STATE.unlink()
+        idx_path.write_text(TAB.join(INDEX_FIELDS) + NL, encoding="utf-8", newline=NL)
+    if not idx_path.exists():
+        idx_path.write_text(TAB.join(INDEX_FIELDS) + NL, encoding="utf-8", newline=NL)
+    have = max(0, len(idx_path.read_text(encoding="utf-8").splitlines()) - 1)
+
+    hosts = [d for d in sorted(B.CACHE_DIR.iterdir())
+             if d.is_dir() and d.name in h2m
+             and h2m[d.name][0] == prefecture and d.name not in skip]
+    print("対象ホスト %d (スキップ済み %d、収集済み %d ページ)"
+          % (len(hosts), len(skip), have), flush=True)
+
+    for i, host_dir in enumerate(hosts, 1):
+        if have >= limit:
             break
-        if not host_dir.is_dir() or host_dir.name not in h2m:
-            continue
         pref, muni = h2m[host_dir.name]
-        if pref != prefecture:
-            continue
+        found: list[dict[str, str]] = []
         taken_here = 0
         for meta_path in host_dir.glob("*.meta.json"):
-            if len(out) >= limit or taken_here >= 8:
+            if have + len(found) >= limit or taken_here >= 8:
                 break
             body_path = meta_path.with_suffix("").with_suffix(".body")
             if not body_path.is_file():
@@ -151,20 +204,32 @@ def collect(prefecture: str, limit: int) -> list[dict[str, str]]:
             except Exception:
                 continue
             url = meta.get("final_url") or ""
-            if HOT.search(text) and url and url not in seen:
+            if HOT.search(text) and url:
                 # 機械抽出が取れているページは渡さない
                 if not B.rows_of_page(raw, ctype, url, (pref, muni)):
                     cleaned = clean_page(text)
                     if len(cleaned) >= 120:
-                        seen.add(url)
-                        taken_here += 1
-                        out.append({
-                            "page_id": page_id(url), "prefecture": pref,
-                            "municipality": muni, "url": url, "body": cleaned,
-                        })
+                        pid = page_id(url)
+                        page_file = PAGES_DIR / (pid + ".txt")
+                        if not page_file.exists():
+                            page_file.write_text(cleaned, encoding="utf-8", newline=NL)
+                            found.append({"page_id": pid, "prefecture": pref,
+                                          "municipality": muni, "url": url})
+                            taken_here += 1
             del text, raw
             gc.collect()
-    return out
+
+        if found:
+            with idx_path.open("a", encoding="utf-8", newline=NL) as fh:
+                for p in found:
+                    fh.write(TAB.join(p[f] for f in INDEX_FIELDS) + NL)
+            have += len(found)
+        with STATE.open("a", encoding="utf-8", newline=NL) as fh:
+            fh.write(host_dir.name + NL)
+        gc.collect()
+        print("[%3d/%3d] %-30s %-8s +%d (計%d)"
+              % (i, len(hosts), host_dir.name[:30], muni, len(found), have), flush=True)
+    return have
 
 
 def main(argv: list[str]) -> int:
@@ -172,26 +237,22 @@ def main(argv: list[str]) -> int:
     ap.add_argument("--prefecture", required=True)
     ap.add_argument("--limit", type=int, default=120, help="切り出すページ数の上限")
     ap.add_argument("--batch-size", type=int, default=DEFAULT_BATCH)
+    ap.add_argument("--resume", action="store_true",
+                    help="OOMで落ちた続きから。済んだホストを飛ばす")
     args = ap.parse_args(argv)
 
     if not CARD.is_file():
         raise SystemExit("任務カードが無い: %s" % CARD)
     card = CARD.read_text(encoding="utf-8").rstrip()
 
-    pages = collect(args.prefecture, args.limit)
+    collect(args.prefecture, args.limit, args.resume)
+    pages = load_pages()
     if not pages:
         print("対象ページが無い")
         return 0
 
-    BATCH_DIR.mkdir(parents=True, exist_ok=True)
     for old in BATCH_DIR.glob("bz_batch_*.txt"):
         old.unlink()
-
-    idx = BATCH_DIR / "index.tsv"
-    idx.write_text(
-        "\t".join(INDEX_FIELDS) + "\n"
-        + "".join("\t".join(p[f] for f in INDEX_FIELDS) + "\n" for p in pages),
-        encoding="utf-8", newline="\n")
 
     n = 0
     for i in range(0, len(pages), args.batch_size):
