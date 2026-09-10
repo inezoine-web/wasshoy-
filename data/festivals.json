@@ -3772,48 +3772,6 @@
       "last_verified": null
     },
     {
-      "id": "ibaraki-tsukubamirai-tezukurimikoshiokatsugo",
-      "name": "手作り神輿をかつごう",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "茨城県",
-      "municipality": "つくばみらい市",
-      "district": null,
-      "venue": null,
-      "location": null,
-      "usual_schedule": null,
-      "event_dates": [],
-      "categories": [
-        "mikoshi"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.city.tsukubamirai.lg.jp/miraidaira-shimin-center/marumaru/oyako-gyoumu/event/page007707.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
-      "last_verified": null
-    },
-    {
       "id": "ibaraki-tsukubamirai-kitobayashi",
       "name": "祈祷囃子",
       "aliases": [],
@@ -80859,48 +80817,6 @@
       "last_verified": null
     },
     {
-      "id": "aichi-kariya-x91f0e547",
-      "name": "祭やイベントをお見逃しなく",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "愛知県",
-      "municipality": "刈谷市",
-      "district": null,
-      "venue": "刈谷市商店街",
-      "location": null,
-      "usual_schedule": null,
-      "event_dates": [],
-      "categories": [
-        "unclassified"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.kariya-guide.com/",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "情報源に特定年の日付として記載: 2026年10月31日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
       "id": "aichi-kariya-x03375deb",
       "name": "野田雨乞笠おどり 【市指定無形民俗文化財】",
       "aliases": [],
@@ -84298,48 +84214,6 @@
         },
         {
           "url": "https://www.city.nagoya.jp/kankou/kankouinfo/1013741/1051576.html",
-          "title": null,
-          "publisher": null,
-          "accessed": "2026-09-08",
-          "supports": [
-            "name_mentioned"
-          ]
-        }
-      ],
-      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
-      "last_verified": null
-    },
-    {
-      "id": "aichi-nagoya-xb2e49e80",
-      "name": "に国民文化祭で「操り三番叟」を踊る",
-      "aliases": [],
-      "status": "candidate",
-      "confidence": "low",
-      "prefecture": "愛知県",
-      "municipality": "名古屋市",
-      "district": null,
-      "venue": null,
-      "location": null,
-      "usual_schedule": null,
-      "event_dates": [],
-      "categories": [
-        "unclassified"
-      ],
-      "features": [],
-      "history": null,
-      "cultural_property": null,
-      "scale": {
-        "attendance": null,
-        "floats": null,
-        "mikoshi": null,
-        "days": null,
-        "participating_districts": null,
-        "other": []
-      },
-      "summary": null,
-      "sources": [
-        {
-          "url": "https://www.city.nagoya.jp/kankou/kankouinfo/1013741/1013745.html",
           "title": null,
           "publisher": null,
           "accessed": "2026-09-08",
