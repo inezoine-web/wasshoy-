@@ -1,2 +1,59 @@
-:root{--ink:#20201d;--paper:#f6f1e7;--red:#d6422b;--line:#d8cfbe}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Noto Sans CJK JP","Hiragino Sans",sans-serif;line-height:1.75}header,main,footer{max-width:1120px;margin:auto;padding:22px 28px}header{display:flex;align-items:baseline;gap:18px;border-bottom:1px solid var(--line)}header span,.meta,.place{color:#706b61;font-size:.82rem}.brand{color:var(--red);font:800 1.55rem Georgia,serif;text-decoration:none}.hero{padding:72px 0 62px;border-bottom:1px solid var(--line)}.eyebrow{color:var(--red);font-weight:800;letter-spacing:.15em}.hero h1{font-size:clamp(2.8rem,8vw,6.8rem);line-height:1.03;letter-spacing:-.05em;margin:.15em 0}.hero>p:last-child{max-width:600px;font-size:1.08rem}.section-head,.prefecture-head,.municipality-head{display:flex;justify-content:space-between;align-items:baseline}.section-head{margin:55px 0 22px}.section-head h2,.prefecture-head h2,.municipality-head h3{margin:0}.section-head strong,.prefecture-head strong{color:var(--red);font-size:2rem}.prefecture{margin:38px 0 64px}.prefecture-head{padding-bottom:8px;border-bottom:4px solid var(--ink)}.municipality{margin:28px 0 42px}.municipality-head{margin-bottom:12px}.municipality-head h3{font-size:1.5rem}.municipality-head span{color:#706b61;font-weight:700}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.grid article{background:#fffaf1;border:1px solid var(--line);padding:22px}.grid h3{font-size:1.35rem;margin:.2em 0}.place{margin:0}.tags{display:flex;flex-wrap:wrap;gap:5px}.tags span{border:1px solid var(--line);border-radius:100px;padding:1px 8px;font-size:.72rem}.reports{margin:65px 0;padding:30px;border-top:5px solid var(--red);background:#fffaf1}.table-wrap{max-width:100%;overflow-x:auto}table{width:100%;border-collapse:collapse;font-size:.9rem}th,td{padding:8px 10px;border:1px solid var(--line);text-align:left;vertical-align:top}th{background:#eee5d5}a{color:#a72d1d}footer{border-top:1px solid var(--line);font-size:.8rem}@media(max-width:800px){.grid{grid-template-columns:1fr}.hero{padding:45px 0}.hero h1{font-size:3.2rem}.section-head strong,.prefecture-head strong{font-size:1.4rem}}
-.grid h3 a{color:inherit;text-decoration:none;border-bottom:2px solid var(--red);padding-bottom:1px}.grid h3 a:hover,.grid h3 a:focus{color:var(--red)}.src{margin:6px 0 0;color:#8a8478;font-size:.74rem;word-break:break-all}.grid article{display:flex;flex-direction:column}.grid article .meta{margin-top:auto;padding-top:6px}
+:root{--ink:#20201d;--paper:#f6f1e7;--red:#d6422b;--line:#d8cfbe;--muted:#706b61;--card:#fffaf1}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Noto Sans CJK JP","Hiragino Sans",sans-serif;line-height:1.6}
+header,main,footer{max-width:1180px;margin:auto;padding:22px 28px}
+header{display:flex;align-items:baseline;gap:18px;border-bottom:1px solid var(--line)}
+header span,.meta,.place{color:var(--muted);font-size:.78rem}
+.brand{color:var(--red);font:800 1.55rem Georgia,serif;text-decoration:none}
+.hero{padding:56px 0 46px;border-bottom:1px solid var(--line)}
+.eyebrow{color:var(--red);font-weight:800;letter-spacing:.15em}
+.hero h1{font-size:clamp(2.4rem,7vw,5.6rem);line-height:1.03;letter-spacing:-.05em;margin:.15em 0}
+.hero>p:last-child{max-width:600px;font-size:1.04rem}
+.section-head,.prefecture-head,.municipality-head{display:flex;justify-content:space-between;align-items:baseline}
+.section-head{margin:44px 0 16px}
+.section-head h2,.prefecture-head h2,.municipality-head h3{margin:0}
+.section-head strong,.prefecture-head strong{color:var(--red);font-size:1.7rem}
+
+/* 絞り込み。上に貼り付けて、長いページでも手が届くようにする */
+.filter{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;gap:10px 14px;align-items:flex-end;padding:12px 14px;margin:0 0 18px;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--red)}
+.filter label{display:flex;flex-direction:column;gap:3px;font-size:.74rem;color:var(--muted);font-weight:700}
+.filter label.grow{flex:1 1 220px}
+.filter select,.filter input{font:inherit;font-size:.92rem;padding:6px 8px;border:1px solid var(--line);border-radius:4px;background:#fff;color:var(--ink);min-width:150px}
+.filter input{width:100%}
+.filter select:disabled{color:#aaa;background:#f3efe6}
+.filter button{font:inherit;font-size:.86rem;padding:7px 12px;border:1px solid var(--line);border-radius:4px;background:#fff;cursor:pointer;color:var(--muted)}
+.filter.active button{color:var(--red);border-color:var(--red)}
+.filter-count{font-size:.86rem;color:var(--red);font-weight:700;align-self:center}
+
+.prefecture{margin:26px 0 44px}
+.prefecture-head{padding-bottom:6px;border-bottom:3px solid var(--ink)}
+.municipality{margin:20px 0 28px}
+.municipality-head{margin-bottom:8px}
+.municipality-head h3{font-size:1.15rem}
+.municipality-head .count{color:var(--muted);font-weight:700;font-size:.86rem}
+
+/* カード: 4列、余白と見出しを詰める */
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.grid article{background:var(--card);border:1px solid var(--line);padding:11px 13px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.grid h3{font-size:.98rem;line-height:1.35;margin:0;font-weight:700;overflow-wrap:anywhere}
+.grid h3 a{color:inherit;text-decoration:none;border-bottom:2px solid var(--red);padding-bottom:1px}
+.grid h3 a:hover,.grid h3 a:focus{color:var(--red)}
+.place{margin:0;font-size:.72rem}
+.summary{margin:2px 0 0;font-size:.82rem;color:#4a463f;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:2px}
+.tags span{border:1px solid var(--line);border-radius:100px;padding:0 7px;font-size:.66rem;color:var(--muted)}
+.src{margin:0;color:#8a8478;font-size:.68rem;word-break:break-all}
+.grid article .meta{margin:auto 0 0;padding-top:4px;font-size:.7rem}
+
+.reports{margin:56px 0;padding:26px;border-top:5px solid var(--red);background:var(--card)}
+.table-wrap{max-width:100%;overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:.9rem}
+th,td{padding:8px 10px;border:1px solid var(--line);text-align:left;vertical-align:top}
+th{background:#eee5d5}
+a{color:#a72d1d}
+footer{border-top:1px solid var(--line);font-size:.8rem}
+[hidden]{display:none!important}
+
+@media(max-width:1000px){.grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:760px){.grid{grid-template-columns:repeat(2,1fr)}.hero{padding:40px 0}.hero h1{font-size:2.8rem}.section-head strong,.prefecture-head strong{font-size:1.3rem}.filter{position:static}}
+@media(max-width:480px){.grid{grid-template-columns:1fr}}
