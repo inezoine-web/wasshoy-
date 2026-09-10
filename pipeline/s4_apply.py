@@ -206,6 +206,42 @@ def _same_place(rid: str, alias: str, index: dict, verdicts: dict) -> bool:
     return PREFECTURE_WIDE in (index[rid]["municipality"], index[alias]["municipality"])
 
 
+# --- 統合専用のキー -----------------------------------------------------
+# `dedup_key` は `stable_id` のハッシュ種でもあるので**変えてはいけない**。
+# 変えると既に data/festivals.json に入っているレコードのIDが変わり、
+# 同一性が壊れる。統合の判定にだけ使う、もう一段強いキーをここに置く。
+#
+# 畳むのは判断を伴わない揺れだけ。実データで出たもの:
+#   2025いばらきまつり / 2026いばらきまつり / いばらきまつり  (先頭の年)
+#   さくらまつり / 日立さくらまつり                          (市町村名の接頭)
+#   潮来祇園祭禮 / 素鵞熊野神社（潮来祇園祭禮）               (括弧でくるんだ形)
+#   ○大和流鏑馬合戦 / 大和流鏑馬合戦                          (行頭の記号)
+#
+# 「ひたち秋祭り 郷土芸能大祭」と「ひたち秋祭り『食の小路』」のような
+# 親子関係は畳まない。統合すると地区ごと・演目ごとの情報が消える。
+_LEAD_JUNK = re.compile(r"^[○●■□◆◇▲△★☆※\-–—\s]+")
+_LEAD_YEAR = re.compile(r"^(?:令和|平成)?\s*[0-9０-９]{1,4}\s*(?:年度?)?")
+_WRAP = re.compile(r"^[^（(]{0,12}[（(]([^）)]{4,})[）)]$")
+
+
+def merge_key(name: str, municipality: str) -> str:
+    """統合の判定にだけ使うキー。IDには使わない。"""
+    s = _LEAD_JUNK.sub("", name)
+    # 「素鵞熊野神社（潮来祇園祭禮）」-> 中身だけ
+    m = _WRAP.match(s.strip())
+    if m:
+        s = m.group(1)
+    s = _LEAD_YEAR.sub("", s)
+    key = dedup_key(s)
+    # 同一市町村の中で見るキーなので、市町村名の接頭は落としてよい
+    stem = re.sub(r"[市町村区]$", "", municipality)
+    if len(stem) >= 2:
+        stem_key = dedup_key(stem)
+        if stem_key and key.startswith(stem_key) and len(key) > len(stem_key) + 1:
+            key = key[len(stem_key):]
+    return key
+
+
 # --- 所在の機械的な推定 -------------------------------------------------
 # 県単位レンズ (教育委員会・県公式サイト) で拾った行は市町村が (県全域) の
 # ままで、slug に市町村のローマ字が要るため PENDING で止まる。S4 の指示では
@@ -397,7 +433,7 @@ def main(argv: list[str] | None = None) -> int:
         if r["s4_verdict"] == "keep" and not r["s4_alias_of"]:
             # 表記揺れも畳んだキーで見る。整形で「○○まつり」と「○○祭り」が
             # 同じものになる場合があり、名称の完全一致だけでは取り逃す。
-            by_name[(r["municipality"], dedup_key(r["name"]))].append(r)
+            by_name[(r["municipality"], merge_key(r["name"], r["municipality"]))].append(r)
     for group in by_name.values():
         if len(group) < 2:
             continue
