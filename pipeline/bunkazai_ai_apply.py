@@ -26,6 +26,12 @@ import bunkazai_local as B  # noqa: E402
 REPO_ROOT = Path(__file__).resolve().parent.parent
 BATCH_DIR = REPO_ROOT / "work" / "bunkazai_ai"
 
+# **AI由来の行は別ファイルに置く。** 同じ `bunkazai_local.tsv` に混ぜていたら、
+# その後 `bunkazai_local.py --build` を回した時点でキャッシュから作り直され、
+# AIが拾った48件が黙って消えた。出所を分ければ上書きされないし、
+# 機械抽出とAI抽出の内訳も後から数えられる。
+OUT_TSV = REPO_ROOT / "registry" / "bunkazai_ai.tsv"
+
 VALID_DESIG = {"国指定", "国登録", "県指定", "都指定", "道指定", "府指定",
                "市指定", "町指定", "村指定"}
 NONE_ROW = "NONE"
@@ -145,17 +151,24 @@ def main(argv: list[str]) -> int:
                                          r["municipality"], r["name"]))
         return 0
 
-    existing = [r for r in B.read_tsv_rows()] if hasattr(B, "read_tsv_rows") else []
-    if not existing and B.OUT_TSV.exists():
-        lines = B.OUT_TSV.read_text(encoding="utf-8").splitlines()
-        header = lines[0].split("\t")
-        existing = [dict(zip(header, ln.split("\t"))) for ln in lines[1:] if ln.strip()]
+    def read_rows(path):
+        if not path.exists():
+            return []
+        lines = path.read_text(encoding="utf-8").splitlines()
+        if not lines:
+            return []
+        header = lines[0].split(B.TAB)
+        return [dict(zip(header, ln.split(B.TAB))) for ln in lines[1:] if ln.strip()]
+
+    existing = read_rows(OUT_TSV)
+    # 機械抽出で既に取れている名前は足さない。出所は分けるが重複はさせない。
+    mech = {(r.get("prefecture", ""), r.get("name", "")) for r in read_rows(B.OUT_TSV)}
 
     seen = {(r.get("prefecture", ""), r.get("name", ""), r.get("kind", "")) for r in existing}
     added = 0
     for r in accepted:
         key = (r["prefecture"], r["name"], r["kind"])
-        if key in seen:
+        if key in seen or (r["prefecture"], r["name"]) in mech:
             continue
         seen.add(key)
         existing.append(r)
@@ -166,11 +179,11 @@ def main(argv: list[str]) -> int:
     body = B.TAB.join(B.COLUMNS) + B.NL
     body += "".join(B.TAB.join(r.get(c, "").replace(B.TAB, " ") for c in B.COLUMNS) + B.NL
                     for r in existing)
-    tmp = B.OUT_TSV.with_suffix(".tsv.tmp")
+    tmp = OUT_TSV.with_suffix(".tsv.tmp")
     tmp.write_text(body, encoding="utf-8", newline=B.NL)
-    tmp.replace(B.OUT_TSV)
+    tmp.replace(OUT_TSV)
     print()
-    print("台帳に %d 件追加 (計 %d 件) -> %s" % (added, len(existing), B.OUT_TSV))
+    print("AI台帳に %d 件追加 (計 %d 件) -> %s" % (added, len(existing), OUT_TSV))
     print("次: python pipeline/vocab.py --build")
     return 0
 
