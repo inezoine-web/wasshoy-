@@ -128,11 +128,19 @@ _NAME_FIXES: list[tuple[re.Pattern[str], str]] = [
     # 豊明市の「のぶなが総踊り」で、これは信長にちなむ本物の名称。
     # 漢字・カタカナが続く「の」始まりは、日本語の行事名としてまず現れない。
     (re.compile(r"^の(?=[^ぁ-ゖ])"), ""),
+    # 月の見出しと期日が名称を挟む 「10月 阿寺の獅子舞 10月上旬日曜日」
+    # 「白浜神社例大祭 10月28日」。飯能市・袋井市の一覧に多い (全県で33件)。
+    (re.compile(r"^[01]?\d月\s+"), ""),
+    (re.compile(r"\s+[01]?\d月(?:[上中下]旬|\d{1,2}日|中|末|初旬)?[^\s]*$"), ""),
     # 一覧表の連番 「4.塚崎の獅子舞」「39 立延の盆綱」
     (re.compile(r"^\s*\d{1,3}\s*[.．、]\s*"), ""),
     (re.compile(r"^\s*\d{1,3}\s+(?=[^\d\s])"), ""),
-    # 「県指定 富田のささら 所在地 石岡市国府5」→ 中身だけ残す
-    (re.compile(r"^(?:国|県|市|町|村)指定\s+"), ""),
+    # 「県指定 富田のささら 所在地 石岡市国府5」→ 中身だけ残す。
+    # 「市指定無形文化財 根岸野謡」「市指定文化財（下戸田ささら獅子舞）」
+    # 「町指定民俗文化財（有形民俗）花車・神輿」も同じ (埼玉で4件)。
+    (re.compile(r"^(?:国|都|道|府|県|市|町|村|区)(?:指定|登録|選択)(?:重要)?"
+                r"(?:無形|有形)?(?:民俗)?(?:文化財)?(?:（(?:有形民俗|無形民俗|民俗芸能|風俗慣習)）)?[\s・:：]*"), ""),
+    (re.compile(r"^（([^（）]{2,})）$"), r"\1"),
     (re.compile(r"\s+所在地\s+.*$"), ""),
     # 「ユネスコ無形文化遺産・国指定重要無形民俗文化財「日立風流物」」
     (re.compile(
@@ -165,6 +173,14 @@ def clean_display_name(name: str, is_organization: bool) -> str:
             out = stripped
     out = out.strip(" 　「」『』")
     return out if len(out) >= 2 else name
+
+
+# 名称の先頭に指定ラベルが付いていた行は、読みにも同じラベルが読まれている
+# ことがある (ししていむけいぶんかざい ねぎしのうたい)。名称と揃えて落とす。
+_NAME_LABEL = re.compile(r"^(?:国|都|道|府|県|市|町|村|区)(?:指定|登録|選択)")
+_READING_LABEL = re.compile(
+    r"^(?:くに|と|どう|ふ|けん|し|ちょう|まち|むら|く)(?:してい|とうろく|せんたく)"
+    r"(?:じゅうよう)?(?:むけい|ゆうけい)?(?:みんぞく)?(?:ぶんかざい)?")
 
 
 def stable_id(prefecture_romaji: str, municipality_romaji: str,
@@ -414,7 +430,7 @@ def main(argv: list[str] | None = None) -> int:
                 stats["municipality_resolved"] += 1
                 stats["place_from_" + how] += 1
 
-        row["_reading"] = v.get("reading", "")
+        row["_reading"] = _READING_LABEL.sub("", v.get("reading", ""))             if _NAME_LABEL.match(row["name"]) else v.get("reading", "")
 
         # 名称の整形は keep 行だけに行う。元の名称は aliases に残す。
         row["s4_verdict"] = verdict

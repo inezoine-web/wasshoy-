@@ -178,8 +178,8 @@ code	prefecture	municipality	type	pref_kana	muni_kana	pref_romaji	muni_romaji
 016926	北海道	中標津町	町	ホッカイドウ	ナカシベツチョウ	hokkai	nakashibetsu
 016934	北海道	標津町	町	ホッカイドウ	シベツチョウ	hokkai	shibetsu
 016942	北海道	羅臼町	町	ホッカイドウ	ラウスチョウ	hokkai	rausu
-016951	北海道	色丹村シコタンムラ	?	ホッカイドウ	シコタンムラ	hokkai	shikotan
-016969	北海道	泊村トマリムラ	?	ホッカイドウ	トマリムラ	hokkai	tomari
+016951	北海道	色丹村	村	ホッカイドウ	シコタンムラ	hokkai	shikotan
+016969	北海道	泊村	村	ホッカイドウ	トマリムラ	hokkai	tomari
 016977	北海道	留夜別村	村	ホッカイドウ	ルヤベツムラ	hokkai	ruyabetsu
 016985	北海道	留別村	村	ホッカイドウ	ルベツムラ	hokkai	rubetsu
 016993	北海道	紗那村	村	ホッカイドウ	シャナムラ	hokkai	shana
@@ -237,7 +237,7 @@ code	prefecture	municipality	type	pref_kana	muni_kana	pref_romaji	muni_romaji
 032131	岩手県	二戸市	市	イワテケン	ニノヘシ	iwate	ninohe
 032140	岩手県	八幡平市	市	イワテケン	ハチマンタイシ	iwate	hachimantai
 032158	岩手県	奥州市	市	イワテケン	オウシュウシ	iwate	oshu
-032166	岩手県	滝沢市シ	?	イワテケン	タキザワシ	iwate	takizawa
+032166	岩手県	滝沢市	市	イワテケン	タキザワシ	iwate	takizawa
 033014	岩手県	雫石町	町	イワテケン	シズクイシチョウ	iwate	shizukuishi
 033022	岩手県	葛巻町	町	イワテケン	クズマキマチ	iwate	kuzumaki
 033031	岩手県	岩手町	町	イワテケン	イワテマチ	iwate	iwate
@@ -270,7 +270,7 @@ code	prefecture	municipality	type	pref_kana	muni_kana	pref_romaji	muni_romaji
 042137	宮城県	栗原市	市	ミヤギケン	クリハラシ	miyagi	kurihara
 042145	宮城県	東松島市	市	ミヤギケン	ヒガシマツシマシ	miyagi	higashimatsushima
 042153	宮城県	大崎市	市	ミヤギケン	オオサキシ	miyagi	osaki
-042161	宮城県	富谷市シ	?	ミヤギケン	トミヤシ	miyagi	tomiya
+042161	宮城県	富谷市	市	ミヤギケン	トミヤシ	miyagi	tomiya
 043010	宮城県	蔵王町	町	ミヤギケン	ザオウマチ	miyagi	zao
 043028	宮城県	七ヶ宿町	町	ミヤギケン	シチカシュクマチ	miyagi	shichikashuku
 043214	宮城県	大河原町	町	ミヤギケン	オオガワラマチ	miyagi	ogawara
@@ -554,7 +554,7 @@ code	prefecture	municipality	type	pref_kana	muni_kana	pref_romaji	muni_romaji
 112429	埼玉県	日高市	市	サイタマケン	ヒダカシ	saitama	hidaka
 112437	埼玉県	吉川市	市	サイタマケン	ヨシカワシ	saitama	yoshikawa
 112453	埼玉県	ふじみ野市	市	サイタマケン	フジミノシ	saitama	fujimino
-112461	埼玉県	白岡市シラオカシ	?	サイタマケン	シラオカシ	saitama	shiraoka
+112461	埼玉県	白岡市	市	サイタマケン	シラオカシ	saitama	shiraoka
 113018	埼玉県	伊奈町	町	サイタマケン	イナマチ	saitama	ina
 113247	埼玉県	三芳町	町	サイタマケン	ミヨシマチ	saitama	miyoshi
 113263	埼玉県	毛呂山町	町	サイタマケン	モロヤママチ	saitama	moroyama
@@ -614,7 +614,7 @@ code	prefecture	municipality	type	pref_kana	muni_kana	pref_romaji	muni_romaji
 122360	千葉県	香取市	市	チバケン	カトリシ	chiba	katori
 122378	千葉県	山武市	市	チバケン	サンムシ	chiba	sammu
 122386	千葉県	いすみ市	市	チバケン	イスミシ	chiba	isumi
-122394	千葉県	大網白里市シ	?	チバケン	オオアミシラサトシ	chiba	oamishirasato
+122394	千葉県	大網白里市	市	チバケン	オオアミシラサトシ	chiba	oamishirasato
 123226	千葉県	酒々井町	町	チバケン	シスイマチ	chiba	shisui
 123293	千葉県	栄町	町	チバケン	サカエマチ	chiba	sakae
 123421	千葉県	神崎町	町	チバケン	コウザキマチ	chiba	kozaki
@@ -1500,7 +1500,7 @@ code	prefecture	municipality	type	pref_kana	muni_kana	pref_romaji	muni_romaji
 402281	福岡県	朝倉市	市	フクオカケン	アサクラシ	fukuoka	asakura
 402290	福岡県	みやま市	市	フクオカケン	ミヤマシ	fukuoka	miyama
 402303	福岡県	糸島市	市	フクオカケン	イトシマシ	fukuoka	itoshima
-402311	福岡県フクオカケン	那珂川市ナカガワシ	?	フクオカケン	ナカガワシ	fukuoka	nakagawa
+402311	福岡県	那珂川市	市	フクオカケン	ナカガワシ	fukuoka	nakagawa
 403415	福岡県	宇美町	町	フクオカケン	ウミマチ	fukuoka	umi
 403423	福岡県	篠栗町	町	フクオカケン	ササグリマチ	fukuoka	sasaguri
 403431	福岡県	志免町	町	フクオカケン	シメマチ	fukuoka	shime

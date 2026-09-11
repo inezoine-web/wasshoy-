@@ -110,6 +110,11 @@ def build_municipalities(fetcher: Fetcher) -> Path:
             continue
         if not muni:
             continue  # 都道府県そのものの行は市区町村台帳には入れない
+        # 表の一部の行 (後から市制した 白岡市・滝沢市・富谷市・大網白里市・
+        # 那珂川市 など7行) は名称セルに読みが連結されている
+        # (「白岡市シラオカシ」「滝沢市シ」)。末尾のカタカナを落とす。
+        muni = re.sub(r"[ァ-ヶー]+$", "", muni)
+        pref = re.sub(r"[ァ-ヶー]+$", "", pref)  # 那珂川市の行は都道府県側も同じ
         pref_kana = from_halfwidth_katakana(pref_kana_hw)
         muni_kana = from_halfwidth_katakana(muni_kana_hw)
         # 都道府県の接尾辞 (ケン/フ/ト/ドウ) は**末尾だけ**落とす。
