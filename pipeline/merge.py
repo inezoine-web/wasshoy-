@@ -172,13 +172,24 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.add:
         # 追記: その県の既存行も残す。IDが既にあるものは足さない。
+        # 名称 (別名を含む) が同じ県の既存行と一致するものも足さない。
+        # 東京には手で精査した22件 (要約つき) があり、クロール由来の
+        # 「三社祭」を別IDで並べると同じ祭りが2枚になる。
+        from normalize import dedup_key  # 既存データは読まない側のモジュール
         have = {f["id"] for f in existing}
+        have_names = {
+            (f["prefecture"], dedup_key(n))
+            for f in existing for n in [f["name"], *f.get("aliases", [])]
+        }
         before = len(new_rows)
         new_rows = [r for r in new_rows if r["slug"] not in have]
+        by_id = before - len(new_rows)
+        new_rows = [r for r in new_rows
+                    if (r["prefecture"], dedup_key(r["name"])) not in have_names]
         kept = existing
         removed = []
-        print(f"--add: 既存 {len(existing)} 件を残し、ID重複 {before - len(new_rows)} 件を除いて "
-              f"{len(new_rows)} 件を足す")
+        print(f"--add: 既存 {len(existing)} 件を残し、ID重複 {by_id} 件・名称一致 "
+              f"{before - by_id - len(new_rows)} 件を除いて {len(new_rows)} 件を足す")
     if removed and not args.replace:
         raise SystemExit(
             f"{args.prefecture} に既存 {len(removed)} 件がある。"
