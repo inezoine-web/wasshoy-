@@ -70,7 +70,9 @@ def read_verdicts() -> list[tuple[str, list[str]]]:
         raise SystemExit("%s に bz_verdict_*.tsv がありません" % BATCH_DIR)
     out = []
     for f in files:
-        for ln in f.read_text(encoding="utf-8").splitlines():
+        # エージェントが UTF-8 BOM 付きで書くことがあり、1行目の page_id が
+        # "﻿92ca9826" になって「入力に無い id」として落ちた。剥がす。
+        for ln in f.read_text(encoding="utf-8-sig").splitlines():
             if not ln.strip() or ln.lstrip().startswith("#"):
                 continue
             out.append((f.name, ln.split("\t")))

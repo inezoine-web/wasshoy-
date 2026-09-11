@@ -112,7 +112,11 @@ def build_municipalities(fetcher: Fetcher) -> Path:
             continue  # 都道府県そのものの行は市区町村台帳には入れない
         pref_kana = from_halfwidth_katakana(pref_kana_hw)
         muni_kana = from_halfwidth_katakana(muni_kana_hw)
-        pref_romaji = romanize(strip_suffix_kana(pref_kana).replace("ケン", "").replace("フ", "").replace("ト", "").replace("ドウ", "")) or ""
+        # 都道府県の接尾辞 (ケン/フ/ト/ドウ) は**末尾だけ**落とす。
+        # 以前は replace で全文字を消していたため、トチギ→チギ (chigi)、
+        # フクイ→クイ (kui)、トットリ→リ (rri)、フクシマ→クシマ (徳島と衝突)
+        # になっていた。茨城・静岡・愛知は該当文字を含まず気づけなかった。
+        pref_romaji = romanize(re.sub(r"(?:ケン|フ|ト|ドウ)$", "", strip_suffix_kana(pref_kana))) or ""
         muni_romaji = romanize(strip_suffix_kana(muni_kana)) or ""
         out_rows.append(
             [

@@ -44,30 +44,30 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 085464	茨城県	境町	https://www.town.ibaraki-sakai.lg.jp/		本文に自治体名を確認
 085642	茨城県	利根町	https://www.town.tone.ibaraki.jp/		本文に自治体名を確認
 092011	栃木県	宇都宮市	https://www.city.utsunomiya.lg.jp/		本文に自治体名を確認
-092029	栃木県	足利市			候補URLがすべて外れ
+092029	栃木県	足利市	https://www.city.ashikaga.tochigi.jp/	https://www.ashikaga-kankou.jp/	本文に自治体名を確認
 092037	栃木県	栃木市	https://www.city.tochigi.lg.jp/		本文に自治体名を確認
 092045	栃木県	佐野市	https://www.city.sano.lg.jp/	http://sano-kankokk.jp/	本文に自治体名を確認
-092053	栃木県	鹿沼市			候補URLがすべて外れ
+092053	栃木県	鹿沼市	https://www.city.kanuma.tochigi.jp/	https://kanuma-kanko.jp/	本文に自治体名を確認
 092061	栃木県	日光市	https://www.city.nikko.lg.jp/		本文に自治体名を確認
-092088	栃木県	小山市			候補URLがすべて外れ
+092088	栃木県	小山市	https://www.city.oyama.tochigi.jp/		本文に自治体名を確認
 092096	栃木県	真岡市	https://www.city.moka.lg.jp/	https://www.moka-kankou.org/	本文に自治体名を確認
 092100	栃木県	大田原市			候補URLがすべて外れ
-092118	栃木県	矢板市			候補URLがすべて外れ
+092118	栃木県	矢板市	https://www.city.yaita.tochigi.jp/	http://www.yaita-kankou.com/	本文に自治体名を確認
 092134	栃木県	那須塩原市	https://www.city.nasushiobara.lg.jp/	https://nasushiobara-kanko.jp/	本文に自治体名を確認
-092142	栃木県	さくら市			候補URLがすべて外れ
+092142	栃木県	さくら市	https://www.city.tochigi-sakura.lg.jp/		本文に自治体名を確認
 092151	栃木県	那須烏山市	https://www.city.nasukarasuyama.lg.jp/	https://www.nasukarasuyama.com/	本文に自治体名を確認
 092169	栃木県	下野市	https://www.city.shimotsuke.lg.jp/		本文に自治体名を確認
 093017	栃木県	上三川町	https://www.town.kaminokawa.lg.jp/	https://kaminokawa-kankou.net/	本文に自治体名を確認
 093424	栃木県	益子町	https://www.town.mashiko.lg.jp/	http://www.mashiko-kankou.org/	本文に自治体名を確認
-093432	栃木県	茂木町			候補URLがすべて外れ
-093441	栃木県	市貝町			候補URLがすべて外れ
-093459	栃木県	芳賀町			候補URLがすべて外れ
-093611	栃木県	壬生町			候補URLがすべて外れ
+093432	栃木県	茂木町	https://www.town.motegi.tochigi.jp/	https://motegi-k.com/	本文に自治体名を確認
+093441	栃木県	市貝町	https://www.town.ichikai.tochigi.jp/		本文に自治体名を確認
+093459	栃木県	芳賀町	https://www.town.tochigi-haga.lg.jp/	http://hagamachi-kanko.com/	本文に自治体名を確認
+093611	栃木県	壬生町	https://www.town.mibu.tochigi.jp/	http://mibu-kankou.org/	本文に自治体名を確認
 093645	栃木県	野木町	https://www.town.nogi.lg.jp/	http://nogi-kankou.com/	本文に自治体名を確認
-093840	栃木県	塩谷町			候補URLがすべて外れ
-093866	栃木県	高根沢町			候補URLがすべて外れ
+093840	栃木県	塩谷町	https://www.town.shioya.tochigi.jp/		本文に自治体名を確認
+093866	栃木県	高根沢町	https://www.town.takanezawa.tochigi.jp/		本文に自治体名を確認
 094072	栃木県	那須町	https://www.town.nasu.lg.jp/	http://www.nasukogen.org/	本文に自治体名を確認
-094111	栃木県	那珂川町			候補URLがすべて外れ
+094111	栃木県	那珂川町	https://www.town.tochigi-nakagawa.lg.jp/	https://nakagawamachi-kanko.org/	本文に自治体名を確認
 121002	千葉県	千葉市	https://www.city.chiba.jp/	http://www.chibacity-ta.or.jp/	本文に自治体名を確認
 122025	千葉県	銚子市	https://www.city.choshi.chiba.jp/	https://www.choshikanko.com/	本文に自治体名を確認
 122033	千葉県	市川市	https://www.city.ichikawa.lg.jp/		本文に自治体名を確認
@@ -85,6 +85,43 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 122173	千葉県	柏市	https://www.city.kashiwa.lg.jp/		本文に自治体名を確認
 122181	千葉県	勝浦市	https://www.city.katsuura.lg.jp/	https://www.katsuura-kankou.net /	本文に自治体名を確認
 122190	千葉県	市原市	https://www.city.ichihara.chiba.jp/		本文に自治体名を確認
+122203	千葉県	流山市	https://www.city.nagareyama.chiba.jp/		本文に自治体名を確認
+122211	千葉県	八千代市	https://www.city.yachiyo.lg.jp/		本文に自治体名を確認
+122220	千葉県	我孫子市	https://www.city.abiko.chiba.jp/	https://visit.city.abiko.chiba.jp/	本文に自治体名を確認
+122238	千葉県	鴨川市	https://www.city.kamogawa.lg.jp/		本文に自治体名を確認
+122246	千葉県	鎌ケ谷市	https://www.city.kamagaya.chiba.jp/		本文に自治体名を確認
+122254	千葉県	君津市	https://www.city.kimitsu.lg.jp/		本文に自治体名を確認
+122262	千葉県	富津市	https://www.city.futtsu.lg.jp/	https://www.futtsu-kanko.info/	本文に自治体名を確認
+122271	千葉県	浦安市	https://www.city.urayasu.lg.jp/	http://www.urayasu-kankou.jp/	本文に自治体名を確認
+122289	千葉県	四街道市	https://www.city.yotsukaido.chiba.jp/		本文に自治体名を確認
+122297	千葉県	袖ケ浦市	https://www.city.sodegaura.lg.jp/	https://sodegaurakanko.org/	本文に自治体名を確認
+122301	千葉県	八街市	https://www.city.yachimata.lg.jp/		本文に自治体名を確認
+122319	千葉県	印西市	https://www.city.inzai.lg.jp/		本文に自治体名を確認
+122327	千葉県	白井市	https://www.city.shiroi.chiba.jp/		本文に自治体名を確認
+122335	千葉県	富里市	https://www.city.tomisato.lg.jp/		本文に自治体名を確認
+122343	千葉県	南房総市	https://www.city.minamiboso.chiba.jp/	https://www.cm-boso.com/	本文に自治体名を確認
+122351	千葉県	匝瑳市	https://www.city.sosa.lg.jp/	https://sosa-kanko.com/	本文に自治体名を確認
+122360	千葉県	香取市	https://www.city.katori.lg.jp/		本文に自治体名を確認
+122378	千葉県	山武市	https://www.city.sammu.lg.jp/		本文に自治体名を確認
+122386	千葉県	いすみ市	https://www.city.isumi.lg.jp/		本文に自治体名を確認
+122394	千葉県	大網白里市シ			候補URLがすべて外れ
+123226	千葉県	酒々井町	https://www.town.shisui.chiba.jp/		本文に自治体名を確認
+123293	千葉県	栄町	https://www.town.sakae.chiba.jp/		本文に自治体名を確認
+123421	千葉県	神崎町	https://www.town.kozaki.chiba.jp/		本文に自治体名を確認
+123471	千葉県	多古町	https://www.town.tako.chiba.jp/	https://tako-kankou.or.jp/	本文に自治体名を確認
+123498	千葉県	東庄町	https://www.town.tohnosho.chiba.jp/	http://www.tohnosho-kanko.jp/	県公式サイトのリンク集から (本文に自治体名を確認)
+124036	千葉県	九十九里町	https://www.town.kujukuri.chiba.jp/	https://99kankou.com/	県公式サイトのリンク集から (本文に自治体名を確認)
+124095	千葉県	芝山町	https://www.town.shibayama.lg.jp/	https://skypark.shibayama-kankou.com/	本文に自治体名を確認
+124109	千葉県	横芝光町	https://www.town.yokoshibahikari.chiba.jp/		本文に自治体名を確認
+124214	千葉県	一宮町	https://www.town.ichinomiya.chiba.jp/	https://ichinomiya.org/	本文に自治体名を確認
+124222	千葉県	睦沢町	https://www.town.mutsuzawa.chiba.jp/		本文に自治体名を確認
+124231	千葉県	長生村	https://www.vill.chosei.chiba.jp/		本文に自治体名を確認
+124249	千葉県	白子町	https://www.town.shirako.lg.jp/	http://shirako.net/	本文に自治体名を確認
+124265	千葉県	長柄町	https://www.town.nagara.chiba.jp/		本文に自治体名を確認
+124273	千葉県	長南町	https://www.town.chonan.chiba.jp/		本文に自治体名を確認
+124419	千葉県	大多喜町	https://www.town.otaki.chiba.jp/	http://kankouotaki.com/	本文に自治体名を確認
+124435	千葉県	御宿町	https://www.town.onjuku.chiba.jp/	https://onjuku-kankou.com/	県公式サイトのリンク集から (本文に自治体名を確認)
+124630	千葉県	鋸南町	https://www.town.kyonan.chiba.jp/		本文に自治体名を確認
 221007	静岡県	静岡市	https://www.city.shizuoka.lg.jp/	https://www.visit-shizuoka.com/	本文に自治体名を確認
 221309	静岡県	浜松市	https://www.city.hamamatsu.shizuoka.jp/	http://hamamatsu-daisuki.net/	本文に自治体名を確認
 222038	静岡県	沼津市	https://www.city.numazu.shizuoka.jp/	https://numazukanko.jp/	本文に自治体名を確認
