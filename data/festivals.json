@@ -11205,8 +11205,10 @@
     },
     {
       "id": "ibaraki-oarai-oaraikaijohanabitaikai",
-      "name": "#大洗海上花火大会",
-      "aliases": [],
+      "name": "大洗海上花火大会",
+      "aliases": [
+        "#大洗海上花火大会"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "茨城県",
@@ -51587,8 +51589,10 @@
     },
     {
       "id": "shizuoka-gotemba-gotembasakuramatsuri",
-      "name": "4/4(土)・5(日) 第24回御殿場桜まつり",
-      "aliases": [],
+      "name": "第24回御殿場桜まつり",
+      "aliases": [
+        "4/4(土)・5(日) 第24回御殿場桜まつり"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "静岡県",
@@ -62251,8 +62255,10 @@
     },
     {
       "id": "shizuoka-atami-x22014e68",
-      "name": "7/15のみ（宮神輿渡御）",
-      "aliases": [],
+      "name": "宮神輿渡御",
+      "aliases": [
+        "7/15のみ（宮神輿渡御）"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "静岡県",
@@ -62294,8 +62300,10 @@
     },
     {
       "id": "shizuoka-atami-x615fef94",
-      "name": "7/16のみ（御神幸行列）",
-      "aliases": [],
+      "name": "御神幸行列",
+      "aliases": [
+        "7/16のみ（御神幸行列）"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "静岡県",
@@ -65202,8 +65210,10 @@
     },
     {
       "id": "shizuoka-iwata-xb263c607",
-      "name": "10/11.12 若宮八幡宮祭典",
-      "aliases": [],
+      "name": "若宮八幡宮祭典",
+      "aliases": [
+        "10/11.12 若宮八幡宮祭典"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "静岡県",
@@ -65253,8 +65263,10 @@
     },
     {
       "id": "shizuoka-iwata-x3bac7a0e",
-      "name": "10/11・12 六社神社祭典",
-      "aliases": [],
+      "name": "六社神社祭典",
+      "aliases": [
+        "10/11・12 六社神社祭典"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "静岡県",
@@ -65304,8 +65316,10 @@
     },
     {
       "id": "shizuoka-iwata-x7b6bd869",
-      "name": "10/14・15 六社神社祭典",
-      "aliases": [],
+      "name": "六社神社祭典",
+      "aliases": [
+        "10/14・15 六社神社祭典"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "静岡県",
@@ -65346,8 +65360,10 @@
     },
     {
       "id": "shizuoka-iwata-x17012bad",
-      "name": "10/18・19 掛塚まつり",
-      "aliases": [],
+      "name": "掛塚まつり",
+      "aliases": [
+        "10/18・19 掛塚まつり"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "静岡県",
@@ -65397,8 +65413,10 @@
     },
     {
       "id": "shizuoka-iwata-x46ae9baf",
-      "name": "10/18・19 鎌田神明宮大祭",
-      "aliases": [],
+      "name": "鎌田神明宮大祭",
+      "aliases": [
+        "10/18・19 鎌田神明宮大祭"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "静岡県",
@@ -65448,8 +65466,10 @@
     },
     {
       "id": "shizuoka-iwata-x76d0c34e",
-      "name": "10/21・22 掛塚まつり",
-      "aliases": [],
+      "name": "掛塚まつり",
+      "aliases": [
+        "10/21・22 掛塚まつり"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "静岡県",
@@ -65499,8 +65519,10 @@
     },
     {
       "id": "shizuoka-iwata-xe8280691",
-      "name": "10/21・22 鎌田神明宮大祭",
-      "aliases": [],
+      "name": "鎌田神明宮大祭",
+      "aliases": [
+        "10/21・22 鎌田神明宮大祭"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "静岡県",
@@ -65550,8 +65572,10 @@
     },
     {
       "id": "shizuoka-iwata-xd81d6d71",
-      "name": "10/25 遠江国分寺まつり",
-      "aliases": [],
+      "name": "遠江国分寺まつり",
+      "aliases": [
+        "10/25 遠江国分寺まつり"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "静岡県",
@@ -65637,8 +65661,10 @@
     },
     {
       "id": "shizuoka-iwata-xb453f35f",
-      "name": "2/3 府八幡宮節分祭",
-      "aliases": [],
+      "name": "府八幡宮節分祭",
+      "aliases": [
+        "2/3 府八幡宮節分祭"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "静岡県",
@@ -65679,8 +65705,10 @@
     },
     {
       "id": "shizuoka-iwata-xee2c5667",
-      "name": "2/3 淡海國玉神社節分祭",
-      "aliases": [],
+      "name": "淡海國玉神社節分祭",
+      "aliases": [
+        "2/3 淡海國玉神社節分祭"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "静岡県",
@@ -65721,8 +65749,10 @@
     },
     {
       "id": "shizuoka-iwata-xb83a87ba",
-      "name": "4/18 いわた大祭り 遠州大名行列・舞車",
-      "aliases": [],
+      "name": "いわた大祭り 遠州大名行列・舞車",
+      "aliases": [
+        "4/18 いわた大祭り 遠州大名行列・舞車"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "静岡県",
@@ -65772,8 +65802,10 @@
     },
     {
       "id": "shizuoka-iwata-x4543d276",
-      "name": "4/27 いわた大祭り 遠州大名行列・舞車",
-      "aliases": [],
+      "name": "いわた大祭り 遠州大名行列・舞車",
+      "aliases": [
+        "4/27 いわた大祭り 遠州大名行列・舞車"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "静岡県",
@@ -65814,8 +65846,10 @@
     },
     {
       "id": "shizuoka-iwata-xa487fd7a",
-      "name": "7/20 いわた夏祭inジュビロード",
-      "aliases": [],
+      "name": "いわた夏祭inジュビロード",
+      "aliases": [
+        "7/20 いわた夏祭inジュビロード"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "静岡県",
@@ -65856,8 +65890,10 @@
     },
     {
       "id": "shizuoka-iwata-xe5cad5b7",
-      "name": "8/22 いわた夏まつり花火大会",
-      "aliases": [],
+      "name": "いわた夏まつり花火大会",
+      "aliases": [
+        "8/22 いわた夏まつり花火大会"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "静岡県",
@@ -65916,8 +65952,10 @@
     },
     {
       "id": "shizuoka-iwata-xddaa8d52",
-      "name": "8/23 いわた夏まつり花火大会",
-      "aliases": [],
+      "name": "いわた夏まつり花火大会",
+      "aliases": [
+        "8/23 いわた夏まつり花火大会"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "静岡県",
@@ -65967,8 +66005,10 @@
     },
     {
       "id": "shizuoka-iwata-x49cdb320",
-      "name": "9/19，20 見付天神裸祭",
-      "aliases": [],
+      "name": "，20 見付天神裸祭",
+      "aliases": [
+        "9/19，20 見付天神裸祭"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "静岡県",
@@ -66027,8 +66067,10 @@
     },
     {
       "id": "shizuoka-iwata-x57db9f0c",
-      "name": "9/27，28 見付天神裸祭",
-      "aliases": [],
+      "name": "，28 見付天神裸祭",
+      "aliases": [
+        "9/27，28 見付天神裸祭"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "静岡県",
@@ -66078,8 +66120,10 @@
     },
     {
       "id": "shizuoka-iwata-x8150f84c",
-      "name": "9/7，8 見付天神裸祭",
-      "aliases": [],
+      "name": "，8 見付天神裸祭",
+      "aliases": [
+        "9/7，8 見付天神裸祭"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "静岡県",
@@ -67583,8 +67627,10 @@
     },
     {
       "id": "shizuoka-iwata-fuhachimanguureitaisai",
-      "name": "１０/３,４,５ 府八幡宮例大祭",
-      "aliases": [],
+      "name": ",４,５ 府八幡宮例大祭",
+      "aliases": [
+        "１０/３,４,５ 府八幡宮例大祭"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "静岡県",
@@ -75374,8 +75420,10 @@
     },
     {
       "id": "aichi-ichinomiya-xd2857db2",
-      "name": "#一宮七夕まつり",
-      "aliases": [],
+      "name": "一宮七夕まつり",
+      "aliases": [
+        "#一宮七夕まつり"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "愛知県",
@@ -90059,8 +90107,10 @@
     },
     {
       "id": "aichi-tokoname-x9e11aa79",
-      "name": "#祭り・祭礼",
-      "aliases": [],
+      "name": "祭り・祭礼",
+      "aliases": [
+        "#祭り・祭礼"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "愛知県",
@@ -116466,8 +116516,10 @@
     },
     {
       "id": "aichi-shitara-xde52bedb",
-      "name": "5/16・5/17 道の駅したら5周年祭",
-      "aliases": [],
+      "name": "/17 道の駅したら5周年祭",
+      "aliases": [
+        "5/16・5/17 道の駅したら5周年祭"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "愛知県",
@@ -191117,8 +191169,10 @@
     },
     {
       "id": "tochigi-yaita-x915ef79f",
-      "name": "#みんなで作る夏祭り",
-      "aliases": [],
+      "name": "みんなで作る夏祭り",
+      "aliases": [
+        "#みんなで作る夏祭り"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "栃木県",
@@ -193495,8 +193549,10 @@
     },
     {
       "id": "tochigi-ashikaga-x08b5915b",
-      "name": "10/1 大岩毘沙門天 秋季大祭",
-      "aliases": [],
+      "name": "大岩毘沙門天 秋季大祭",
+      "aliases": [
+        "10/1 大岩毘沙門天 秋季大祭"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "栃木県",
@@ -193537,8 +193593,10 @@
     },
     {
       "id": "tochigi-ashikaga-xad075f0b",
-      "name": "10/12 大小山火祭り",
-      "aliases": [],
+      "name": "大小山火祭り",
+      "aliases": [
+        "10/12 大小山火祭り"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "栃木県",
@@ -193580,8 +193638,10 @@
     },
     {
       "id": "tochigi-ashikaga-x98df648f",
-      "name": "10/17 下野國一社八幡宮秋季大祭",
-      "aliases": [],
+      "name": "下野國一社八幡宮秋季大祭",
+      "aliases": [
+        "10/17 下野國一社八幡宮秋季大祭"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "栃木県",
@@ -193622,8 +193682,10 @@
     },
     {
       "id": "tochigi-ashikaga-x1f2908cc",
-      "name": "10/18 樺崎八幡宮秋祭",
-      "aliases": [],
+      "name": "樺崎八幡宮秋祭",
+      "aliases": [
+        "10/18 樺崎八幡宮秋祭"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "栃木県",
@@ -193664,8 +193726,10 @@
     },
     {
       "id": "tochigi-ashikaga-xef693b89",
-      "name": "11/3 足利織姫神社 秋季例大祭",
-      "aliases": [],
+      "name": "足利織姫神社 秋季例大祭",
+      "aliases": [
+        "11/3 足利織姫神社 秋季例大祭"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "栃木県",
@@ -193706,8 +193770,10 @@
     },
     {
       "id": "tochigi-ashikaga-x5f7300b5",
-      "name": "11/7 足利繊維まつり",
-      "aliases": [],
+      "name": "足利繊維まつり",
+      "aliases": [
+        "11/7 足利繊維まつり"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "栃木県",
@@ -193748,8 +193814,10 @@
     },
     {
       "id": "tochigi-ashikaga-x2443b58c",
-      "name": "12/8 金山神社例大祭（ふいご祭）",
-      "aliases": [],
+      "name": "金山神社例大祭（ふいご祭）",
+      "aliases": [
+        "12/8 金山神社例大祭（ふいご祭）"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "栃木県",
@@ -274563,8 +274631,10 @@
     },
     {
       "id": "tokyo-katsushika-atarashiikazefesutibaru",
-      "name": "10/10,11,12 第4回 新しい風フェスティバル",
-      "aliases": [],
+      "name": ",11,12 第4回 新しい風フェスティバル",
+      "aliases": [
+        "10/10,11,12 第4回 新しい風フェスティバル"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "東京都",
@@ -330904,8 +330974,10 @@
     },
     {
       "id": "saitama-fukaya-komaedayataimatsuri",
-      "name": "10/12・13 小前田屋台まつり",
-      "aliases": [],
+      "name": "小前田屋台まつり",
+      "aliases": [
+        "10/12・13 小前田屋台まつり"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "埼玉県",
@@ -330955,8 +331027,10 @@
     },
     {
       "id": "saitama-fukaya-hanabitaikai",
-      "name": "10/13 おかべコスモス祭中止・花火大会14日に延期",
-      "aliases": [],
+      "name": "おかべコスモス祭中止・花火大会14日に延期",
+      "aliases": [
+        "10/13 おかべコスモス祭中止・花火大会14日に延期"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "埼玉県",
@@ -331040,8 +331114,10 @@
     },
     {
       "id": "saitama-fukaya-dainijuhakkaishigetadamatsuri",
-      "name": "4/12 第28回 重忠まつり",
-      "aliases": [],
+      "name": "第28回 重忠まつり",
+      "aliases": [
+        "4/12 第28回 重忠まつり"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "埼玉県",
@@ -331082,8 +331158,10 @@
     },
     {
       "id": "saitama-fukaya-dainijuhakkaiokabefureaikanibaru",
-      "name": "7/22 第28回おかべふれあいカーニバル",
-      "aliases": [],
+      "name": "第28回おかべふれあいカーニバル",
+      "aliases": [
+        "7/22 第28回おかべふれあいカーニバル"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "埼玉県",
@@ -331133,8 +331211,10 @@
     },
     {
       "id": "saitama-fukaya-dainijuyonkaifukayamatsuri",
-      "name": "7/27 第24回深谷まつり",
-      "aliases": [],
+      "name": "第24回深谷まつり",
+      "aliases": [
+        "7/27 第24回深谷まつり"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "埼玉県",
@@ -331193,8 +331273,10 @@
     },
     {
       "id": "saitama-fukaya-fukayahanabitaikai",
-      "name": "8/4（日）深谷花火大会",
-      "aliases": [],
+      "name": "深谷花火大会",
+      "aliases": [
+        "8/4（日）深谷花火大会"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "埼玉県",
@@ -336653,8 +336735,10 @@
     },
     {
       "id": "saitama-sayama-sayamashishichitanabatamatsuri",
-      "name": "#狭山市七夕まつり",
-      "aliases": [],
+      "name": "狭山市七夕まつり",
+      "aliases": [
+        "#狭山市七夕まつり"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "埼玉県",
@@ -339796,8 +339880,10 @@
     },
     {
       "id": "saitama-minano-korashokanibaru",
-      "name": "8/13（火） こらしょカーニバル",
-      "aliases": [],
+      "name": "こらしょカーニバル",
+      "aliases": [
+        "8/13（火） こらしょカーニバル"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "埼玉県",
@@ -339838,8 +339924,10 @@
     },
     {
       "id": "saitama-minano-chichibuondomatsuri",
-      "name": "8/14（水） 秩父音頭まつり",
-      "aliases": [],
+      "name": "秩父音頭まつり",
+      "aliases": [
+        "8/14（水） 秩父音頭まつり"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "埼玉県",
@@ -457754,8 +457842,10 @@
     },
     {
       "id": "kanagawa-hadano-tanzawabiyorifesutibaru",
-      "name": "7/13（土）に丹沢日和フェスティバル",
-      "aliases": [],
+      "name": "丹沢日和フェスティバル",
+      "aliases": [
+        "7/13（土）に丹沢日和フェスティバル"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "神奈川県",
@@ -458022,8 +458112,10 @@
     },
     {
       "id": "kanagawa-hadano-ennichi",
-      "name": "に出雲大社相模分祠で縁日",
-      "aliases": [],
+      "name": "出雲大社相模分祠で縁日",
+      "aliases": [
+        "に出雲大社相模分祠で縁日"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "神奈川県",
@@ -458065,9 +458157,10 @@
     },
     {
       "id": "kanagawa-hadano-hatsuumamatsuri",
-      "name": "に白笹稲荷神社で初午祭",
+      "name": "白笹稲荷神社で初午祭",
       "aliases": [
-        "に白笹稲荷神社で初午祭が"
+        "に白笹稲荷神社で初午祭が",
+        "に白笹稲荷神社で初午祭"
       ],
       "status": "candidate",
       "confidence": "low",
@@ -458109,10 +458202,11 @@
     },
     {
       "id": "kanagawa-hadano-hadanomeisuifesutibaru",
-      "name": "に秦野名水フェスティバル",
+      "name": "秦野名水フェスティバル",
       "aliases": [
         "に秦野名水フェスティバルが",
-        "に第8回秦野名水フェスティバルが"
+        "に第8回秦野名水フェスティバルが",
+        "に秦野名水フェスティバル"
       ],
       "status": "candidate",
       "confidence": "low",
@@ -458155,9 +458249,10 @@
     },
     {
       "id": "kanagawa-hadano-hadanotokawakoemmatsuri",
-      "name": "に第14回秦野戸川公園まつり",
+      "name": "第14回秦野戸川公園まつり",
       "aliases": [
-        "に秦野戸川公園まつり・丹沢謌山"
+        "に秦野戸川公園まつり・丹沢謌山",
+        "に第14回秦野戸川公園まつり"
       ],
       "status": "candidate",
       "confidence": "low",
@@ -458199,8 +458294,10 @@
     },
     {
       "id": "kanagawa-hadano-x2405603d",
-      "name": "に第1回冬のクリセンフェスタが",
-      "aliases": [],
+      "name": "第1回冬のクリセンフェスタが",
+      "aliases": [
+        "に第1回冬のクリセンフェスタが"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "神奈川県",
@@ -458242,9 +458339,10 @@
     },
     {
       "id": "kanagawa-hadano-sanetomomatsuri",
-      "name": "に第37回実朝まつり",
+      "name": "第37回実朝まつり",
       "aliases": [
-        "に第31回実朝まつり"
+        "に第31回実朝まつり",
+        "に第37回実朝まつり"
       ],
       "status": "candidate",
       "confidence": "low",
@@ -458286,8 +458384,10 @@
     },
     {
       "id": "kanagawa-hadano-magohotokematsuri",
-      "name": "に第３６回孫佛祭",
-      "aliases": [],
+      "name": "第３６回孫佛祭",
+      "aliases": [
+        "に第３６回孫佛祭"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "神奈川県",
@@ -458990,8 +459090,10 @@
     },
     {
       "id": "kanagawa-hayama-moridodaimyojinreitaisai",
-      "name": "#森戸大明神例大祭 #お神輿 #葉山町 #葉山町観光協会",
-      "aliases": [],
+      "name": "森戸大明神例大祭",
+      "aliases": [
+        "#森戸大明神例大祭 #お神輿 #葉山町 #葉山町観光協会"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "神奈川県",
@@ -459633,8 +459735,10 @@
     },
     {
       "id": "shizuoka-mishima-ajisaimatsuri",
-      "name": "#あじさい祭り",
-      "aliases": [],
+      "name": "あじさい祭り",
+      "aliases": [
+        "#あじさい祭り"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "静岡県",
@@ -459675,8 +459779,10 @@
     },
     {
       "id": "shizuoka-mishima-mishimadaikommatsuri",
-      "name": "#三嶋大根祭",
-      "aliases": [],
+      "name": "三嶋大根祭",
+      "aliases": [
+        "#三嶋大根祭"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "静岡県",
@@ -459717,8 +459823,10 @@
     },
     {
       "id": "shizuoka-mishima-mishimataisairi",
-      "name": "#三嶋大祭り",
-      "aliases": [],
+      "name": "三嶋大祭り",
+      "aliases": [
+        "#三嶋大祭り"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "静岡県",
@@ -459822,8 +459930,10 @@
     },
     {
       "id": "shizuoka-mishima-daibonodoritaikai",
-      "name": "#大盆踊り大会",
-      "aliases": [],
+      "name": "大盆踊り大会",
+      "aliases": [
+        "#大盆踊り大会"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "静岡県",
@@ -459875,8 +459985,10 @@
     },
     {
       "id": "shizuoka-mishima-kikumatsuri",
-      "name": "#菊まつり",
-      "aliases": [],
+      "name": "菊まつり",
+      "aliases": [
+        "#菊まつり"
+      ],
       "status": "candidate",
       "confidence": "low",
       "prefecture": "静岡県",
