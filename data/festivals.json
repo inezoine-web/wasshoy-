@@ -441790,6 +441790,4437 @@
       ],
       "notes": "特定年の日程か例年の規則かは未確認: 新暦4月5日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
+    },
+    {
+      "id": "chiba-chiba-bosonomikarishuzoku",
+      "name": "房総のミカリ習俗",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "千葉市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 千葉県南房総市下立松原神社で公開、千葉県君津市諏訪神社で公開、千葉県館山市洲宮神社で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-chiba-kantonootakoageshuzoku",
+      "name": "関東の大凧揚げ習俗",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "千葉市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦5月5日に千葉県全域で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-isumi-daideranosambaso",
+      "name": "大寺の三番叟",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "いすみ市",
+      "district": null,
+      "venue": "千葉県いすみ市下布施白山神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "temple_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 新暦秋に千葉県いすみ市下布施白山神社で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-ichinomiya-tonamimijinku",
+      "name": "東浪見甚句",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "一宮町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 千葉県一宮町東浪見で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-kujiyuukuri-kujukuritairyobushi",
+      "name": "九十九里大漁節",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "九十九里町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 千葉県九十九里町片貝で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-kujiyuukuri-yagatanoshishimai",
+      "name": "屋形の獅子舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "九十九里町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "lion_dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 九十九里町片貝の夷神社で公開（要事前連絡） / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-kujiyuukuri-aoyanayanoshishimai",
+      "name": "荒生納屋の獅子舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "九十九里町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "lion_dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 九十九里町荒生納屋区の愛宕神社で公開（事前連絡必要） / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-kujiyuukuri-nishinookanoshishimai",
+      "name": "西野岡の獅子舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "九十九里町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "lion_dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 九十九里町西野の武雷神社で公開（要事前連絡） / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-kujiyuukuri-suharanokakkomai",
+      "name": "須原の羯鼓舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "九十九里町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 九十九里町須原で公開（要事前連絡） / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sakura-kamikatsutanobonami",
+      "name": "上勝田の盆網",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "佐倉市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 佐倉市上勝田で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sakura-sakuramakatajinjamikoshitogyo",
+      "name": "佐倉麻賀多神社神輿渡御",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "佐倉市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "mikoshi"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 佐倉市鏑木町の麻賀多神社で祭礼時に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sakura-aosuganodondoree",
+      "name": "青菅のどんどれえ",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "佐倉市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 佐倉市青菅で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-yachiyo-murakaminokagura",
+      "name": "村上の神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "八千代市",
+      "district": null,
+      "venue": "八千代市村上の七百余所神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦10月9日・新暦1月15日に八千代市村上の七百余所神社で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-yachiyo-takatsunohatsukabisha",
+      "name": "高津のハツカビシャ",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "八千代市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦1月20日に八千代市高津の高津比咩神社等で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-yachiyo-takatsunittanokarasubisha",
+      "name": "高津新田のカラスビシャ",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "八千代市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦2月11日に八千代市八千代台の諏訪神社等で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-yachimata-yachimatabunchigaimugitsukiodori",
+      "name": "八街市文違麦つき踊",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "八街市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 八街市文違のこうみんかん祭開催日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-yachimata-yachimataenokidoshishimai",
+      "name": "八街市榎戸獅子舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "八街市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "lion_dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 八街市榎戸の大宮神社祭礼の獅子舞奉納日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sosa-kujukurijibikitairyoka",
+      "name": "九十九里地曳大漁歌",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "匝瑳市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 匝瑳市堀川で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sosa-kamezakinyoirimmairi",
+      "name": "亀崎如意輪まいり",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "匝瑳市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "新暦2月19日に近い日曜日に公匝瑳市亀崎で公開",
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sosa-yokaichibanobonodori",
+      "name": "八日市場の盆踊り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "匝瑳市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "新暦8月中旬に千葉県匝瑳市米倉で公開",
+      "event_dates": [],
+      "categories": [
+        "bon_odori",
+        "dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sosa-rokushaokamikagura",
+      "name": "六社大神神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "匝瑳市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 匝瑳市野手の六社大神で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-chiba-sandaiojinjanokagura",
+      "name": "三代王神社の神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "千葉市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦2月11日春祭の15時と新暦10月20日秋祭の15時に千葉市花見川区武石町三代王神社神楽殿で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-chiba-hakkenjinjanokagura",
+      "name": "八剱神社の神楽(含神楽書)",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "千葉市",
+      "district": null,
+      "venue": "千葉市中央区南生実町八劔神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 神楽は新暦7月27日の祭礼に千葉市中央区南生実町八劔神社で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-chiba-samugawajinjanoohamaori",
+      "name": "寒川神社の御浜下り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "千葉市",
+      "district": null,
+      "venue": "千葉市中央区寒川町寒川神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦8月20日に千葉市中央区寒川町寒川神社で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-chiba-kemigawajinjanokaguramatsuribayashi",
+      "name": "検見川神社の神楽・祭囃子",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "千葉市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "囃子は新暦8月1・2・3日（2日は19時から奉納）に千葉市花見川区検見川町検見川神社例祭、神楽は新暦10月上旬から中旬の9時から同市同地区の尾鷲神社の祭礼にて公開",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-chiba-sengenjinjanokagura",
+      "name": "浅間神社の神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "千葉市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦1月1日と新暦7月15日に千葉県千葉市稲毛区稲毛で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-chiba-noborinokagurabayashi",
+      "name": "登戸の神楽囃子",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "千葉市",
+      "district": null,
+      "venue": "千葉市中央区登戸の登渡神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦の正月行事（除夜祭、歳旦祭）、2月の節分祭、9月の例祭に千葉市中央区登戸の登渡神社で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-minamiboso-shimotachimatsubarajinjanomikarishinji",
+      "name": "下立松原神社のミカリ神事",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "南房総市",
+      "district": null,
+      "venue": "下立松原神社",
+      "location": null,
+      "usual_schedule": "旧暦11月26日からの10日間に下立松原神社で公開",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-minamiboso-motohachimanjinjaoshimizuokurinogishiki",
+      "name": "元八幡神社御清水送りの儀式",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "南房総市",
+      "district": null,
+      "venue": "南房総市府中の鶴谷八幡宮",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: やわたんまち前日に南房総市府中の鶴谷八幡宮で公開（要保存会長に連絡） / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-minamiboso-kamonohanaodori",
+      "name": "加茂の花踊",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "南房総市",
+      "district": null,
+      "venue": "千葉県南房総市加茂賀茂神社",
+      "location": null,
+      "usual_schedule": "新暦8月上旬に千葉県南房総市加茂賀茂神社で公開",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-minamiboso-masumanogoshintekishinji",
+      "name": "増間の御神的神事",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "南房総市",
+      "district": null,
+      "venue": "千葉県南房総市増間日枝神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦3月1日に千葉県南房総市増間日枝神社で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-minamiboso-sogakusarutahikonomai",
+      "name": "奏楽・猿田彦の舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "南房総市",
+      "district": null,
+      "venue": "南房総市沓見の莫越山神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦7月9日の例祭、新暦11月23日の新嘗祭に南房総市沓見の莫越山神社で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-minamiboso-ammatanihachimanjinjagoshinteki",
+      "name": "安馬谷八幡神社御神的",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "南房総市",
+      "district": null,
+      "venue": "南房総市安馬谷の八幡神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦3月3日に南房総市安馬谷の八幡神社で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-minamiboso-heigunonohanabi",
+      "name": "平群の花火",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "南房総市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "fireworks"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 千葉県南房総市平久里で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-minamiboso-bojutsukakkomaishishikagura",
+      "name": "棒術・鞨鼓舞・獅子神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "南房総市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "新暦7月概ね第3土・日に南房総市富浦町多田良で公開",
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-minamiboso-shinshuzukurishinji",
+      "name": "神酒造り神事",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "南房総市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 南房総市沓見の莫越山神社で公開（莫越山神社に要連絡） / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-inzai-rokuzanembutsunotonaenembutsuodori",
+      "name": "六座念仏の称念仏踊",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "印西市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 千葉県印西市武西で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-kimitsu-hitomijinjashimba",
+      "name": "人見神社「神馬",
+      "aliases": [
+        "人見神社「神馬」"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "君津市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 君津市人見の人見神社の祭礼日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-kimitsu-kanoyamanosanchokobushi",
+      "name": "鹿野山のさんちょこ節",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "君津市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 千葉県君津市鹿野山で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-otaki-nakanobayashi",
+      "name": "中野囃子",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "大多喜町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 秋祭り時に大多喜町中野で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-otaki-hasshobayashi",
+      "name": "八声囃子",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "大多喜町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 大多喜町八声で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-otaki-tsutsumorikaguramai",
+      "name": "筒森神楽舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "大多喜町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 大多喜町筒森で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-futtsu-tsuruokanokakkomaioyobiyogu",
+      "name": "鶴岡の羯鼓舞及び用具",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "富津市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "新暦7月上旬に富津市鶴岡で公開",
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sammu-junimenkagura",
+      "name": "十二面神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "山武市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 山武市蓮沼で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sammu-suehirojinjanokagura",
+      "name": "末廣神社の神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "山武市",
+      "district": null,
+      "venue": "山武市松尾町松尾の末廣神社",
+      "location": null,
+      "usual_schedule": "新暦7月28日前後の日曜日に山武市松尾町松尾の末廣神社で公開",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sammu-shirahatahachimanjinjashinjioryugashiranomai",
+      "name": "白幡八幡神社神事お竜頭の舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "山武市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 山武市白幡の白幡八幡神社で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sammu-shirahatahachimanjinjashinjiotaketorinogyoji",
+      "name": "白幡八幡神社神事お竹取りの行事",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "山武市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 山武市白幡の白幡八幡神社で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sammu-shirahatahachimanjinjashinjiakatsukinosaitenageiinogyoji",
+      "name": "白幡八幡神社神事曙の祭典・あげ飯の行事",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "山武市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 山武市白幡の白幡八幡神社で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-ichihara-goinittamatsuribayashi",
+      "name": "五井新田祭囃子",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "市原市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 市原市五井で公開（休止） / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-ichihara-ichiharanoyanagitateshinji",
+      "name": "市原の柳楯神事",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "市原市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "旧暦8月15日に近い日曜日に千葉県市原市五所で公開",
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-onjiyuku-obatakagurabayashi",
+      "name": "小幡神楽囃子",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "御宿町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 御宿町上布施区小幡で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-onjiyuku-takayamadakagurabayashi",
+      "name": "高山田神楽囃子",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "御宿町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 御宿町高山田区で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-narita-kitahatorikatorijinjashishimai",
+      "name": "北羽鳥香取神社獅子舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "成田市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "lion_dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 成田市北羽鳥で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-narita-torikanosambanso",
+      "name": "取香の三番叟",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "成田市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦4月初旬に千葉県成田市取香で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-narita-nadonoobisha",
+      "name": "奈土のオビシャ",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "成田市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 千葉県成田市奈土で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-narita-nishiosukanokagura",
+      "name": "西大須賀の神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "成田市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 成田市西大須賀で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-narita-asakatajinjashishimai",
+      "name": "麻賀多神社獅子舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "成田市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "lion_dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 成田市台方・下方・船形で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-abiko-furudosatokagura",
+      "name": "古戸里神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "我孫子市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦7月に我孫子市古戸の稲荷神社祭礼、新暦12月に郷土芸能祭で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-abiko-takeuchijinjareitaisai",
+      "name": "竹内神社例大祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "我孫子市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦9月14日を含めた3日間我孫子市布佐地区各所で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-asahi-irinonohayashi",
+      "name": "入野のはやし",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "旭市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 旭市入野で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-asahi-minamihorinochinohayashi",
+      "name": "南堀之内のはやし",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "旭市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 旭市南堀之内で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-asahi-shotokumochinohayashi",
+      "name": "諸徳持のはやし",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "旭市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 旭市清和甲で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-asahi-nagabenohayashi",
+      "name": "長部のはやし",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "旭市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 旭市長部で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-asahi-kaminarijinjanooshinko",
+      "name": "雷神社の御神幸",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "旭市",
+      "district": null,
+      "venue": "旭市見広の雷神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 20年毎に旭市見広の雷神社で公開(次回令和12年4月10日～12日) / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-kisarazu-kisarazunakajimanobontentate",
+      "name": "木更津中島の梵天立て",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "木更津市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦1月7日に千葉県木更津市中島で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-kisarazu-sakurainoshishimai",
+      "name": "桜井の獅子舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "木更津市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "lion_dance",
+        "seasonal_flower_nature"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 木更津市桜井地区で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-togane-ononoomoteyakakkomai",
+      "name": "小野表谷鞨子舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "東金市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "新暦10月の第3土曜日に東金市小野で公開",
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-togane-takeshajinjanatsukoshinoshinji",
+      "name": "武射神社夏越の神事",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "東金市",
+      "district": null,
+      "venue": "東金市下上武射田入会地の武射神社",
+      "location": null,
+      "usual_schedule": "新暦6月最後の日曜日に東金市下上武射田入会地の武射神社で公開",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-togane-kibunejinjanoomimatoshinji",
+      "name": "貴船神社の御神的神事",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "東金市",
+      "district": null,
+      "venue": "東金市山田の貴船神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦1月4日午前10時に東金市山田の貴船神社で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-kashiwa-funadonoobisha",
+      "name": "船戸のおびしゃ",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "柏市",
+      "district": null,
+      "venue": "柏市船戸の船戸会館",
+      "location": null,
+      "usual_schedule": "新暦1月20日直前の日曜日に柏市船戸の船戸会館で公開",
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-kashiwa-wakashirogehayashi",
+      "name": "若白毛囃子",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "柏市",
+      "district": null,
+      "venue": "柏市若自毛の八坂神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦7月24日に柏市若自毛の八坂神社で公開（H23から休止） / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-yokoshibahikari-nakadaihashigoshishi",
+      "name": "中台梯子獅子",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "横芝光町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "新暦8月の最終日曜日に横芝光町中台で公開",
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-yokoshibahikari-taninakainarijinjashishimai",
+      "name": "谷中稲荷神社獅子舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "横芝光町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "lion_dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 横芝光町谷中の谷中稲荷神社で公開（現在休止中） / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-yokoshibahikari-torikuishimodaikagura",
+      "name": "鳥喰下大神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "横芝光町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦1月13日に横芝光町鳥喰で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-nagareyama-jingaramochigyoji",
+      "name": "ヂンガラ餅行事",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "流山市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 流山市三輪の茂侶神社で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-nagareyama-oshimenawagyoji",
+      "name": "大しめ縄行事",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "流山市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 流山市流山の赤城神社で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-nagareyama-hiregasakiobishagyoji",
+      "name": "鰭ケ崎おびしゃ行事",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "流山市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 流山市鰭ケ崎の雷神社で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-nagareyama-hiregasakinoobisha",
+      "name": "鰭ケ崎のオビシャ",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "流山市",
+      "district": null,
+      "venue": "千葉県流山市鰭ケ崎雷神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦1月20日に千葉県流山市鰭ケ崎雷神社で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-shiroi-tomigasawanotsujikiri",
+      "name": "富ヶ沢の辻切り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "白井市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦1月25日に白井市復（富ヶ沢地区）で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-shiroi-homenoobisha",
+      "name": "法目のオビシャ",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "白井市",
+      "district": null,
+      "venue": "白井市復の八幡神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦1月15日に白井市復の八幡神社で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-shirako-minamihiatarinoshishimai",
+      "name": "南日当の獅子舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "白子町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "lion_dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 白子町南日当で公開（要事前申込） / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-shirako-fukutorinoshishimai",
+      "name": "福鳥の獅子舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "白子町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "lion_dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 白子町福島で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-shirako-odorokinoshishimai",
+      "name": "驚の獅子舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "白子町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "lion_dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 白子町驚で公開（要事前連絡） / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-mutsuzawa-sanukisueyose",
+      "name": "佐貫季寄",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "睦沢町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "新暦7月の第2土曜に睦沢町佐貫で公開",
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-mutsuzawa-okamigobayashi",
+      "name": "大上五囃子",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "睦沢町",
+      "district": null,
+      "venue": "睦沢町大上の熊野神社",
+      "location": null,
+      "usual_schedule": "新暦9月の第2土曜に睦沢町大上の熊野神社で公開",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-mutsuzawa-uhajinjatookasaioyobikuki",
+      "name": "鵜羽神社「十日祭」及び供器",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "睦沢町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 睦沢町岩井の鵜羽神社で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-funabashi-nakanoginotsujikiri",
+      "name": "中野木の辻切り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "船橋市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦2月最初の午の日に船橋市中野木で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-funabashi-daibutsutsuizenkuyo",
+      "name": "大仏追善供養",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "船橋市",
+      "district": null,
+      "venue": "船橋市本町の不動院",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦2月28日に船橋市本町の不動院で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-shibayama-kagurashishi",
+      "name": "神楽獅子",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "芝山町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 芝山町殿部田区で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-mobara-omizukaketomirokuodori",
+      "name": "お水かけと弥勒踊り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "茂原市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦1月8日に茂原市茂原で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-mobara-tsutsugayunoshinjioyobiomatonoshinji",
+      "name": "筒粥の神事及びお的の神事",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "茂原市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 茂原市山崎で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sodegaura-kashimaningyo",
+      "name": "かしま人形",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "袖ケ浦市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 袖ケ浦市阿部地区で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sodegaura-nodamushiokuri",
+      "name": "野田虫送り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "袖ケ浦市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦7月31日に袖ケ浦市野田地区で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-shisui-sumishishimai",
+      "name": "墨獅子舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "酒々井町",
+      "district": null,
+      "venue": "千葉県酒々井町墨六所神社",
+      "location": null,
+      "usual_schedule": "新暦7月第3日曜日に千葉県酒々井町墨六所神社で公開",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "lion_dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-noda-mitsuborinodoromatsuri",
+      "name": "三ツ堀のどろ祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "野田市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-noda-funakatakatorijinjagoshasengozenkenjoshiki",
+      "name": "船形香取神社御社擅御膳献上式",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "野田市",
+      "district": null,
+      "venue": "野田市船形の香取神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦2月11日に野田市船形の香取神社で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-noda-nodanotsukumai",
+      "name": "野田のつく舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "野田市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "新暦7月中旬に千葉県野田市野田で公開",
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-kiyonan-ichiiharanoshishimaikaguramai",
+      "name": "市井原の獅子舞・神楽舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "鋸南町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "lion_dance",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦9月に鋸南町市市井原の八幡神社祭礼で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-tateyama-kanyohiyoshijinjakakkomai",
+      "name": "神余日吉神社かっこ舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "館山市",
+      "district": null,
+      "venue": "館山市神余の日吉神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦7月19・20日に館山市神余の日吉神社で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-tateyama-tsuruyahachimankannotsutsugayujinji",
+      "name": "鶴谷八幡官の筒粥神事",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "館山市",
+      "district": null,
+      "venue": "館山市八幡の鶴谷八幡宮",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦1月14日から15日に館山市八幡の鶴谷八幡宮で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-katori-orandagakutai",
+      "name": "おらんだ楽隊",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "香取市",
+      "district": null,
+      "venue": "千葉県香取市扇島香取神宮",
+      "location": null,
+      "usual_schedule": "毎年新暦4月15日・新暦12年に一度に千葉県香取市扇島香取神宮で公開",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-katori-shinichibakagura",
+      "name": "新市場神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "香取市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 香取市新市場区で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-katori-shirakawaryujunikagura",
+      "name": "白川流十二神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "香取市",
+      "district": null,
+      "venue": "香取市新里の八重垣神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦3月20日に香取市新里の八重垣神社で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-kamogawa-izuminosanyaku",
+      "name": "和泉の三役",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "鴨川市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "体育の日前後の日曜日に鴨川市和泉で公開",
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-kamogawa-kominatonotadaimoku",
+      "name": "小湊の歌題目",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "鴨川市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 鴨川市小湊で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
     }
   ]
 }
