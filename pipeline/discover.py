@@ -455,7 +455,9 @@ def load_sites(prefecture: str | None, municipality: str | None) -> list[dict[st
     if prefecture:
         rows = [r for r in rows if r["prefecture"] == prefecture]
     if municipality:
-        rows = [r for r in rows if r["municipality"] == municipality]
+        # 「栃木市,小山市」のように複数を指定できる
+        wanted = {m.strip() for m in municipality.split(",") if m.strip()}
+        rows = [r for r in rows if r["municipality"] in wanted]
     return [r for r in rows if r["official_url"] or r["tourism_url"]]
 
 
@@ -490,6 +492,8 @@ def main(argv: list[str] | None = None) -> int:
                          "予算より深さのほうが効く")
     ap.add_argument("--delay", type=float, default=1.0)
     ap.add_argument("--offline", action="store_true")
+    ap.add_argument("--tourism-only", action="store_true",
+                    help="観光協会サイトだけを起点にする (後から解決した自治体の追いクロール)")
     ap.add_argument("--resume", action="store_true",
                     help="pages.tsv に既に記録がある市町村を飛ばして追記する")
     args = ap.parse_args(argv)
@@ -529,6 +533,12 @@ def main(argv: list[str] | None = None) -> int:
 
         def crawl(site: dict[str, str]):
             seeds = [u for u in (site["official_url"], site["tourism_url"]) if u]
+            if args.tourism_only:
+                # 観光協会サイトを後から解決した自治体の追いクロール。
+                # 公式サイトは既に pages.tsv にあり、予算を分け合わせない。
+                seeds = [site["tourism_url"]] if site["tourism_url"] else []
+                if not seeds:
+                    return site, []
             budget = (
                 args.pref_lens_pages
                 if site["municipality"] == PREFECTURE_WIDE

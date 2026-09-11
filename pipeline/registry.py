@@ -362,6 +362,43 @@ def find_tourism_site(
     return ""
 
 
+# 観光協会サイトのドメインの慣行。解決済み203件から数えた上位の形で、
+# 「土浦市 www.tsuchiura-kankou.jp」「鹿沼市 kanuma-kanko.jp」「古河市
+# www.kogakanko.jp」「小鹿野町 www.kanko-ogano.jp」「日立市 www.kankou-hitachi.jp」。
+# 公式サイトからのリンクを辿る経路だけでは 8都県で約半分の自治体が空のままだった
+# (栃木市 www.tochigi-kankou.or.jp は市のサイトからリンクされていない)。
+_TOURISM_STEMS = ("{m}-kankou", "{m}-kanko", "{m}kanko", "{m}kankou", "kanko-{m}", "kankou-{m}")
+_TOURISM_TLDS = ("jp", "or.jp", "com", "org", "net", "gr.jp")
+
+
+def guess_tourism_site(fetcher: Fetcher, municipality: str, muni_romaji: str) -> str:
+    """命名規則から観光協会サイトの候補を組み、DNS で存在するものだけ取得して
+    本文で検証する。推測のまま書かない。"""
+    import socket
+    if not muni_romaji:
+        return ""
+    for variant in romaji_variants(muni_romaji):
+        for stem in _TOURISM_STEMS:
+            base = stem.format(m=variant)
+            for tld in _TOURISM_TLDS:
+                for host in (f"www.{base}.{tld}", f"{base}.{tld}"):
+                    try:
+                        socket.gethostbyname(host)
+                    except OSError:
+                        continue
+                    url = f"https://{host}/"
+                    ok, _ = verify_site(fetcher, url, municipality)
+                    if not ok:
+                        url = f"http://{host}/"
+                        ok, _ = verify_site(fetcher, url, municipality)
+                    if not ok:
+                        continue
+                    doc = fetcher.get(url)
+                    if doc is not None and "観光" in doc.text:
+                        return url
+    return ""
+
+
 _SITE_FIELDS = ["code", "prefecture", "municipality", "official_url", "tourism_url", "resolved"]
 
 
@@ -525,6 +562,8 @@ def resolve_sites(fetcher: Fetcher, prefecture: str | None) -> Path:
             if official
             else ""
         )
+        if not tourism:
+            tourism = guess_tourism_site(fetcher, m["municipality"], m["muni_romaji"])
         existing[m["code"]] = {
             "code": m["code"],
             "prefecture": m["prefecture"],

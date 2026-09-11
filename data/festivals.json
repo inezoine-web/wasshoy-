@@ -433017,6 +433017,3485 @@
       ],
       "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
+    },
+    {
+      "id": "tochigi-ichikai-ichikaiakimatsuri",
+      "name": "2026『ICHIKAI秋まつり",
+      "aliases": [
+        "2026『ICHIKAI秋まつり』"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "市貝町",
+      "district": null,
+      "venue": "芝ざくら公園",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.ichikai-kankou.jp",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.ichikai-kankou.jp/",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.ichikai-kankou.jp/news/",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.ichikai-kankou.jp/news/news-1350/",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.ichikai-kankou.jp/news/news-1572/",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.ichikai-kankou.jp/news/news-1619/",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 9 月16日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-ichikai-hiejinjakumanojinja",
+      "name": "日枝神社・熊野神社",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "市貝町",
+      "district": null,
+      "venue": "東円寺",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "temple_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.ichikai-kankou.jp/category/sightseeing/",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.ichikai-kankou.jp/category/sightseeing/history/",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.ichikai-kankou.jp/feed/",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.ichikai-kankou.jp/sightseeing/history/post-412/",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-ichikai-umematsuri",
+      "name": "梅まつり",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "市貝町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "毎年3月",
+      "event_dates": [],
+      "categories": [
+        "seasonal_flower_nature"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.ichikai-kankou.jp/feed/",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.ichikai-kankou.jp/sightseeing/flower/post-894/",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-ashiochonoryosai",
+      "name": "あしおまちのうりょうさい 【2026年】足尾町納涼祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": "足尾庁舎前多目的広場",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/event/405",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 2026年8月13日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-imaichiyataimatsuri",
+      "name": "いまいちやたいまつり 今市屋台まつり",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": "今市駅前通り",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "dashi"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/event/509",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-kamakuramatsuri",
+      "name": "かまくら祭",
+      "aliases": [
+        "かまくら祭2026"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/courses/92",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/event/1210",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/spot/1210",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-sentokuyosai",
+      "name": "せんとうくようさい 千灯供養祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "毎年9月24日",
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/spot/1527",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-takiojinjayasakasai",
+      "name": "たきのおじんじゃやさかさい 瀧尾神社八坂祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/event/1323",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 7月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-nantaisantohaitaisai",
+      "name": "なんたいさんとうはいたいさい 男体山登拝大祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": "例年通り",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/event/412",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/spot/412",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 8月1日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-nijusanyasai",
+      "name": "にじゅうさんやさい 二十三夜祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/event/1022",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/spot/1022",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 8月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-nikkootauesai",
+      "name": "にっこうおたうえさい 【2026年】日光御田植祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": "森友瀧尾神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/event/1148",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 5月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-nikkohanabitaikai",
+      "name": "にっこうはなびたいかい 日光花火大会",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": "日光だいや川公園河川敷",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "fireworks"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/event/471",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 8月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-heiketaisai",
+      "name": "へいけたいさい 平家大祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/event/65",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/spot/65",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 2026年6月6日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-yunishigawayudonoyamajinjasairei",
+      "name": "ゆどのさんじんじゃさいれい 湯西川 湯殿山神社祭礼",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": "湯西川湯殿山神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/spot/609",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 8月15日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-ryuomatsuri",
+      "name": "りゅうおうまつり 【2026年】鬼怒川温泉 龍王祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": "龍王峡の五龍王神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/event/403",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 7月25日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-kurafutobiafesutain",
+      "name": "クラフトビアフェスタ in JR日光駅",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": "二荒山神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "citizen_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/event",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/event?categoryIds=3",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 2026年8月1日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-bantomikoshi",
+      "name": "万燈神輿",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": "龍王峡の五龍王神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "mikoshi"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/event/403",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 2026年7月1日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-ryotaijinjareitaisai",
+      "name": "両大神社例大祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": "日光東照宮",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/event?categoryIds=53",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 2026年5月23日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-futarasanjinjachugujihonokojohanabi",
+      "name": "二荒山神社中宮祠 奉納湖上花火",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": "中禅寺",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "temple_festival",
+        "fireworks"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/event",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/event/1230",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/event?categoryIds=3",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/event?categoryIds=52",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 2026年10月3日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-gogatsusai",
+      "name": "五月祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": "英国大使館別荘記念公園",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/event/1724",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 2026年4月1日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-x5b06be3c",
+      "name": "四季満祭川俣ゆうゆうサイクリング",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": "日光国立公園",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/event",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/event/1624",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/event?categoryIds=3",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 2026年10月3日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-toyamakonsamontenennichi",
+      "name": "外山昆沙門天縁日",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "毎年4月2日",
+      "event_dates": [],
+      "categories": [
+        "temple_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/event?categoryIds=53",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-daimikoshitogyo",
+      "name": "大神輿渡御",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": "瀧尾神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "mikoshi"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/event/1323",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 7月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-honokojohanabi",
+      "name": "奉納湖上花火",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "fireworks"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/event/412",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/spot/412",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 7月31日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-xc0b8add5",
+      "name": "女樽神輿",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": "龍王峡の五龍王神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "mikoshi"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/event/403",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 7月25日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-kodomokyohanshiki",
+      "name": "子供強飯式",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": "日光の社寺",
+      "location": null,
+      "usual_schedule": "第3日曜日",
+      "event_dates": [],
+      "categories": [
+        "temple_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/event",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/event?categoryIds=3",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/event?categoryIds=53",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/spot?categoryIds=117",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-iwasakikanzeondohyakuhachitosai",
+      "name": "岩崎観世音堂 百八灯祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": "二荒山神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/event",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/event/1333",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/event?categoryIds=3",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/event?categoryIds=53",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 2026年8月8日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-iwasakikanzeondaisai",
+      "name": "岩崎観世音大祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": "瀧尾神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/event/1333",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/event?categoryIds=53",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 4月13日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-heikeemakigyoretsu",
+      "name": "平家絵巻行列",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/event/65",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/spot/65",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-nikkofutarasanjinjayayoisai",
+      "name": "日光二荒山神社 弥生祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": "両大神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/event?categoryIds=53",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/spot?categoryIds=3",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 2026年5月17日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-nikkowarakuodori",
+      "name": "日光和楽踊り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": "日光二荒山神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/event",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/event?categoryIds=3",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/event?categoryIds=53",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/spot?categoryIds=3",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 2026年8月30日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-nikkotoshoguushukitaisai",
+      "name": "日光東照宮秋季大祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": "中禅寺",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "temple_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/event?categoryIds=53",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/spot?categoryIds=117",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/spot?categoryIds=3",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 2月28日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-xce306f56",
+      "name": "日光街道と例幣使街道の分岐点に建つ追分地蔵尊の夏供養祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "temple_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/event/1022",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/spot/1022",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 8月23日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-takiojinjareitaisai",
+      "name": "瀧尾神社例大祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": "山頂に佇む神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/event/1323",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/event/471",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/event?categoryIds=53",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 2026年5月3日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-x06bb975c",
+      "name": "灯籠の灯りが境内をやさしく埋め尽くす地蔵盆のお祭り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "毎年9月24日",
+      "event_dates": [],
+      "categories": [
+        "temple_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/spot/1527",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-x5fa861a1",
+      "name": "芹沼地区の厄除け大わらじ奉納",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": "中禅寺",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "temple_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/event",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/event?categoryIds=3",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/event?categoryIds=53",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 2027年3月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-xd1497fd3",
+      "name": "重さ１トンを超える大神輿の渡御が見どころの恒例夏祭り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": "瀧尾神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "mikoshi"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/event/1323",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 7月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-yukijonoyumotoonsenhanabitaikai",
+      "name": "雪上の湯元温泉花火大会",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": "二荒山神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "fireworks",
+        "seasonal_flower_nature"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/event/1710",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/event?categoryIds=52",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 2026年8月8日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-kinugawaonsenkinuhimematsuri",
+      "name": "鬼怒川温泉 きぬ姫まつり",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": "日光東照宮",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/event?categoryIds=53",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 2026年3月8日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-nikko-kinugawaonsenshofukuonimatsuri",
+      "name": "鬼怒川温泉 招福鬼まつり",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "district": null,
+      "venue": "日光山輪王寺",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "temple_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.nikko-kankou.org/event?categoryIds=53",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.nikko-kankou.org/spot?categoryIds=3",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 2026年3月29日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-tochigi-kihachimanguureitaisai",
+      "name": "木八幡宮例大祭",
+      "aliases": [
+        "10月15日に近い日曜日（隔年） 木八幡宮例大祭"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "栃木市",
+      "district": null,
+      "venue": "村檜神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/murahijinjyamatsuri",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/%e3%80%90%e6%9c%a8%e5%85%ab%e5%b9%a1%e5%ae%ae%e4%be%8b%e5%a4%a7%e7%a5%ad%e3%80%91",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 2023年10月17日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-tochigi-murahijinjareitaisai",
+      "name": "村檜神社例大祭",
+      "aliases": [
+        "10月17日 村檜神社例大祭 南エリア 観光",
+        "10月17日 村檜神社例大祭"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "栃木市",
+      "district": null,
+      "venue": "鷲宮神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.tochigi-kankou.or.jp/",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event-schedule",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/%e3%80%90%e6%9c%a8%e5%85%ab%e5%b9%a1%e5%ae%ae%e4%be%8b%e5%a4%a7%e7%a5%ad%e3%80%91",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/murahijinjyamatsuri",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: ９月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-tochigi-washimijinjareitaisai",
+      "name": "鷲宮神社例大祭（酉の市）",
+      "aliases": [
+        "11月23日 鷲宮神社例大祭（酉の市） 北エリア 体験",
+        "11月23日 鷲宮神社例大祭（酉の市）"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "栃木市",
+      "district": null,
+      "venue": "村檜神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event-schedule",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/akimatsuri",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/ohira-momiji",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/tsuga-matsuri",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/washinomiyajinja",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 10月17日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-tochigi-hommatsuri",
+      "name": "本まつり」1日目",
+      "aliases": [
+        "11月2日(土)「本まつり」1日目"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "栃木市",
+      "district": null,
+      "venue": "山車会館",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "dashi"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.tochigi-kankou.or.jp/akimatsuri/",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.tochigi-kankou.or.jp/akimatsuri/news/1244/",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.tochigi-kankou.or.jp/akimatsuri/news/1262/",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.tochigi-kankou.or.jp/akimatsuri/news/1459/",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 11月3日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-tochigi-doinakanishikatamatsuri",
+      "name": "ど田舎にしかた祭り",
+      "aliases": [
+        "11月下旬 ど田舎にしかた祭り 北エリア 体験"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "栃木市",
+      "district": null,
+      "venue": "鷲宮神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event-schedule",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 11月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-tochigi-marumarumarugototsugamatsuri",
+      "name": "まるまるまるごとつがまつり",
+      "aliases": [
+        "11月中旬 まるまるまるごとつがまつり 北エリア 体験",
+        "11月中旬 まるまるまるごとつがまつり"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "栃木市",
+      "district": null,
+      "venue": "村檜神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event-schedule",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/akimatsuri",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/ohira-momiji",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/washinomiyajinja",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 10月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-tochigi-daijijiennimmatsuri",
+      "name": "大慈寺円仁まつり",
+      "aliases": [
+        "1月 （成人の日） 大慈寺円仁まつり 南エリア 体験"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "栃木市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "temple_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event-schedule",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: １月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-tochigi-iwafuneyamahigantaisai",
+      "name": "岩船山ひがん大祭",
+      "aliases": [
+        "3月（春彼岸7日間） 9月（秋彼岸7日間） 岩船山ひがん大祭"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "栃木市",
+      "district": null,
+      "venue": "大平運動公園",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/iwafune-hana",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/octoberfes",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/ohira-sakura",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/ohira-sakuramatsuri",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 9月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-tochigi-fujiokasakuramatsuri",
+      "name": "藤岡さくら祭り",
+      "aliases": [
+        "4月上旬 藤岡さくら祭り 南エリア 体験",
+        "4月上旬 藤岡さくら祭り"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "栃木市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "seasonal_flower_nature"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event-schedule",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/nishikata-sakura",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/tsuga-hanasai",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/fujioka-sakura",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 4月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-tochigi-samafesutainiwafune",
+      "name": "サマーフェスタinいわふね",
+      "aliases": [
+        "8月上旬 サマーフェスタinいわふね 南エリア 体験",
+        "8月上旬 サマーフェスタinいわふね"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "栃木市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "citizen_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event-schedule",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/nishikata-kodomo",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 7月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-tochigi-kuranomachisamafesuta",
+      "name": "蔵の街サマーフェスタ",
+      "aliases": [
+        "8月上旬 蔵の街サマーフェスタ 中央エリア 体験",
+        "8月上旬 蔵の街サマーフェスタ"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "栃木市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "citizen_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event-schedule",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/nishikata-kodomo",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 7月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-tochigi-nishikatakodomonatsumatsuri",
+      "name": "にしかた子ども夏まつり",
+      "aliases": [
+        "8月中旬 にしかた子ども夏まつり 北エリア 体験"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "栃木市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event-schedule",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: １月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-tochigi-kuranomachitochigibirumatsuri",
+      "name": "蔵の街とちぎビール祭り",
+      "aliases": [
+        "9月～10月上旬 蔵の街とちぎビール祭り"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "栃木市",
+      "district": null,
+      "venue": "村檜神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/%e3%80%90%e6%9c%a8%e5%85%ab%e5%b9%a1%e5%ae%ae%e4%be%8b%e5%a4%a7%e7%a5%ad%e3%80%91",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/murahijinjyamatsuri",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/octoberfes",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 10月15日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-tochigi-uzumaandommatsuri",
+      "name": "うずま行灯まつり",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "栃木市",
+      "district": null,
+      "venue": "うずま公園",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.tochigi-kankou.or.jp/news/20057",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 令和8年7月4日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-tochigi-ohirasakuramatsuri",
+      "name": "おおひら桜まつり",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "栃木市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "seasonal_flower_nature"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/ohira-sakuramatsuri",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-tochigi-kodomoyamakuramatsuri",
+      "name": "こども山車まつり",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "栃木市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "dashi"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.tochigi-kankou.or.jp/news/19770",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 令和８年１１月１４日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-tochigi-tsuganosatohasumatsuri",
+      "name": "つがの里ハスまつり",
+      "aliases": [
+        "つがの里ハスまつり【オンライン開催】"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "栃木市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/tsuga-hasu",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-tochigi-tsuganosatohanasaisai",
+      "name": "つがの里花彩祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "栃木市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/tsuga-hanasai",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-tochigi-tochigiajisaimatsuri",
+      "name": "とちぎあじさいまつり",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "栃木市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "seasonal_flower_nature"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/tochigi-ajisai",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-tochigi-nishikatakanasakinosakuramatsuri",
+      "name": "にしかた金崎の桜祭り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "栃木市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "seasonal_flower_nature"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/nishikata-sakura",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-tochigi-taiheiyamamamojimatsuri",
+      "name": "太平山もみじまつり",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "栃木市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "seasonal_flower_nature"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/ohira-momiji",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-tochigi-taiheiyamasakuramatsuri",
+      "name": "太平山桜まつり",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "栃木市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "seasonal_flower_nature"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/ohira-sakura",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-tochigi-kotenguryujojutsu",
+      "name": "小天狗流杖術（こてんぐりゅうじょうじゅつ）",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "栃木市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/%e3%80%90%e6%9c%a8%e5%85%ab%e5%b9%a1%e5%ae%ae%e4%be%8b%e5%a4%a7%e7%a5%ad%e3%80%91",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 2024年10月15日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-tochigi-yamakuratoohayashinokyoen",
+      "name": "山車とお囃子の競演 「ぶっつけ",
+      "aliases": [
+        "山車とお囃子の競演 「ぶっつけ」"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "栃木市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art",
+        "dashi"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.tochigi-kankou.or.jp/akimatsuri/",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-tochigi-yamakurajunko",
+      "name": "山車巡行",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "栃木市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "dashi"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.tochigi-kankou.or.jp/akimatsuri/",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-tochigi-soshunnohanamatsuri",
+      "name": "早春の花まつり",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "栃木市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/iwafune-hana",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "tochigi-tochigi-akinoreisai",
+      "name": "秋の例祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "栃木市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/%e3%80%90%e6%9c%a8%e5%85%ab%e5%b9%a1%e5%ae%ae%e4%be%8b%e5%a4%a7%e7%a5%ad%e3%80%91",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 2024年10月15日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
     }
   ]
 }
