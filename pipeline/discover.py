@@ -24,6 +24,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import gc
 import html
 import re
 import sys
@@ -141,7 +142,11 @@ FEED_HINT = re.compile(r"rss|atom|feed", re.I)
 # 1自治体あたりの探索キューの上限。取得上限が決まっているので
 # これ以上抱えても使われない。並列数を掛けた分だけメモリを食うので
 # 控えめにする (このPCは実装容量6GB、空き数百MBで動かしている)。
-MAX_QUEUE = 5000
+# 取得上限が 40+15 ページなら、キューは数百で足りる。5000 は県レンズ (250ページ)
+# を想定した値だったが、家族共用の6GB機で空きが1GBを切る環境では、キューの
+# 大きさがそのまま OOM の起きやすさになる。落ちてもチェックポイントから再開できる
+# ので、深く抱えるより小さく回すほうが結果的に速い。
+MAX_QUEUE = 1200
 
 # 行政手続き系リンクの優先度。捨てるのではなく最後尾に回す。
 DEPRIORITIZED = 90
@@ -547,6 +552,9 @@ def main(argv: list[str] | None = None) -> int:
         # 10時間近くかかっていた。
         with ThreadPoolExecutor(max_workers=max(1, args.workers)) as pool:
             for site, recs in pool.map(crawl, targets):
+                # 1自治体ごとに掃除する。落ちる原因は自分の常駐ではなく
+                # 同居プロセスとの奪い合いなので、返せるものは即返す。
+                gc.collect()
                 for r in recs:
                     r.update(prefecture=site["prefecture"], municipality=site["municipality"])
                     # タブと改行はTSVを壊すので落とす

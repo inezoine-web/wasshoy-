@@ -128,7 +128,7 @@ def text_of(fragment: str) -> str:
 def clean_name(raw: str) -> str:
     n = CUT.sub("", raw).strip(" 　・:：|｜/／")
     # 一覧の行頭に付く記号・番号を落とす (「※浅川のささら」「1 舘獅子」)
-    n = re.sub(r"^[※＊*・□■○●◇◆▲△\-–—\d０-９.．)）]+\s*", "", n)
+    n = re.sub(r"^[※＊*・□■○●◇◆▲△\-–—\d０-９.．)）】」』]+\s*", "", n)
     # 行頭の注記括弧を落とす (「（国選択） 真家みたまおどり」)
     n = re.sub(r"^[（(][^）)]{1,8}[）)]\s*", "", n)
     n = re.sub(r"^(?:" + DESIGNATION + r")\s*", "", n)
