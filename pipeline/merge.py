@@ -106,6 +106,13 @@ def build_record(row: dict[str, str], accessed: str) -> dict:
     }
 
 
+PIPELINE_MARK = "のパイプライン (S1-S4) による収集"
+
+
+def is_pipeline_record(f: dict) -> bool:
+    return PIPELINE_MARK in (f.get("notes") or "")
+
+
 def check_consumers(records: list[dict]) -> list[str]:
     """消費側が落ちない形になっているかを書き込み前に確認する。"""
     problems = []
@@ -167,29 +174,38 @@ def main(argv: list[str] | None = None) -> int:
 
     data = json.loads(DATA.read_text(encoding="utf-8"))
     existing = data["festivals"]
-    removed = [f for f in existing if f["prefecture"] == args.prefecture]
-    kept = [f for f in existing if f["prefecture"] != args.prefecture]
+    # 手で書いたレコードは入れ替えの対象にしない。東京には精査済み22件
+    # (要約つき・verified) があり、--replace で県ごと消すと巻き込まれる。
+    # パイプライン由来かどうかは notes の定型文で見分ける。
+    curated = [f for f in existing
+               if f["prefecture"] == args.prefecture and not is_pipeline_record(f)]
+    removed = [f for f in existing
+               if f["prefecture"] == args.prefecture and is_pipeline_record(f)]
+    kept = [f for f in existing if f["prefecture"] != args.prefecture] + curated
+
+    # 既存行 (追記なら全部、入れ替えなら手書きの分) と ID・名称が重なるものは
+    # 足さない。クロール由来の「三社祭」を別IDで並べると同じ祭りが2枚になる。
+    from normalize import dedup_key  # 既存データは読まない側のモジュール
+    guard = existing if args.add else curated
+    have = {f["id"] for f in guard}
+    have_names = {
+        (f["prefecture"], dedup_key(n))
+        for f in guard for n in [f["name"], *f.get("aliases", [])]
+    }
+    before = len(new_rows)
+    new_rows = [r for r in new_rows if r["slug"] not in have]
+    by_id = before - len(new_rows)
+    new_rows = [r for r in new_rows
+                if (r["prefecture"], dedup_key(r["name"])) not in have_names]
+    if by_id or before != len(new_rows):
+        print(f"既存とのID重複 {by_id} 件・名称一致 {before - by_id - len(new_rows)} 件を除く")
+    if curated:
+        print(f"手で書いた {len(curated)} 件は入れ替えの対象外")
 
     if args.add:
-        # 追記: その県の既存行も残す。IDが既にあるものは足さない。
-        # 名称 (別名を含む) が同じ県の既存行と一致するものも足さない。
-        # 東京には手で精査した22件 (要約つき) があり、クロール由来の
-        # 「三社祭」を別IDで並べると同じ祭りが2枚になる。
-        from normalize import dedup_key  # 既存データは読まない側のモジュール
-        have = {f["id"] for f in existing}
-        have_names = {
-            (f["prefecture"], dedup_key(n))
-            for f in existing for n in [f["name"], *f.get("aliases", [])]
-        }
-        before = len(new_rows)
-        new_rows = [r for r in new_rows if r["slug"] not in have]
-        by_id = before - len(new_rows)
-        new_rows = [r for r in new_rows
-                    if (r["prefecture"], dedup_key(r["name"])) not in have_names]
         kept = existing
         removed = []
-        print(f"--add: 既存 {len(existing)} 件を残し、ID重複 {by_id} 件・名称一致 "
-              f"{before - by_id - len(new_rows)} 件を除いて {len(new_rows)} 件を足す")
+        print(f"--add: 既存 {len(existing)} 件を残し、{len(new_rows)} 件を足す")
     if removed and not args.replace:
         raise SystemExit(
             f"{args.prefecture} に既存 {len(removed)} 件がある。"
