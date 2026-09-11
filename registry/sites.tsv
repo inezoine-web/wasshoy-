@@ -247,6 +247,39 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 134015	東京都	八丈町	https://www.town.hachijo.tokyo.jp/	https://www.hachijo.gr.jp/	本文に自治体名を確認
 134023	東京都	青ヶ島村	https://www.vill.aogashima.tokyo.jp/		本文に自治体名を確認
 134210	東京都	小笠原村	https://www.vill.ogasawara.tokyo.jp/	http://www.visitogasawara.com/	本文に自治体名を確認
+141003	神奈川県	横浜市	https://www.city.yokohama.lg.jp/	https://www.welcome.city.yokohama.jp/	本文に自治体名を確認
+141305	神奈川県	川崎市	https://www.city.kawasaki.jp/	https://www.k-kankou.jp/	本文に自治体名を確認
+141500	神奈川県	相模原市	https://www.city.sagamihara.kanagawa.jp/		本文に自治体名を確認
+142018	神奈川県	横須賀市	https://www.city.yokosuka.kanagawa.jp/		本文に自治体名を確認
+142034	神奈川県	平塚市	https://www.city.hiratsuka.kanagawa.jp/		本文に自治体名を確認
+142042	神奈川県	鎌倉市	https://www.city.kamakura.kanagawa.jp/		本文に自治体名を確認
+142051	神奈川県	藤沢市	https://www.city.fujisawa.kanagawa.jp/	https://www.fujisawa-kanko.jp/	本文に自治体名を確認
+142069	神奈川県	小田原市	https://www.city.odawara.kanagawa.jp/	http://www.odawara-kankou.com/	本文に自治体名を確認
+142077	神奈川県	茅ヶ崎市	https://www.city.chigasaki.kanagawa.jp/	http://www.chigasaki-kankou.org/	本文に自治体名を確認
+142085	神奈川県	逗子市	https://www.city.zushi.kanagawa.jp/	https://www.pref.kanagawa.jp/	本文に自治体名を確認
+142107	神奈川県	三浦市	https://www.city.miura.kanagawa.jp/	https://miura-info.ne.jp/	本文に自治体名を確認
+142115	神奈川県	秦野市	https://www.city.hadano.kanagawa.jp/		本文に自治体名を確認
+142123	神奈川県	厚木市	https://www.city.atsugi.kanagawa.jp/	https://www.atsugi-kankou.jp/	本文に自治体名を確認
+142131	神奈川県	大和市	https://www.city.yamato.lg.jp/		本文に自治体名を確認
+142140	神奈川県	伊勢原市	https://www.city.isehara.kanagawa.jp/	https://isehara-kanko.com/	本文に自治体名を確認
+142158	神奈川県	海老名市	https://www.city.ebina.kanagawa.jp/	http://ebina-kankou.com/	本文に自治体名を確認
+142166	神奈川県	座間市	https://www.city.zama.kanagawa.jp/		本文に自治体名を確認
+142174	神奈川県	南足柄市	https://www.city.minamiashigara.kanagawa.jp/	https://mcity-kankokyokai.com/	本文に自治体名を確認
+142182	神奈川県	綾瀬市	https://www.city.ayase.kanagawa.jp/		本文に自治体名を確認
+143014	神奈川県	葉山町	https://www.town.hayama.lg.jp/		本文に自治体名を確認
+143219	神奈川県	寒川町	https://www.town.samukawa.kanagawa.jp/	https://www.samukawa-kankou.jp/	本文に自治体名を確認
+143413	神奈川県	大磯町	https://www.town.oiso.kanagawa.jp/		本文に自治体名を確認
+143421	神奈川県	二宮町	https://www.town.ninomiya.kanagawa.jp/	https://shonan-ninomiya-kankou.com/	本文に自治体名を確認
+143618	神奈川県	中井町	https://www.town.nakai.kanagawa.jp/		本文に自治体名を確認
+143626	神奈川県	大井町	https://www.town.oi.kanagawa.jp/		本文に自治体名を確認
+143634	神奈川県	松田町	https://town.matsuda.kanagawa.jp/	https://ashigara-local.jp/	本文に自治体名を確認
+143642	神奈川県	山北町	https://www.town.yamakita.kanagawa.jp/	http://www.yamakita.net/	本文に自治体名を確認
+143669	神奈川県	開成町	https://www.town.kaisei.kanagawa.jp/		本文に自治体名を確認
+143821	神奈川県	箱根町	https://www.town.hakone.kanagawa.jp/	http://www.hakone.or.jp/	本文に自治体名を確認
+143839	神奈川県	真鶴町	https://www.town.manazuru.kanagawa.jp/	http://www.manazuru.net/	本文に自治体名を確認
+143847	神奈川県	湯河原町	https://www.town.yugawara.kanagawa.jp/		本文に自治体名を確認
+144011	神奈川県	愛川町	https://www.town.aikawa.kanagawa.jp/		本文に自治体名を確認
+144029	神奈川県	清川村			候補URLがすべて外れ
 221007	静岡県	静岡市	https://www.city.shizuoka.lg.jp/	https://www.visit-shizuoka.com/	本文に自治体名を確認
 221309	静岡県	浜松市	https://www.city.hamamatsu.shizuoka.jp/	http://hamamatsu-daisuki.net/	本文に自治体名を確認
 222038	静岡県	沼津市	https://www.city.numazu.shizuoka.jp/	https://numazukanko.jp/	本文に自治体名を確認
