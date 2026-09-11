@@ -6,17 +6,17 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 082058	茨城県	石岡市	https://www.city.ishioka.lg.jp/	https://www.ishioka-kankou.com/	本文に自治体名を確認
 082074	茨城県	結城市	https://www.city.yuki.lg.jp/	http://yuki-kankou.com/	本文に自治体名を確認
 082082	茨城県	龍ケ崎市	https://www.city.ryugasaki.ibaraki.jp/		本文に自治体名を確認
-082104	茨城県	下妻市	https://www.city.shimotsuma.lg.jp/		本文に自治体名を確認
+082104	茨城県	下妻市	https://www.city.shimotsuma.lg.jp/	https://www.shimotsuma-kankou.jp/	本文に自治体名を確認
 082112	茨城県	常総市	https://www.city.joso.lg.jp/	https://www.joso-kankou.com/	本文に自治体名を確認
 082121	茨城県	常陸太田市	https://www.city.hitachiota.ibaraki.jp/	https://www.kanko-hitachiota.com/	本文に自治体名を確認
 082147	茨城県	高萩市	https://www.city.takahagi.ibaraki.jp/	https://www.takahagi-kanko.jp/	本文に自治体名を確認
 082155	茨城県	北茨城市	https://www.city.kitaibaraki.lg.jp/	http://www.kitaibarakishi-kankokyokai.gr.jp/	本文に自治体名を確認
 082163	茨城県	笠間市	https://www.city.kasama.lg.jp/	https://www.kasama-kankou.jp/	本文に自治体名を確認
 082171	茨城県	取手市	https://www.city.toride.ibaraki.jp/	http://www.toride-kankou.net/	本文に自治体名を確認
-082198	茨城県	牛久市	https://www.city.ushiku.lg.jp/		本文に自治体名を確認
+082198	茨城県	牛久市	https://www.city.ushiku.lg.jp/	https://www.ushikukankou.com/	本文に自治体名を確認
 082201	茨城県	つくば市	https://www.city.tsukuba.lg.jp/	https://ttca.jp/	本文に自治体名を確認
 082210	茨城県	ひたちなか市	https://www.city.hitachinaka.lg.jp/	http://www.hitachinaka-sa.com/	本文に自治体名を確認
-082228	茨城県	鹿嶋市	https://www.city.kashima.ibaraki.jp/		本文に自治体名を確認
+082228	茨城県	鹿嶋市	https://www.city.kashima.ibaraki.jp/	https://www.kashima-kanko.com/	本文に自治体名を確認
 082236	茨城県	潮来市	https://www.city.itako.lg.jp/		本文に自治体名を確認
 082244	茨城県	守谷市	https://www.city.moriya.ibaraki.jp/		本文に自治体名を確認
 082252	茨城県	常陸大宮市	https://www.city.hitachiomiya.lg.jp/		本文に自治体名を確認
@@ -26,7 +26,7 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 082295	茨城県	稲敷市	https://www.city.inashiki.lg.jp/		本文に自治体名を確認
 082309	茨城県	かすみがうら市	https://www.city.kasumigaura.lg.jp/	http://www.kasumigaura-kankou.jp/	本文に自治体名を確認
 082317	茨城県	桜川市	https://www.city.sakuragawa.lg.jp/	http://www.kankou-sakuragawa.jp/	本文に自治体名を確認
-082325	茨城県	神栖市	https://www.city.kamisu.ibaraki.jp/		本文に自治体名を確認
+082325	茨城県	神栖市	https://www.city.kamisu.ibaraki.jp/	https://www.kamisu-kanko.jp/	本文に自治体名を確認
 082333	茨城県	行方市	https://www.city.namegata.ibaraki.jp/		本文に自治体名を確認
 082341	茨城県	鉾田市	https://www.city.hokota.lg.jp/	https://hokota-tpa.org/	本文に自治体名を確認
 082350	茨城県	つくばみらい市	https://www.city.tsukubamirai.lg.jp/	http://mirai-kankou.com/	本文に自治体名を確認
@@ -39,17 +39,17 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 084425	茨城県	美浦村	https://www.vill.miho.lg.jp/		本文に自治体名を確認
 084433	茨城県	阿見町	https://www.town.ami.lg.jp/	http://www.amikan.jp/	本文に自治体名を確認
 084476	茨城県	河内町	https://www.town.ibaraki-kawachi.lg.jp/		本文に自治体名を確認
-085219	茨城県	八千代町	https://www.town.ibaraki-yachiyo.lg.jp/		本文に自治体名を確認
+085219	茨城県	八千代町	https://www.town.ibaraki-yachiyo.lg.jp/		本文に自治体名を確認 / 観光協会の推定は再検証で外した
 085421	茨城県	五霞町	https://www.town.goka.lg.jp/		本文に自治体名を確認
 085464	茨城県	境町	https://www.town.ibaraki-sakai.lg.jp/		本文に自治体名を確認
-085642	茨城県	利根町	https://www.town.tone.ibaraki.jp/		本文に自治体名を確認
+085642	茨城県	利根町	https://www.town.tone.ibaraki.jp/		本文に自治体名を確認 / 観光協会の推定は再検証で外した
 092011	栃木県	宇都宮市	https://www.city.utsunomiya.lg.jp/	https://www.utsunomiya-kankou.com/	本文に自治体名を確認
 092029	栃木県	足利市	https://www.city.ashikaga.tochigi.jp/	https://www.ashikaga-kankou.jp/	本文に自治体名を確認
 092037	栃木県	栃木市	https://www.city.tochigi.lg.jp/	https://www.tochigi-kankou.or.jp/	本文に自治体名を確認
 092045	栃木県	佐野市	https://www.city.sano.lg.jp/	http://sano-kankokk.jp/	本文に自治体名を確認
 092053	栃木県	鹿沼市	https://www.city.kanuma.tochigi.jp/	https://kanuma-kanko.jp/	本文に自治体名を確認
 092061	栃木県	日光市	https://www.city.nikko.lg.jp/	https://www.nikko-kankou.org/	本文に自治体名を確認
-092088	栃木県	小山市	https://www.city.oyama.tochigi.jp/	https://www.kanko-oyama.jp/	本文に自治体名を確認
+092088	栃木県	小山市	https://www.city.oyama.tochigi.jp/		本文に自治体名を確認 / kanko-oyama.jp は静岡県小山町の観光協会だった
 092096	栃木県	真岡市	https://www.city.moka.lg.jp/	https://www.moka-kankou.org/	本文に自治体名を確認
 092100	栃木県	大田原市			候補URLがすべて外れ
 092118	栃木県	矢板市	https://www.city.yaita.tochigi.jp/	http://www.yaita-kankou.com/	本文に自治体名を確認
@@ -78,24 +78,24 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 112097	埼玉県	飯能市	https://www.city.hanno.lg.jp/	https://hanno-tourism.jp/	本文に自治体名を確認
 112101	埼玉県	加須市	https://www.city.kazo.lg.jp/	https://www.kazo-tourism.or.jp/	本文に自治体名を確認
 112119	埼玉県	本庄市			候補URLがすべて外れ
-112127	埼玉県	東松山市	https://www.city.higashimatsuyama.lg.jp/		本文に自治体名を確認
+112127	埼玉県	東松山市	https://www.city.higashimatsuyama.lg.jp/	https://www.higashimatsuyama-kanko.com/	本文に自治体名を確認
 112143	埼玉県	春日部市	https://www.city.kasukabe.lg.jp/		本文に自治体名を確認
-112151	埼玉県	狭山市	https://www.city.sayama.saitama.jp/		本文に自治体名を確認
+112151	埼玉県	狭山市	https://www.city.sayama.saitama.jp/	https://www.sayama-kanko.jp/	本文に自治体名を確認
 112160	埼玉県	羽生市	https://www.city.hanyu.lg.jp/	http://hanyu-kanko.jp/	本文に自治体名を確認
-112178	埼玉県	鴻巣市			候補URLがすべて外れ
+112178	埼玉県	鴻巣市		https://www.konosu-kanko.jp/	候補URLがすべて外れ
 112186	埼玉県	深谷市	https://www.city.fukaya.saitama.jp/	http://www.fukaya-ta.com/	本文に自治体名を確認
-112194	埼玉県	上尾市	https://www.city.ageo.lg.jp/		本文に自治体名を確認
+112194	埼玉県	上尾市	https://www.city.ageo.lg.jp/	https://www.ageo-kankou.com/	本文に自治体名を確認
 112216	埼玉県	草加市	https://www.city.soka.saitama.jp/		本文に自治体名を確認
 112224	埼玉県	越谷市	https://www.city.koshigaya.saitama.jp/	https://www.koshigaya-sightseeing.jp/	本文に自治体名を確認
 112232	埼玉県	蕨市	https://www.city.warabi.saitama.jp/		本文に自治体名を確認
 112241	埼玉県	戸田市	https://www.city.toda.saitama.jp/		本文に自治体名を確認
-112259	埼玉県	入間市	https://www.city.iruma.saitama.jp/		本文に自治体名を確認
+112259	埼玉県	入間市	https://www.city.iruma.saitama.jp/	https://www.iruma-kanko.jp/	本文に自治体名を確認
 112275	埼玉県	朝霞市	https://www.city.asaka.lg.jp/		本文に自治体名を確認
-112283	埼玉県	志木市	https://www.city.shiki.lg.jp/		本文に自治体名を確認
-112291	埼玉県	和光市	https://www.city.wako.lg.jp/		本文に自治体名を確認
+112283	埼玉県	志木市	https://www.city.shiki.lg.jp/	https://www.kanko-shiki.com/	本文に自治体名を確認
+112291	埼玉県	和光市	https://www.city.wako.lg.jp/	https://www.wakokanko.com/	本文に自治体名を確認
 112305	埼玉県	新座市	https://www.city.niiza.lg.jp/		本文に自治体名を確認
 112313	埼玉県	桶川市	https://www.city.okegawa.lg.jp/	http://www.okekan.com/	本文に自治体名を確認
-112321	埼玉県	久喜市	https://www.city.kuki.lg.jp/		本文に自治体名を確認
+112321	埼玉県	久喜市	https://www.city.kuki.lg.jp/	https://www.kuki-kanko.jp/	本文に自治体名を確認
 112330	埼玉県	北本市	https://www.city.kitamoto.lg.jp/		本文に自治体名を確認
 112348	埼玉県	八潮市	https://www.city.yashio.lg.jp/	https://www.yashio-kankouji.org/	本文に自治体名を確認
 112356	埼玉県	富士見市	https://www.city.fujimi.saitama.jp/		本文に自治体名を確認
@@ -106,19 +106,19 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 112411	埼玉県	鶴ヶ島市	https://www.city.tsurugashima.lg.jp/		本文に自治体名を確認
 112429	埼玉県	日高市	https://www.city.hidaka.lg.jp/		本文に自治体名を確認
 112437	埼玉県	吉川市	https://www.city.yoshikawa.saitama.jp/		本文に自治体名を確認
-112453	埼玉県	ふじみ野市	https://www.city.fujimino.saitama.jp/		本文に自治体名を確認
+112453	埼玉県	ふじみ野市	https://www.city.fujimino.saitama.jp/	https://www.fujiminokanko.jp/	本文に自治体名を確認
 112461	埼玉県	白岡市	https://www.city.shiraoka.lg.jp/	http://www.diamond-kanko.jp/	本文に自治体名を確認
 113018	埼玉県	伊奈町	https://www.town.saitama-ina.lg.jp/	https://inakanko.com/	本文に自治体名を確認
 113247	埼玉県	三芳町	https://www.town.saitama-miyoshi.lg.jp/		本文に自治体名を確認
 113263	埼玉県	毛呂山町	https://www.town.moroyama.saitama.jp/	https://moroyama-kanko.jp/	本文に自治体名を確認
 113271	埼玉県	越生町	https://www.town.ogose.saitama.jp/	https://ogose-kanko.jp/	本文に自治体名を確認
-113417	埼玉県	滑川町	https://www.town.namegawa.saitama.jp/		本文に自治体名を確認
+113417	埼玉県	滑川町	https://www.town.namegawa.saitama.jp/	http://www.namegawa-kanko.jp/	本文に自治体名を確認
 113425	埼玉県	嵐山町	https://www.town.ranzan.saitama.jp/	https://www.ranzan-kanko.jp/	本文に自治体名を確認
-113433	埼玉県	小川町	https://www.town.ogawa.saitama.jp/		本文に自治体名を確認
+113433	埼玉県	小川町	https://www.town.ogawa.saitama.jp/	https://www.kankou-ogawa.com/	本文に自治体名を確認
 113468	埼玉県	川島町	https://www.town.kawajima.saitama.jp/		本文に自治体名を確認
 113476	埼玉県	吉見町	https://www.town.yoshimi.saitama.jp/		本文に自治体名を確認
 113484	埼玉県	鳩山町	https://www.town.hatoyama.saitama.jp/		本文に自治体名を確認
-113492	埼玉県	ときがわ町	https://www.town.tokigawa.lg.jp/		本文に自治体名を確認
+113492	埼玉県	ときがわ町	https://www.town.tokigawa.lg.jp/	https://www.tokigawa-kankou.com/	本文に自治体名を確認
 113611	埼玉県	横瀬町	https://www.town.yokoze.saitama.jp/		本文に自治体名を確認
 113620	埼玉県	皆野町	https://www.town.minano.saitama.jp/	https://www.minano.gr.jp/	本文に自治体名を確認
 113638	埼玉県	長瀞町	https://www.town.nagatoro.saitama.jp/	https://www.nagatoro.gr.jp/	本文に自治体名を確認
@@ -127,13 +127,13 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 113816	埼玉県	美里町	https://www.town.saitama-misato.lg.jp/	https://www.misato-kanko.com/	本文に自治体名を確認
 113832	埼玉県	神川町	https://www.town.kamikawa.saitama.jp/	http://www.kamikawa-kanko.com/	本文に自治体名を確認
 113859	埼玉県	上里町	https://www.town.kamisato.saitama.jp/	http://www.nihon-kankou.or.jp/	本文に自治体名を確認
-114081	埼玉県	寄居町	https://www.town.yorii.saitama.jp/		本文に自治体名を確認
+114081	埼玉県	寄居町	https://www.town.yorii.saitama.jp/	https://www.yorii-kanko.jp/	本文に自治体名を確認
 114421	埼玉県	宮代町	https://www.town.miyashiro.lg.jp/		本文に自治体名を確認
-114642	埼玉県	杉戸町	https://www.town.sugito.lg.jp/		本文に自治体名を確認
+114642	埼玉県	杉戸町	https://www.town.sugito.lg.jp/	https://www.kankou-sugito.jp/	本文に自治体名を確認
 114651	埼玉県	松伏町	https://www.town.matsubushi.lg.jp/		本文に自治体名を確認
 121002	千葉県	千葉市	https://www.city.chiba.jp/	http://www.chibacity-ta.or.jp/	本文に自治体名を確認
 122025	千葉県	銚子市	https://www.city.choshi.chiba.jp/	https://www.choshikanko.com/	本文に自治体名を確認
-122033	千葉県	市川市	https://www.city.ichikawa.lg.jp/		本文に自治体名を確認
+122033	千葉県	市川市	https://www.city.ichikawa.lg.jp/	https://www.ichikawa-kankou.jp/	本文に自治体名を確認
 122041	千葉県	船橋市	https://www.city.funabashi.lg.jp/		本文に自治体名を確認
 122050	千葉県	館山市	https://www.city.tateyama.chiba.jp/	http://tateyamacity.com/	本文に自治体名を確認
 122068	千葉県	木更津市	https://www.city.kisarazu.lg.jp/	https://www.kisarazu.gr.jp/	本文に自治体名を確認
@@ -145,29 +145,29 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 122131	千葉県	東金市	https://www.city.togane.chiba.jp/	https://www.toganekanko.jp/	本文に自治体名を確認
 122157	千葉県	旭市	https://www.city.asahi.lg.jp/	http://asahicity-kanko.jp/	本文に自治体名を確認
 122165	千葉県	習志野市	https://www.city.narashino.lg.jp/		本文に自治体名を確認
-122173	千葉県	柏市	https://www.city.kashiwa.lg.jp/		本文に自治体名を確認
+122173	千葉県	柏市	https://www.city.kashiwa.lg.jp/	https://www.kashiwakanko.com/	本文に自治体名を確認
 122181	千葉県	勝浦市	https://www.city.katsuura.lg.jp/	https://www.katsuura-kankou.net /	本文に自治体名を確認
 122190	千葉県	市原市	https://www.city.ichihara.chiba.jp/		本文に自治体名を確認
-122203	千葉県	流山市	https://www.city.nagareyama.chiba.jp/		本文に自治体名を確認
-122211	千葉県	八千代市	https://www.city.yachiyo.lg.jp/		本文に自治体名を確認
+122203	千葉県	流山市	https://www.city.nagareyama.chiba.jp/	https://www.nagareyamakankou.com/	本文に自治体名を確認
+122211	千葉県	八千代市	https://www.city.yachiyo.lg.jp/	https://www.yachiyo-kankou.com/	本文に自治体名を確認
 122220	千葉県	我孫子市	https://www.city.abiko.chiba.jp/	https://visit.city.abiko.chiba.jp/	本文に自治体名を確認
 122238	千葉県	鴨川市	https://www.city.kamogawa.lg.jp/		本文に自治体名を確認
 122246	千葉県	鎌ケ谷市	https://www.city.kamagaya.chiba.jp/		本文に自治体名を確認
-122254	千葉県	君津市	https://www.city.kimitsu.lg.jp/		本文に自治体名を確認
+122254	千葉県	君津市	https://www.city.kimitsu.lg.jp/	https://www.kimitsu-kankou.com/	本文に自治体名を確認
 122262	千葉県	富津市	https://www.city.futtsu.lg.jp/	https://www.futtsu-kanko.info/	本文に自治体名を確認
 122271	千葉県	浦安市	https://www.city.urayasu.lg.jp/	http://www.urayasu-kankou.jp/	本文に自治体名を確認
 122289	千葉県	四街道市	https://www.city.yotsukaido.chiba.jp/		本文に自治体名を確認
 122297	千葉県	袖ケ浦市	https://www.city.sodegaura.lg.jp/	https://sodegaurakanko.org/	本文に自治体名を確認
 122301	千葉県	八街市	https://www.city.yachimata.lg.jp/		本文に自治体名を確認
-122319	千葉県	印西市	https://www.city.inzai.lg.jp/		本文に自治体名を確認
+122319	千葉県	印西市	https://www.city.inzai.lg.jp/	https://www.inzai-kankou.jp/	本文に自治体名を確認
 122327	千葉県	白井市	https://www.city.shiroi.chiba.jp/		本文に自治体名を確認
 122335	千葉県	富里市	https://www.city.tomisato.lg.jp/		本文に自治体名を確認
 122343	千葉県	南房総市	https://www.city.minamiboso.chiba.jp/	https://www.cm-boso.com/	本文に自治体名を確認
 122351	千葉県	匝瑳市	https://www.city.sosa.lg.jp/	https://sosa-kanko.com/	本文に自治体名を確認
 122360	千葉県	香取市	https://www.city.katori.lg.jp/		本文に自治体名を確認
-122378	千葉県	山武市	https://www.city.sammu.lg.jp/		本文に自治体名を確認
-122386	千葉県	いすみ市	https://www.city.isumi.lg.jp/		本文に自治体名を確認
-122394	千葉県	大網白里市シ			候補URLがすべて外れ
+122378	千葉県	山武市	https://www.city.sammu.lg.jp/	https://www.sammukanko.jp/	本文に自治体名を確認
+122386	千葉県	いすみ市	https://www.city.isumi.lg.jp/	https://www.isumi-kankou.com/	本文に自治体名を確認
+122394	千葉県	大網白里市	https://www.city.oamishirasato.lg.jp/	https://www.oamishirasato-kanko.net/	本文に自治体名を確認
 123226	千葉県	酒々井町	https://www.town.shisui.chiba.jp/		本文に自治体名を確認
 123293	千葉県	栄町	https://www.town.sakae.chiba.jp/		本文に自治体名を確認
 123421	千葉県	神崎町	https://www.town.kozaki.chiba.jp/		本文に自治体名を確認
@@ -175,7 +175,7 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 123498	千葉県	東庄町	https://www.town.tohnosho.chiba.jp/	http://www.tohnosho-kanko.jp/	県公式サイトのリンク集から (本文に自治体名を確認)
 124036	千葉県	九十九里町	https://www.town.kujukuri.chiba.jp/	https://99kankou.com/	県公式サイトのリンク集から (本文に自治体名を確認)
 124095	千葉県	芝山町	https://www.town.shibayama.lg.jp/	https://skypark.shibayama-kankou.com/	本文に自治体名を確認
-124109	千葉県	横芝光町	https://www.town.yokoshibahikari.chiba.jp/		本文に自治体名を確認
+124109	千葉県	横芝光町	https://www.town.yokoshibahikari.chiba.jp/	https://www.yokoshibahikari-kankou.com/	本文に自治体名を確認
 124214	千葉県	一宮町	https://www.town.ichinomiya.chiba.jp/	https://ichinomiya.org/	本文に自治体名を確認
 124222	千葉県	睦沢町	https://www.town.mutsuzawa.chiba.jp/		本文に自治体名を確認
 124231	千葉県	長生村	https://www.vill.chosei.chiba.jp/		本文に自治体名を確認
@@ -185,7 +185,7 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 124419	千葉県	大多喜町	https://www.town.otaki.chiba.jp/	http://kankouotaki.com/	本文に自治体名を確認
 124435	千葉県	御宿町	https://www.town.onjuku.chiba.jp/	https://onjuku-kankou.com/	県公式サイトのリンク集から (本文に自治体名を確認)
 124630	千葉県	鋸南町	https://www.town.kyonan.chiba.jp/		本文に自治体名を確認
-131016	東京都	千代田区	https://www.city.chiyoda.lg.jp/		本文に自治体名を確認
+131016	東京都	千代田区	https://www.city.chiyoda.lg.jp/	http://www.kanko-chiyoda.jp/	本文に自治体名を確認
 131024	東京都	中央区	https://www.city.chuo.lg.jp/	https://www.chuo-kanko.or.jp/	本文に自治体名を確認
 131032	東京都	港区	https://www.city.minato.tokyo.jp/		本文に自治体名を確認
 131041	東京都	新宿区	https://www.city.shinjuku.lg.jp/	https://www.kanko-shinjuku.jp/	本文に自治体名を確認
@@ -198,7 +198,7 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 131113	東京都	大田区	https://www.city.ota.tokyo.jp/		本文に自治体名を確認
 131121	東京都	世田谷区	https://www.city.setagaya.lg.jp/	https://www.kanko-setagaya.jp/	本文に自治体名を確認
 131130	東京都	渋谷区	https://www.city.shibuya.tokyo.jp/		本文に自治体名を確認
-131148	東京都	中野区	https://www.city.tokyo-nakano.lg.jp/		本文に自治体名を確認
+131148	東京都	中野区	https://www.city.tokyo-nakano.lg.jp/	https://www.nakano-kanko.com/	本文に自治体名を確認
 131156	東京都	杉並区	https://www.city.suginami.tokyo.jp/		本文に自治体名を確認
 131164	東京都	豊島区	https://www.city.toshima.lg.jp/	https://www.gotokyo.org/	本文に自治体名を確認
 131172	東京都	北区	https://www.city.kita.lg.jp/	http://prkita.jp/	本文に自治体名を確認
@@ -214,8 +214,8 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 132047	東京都	三鷹市	https://www.city.mitaka.lg.jp/	http://kanko.mitaka.ne.jp/	本文に自治体名を確認
 132055	東京都	青梅市	https://www.city.ome.tokyo.jp/	https://www.omekanko.gr.jp/	本文に自治体名を確認
 132063	東京都	府中市	https://www.city.fuchu.tokyo.jp/	https://www.kankou-fuchu.com/	本文に自治体名を確認
-132071	東京都	昭島市	https://www.city.akishima.lg.jp/		本文に自治体名を確認
-132080	東京都	調布市	https://www.city.chofu.lg.jp/		本文に自治体名を確認
+132071	東京都	昭島市	https://www.city.akishima.lg.jp/	https://www.akishima-kanko.org/	本文に自治体名を確認
+132080	東京都	調布市	https://www.city.chofu.lg.jp/	https://www.chofu-kanko.jp/	本文に自治体名を確認
 132098	東京都	町田市	https://www.city.machida.tokyo.jp/		本文に自治体名を確認
 132101	東京都	小金井市	https://www.city.koganei.lg.jp/	https://koganei-kanko.jp/	本文に自治体名を確認
 132110	東京都	小平市	https://www.city.kodaira.tokyo.jp/	https://kodaira-tourism.com/	本文に自治体名を確認
@@ -223,14 +223,14 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 132136	東京都	東村山市			候補URLがすべて外れ
 132144	東京都	国分寺市	https://www.city.kokubunji.tokyo.jp/		本文に自治体名を確認
 132152	東京都	国立市	https://www.city.kunitachi.tokyo.jp/	https://kunimachi.jp/	本文に自治体名を確認
-132187	東京都	福生市	https://www.city.fussa.tokyo.jp/		本文に自治体名を確認
+132187	東京都	福生市	https://www.city.fussa.tokyo.jp/	https://www.fussakanko.jp/	本文に自治体名を確認
 132195	東京都	狛江市	https://www.city.komae.tokyo.jp/	http://komae-kankou.jp/	本文に自治体名を確認
 132209	東京都	東大和市	https://www.city.higashiyamato.lg.jp/		本文に自治体名を確認
 132217	東京都	清瀬市	https://www.city.kiyose.lg.jp/	https://www.kiyosekanko.tokyo/	本文に自治体名を確認
 132225	東京都	東久留米市	https://www.city.higashikurume.lg.jp/		本文に自治体名を確認
 132233	東京都	武蔵村山市	https://www.city.musashimurayama.lg.jp/		本文に自治体名を確認
 132241	東京都	多摩市	https://www.city.tama.lg.jp/		本文に自治体名を確認
-132250	東京都	稲城市	https://www.city.inagi.tokyo.jp/		本文に自治体名を確認
+132250	東京都	稲城市	https://www.city.inagi.tokyo.jp/	https://inagi-kanko.jp/	本文に自治体名を確認
 132276	東京都	羽村市	https://www.city.hamura.tokyo.jp/	http://hamura-kankou.org/	本文に自治体名を確認
 132284	東京都	あきる野市	https://www.city.akiruno.tokyo.jp/	https://www.akirunokanko.com/	本文に自治体名を確認
 132292	東京都	西東京市	https://www.city.nishitokyo.lg.jp/		本文に自治体名を確認
@@ -249,28 +249,28 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 134210	東京都	小笠原村	https://www.vill.ogasawara.tokyo.jp/	http://www.visitogasawara.com/	本文に自治体名を確認
 141003	神奈川県	横浜市	https://www.city.yokohama.lg.jp/	https://www.welcome.city.yokohama.jp/	本文に自治体名を確認
 141305	神奈川県	川崎市	https://www.city.kawasaki.jp/	https://www.k-kankou.jp/	本文に自治体名を確認
-141500	神奈川県	相模原市	https://www.city.sagamihara.kanagawa.jp/		本文に自治体名を確認
-142018	神奈川県	横須賀市	https://www.city.yokosuka.kanagawa.jp/		本文に自治体名を確認
-142034	神奈川県	平塚市	https://www.city.hiratsuka.kanagawa.jp/		本文に自治体名を確認
+141500	神奈川県	相模原市	https://www.city.sagamihara.kanagawa.jp/	https://www.sagamihara-kanko.com/	本文に自治体名を確認
+142018	神奈川県	横須賀市	https://www.city.yokosuka.kanagawa.jp/	https://www.yokosuka-kanko.com/	本文に自治体名を確認
+142034	神奈川県	平塚市	https://www.city.hiratsuka.kanagawa.jp/	https://www.hiratsuka-kankou.com/	本文に自治体名を確認
 142042	神奈川県	鎌倉市	https://www.city.kamakura.kanagawa.jp/		本文に自治体名を確認
 142051	神奈川県	藤沢市	https://www.city.fujisawa.kanagawa.jp/	https://www.fujisawa-kanko.jp/	本文に自治体名を確認
 142069	神奈川県	小田原市	https://www.city.odawara.kanagawa.jp/	http://www.odawara-kankou.com/	本文に自治体名を確認
 142077	神奈川県	茅ヶ崎市	https://www.city.chigasaki.kanagawa.jp/	http://www.chigasaki-kankou.org/	本文に自治体名を確認
 142085	神奈川県	逗子市	https://www.city.zushi.kanagawa.jp/	https://www.pref.kanagawa.jp/	本文に自治体名を確認
 142107	神奈川県	三浦市	https://www.city.miura.kanagawa.jp/	https://miura-info.ne.jp/	本文に自治体名を確認
-142115	神奈川県	秦野市	https://www.city.hadano.kanagawa.jp/		本文に自治体名を確認
+142115	神奈川県	秦野市	https://www.city.hadano.kanagawa.jp/	https://www.kankou-hadano.jp/	本文に自治体名を確認
 142123	神奈川県	厚木市	https://www.city.atsugi.kanagawa.jp/	https://www.atsugi-kankou.jp/	本文に自治体名を確認
-142131	神奈川県	大和市	https://www.city.yamato.lg.jp/		本文に自治体名を確認
+142131	神奈川県	大和市	https://www.city.yamato.lg.jp/	https://www.yamato-kankou.com/	本文に自治体名を確認
 142140	神奈川県	伊勢原市	https://www.city.isehara.kanagawa.jp/	https://isehara-kanko.com/	本文に自治体名を確認
 142158	神奈川県	海老名市	https://www.city.ebina.kanagawa.jp/	http://ebina-kankou.com/	本文に自治体名を確認
-142166	神奈川県	座間市	https://www.city.zama.kanagawa.jp/		本文に自治体名を確認
+142166	神奈川県	座間市	https://www.city.zama.kanagawa.jp/	https://www.zama-kankou.jp/	本文に自治体名を確認
 142174	神奈川県	南足柄市	https://www.city.minamiashigara.kanagawa.jp/	https://mcity-kankokyokai.com/	本文に自治体名を確認
 142182	神奈川県	綾瀬市	https://www.city.ayase.kanagawa.jp/		本文に自治体名を確認
-143014	神奈川県	葉山町	https://www.town.hayama.lg.jp/		本文に自治体名を確認
+143014	神奈川県	葉山町	https://www.town.hayama.lg.jp/	https://www.hayama-kankou.jp/	本文に自治体名を確認
 143219	神奈川県	寒川町	https://www.town.samukawa.kanagawa.jp/	https://www.samukawa-kankou.jp/	本文に自治体名を確認
 143413	神奈川県	大磯町	https://www.town.oiso.kanagawa.jp/		本文に自治体名を確認
 143421	神奈川県	二宮町	https://www.town.ninomiya.kanagawa.jp/	https://shonan-ninomiya-kankou.com/	本文に自治体名を確認
-143618	神奈川県	中井町	https://www.town.nakai.kanagawa.jp/		本文に自治体名を確認
+143618	神奈川県	中井町	https://www.town.nakai.kanagawa.jp/		本文に自治体名を確認 / 観光協会の推定は再検証で外した
 143626	神奈川県	大井町	https://www.town.oi.kanagawa.jp/		本文に自治体名を確認
 143634	神奈川県	松田町	https://town.matsuda.kanagawa.jp/	https://ashigara-local.jp/	本文に自治体名を確認
 143642	神奈川県	山北町	https://www.town.yamakita.kanagawa.jp/	http://www.yamakita.net/	本文に自治体名を確認
@@ -284,7 +284,7 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 221309	静岡県	浜松市	https://www.city.hamamatsu.shizuoka.jp/	http://hamamatsu-daisuki.net/	本文に自治体名を確認
 222038	静岡県	沼津市	https://www.city.numazu.shizuoka.jp/	https://numazukanko.jp/	本文に自治体名を確認
 222054	静岡県	熱海市	https://www.city.atami.lg.jp/	http://www.ataminews.gr.jp/	本文に自治体名を確認
-222062	静岡県	三島市	https://www.city.mishima.shizuoka.jp/		本文に自治体名を確認
+222062	静岡県	三島市	https://www.city.mishima.shizuoka.jp/	https://www.mishima-kankou.com/	本文に自治体名を確認
 222071	静岡県	富士宮市	https://www.city.fujinomiya.lg.jp/		本文に自治体名を確認
 222089	静岡県	伊東市	https://www.city.ito.shizuoka.jp/	https://itospa.com/	本文に自治体名を確認
 222097	静岡県	島田市	https://www.city.shimada.shizuoka.jp/	https://oi-river-trip.com/	本文に自治体名を確認
@@ -309,9 +309,9 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 223051	静岡県	松崎町	https://www.town.matsuzaki.shizuoka.jp/	https://izumatsuzakinet.com/	本文に自治体名を確認
 223069	静岡県	西伊豆町	https://www.town.nishiizu.shizuoka.jp/	https://www.nishiizu-kankou.com/	本文に自治体名を確認
 223255	静岡県	函南町	https://www.town.kannami.shizuoka.jp/		本文に自治体名を確認
-223417	静岡県	清水町	https://www.town.shimizu.shizuoka.jp/		本文に自治体名を確認
-223425	静岡県	長泉町	https://www.town.nagaizumi.lg.jp/		本文に自治体名を確認
-223441	静岡県	小山町	http://www.fuji-oyama.jp/		県公式サイトのリンク集から (本文に自治体名を確認)
+223417	静岡県	清水町	https://www.town.shimizu.shizuoka.jp/	https://shimizu-kankou.jp/	本文に自治体名を確認
+223425	静岡県	長泉町	https://www.town.nagaizumi.lg.jp/	https://www.kanko-nagaizumi.com/	本文に自治体名を確認
+223441	静岡県	小山町	http://www.fuji-oyama.jp/	https://www.kanko-oyama.jp/	県公式サイトのリンク集から (本文に自治体名を確認)
 224243	静岡県	吉田町	https://www.town.yoshida.shizuoka.jp/		本文に自治体名を確認
 224294	静岡県	川根本町	https://www.town.kawanehon.shizuoka.jp/	https://www.okuooi.gr.jp/	本文に自治体名を確認
 224618	静岡県	森町	https://www.town.morimachi.shizuoka.jp/	https://www.mori-kanko.jp/	本文に自治体名を確認
@@ -333,16 +333,16 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 232157	愛知県	犬山市	https://www.city.inuyama.aichi.jp/		本文に自治体名を確認
 232165	愛知県	常滑市	https://www.city.tokoname.aichi.jp/	https://www.tokoname-kankou.net/	本文に自治体名を確認
 232173	愛知県	江南市	https://www.city.konan.lg.jp/	https://www.konan-kankou.jp/	本文に自治体名を確認
-232190	愛知県	小牧市	https://www.city.komaki.aichi.jp/		本文に自治体名を確認
+232190	愛知県	小牧市	https://www.city.komaki.aichi.jp/	https://www.komaki-kanko.jp/	本文に自治体名を確認
 232203	愛知県	稲沢市	https://www.city.inazawa.aichi.jp/	https://www.inazawa-kankou.jp/	本文に自治体名を確認
-232211	愛知県	新城市	https://www.city.shinshiro.lg.jp/		本文に自治体名を確認
+232211	愛知県	新城市	https://www.city.shinshiro.lg.jp/	https://www.shinshirokankou.com/	本文に自治体名を確認
 232220	愛知県	東海市	https://www.city.tokai.aichi.jp/	http://tm-tokai.com/	本文に自治体名を確認
 232238	愛知県	大府市	https://www.city.obu.aichi.jp/	http://www.obu-kankou.gr.jp/	本文に自治体名を確認
 232246	愛知県	知多市	https://www.city.chita.lg.jp/	https://chita-kanko.com/	本文に自治体名を確認
 232254	愛知県	知立市	https://www.city.chiryu.aichi.jp/	https://www.chiryu-kanko.com/	本文に自治体名を確認
 232262	愛知県	尾張旭市	https://www.city.owariasahi.lg.jp/		本文に自治体名を確認
 232271	愛知県	高浜市	https://www.city.takahama.lg.jp/	http://kankou-takahama.gr.jp/	本文に自治体名を確認
-232289	愛知県	岩倉市	https://www.city.iwakura.aichi.jp/		本文に自治体名を確認
+232289	愛知県	岩倉市	https://www.city.iwakura.aichi.jp/	https://iwakura-kanko.com/	本文に自治体名を確認
 232297	愛知県	豊明市	https://www.city.toyoake.lg.jp/	https://welcome-toyoake.jp/	本文に自治体名を確認
 232301	愛知県	日進市	https://www.city.nisshin.lg.jp/		本文に自治体名を確認
 232319	愛知県	田原市	https://www.city.tahara.aichi.jp/	https://taharakankou.gr.jp/	本文に自治体名を確認
@@ -352,7 +352,7 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 232351	愛知県	弥富市	https://www.city.yatomi.lg.jp/	https://yatomi-kanko.jp/	本文に自治体名を確認
 232360	愛知県	みよし市	https://www.city.aichi-miyoshi.lg.jp/		本文に自治体名を確認
 232378	愛知県	あま市	https://www.city.ama.aichi.jp/	http://www.ama-kankou.jp/	本文に自治体名を確認
-232386	愛知県	長久手市	https://www.city.nagakute.lg.jp/		本文に自治体名を確認
+232386	愛知県	長久手市	https://www.city.nagakute.lg.jp/	https://www.nagakute-kanko.jp/	本文に自治体名を確認
 233021	愛知県	東郷町	https://www.town.aichi-togo.lg.jp/		本文に自治体名を確認
 233421	愛知県	豊山町	https://www.town.toyoyama.lg.jp/		本文に自治体名を確認
 233617	愛知県	大口町	https://www.town.oguchi.lg.jp/	http://www.kankou-matsue.jp/	本文に自治体名を確認

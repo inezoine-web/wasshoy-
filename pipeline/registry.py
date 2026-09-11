@@ -386,16 +386,16 @@ def guess_tourism_site(fetcher: Fetcher, municipality: str, muni_romaji: str) ->
                         socket.gethostbyname(host)
                     except OSError:
                         continue
-                    url = f"https://{host}/"
-                    ok, _ = verify_site(fetcher, url, municipality)
-                    if not ok:
-                        url = f"http://{host}/"
-                        ok, _ = verify_site(fetcher, url, municipality)
-                    if not ok:
-                        continue
-                    doc = fetcher.get(url)
-                    if doc is not None and "観光" in doc.text:
-                        return url
+                    # 推定なので検証は厳しめに。接尾辞なしの「八千代」で通すと
+                    # 茨城の八千代町が千葉の八千代市観光協会を掴む (実際に起きた)。
+                    for url in (f"https://{host}/", f"http://{host}/"):
+                        doc = fetcher.get(url)
+                        if doc is None or doc.status != 200:
+                            continue
+                        text = re.sub(r"<[^>]+>", " ", doc.text)
+                        if municipality in text and "観光" in text:
+                            return url
+                        break
     return ""
 
 
