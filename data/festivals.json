@@ -436603,6 +436603,5193 @@
       ],
       "notes": "特定年の日程か例年の規則かは未確認: 3月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
+    },
+    {
+      "id": "shizuoka-izu-mizuiwai",
+      "name": "伊豆・駿河の水祝い",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "伊豆市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦1月2日に下多賀地区、江浦地区で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-izu-higashiizuchihonokashimaodori",
+      "name": "東伊豆地方の鹿島踊",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "伊豆市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-hamamatsu-tokaichihonoodakoageshuzoku",
+      "name": "東海地方の大凧揚げ習俗",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "浜松市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦5月5日に浜松市内で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-shizuoka-shizuokakenchubuchihonokagura",
+      "name": "静岡県中部地方の神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "静岡市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-mishima-mishimabayashi",
+      "name": "三島囃子",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "三島市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦8月17日三島大祭り他に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-mishima-mishimajinjanootauchi",
+      "name": "三島神社のお田打ち",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "三島市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦1月7日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-shimoda-sambaso",
+      "name": "三番叟",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "下田市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦10月に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-shimoda-sanzuiingongemmatsurihatamawashi",
+      "name": "山随院権現祭幡廻し",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "下田市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦8月11日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-shimoda-obisha",
+      "name": "鬼射",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "下田市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦2月に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-ito-itoshinainokashimaodori",
+      "name": "伊東市内の鹿島踊（宇佐美八幡）",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "伊東市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "新暦10月第2土曜日・日曜日に公開",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-ito-arainoomatsurishogyoji",
+      "name": "新井の大祭り諸行事",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "伊東市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦隔年1月7日に公開（現在休止中・再開未定） / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-izunokuni-kawakanjo",
+      "name": "かわかんじょう",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "伊豆の国市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-izunokuni-mifukunosambaso",
+      "name": "三福の三番叟",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "伊豆の国市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-izunokuni-ohitonosambaso",
+      "name": "大仁の三番叟",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "伊豆の国市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-izunokuni-takyonosambaso",
+      "name": "田京の三番叟",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "伊豆の国市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-izu-ichinomiyajinjanosambaso",
+      "name": "一之宮神社の三番叟",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "伊豆市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-izu-kadononenokamishanokagura",
+      "name": "加殿子神社の神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "伊豆市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-izu-toijinjasatsumakorogashi",
+      "name": "土肥神社さつまころがし",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "伊豆市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-izu-shiroyamajinjanosambaso",
+      "name": "城山神社の三番叟",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "伊豆市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-izu-tennoshanooshimeagesuzumiyamatsuri",
+      "name": "天王社の凉宮まつり",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "伊豆市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-izu-tenjinjanosambaso",
+      "name": "天神社の三番叟",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "伊豆市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-izu-shikisambaso",
+      "name": "式三番叟",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "伊豆市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-izu-kasugajinjanosambaso",
+      "name": "春日神社の三番叟",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "伊豆市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-izu-kumanojinjahonoshagiri",
+      "name": "熊野神社奉納しゃぎり",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "伊豆市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-izu-kaguratorisashiodori",
+      "name": "神楽鳥刺し踊り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "伊豆市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art",
+        "dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-izu-kurumakiri",
+      "name": "車切り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "伊豆市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-minamiizu-meranobonodori",
+      "name": "妻良のぼんおどり",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "南伊豆町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦8月15日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-minamiizu-oinanotoramai",
+      "name": "小稲の虎舞",
+      "aliases": [
+        "小稲の虎舞（竜虎の舞）"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "南伊豆町",
+      "district": null,
+      "venue": "来宮神社",
+      "location": null,
+      "usual_schedule": "旧暦の8月14日に公開",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-yoshida-terashimakawakawayokejizonotoroage",
+      "name": "寺島川除地蔵の灯籠あげ",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "吉田町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "新暦8月24日前後の日曜日に公開",
+      "event_dates": [],
+      "categories": [
+        "temple_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-fujinomiya-fujinomiyahayashi",
+      "name": "富士宮囃子",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "富士宮市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦11月3・4日・5日その他不定期に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-fujinomiya-fujisanhonguusengentaishayabusame",
+      "name": "富士山本宮浅間大社流鏑馬",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "富士宮市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦5月5日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-fujinomiya-hibusenembutsu",
+      "name": "火伏念仏",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "富士宮市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦1月18日あるいは3月14日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-fuji-okitanokawakanji",
+      "name": "大北のカワカンジー",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "富士市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦8月15日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-fuji-iwabuchitoriiiko",
+      "name": "岩淵鳥居講",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "富士市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 新暦12年に一度、申の年に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-fuji-kijimanonagedaimatsu",
+      "name": "木島のナゲダイマツ",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "富士市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦8月16日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-fuji-unaigafuchishimmeiguunookagura",
+      "name": "鵜無ケ淵神明宮の御神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "富士市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "新暦7月中旬・10月中旬に公開",
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-kawanehon-hirayanonagashitai",
+      "name": "平谷の流したい",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "川根本町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦7月14日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-kawanehon-umezukagura",
+      "name": "梅津神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "川根本町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art",
+        "seasonal_flower_nature"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-kawanehon-tashirokagura",
+      "name": "田代神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "川根本町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-omaezaki-sakuragaikenoohitsuosame",
+      "name": "桜ヶ池のお櫃納め",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "御前崎市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "seasonal_flower_nature"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦9月彼岸中日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-gotemba-ayusawanokitosambaso",
+      "name": "鮎沢の祈祷三番",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "御殿場市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-kakegawa-mikumanojinjanojigatamemaitotaasobi",
+      "name": "三熊野神社の地固め舞と田遊び",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "掛川市",
+      "district": null,
+      "venue": "三熊野神社",
+      "location": null,
+      "usual_schedule": "新暦4月第1金曜，土曜，日曜に三熊野神社で公開",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-kakegawa-mikumanojijataisainonerigyoji",
+      "name": "三熊野神社大祭の祢里行事",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "掛川市",
+      "district": null,
+      "venue": "三熊野神社",
+      "location": null,
+      "usual_schedule": "新暦4月第1金曜，土曜，日曜に三熊野神社で公開",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-kakegawa-sanjasaireibayashi",
+      "name": "三社祭礼囃子",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "掛川市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-kakegawa-yasakajinjanogiombayashitosaireigyoji",
+      "name": "八坂神社の祇園囃子と祭礼行事",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "掛川市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-kakegawa-tarukinogionsai",
+      "name": "垂木の祇園祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "掛川市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-kakegawa-obuchinosanaburi",
+      "name": "大渕のさなぶり",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "掛川市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-kakegawa-shishimaikankaramachi",
+      "name": "獅子舞かんからまち",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "掛川市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "lion_dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-higashiizu-sambaso",
+      "name": "三番叟",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "東伊豆町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦7月14日・15日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-higashiizu-inatorinohammaasama",
+      "name": "稲取のハンマアサマ",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "東伊豆町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦9月8、9日に稲取地区で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-matsuzaki-inashimojinjasambaso",
+      "name": "伊那下神社三番叟",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "松崎町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦11月3日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-matsuzaki-minenokagura",
+      "name": "峰の神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "松崎町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "新暦7月中旬に公開",
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-matsuzaki-minewanokagura",
+      "name": "峰輪の神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "松崎町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "新暦7月中旬に公開",
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-matsuzaki-funayosejinjasambaso",
+      "name": "船寄神社三番叟",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "松崎町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦11月3日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-matsuzaki-michibujinjasambaso",
+      "name": "道部神社三番叟",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "松崎町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦11月3日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-mori-amamiyajinjanootomekagura",
+      "name": "天宮神社の乙女神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "森町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "新暦4月第1土・日曜日に公開",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-mori-amenomiyajinjanojunidambugaku",
+      "name": "天宮神社の十二段舞楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "森町",
+      "district": null,
+      "venue": "天宮神社",
+      "location": null,
+      "usual_schedule": "新暦4月の第1土曜から日曜日に天宮神社で公開",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-mori-ogunijinjanotaasobi",
+      "name": "小國神社の田遊び",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "森町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦1月3日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-mori-ogunijinjanokagura",
+      "name": "小國神社の神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "森町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "新暦4月18日に最も近い日曜日に公開",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-mori-okunijinjanobugaku",
+      "name": "小國神社の舞楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "森町",
+      "district": null,
+      "venue": "小国神社",
+      "location": null,
+      "usual_schedule": "新暦4月18日に最も近い土・日曜日に小国神社で公開",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-mori-yamanajinjatennosaibugaku",
+      "name": "山名神社天王祭舞楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "森町",
+      "district": null,
+      "venue": "山名神社",
+      "location": null,
+      "usual_schedule": "新暦7月15日に近い土・日曜日に山名神社で公開",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-mori-tokiwataiko",
+      "name": "常磐太鼓",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "森町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-mori-tootomimorimachinobugaku",
+      "name": "遠江森町の舞楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "森町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "新暦4月第1土・日曜日、4月18日に最も近い土・日曜日、7月15日に近い土・日曜日に公開",
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-kawazu-onabenenokamijinjakagura",
+      "name": "大鍋子守神社神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "河津町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦10月15日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-kawazu-midakahamanoshoryookurigyoji",
+      "name": "見高浜の精霊送り行事",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "河津町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦8月16日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-kawazu-midakajinjasambaso",
+      "name": "見高神社三番叟",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "河津町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦10月22日、23日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-numazu-todanogyoshiodorigyoshiuta",
+      "name": "戸田の漁師踊・漁師唄",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "沼津市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-numazu-enoranomizushugi",
+      "name": "江浦の水祝儀",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "沼津市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦1月2日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-hamamatsu-myokoankannondonohyakumambennembutsutonembutsuko",
+      "name": "妙功庵観音堂の百万遍念仏と念仏講",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "浜松市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "temple_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 1月の成人の日を含む3連休の最終日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-hamamatsu-teranonomikkadohiyondori",
+      "name": "寺野の三日堂ひよんどり",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "浜松市",
+      "district": null,
+      "venue": "寺野観音堂",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "temple_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦1月3日に寺野観音堂で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-hamamatsu-kawaihananomai",
+      "name": "川合花の舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "浜松市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "10月後半の土曜日に公開",
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-hamamatsu-takisawanoshishiuchishinji",
+      "name": "滝沢のシシウチ神事",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "浜松市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦1月4日・1月1日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-hamamatsu-takisawanohokaodori",
+      "name": "滝沢の放歌踊",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "浜松市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦8月13日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-hamamatsu-nishiurenonembutsuodori",
+      "name": "西浦の念仏踊",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "浜松市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦8月8日・14日・16日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-hamamatsu-tootominoshishiuchigyoji",
+      "name": "遠江のシシウチ行事",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "浜松市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦1月4日・1月1日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-kosai-okuratonochanchakochan",
+      "name": "大倉戸のチャンチャコチャン",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "湖西市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-kosai-arainokotoyokagyoji",
+      "name": "新居のこと八日行事",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "湖西市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦2月8日・12月8日に大倉戸地区で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-kosai-araichosaikuhanabi",
+      "name": "新居町細工花火",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "湖西市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "fireworks"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-kosai-hashimotodaihannyakyookyomori",
+      "name": "橋本大般若経お経守",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "湖西市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-kosai-sarutahikoenka",
+      "name": "猿田彦煙火",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "湖西市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-kosai-suwajinjatezutsuhanabi",
+      "name": "諏訪神社手筒花火",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "湖西市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "fireworks"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-yaizu-yamanokamimatsuri",
+      "name": "山の神祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "焼津市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦2月8日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-yaizu-yaizujinjanoshishikiyaritokamikorogashi",
+      "name": "焼津神社の獅子木遣りと神ころがし",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "焼津市",
+      "district": null,
+      "venue": "焼津神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦8月12日・13日に焼津神社で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-yaizu-fujimorinotaasobi",
+      "name": "藤守の田遊び",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "焼津市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "seasonal_flower_nature"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦3月17日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-atami-shimotagajinjamizuabiseshiki",
+      "name": "下多賀神社水浴せ式",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "熱海市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦1月2日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-atami-shimotagajinjakashimaodori",
+      "name": "下多賀神社鹿島踊",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "熱海市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-atami-imamiyajinjashishikagura",
+      "name": "今宮神社獅子神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "熱海市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦10月19日・20日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-atami-hatsukijinjakashimaodori",
+      "name": "初木神社鹿島踊",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "熱海市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦7月17日・18日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-atami-wadakijinjashishikagura",
+      "name": "和田木神社獅子神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "熱海市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-atami-tagajinjakashimaodori",
+      "name": "多賀神社鹿島踊",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "熱海市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦7月28日・29日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-atami-kinomiyajinjakashimaodori",
+      "name": "来宮神社鹿島踊",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "熱海市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦7月15日・16日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-atami-ajikojinjakashimaodori",
+      "name": "阿治古神社鹿島踊",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "熱海市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦7月19日・20日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-makinohara-ichimanjinjanoosakakishinji",
+      "name": "一幡神社の御榊神事",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "牧之原市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "新暦2月上旬の2日間に公開",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-makinohara-oehachimanjinjanoofunegyoji",
+      "name": "大江八幡神社の御船行事",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "牧之原市",
+      "district": null,
+      "venue": "大江八幡神社",
+      "location": null,
+      "usual_schedule": "新暦9月中旬に大江八幡神社で公開",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-makinohara-shimmeijinjanoofuneshinji",
+      "name": "神明神社のお船神事",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "牧之原市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "新暦10月上旬に公開",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-makinohara-hirugayanotaasobi",
+      "name": "蛭ヶ谷の田遊び",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "牧之原市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "新暦2月第2土曜日に公開",
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-makinohara-hazusawanojinjanoofunegyoji",
+      "name": "飯津佐和乃神社の御船行事",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "牧之原市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "新暦9月中旬に公開",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-makinohara-kashimajinjanoofuneshinji",
+      "name": "鹿島神社のお船神事",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "牧之原市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "新暦11月上旬に公開",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-kikugawa-danhiraonosangesange",
+      "name": "段平尾のさんげさんげ",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "菊川市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "新暦7月第2土曜日に公開",
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-kikugawa-chokaijigionohayashi",
+      "name": "潮海寺祇園お囃子",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "菊川市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "temple_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦3年に1度、7月23日付近の土・日を含む3日間に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-kikugawa-kokuuzosanfukuzoinsetsubummatsuri",
+      "name": "虚空蔵山福蔵院節分祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "菊川市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "新暦2月第1日曜日に公開",
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-fujieda-kamikorobashi",
+      "name": "カミコロバシ",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "藤枝市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-fujieda-yamanokamimatsuri",
+      "name": "山の神祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "藤枝市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-fujieda-sanguusai",
+      "name": "山宮祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "藤枝市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-fujieda-asahinaoryusei",
+      "name": "朝比奈大龍勢",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "藤枝市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-fujieda-takisawayasakajinjanotaasobi",
+      "name": "滝沢八坂神社の田遊び",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "藤枝市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-fujieda-takisawayasakajinjanokagura",
+      "name": "滝沢八坂神社の神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "藤枝市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-fujieda-akunamijinjataisainohonoodori",
+      "name": "飽波神社大祭の奉納踊り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "藤枝市",
+      "district": null,
+      "venue": "飽波神社",
+      "location": null,
+      "usual_schedule": "新暦１０月上旬に飽波神社で公開",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-fujieda-takanehakusanjinjakodaikagura",
+      "name": "高根白山神社古代神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "藤枝市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-fukuroi-hattasannotaasobi",
+      "name": "法多山の田遊び",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "袋井市",
+      "district": null,
+      "venue": "法多山尊永寺",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "temple_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦1月7日に法多山尊永寺で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-nishiizu-x8bb184d8",
+      "name": "中・神明神社式三番叟",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "西伊豆町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 現在休止中 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-nishiizu-ningyosambaso",
+      "name": "人形三番叟",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "西伊豆町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-nishiizu-tennoshanooshimeage",
+      "name": "天王社お注連あげ",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "西伊豆町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦7月15日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-nishiizu-iwayatonohyakuhatto",
+      "name": "岩谷戸の百八灯",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "西伊豆町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦8月21日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-nishiizu-shogatsuyo",
+      "name": "正月魚",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "西伊豆町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-nishiizu-hamasegaki",
+      "name": "浜施餓鬼",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "西伊豆町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦8月15日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-nishiizu-kainanoshimmeijinjanoningyosambaso",
+      "name": "海名野神明神社の人形三番叟",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "西伊豆町",
+      "district": null,
+      "venue": "海名野神明神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦11月2日・3日に海名野神明神社で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-nishiizu-sarukkoodori",
+      "name": "猿っこ踊り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "西伊豆町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-nishiizu-nobataketenjinjanokagura",
+      "name": "野畑天神社の神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "西伊豆町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-nishiizu-komagatajinjakagura",
+      "name": "駒形神社神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "西伊豆町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 現在休止中 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-shizuoka-umegashimanomai",
+      "name": "梅ヶ島の舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "静岡市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "新暦3月第2土曜日に公開",
+      "event_dates": [],
+      "categories": [
+        "seasonal_flower_nature"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-shizuoka-yuikitadanotennobunenagashi",
+      "name": "由比北田の天王船流し",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "静岡市",
+      "district": null,
+      "venue": "津島神社",
+      "location": null,
+      "usual_schedule": "新暦7月第3土曜日に津島神社で公開",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "shizuoka-shizuoka-shizuokasengenjinjahatsukaesainochigomai",
+      "name": "静岡浅間神社廿日会祭の稚児舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "静岡県",
+      "municipality": "静岡市",
+      "district": null,
+      "venue": "静岡浅間神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦4月5日に公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
     }
   ]
 }
