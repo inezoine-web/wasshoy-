@@ -436496,6 +436496,113 @@
       ],
       "notes": "情報源に特定年の日付として記載: 2024年10月15日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
+    },
+    {
+      "id": "tochigi-tochigi-uzumanokoinobori",
+      "name": "うずまの鯉のぼり",
+      "aliases": [
+        "うずまの鯉のぼり 中央エリア 観光"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "栃木県",
+      "municipality": "栃木市",
+      "district": null,
+      "venue": "大平運動公園",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "seasonal_flower_nature"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event-schedule",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/fujioka-sakura",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/iwafune-hana",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/iwafune-jizou",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/nishikata-sakura",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/ohira-sakura",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/ohira-sakuramatsuri",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.tochigi-kankou.or.jp/event/tsuga-hanasai",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 3月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
     }
   ]
 }
