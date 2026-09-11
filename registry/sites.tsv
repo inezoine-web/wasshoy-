@@ -43,24 +43,24 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 085421	茨城県	五霞町	https://www.town.goka.lg.jp/		本文に自治体名を確認
 085464	茨城県	境町	https://www.town.ibaraki-sakai.lg.jp/		本文に自治体名を確認
 085642	茨城県	利根町	https://www.town.tone.ibaraki.jp/		本文に自治体名を確認
-092011	栃木県	宇都宮市	https://www.city.utsunomiya.lg.jp/		本文に自治体名を確認
+092011	栃木県	宇都宮市	https://www.city.utsunomiya.lg.jp/	https://www.utsunomiya-kankou.com/	本文に自治体名を確認
 092029	栃木県	足利市	https://www.city.ashikaga.tochigi.jp/	https://www.ashikaga-kankou.jp/	本文に自治体名を確認
-092037	栃木県	栃木市	https://www.city.tochigi.lg.jp/		本文に自治体名を確認
+092037	栃木県	栃木市	https://www.city.tochigi.lg.jp/	https://www.tochigi-kankou.or.jp/	本文に自治体名を確認
 092045	栃木県	佐野市	https://www.city.sano.lg.jp/	http://sano-kankokk.jp/	本文に自治体名を確認
 092053	栃木県	鹿沼市	https://www.city.kanuma.tochigi.jp/	https://kanuma-kanko.jp/	本文に自治体名を確認
-092061	栃木県	日光市	https://www.city.nikko.lg.jp/		本文に自治体名を確認
-092088	栃木県	小山市	https://www.city.oyama.tochigi.jp/		本文に自治体名を確認
+092061	栃木県	日光市	https://www.city.nikko.lg.jp/	https://www.nikko-kankou.org/	本文に自治体名を確認
+092088	栃木県	小山市	https://www.city.oyama.tochigi.jp/	https://www.kanko-oyama.jp/	本文に自治体名を確認
 092096	栃木県	真岡市	https://www.city.moka.lg.jp/	https://www.moka-kankou.org/	本文に自治体名を確認
 092100	栃木県	大田原市			候補URLがすべて外れ
 092118	栃木県	矢板市	https://www.city.yaita.tochigi.jp/	http://www.yaita-kankou.com/	本文に自治体名を確認
 092134	栃木県	那須塩原市	https://www.city.nasushiobara.lg.jp/	https://nasushiobara-kanko.jp/	本文に自治体名を確認
-092142	栃木県	さくら市	https://www.city.tochigi-sakura.lg.jp/		本文に自治体名を確認
+092142	栃木県	さくら市	https://www.city.tochigi-sakura.lg.jp/	https://www.sakura-kankou.jp/	本文に自治体名を確認
 092151	栃木県	那須烏山市	https://www.city.nasukarasuyama.lg.jp/	https://www.nasukarasuyama.com/	本文に自治体名を確認
 092169	栃木県	下野市	https://www.city.shimotsuke.lg.jp/		本文に自治体名を確認
 093017	栃木県	上三川町	https://www.town.kaminokawa.lg.jp/	https://kaminokawa-kankou.net/	本文に自治体名を確認
 093424	栃木県	益子町	https://www.town.mashiko.lg.jp/	http://www.mashiko-kankou.org/	本文に自治体名を確認
 093432	栃木県	茂木町	https://www.town.motegi.tochigi.jp/	https://motegi-k.com/	本文に自治体名を確認
-093441	栃木県	市貝町	https://www.town.ichikai.tochigi.jp/		本文に自治体名を確認
+093441	栃木県	市貝町	https://www.town.ichikai.tochigi.jp/	https://www.ichikai-kankou.jp/	本文に自治体名を確認
 093459	栃木県	芳賀町	https://www.town.tochigi-haga.lg.jp/	http://hagamachi-kanko.com/	本文に自治体名を確認
 093611	栃木県	壬生町	https://www.town.mibu.tochigi.jp/	http://mibu-kankou.org/	本文に自治体名を確認
 093645	栃木県	野木町	https://www.town.nogi.lg.jp/	http://nogi-kankou.com/	本文に自治体名を確認
