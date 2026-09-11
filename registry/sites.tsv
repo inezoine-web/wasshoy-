@@ -68,6 +68,69 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 093866	栃木県	高根沢町	https://www.town.takanezawa.tochigi.jp/		本文に自治体名を確認
 094072	栃木県	那須町	https://www.town.nasu.lg.jp/	http://www.nasukogen.org/	本文に自治体名を確認
 094111	栃木県	那珂川町	https://www.town.tochigi-nakagawa.lg.jp/	https://nakagawamachi-kanko.org/	本文に自治体名を確認
+111007	埼玉県	さいたま市	https://www.city.saitama.lg.jp/	https://visitsaitamacity.jp/	本文に自治体名を確認
+112011	埼玉県	川越市	https://www.city.kawagoe.saitama.jp/	https://koedo.or.jp/	本文に自治体名を確認
+112020	埼玉県	熊谷市	https://www.city.kumagaya.lg.jp/	https://www.oideyo-kumagaya.com/	本文に自治体名を確認
+112038	埼玉県	川口市	https://www.city.kawaguchi.lg.jp/		本文に自治体名を確認
+112062	埼玉県	行田市	https://www.city.gyoda.lg.jp/	https://www.gyoda-kankoukyoukai.jp/	本文に自治体名を確認
+112071	埼玉県	秩父市	https://www.city.chichibu.lg.jp/	http://www.chichibuji.gr.jp/	本文に自治体名を確認
+112089	埼玉県	所沢市	https://www.city.tokorozawa.saitama.jp/	https://tokoro-kankou.jp/	本文に自治体名を確認
+112097	埼玉県	飯能市	https://www.city.hanno.lg.jp/	https://hanno-tourism.jp/	本文に自治体名を確認
+112101	埼玉県	加須市	https://www.city.kazo.lg.jp/	https://www.kazo-tourism.or.jp/	本文に自治体名を確認
+112119	埼玉県	本庄市			候補URLがすべて外れ
+112127	埼玉県	東松山市	https://www.city.higashimatsuyama.lg.jp/		本文に自治体名を確認
+112143	埼玉県	春日部市	https://www.city.kasukabe.lg.jp/		本文に自治体名を確認
+112151	埼玉県	狭山市	https://www.city.sayama.saitama.jp/		本文に自治体名を確認
+112160	埼玉県	羽生市	https://www.city.hanyu.lg.jp/	http://hanyu-kanko.jp/	本文に自治体名を確認
+112178	埼玉県	鴻巣市			候補URLがすべて外れ
+112186	埼玉県	深谷市	https://www.city.fukaya.saitama.jp/	http://www.fukaya-ta.com/	本文に自治体名を確認
+112194	埼玉県	上尾市	https://www.city.ageo.lg.jp/		本文に自治体名を確認
+112216	埼玉県	草加市	https://www.city.soka.saitama.jp/		本文に自治体名を確認
+112224	埼玉県	越谷市	https://www.city.koshigaya.saitama.jp/	https://www.koshigaya-sightseeing.jp/	本文に自治体名を確認
+112232	埼玉県	蕨市	https://www.city.warabi.saitama.jp/		本文に自治体名を確認
+112241	埼玉県	戸田市	https://www.city.toda.saitama.jp/		本文に自治体名を確認
+112259	埼玉県	入間市	https://www.city.iruma.saitama.jp/		本文に自治体名を確認
+112275	埼玉県	朝霞市	https://www.city.asaka.lg.jp/		本文に自治体名を確認
+112283	埼玉県	志木市	https://www.city.shiki.lg.jp/		本文に自治体名を確認
+112291	埼玉県	和光市	https://www.city.wako.lg.jp/		本文に自治体名を確認
+112305	埼玉県	新座市	https://www.city.niiza.lg.jp/		本文に自治体名を確認
+112313	埼玉県	桶川市	https://www.city.okegawa.lg.jp/	http://www.okekan.com/	本文に自治体名を確認
+112321	埼玉県	久喜市	https://www.city.kuki.lg.jp/		本文に自治体名を確認
+112330	埼玉県	北本市	https://www.city.kitamoto.lg.jp/		本文に自治体名を確認
+112348	埼玉県	八潮市	https://www.city.yashio.lg.jp/	https://www.yashio-kankouji.org/	本文に自治体名を確認
+112356	埼玉県	富士見市	https://www.city.fujimi.saitama.jp/		本文に自治体名を確認
+112372	埼玉県	三郷市	https://www.city.misato.lg.jp/	https://misato-city.com/	本文に自治体名を確認
+112381	埼玉県	蓮田市	https://www.city.hasuda.saitama.jp/		本文に自治体名を確認
+112399	埼玉県	坂戸市	https://www.city.sakado.lg.jp/		本文に自治体名を確認
+112402	埼玉県	幸手市	https://www.city.satte.lg.jp/	https://www.satte-k.com/	本文に自治体名を確認
+112411	埼玉県	鶴ヶ島市	https://www.city.tsurugashima.lg.jp/		本文に自治体名を確認
+112429	埼玉県	日高市	https://www.city.hidaka.lg.jp/		本文に自治体名を確認
+112437	埼玉県	吉川市	https://www.city.yoshikawa.saitama.jp/		本文に自治体名を確認
+112453	埼玉県	ふじみ野市	https://www.city.fujimino.saitama.jp/		本文に自治体名を確認
+112461	埼玉県	白岡市	https://www.city.shiraoka.lg.jp/	http://www.diamond-kanko.jp/	本文に自治体名を確認
+113018	埼玉県	伊奈町	https://www.town.saitama-ina.lg.jp/	https://inakanko.com/	本文に自治体名を確認
+113247	埼玉県	三芳町	https://www.town.saitama-miyoshi.lg.jp/		本文に自治体名を確認
+113263	埼玉県	毛呂山町	https://www.town.moroyama.saitama.jp/	https://moroyama-kanko.jp/	本文に自治体名を確認
+113271	埼玉県	越生町	https://www.town.ogose.saitama.jp/	https://ogose-kanko.jp/	本文に自治体名を確認
+113417	埼玉県	滑川町	https://www.town.namegawa.saitama.jp/		本文に自治体名を確認
+113425	埼玉県	嵐山町	https://www.town.ranzan.saitama.jp/	https://www.ranzan-kanko.jp/	本文に自治体名を確認
+113433	埼玉県	小川町	https://www.town.ogawa.saitama.jp/		本文に自治体名を確認
+113468	埼玉県	川島町	https://www.town.kawajima.saitama.jp/		本文に自治体名を確認
+113476	埼玉県	吉見町	https://www.town.yoshimi.saitama.jp/		本文に自治体名を確認
+113484	埼玉県	鳩山町	https://www.town.hatoyama.saitama.jp/		本文に自治体名を確認
+113492	埼玉県	ときがわ町	https://www.town.tokigawa.lg.jp/		本文に自治体名を確認
+113611	埼玉県	横瀬町	https://www.town.yokoze.saitama.jp/		本文に自治体名を確認
+113620	埼玉県	皆野町	https://www.town.minano.saitama.jp/	https://www.minano.gr.jp/	本文に自治体名を確認
+113638	埼玉県	長瀞町	https://www.town.nagatoro.saitama.jp/	https://www.nagatoro.gr.jp/	本文に自治体名を確認
+113654	埼玉県	小鹿野町	https://www.town.ogano.lg.jp/	http://www.kanko-ogano.jp/	本文に自治体名を確認
+113697	埼玉県	東秩父村	https://www.vill.higashichichibu.saitama.jp/	http://www.higashichichibu.jp/	本文に自治体名を確認
+113816	埼玉県	美里町	https://www.town.saitama-misato.lg.jp/	https://www.misato-kanko.com/	本文に自治体名を確認
+113832	埼玉県	神川町	https://www.town.kamikawa.saitama.jp/	http://www.kamikawa-kanko.com/	本文に自治体名を確認
+113859	埼玉県	上里町	https://www.town.kamisato.saitama.jp/	http://www.nihon-kankou.or.jp/	本文に自治体名を確認
+114081	埼玉県	寄居町	https://www.town.yorii.saitama.jp/		本文に自治体名を確認
+114421	埼玉県	宮代町	https://www.town.miyashiro.lg.jp/		本文に自治体名を確認
+114642	埼玉県	杉戸町	https://www.town.sugito.lg.jp/		本文に自治体名を確認
+114651	埼玉県	松伏町	https://www.town.matsubushi.lg.jp/		本文に自治体名を確認
 121002	千葉県	千葉市	https://www.city.chiba.jp/	http://www.chibacity-ta.or.jp/	本文に自治体名を確認
 122025	千葉県	銚子市	https://www.city.choshi.chiba.jp/	https://www.choshikanko.com/	本文に自治体名を確認
 122033	千葉県	市川市	https://www.city.ichikawa.lg.jp/		本文に自治体名を確認
