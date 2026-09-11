@@ -538,7 +538,7 @@ def main(argv: list[str] | None = None) -> int:
     print(f"  代表行 (別名を除く) : {len(canon)}")
     still = sum(1 for r in canon if r["slug"] in ("", "PENDING"))
     print(f"  ID 未確定          : {still}  (0であるべき)")
-    ids = [r["slug"] for r in canon if r["slug"]]
+    ids = [r["slug"] for r in canon if r["slug"] and r["slug"] != "PENDING"]
     print(f"  ID の重複          : {len(ids) - len(set(ids))}  (0であるべき)")
     return 0
 
