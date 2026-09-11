@@ -87,7 +87,8 @@ def zero_municipalities(prefecture: str) -> list[dict[str, str]]:
     無駄に検索を投げることになる。
     """
     have: set[str] = set()
-    for path in (B.OUT_TSV, REGISTRY_DIR / "bunkazai_ai.tsv"):
+    for path in (B.OUT_TSV, REGISTRY_DIR / "bunkazai_ai.tsv",
+                 REGISTRY_DIR / "bunkazai_tobunken.tsv"):
         if not path.exists():
             continue
         lines = path.read_text(encoding="utf-8").splitlines()
