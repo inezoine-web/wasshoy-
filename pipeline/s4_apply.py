@@ -264,7 +264,7 @@ def _place_sources(prefecture: str) -> dict:
     if prefecture in _PLACE_CACHE:
         return _PLACE_CACHE[prefecture]
     desig: dict[str, str] = {}
-    for name in ("bunkazai_local.tsv", "bunkazai_ai.tsv"):
+    for name in ("bunkazai_local.tsv", "bunkazai_ai.tsv", "bunkazai_tobunken.tsv"):
         path = REGISTRY_DIR / name
         if not path.exists():
             continue

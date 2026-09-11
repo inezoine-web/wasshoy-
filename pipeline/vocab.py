@@ -42,6 +42,7 @@ REGISTRY_DIR = REPO_ROOT / "registry"
 BUNKAZAI_TSV = REGISTRY_DIR / "bunkazai.tsv"
 BUNKAZAI_LOCAL_TSV = REGISTRY_DIR / "bunkazai_local.tsv"
 BUNKAZAI_AI_TSV = REGISTRY_DIR / "bunkazai_ai.tsv"
+BUNKAZAI_TOBUNKEN_TSV = REGISTRY_DIR / "bunkazai_tobunken.tsv"
 MUNI_TSV = REGISTRY_DIR / "municipalities.tsv"
 OUT_TSV = REGISTRY_DIR / "vocab_regional.tsv"
 
@@ -143,7 +144,9 @@ def source_rows() -> list[dict[str, str]]:
     # 県・市町村指定は出所が2つある。機械抽出 (bunkazai_local.tsv) は
     # キャッシュから作り直されるたび上書きされるので、AI由来 (bunkazai_ai.tsv)
     # は別ファイルに分けてある。両方読む。
-    for path in (BUNKAZAI_LOCAL_TSV, BUNKAZAI_AI_TSV):
+    # 東文研DB (bunkazai_tobunken.tsv) は全国分を一度に持つ。市区町村指定と
+    # 一部の未指定まで入るので、県によっては上の2つを合わせたより多い。
+    for path in (BUNKAZAI_LOCAL_TSV, BUNKAZAI_AI_TSV, BUNKAZAI_TOBUNKEN_TSV):
         for r in read_tsv(path):
             rows.append({
                 "prefecture": r.get("prefecture", ""),

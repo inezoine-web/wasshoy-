@@ -49,8 +49,38 @@ recall は**壊れていないことの確認**として残す。
 
 ### 県・市町村指定をどこから取るか
 
+**2026-09-11 追記: 見つかった。** 東京文化財研究所の「無形文化遺産総合データベース」
+(https://mukeinet.tobunken.go.jp/index.php?gid=10027) が、国・都道府県・市区町村の
+指定・選択と、一部の県では未指定の行事まで、全国 9,991 行を**1リクエストのCSV**で
+返す (`tobunken.py`, S0.5d)。無形民俗で祭り・行事の種別に絞ると 8,614 行、
+1,229 市区町村。公開範囲は県ごとに A〜E で、東京・神奈川・島根は A (未指定まで)、
+山梨・京都は未収集、青森は非公開。
+
+これを正解の近似にして、処理済み5県の再現率を測った:
+
+```
+県      指定件数   festivals.json が持つ   再現率
+茨城       149            70               47%
+静岡       171            56               33%
+愛知       315           119               38%
+栃木       228            70               31%
+千葉       273           174               64%   <- 県の悉皆表を読めた分
+```
+
+存在が確実で市町村も分かっている指定済みの行事でも、クロールでは3〜6割しか
+拾えていなかった。以後は東文研DBの行を**候補の種** (`tobunken.py --seed`) と
+**語彙** (`vocab.py`) に使い、クロールは未指定の層を探す役に回す。
+S4 の所在解決 (`s4_apply._place_sources`) と S1b の零自治体判定も、この台帳を見る。
+
+注意点: 所在住所に都道府県名が無い行が 86% あるので県は一覧側の列から取る。
+CSV は cp932 で「蒅」「衹」等が `?` になるので名称は UTF-8 の一覧側を正とする。
+所在が「全域」「会津地方」「千代田区,江戸川区」のような行 (321) は `(県全域)` に
+する。北海道は「道南/道央・道北/道東」で来る。読み仮名の充足は 42%。
+
+以下は、それ以前に試して外れた記録。
+
 国指定は `bunkazai.py` で全国966件が取れるが、県指定・市町村指定を全国一括で
-持つ、使える口は**見つからなかった**。試した結果:
+持つ、使える口は当初**見つからなかった**。試した結果:
 
 - **文化遺産オンライン** (bunka.nii.ac.jp) — 135,397件を持ち robots.txt も全許可
   だが、検索結果がJS描画。フォームが宣言する `POST /heritages/relatedsearch` は
@@ -148,7 +178,8 @@ inline JS と CSS が本文を埋めるため、script/style/nav を落として
 | S0.5 | `bunkazai.py` | 要 | 不要 | 文化庁DBから無形の民俗文化財を種別×県で取得 (全国966件) |
 | S0.5b | `bunkazai_local.py` | 不要 | 不要 | 県・市町村指定をキャッシュ済みHTMLから拾う (クロール済みの県のみ) |
 | S0.5c | `bunkazai_ai_prepare.py` / `bunkazai_ai_apply.py` | 不要 | **要** | 機械抽出が0件だったページだけAIに読ませる |
-| S0.6 | `vocab.py` | 不要 | 不要 | 指定名称から**県別の行事語彙**を生成 (678語/新規460語) |
+| S0.5d | `tobunken.py` | 要 | 不要 | 東文研DBから全国の無形民俗を取得 (8,614行)。語彙と候補の種にする |
+| S0.6 | `vocab.py` | 不要 | 不要 | 指定名称から**県別の行事語彙**を生成 (6,851語) |
 | S0.7 | `gazetteer.py` | 要 | 不要 | Wikipediaの祭り記事一覧 = **既知の除外リスト** (全国1609件) |
 | S1 | `discover.py` | 要 | 不要 | 台帳のトップページから祭り情報のあるページを幅優先で収集 |
 | S2 | `extract.py` | 不要 | 不要 | キャッシュ済みページから候補行を抽出 |
@@ -177,6 +208,8 @@ python pipeline/bunkazai_ai_prepare.py --prefecture 茨城県 --limit 120
 #      AIはこれを読み work/bunkazai_ai/bz_verdict_NNN.tsv を返す
 python pipeline/bunkazai_ai_apply.py --prefecture 茨城県 --dry-run
 python pipeline/bunkazai_ai_apply.py --prefecture 茨城県
+# S0.5d: 東文研DB (一度だけ。全国分。結果はコミットする)
+python pipeline/tobunken.py --fetch --build  # registry/bunkazai_tobunken.tsv
 python pipeline/vocab.py --build --summary   # registry/vocab_regional.tsv
 python pipeline/gazetteer.py --build         # 全国1609件、約12分
 
@@ -185,6 +218,7 @@ python pipeline/discover.py --prefecture 茨城県 --max-pages 40
 
 # S2-S3: 抽出と正規化 (ネットに出ない。何度でもやり直せる)
 python pipeline/extract.py   --prefecture 茨城県
+python pipeline/tobunken.py --seed --prefecture 茨城県   # 東文研の行を候補に足す (origin=tobunken)
 python pipeline/normalize.py --prefecture 茨城県
 
 # S4: AI判定 (唯一AIが要る工程)

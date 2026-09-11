@@ -1,6 +1,7 @@
 prefecture	official_url	education_url	resolved
 千葉県	https://www.pref.chiba.lg.jp/		本文に都道府県名を確認
 愛知県	https://www.pref.aichi.jp/		本文に都道府県名を確認
+東京都	https://www.metro.tokyo.lg.jp/	https://www.kyoiku.metro.tokyo.lg.jp/	本文に都道府県名を確認
 栃木県	https://www.pref.tochigi.lg.jp/		本文に都道府県名を確認
 茨城県	https://www.pref.ibaraki.jp/	https://kyoiku.pref.ibaraki.jp/	本文に都道府県名を確認
 静岡県	https://www.pref.shizuoka.jp/		本文に都道府県名を確認
