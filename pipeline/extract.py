@@ -507,9 +507,10 @@ def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--prefecture")
     ap.add_argument("--municipality")
+    ap.add_argument("--pages", help="pages.tsv の代わりに読むファイル (別県のクロール中に使う)")
     args = ap.parse_args(argv)
 
-    pages_path = WORK_DIR / "pages.tsv"
+    pages_path = Path(args.pages) if args.pages else WORK_DIR / "pages.tsv"
     if not pages_path.is_file():
         raise SystemExit("先に discover.py を実行してください")
     with pages_path.open(encoding="utf-8", newline="") as fh:
