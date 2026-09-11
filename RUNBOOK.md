@@ -185,6 +185,7 @@ inline JS と CSS が本文を埋めるため、script/style/nav を落として
 | S2 | `extract.py` | 不要 | 不要 | キャッシュ済みページから候補行を抽出 |
 | S3 | `normalize.py` | 不要 | 不要 | 重複統合・日付仕分け・カテゴリ推定・slug生成 |
 | S4 | `s4_prepare.py` / `s4_apply.py` | 不要 | **要** | 対象/対象外の判断、別名統合、所在の帰属、読み。**AIが要るのはここだけ** |
+| S4b | `s4_readings.py` | 不要 | **要** | keep なのに読みが無い行だけを聞き直す (IDがハッシュ採番になるのを防ぐ) |
 | S5 | `merge.py` | 不要 | 不要 | `data/festivals.json` へマージ。**既存データを読んでよいのはここと `evaluate.py` だけ** |
 | S6 | `evaluate.py` | 不要 | 不要 | 凍結ベンチマークとの突合 |
 | S6b | `novelty.py` | 不要 | 不要 | **新規性**の測定。既存データにもWikipediaにも無い件数 |
@@ -227,6 +228,13 @@ python pipeline/s4_prepare.py --prefecture 茨城県 --batch-size 120
 #      work/s4/s4_verdict_NNN.tsv を「同じ順序・同じ件数」で返す
 python pipeline/s4_apply.py --prefecture 茨城県     # 機械チェックしてから適用
 python pipeline/s4_apply.py --prefecture 茨城県 --strict   # 未回答があれば失敗させる
+
+# S4b: 読みの補完 (keep なのに reading が空の行だけを聞き直す。東京では19本中6本が
+#      読みを丸ごと落として返し、203件がハッシュIDになった。1本120行で約4万トークン)
+python pipeline/s4_readings.py --prepare      # work/s4/reading_batch_NNN.tsv
+#   -> AIが reading_verdict_NNN.tsv (id / reading) を返す
+python pipeline/s4_readings.py --apply        # s4_verdict_*.tsv へ書き戻す
+python pipeline/s4_apply.py --prefecture 茨城県   # 適用し直す
 
 # S5: マージ (既存を入れ替える場合は --replace)
 python pipeline/merge.py --prefecture 茨城県 --replace --dry-run   # まず確認
