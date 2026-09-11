@@ -312,9 +312,109 @@ def context_for(flat: str, needle: str, width: int = 160) -> str:
     return flat[max(0, idx - width) : idx + len(needle) + width]
 
 
-def extract_page(text: str, page_url: str, municipality: str = "") -> list[dict[str, str]]:
+# --- 所在地の列を持つ表 ------------------------------------------------------
+# 県サイトには「名称 | 所在地 | 概要」の形で行事を並べた一覧がある。千葉県の
+# 伝統芸能一覧 (kkbunka/b-shigen/06dentou/) は266行あり、県内の民俗芸能を
+# 市町村つきで網羅している。これを平文として読むと2つの不具合が起きる:
+#
+#   - 所在が落ちる。`assign_municipality` は文脈160字に市町村名が1つだけの
+#     ときしか割り当てず、密な表では隣の行の市町村まで窓に入って判断不能になる。
+#     千葉で181件が (県全域) のまま残り、IDが付かず公開できなかった
+#   - 「概要」列の文が候補になる。「10歳前後の少年によって奉納」
+#     「20数基の御輿が繰り出す勇壮な祭り」がそのまま名称として出た
+#
+# 表として読めば両方消える。所在地はセルから取り、名称の列だけを候補にする。
+_TABLE = re.compile(r"<table\b.*?</table>", re.S | re.I)
+_TR = re.compile(r"<tr\b[^>]*>(.*?)</tr>", re.S | re.I)
+_TD = re.compile(r"<t[dh]\b[^>]*>(.*?)</t[dh]>", re.S | re.I)
+_PLACE_HEADER = re.compile(r"^(?:所在地|所在|市町村|市町村名|市町名|市区町村|開催地|地域)$")
+_NAME_HEADER = re.compile(r"^(?:名称|名前|行事名|祭り名|祭礼名|芸能名|文化財名|指定文化財名|"
+                          r"行事|祭り|まつり|祭礼)$")
+
+
+def _cell_text(fragment: str) -> str:
+    return normalize_space(clean(fragment))
+
+
+def _place_to_municipality(place: str, muni_names: list[str]) -> str:
+    """所在地セルの文字列を市町村名に寄せる。「市原市」「市原市能満」「市原」を許す。"""
+    p = place.strip()
+    if not p or p in ("-", "－", "―", "ー"):
+        return ""
+    for n in muni_names:
+        if p == n or p.startswith(n):
+            return n
+    for n in muni_names:
+        stem = n[:-1] if n[-1] in "市町村区" else n
+        if len(stem) >= 2 and (p == stem or p.startswith(stem + " ") or p.startswith(stem + "・")):
+            return n
+    return ""
+
+
+def attributed_table_rows(text: str, muni_names: list[str]) -> tuple[list[tuple[str, str, str]], str]:
+    """(名称, 市町村, 行の文脈) の並びと、それらの表を除いた本文を返す。
+
+    見出し行に「名称」系と「所在地」系の両方がある表だけを対象にする。
+    対象の表は本文から取り除き、平文経路が概要列の文を拾わないようにする。
+    """
+    if not muni_names:
+        return [], text
+    found: list[tuple[str, str, str]] = []
+    keep = text
+    for m in _TABLE.finditer(text):
+        trs = _TR.findall(m.group(0))
+        if len(trs) < 3:
+            continue
+        head = [_cell_text(c) for c in _TD.findall(trs[0])]
+        ni = next((i for i, c in enumerate(head) if _NAME_HEADER.match(c)), None)
+        pi = next((i for i, c in enumerate(head) if _PLACE_HEADER.match(c)), None)
+        if ni is None or pi is None:
+            continue
+        got = 0
+        for tr in trs[1:]:
+            cells = [_cell_text(c) for c in _TD.findall(tr)]
+            if len(cells) <= max(ni, pi):
+                continue
+            name, muni = cells[ni], _place_to_municipality(cells[pi], muni_names)
+            if name and muni:
+                found.append((name, muni, " ".join(cells)))
+                got += 1
+        if got:
+            keep = keep.replace(m.group(0), " ")
+    return found, keep
+
+
+def extract_page(text: str, page_url: str, municipality: str = "",
+                 muni_names: list[str] | None = None) -> list[dict[str, str]]:
     rows: list[dict[str, str]] = []
     seen: set[str] = set()
+
+    # 所在地つきの表を先に読む。ここで取れた行は所在が確定している。
+    table_rows, text = attributed_table_rows(text, muni_names or [])
+    for raw, muni, ctx_row in table_rows:
+        name = clean_name(raw)
+        if name in seen:
+            continue
+        reason = looks_like_festival(name, muni)
+        if reason is None:
+            continue
+        seen.add(name)
+        dates = DATE_PATTERN.findall(ctx_row)
+        venues = [v for v in VENUE_PATTERN.findall(ctx_row) if v not in name]
+        rows.append(
+            {
+                "name": name,
+                "name_raw": normalize_space(raw)[:120],
+                "origin": "table",
+                "reason": reason,
+                "date_text": normalize_space(best_date([normalize_space(d) for d in dates])),
+                "venue": venues[0] if venues else "",
+                "source_url": page_url,
+                "context": ctx_row[:300],
+                "municipality": muni,
+            }
+        )
+
     flat = normalize_space(clean(text))  # ページ全体の整形は1回だけ
     for raw, origin in candidate_strings(text):
         name = clean_name(raw)
@@ -416,11 +516,16 @@ def main(argv: list[str] | None = None) -> int:
                 missing += 1
                 continue
             muni = page["municipality"]
-            for row in extract_page(doc.text, page["url"], "" if muni == PREFECTURE_WIDE else muni):
+            for row in extract_page(doc.text, page["url"], "" if muni == PREFECTURE_WIDE else muni,
+                                    muni_names):
                 resolved = muni
+                if muni != PREFECTURE_WIDE:
+                    row.pop("municipality", None)
                 if muni == PREFECTURE_WIDE:
                     pref_wide_rows += 1
-                    resolved = assign_municipality(
+                    # 所在地の列を持つ表から取れた行は、そのセルの値が確定値。
+                    # 文脈からの推定 (assign_municipality) より優先する。
+                    resolved = row.pop("municipality", "") or assign_municipality(
                         f"{row['context']} {page['title']}", muni_names
                     ) or PREFECTURE_WIDE
                     if resolved != PREFECTURE_WIDE:

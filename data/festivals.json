@@ -208239,6 +208239,4649 @@
       ],
       "notes": "特定年の日程か例年の規則かは未確認: 3月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
       "last_verified": null
+    },
+    {
+      "id": "chiba-isumi-x23f2633d",
+      "name": "大原はだか祭り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "いすみ市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-kujiyuukuri-xef03aa25",
+      "name": "西ノ下の獅子舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "九十九里町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "lion_dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sakura-x0c7097c9",
+      "name": "どんど焼き",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "佐倉市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "fire_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sakura-xdba0eb22",
+      "name": "上勝田の盆綱",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "佐倉市",
+      "district": null,
+      "venue": "佐倉城址",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.city.sakura.lg.jp/global/sightseeing_culture_sports/sightseeing/15084.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sakura-xa9ec8fbd",
+      "name": "下勝田の獅子舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "佐倉市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "lion_dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-yachiyo-xbfceeabe",
+      "name": "村上の神楽（市指定文化財2）",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "八千代市",
+      "district": null,
+      "venue": "村上の七百餘所神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 1月15日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-katsuura-xe06e101a",
+      "name": "鵜原の大名行列",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "勝浦市",
+      "district": null,
+      "venue": "7月第4土曜日に八坂神社",
+      "location": null,
+      "usual_schedule": "第4土曜日",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sosa-x115fd942",
+      "name": "仁組獅子舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "匝瑳市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "lion_dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://sosa-kanko.com/blog/2021/09/10/1110/",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sosa-xd8e9cac4",
+      "name": "八重垣神社祭礼祇園祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "匝瑳市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sosa-xd18e7afb",
+      "name": "八雲神社祭礼囃子",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "匝瑳市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 12月23日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sosa-x1896bbf0",
+      "name": "六社神社神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "匝瑳市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sosa-xb51b011f",
+      "name": "庄八節盆踊り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "匝瑳市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "bon_odori",
+        "dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sosa-x25deb7dc",
+      "name": "時曽根の大蛇祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "匝瑳市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sosa-x3eed6e04",
+      "name": "東郷神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "匝瑳市",
+      "district": null,
+      "venue": "京都賀茂神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sosa-x097e3570",
+      "name": "松山神社の筒粥神事",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "匝瑳市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sosa-x993c8504",
+      "name": "松山神社神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "匝瑳市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sosa-x01396b8f",
+      "name": "野手囃子",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "匝瑳市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 8月8日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-minamiboso-x103969e1",
+      "name": "加茂の花踊り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "南房総市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-minamiboso-xc468f6e9",
+      "name": "千倉の夏まつり",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "南房総市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-minamiboso-x2e5875e7",
+      "name": "平群の祭礼",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "南房総市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-minamiboso-xef8d2d42",
+      "name": "高家神社秋季例祭並びに庖丁式奉納",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "南房総市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "秋季",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-inzai-xbc7a1d6e",
+      "name": "武西の六座念仏の称念仏踊り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "印西市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-kimitsu-x471a381b",
+      "name": "三島の棒術と羯鼓舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "君津市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-kimitsu-xbb035c5c",
+      "name": "六手の神楽ばやし",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "君津市",
+      "district": null,
+      "venue": "9月15日に八幡神社",
+      "location": null,
+      "usual_schedule": "毎年4月15日・9月15日",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-kimitsu-xaa04571d",
+      "name": "大戸見の神楽",
+      "aliases": [
+        "大戸見の神楽 8月1日"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "君津市",
+      "district": null,
+      "venue": "人見神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.city.kimitsu.lg.jp/rss/10/list5.xml",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.kimitsu.lg.jp/site/kanko/2205.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.kimitsu.lg.jp/site/kanko/2267.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.kimitsu.lg.jp/soshiki/list5-1.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 7月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-kimitsu-xd8d6a895",
+      "name": "鹿野山のはしご獅子舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "君津市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "lion_dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-tako-x8b1ddca9",
+      "name": "牛尾の蛇祭り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "多古町",
+      "district": null,
+      "venue": "妙光寺",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "temple_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.town.tako.chiba.jp/category/bunya/kanko/",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.town.tako.chiba.jp/category/bunya/kanko/matsuri/",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.town.tako.chiba.jp/docs/2018012900209/",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 5月3日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-futtsu-x0315078e",
+      "name": "吾妻神社馬だしまつり",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "富津市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-tomisato-x9a164fda",
+      "name": "中沢麦つき踊り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "富里市",
+      "district": null,
+      "venue": "中沢城址",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.city.tomisato.lg.jp/0000001132.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 2024年6月7日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-tomisato-x71bd9652",
+      "name": "久能獅子舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "富里市",
+      "district": null,
+      "venue": "中沢城址",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "lion_dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.city.tomisato.lg.jp/0000001132.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.tomisato.lg.jp/0000009806.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 2024年6月7日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sammu-x0ef5ac71",
+      "name": "五所神社十二面神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "山武市",
+      "district": null,
+      "venue": "舎利光観音",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "temple_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.city.sammu.lg.jp/kyouiku/bunkazai-rekishi/bunkazai/page001464.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.sammu.lg.jp/section.php?code=24",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 1986年4月1日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sammu-xc3d4a6d2",
+      "name": "大宮神社の神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "山武市",
+      "district": null,
+      "venue": "真行寺廃寺",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "temple_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.city.sammu.lg.jp/kyouiku/bunkazai-rekishi/bunkazai/page001464.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.sammu.lg.jp/section.php?code=24",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 1996年4月15日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sammu-x817d1881",
+      "name": "本須賀北京塚の獅子舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "山武市",
+      "district": null,
+      "venue": "六所神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "lion_dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.city.sammu.lg.jp/kyouiku/bunkazai-rekishi/bunkazai/page001464.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.sammu.lg.jp/section.php?code=24",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 1977年12月1日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sammu-xd55c1716",
+      "name": "稲荷神社の神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "山武市",
+      "district": null,
+      "venue": "真行寺廃寺",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "temple_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.city.sammu.lg.jp/kyouiku/bunkazai-rekishi/bunkazai/page001464.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.sammu.lg.jp/section.php?code=24",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 1996年4月15日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sammu-x516e2bb1",
+      "name": "金刀比羅神社の神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "山武市",
+      "district": null,
+      "venue": "真行寺廃寺",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "temple_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.city.sammu.lg.jp/kyouiku/bunkazai-rekishi/bunkazai/page001464.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.sammu.lg.jp/section.php?code=24",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 1996年4月15日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-ichihara-x2b1019af",
+      "name": "大塚ばやし",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "市原市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-ichihara-x9f9e5f2b",
+      "name": "根本神社の神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "市原市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-ichihara-x9bcd29e2",
+      "name": "牛久ばやし",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "市原市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-ichihara-x3934383c",
+      "name": "祭囃子（五井新田祭囃子）",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "市原市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-ichihara-x3189e9c6",
+      "name": "鶴峯八幡の神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "市原市",
+      "district": null,
+      "venue": "鎌倉の鶴岡八幡宮",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-ichikawa-x61c741a1",
+      "name": "行徳神輿",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "市川市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "mikoshi"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-narita-x62fcf296",
+      "name": "三番叟",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "成田市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-narita-x81f9b41c",
+      "name": "吉岡の祇園まつり",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "成田市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "毎年7月",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-narita-x641399f4",
+      "name": "奈土の盆綱引き",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "成田市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-asahi-x2686e19f",
+      "name": "熊野神社の神幸祭使者",
+      "aliases": [
+        "熊野神社の神幸祭使者（市指定文化財68）"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "旭市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.city.asahi.lg.jp/soshiki/29/2385.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 11月18日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-kisarazu-xe097e042",
+      "name": "八剱八幡神社例大祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "木更津市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-kisarazu-x1b57fe12",
+      "name": "吾妻神社祭事",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "木更津市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "毎年7月",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-kashiwa-x5a162dc5",
+      "name": "十二座神楽",
+      "aliases": [
+        "十二座神楽 柏市指定文化財十二座神楽の解説"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "柏市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.city.kashiwa.lg.jp/shiseijoho/about_kashiwa/tourism/dentogeno.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 2月26日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-kashiwa-x1f31ec87",
+      "name": "手賀ばやし",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "柏市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "第1日曜日",
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-kashiwa-x3a743cc9",
+      "name": "篠籠田の獅子舞",
+      "aliases": [
+        "篠籠田の獅子舞 千葉県指定文化財篠籠田の獅子舞の解説"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "柏市",
+      "district": null,
+      "venue": "して毎年8月16日に西光院",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "lion_dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.city.kashiwa.lg.jp/shiseijoho/about_kashiwa/tourism/dentogeno.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 2月26日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-kashiwa-xd868bd40",
+      "name": "若白毛ばやし",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "柏市",
+      "district": null,
+      "venue": "毛地区の鎮守様である八坂神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 7月24日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-yokoshibahikari-x2354614b",
+      "name": "中台梯子獅子舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "横芝光町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "lion_dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-yokoshibahikari-x43ea97fb",
+      "name": "日吉神社と風祭り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "横芝光町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "毎年8月1日",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-yokoshibahikari-x60df5069",
+      "name": "熊野神社神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "横芝光町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-shirako-x5812138d",
+      "name": "南日当の獅子舞（町指定文化財2）",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "白子町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "lion_dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-shirako-xa5affeec",
+      "name": "驚の獅子舞（町指定文化財16）",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "白子町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "lion_dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-kozaki-x5dbc6fdb",
+      "name": "祇園祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "神崎町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-funabashi-xa86a955b",
+      "name": "下総三山の七年祭り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "船橋市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-funabashi-xf794bd85",
+      "name": "二宮神社の神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "船橋市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-funabashi-xdab5daac",
+      "name": "小室の獅子舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "船橋市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "lion_dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 8月21日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-funabashi-x23f94793",
+      "name": "梯子乗りと木遣り歌",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "船橋市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-funabashi-x0d885d11",
+      "name": "水神祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "船橋市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-funabashi-x65035534",
+      "name": "船橋大神宮の灯明台祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "船橋市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-funabashi-x99fb8a02",
+      "name": "船橋大神宮の神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "船橋市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-funabashi-x180479ab",
+      "name": "飯山満町大宮神社の神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "船橋市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-funabashi-x3605b266",
+      "name": "高根町神明社の神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "船橋市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-mobara-x93304d74",
+      "name": "二宮神社の筒粥の神事及びお的の神事",
+      "aliases": [
+        "二宮神社の筒粥の神事及びお的の神事 [2015年2月25日]"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "茂原市",
+      "district": null,
+      "venue": "行徳寺",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "temple_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.city.mobara.chiba.jp/promotion/0000001104.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.mobara.chiba.jp/promotion/0000007003.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.mobara.chiba.jp/promotion/0000007612.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.mobara.chiba.jp/promotion/category/13-3-3-0-0-0-0-0-0-0.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 2015年2月25日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-mobara-x5db7c5c4",
+      "name": "羯鼓舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "茂原市",
+      "district": null,
+      "venue": "行徳寺",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "temple_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.city.mobara.chiba.jp/promotion/0000001104.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.mobara.chiba.jp/promotion/0000007003.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.mobara.chiba.jp/promotion/0000007612.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.mobara.chiba.jp/promotion/category/13-3-3-0-0-0-0-0-0-0.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 2月25日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sodegaura-xcfbadef4",
+      "name": "神納神楽ばやし",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "袖ケ浦市",
+      "district": null,
+      "venue": "やしは袖ケ浦市神納の率土神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://sodegaurakanko.org/spot/iitomi1",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.sodegaura.lg.jp/site/kyouiku/bunkazaihogo.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.sodegaura.lg.jp/site/sodefes/r8dentougeinou.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 10月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-sodegaura-xd48a969d",
+      "name": "飽富神社の筒粥",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "袖ケ浦市",
+      "district": null,
+      "venue": "坂戸神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://sodegaurakanko.org/spot/iitomi1",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.sodegaura.lg.jp/site/kyouiku/bunkazaihogo.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 平成18年 3月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-noda-xd2b8ea21",
+      "name": "三ッ堀のどろ祭り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "野田市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-noda-xa41854e5",
+      "name": "下根獅子舞・棒剣術",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "野田市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "lion_dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-noda-xe3c50291",
+      "name": "武者土囃子",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "野田市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-noda-x7dab9c15",
+      "name": "関宿台町の天王祭礼",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "野田市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-choshi-x8af6e6e9",
+      "name": "大潮祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "銚子市",
+      "district": null,
+      "venue": "旧暦6月15日に川口神社",
+      "location": null,
+      "usual_schedule": "旧暦6月15日",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-choshi-x44173e37",
+      "name": "小川神社の獅子舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "銚子市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "lion_dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-kamagaya-x4ea582f2",
+      "name": "おしゃらく踊り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "鎌ケ谷市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-chonan-x90456621",
+      "name": "坂本神社の獅子舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "長南町",
+      "district": null,
+      "venue": "笠森寺",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "temple_festival",
+        "lion_dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.town.chonan.chiba.jp/shoukai/rekishi/536/",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-nagara-mikoodori",
+      "name": "巫女踊り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "長柄町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": "毎年10月9日",
+      "event_dates": [],
+      "categories": [
+        "dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-chosei-iwanumanoshishimai",
+      "name": "岩沼の獅子舞",
+      "aliases": [
+        "岩沼の獅子舞 [2016年2月25日]"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "長生村",
+      "district": null,
+      "venue": "一松神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "lion_dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.vill.chosei.chiba.jp/0000000218.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.vill.chosei.chiba.jp/0000000302.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.vill.chosei.chiba.jp/0000000310.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.vill.chosei.chiba.jp/0000000313.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.vill.chosei.chiba.jp/category/4-2-0-0-0-0-0-0-0-0.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.vill.chosei.chiba.jp/category/4-2-1-0-0-0-0-0-0-0.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 2016年2月25日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-chosei-tsutsukayuuranai",
+      "name": "筒粥占い",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "長生村",
+      "district": null,
+      "venue": "三嶋神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.vill.chosei.chiba.jp/0000000218.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 9月11日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-tateyama-x0a05f760",
+      "name": "古茂口獅子神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "館山市",
+      "district": null,
+      "venue": "鶴谷八幡宮",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.city.tateyama.chiba.jp/kankou-bunka/cate000181.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.tateyama.chiba.jp/syougaigaku/page000790.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.tateyama.chiba.jp/syougaigaku/page006620.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.tateyama.chiba.jp/syougaigaku/page012553.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-tateyama-awayawatammachi",
+      "name": "安房やわたんまち",
+      "aliases": [
+        "安房やわたんまち安房国司祭継承保存会"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "館山市",
+      "district": null,
+      "venue": "鶴谷八幡宮",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.city.tateyama.chiba.jp/kankou-bunka/cate000181.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.tateyama.chiba.jp/syougaigaku/page000790.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.tateyama.chiba.jp/syougaigaku/page006620.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-tateyama-xa0aba411",
+      "name": "巌島神社の湯立神事",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "館山市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-tateyama-suzakinominokoodori",
+      "name": "洲崎のミノコオドリ",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "館山市",
+      "district": null,
+      "venue": "鶴谷八幡宮",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.city.tateyama.chiba.jp/kankou-bunka/cate000181.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.tateyama.chiba.jp/syougaigaku/page000790.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.tateyama.chiba.jp/syougaigaku/page006620.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.tateyama.chiba.jp/syougaigaku/page012553.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.tateyama.chiba.jp/syougaigaku/page100219.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 2月 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-katori-higenadematsuri",
+      "name": "ひげなで祭",
+      "aliases": [
+        "「ひげなで祭」側高神社に伝わる奇祭（2）",
+        "ひげなで祭 側高神社に伝わる奇祭",
+        "ひげなで祭（市指定無形民俗文化財・昭和52年6月1日指定）"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "香取市",
+      "district": null,
+      "venue": "西坂神社",
+      "location": null,
+      "usual_schedule": "毎年1月",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.city.katori.lg.jp/culture_sport/bunkazai/isan/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.katori.lg.jp/culture_sport/bunkazai/isan/isan_vol071-080.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-katori-x217cba06",
+      "name": "一ノ分目奉納十二面神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "香取市",
+      "district": null,
+      "venue": "境宮神宮",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-katori-sawarabayashi",
+      "name": "佐原囃子",
+      "aliases": [
+        "佐原囃子特別演奏会",
+        "佐原囃子集成"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "香取市",
+      "district": null,
+      "venue": "水郷佐原山車会館",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art",
+        "dashi"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.city.katori.lg.jp/",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.katori.lg.jp/culture_sport/bunkazai/isan/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.katori.lg.jp/sightseeing/sawaradashikaikan/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.katori.lg.jp/sightseeing/sawaradashikaikan/outline.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.katori.lg.jp/sightseeing/sawaradashikaikan/sawarabahashi_2026.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 2026年9月10日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-katori-omikawagiommatsuri",
+      "name": "小見川祇園祭",
+      "aliases": [
+        "小見川祇園祭の屋台と風流"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "香取市",
+      "district": null,
+      "venue": "香取神宮",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.city.katori.lg.jp/culture_sport/bunkazai/isan/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-katori-yamakuranosakematsuri",
+      "name": "山倉の鮭祭り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "香取市",
+      "district": null,
+      "venue": "浄福寺",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "temple_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.city.katori.lg.jp/culture_sport/bunkazai/ichiran.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.katori.lg.jp/culture_sport/bunkazai/isan/isan_vol061-070.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 2月26日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-katori-otauematsuri",
+      "name": "御田植祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "香取市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-katori-kiuchikagura",
+      "name": "木内神楽",
+      "aliases": [
+        "木内神楽 地方色豊かな十二座神楽",
+        "木内神楽保存会・木内大神（木内）"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "香取市",
+      "district": null,
+      "venue": "香取神宮",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.city.katori.lg.jp/culture_sport/bunkazai/ichiran.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.katori.lg.jp/culture_sport/bunkazai/isan/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.katori.lg.jp/culture_sport/bunkazai/isan/isan_vol041-050.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.katori.lg.jp/sightseeing/gyoji/haru/y_koi.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 9月1日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "chiba-kamogawa-x83874178",
+      "name": "吉保八幡のやぶさめ",
+      "aliases": [
+        "吉保八幡のやぶさめ神事"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "千葉県",
+      "municipality": "鴨川市",
+      "district": null,
+      "venue": "吉保八幡神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://www.city.kamogawa.lg.jp/rss/10/list11.xml",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.kamogawa.lg.jp/site/shiryoukan/",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.city.kamogawa.lg.jp/site/shiryoukan/list349-588.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        },
+        {
+          "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shigen/06dentou/index.html",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "情報源に特定年の日付として記載: 2021年7月26日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
     }
   ]
 }
