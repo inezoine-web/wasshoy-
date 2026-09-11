@@ -214,6 +214,13 @@ python pipeline/tobunken.py --fetch --build  # registry/bunkazai_tobunken.tsv
 python pipeline/vocab.py --build --summary   # registry/vocab_regional.tsv
 python pipeline/gazetteer.py --build         # 全国1609件、約12分
 
+# 処理済みの県に東文研の種だけを足す (クロールし直さない。茨城で実測: S4 2本、73件純増)
+printf 'prefecture	municipality	name	name_raw	origin	reason	date_text	venue	source_url	page_title	context
+' > work/candidates.tsv
+python pipeline/tobunken.py --seed --prefecture 茨城県
+python pipeline/normalize.py --prefecture 茨城県 && python pipeline/s4_prepare.py --prefecture 茨城県
+#   -> S4 -> s4_apply -> merge.py --add (既存とID・名称が重なるものは足さない)
+
 # S1: ページ収集 (時間がかかる。1市町村40ページ上限、同一ホスト1秒間隔)
 python pipeline/discover.py --prefecture 茨城県 --max-pages 40
 

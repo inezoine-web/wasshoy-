@@ -413720,6 +413720,3084 @@
       ],
       "notes": "特定年の日程か例年の規則かは未確認: 09月07日 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
       "last_verified": null
+    },
+    {
+      "id": "ibaraki-tsukuba-kaminomurogionhayashi",
+      "name": "上の室祇園はやし",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "つくば市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-tsukuba-kamisakaihyottoko",
+      "name": "上境ひょっとこ",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "つくば市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-tsukuba-rokutobayashi",
+      "name": "六斗ばやし",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "つくば市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-tsukuba-yoshisehayashi",
+      "name": "吉瀬はやし",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "つくば市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-tsukuba-tsumagihayashi",
+      "name": "妻木はやし",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "つくば市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-tsukuba-takuranosambikishishi",
+      "name": "田倉の三匹獅子",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "つくば市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-tsukuba-hyakkaryusuimando",
+      "name": "百家竜水万灯",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "つくば市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-tsukuba-tsukubayamagamanoaburaurikojo",
+      "name": "筑波山ガマの油売り口上",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "つくば市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-tsukuba-tsukubatanakabayashi",
+      "name": "筑波田中ばやし",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "つくば市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-kitaibaraki-otsunobonfunanagashi",
+      "name": "大津の盆船流し",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "北茨城市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-kitaibaraki-hitachiotsunoofunematsuri",
+      "name": "常陸大津のお船祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "北茨城市",
+      "district": null,
+      "venue": "佐波波地祇神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦4年に1度の5月2日・3日に佐波波地祇神社で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-tsuchiura-kamitakatsuosugibayashi",
+      "name": "上高津大杉ばやし",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "土浦市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-tsuchiura-tsuchiuranokiyarimatoifurihashigonori",
+      "name": "土浦の木遣り・纏振り・梯子乗り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "土浦市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-tsuchiura-obatakenokarakasabanto",
+      "name": "大畑のからかさ万灯",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "土浦市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦8月17日に鷲神社で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-tsuchiura-matobuchi",
+      "name": "的ぶち",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "土浦市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-tsuchiura-sugayabayashi",
+      "name": "菅谷ばやし",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "土浦市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-tsuchiura-mushiokuri",
+      "name": "虫送り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "土浦市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-daigo-chikatsujinjanochudaue",
+      "name": "近津神社の中田植",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "大子町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-omitama-x5dbd3c2d",
+      "name": "素鵞神社の祇園祭（県）／素鵞神社祇園祭（文）",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "小美玉市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-hitachiomiya-kamiiwasematsuribayashi",
+      "name": "上岩瀬祭ばやし",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "常陸大宮市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-hitachiomiya-rokujisama",
+      "name": "六字様",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "常陸大宮市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-hitachiomiya-myojimbayashi",
+      "name": "明神ばやし",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "常陸大宮市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-hitachiomiya-ogawamatsurihayashi",
+      "name": "緒川祭囃子",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "常陸大宮市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-hitachiomiya-nishinochigionhayashi",
+      "name": "西野内祇園囃子",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "常陸大宮市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-hitachiomiya-nishikanasajinjashosaireiniokerumorosawanosaireishuzoku",
+      "name": "西金砂神社小祭礼における諸沢の祭礼習俗",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "常陸大宮市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-hitachiomiya-morosawanishikanasamatsurihayashi",
+      "name": "諸沢西金砂祭囃子",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "常陸大宮市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-hitachiomiya-washikomatsurihayashi",
+      "name": "鷲子祭囃子",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "常陸大宮市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-hitachi-kashimajinjayabusame",
+      "name": "鹿嶋神社流鏑馬",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "日立市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-sakuragawa-goshokomatakijinjanosaiji",
+      "name": "五所駒滝神社の祭事",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "桜川市",
+      "district": null,
+      "venue": "五所駒滝神社",
+      "location": null,
+      "usual_schedule": "旧暦6月13日～15日に五所駒滝神社で公開",
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-mito-yoshidajinjanoshukisairei",
+      "name": "吉田神社の秋季祭礼",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "水戸市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-mito-ogushinosasaratoononomiroku",
+      "name": "大串のささらと大野のみろく",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "水戸市",
+      "district": null,
+      "venue": "大串稲荷神社",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦11月21日から3日間に大串稲荷神社で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-mito-okushinosasarabayashi",
+      "name": "大串のささらばやし",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "水戸市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-mito-daikommukibana",
+      "name": "大根むき花",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "水戸市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-mito-ononomirokubayashi",
+      "name": "大野のみろくばやし",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "水戸市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-mito-mitonoshishimai",
+      "name": "水戸の獅子舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "水戸市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "lion_dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-itako-mirokuodori",
+      "name": "みろく踊り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "潮来市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-itako-oikujinjamikomaishinji",
+      "name": "大生神社巫女舞神事",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "潮来市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-itako-oikujinjateijosai",
+      "name": "大生神社庭上祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "潮来市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-itako-nobukatasumo",
+      "name": "延方相撲",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "潮来市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-itako-tokushimamizukamimatsuri",
+      "name": "徳島水神祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "潮来市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-itako-itakobushi",
+      "name": "潮来節",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "潮来市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-ishioka-tomitanosasara",
+      "name": "富田のささら",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "石岡市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-ishioka-haikabayashi",
+      "name": "排禍ばやし",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "石岡市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-ishioka-maienomitamaodori",
+      "name": "真家のみたま踊",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "石岡市",
+      "district": null,
+      "venue": "福寿院",
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "特定年の日程か例年の規則かは未確認: 新暦7月15日に福寿院で公開 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-ishioka-shinkamitamaodori",
+      "name": "真家みたまおどり",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "石岡市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-kamisu-otorijinjatorimatsuri",
+      "name": "大鳥神社酉祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "神栖市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-kamisu-magowatashi",
+      "name": "孫渡し",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "神栖市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-kamisu-tegoshirojinjaoshiomatsurinarimono",
+      "name": "手子后神社大潮祭鳴り物",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "神栖市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-kamisu-shishimai",
+      "name": "獅子舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "神栖市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "lion_dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-kamisu-masudajinjashishimai",
+      "name": "益田神社獅子舞",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "神栖市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "lion_dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-inashiki-konembutsuodori",
+      "name": "古念仏踊り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "稲敷市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-inashiki-sakamotomatsuri",
+      "name": "坂本祭り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "稲敷市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-inashiki-osugijinjajunizakagura",
+      "name": "大杉神社十二座神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "稲敷市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-inashiki-ukishimashonembutsu",
+      "name": "浮島小念仏",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "稲敷市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-kasama-shijuhachitoro",
+      "name": "四十八灯篭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "笠間市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-kasama-angotoronembutsu",
+      "name": "安居燈篭念仏",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "笠間市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-ibaraki-kohatahyottokobayashi",
+      "name": "小幡ひょっとこばやし",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "茨城町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-ibaraki-hiroraambasama",
+      "name": "広浦あんばさま",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "茨城町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-ibaraki-akibabayashi",
+      "name": "秋葉ばやし",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "茨城町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-namegata-yamadayasakajinjagionsai",
+      "name": "山田八坂神社祇園祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "行方市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-namegata-habubayashi",
+      "name": "羽生ばやし",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "行方市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-namegata-sairenjijogyosammiai",
+      "name": "西蓮寺常行三味会",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "行方市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "temple_festival",
+        "seasonal_flower_nature"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-naka-mombehyottokoodori",
+      "name": "門部ひょっとこ踊り」（県）／門部ひょっとこ踊り（文）",
+      "aliases": [
+        "「門部ひょっとこ踊り」（県）／門部ひょっとこ踊り（文）"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "那珂市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "dance"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-naka-sugayakashimajinjadaisukebayashi",
+      "name": "菅谷鹿島神社「大助ばやし",
+      "aliases": [
+        "菅谷鹿島神社「大助ばやし」"
+      ],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "那珂市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-ami-kimishimahyottoko",
+      "name": "君島ひょっとこ",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "阿見町",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-takahagi-x02777eae",
+      "name": "丹生神社の棒ささら",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "高萩市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival",
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-kashima-nittakagura",
+      "name": "新田神楽",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "鹿嶋市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-kashima-kashimabayashi",
+      "name": "鹿島ばやし",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "鹿嶋市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "traditional_performing_art"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-ryugasaki-dangozukamatsuri",
+      "name": "ダンゴ塚祭り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "龍ケ崎市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-ryugasaki-x4f41a7dc",
+      "name": "八代富士神社の初山",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "龍ケ崎市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-ryugasaki-x671f704e",
+      "name": "宮渕町千秋の盆綱",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "龍ケ崎市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-ryugasaki-x9b5b53d9",
+      "name": "若柴八坂神社の祇園祭",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "龍ケ崎市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "shrine_festival"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。 / 名称の読みを確認できなかったため、IDはハッシュで採番している。",
+      "last_verified": null
+    },
+    {
+      "id": "ibaraki-ryugasaki-toyotachonosuijimmatsuri",
+      "name": "豊田町の水神祭り",
+      "aliases": [],
+      "status": "candidate",
+      "confidence": "low",
+      "prefecture": "茨城県",
+      "municipality": "龍ケ崎市",
+      "district": null,
+      "venue": null,
+      "location": null,
+      "usual_schedule": null,
+      "event_dates": [],
+      "categories": [
+        "unclassified"
+      ],
+      "features": [],
+      "history": null,
+      "cultural_property": null,
+      "scale": {
+        "attendance": null,
+        "floats": null,
+        "mikoshi": null,
+        "days": null,
+        "participating_districts": null,
+        "other": []
+      },
+      "summary": null,
+      "sources": [
+        {
+          "url": "https://mukeinet.tobunken.go.jp/index.php?gid=10027",
+          "title": null,
+          "publisher": null,
+          "accessed": "2026-09-08",
+          "supports": [
+            "name_mentioned"
+          ]
+        }
+      ],
+      "notes": "日付表記を判別できず: 不明 / 2026-09-08 のパイプライン (S1-S4) による収集。自治体・観光協会・県教育委員会のページ本文から名称を抽出し、対象judgment・別名統合・所在の帰属をAIが行った。個別ページによる裏取りは未実施のため status は candidate。",
+      "last_verified": null
     }
   ]
 }
