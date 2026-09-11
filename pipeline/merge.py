@@ -128,6 +128,9 @@ def check_consumers(records: list[dict]) -> list[str]:
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--prefecture", required=True)
+    ap.add_argument("--add", action="store_true",
+                    help="既存レコードを残し、IDが重ならないものだけ足す。"
+                         "一部のページだけ判定し直したときに使う")
     ap.add_argument("--replace", action="store_true",
                     help="対象都道府県の既存レコードを入れ替える")
     ap.add_argument("--accessed", default="2026-09-08")
@@ -167,6 +170,15 @@ def main(argv: list[str] | None = None) -> int:
     removed = [f for f in existing if f["prefecture"] == args.prefecture]
     kept = [f for f in existing if f["prefecture"] != args.prefecture]
 
+    if args.add:
+        # 追記: その県の既存行も残す。IDが既にあるものは足さない。
+        have = {f["id"] for f in existing}
+        before = len(new_rows)
+        new_rows = [r for r in new_rows if r["slug"] not in have]
+        kept = existing
+        removed = []
+        print(f"--add: 既存 {len(existing)} 件を残し、ID重複 {before - len(new_rows)} 件を除いて "
+              f"{len(new_rows)} 件を足す")
     if removed and not args.replace:
         raise SystemExit(
             f"{args.prefecture} に既存 {len(removed)} 件がある。"
