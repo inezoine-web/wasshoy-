@@ -2,3 +2,9 @@ _site/
 __pycache__/
 cache/
 work/
+
+# サブエージェントがリポジトリ直下に落とすゴミ
+/C\uFFFA*
+/C:*
+/s4_verdict_*.tsv
+/*_output.txt
