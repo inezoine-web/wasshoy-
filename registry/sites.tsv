@@ -68,6 +68,17 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 093866	栃木県	高根沢町	https://www.town.takanezawa.tochigi.jp/		本文に自治体名を確認
 094072	栃木県	那須町	https://www.town.nasu.lg.jp/	http://www.nasukogen.org/	本文に自治体名を確認
 094111	栃木県	那珂川町	https://www.town.tochigi-nakagawa.lg.jp/	https://nakagawamachi-kanko.org/	本文に自治体名を確認
+102016	群馬県	前橋市			候補URLがすべて外れ
+102024	群馬県	高崎市			候補URLがすべて外れ
+102032	群馬県	桐生市	https://www.city.kiryu.lg.jp/	http://kiryu-walker.net/	本文に自治体名を確認
+102041	群馬県	伊勢崎市	https://www.city.isesaki.lg.jp/	https://isesaki-kankou.com/	本文に自治体名を確認
+102059	群馬県	太田市		https://www.ota-kanko.jp/	候補URLがすべて外れ
+102067	群馬県	沼田市		https://www.numata-kankou.jp/	候補URLがすべて外れ
+102075	群馬県	館林市			候補URLがすべて外れ
+102083	群馬県	渋川市	https://www.city.shibukawa.lg.jp/	https://www.ikaho-kankou.com/	本文に自治体名を確認
+102091	群馬県	藤岡市		https://www.fujioka-kanko.net/	候補URLがすべて外れ
+102105	群馬県	富岡市			候補URLがすべて外れ
+102113	群馬県	安中市	https://www.city.annaka.lg.jp/		本文に自治体名を確認
 111007	埼玉県	さいたま市	https://www.city.saitama.lg.jp/	https://visitsaitamacity.jp/	本文に自治体名を確認
 112011	埼玉県	川越市	https://www.city.kawagoe.saitama.jp/	https://koedo.or.jp/	本文に自治体名を確認
 112020	埼玉県	熊谷市	https://www.city.kumagaya.lg.jp/	https://www.oideyo-kumagaya.com/	本文に自治体名を確認
@@ -280,6 +291,23 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 143847	神奈川県	湯河原町	https://www.town.yugawara.kanagawa.jp/		本文に自治体名を確認
 144011	神奈川県	愛川町	https://www.town.aikawa.kanagawa.jp/		本文に自治体名を確認
 144029	神奈川県	清川村			候補URLがすべて外れ
+182010	福井県	福井市	https://www.city.fukui.lg.jp/		本文に自治体名を確認
+182028	福井県	敦賀市	https://www.city.tsuruga.lg.jp/	https://tsuruga-kanko.jp/	本文に自治体名を確認
+182044	福井県	小浜市	https://www1.city.obama.fukui.jp/	https://www.wakasa-obama.jp/	検索で特定 (本文に自治体名を確認)
+182052	福井県	大野市	https://www.city.ono.fukui.jp/	http://www.ono-kankou.jp/	本文に自治体名を確認
+182061	福井県	勝山市	https://www.city.katsuyama.fukui.jp/		本文に自治体名を確認
+182079	福井県	鯖江市	https://www.city.sabae.fukui.jp/		本文に自治体名を確認
+182087	福井県	あわら市	https://www.city.awara.lg.jp/	http://awara.info/	本文に自治体名を確認
+182095	福井県	越前市	https://www.city.echizen.lg.jp/	https://www.echizen-tourism.jp/	本文に自治体名を確認
+182109	福井県	坂井市	https://www.city.fukui-sakai.lg.jp/	https://kanko-sakai.com/	本文に自治体名を確認
+183229	福井県	永平寺町	https://www.town.eiheiji.lg.jp/		本文に自治体名を確認
+183822	福井県	池田町	https://www.town.ikeda.fukui.jp/	https://www.ikeda-kanko.jp/	本文に自治体名を確認
+184047	福井県	南越前町	https://www.town.minamiechizen.lg.jp/		本文に自治体名を確認
+184233	福井県	越前町	https://www.town.echizen.fukui.jp/	https://echizenkaigan.com/	本文に自治体名を確認
+184420	福井県	美浜町	https://www.town.fukui-mihama.lg.jp/	https://wakasa-mihama.jp/	本文に自治体名を確認
+184811	福井県	高浜町	https://www.town.takahama.fukui.jp/		本文に自治体名を確認
+184837	福井県	おおい町	https://www.town.ohi.fukui.jp/	https://uminpia-ohi.com/	検索で特定 (本文に自治体名を確認)
+185019	福井県	若狭町	https://www.town.fukui-wakasa.lg.jp/		本文に自治体名を確認
 212016	岐阜県	岐阜市	https://www.city.gifu.lg.jp/	https://www.gifucvb.or.jp/	本文に自治体名を確認
 212024	岐阜県	大垣市	https://www.city.ogaki.lg.jp/	http://www.ogakikanko.jp/	本文に自治体名を確認
 212032	岐阜県	高山市	https://www.city.takayama.lg.jp/	https://www.hidatakayama.or.jp/	本文に自治体名を確認
@@ -440,6 +468,64 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 245437	三重県	紀北町	https://www.town.mie-kihoku.lg.jp/	https://kihoku-kanko.com/	本文に自治体名を確認
 245615	三重県	御浜町	https://www.town.mihama.mie.jp/		本文に自治体名を確認
 245623	三重県	紀宝町	https://www.town.kiho.lg.jp/		本文に自治体名を確認
+252018	滋賀県	大津市	https://www.city.otsu.lg.jp/	https://murasakishikibu-kanko.jp/	本文に自治体名を確認
+252026	滋賀県	彦根市	https://www.city.hikone.lg.jp/		本文に自治体名を確認
+252034	滋賀県	長浜市	https://www.city.nagahama.lg.jp/	https://kitabiwako.jp/	本文に自治体名を確認
+252042	滋賀県	近江八幡市	https://www.city.omihachiman.lg.jp/	https://www.omi8.com/	本文に自治体名を確認
+252069	滋賀県	草津市	https://www.city.kusatsu.shiga.jp/	https://kanko-kusatsu.com/	本文に自治体名を確認
+252077	滋賀県	守山市	https://www.city.moriyama.lg.jp/	https://moriyamayamamori.jp/	本文に自治体名を確認
+252085	滋賀県	栗東市	https://www.city.ritto.lg.jp/	https://www.ritto-kanko.com/	本文に自治体名を確認
+252093	滋賀県	甲賀市	https://www.city.koka.lg.jp/	http://www.e-shigaraki.org/	本文に自治体名を確認
+252107	滋賀県	野洲市	https://www.city.yasu.lg.jp/	https://www.yasu-kankou.com/	本文に自治体名を確認
+252115	滋賀県	湖南市	https://www.city.shiga-konan.lg.jp/		本文に自治体名を確認
+252123	滋賀県	高島市	https://www.city.takashima.lg.jp/	https://www.takashima-kanko.jp/	本文に自治体名を確認
+252131	滋賀県	東近江市	https://www.city.higashiomi.shiga.jp/	https://www.higashiomi.net/	本文に自治体名を確認
+252140	滋賀県	米原市	https://www.city.maibara.lg.jp/	https://kitabiwako.jp/	本文に自治体名を確認
+253839	滋賀県	日野町	https://www.town.shiga-hino.lg.jp/	https://www.hino-kanko.jp/	本文に自治体名を確認
+253847	滋賀県	竜王町	https://www.town.ryuoh.shiga.jp/	https://ryuoh.org/	検索で特定 (本文に自治体名を確認)
+254258	滋賀県	愛荘町	https://www.town.aisho.shiga.jp/	https://www.aisho-kanko.com/	本文に自治体名を確認
+254410	滋賀県	豊郷町	https://www.town.toyosato.shiga.jp/	https://toyosato-kanko.jp/	本文に自治体名を確認
+254428	滋賀県	甲良町	https://www.kouratown.jp/	https://kourakankou.jp/	検索で特定 (本文に自治体名を確認)
+254436	滋賀県	多賀町	https://www.town.taga.lg.jp/	https://taga-kankou.com/	本文に自治体名を確認
+292010	奈良県	奈良市	https://www.city.nara.lg.jp/	https://narashikanko.or.jp/	本文に自治体名を確認
+292028	奈良県	大和高田市	https://www.city.yamatotakada.nara.jp/		本文に自治体名を確認
+292036	奈良県	大和郡山市	https://www.city.yamatokoriyama.lg.jp/	https://www.yk-kankou.jp/	本文に自治体名を確認
+292044	奈良県	天理市	https://www.city.tenri.nara.jp/	https://www.kanko-tenri.jp/	本文に自治体名を確認
+292052	奈良県	橿原市	https://www.city.kashihara.nara.jp/	https://www.kashihara-kanko.or.jp/	本文に自治体名を確認
+292061	奈良県	桜井市	https://www.city.sakurai.lg.jp/	https://sakuraikanko.com/	本文に自治体名を確認
+292079	奈良県	五條市	https://www.city.gojo.lg.jp/		本文に自治体名を確認
+292087	奈良県	御所市	https://www.city.gose.nara.jp/		本文に自治体名を確認
+292095	奈良県	生駒市	https://www.city.ikoma.lg.jp/	https://ikoma-kanko.jp/	本文に自治体名を確認
+292109	奈良県	香芝市	https://www.city.kashiba.lg.jp/		本文に自治体名を確認
+292117	奈良県	葛城市	https://www.city.katsuragi.nara.jp/	https://www.guidoor.jp/	本文に自治体名を確認
+292125	奈良県	宇陀市	https://www.city.uda.lg.jp/	https://www.uda-kankou.jp/	本文に自治体名を確認
+293229	奈良県	山添村	https://www.vill.yamazoe.nara.jp/	https://www.yamazoekanko.jp/	本文に自治体名を確認
+293423	奈良県	平群町	https://www.town.heguri.nara.jp/	http://kanko.town.heguri.nara.jp/	本文に自治体名を確認
+293431	奈良県	三郷町	https://www.town.sango.nara.jp/		本文に自治体名を確認
+293440	奈良県	斑鳩町	https://www.town.ikaruga.nara.jp/	http://horyuji-nara-ikaruga.jp/	本文に自治体名を確認
+293458	奈良県	安堵町	https://www.town.ando.nara.jp/		本文に自治体名を確認
+293610	奈良県	川西町	https://www.town.nara-kawanishi.lg.jp/		本文に自治体名を確認
+293628	奈良県	三宅町	https://www.town.miyake.lg.jp/		本文に自治体名を確認
+293636	奈良県	田原本町	https://www.town.tawaramoto.nara.jp/	https://tawaramoton.com/	本文に自治体名を確認
+293857	奈良県	曽爾村	https://www.vill.soni.nara.jp/		本文に自治体名を確認
+293865	奈良県	御杖村	https://www.vill.mitsue.nara.jp/	https://www.mitsue-kanko.jp/	本文に自治体名を確認
+294012	奈良県	高取町	https://www.town.takatori.nara.jp/		本文に自治体名を確認
+294021	奈良県	明日香村	https://asukamura.jp/	https://asukakyo.jp/	検索で特定 (本文に自治体名を確認)
+294241	奈良県	上牧町	https://www.town.kanmaki.nara.jp/		検索で特定 (本文に自治体名を確認)
+294250	奈良県	王寺町	https://www.town.oji.nara.jp/	https://home.oji-kanko.kokosil.net/	本文に自治体名を確認
+294268	奈良県	広陵町	https://www.town.koryo.nara.jp/		本文に自治体名を確認
+294276	奈良県	河合町	https://www.town.kawai.nara.jp/		本文に自治体名を確認
+294411	奈良県	吉野町	https://www.town.yoshino.nara.jp/	https://yoshinoyama-kankou.com/	本文に自治体名を確認
+294420	奈良県	大淀町	https://www.town.oyodo.lg.jp/		本文に自治体名を確認
+294438	奈良県	下市町	https://www.town.shimoichi.lg.jp/		本文に自治体名を確認
+294446	奈良県	黒滝村	https://www.vill.kurotaki.nara.jp/		本文に自治体名を確認
+294462	奈良県	天川村	https://www.vill.tenkawa.nara.jp/	http://www.dorogawaonsen.jp/	本文に自治体名を確認
+294471	奈良県	野迫川村	https://www.vill.nosegawa.nara.jp/		本文に自治体名を確認
+294497	奈良県	十津川村	https://www.vill.totsukawa.lg.jp/	http://totsukawa.info/	本文に自治体名を確認
+294501	奈良県	下北山村	https://www.vill.shimokitayama.nara.jp/		本文に自治体名を確認
+294519	奈良県	上北山村	https://www.vill.kamikitayama.nara.jp/		本文に自治体名を確認
+294527	奈良県	川上村	https://www.vill.kawakami.nara.jp/	https://g-tourism.jp/	本文に自治体名を確認
+294535	奈良県	東吉野村	https://vill.higashiyoshino.nara.jp/	http://higashiyoshino.com/	本文に自治体名を確認
 302015	和歌山県	和歌山市	https://www.city.wakayama.wakayama.jp/	https://www.wakayamakanko.jp/	本文に自治体名を確認
 302023	和歌山県	海南市	https://www.city.kainan.lg.jp/	http://www.kainankanko.com/	本文に自治体名を確認
 302031	和歌山県	橋本市	https://www.city.hashimoto.lg.jp/	https://hashimoto-tourism.com/	本文に自治体名を確認
