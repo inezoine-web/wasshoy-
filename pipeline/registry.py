@@ -162,6 +162,7 @@ _PREF_DOMAIN_OVERRIDE = {
     "東京都": "tokyo",
     "京都府": "kyoto",
     "大阪府": "osaka",
+    "群馬県": "gunma",  # ローマ字化は gumma になるがドメインは gunma
 }
 
 _TYPE_LABEL = {"市": "city", "区": "city", "町": "town", "村": "vill"}
@@ -177,8 +178,16 @@ def romaji_variants(romaji: str) -> list[str]:
     """
     variants = [romaji]
     contracted = re.sub(r"i(y[auo])", r"\1", romaji)  # riyuu -> ryuu
+    # shi/chi/ji + 拗音は y が入らない (中之条 ナカノジヨウ -> nakanojiyo -> nakanojo)
+    contracted = re.sub(r"(sh|ch|j)y", r"\1", contracted)
     if contracted != romaji:
         variants.append(contracted)
+    # ヘボン式は b/m/p の前の「ン」を m と書くが、ドメインは n が多い
+    # (群馬 gunma, 南部 nanbu)。
+    for base in list(variants):
+        nasal = re.sub(r"m(?=[bmp])", "n", base)
+        if nasal != base:
+            variants.append(nasal)
     for base in list(variants):
         collapsed = re.sub(r"([aiueo])\1", r"\1", base)
         if collapsed != base:
@@ -231,6 +240,9 @@ def candidate_domains(muni_romaji: str, muni_type: str, pref_romaji: str) -> lis
         ):
             if pref_romaji or ".lg.jp" in host:
                 urls.append(f"https://{host}/")
+    # https に対応していない村役場がまだある (道志村・小菅村)。
+    # 全候補を https で試した後に http で試す。
+    urls += [u.replace("https://", "http://", 1) for u in list(urls)]
     # 重複除去 (順序は維持)
     seen: set[str] = set()
     return [u for u in urls if not (u in seen or seen.add(u))]

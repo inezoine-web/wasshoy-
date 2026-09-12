@@ -45,6 +45,18 @@ DEFAULT_TIMEOUT = 20
 
 
 def build_ssl_context() -> ssl.SSLContext:
+    ctx = _build_ssl_context_with_ca()
+    # OpenSSL 3 の既定セキュリティレベル (2) では、古い自治体サーバが
+    # 「insufficient security」で握手を拒む (富岡市 www.city.tomioka.lg.jp)。
+    # 鍵長 1024bit 級まで許すレベル 1 に下げる。証明書検証は変えない。
+    try:
+        ctx.set_ciphers("DEFAULT:@SECLEVEL=1")
+    except ssl.SSLError:
+        pass
+    return ctx
+
+
+def _build_ssl_context_with_ca() -> ssl.SSLContext:
     """CAバンドルを明示的に解決する。
 
     このWindows環境では既定の CA ストア

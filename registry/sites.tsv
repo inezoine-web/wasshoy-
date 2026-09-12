@@ -68,17 +68,41 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 093866	栃木県	高根沢町	https://www.town.takanezawa.tochigi.jp/		本文に自治体名を確認
 094072	栃木県	那須町	https://www.town.nasu.lg.jp/	http://www.nasukogen.org/	本文に自治体名を確認
 094111	栃木県	那珂川町	https://www.town.tochigi-nakagawa.lg.jp/	https://nakagawamachi-kanko.org/	本文に自治体名を確認
-102016	群馬県	前橋市			候補URLがすべて外れ
-102024	群馬県	高崎市			候補URLがすべて外れ
+102016	群馬県	前橋市	https://www.city.maebashi.gunma.jp/	http://www.maebashi-cvb.com/	本文に自治体名を確認
+102024	群馬県	高崎市	https://www.city.takasaki.gunma.jp/		本文に自治体名を確認
 102032	群馬県	桐生市	https://www.city.kiryu.lg.jp/	http://kiryu-walker.net/	本文に自治体名を確認
 102041	群馬県	伊勢崎市	https://www.city.isesaki.lg.jp/	https://isesaki-kankou.com/	本文に自治体名を確認
-102059	群馬県	太田市		https://www.ota-kanko.jp/	候補URLがすべて外れ
-102067	群馬県	沼田市		https://www.numata-kankou.jp/	候補URLがすべて外れ
-102075	群馬県	館林市			候補URLがすべて外れ
+102059	群馬県	太田市	https://www.city.ota.gunma.jp/	https://www.ota-kanko.jp/	本文に自治体名を確認
+102067	群馬県	沼田市	https://www.city.numata.gunma.jp/	https://www.numata-kankou.jp/	本文に自治体名を確認
+102075	群馬県	館林市	https://www.city.tatebayashi.gunma.jp/	https://www.utyututuji.jp/	本文に自治体名を確認
 102083	群馬県	渋川市	https://www.city.shibukawa.lg.jp/	https://www.ikaho-kankou.com/	本文に自治体名を確認
-102091	群馬県	藤岡市		https://www.fujioka-kanko.net/	候補URLがすべて外れ
-102105	群馬県	富岡市			候補URLがすべて外れ
+102091	群馬県	藤岡市	https://www.city.fujioka.gunma.jp/	https://www.fujioka-kanko.net/	本文に自治体名を確認
+102105	群馬県	富岡市	https://www.city.tomioka.lg.jp/		検索で特定 (本文に自治体名を確認)
 102113	群馬県	安中市	https://www.city.annaka.lg.jp/		本文に自治体名を確認
+102121	群馬県	みどり市	https://www.city.midori.gunma.jp/		本文に自治体名を確認
+103446	群馬県	榛東村	https://www.vill.shinto.gunma.jp/		本文に自治体名を確認
+103454	群馬県	吉岡町	https://www.town.yoshioka.lg.jp/		本文に自治体名を確認
+103667	群馬県	上野村	https://www.uenomura.jp/	http://nishi-josyu.com/	検索で特定 (本文に自治体名を確認)
+103675	群馬県	神流町	https://www.town.kanna.gunma.jp/		本文に自治体名を確認
+103829	群馬県	下仁田町	https://www.town.shimonita.lg.jp/	http://kanko.shimonita.jp/	本文に自治体名を確認
+103837	群馬県	南牧村	https://nanmoku.ne.jp/	https://www.nanmoku-kankoukyoukai.com/	検索で特定 (本文に自治体名を確認)
+103845	群馬県	甘楽町	https://www.town.kanra.lg.jp/	https://ittenbe.jp/	本文に自治体名を確認
+104213	群馬県	中之条町	https://www.town.nakanojo.gunma.jp/	https://nakanojo-kanko.jp/	検索で特定 (本文に自治体名を確認)
+104248	群馬県	長野原町	https://www.town.naganohara.gunma.jp/	https://naganohara.com/	本文に自治体名を確認
+104256	群馬県	嬬恋村	https://www.vill.tsumagoi.gunma.jp/	https://www.tsumagoi-kankou.jp/	本文に自治体名を確認
+104264	群馬県	草津町	https://www.town.kusatsu.gunma.jp/	https://www.kusatsu-onsen.ne.jp/	本文に自治体名を確認
+104281	群馬県	高山村	https://www.vill.takayama.gunma.jp/	https://www.takayama-kanko.jp/	本文に自治体名を確認
+104299	群馬県	東吾妻町	https://www.town.higashiagatsuma.gunma.jp/		本文に自治体名を確認
+104434	群馬県	片品村	https://www.vill.katashina.gunma.jp/	https://oze-katashina.info/	本文に自治体名を確認
+104442	群馬県	川場村	https://www.vill.kawaba.gunma.jp/	https://kanko.vill.kawaba.gunma.jp/	本文に自治体名を確認
+104485	群馬県	昭和村	https://www.vill.showa.gunma.jp/	https://www.showakanko.or.jp/	本文に自治体名を確認
+104493	群馬県	みなかみ町	https://www.town.minakami.gunma.jp/		本文に自治体名を確認
+104647	群馬県	玉村町	https://www.town.tamamura.lg.jp/		本文に自治体名を確認
+105210	群馬県	板倉町	https://www.town.itakura.gunma.jp/		本文に自治体名を確認
+105228	群馬県	明和町	https://www.town.meiwa.gunma.jp/	http://www.meiwa-kanko.jp/	本文に自治体名を確認
+105236	群馬県	千代田町	https://www.town.chiyoda.gunma.jp/		本文に自治体名を確認
+105244	群馬県	大泉町	https://www.town.oizumi.gunma.jp/		本文に自治体名を確認
+105252	群馬県	邑楽町	https://www.town.ora.gunma.jp/		本文に自治体名を確認
 111007	埼玉県	さいたま市	https://www.city.saitama.lg.jp/	https://visitsaitamacity.jp/	本文に自治体名を確認
 112011	埼玉県	川越市	https://www.city.kawagoe.saitama.jp/	https://koedo.or.jp/	本文に自治体名を確認
 112020	埼玉県	熊谷市	https://www.city.kumagaya.lg.jp/	https://www.oideyo-kumagaya.com/	本文に自治体名を確認
@@ -308,6 +332,110 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 184811	福井県	高浜町	https://www.town.takahama.fukui.jp/		本文に自治体名を確認
 184837	福井県	おおい町	https://www.town.ohi.fukui.jp/	https://uminpia-ohi.com/	検索で特定 (本文に自治体名を確認)
 185019	福井県	若狭町	https://www.town.fukui-wakasa.lg.jp/		本文に自治体名を確認
+192015	山梨県	甲府市	https://www.city.kofu.yamanashi.jp/	https://kofu-tourism.com/	本文に自治体名を確認
+192023	山梨県	富士吉田市	https://www.city.fujiyoshida.yamanashi.jp/	https://www.fujiyoshida-kanko.net/	本文に自治体名を確認
+192040	山梨県	都留市	https://www.city.tsuru.yamanashi.jp/	http://www.tsuru-kankou.com/	本文に自治体名を確認
+192058	山梨県	山梨市	https://www.city.yamanashi.yamanashi.jp/	https://www.yamanashishi-kankou.com/	本文に自治体名を確認
+192066	山梨県	大月市	https://www.city.otsuki.yamanashi.jp/		本文に自治体名を確認
+192074	山梨県	韮崎市	https://www.city.nirasaki.lg.jp/	http://www.nirasaki-kankou.jp/	本文に自治体名を確認
+192082	山梨県	南アルプス市			候補URLがすべて外れ
+192091	山梨県	北杜市	https://www.city.hokuto.yamanashi.jp/	https://www.hokuto-kanko.jp/	本文に自治体名を確認
+192104	山梨県	甲斐市	https://www.city.kai.yamanashi.jp/		本文に自治体名を確認
+192112	山梨県	笛吹市	https://www.city.fuefuki.yamanashi.jp/	https://www.fuefuki-kanko.jp/	本文に自治体名を確認
+192121	山梨県	上野原市	https://www.city.uenohara.yamanashi.jp/	https://www.uenohara-kankou.com/	本文に自治体名を確認
+192139	山梨県	甲州市	https://www.city.koshu.yamanashi.jp/	https://www.koshu-kankou.jp/	本文に自治体名を確認
+192147	山梨県	中央市	https://www.city.chuo.lg.jp/	https://www.chuo-kanko.or.jp/	本文に自治体名(接尾辞なし)を確認
+193461	山梨県	市川三郷町	https://www.town.ichikawamisato.yamanashi.jp/		本文に自治体名を確認
+193640	山梨県	早川町	https://www.town.hayakawa.yamanashi.jp/	https://hayakawakankou.jp/	本文に自治体名を確認
+193658	山梨県	身延町	https://www.town.minobu.lg.jp/	https://www.minobu.info/	本文に自治体名を確認
+193666	山梨県	南部町			候補URLがすべて外れ
+193682	山梨県	富士川町	https://www.town.fujikawa.yamanashi.jp/		本文に自治体名を確認
+193844	山梨県	昭和町	https://www.town.showa.yamanashi.jp/	https://www.yamanashi-kankou.jp/	本文に自治体名を確認
+194221	山梨県	道志村		https://www.doshi-kanko.jp/	候補URLがすべて外れ
+194239	山梨県	西桂町	https://www.town.nishikatsura.yamanashi.jp/		本文に自治体名を確認
+194247	山梨県	忍野村	https://www.vill.oshino.lg.jp/	https://oshino-navi.com/	本文に自治体名を確認
+194255	山梨県	山中湖村	https://www.vill.yamanakako.lg.jp/		本文に自治体名を確認
+194298	山梨県	鳴沢村	https://www.vill.narusawa.yamanashi.jp/	https://www.narusawa-kanko.jp/	本文に自治体名を確認
+194301	山梨県	富士河口湖町	https://www.town.fujikawaguchiko.lg.jp/	https://fujisan.ne.jp/	本文に自治体名を確認
+194425	山梨県	小菅村			候補URLがすべて外れ
+194433	山梨県	丹波山村	https://www.vill.tabayama.yamanashi.jp/	http://ta-kankoukyoukai.com/	本文に自治体名を確認
+202011	長野県	長野市	https://www.city.nagano.nagano.jp/		本文に自治体名を確認
+202029	長野県	松本市	https://www.city.matsumoto.nagano.jp/		本文に自治体名を確認
+202037	長野県	上田市	https://www.city.ueda.nagano.jp/	https://ueda-kanko.or.jp/	本文に自治体名を確認
+202045	長野県	岡谷市	https://www.city.okaya.lg.jp/	http://www.kanko-okaya.jp/	本文に自治体名を確認
+202053	長野県	飯田市	https://www.city.iida.lg.jp/	https://msnav.com/	本文に自治体名を確認
+202061	長野県	諏訪市	https://www.city.suwa.lg.jp/	https://www.suwakanko.jp/	本文に自治体名を確認
+202070	長野県	須坂市	https://www.city.suzaka.nagano.jp/	https://www.suzaka-kankokyokai.jp/	本文に自治体名を確認
+202088	長野県	小諸市	https://www.city.komoro.lg.jp/	https://www.komoro-tour.jp/	本文に自治体名を確認
+202096	長野県	伊那市			候補URLがすべて外れ
+202100	長野県	駒ヶ根市	https://www.city.komagane.nagano.jp/	http://www.kankou-komagane.com/	本文に自治体名を確認
+202118	長野県	中野市	https://www.city.nakano.nagano.jp/	http://www.nakanokanko.jp/	本文に自治体名を確認
+202126	長野県	大町市	https://www.city.omachi.nagano.jp/	https://kanko-omachi.gr.jp/	本文に自治体名を確認
+202134	長野県	飯山市	https://www.city.iiyama.nagano.jp/	http://www.iiyama-ouendan.net/	本文に自治体名を確認
+202142	長野県	茅野市	https://www.city.chino.lg.jp/		本文に自治体名を確認
+202151	長野県	塩尻市	https://www.city.shiojiri.lg.jp/		本文に自治体名を確認
+202177	長野県	佐久市	https://www.city.saku.nagano.jp/	https://www.sakukankou.jp/	本文に自治体名を確認
+202185	長野県	千曲市	https://www.city.chikuma.lg.jp/	https://chikuma-kanko.com/	本文に自治体名を確認
+202193	長野県	東御市	https://www.city.tomi.nagano.jp/	http://www.tomikan.jp/	本文に自治体名を確認
+202207	長野県	安曇野市	https://www.city.azumino.nagano.jp/		本文に自治体名を確認
+203033	長野県	小海町			候補URLがすべて外れ
+203041	長野県	川上村	https://www.vill.kawakami.nagano.jp/		本文に自治体名を確認
+203050	長野県	南牧村			候補URLがすべて外れ
+203068	長野県	南相木村			候補URLがすべて外れ
+203076	長野県	北相木村			候補URLがすべて外れ
+203092	長野県	佐久穂町	https://www.town.sakuho.nagano.jp/	https://yachiho-kogen.jp/	本文に自治体名を確認
+203211	長野県	軽井沢町	https://www.town.karuizawa.lg.jp/	https://karuizawa-kanko.jp/	本文に自治体名を確認
+203238	長野県	御代田町	https://www.town.miyota.nagano.jp/		本文に自治体名を確認
+203246	長野県	立科町	https://www.town.tateshina.nagano.jp/	http://shirakabakogen.jp/	本文に自治体名を確認
+203491	長野県	青木村	https://www.vill.aoki.nagano.jp/		本文に自治体名を確認
+203505	長野県	長和町	https://www.town.nagawa.nagano.jp/	https://www.nagawa.info/	本文に自治体名を確認
+203611	長野県	下諏訪町	https://www.town.shimosuwa.lg.jp/		本文に自治体名を確認
+203629	長野県	富士見町	https://www.town.fujimi.lg.jp/	https://www.suwa-tourism.jp/	本文に自治体名を確認
+203637	長野県	原村	https://www.vill.hara.lg.jp/		本文に自治体名を確認
+203823	長野県	辰野町	https://www.town.tatsuno.lg.jp/		本文に自治体名を確認
+203831	長野県	箕輪町	https://www.town.minowa.lg.jp/	https://www.minowa-town.jp/	本文に自治体名を確認
+203840	長野県	飯島町	https://www.town.iijima.lg.jp/	https://iju.go-iijima.nagano.jp/	本文に自治体名を確認
+203858	長野県	南箕輪村	https://www.vill.minamiminowa.lg.jp/	http://kankou-minamiminowa.nagano.jp/	本文に自治体名を確認
+203866	長野県	中川村	https://www.vill.nakagawa.nagano.jp/		本文に自治体名を確認
+203882	長野県	宮田村	https://www.vill.miyada.nagano.jp/		本文に自治体名を確認
+204021	長野県	松川町	https://www.town.matsukawa.lg.jp/	https://dansuki.jp/	本文に自治体名を確認
+204030	長野県	高森町	https://www.town.nagano-takamori.lg.jp/		本文に自治体名を確認
+204048	長野県	阿南町			候補URLがすべて外れ
+204072	長野県	阿智村	https://www.vill.achi.lg.jp/	http://hirugamionsen.jp/	本文に自治体名を確認
+204099	長野県	平谷村			候補URLがすべて外れ
+204102	長野県	根羽村			候補URLがすべて外れ
+204111	長野県	下條村		https://www.shimojo-kanko.jp/	候補URLがすべて外れ
+204129	長野県	売木村			候補URLがすべて外れ
+204137	長野県	天龍村			候補URLがすべて外れ
+204145	長野県	泰阜村	https://www.vill.yasuoka.nagano.jp/		本文に自治体名を確認
+204153	長野県	喬木村	https://www.vill.takagi.lg.jp/		本文に自治体名を確認
+204161	長野県	豊丘村	https://www.vill.nagano-toyooka.lg.jp/	https://www.vill-nagano-toyooka-kanko.jp/	本文に自治体名を確認
+204170	長野県	大鹿村			候補URLがすべて外れ
+204226	長野県	上松町	https://www.town.agematsu.nagano.jp/		本文に自治体名を確認
+204234	長野県	南木曽町	https://www.town.nagiso.nagano.jp/		本文に自治体名を確認
+204251	長野県	木祖村	https://www.vill.kiso.nagano.jp/	https://www.kisotourism.com/	本文に自治体名を確認
+204293	長野県	王滝村	https://www.vill.otaki.nagano.jp/		本文に自治体名を確認
+204307	長野県	大桑村	https://www.vill.okuwa.lg.jp/		本文に自治体名を確認
+204323	長野県	木曽町		https://www.kankou-kiso.com/	候補URLがすべて外れ
+204463	長野県	麻績村	https://www.vill.omi.nagano.jp/	https://www.go-nagano.net/	本文に自治体名を確認
+204480	長野県	生坂村			候補URLがすべて外れ
+204501	長野県	山形村	https://www.vill.yamagata.nagano.jp/		本文に自治体名を確認
+204510	長野県	朝日村	https://www.vill.asahi.nagano.jp/	https://asahi-taiken.com/	本文に自治体名を確認
+204528	長野県	筑北村	https://www.vill.chikuhoku.lg.jp/		本文に自治体名を確認
+204811	長野県	池田町		https://www.ikeda-kanko.jp/	候補URLがすべて外れ
+204820	長野県	松川村	https://www.vill.matsukawa.nagano.jp/	https://www.matsukawamura.com/	本文に自治体名を確認
+204854	長野県	白馬村	https://www.vill.hakuba.lg.jp/	https://vill-hakuba.nagano.jp/	本文に自治体名を確認
+204862	長野県	小谷村	https://www.vill.otari.nagano.jp/	https://info-otari.jp/	本文に自治体名を確認
+205214	長野県	坂城町	https://www.town.sakaki.nagano.jp/	http://www.sakaki-kanko.com/	本文に自治体名を確認
+205419	長野県	小布施町	https://www.town.obuse.nagano.jp/	https://www.obusekanko.jp/	本文に自治体名を確認
+205435	長野県	高山村	https://www.vill.takayama.nagano.jp/	http://shinshu-takayama-onsenkyo.com/	本文に自治体名を確認
+205613	長野県	山ノ内町			候補URLがすべて外れ
+205621	長野県	木島平村	https://www.vill.kijimadaira.lg.jp/		本文に自治体名を確認
+205630	長野県	野沢温泉村	https://www.vill.nozawaonsen.nagano.jp/	https://nozawakanko.jp/	本文に自治体名を確認
+205834	長野県	信濃町	https://www.town.shinano.lg.jp/		本文に自治体名を確認
+205885	長野県	小川村	https://www.vill.ogawa.nagano.jp/		本文に自治体名を確認
+205907	長野県	飯綱町	https://www.town.iizuna.nagano.jp/	http://1127.info/	本文に自治体名を確認
+206024	長野県	栄村			候補URLがすべて外れ
 212016	岐阜県	岐阜市	https://www.city.gifu.lg.jp/	https://www.gifucvb.or.jp/	本文に自治体名を確認
 212024	岐阜県	大垣市	https://www.city.ogaki.lg.jp/	http://www.ogakikanko.jp/	本文に自治体名を確認
 212032	岐阜県	高山市	https://www.city.takayama.lg.jp/	https://www.hidatakayama.or.jp/	本文に自治体名を確認
