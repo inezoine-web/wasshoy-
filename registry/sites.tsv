@@ -315,6 +315,33 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 143847	神奈川県	湯河原町	https://www.town.yugawara.kanagawa.jp/		本文に自治体名を確認
 144011	神奈川県	愛川町	https://www.town.aikawa.kanagawa.jp/		本文に自治体名を確認
 144029	神奈川県	清川村			候補URLがすべて外れ
+151009	新潟県	新潟市	https://www.city.niigata.lg.jp/	https://www.nvcb.or.jp/	本文に自治体名を確認
+152021	新潟県	長岡市	https://www.city.nagaoka.niigata.jp/		本文に自治体名を確認
+152048	新潟県	三条市	https://www.city.sanjo.niigata.jp/		本文に自治体名を確認
+152056	新潟県	柏崎市	https://www.city.kashiwazaki.lg.jp/		本文に自治体名を確認
+152064	新潟県	新発田市	https://www.city.shibata.lg.jp/		本文に自治体名を確認
+152081	新潟県	小千谷市	https://www.city.ojiya.niigata.jp/	http://www.ojiyakanko.com/	本文に自治体名を確認
+152099	新潟県	加茂市	https://www.city.kamo.niigata.jp/	https://kamo-tourism.com/	本文に自治体名を確認
+152102	新潟県	十日町市	https://www.city.tokamachi.lg.jp/	https://www.tokamachishikankou.jp/	本文に自治体名を確認
+152111	新潟県	見附市	https://www.city.mitsuke.niigata.jp/		本文に自治体名を確認
+152129	新潟県	村上市	https://www.city.murakami.lg.jp/	https://www.sake3.com/	本文に自治体名を確認
+152137	新潟県	燕市	https://www.city.tsubame.niigata.jp/	https://tsubame-kankou.jp/	本文に自治体名を確認
+152161	新潟県	糸魚川市	https://www.city.itoigawa.lg.jp/	https://www.itoigawa-kanko.com/	本文に自治体名を確認
+152170	新潟県	妙高市	https://www.city.myoko.niigata.jp/	https://myokotourism.jp/	本文に自治体名を確認
+152188	新潟県	五泉市	https://www.city.gosen.lg.jp/	http://www.gosen-kankou.niigata.jp/	本文に自治体名を確認
+152226	新潟県	上越市	https://www.city.joetsu.niigata.jp/	https://joetsukankonavi.jp/	本文に自治体名を確認
+152234	新潟県	阿賀野市	https://www.city.agano.niigata.jp/	https://agano-spot.com/	本文に自治体名を確認
+152242	新潟県	佐渡市	https://www.city.sado.niigata.jp/		本文に自治体名を確認
+152251	新潟県	魚沼市	https://www.city.uonuma.lg.jp/		本文に自治体名を確認
+152269	新潟県	南魚沼市	https://www.city.minamiuonuma.niigata.jp/	https://m-uonuma.jp/	本文に自治体名を確認
+152277	新潟県	胎内市	https://www.city.tainai.niigata.jp/		本文に自治体名を確認
+153079	新潟県	聖籠町	https://www.town.seiro.niigata.jp/	https://seiro-kanko.jp/	本文に自治体名を確認
+153427	新潟県	弥彦村	https://www.vill.yahiko.niigata.jp/	https://www.e-yahiko.com/	本文に自治体名を確認
+153613	新潟県	田上町	https://www.town.tagami.niigata.jp/		本文に自治体名を確認
+153851	新潟県	阿賀町	https://www.town.aga.niigata.jp/		本文に自治体名を確認
+154059	新潟県	出雲崎町	https://www.town.izumozaki.niigata.jp/	http://www.izumozaki.net/	本文に自治体名を確認
+154610	新潟県	湯沢町	https://www.town.yuzawa.lg.jp/	https://www.e-yuzawa.gr.jp/	本文に自治体名を確認
+154822	新潟県	津南町	https://www.town.tsunan.niigata.jp/		本文に自治体名を確認
 182010	福井県	福井市	https://www.city.fukui.lg.jp/		本文に自治体名を確認
 182028	福井県	敦賀市	https://www.city.tsuruga.lg.jp/	https://tsuruga-kanko.jp/	本文に自治体名を確認
 182044	福井県	小浜市	https://www1.city.obama.fukui.jp/	https://www.wakasa-obama.jp/	検索で特定 (本文に自治体名を確認)

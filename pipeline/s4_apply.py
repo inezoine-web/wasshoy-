@@ -117,6 +117,9 @@ def load_verdicts() -> tuple[dict[str, dict[str, str]], list[str]]:
 # つかないが、S4で keep と判定できた後なら機械的に落とせる。
 # 落とした元の名称は aliases に残すので情報は失われない。
 _NAME_FIXES: list[tuple[re.Pattern[str], str]] = [
+    # プログラム表由来の先頭の時刻「13:30～14:00 」「19：45 」。読みには入らないので
+    # IDは変わらない。公開データで8件 (岡崎市の田遊祭の次第、白馬村の演目表)。
+    (re.compile(r"^\d{1,2}[:：]\d{2}(?:\s*[～〜~-]\s*(?:\d{1,2}[:：]\d{2})?)?\s*"), ""),
     # 「新しい投稿 …」「NEW! F …」のような投稿ナビの語
     (re.compile(r"^(?:新しい投稿|古い投稿|NEW!\s*\S?)\s*"), ""),
     # 紹介文「○月の鍬形祭り」から切り出すと先頭に「の」が残る。
@@ -172,6 +175,9 @@ _NAME_FIXES: list[tuple[re.Pattern[str], str]] = [
 # 「保存会」は行事そのものではないが行事の存在を示す。名称からは落として
 # 行事名に寄せ、元の名称は aliases に残す (ユーザーの判断)。
 _ORG_SUFFIX = re.compile(r"(?:保存|連合|振興)?(?:保存会|連合会|振興会|会)$")
+# 判定理由に関わらず団体名と見なす接尾辞 (「会」単独は花火大会を壊すので含めない)
+_PRESERVATION_SUFFIX = re.compile(r"(?:保存会|愛好会|同好会|連合会|振興会)$")
+_PRESERVATION_READING = re.compile(r"(?:ほぞんかい|あいこうかい|どうこうかい|れんごうかい|しんこうかい)$")
 
 
 def clean_display_name(name: str, is_organization: bool) -> str:
@@ -453,9 +459,14 @@ def main(argv: list[str] | None = None) -> int:
         row["s4_reason"] = v.get("reason", "")
         row["s4_alias_of"] = v.get("alias_of", "")
         if verdict == "keep":
-            cleaned = clean_display_name(
-                row["name"], v.get("reason") == "organization"
+            # 「〜保存会」は判定理由が shrine/folk でも団体名。名称と読みの
+            # 両方から落とす (長野市の民俗芸能一覧で88件が団体名のまま入っていた)。
+            is_org = v.get("reason") == "organization" or bool(
+                _PRESERVATION_SUFFIX.search(row["name"])
             )
+            cleaned = clean_display_name(row["name"], is_org)
+            if is_org and cleaned != row["name"]:
+                row["_reading"] = _PRESERVATION_READING.sub("", row["_reading"])
             if cleaned != row["name"]:
                 aliases = [a for a in row.get("aliases", "").split("|") if a]
                 if row["name"] not in aliases:
