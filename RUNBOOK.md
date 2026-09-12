@@ -187,6 +187,7 @@ inline JS と CSS が本文を埋めるため、script/style/nav を落として
 | S4 | `s4_prepare.py` / `s4_apply.py` | 不要 | **要** | 対象/対象外の判断、別名統合、所在の帰属、読み。**AIが要るのはここだけ** |
 | S4b | `s4_readings.py` | 不要 | **要** | keep なのに読みが無い行だけを聞き直す (IDがハッシュ採番になるのを防ぐ) |
 | S5 | `merge.py` | 不要 | 不要 | `data/festivals.json` へマージ。**既存データを読んでよいのはここと `evaluate.py` だけ** |
+| S5c | `rename.py` / `dedupe.py` / `prune.py` | 不要 | 不要 | 公開データの整理。名称規則の遡及適用、同一市町村の重複統合、名前でないものの除去 |
 | S6 | `evaluate.py` | 不要 | 不要 | 凍結ベンチマークとの突合 |
 | S6b | `novelty.py` | 不要 | 不要 | **新規性**の測定。既存データにもWikipediaにも無い件数 |
 
@@ -246,6 +247,14 @@ python pipeline/s4_apply.py --prefecture 茨城県   # 適用し直す
 # S5: マージ (既存を入れ替える場合は --replace)
 python pipeline/merge.py --prefecture 茨城県 --replace --dry-run   # まず確認
 python pipeline/merge.py --prefecture 茨城県 --replace
+
+# S5c: 公開データの整理 (規則を足したとき・県をいくつか足したときに)
+python pipeline/rename.py --dry-run     # s4_apply.clean_display_name を全県に遡及 (IDは変えない)
+python pipeline/rename.py
+python pipeline/dedupe.py               # 同一市町村・同一 dedup_key の重複を統合
+python pipeline/dedupe.py --strong      # 年・回・日付・指定ラベル・保存会の差だけの重複も統合
+python pipeline/prune.py                # extract.NOT_A_NAME に当たる名前を外す
+#   2026-09-12 の初回: 名称整形 1,517 件、重複統合 204 組、除去 47 件 (14,716 -> 14,432)
 
 # S6: 評価 (ベンチマークのある都道府県のみ)
 python pipeline/evaluate.py --benchmark benchmarks/ibaraki-2026-09-06
