@@ -1,4 +1,49 @@
 code	prefecture	municipality	official_url	tourism_url	resolved
+072010	福島県	福島市	https://www.city.fukushima.fukushima.jp/	https://www.f-kankou.jp/	本文に自治体名を確認
+072028	福島県	会津若松市	https://www.city.aizuwakamatsu.fukushima.jp/		本文に自治体名を確認
+072036	福島県	郡山市	https://www.city.koriyama.lg.jp/	https://www.kanko-koriyama.gr.jp/	本文に自治体名を確認
+072044	福島県	いわき市	https://www.city.iwaki.lg.jp/	https://kankou-iwaki.or.jp/	本文に自治体名を確認
+072052	福島県	白河市	https://www.city.shirakawa.fukushima.jp/	https://shirakawa315.com/	本文に自治体名を確認
+072079	福島県	須賀川市	https://www.city.sukagawa.fukushima.jp/	https://sukagawakanko.shop-pro.jp/	本文に自治体名を確認
+072087	福島県	喜多方市	https://www.city.kitakata.fukushima.jp/	https://www.kitakata-kanko.jp/	本文に自治体名を確認
+072095	福島県	相馬市	https://www.city.soma.fukushima.jp/	http://soma-kanko.jp/	本文に自治体名を確認
+072109	福島県	二本松市	https://www.city.nihonmatsu.lg.jp/	http://www.nihonmatsu-kanko.jp/	本文に自治体名を確認
+072117	福島県	田村市	https://www.city.tamura.lg.jp/		本文に自治体名を確認
+072125	福島県	南相馬市	https://www.city.minamisoma.lg.jp/	https://odaka6014.jp/	本文に自治体名を確認
+072133	福島県	伊達市	https://www.city.fukushima-date.lg.jp/	https://dateshikankou.jp/	本文に自治体名を確認
+072141	福島県	本宮市	https://www.city.motomiya.lg.jp/		本文に自治体名を確認
+073016	福島県	桑折町	https://www.town.koori.fukushima.jp/		本文に自治体名を確認
+073032	福島県	国見町	https://www.town.kunimi.fukushima.jp/		本文に自治体名を確認
+073083	福島県	川俣町	https://www.town.kawamata.lg.jp/		本文に自治体名を確認
+073229	福島県	大玉村	https://www.vill.otama.fukushima.jp/		本文に自治体名を確認
+073423	福島県	鏡石町	https://www.town.kagamiishi.fukushima.jp/	http://www.kagamiishi-kanko.jp/	本文に自治体名を確認
+073440	福島県	天栄村	https://www.vill.tenei.fukushima.jp/	http://www.ten-ei.net/	本文に自治体名を確認
+073628	福島県	下郷町	https://www.town.shimogo.fukushima.jp/	http://shimogo.jp/	本文に自治体名を確認
+073644	福島県	檜枝岐村	https://www.vill.hinoemata.lg.jp/	http://www.oze-info.jp/	本文に自治体名を確認
+073679	福島県	只見町	https://www.town.tadami.lg.jp/	https://www.tadami-net.com/	本文に自治体名を確認
+073687	福島県	南会津町	https://www.town.minamiaizu.lg.jp/		本文に自治体名を確認
+074021	福島県	北塩原村	https://www.vill.kitashiobara.fukushima.jp/	https://www.urabandai-inf.com/	本文に自治体名を確認
+074055	福島県	西会津町	https://www.town.nishiaizu.fukushima.jp/	http://nishiaizu-kanko.org/	本文に自治体名を確認
+074071	福島県	磐梯町	https://www.town.bandai.fukushima.jp/	https://kankou.aizubandai.jp/	本文に自治体名を確認
+074080	福島県	猪苗代町	https://www.town.inawashiro.fukushima.jp/	https://www.bandaisan.or.jp/	本文に自治体名を確認
+074217	福島県	会津坂下町	https://www.town.aizubange.fukushima.jp/		本文に自治体名を確認
+074225	福島県	湯川村	https://www.vill.yugawa.fukushima.jp/		本文に自治体名を確認
+074233	福島県	柳津町	https://www.town.yanaizu.fukushima.jp/		本文に自治体名を確認
+074446	福島県	三島町	https://www.town.mishima.fukushima.jp/		本文に自治体名を確認
+074454	福島県	金山町	https://www.town.kaneyama.fukushima.jp/		本文に自治体名を確認
+074462	福島県	昭和村	https://www.vill.showa.fukushima.jp/	https://showakanko.or.jp/	本文に自治体名を確認
+074471	福島県	会津美里町	https://www.town.aizumisato.fukushima.jp/		本文に自治体名を確認
+074616	福島県	西郷村	https://www.vill.nishigo.fukushima.jp/	https://www.nishigo-kankou.jp/	本文に自治体名を確認
+074641	福島県	泉崎村	https://www.vill.izumizaki.fukushima.jp/		本文に自治体名を確認
+074659	福島県	中島村			候補URLがすべて外れ
+074667	福島県	矢吹町	https://www.town.yabuki.fukushima.jp/		本文に自治体名を確認
+074811	福島県	棚倉町	https://www.town.tanagura.fukushima.jp/		本文に自治体名を確認
+074829	福島県	矢祭町	https://www.town.yamatsuri.fukushima.jp/		本文に自治体名を確認
+074837	福島県	塙町	https://www.town.hanawa.fukushima.jp/	https://www.kanko-hanawa.com/	本文に自治体名を確認
+074845	福島県	鮫川村	https://www.vill.samegawa.fukushima.jp/		本文に自治体名を確認
+075019	福島県	石川町	https://www.town.ishikawa.fukushima.jp/		本文に自治体名を確認
+075027	福島県	玉川村	https://www.vill.tamakawa.fukushima.jp/	http://www.tamakawa-kanko.jp/	本文に自治体名を確認
+075035	福島県	平田村	https://www.vill.hirata.fukushima.jp/		本文に自治体名を確認
 082015	茨城県	水戸市	https://www.city.mito.lg.jp/		本文に自治体名を確認
 082023	茨城県	日立市	https://www.city.hitachi.lg.jp/	https://www.kankou-hitachi.jp/	本文に自治体名を確認
 082031	茨城県	土浦市	https://www.city.tsuchiura.lg.jp/	https://www.tsuchiura-kankou.jp/	本文に自治体名を確認
@@ -342,6 +387,9 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 154059	新潟県	出雲崎町	https://www.town.izumozaki.niigata.jp/	http://www.izumozaki.net/	本文に自治体名を確認
 154610	新潟県	湯沢町	https://www.town.yuzawa.lg.jp/	https://www.e-yuzawa.gr.jp/	本文に自治体名を確認
 154822	新潟県	津南町	https://www.town.tsunan.niigata.jp/		本文に自治体名を確認
+155047	新潟県	刈羽村			候補URLがすべて外れ
+155811	新潟県	関川村	http://www.vill.sekikawa.niigata.jp/	http://www.sekikawa-kankou.com/	本文に自治体名を確認
+155861	新潟県	粟島浦村	https://www.vill.awashimaura.lg.jp/	http://awa-isle.jp/	本文に自治体名を確認
 182010	福井県	福井市	https://www.city.fukui.lg.jp/		本文に自治体名を確認
 182028	福井県	敦賀市	https://www.city.tsuruga.lg.jp/	https://tsuruga-kanko.jp/	本文に自治体名を確認
 182044	福井県	小浜市	https://www1.city.obama.fukui.jp/	https://www.wakasa-obama.jp/	検索で特定 (本文に自治体名を確認)

@@ -405,7 +405,10 @@ def guess_tourism_site(fetcher: Fetcher, municipality: str, muni_romaji: str) ->
                         if doc is None or doc.status != 200:
                             continue
                         text = re.sub(r"<[^>]+>", " ", doc.text)
-                        if municipality in text and "観光" in text:
+                        # 「中央市」は東京の「築地中央市場」にも当たる (実際に起きた)。
+                        # 自治体名の直後に「場」が続く一致は数えない。
+                        hits = re.findall(re.escape(municipality) + r"(?!場)", text)
+                        if hits and "観光" in text:
                             return url
                         break
     return ""
