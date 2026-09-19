@@ -200,6 +200,9 @@ python pipeline/registry.py --build-municipalities
 # S0-2: 対象都道府県の公式サイト/観光協会URLを解決 (結果はコミットする)
 python pipeline/registry.py --resolve-sites --prefecture 茨城県
 
+# クロールを含む工程 (S0-2, S1, S0-3 等) を回した後は毎回: アクセス記録を更新してコミット
+python pipeline/access_report.py             # -> reports/access-log.md, reports/access-hosts.tsv
+
 # S0-3: 民俗文化財の台帳と県別語彙 (一度だけ。結果はコミットする)
 python pipeline/bunkazai.py --build          # 全国966件、約8分
 python pipeline/bunkazai_local.py --build    # 県・市町村指定 (ネット不要、S1の後で)
@@ -322,8 +325,30 @@ python pipeline/discover.py --prefecture 茨城県 --municipality 鉾田市 --ma
 - 連絡先を含む User-Agent を名乗る
 - 取得済みは `cache/` に保存し、再実行時は再取得しない（試行錯誤で自治体サイトを叩かないため）
 - 1自治体あたりの取得ページ数に上限を置く
+- **ネットに出た全リクエストを台帳に残す** (`$WASSHOY_CACHE_DIR/access.tsv`、下記)
 
 抽出ルールを直したいときは **S2 からやり直す**。`cache/` があるのでネットには出ない。
+
+### アクセス台帳 (2026-09-19 導入)
+
+趣味のクローラーでも、相手サイトに何かあったとき「アクセスしたかどうかすら分からない」
+のは無責任なので、`net.py` はネットに出た (または出ようとして止めた) リクエストを
+1行ずつ `$WASSHOY_CACHE_DIR/access.tsv` に追記する。キャッシュ命中は含まない。
+
+列: `ts  kind  url  status  bytes  final_url  note`
+kind: `fetch` 取得成功 / `robots` robots.txt 取得 / `fail` 失敗 / `denied` robots.txt で見送り / `capped` 上限で見送り
+
+**クロールを回したら必ず集計をコミットする:**
+
+```bash
+python pipeline/access_report.py   # -> reports/access-log.md (要約), reports/access-hosts.tsv (ホスト別)
+git add reports/access-log.md reports/access-hosts.tsv
+```
+
+台帳本体はキャッシュと同じ場所に置く (数万行になるのでリポジトリには入れない)。
+リポジトリに残るのはホスト単位の集計。個別 URL を追うときは台帳を grep する。
+2026-09-07〜12 の分は台帳導入前だったので `--backfill` でキャッシュから復元済み
+(robots.txt 取得だけは復元できていない)。
 
 なお robots.txt は実際に効いている。Wikidata（`/w/api.php` と `query.wikidata.org/sparql`）は
 このUAに対して拒否を返すため、台帳の情報源には使っていない。

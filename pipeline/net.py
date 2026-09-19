@@ -41,6 +41,10 @@ USER_AGENT = (
 )
 
 DEFAULT_DELAY = 1.0  # 同一ホストへの最小間隔(秒)
+
+# アクセス台帳 (CACHE_DIR 直下)。列: ts, kind, url, status, bytes, final_url, note
+ACCESS_LOG_NAME = "access.tsv"
+ACCESS_LOG_COLUMNS = ("ts", "kind", "url", "status", "bytes", "final_url", "note")
 DEFAULT_TIMEOUT = 20
 
 
@@ -186,6 +190,9 @@ class Fetcher:
         # ホストごとのロックで直列を保つ。
         self._lock = threading.Lock()
         self._host_locks: dict[str, threading.Lock] = {}
+        # アクセス記録の追記は別ロック。ホストロックの中から呼ばれるので
+        # _lock と共用するとデッドロックの温床になる。
+        self._log_lock = threading.Lock()
 
     def _lock_for(self, host: str) -> threading.Lock:
         with self._lock:
@@ -250,7 +257,12 @@ class Fetcher:
                 rp = urllib.robotparser.RobotFileParser()
                 text, _ = decode_html(raw[1])
                 rp.parse(text.splitlines())
-        except Exception:
+        except urllib.error.HTTPError as exc:
+            # 404 が普通。禁止なしとして扱うが、問い合わせはしたので記録する。
+            self._log_access("robots", robots_url, status=exc.code)
+            rp = None
+        except Exception as exc:
+            self._log_access("fail", robots_url, note=f"{type(exc).__name__}: {exc}")
             rp = None
         # robots.txt が無い自治体サイトは多い (鉾田市・龍ケ崎市等はいずれも404)。
         # その場合 rp は None = 明示的な禁止なしとして扱うが、
@@ -298,11 +310,19 @@ class Fetcher:
             body = resp.read()
             if resp.headers.get("Content-Encoding") == "gzip":
                 body = gzip.decompress(body)
+            final_url = resp.geturl()
+            self._log_access(
+                "robots" if not respect_robots else "fetch",
+                url,
+                status=resp.status,
+                nbytes=len(body),
+                final_url=final_url if final_url != url else "",
+            )
             return (
                 resp.status,
                 body,
                 resp.headers.get("Content-Type", ""),
-                resp.geturl(),
+                final_url,
             )
 
     def get(self, url: str) -> Doc | None:
@@ -323,9 +343,11 @@ class Fetcher:
             )
         if over:
             self._bump("blocked")
+            self._log_access("capped", url, note=f"max_per_host={self.max_per_host}")
             return None
         if not self.allowed(url):
             self._bump("blocked")
+            self._log_access("denied", url, note="robots.txt")
             return None
 
         # 同一ホストへの並行アクセスを禁じる。別ホストへは並行してよい。
@@ -374,8 +396,42 @@ class Fetcher:
         """失敗も記録する。静かに消えると探索漏れの原因が追えなくなるため。"""
         log = self.cache_dir / "failures.tsv"
         log.parent.mkdir(parents=True, exist_ok=True)
-        with log.open("a", encoding="utf-8", newline="\n") as fh:
+        with self._log_lock, log.open("a", encoding="utf-8", newline="\n") as fh:
             fh.write(f"{time.strftime('%Y-%m-%d')}\t{url}\t{reason}\n")
+        m = re.fullmatch(r"HTTP (\d+)", reason)
+        self._log_access("fail", url, status=int(m.group(1)) if m else "", note=reason)
+
+    # ----------------------------------------------------------- access log
+
+    def _log_access(
+        self,
+        kind: str,
+        url: str,
+        status: int | str = "",
+        nbytes: int | str = "",
+        final_url: str = "",
+        note: str = "",
+    ) -> None:
+        """ネットに出た (または出ようとして止めた) 全リクエストを1行ずつ残す。
+
+        趣味のクローラーでも、相手サイトに何かあったとき「アクセスしたかどうか
+        すら分からない」のは無責任なので、キャッシュとは別に追記専用の台帳を持つ。
+        キャッシュ命中はネットに出ていないので記録しない。
+
+        kind: fetch   = ページ取得成功 (リダイレクト先は final_url)
+              robots  = robots.txt の取得 (404 も含む)
+              fail    = HTTP エラー / 接続失敗 (failures.tsv と同内容)
+              denied  = robots.txt により取得しなかった (ネットには出ていない)
+              capped  = 1ホスト上限により取得しなかった (同上)
+        集計は pipeline/access_report.py。
+        """
+        log = self.cache_dir / ACCESS_LOG_NAME
+        log.parent.mkdir(parents=True, exist_ok=True)
+        ts = time.strftime("%Y-%m-%dT%H:%M:%S")
+        note = note.replace("\t", " ").replace("\n", " ")
+        line = f"{ts}\t{kind}\t{url}\t{status}\t{nbytes}\t{final_url}\t{note}\n"
+        with self._log_lock, log.open("a", encoding="utf-8", newline="\n") as fh:
+            fh.write(line)
 
 
 def main(argv: list[str]) -> int:
