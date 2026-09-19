@@ -873,7 +873,7 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 423238	長崎県	波佐見町	https://www.town.hasami.lg.jp/	http://hasami-kankou.jp/	本文に自治体名を確認
 423831	長崎県	小値賀町	https://www.town.ojika.lg.jp/		本文に自治体名を確認
 423912	長崎県	佐々町	https://www.sazacho-nagasaki.jp/		検索で特定 (本文に自治体名を確認)
-424111	長崎県	新上五島町	http://www.town.shinkamigoto.nagasaki.jp/		本文に自治体名を確認
+424111	長崎県	新上五島町	https://official.shinkamigoto.net/		検索で特定 (本文に自治体名を確認)
 442011	大分県	大分市	https://www.city.oita.oita.jp/	https://www.oishiimati-oita.jp/	本文に自治体名を確認
 442020	大分県	別府市	https://www.city.beppu.oita.jp/	https://beppu-tourism.com/	本文に自治体名を確認
 442038	大分県	中津市	https://www.city-nakatsu.jp/	https://nakatsuyaba.com/	検索で特定 (本文に自治体名を確認)
