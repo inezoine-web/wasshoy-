@@ -159,6 +159,8 @@ www.city.higashikurume.lg.jp	東京都	東久留米市	2026-09-11	2026-09-11	55	
 www.city.higashiyamato.lg.jp	東京都	東大和市	2026-09-11	2026-09-11	55	0	1	0	0	2063701
 www.city.hikone.lg.jp	滋賀県	彦根市	2026-09-12	2026-09-12	55	0	0	0	0	3614313
 www.city.hiratsuka.kanagawa.jp	神奈川県	平塚市	2026-09-11	2026-09-11	55	0	0	0	0	2364223
+www.city.hitoyoshi.lg.jp	熊本県	人吉市	2026-09-20	2026-09-20	55	2	2	0	0	4762119
+www.city.ichikikushikino.lg.jp	鹿児島県	いちき串木野市	2026-09-20	2026-09-20	55	3	0	0	0	1093817
 www.city.iruma.saitama.jp	埼玉県	入間市	2026-09-11	2026-09-11	55	0	0	0	0	2912842
 www.city.isumi.lg.jp	千葉県	いすみ市	2026-09-11	2026-09-11	55	0	0	0	0	2267069
 www.city.kamagaya.chiba.jp	千葉県	鎌ケ谷市	2026-09-11	2026-09-11	55	0	0	0	0	1318036
@@ -173,8 +175,10 @@ www.city.komaki.aichi.jp	愛知県	小牧市	2026-09-08	2026-09-10	55	0	0	0	0	33
 www.city.koto.lg.jp	東京都	江東区	2026-09-11	2026-09-11	55	0	1	0	0	1097816
 www.city.kunisaki.oita.jp	大分県	国東市	2026-09-19	2026-09-19	55	2	1	0	0	1782976
 www.city.matsumoto.nagano.jp	長野県	松本市	2026-09-12	2026-09-12	55	0	1	0	0	1896354
+www.city.minamikyushu.lg.jp	鹿児島県	南九州市	2026-09-20	2026-09-20	55	2	0	0	0	3323780
 www.city.minamishimabara.lg.jp	長崎県	南島原市	2026-09-19	2026-09-19	55	2	1	0	0	6948853
 www.city.minato.tokyo.jp	東京都	港区	2026-09-11	2026-09-11	55	0	0	0	0	10659885
+www.city.miyakonojo.miyazaki.jp	宮崎県	都城市	2026-09-20	2026-09-20	55	2	1	0	0	1610493
 www.city.miyawaka.lg.jp	福岡県	宮若市	2026-09-19	2026-09-19	55	4	30	0	0	5165860
 www.city.musashimurayama.lg.jp	東京都	武蔵村山市	2026-09-11	2026-09-11	55	0	1	0	0	1065804
 www.city.nagakute.lg.jp	愛知県	長久手市	2026-09-08	2026-09-10	55	0	0	0	0	3765912
@@ -182,6 +186,7 @@ www.city.nagaoka.niigata.jp	新潟県	長岡市	2026-09-12	2026-09-12	55	0	0	0	0
 www.city.narashino.lg.jp	千葉県	習志野市	2026-09-11	2026-09-11	55	0	0	0	0	3359320
 www.city.niiza.lg.jp	埼玉県	新座市	2026-09-11	2026-09-11	55	0	1	0	0	1799470
 www.city.nikko.lg.jp	栃木県	日光市	2026-09-11	2026-09-11	55	0	1	0	0	2362720
+www.city.nishinoomote.lg.jp	鹿児島県	西之表市	2026-09-20	2026-09-20	55	3	0	0	0	1186563
 www.city.nishitokyo.lg.jp	東京都	西東京市	2026-09-11	2026-09-11	55	0	1	0	0	1384826
 www.city.nisshin.lg.jp	愛知県	日進市	2026-09-08	2026-09-10	55	0	1	0	0	2274721
 www.city.omura.nagasaki.jp	長崎県	大村市	2026-09-19	2026-09-19	55	4	1	0	0	1000397
@@ -191,6 +196,7 @@ www.city.sagamihara.kanagawa.jp	神奈川県	相模原市	2026-09-11	2026-09-11	
 www.city.saikai.nagasaki.jp	長崎県	西海市	2026-09-19	2026-09-19	55	2	0	0	0	2011517
 www.city.sammu.lg.jp	千葉県	山武市	2026-09-11	2026-09-11	55	0	1	0	0	1785388
 www.city.sanjo.niigata.jp	新潟県	三条市	2026-09-12	2026-09-12	55	0	1	0	0	2654496
+www.city.satsumasendai.lg.jp	鹿児島県	薩摩川内市	2026-09-20	2026-09-20	55	3	0	0	0	3186260
 www.city.shibata.lg.jp	新潟県	新発田市	2026-09-12	2026-09-12	55	0	1	0	0	1149493
 www.city.shibuya.tokyo.jp	東京都	渋谷区	2026-09-11	2026-09-11	55	0	1	0	0	6642244
 www.city.shiga-konan.lg.jp	滋賀県	湖南市	2026-09-12	2026-09-12	55	0	0	0	0	3293775
@@ -203,6 +209,7 @@ www.city.tachikawa.lg.jp	東京都	立川市	2026-09-11	2026-09-11	55	0	1	0	0	27
 www.city.tainai.niigata.jp	新潟県	胎内市	2026-09-12	2026-09-12	55	0	1	0	0	865900
 www.city.tajimi.lg.jp	岐阜県	多治見市	2026-09-12	2026-09-12	55	0	1	0	0	2178723
 www.city.tama.lg.jp	東京都	多摩市	2026-09-11	2026-09-11	55	0	1	0	0	1593393
+www.city.tarumizu.lg.jp	鹿児島県	垂水市	2026-09-20	2026-09-20	55	3	14	0	0	1089726
 www.city.tokyo-nakano.lg.jp	東京都	中野区	2026-09-11	2026-09-11	55	0	1	0	0	1204454
 www.city.toyohashi.lg.jp	愛知県	豊橋市	2026-09-08	2026-09-10	55	0	1	0	0	3497486
 www.city.tsurugashima.lg.jp	埼玉県	鶴ヶ島市	2026-09-11	2026-09-11	55	0	0	0	0	1651611
@@ -216,6 +223,7 @@ www.city.yamatotakada.nara.jp	奈良県	大和高田市	2026-09-12	2026-09-12	55
 www.city.yotsukaido.chiba.jp	千葉県	四街道市	2026-09-11	2026-09-11	55	0	1	0	0	1158023
 www.city.yufu.oita.jp	大分県	由布市	2026-09-19	2026-09-19	55	2	7	0	0	2731630
 www.city.zama.kanagawa.jp	神奈川県	座間市	2026-09-11	2026-09-11	55	0	1	0	0	1877438
+www.higashikushira.com	鹿児島県	東串良町	2026-09-20	2026-09-20	55	3	2	0	0	1061824
 www.inacity.jp	長野県	伊那市	2026-09-12	2026-09-12	55	0	1	0	0	1468035
 www.kariya-guide.com	愛知県	刈谷市観光	2026-09-08	2026-09-08	55	0	1	0	0	1356415
 www.kawauchimura.jp	福島県	川内村	2026-09-12	2026-09-12	55	0	1	0	0	821385
@@ -226,6 +234,7 @@ www.town-kawasaki.com	福岡県	川崎町	2026-09-19	2026-09-19	55	2	0	0	0	40603
 www.town.aga.niigata.jp	新潟県	阿賀町	2026-09-12	2026-09-12	55	0	0	0	0	3376909
 www.town.aichi-togo.lg.jp	愛知県	東郷町	2026-09-08	2026-09-10	55	0	0	0	0	3109821
 www.town.aizumisato.fukushima.jp	福島県	会津美里町	2026-09-12	2026-09-12	55	0	0	0	0	1620993
+www.town.aya.miyazaki.jp	宮崎県	綾町	2026-09-20	2026-09-20	55	2	7	0	0	1401718
 www.town.chiyoda.gunma.jp	群馬県	千代田町	2026-09-12	2026-09-12	55	0	1	0	0	1018269
 www.town.fukuchi.lg.jp	福岡県	福智町	2026-09-19	2026-09-19	55	3	0	0	0	1850993
 www.town.fukui-wakasa.lg.jp	福井県	若狭町	2026-09-12	2026-09-12	55	0	0	0	0	2315039
@@ -243,16 +252,22 @@ www.town.kasamatsu.gifu.jp	岐阜県	笠松町	2026-09-12	2026-09-12	55	0	1	0	0	
 www.town.kawagoe.mie.jp	三重県	川越町	2026-09-12	2026-09-12	55	0	1	0	0	1148064
 www.town.kawai.nara.jp	奈良県	河合町	2026-09-12	2026-09-12	55	0	1	0	0	2401540
 www.town.kiho.lg.jp	三重県	紀宝町	2026-09-12	2026-09-12	55	0	3	0	0	2620330
+www.town.kikai.lg.jp	鹿児島県	喜界町	2026-09-20	2026-09-20	55	2	1	0	0	894012
+www.town.kinko.lg.jp	鹿児島県	錦江町	2026-09-20	2026-09-20	55	3	1	0	0	1054831
 www.town.kitagata.gifu.jp	岐阜県	北方町	2026-09-12	2026-09-12	55	0	0	0	0	3194173
 www.town.koge.lg.jp	福岡県	上毛町	2026-09-19	2026-09-19	55	3	0	0	0	1833813
+www.town.kumamoto-takamori.lg.jp	熊本県	高森町	2026-09-20	2026-09-20	55	2	1	0	0	1259712
 www.town.kurate.lg.jp	福岡県	鞍手町	2026-09-19	2026-09-19	55	4	3	0	0	934475
 www.town.mihama.mie.jp	三重県	御浜町	2026-09-12	2026-09-12	55	0	0	0	0	1562768
 www.town.minakami.gunma.jp	群馬県	みなかみ町	2026-09-12	2026-09-12	55	0	1	0	0	1294443
 www.town.minamiaizu.lg.jp	福島県	南会津町	2026-09-12	2026-09-12	55	0	0	0	0	2030882
+www.town.minamitane.kagoshima.jp	鹿児島県	南種子町	2026-09-20	2026-09-20	55	2	66	0	0	987800
 www.town.miyake.lg.jp	奈良県	三宅町	2026-09-12	2026-09-12	55	0	2	0	0	1145695
 www.town.miyota.nagano.jp	長野県	御代田町	2026-09-12	2026-09-12	55	0	3	0	0	4654181
+www.town.nagasu.lg.jp	熊本県	長洲町	2026-09-20	2026-09-20	55	2	1	0	0	2304337
 www.town.nakai.kanagawa.jp	神奈川県	中井町	2026-09-11	2026-09-11	55	0	0	0	0	2960079
 www.town.namegawa.saitama.jp	埼玉県	滑川町	2026-09-11	2026-09-11	55	0	0	0	0	2375196
+www.town.nankan.lg.jp	熊本県	南関町	2026-09-20	2026-09-20	55	2	1	0	0	909254
 www.town.ogawa.saitama.jp	埼玉県	小川町	2026-09-11	2026-09-11	55	0	0	0	0	3122873
 www.town.oiso.kanagawa.jp	神奈川県	大磯町	2026-09-11	2026-09-11	55	0	0	0	0	2569909
 www.town.ojika.lg.jp	長崎県	小値賀町	2026-09-19	2026-09-19	55	2	0	0	0	876310
@@ -260,11 +275,13 @@ www.town.okutama.tokyo.jp	東京都	奥多摩町	2026-09-11	2026-09-11	55	0	0	0	
 www.town.saitama-miyoshi.lg.jp	埼玉県	三芳町	2026-09-11	2026-09-11	55	0	1	0	0	1230454
 www.town.sakae.chiba.jp	千葉県	栄町	2026-09-11	2026-09-11	55	0	1	0	0	898532
 www.town.sakahogi.gifu.jp	岐阜県	坂祝町	2026-09-12	2026-09-12	55	0	0	0	0	1994447
+www.town.shintomi.lg.jp	宮崎県	新富町	2026-09-20	2026-09-20	55	3	0	0	0	3649710
 www.town.shisui.chiba.jp	千葉県	酒々井町	2026-09-11	2026-09-11	55	0	0	0	0	819042
 www.town.soeda.fukuoka.jp	福岡県	添田町	2026-09-19	2026-09-19	55	2	1	0	0	1442060
 www.town.sugito.lg.jp	埼玉県	杉戸町	2026-09-11	2026-09-11	55	0	2	0	0	1288638
 www.town.taiki.mie.jp	三重県	大紀町	2026-09-12	2026-09-12	55	0	0	0	0	2258445
 www.town.takahama.fukui.jp	福井県	高浜町	2026-09-12	2026-09-12	55	0	1	0	0	1176275
+www.town.takanabe.lg.jp	宮崎県	高鍋町	2026-09-20	2026-09-20	55	2	0	0	0	2232947
 www.town.takanezawa.tochigi.jp	栃木県	高根沢町	2026-09-11	2026-09-11	55	0	2	0	0	1478485
 www.town.tatsuno.lg.jp	長野県	辰野町	2026-09-12	2026-09-12	55	0	0	0	0	2001296
 www.town.toin.lg.jp	三重県	東員町	2026-09-12	2026-09-12	55	0	0	0	0	2538016
@@ -273,6 +290,7 @@ www.town.yorii.saitama.jp	埼玉県	寄居町	2026-09-11	2026-09-11	55	0	1	0	0	1
 www.town.yoshimi.saitama.jp	埼玉県	吉見町	2026-09-11	2026-09-11	55	0	0	0	0	2310098
 www.town.yoshinogari.lg.jp	佐賀県	吉野ヶ里町	2026-09-19	2026-09-19	55	2	0	0	0	1306443
 www.town.yoshitomi.lg.jp	福岡県	吉富町	2026-09-19	2026-09-19	55	3	3	0	0	1099274
+www.uken.net	鹿児島県	宇検村	2026-09-20	2026-09-20	55	3	1	0	0	1080479
 www.vill.hakuba.lg.jp	長野県	白馬村	2026-09-12	2026-09-12	55	0	0	0	0	2518986
 www.vill.hara.lg.jp	長野県	原村	2026-09-12	2026-09-12	55	0	4	0	0	1202018
 www.vill.higashishirakawa.gifu.jp	岐阜県	東白川村	2026-09-12	2026-09-12	55	0	1	0	0	1962380
@@ -283,26 +301,32 @@ www.vill.nosegawa.nara.jp	奈良県	野迫川村	2026-09-12	2026-09-12	55	0	0	0	
 www.vill.otama.fukushima.jp	福島県	大玉村	2026-09-12	2026-09-12	55	0	0	0	0	1692822
 www.vill.samegawa.fukushima.jp	福島県	鮫川村	2026-09-12	2026-09-12	55	0	0	0	0	1116225
 www.vill.takagi.lg.jp	長野県	喬木村	2026-09-12	2026-09-12	55	0	0	0	0	1610883
+www.vill.yamato.lg.jp	鹿児島県	大和村	2026-09-20	2026-09-20	55	3	1	0	0	1056783
 www.vill.yugawa.fukushima.jp	福島県	湯川村	2026-09-12	2026-09-12	55	0	11	0	0	1462021
 www.village.ikusaka.nagano.jp	長野県	生坂村	2026-09-12	2026-09-12	55	0	2	0	0	942154
+www.yoron.jp	鹿児島県	与論町	2026-09-20	2026-09-20	55	2	1	0	0	5249093
 www.city.fujioka.gunma.jp	群馬県	藤岡市	2026-09-12	2026-09-12	54	0	0	0	0	2674102
 www.city.iizuka.lg.jp	福岡県	飯塚市	2026-09-19	2026-09-19	54	4	3	0	0	1964626
 www.city.kuwana.lg.jp	三重県	桑名市	2026-09-12	2026-09-12	54	0	2	0	0	1445780
 www.city.odawara.kanagawa.jp	神奈川県	小田原市	2026-09-11	2026-09-11	54	0	0	0	0	8749785
 www.city.zushi.kanagawa.jp	神奈川県	逗子市	2026-09-11	2026-09-11	54	0	1	0	0	1553032
 www.kanko-komono.com	三重県	菰野町観光	2026-09-12	2026-09-12	54	0	0	0	0	6741864
+www.town-takachiho.jp	宮崎県	高千穂町	2026-09-20	2026-09-20	54	2	0	0	0	2169007
 www.town.keisen.fukuoka.jp	福岡県	桂川町	2026-09-19	2026-09-19	54	2	0	0	0	630936
 www.town.meiwa.gunma.jp	群馬県	明和町	2026-09-12	2026-09-12	54	0	0	0	0	3153659
 www.town.meiwa.mie.jp	三重県	明和町	2026-09-12	2026-09-12	54	0	0	0	0	2720164
 www.town.nanbu.yamanashi.jp	山梨県	南部町	2026-09-12	2026-09-12	54	0	5	0	0	1001843
 www.town.yanaizu.fukushima.jp	福島県	柳津町	2026-09-12	2026-09-12	54	0	1	0	0	1307993
 asukamura.jp	奈良県	明日香村	2026-09-12	2026-09-12	53	0	0	0	0	1840510
+kimotsuki-town.jp	鹿児島県	肝付町	2026-09-20	2026-09-20	53	2	0	0	0	1593667
+www.city-kirishima.jp	鹿児島県	霧島市	2026-09-20	2026-09-20	53	2	1	0	0	1157034
 www.city.arida.lg.jp	和歌山県	有田市	2026-09-12	2026-09-12	53	0	1	0	0	912372
 www.city.fuchu.tokyo.jp	東京都	府中市	2026-09-11	2026-09-11	53	0	1	0	0	1029118
 www.city.fujiyoshida.yamanashi.jp	山梨県	富士吉田市	2026-09-12	2026-09-12	53	0	1	0	0	1247912
 www.city.kakegawa.shizuoka.jp	静岡県	掛川市	2026-09-08	2026-09-10	53	0	1	0	0	1923438
 www.city.kasuga.fukuoka.jp	福岡県	春日市	2026-09-19	2026-09-19	53	8	3	44	0	994347
 www.city.kisarazu.lg.jp	千葉県	木更津市	2026-09-11	2026-09-11	53	0	0	0	0	3164934
+www.city.kobayashi.lg.jp	宮崎県	小林市	2026-09-20	2026-09-20	53	3	0	0	0	5174906
 www.city.komae.tokyo.jp	東京都	狛江市	2026-09-11	2026-09-11	53	0	1	0	0	4814635
 www.city.nakano.nagano.jp	長野県	中野市	2026-09-12	2026-09-12	53	0	0	0	0	1514440
 www.city.obu.aichi.jp	愛知県	大府市	2026-09-08	2026-09-10	53	0	1	0	0	1423736
@@ -311,16 +335,21 @@ www.city.otsuki.yamanashi.jp	山梨県	大月市	2026-09-12	2026-09-12	53	0	1	0	
 www.city.shiraoka.lg.jp	埼玉県	白岡市	2026-09-11	2026-09-11	53	0	1	0	0	2562109
 www.city.yashio.lg.jp	埼玉県	八潮市	2026-09-11	2026-09-11	53	0	1	0	0	912934
 www.town.aichi-higashiura.lg.jp	愛知県	東浦町	2026-09-08	2026-09-10	53	0	0	0	0	2583726
+www.town.gokase.miyazaki.jp	宮崎県	五ヶ瀬町	2026-09-20	2026-09-20	53	2	0	0	0	1573812
 www.town.hachijo.tokyo.jp	東京都	八丈町	2026-09-11	2026-09-11	53	0	1	0	0	5278163
 www.town.minamiizu.shizuoka.jp	静岡県	南伊豆町	2026-09-08	2026-09-10	53	0	0	0	0	1329410
 www.town.minowa.lg.jp	長野県	箕輪町	2026-09-12	2026-09-12	53	0	0	0	0	3160182
 www.town.mizuho.tokyo.jp	東京都	瑞穂町	2026-09-11	2026-09-11	53	0	1	0	0	4127543
 www.town.moroyama.saitama.jp	埼玉県	毛呂山町	2026-09-11	2026-09-11	53	0	0	0	0	2701917
+www.town.nagomi.lg.jp	熊本県	和水町	2026-09-20	2026-09-20	53	2	1	0	0	2178040
 www.town.okuma.fukushima.jp	福島県	大熊町	2026-09-12	2026-09-12	53	0	1	0	0	1503399
+www.town.taragi.lg.jp	熊本県	多良木町	2026-09-20	2026-09-20	53	4	0	0	0	2247731
 www.vill.okuwa.lg.jp	長野県	大桑村	2026-09-12	2026-09-12	53	0	1	0	0	809328
+www.city.ebino.lg.jp	宮崎県	えびの市	2026-09-20	2026-09-20	52	2	0	0	0	2418369
 www.city.fuji.shizuoka.jp	静岡県	富士市	2026-09-08	2026-09-10	52	0	6	0	0	3172511
 www.city.gobo.lg.jp	和歌山県	御坊市	2026-09-12	2026-09-12	52	0	0	0	0	2070313
 www.city.itabashi.tokyo.jp	東京都	板橋区	2026-09-11	2026-09-11	52	0	1	0	0	1314341
+www.city.kanoya.lg.jp	鹿児島県	鹿屋市	2026-09-20	2026-09-20	52	2	1	0	0	1738680
 www.city.minami-alps.yamanashi.jp	山梨県	南アルプス市	2026-09-12	2026-09-12	52	0	0	0	0	1537768
 www.city.shibukawa.lg.jp	群馬県	渋川市	2026-09-12	2026-09-12	52	0	0	0	0	10930374
 www.city.tahara.aichi.jp	愛知県	田原市	2026-09-08	2026-09-10	52	0	1	0	0	1523982
@@ -330,6 +359,7 @@ www.city.tomi.nagano.jp	長野県	東御市	2026-09-12	2026-09-12	52	0	8	0	0	297
 www.town.iijima.lg.jp	長野県	飯島町	2026-09-12	2026-09-12	52	0	0	0	0	2351189
 www.town.kawanehon.shizuoka.jp	静岡県	川根本町	2026-09-08	2026-09-10	52	0	0	0	0	2582443
 www.town.taki.mie.jp	三重県	多気町	2026-09-12	2026-09-12	52	0	0	0	0	1752876
+www.town.wadomari.lg.jp	鹿児島県	和泊町	2026-09-20	2026-09-20	52	3	1	0	0	1378621
 www.town.yoshioka.lg.jp	群馬県	吉岡町	2026-09-12	2026-09-12	52	0	1	0	0	1504688
 www.tsuchiura-kankou.jp	茨城県	土浦市観光	2026-09-07	2026-09-08	52	0	1	0	0	3483773
 www.vill.narusawa.yamanashi.jp	山梨県	鳴沢村	2026-09-12	2026-09-12	52	0	0	0	0	432066
@@ -366,16 +396,20 @@ www.city.kumagaya.lg.jp	埼玉県	熊谷市	2026-09-11	2026-09-11	49	0	1	0	0	117
 www.city.shimada.shizuoka.jp	静岡県	島田市	2026-09-08	2026-09-10	49	0	1	0	0	1671415
 www.city.tanabe.lg.jp	和歌山県	田辺市	2026-09-12	2026-09-12	49	0	0	0	0	3238020
 www.city.tokorozawa.saitama.jp	埼玉県	所沢市	2026-09-11	2026-09-11	49	0	1	0	0	1201848
+www.town.kagoshima-osaki.lg.jp	鹿児島県	大崎町	2026-09-20	2026-09-20	49	3	1	0	0	773269
 www.town.kamikawa.saitama.jp	埼玉県	神川町	2026-09-11	2026-09-11	49	0	0	0	0	1894159
 www.town.kanra.lg.jp	群馬県	甘楽町	2026-09-12	2026-09-12	49	0	1	0	0	562621
+www.town.kumamoto-oguni.lg.jp	熊本県	小国町	2026-09-20	2026-09-20	49	2	4	0	0	82223294
 www.city.bunkyo.lg.jp	東京都	文京区	2026-09-11	2026-09-11	48	0	0	0	0	1677383
 www.city.fukushima.fukushima.jp	福島県	福島市	2026-09-12	2026-09-12	48	0	0	0	0	3713086
 www.city.isehara.kanagawa.jp	神奈川県	伊勢原市	2026-09-11	2026-09-11	48	0	0	0	0	814567
+www.city.kagoshima.lg.jp	鹿児島県	鹿児島市	2026-09-20	2026-09-20	48	3	0	0	0	2006529
 www.city.koshu.yamanashi.jp	山梨県	甲州市	2026-09-12	2026-09-12	48	0	1	0	0	2380595
 www.city.omihachiman.lg.jp	滋賀県	近江八幡市	2026-09-12	2026-09-12	48	0	0	0	0	2352381
 www.city.tsukumi.oita.jp	大分県	津久見市	2026-09-19	2026-09-19	48	2	3	0	0	1210343
 www.nirasaki-kankou.jp	山梨県	韮崎市観光	2026-09-12	2026-09-12	48	0	0	0	0	2324046
 www.tochigi-kankou.or.jp	栃木県	栃木市観光	2026-09-11	2026-09-11	48	0	1	0	0	2940142
+www.tokunoshima-kanko.com	鹿児島県	徳之島町観光	2026-09-20	2026-09-20	48	4	8	0	0	4672976
 www.town.nagano-takamori.lg.jp	長野県	高森町	2026-09-12	2026-09-12	48	0	1	0	0	862002
 www.town.tochigi-haga.lg.jp	栃木県	芳賀町	2026-09-11	2026-09-11	48	0	0	0	0	676556
 www.town.yamanouchi.nagano.jp	長野県	山ノ内町	2026-09-12	2026-09-12	48	0	0	0	0	1767697
@@ -387,6 +421,7 @@ www.city.moka.lg.jp	栃木県	真岡市	2026-09-11	2026-09-11	47	0	0	0	0	3692933
 www.city.nakatsugawa.lg.jp	岐阜県	中津川市	2026-09-12	2026-09-12	47	0	0	0	0	2641434
 www.city.otsu.lg.jp	滋賀県	大津市	2026-09-12	2026-09-12	47	0	0	0	0	3770526
 www.town.aichi-mihama.lg.jp	愛知県	美浜町	2026-09-08	2026-09-10	47	0	0	0	0	2666523
+www.town.setouchi.lg.jp	鹿児島県	瀬戸内町	2026-09-20	2026-09-20	47	3	2	0	0	903160
 www.town.shimogo.fukushima.jp	福島県	下郷町	2026-09-12	2026-09-12	47	0	0	0	0	1577630
 www.city.fujinomiya.lg.jp	静岡県	富士宮市	2026-09-08	2026-09-10	46	0	6	0	0	1268684
 www.city.kunitachi.tokyo.jp	東京都	国立市	2026-09-11	2026-09-11	46	0	0	0	0	2996480
@@ -395,6 +430,7 @@ www.city.niigata.lg.jp	新潟県	新潟市	2026-09-12	2026-09-12	46	0	1	0	0	1197
 www.city.nogata.fukuoka.jp	福岡県	直方市	2026-09-19	2026-09-19	46	3	0	0	0	1741965
 www.city.wakayama.wakayama.jp	和歌山県	和歌山市	2026-09-12	2026-09-12	46	0	1	0	0	1629035
 www.town.kasuya.fukuoka.jp	福岡県	粕屋町	2026-09-19	2026-09-19	46	3	0	0	0	777734
+www.town.kijo.lg.jp	宮崎県	木城町	2026-09-20	2026-09-20	46	2	0	0	0	2414782
 www.town.tamamura.lg.jp	群馬県	玉村町	2026-09-12	2026-09-12	46	0	0	0	0	749883
 www.vill.takayama.gunma.jp	群馬県	高山村	2026-09-12	2026-09-12	46	0	1	0	0	1178633
 kizuna.town.tamaki.mie.jp	三重県	玉城町	2026-09-12	2026-09-12	45	0	0	0	0	717014
@@ -408,6 +444,8 @@ www.city.yasu.lg.jp	滋賀県	野洲市	2026-09-12	2026-09-12	45	0	0	0	0	2801905
 www.town.chonan.chiba.jp	千葉県	長南町	2026-09-11	2026-09-11	45	0	1	0	0	1967106
 www.town.morimachi.shizuoka.jp	静岡県	森町	2026-09-08	2026-09-10	45	0	8	0	0	1414315
 www.town.shinano.lg.jp	長野県	信濃町	2026-09-12	2026-09-12	45	0	1	0	0	1160730
+www.ubuyama-v.jp	熊本県	産山村	2026-09-20	2026-09-20	45	3	0	0	0	1995974
+www.city.arao.lg.jp	熊本県	荒尾市	2026-09-20	2026-09-20	44	2	1	0	0	1208425
 www.city.katsushika.lg.jp	東京都	葛飾区	2026-09-11	2026-09-11	44	0	1	0	0	1422630
 www.city.kiryu.lg.jp	群馬県	桐生市	2026-09-12	2026-09-12	44	0	1	0	0	2340540
 www.city.moriyama.lg.jp	滋賀県	守山市	2026-09-12	2026-09-12	44	0	1	0	0	1195727
@@ -420,11 +458,13 @@ www.town.yoshida.shizuoka.jp	静岡県	吉田町	2026-09-08	2026-09-10	44	0	9	0	
 www.vill.kitaaiki.nagano.jp	長野県	北相木村	2026-09-12	2026-09-12	44	0	1	0	0	835748
 www.city.gose.nara.jp	奈良県	御所市	2026-09-12	2026-09-12	43	0	1	0	0	925245
 www.city.inzai.lg.jp	千葉県	印西市	2026-09-11	2026-09-11	43	0	1	0	0	782382
+www.city.kagoshima-izumi.lg.jp	鹿児島県	出水市	2026-09-20	2026-09-20	43	2	0	0	0	1143903
 www.city.musashino.lg.jp	東京都	武蔵野市	2026-09-11	2026-09-11	43	0	1	0	0	1910523
 www.city.nerima.tokyo.jp	東京都	練馬区	2026-09-11	2026-09-11	43	0	0	0	0	3588009
 www.city.saiki.oita.jp	大分県	佐伯市	2026-09-19	2026-09-19	43	2	1	1	0	6002653
 www.city.sakura.lg.jp	千葉県	佐倉市	2026-09-11	2026-09-11	43	0	0	0	0	2693567
 www.town.ikeda.fukui.jp	福井県	池田町	2026-09-12	2026-09-12	43	0	3	0	0	862064
+www.town.minamiosumi.lg.jp	鹿児島県	南大隅町	2026-09-20	2026-09-20	43	3	1	0	0	721934
 www.town.tsunan.niigata.jp	新潟県	津南町	2026-09-12	2026-09-12	43	0	2	0	0	1032125
 www.vill.aoki.nagano.jp	長野県	青木村	2026-09-12	2026-09-12	43	0	1	0	0	1580127
 hamanako-kosai.jp	静岡県	湖西市観光	2026-09-08	2026-09-08	42	0	0	0	0	1139911
@@ -453,7 +493,9 @@ www.city.echizen.lg.jp	福井県	越前市	2026-09-12	2026-09-12	41	0	1	0	0	1335
 www.city.gifu.lg.jp	岐阜県	岐阜市	2026-09-12	2026-09-12	41	0	1	0	0	2848873
 www.city.higashimatsuyama.lg.jp	埼玉県	東松山市	2026-09-11	2026-09-11	41	0	1	0	0	1243281
 www.city.hokuto.yamanashi.jp	山梨県	北杜市	2026-09-12	2026-09-12	41	0	0	0	0	3638097
+www.city.ibusuki.lg.jp	鹿児島県	指宿市	2026-09-20	2026-09-20	41	2	1	0	0	1381181
 www.city.kikugawa.shizuoka.jp	静岡県	菊川市	2026-09-08	2026-09-10	41	0	2	0	0	698350
+www.city.koshi.lg.jp	熊本県	合志市	2026-09-20	2026-09-20	41	2	1	1	0	6066148
 www.city.miyama.lg.jp	福岡県	みやま市	2026-09-19	2026-09-19	41	3	0	0	0	2369235
 www.city.nagano.nagano.jp	長野県	長野市	2026-09-12	2026-09-12	41	0	0	0	0	1504237
 www.city.numata.gunma.jp	群馬県	沼田市	2026-09-12	2026-09-12	41	0	1	0	0	1087866
@@ -464,11 +506,16 @@ www.city.tomioka.lg.jp	群馬県	富岡市	2026-09-12	2026-09-12	41	0	2	0	0	8123
 www.city.yachiyo.lg.jp	千葉県	八千代市	2026-09-11	2026-09-11	41	0	1	0	0	1301254
 www.city.yaita.tochigi.jp	栃木県	矢板市	2026-09-11	2026-09-11	41	0	1	0	0	1830655
 www.nebamura.jp	長野県	根羽村	2026-09-12	2026-09-12	41	0	0	0	0	2043266
+www.satsuma-net.jp	鹿児島県	さつま町	2026-09-20	2026-09-20	41	3	1	0	0	2282047
+www.tokunoshima-town.org	鹿児島県	徳之島町	2026-09-20	2026-09-20	41	2	1	0	0	791745
+www.town.isen.kagoshima.jp	鹿児島県	伊仙町	2026-09-20	2026-09-20	41	3	2	0	0	889913
 www.town.ishikawa.fukushima.jp	福島県	石川町	2026-09-12	2026-09-12	41	0	7	0	0	7353266
 www.town.kimino.wakayama.jp	和歌山県	紀美野町	2026-09-12	2026-09-12	41	0	0	0	0	1866237
+www.town.nagashima.lg.jp	鹿児島県	長島町	2026-09-20	2026-09-20	41	2	0	0	0	798837
 www.town.naraha.lg.jp	福島県	楢葉町	2026-09-12	2026-09-12	41	0	1	0	0	644128
 www.town.susami.lg.jp	和歌山県	すさみ町	2026-09-12	2026-09-12	41	0	0	0	0	544809
 www.town.tanagura.fukushima.jp	福島県	棚倉町	2026-09-12	2026-09-12	41	0	1	0	0	752936
+www.town.tatsugo.lg.jp	鹿児島県	龍郷町	2026-09-20	2026-09-20	41	2	1	0	0	580273
 www.vill.kitayama.wakayama.jp	和歌山県	北山村	2026-09-12	2026-09-12	41	0	0	0	0	690261
 www.vill.miyada.nagano.jp	長野県	宮田村	2026-09-12	2026-09-12	41	0	0	0	0	168678
 inagi-kanko.jp	東京都	稲城市観光	2026-09-12	2026-09-12	40	0	1	0	0	1527299
@@ -477,25 +524,33 @@ official.shinkamigoto.net	長崎県	新上五島町	2026-09-20	2026-09-20	40	2	0
 ryuoh.org	滋賀県	竜王町観光	2026-09-12	2026-09-12	40	0	0	0	0	3289974
 shimizu-kankou.jp	静岡県	清水町観光	2026-09-12	2026-09-12	40	0	2	0	0	553865
 toho.main.jp	福岡県	東峰村	2026-09-19	2026-09-19	40	2	1	0	0	6558253
+ukitrip.city.uki.kumamoto.jp	熊本県	宇城市観光	2026-09-20	2026-09-20	40	1	0	0	0	2549769
 webtown.nagayo.jp	長崎県	長与町	2026-09-19	2026-09-19	40	2	1	1	0	5934900
 www.akamura.net	福岡県	赤村	2026-09-19	2026-09-19	40	2	2	0	0	853718
+www.city.akune.lg.jp	鹿児島県	阿久根市	2026-09-20	2026-09-20	40	2	0	0	0	1697439
 www.city.annaka.lg.jp	群馬県	安中市	2026-09-12	2026-09-12	40	0	1	0	0	1445458
+www.city.aso.kumamoto.jp	熊本県	阿蘇市	2026-09-20	2026-09-20	40	2	0	1	0	1257673
 www.city.azumino.nagano.jp	長野県	安曇野市	2026-09-12	2026-09-12	40	0	1	0	0	1460291
 www.city.funabashi.lg.jp	千葉県	船橋市	2026-09-11	2026-09-11	40	0	2	0	0	3148634
 www.city.fussa.tokyo.jp	東京都	福生市	2026-09-11	2026-09-11	40	0	1	0	0	919590
 www.city.gero.lg.jp	岐阜県	下呂市	2026-09-12	2026-09-12	40	0	1	0	0	1238567
 www.city.gujo.gifu.jp	岐阜県	郡上市	2026-09-12	2026-09-12	40	0	0	0	0	1921719
+www.city.hioki.kagoshima.jp	鹿児島県	日置市	2026-09-20	2026-09-20	40	2	2	0	0	882465
 www.city.hita.oita.jp	大分県	日田市	2026-09-19	2026-09-19	40	2	1	0	0	1353093
 www.city.ichikawa.lg.jp	千葉県	市川市	2026-09-11	2026-09-11	40	0	1	0	0	1566042
 www.city.kai.yamanashi.jp	山梨県	甲斐市	2026-09-12	2026-09-12	40	0	1	0	0	1207625
+www.city.kamiamakusa.kumamoto.jp	熊本県	上天草市	2026-09-20	2026-09-20	40	2	0	0	0	2146568
 www.city.kamogawa.lg.jp	千葉県	鴨川市	2026-09-11	2026-09-11	40	0	1	0	0	1463278
 www.city.katsuura.lg.jp	千葉県	勝浦市	2026-09-11	2026-09-11	40	0	1	0	0	839541
 www.city.katsuyama.fukui.jp	福井県	勝山市	2026-09-12	2026-09-12	40	0	1	0	0	924123
 www.city.kinokawa.lg.jp	和歌山県	紀の川市	2026-09-12	2026-09-12	40	0	1	0	0	1215703
 www.city.kitakyushu.lg.jp	福岡県	北九州市	2026-09-19	2026-09-19	40	2	0	0	0	1253706
 www.city.koga.fukuoka.jp	福岡県	古賀市	2026-09-19	2026-09-19	40	4	33	0	0	1876092
+www.city.kumamoto.jp	熊本県	熊本市	2026-09-20	2026-09-20	40	2	1	0	0	22903429
+www.city.kushima.lg.jp	宮崎県	串間市	2026-09-20	2026-09-20	40	2	5	0	0	776200
 www.city.makinohara.shizuoka.jp	静岡県	牧之原市	2026-09-08	2026-09-10	40	0	1	0	0	1239156
 www.city.midori.gunma.jp	群馬県	みどり市	2026-09-12	2026-09-12	40	0	1	0	0	1630145
+www.city.minamata.lg.jp	熊本県	水俣市	2026-09-20	2026-09-20	40	2	1	0	0	4627570
 www.city.mishima.shizuoka.jp	静岡県	三島市	2026-09-08	2026-09-10	40	0	1	0	0	1709702
 www.city.mitsuke.niigata.jp	新潟県	見附市	2026-09-12	2026-09-12	40	0	1	0	0	1121422
 www.city.mizuho.lg.jp	岐阜県	瑞穂市	2026-09-12	2026-09-12	40	0	1	0	0	1515809
@@ -507,6 +562,7 @@ www.city.onojo.fukuoka.jp	福岡県	大野城市	2026-09-19	2026-09-19	40	4	6	0	
 www.city.owariasahi.lg.jp	愛知県	尾張旭市	2026-09-08	2026-09-10	40	0	1	0	0	1396433
 www.city.sakado.lg.jp	埼玉県	坂戸市	2026-09-11	2026-09-11	40	0	1	0	0	967040
 www.city.saku.nagano.jp	長野県	佐久市	2026-09-12	2026-09-12	40	0	1	0	0	2230438
+www.city.shibushi.lg.jp	鹿児島県	志布志市	2026-09-20	2026-09-20	40	2	1	0	0	1194141
 www.city.shimotsuke.lg.jp	栃木県	下野市	2026-09-11	2026-09-11	40	0	1	0	0	4136366
 www.city.shingu.lg.jp	和歌山県	新宮市	2026-09-12	2026-09-12	40	0	2	0	0	1692463
 www.city.soka.saitama.jp	埼玉県	草加市	2026-09-11	2026-09-11	40	0	0	0	0	1805186
@@ -516,7 +572,10 @@ www.city.tomisato.lg.jp	千葉県	富里市	2026-09-11	2026-09-11	40	0	1	0	0	991
 www.city.tsushima.nagasaki.jp	長崎県	対馬市	2026-09-19	2026-09-19	40	2	0	0	0	1341580
 www.city.ueda.nagano.jp	長野県	上田市	2026-09-12	2026-09-12	40	0	1	0	0	1689198
 www.city.unzen.nagasaki.jp	長崎県	雲仙市	2026-09-19	2026-09-19	40	2	6	0	0	4588723
+www.city.uto.lg.jp	熊本県	宇土市	2026-09-20	2026-09-20	40	2	1	0	0	1001386
+www.city.yamaga.kumamoto.jp	熊本県	山鹿市	2026-09-20	2026-09-20	40	2	2	0	0	4896785
 www.city.yamagata.gifu.jp	岐阜県	山県市	2026-09-12	2026-09-12	40	0	1	0	0	1293564
+www.city.yatsushiro.lg.jp	熊本県	八代市	2026-09-20	2026-09-20	40	2	2	0	0	2683434
 www.city.yokosuka.kanagawa.jp	神奈川県	横須賀市	2026-09-11	2026-09-11	40	0	0	0	0	3201941
 www.city.yoshikawa.saitama.jp	埼玉県	吉川市	2026-09-11	2026-09-11	40	0	1	0	0	854134
 www.doshi-kanko.jp			2026-09-12	2026-09-12	40	0	0	0	0	654795
@@ -529,6 +588,7 @@ www.ichikawa-kankou.jp	千葉県	市川市観光	2026-09-11	2026-09-12	40	0	1	0	
 www.joho.tagawa.fukuoka.jp	福岡県	田川市	2026-09-19	2026-09-19	40	2	4	0	0	7094358
 www.kamisu-kanko.jp	茨城県	神栖市観光	2026-09-11	2026-09-12	40	0	0	0	0	4893238
 www.kanko-chiyoda.jp	東京都	千代田区観光	2026-09-12	2026-09-12	40	0	1	0	0	3249776
+www.kanko-satsuma.jp	鹿児島県	さつま町観光	2026-09-20	2026-09-20	40	2	2	0	0	937188
 www.kankou-hadano.jp	神奈川県	秦野市観光	2026-09-12	2026-09-12	40	0	329	0	0	1754932
 www.kankou-ogawa.com	埼玉県	小川町観光	2026-09-12	2026-09-12	40	0	3	0	0	970724
 www.kankou-sugito.jp	埼玉県	杉戸町観光	2026-09-12	2026-09-12	40	0	69	0	0	47287392
@@ -536,6 +596,7 @@ www.kashima-kanko.com	茨城県	鹿嶋市観光	2026-09-11	2026-09-12	40	0	0	0	0
 www.kimitsu-kankou.com	千葉県	君津市観光	2026-09-12	2026-09-12	40	0	9	0	0	2710863
 www.konosu-kanko.jp	埼玉県	鴻巣市観光	2026-09-12	2026-09-12	40	0	9	0	0	3446298
 www.kuki-kanko.jp	埼玉県	久喜市観光	2026-09-12	2026-09-12	40	0	0	0	0	13562543
+www.kumamura.com	熊本県	球磨村	2026-09-20	2026-09-20	40	2	2	0	0	5213967
 www.minamiaiki.jp	長野県	南相木村	2026-09-12	2026-09-12	40	0	1	0	0	1085977
 www.mishima-kankou.com	静岡県	三島市観光	2026-09-12	2026-09-12	40	0	1	0	0	3740185
 www.nagakute-kanko.jp	愛知県	長久手市観光	2026-09-12	2026-09-12	40	0	6	0	0	7956899
@@ -546,7 +607,9 @@ www.shimotsuma-kankou.jp	茨城県	下妻市観光	2026-09-07	2026-09-12	40	0	2	
 www.tokigawa-kankou.com	埼玉県	ときがわ町観光	2026-09-12	2026-09-12	40	0	0	0	0	714069
 www.town.agematsu.nagano.jp	長野県	上松町	2026-09-12	2026-09-12	40	0	1	0	0	607604
 www.town.aizubange.fukushima.jp	福島県	会津坂下町	2026-09-12	2026-09-12	40	0	1	0	0	989637
+www.town.amagi.lg.jp	鹿児島県	天城町	2026-09-20	2026-09-20	40	2	1	0	0	1463849
 www.town.ando.nara.jp	奈良県	安堵町	2026-09-12	2026-09-12	40	0	1	0	0	938136
+www.town.asagiri.lg.jp	熊本県	あさぎり町	2026-09-20	2026-09-20	40	2	2	0	0	5987107
 www.town.asakawa.fukushima.jp	福島県	浅川町	2026-09-12	2026-09-12	40	0	1	0	0	848550
 www.town.chikuzen.fukuoka.jp	福岡県	筑前町	2026-09-19	2026-09-19	40	2	1	0	0	508227
 www.town.eiheiji.lg.jp	福井県	永平寺町	2026-09-12	2026-09-12	40	0	1	0	0	825839
@@ -556,11 +619,14 @@ www.town.fuso.lg.jp	愛知県	扶桑町	2026-09-08	2026-09-10	40	0	1	0	0	735596
 www.town.genkai.lg.jp	佐賀県	玄海町	2026-09-19	2026-09-19	40	2	1	0	0	996935
 www.town.ginan.lg.jp	岐阜県	岐南町	2026-09-12	2026-09-12	40	0	1	0	0	3069355
 www.town.godo.gifu.jp	岐阜県	神戸町	2026-09-12	2026-09-12	40	0	2	0	0	3438843
+www.town.gyokuto.kumamoto.jp	熊本県	玉東町	2026-09-20	2026-09-20	40	2	4	0	0	4737624
 www.town.higashiagatsuma.gunma.jp	群馬県	東吾妻町	2026-09-12	2026-09-12	40	0	2	0	0	1296960
+www.town.hikawa.kumamoto.jp	熊本県	氷川町	2026-09-20	2026-09-20	40	2	2	0	0	3281492
 www.town.ibigawa.lg.jp	岐阜県	揖斐川町	2026-09-12	2026-09-12	40	0	1	0	0	1008417
 www.town.ichikai.tochigi.jp	栃木県	市貝町	2026-09-11	2026-09-11	40	0	1	0	0	1892461
 www.town.itakura.gunma.jp	群馬県	板倉町	2026-09-12	2026-09-12	40	0	1	0	0	557535
 www.town.itoda.lg.jp	福岡県	糸田町	2026-09-19	2026-09-19	40	3	2	0	0	935120
+www.town.kadogawa.lg.jp	宮崎県	門川町	2026-09-20	2026-09-20	40	2	0	0	0	1357347
 www.town.kaisei.kanagawa.jp	神奈川県	開成町	2026-09-11	2026-09-11	40	0	2	0	0	4330660
 www.town.kamimine.lg.jp	佐賀県	上峰町	2026-09-19	2026-09-19	40	3	1	3	0	4585290
 www.town.kaneyama.fukushima.jp	福島県	金山町	2026-09-12	2026-09-12	40	0	1	0	0	524156
@@ -568,14 +634,20 @@ www.town.kanie.aichi.jp	愛知県	蟹江町	2026-09-08	2026-09-10	40	0	1	0	0	866
 www.town.katsuragi.wakayama.jp	和歌山県	かつらぎ町	2026-09-12	2026-09-12	40	0	2	0	0	798240
 www.town.kawajima.saitama.jp	埼玉県	川島町	2026-09-11	2026-09-11	40	0	1	0	0	2230984
 www.town.kawamata.lg.jp	福島県	川俣町	2026-09-12	2026-09-12	40	0	1	0	0	864343
+www.town.kikuyo.lg.jp	熊本県	菊陽町	2026-09-20	2026-09-20	40	2	1	0	0	4609581
 www.town.kisosaki.lg.jp	三重県	木曽岬町	2026-09-12	2026-09-12	40	0	8	0	0	848389
 www.town.koori.fukushima.jp	福島県	桑折町	2026-09-12	2026-09-12	40	0	1	0	0	837130
 www.town.koryo.nara.jp	奈良県	広陵町	2026-09-12	2026-09-12	40	0	0	0	0	962595
+www.town.kosa.lg.jp	熊本県	甲佐町	2026-09-20	2026-09-20	40	2	96	0	0	1786942
 www.town.kouhoku.saga.jp	佐賀県	江北町	2026-09-19	2026-09-19	40	2	1	0	0	6037803
 www.town.kozagawa.lg.jp	和歌山県	古座川町	2026-09-12	2026-09-12	40	0	0	0	0	1615041
+www.town.kumamoto-kashima.lg.jp	熊本県	嘉島町	2026-09-20	2026-09-20	40	2	0	0	0	1338448
 www.town.kunimi.fukushima.jp	福島県	国見町	2026-09-12	2026-09-12	40	0	2	0	0	810838
+www.town.kunitomi.miyazaki.jp	宮崎県	国富町	2026-09-20	2026-09-20	40	3	4	0	0	1005449
 www.town.kyonan.chiba.jp	千葉県	鋸南町	2026-09-11	2026-09-11	40	0	1	0	0	1297114
+www.town.mashiki.lg.jp	熊本県	益城町	2026-09-20	2026-09-20	40	2	1	0	0	5400603
 www.town.matsubushi.lg.jp	埼玉県	松伏町	2026-09-11	2026-09-11	40	0	2	0	0	1345011
+www.town.mimata.lg.jp	宮崎県	三股町	2026-09-20	2026-09-20	40	3	0	0	0	1638190
 www.town.minamiechizen.lg.jp	福井県	南越前町	2026-09-12	2026-09-12	40	0	2	0	0	1398780
 www.town.mishima.fukushima.jp	福島県	三島町	2026-09-12	2026-09-12	40	0	1	0	0	1125002
 www.town.miyashiro.lg.jp	埼玉県	宮代町	2026-09-11	2026-09-11	40	0	1	0	0	1398789
@@ -598,6 +670,7 @@ www.town.shimoichi.lg.jp	奈良県	下市町	2026-09-12	2026-09-12	40	0	1	0	0	73
 www.town.shimosuwa.lg.jp	長野県	下諏訪町	2026-09-12	2026-09-12	40	0	1	0	0	980699
 www.town.shioya.tochigi.jp	栃木県	塩谷町	2026-09-11	2026-09-11	40	0	2	0	0	2043036
 www.town.tachiarai.fukuoka.jp	福岡県	大刀洗町	2026-09-19	2026-09-19	40	2	1	0	0	7851947
+www.town.takaharu.lg.jp	宮崎県	高原町	2026-09-20	2026-09-20	40	2	2	0	0	1056991
 www.town.takatori.nara.jp	奈良県	高取町	2026-09-12	2026-09-12	40	0	1	0	0	594443
 www.town.taketoyo.lg.jp	愛知県	武豊町	2026-09-08	2026-09-10	40	0	1	0	0	977338
 www.town.tarui.lg.jp	岐阜県	垂井町	2026-09-12	2026-09-12	40	0	1	0	0	1794299
@@ -609,6 +682,8 @@ www.town.yabuki.fukushima.jp	福島県	矢吹町	2026-09-12	2026-09-12	40	0	1	0	
 www.town.yamatsuri.fukushima.jp	福島県	矢祭町	2026-09-12	2026-09-12	40	0	1	0	0	718608
 www.town.yokoshibahikari.chiba.jp	千葉県	横芝光町	2026-09-11	2026-09-11	40	0	1	0	0	857386
 www.town.yugawara.kanagawa.jp	神奈川県	湯河原町	2026-09-11	2026-09-11	40	0	1	0	0	1184469
+www.town.yunomae.lg.jp	熊本県	湯前町	2026-09-20	2026-09-20	40	2	3	0	0	4671793
+www.town.yusui.kagoshima.jp	鹿児島県	湧水町	2026-09-20	2026-09-20	40	2	2	0	0	803914
 www.urugi.jp	長野県	売木村	2026-09-12	2026-09-12	40	0	0	0	0	27327489
 www.ushikukankou.com	茨城県	牛久市観光	2026-09-11	2026-09-12	40	0	0	0	0	1765953
 www.vill-nakajima.jp	福島県	中島村	2026-09-12	2026-09-12	40	0	1	0	0	876239
@@ -619,13 +694,18 @@ www.vill.hirata.fukushima.jp	福島県	平田村	2026-09-12	2026-09-12	40	0	1	0	
 www.vill.iitate.fukushima.jp	福島県	飯舘村	2026-09-12	2026-09-12	40	0	1	0	0	826367
 www.vill.kawakami.nagano.jp	長野県	川上村	2026-09-12	2026-09-12	40	0	1	0	0	466884
 www.vill.kurotaki.nara.jp	奈良県	黒滝村	2026-09-12	2026-09-12	40	0	1	0	0	751708
+www.vill.minamiaso.lg.jp	熊本県	南阿蘇村	2026-09-20	2026-09-20	40	2	2	0	0	5309612
+www.vill.mizukami.lg.jp	熊本県	水上村	2026-09-20	2026-09-20	40	2	1	0	0	4641648
 www.vill.nagano-toyooka.lg.jp	長野県	豊丘村	2026-09-12	2026-09-12	40	0	2	0	0	583179
+www.vill.nishimera.lg.jp	宮崎県	西米良村	2026-09-20	2026-09-20	40	3	4	0	0	3587956
 www.vill.ogawa.nagano.jp	長野県	小川村	2026-09-12	2026-09-12	40	0	1	0	0	504104
 www.vill.otaki.nagano.jp	長野県	王滝村	2026-09-12	2026-09-12	40	0	1	0	0	398827
+www.vill.sagara.lg.jp	熊本県	相良村	2026-09-20	2026-09-20	40	2	1	0	0	1013550
 www.vill.shimokitayama.nara.jp	奈良県	下北山村	2026-09-12	2026-09-12	40	0	1	0	0	992314
 www.vill.shinto.gunma.jp	群馬県	榛東村	2026-09-12	2026-09-12	40	0	0	0	0	2453404
 www.vill.soni.nara.jp	奈良県	曽爾村	2026-09-12	2026-09-12	40	0	1	0	0	1275842
 www.vill.tobishima.aichi.jp	愛知県	飛島村	2026-09-08	2026-09-10	40	0	1	0	0	1314497
+www.vill.yamae.lg.jp	熊本県	山江村	2026-09-20	2026-09-20	40	2	1	0	0	2992087
 www.vill.yamagata.nagano.jp	長野県	山形村	2026-09-12	2026-09-12	40	0	1	0	0	1041780
 www.vill.yamanakako.lg.jp	山梨県	山中湖村	2026-09-12	2026-09-12	40	0	2	0	0	1560645
 www.vill.yasuoka.nagano.jp	長野県	泰阜村	2026-09-12	2026-09-12	40	0	1	0	0	782759
@@ -642,25 +722,31 @@ www.city.munakata.lg.jp	福岡県	宗像市	2026-09-19	2026-09-19	39	4	9	3	0	781
 www.city.seki.lg.jp	岐阜県	関市	2026-09-12	2026-09-12	39	0	1	0	0	1026942
 www.kanko-okaya.jp	長野県	岡谷市観光	2026-09-12	2026-09-12	39	0	0	0	0	7055939
 www.kasama-kankou.jp	茨城県	笠間市観光	2026-09-07	2026-09-08	39	0	2	0	0	421605
+www.tokara.jp	鹿児島県	十島村	2026-09-20	2026-09-20	39	2	0	0	0	1499174
 www.town.echizen.fukui.jp	福井県	越前町	2026-09-12	2026-09-12	39	0	2	0	0	869368
 www.town.gifu-ikeda.lg.jp	岐阜県	池田町	2026-09-12	2026-09-12	39	0	1	0	0	925488
 www.town.ikaruga.nara.jp	奈良県	斑鳩町	2026-09-12	2026-09-12	39	0	1	0	0	1040490
 www.town.ogose.saitama.jp	埼玉県	越生町	2026-09-11	2026-09-11	39	0	0	0	0	1812955
+www.town.ozu.kumamoto.jp	熊本県	大津町	2026-09-20	2026-09-20	39	2	1	0	0	1326974
+ashikita-kankou.com	熊本県	芦北町観光	2026-09-20	2026-09-20	38	2	0	0	0	1494873
 kankou-takahama.gr.jp	愛知県	高浜市観光	2026-09-10	2026-09-12	38	0	0	0	0	5951005
 matsuura-guide.com	長崎県	松浦市観光	2026-09-19	2026-09-19	38	2	0	0	0	3350908
 miharukoma.com	福島県	三春町観光	2026-09-12	2026-09-12	38	0	0	0	0	2031195
 nanmoku.ne.jp	群馬県	南牧村	2026-09-12	2026-09-12	38	0	0	0	0	1287508
 nasushiobara-kanko.jp	栃木県	那須塩原市観光	2026-09-11	2026-09-11	38	0	1	0	0	2820352
 www.akirunokanko.com	東京都	あきる野市観光	2026-09-11	2026-09-11	38	0	0	0	0	1533675
+www.city.amakusa.kumamoto.jp	熊本県	天草市	2026-09-20	2026-09-20	38	2	1	1	0	4869568
 www.city.gosen.lg.jp	新潟県	五泉市	2026-09-12	2026-09-12	38	0	0	0	0	1484751
 www.city.hashima.lg.jp	岐阜県	羽島市	2026-09-12	2026-09-12	38	0	1	0	0	3123240
 www.city.iga.lg.jp	三重県	伊賀市	2026-09-12	2026-09-12	38	0	1	0	0	1149242
 www.city.kakamigahara.lg.jp	岐阜県	各務原市	2026-09-12	2026-09-12	38	0	1	0	0	1015999
+www.city.makurazaki.lg.jp	鹿児島県	枕崎市	2026-09-20	2026-09-20	38	2	1	0	0	863855
 www.city.minokamo.lg.jp	岐阜県	美濃加茂市	2026-09-12	2026-09-12	38	0	1	0	0	1037096
 www.city.motosu.lg.jp	岐阜県	本巣市	2026-09-12	2026-09-12	38	0	0	0	0	679719
 www.city.ojiya.niigata.jp	新潟県	小千谷市	2026-09-12	2026-09-12	38	0	1	0	0	1015845
 www.city.okawa.lg.jp	福岡県	大川市	2026-09-19	2026-09-19	38	2	0	0	0	1250514
 www.city.ono.fukui.jp	福井県	大野市	2026-09-12	2026-09-12	38	0	1	0	0	1169077
+www.city.soo.kagoshima.jp	鹿児島県	曽於市	2026-09-20	2026-09-20	38	2	0	0	0	943274
 www.city.tosu.lg.jp	佐賀県	鳥栖市	2026-09-19	2026-09-19	38	2	1	0	0	1268467
 www.kankou-komagane.com	長野県	駒ヶ根市観光	2026-09-12	2026-09-12	38	0	1	0	0	2041346
 www.komoro-tour.jp	長野県	小諸市観光	2026-09-12	2026-09-12	38	0	1	0	0	2116056
@@ -669,15 +755,20 @@ www.nankishirahama.jp	和歌山県	白浜町観光	2026-09-12	2026-09-12	38	0	1	
 www.sasebo99.com	長崎県	佐世保市観光	2026-09-19	2026-09-19	38	1	1	0	0	8033109
 www.town.heguri.nara.jp	奈良県	平群町	2026-09-12	2026-09-12	38	0	2	0	0	945575
 www.town.hirokawa.fukuoka.jp	福岡県	広川町	2026-09-19	2026-09-19	38	2	0	0	0	1644890
+www.town.kumamoto-yamato.lg.jp	熊本県	山都町	2026-09-20	2026-09-20	38	2	1	0	0	3293462
 www.town.ohi.fukui.jp	福井県	おおい町	2026-09-12	2026-09-12	38	0	0	0	0	1023330
 www.town.sakaki.nagano.jp	長野県	坂城町	2026-09-12	2026-09-12	38	0	1	0	0	1965094
 www.town.shiga-hino.lg.jp	滋賀県	日野町	2026-09-12	2026-09-12	38	0	1	0	0	915536
 www.uda-kankou.jp	奈良県	宇陀市観光	2026-09-12	2026-09-12	38	0	0	0	0	517252
+www.vill.itsuki.lg.jp	熊本県	五木村	2026-09-20	2026-09-20	38	2	1	0	0	3015829
 www.vill.minamiminowa.lg.jp	長野県	南箕輪村	2026-09-12	2026-09-12	38	0	1	0	0	1403765
+www.vill.shiiba.miyazaki.jp	宮崎県	椎葉村	2026-09-20	2026-09-20	38	2	0	0	0	510590
 www.vill.shirakawa.lg.jp	岐阜県	白川村	2026-09-12	2026-09-12	38	0	1	0	0	2387223
 www.vill.tabayama.yamanashi.jp	山梨県	丹波山村	2026-09-12	2026-09-12	38	0	1	0	0	448435
 www.vill.tenei.fukushima.jp	福島県	天栄村	2026-09-12	2026-09-12	38	0	2	0	0	622017
 itospa.com	静岡県	伊東市観光	2026-09-10	2026-09-10	37	0	0	0	0	1820688
+kanko-minamisatsuma.jp	鹿児島県	南さつま市観光	2026-09-20	2026-09-20	37	1	0	0	0	2305895
+mishimamura.com	鹿児島県	三島村	2026-09-20	2026-09-20	37	2	2	0	0	1560054
 saga-kashima-kankou.com	佐賀県	鹿島市観光	2026-09-19	2026-09-19	37	1	0	0	0	1697768
 www.ataminews.gr.jp	静岡県	熱海市観光	2026-09-10	2026-09-10	37	0	0	0	0	4429233
 www.city.atsugi.kanagawa.jp	神奈川県	厚木市	2026-09-11	2026-09-11	37	0	0	0	0	3141452
@@ -702,21 +793,26 @@ kankou-iwaki.or.jp	福島県	いわき市観光	2026-09-12	2026-09-12	36	0	0	0	0
 www.city.aisai.lg.jp	愛知県	愛西市	2026-09-08	2026-09-10	36	0	1	0	0	789028
 www.city.beppu.oita.jp	大分県	別府市	2026-09-19	2026-09-19	36	2	2	0	0	5435906
 www.city.iwata.shizuoka.jp	静岡県	磐田市	2026-09-08	2026-09-10	36	0	1	0	0	1225970
+www.city.kikuchi.lg.jp	熊本県	菊池市	2026-09-20	2026-09-20	36	2	0	0	0	1819118
 www.city.kofu.yamanashi.jp	山梨県	甲府市	2026-09-12	2026-09-12	36	0	10	0	0	887742
 www.city.koshigaya.saitama.jp	埼玉県	越谷市	2026-09-11	2026-09-11	36	0	2	0	0	1461943
 www.city.maibara.lg.jp	滋賀県	米原市	2026-09-12	2026-09-12	36	0	0	0	0	1896427
 www.city.narita.chiba.jp	千葉県	成田市	2026-09-11	2026-09-11	36	0	1	0	0	743303
+www.city.nichinan.lg.jp	宮崎県	日南市	2026-09-20	2026-09-20	36	2	0	0	0	2137987
 www.city.toba.mie.jp	三重県	鳥羽市	2026-09-12	2026-09-12	36	0	0	0	0	1543115
 www.city.tokamachi.lg.jp	新潟県	十日町市	2026-09-12	2026-09-12	36	0	0	0	0	1903718
 www.kankou-ena.jp	岐阜県	恵那市観光	2026-09-12	2026-09-12	36	0	0	0	0	1814903
 www.maebashi-cvb.com	群馬県	前橋市観光	2026-09-12	2026-09-12	36	0	6	0	0	16728068
 www.town.karuizawa.lg.jp	長野県	軽井沢町	2026-09-12	2026-09-12	36	0	1	0	0	1255734
 www.town.nakanojo.gunma.jp	群馬県	中之条町	2026-09-12	2026-09-12	36	0	1	0	0	939992
+www.tsunokanko.com	宮崎県	都農町観光	2026-09-20	2026-09-20	36	2	3	0	0	1058830
 www.vill.kawakami.nara.jp	奈良県	川上村	2026-09-12	2026-09-12	36	0	20	0	0	822769
 koedo.or.jp	埼玉県	川越市観光	2026-09-11	2026-09-11	35	0	0	0	0	2294867
 msnav.com	長野県	飯田市観光	2026-09-12	2026-09-12	35	0	0	0	0	10719494
 toki-kankou.jp	岐阜県	土岐市観光	2026-09-12	2026-09-12	35	0	0	0	0	10677430
+www.city.aira.lg.jp	鹿児島県	姶良市	2026-09-20	2026-09-20	35	3	0	0	0	1088021
 www.city.ama.aichi.jp	愛知県	あま市	2026-09-08	2026-09-10	35	0	1	0	0	749353
+www.city.amami.lg.jp	鹿児島県	奄美市	2026-09-20	2026-09-20	35	2	1	0	0	577193
 www.city.chikugo.lg.jp	福岡県	筑後市	2026-09-19	2026-09-19	35	2	0	0	0	1079978
 www.city.hashimoto.lg.jp	和歌山県	橋本市	2026-09-12	2026-09-12	35	0	0	0	0	1665230
 www.city.iwade.lg.jp	和歌山県	岩出市	2026-09-12	2026-09-12	35	0	1	0	0	934482
@@ -739,6 +835,7 @@ www.town.obuse.nagano.jp	長野県	小布施町	2026-09-12	2026-09-12	35	0	2	0	0
 www.town.taga.lg.jp	滋賀県	多賀町	2026-09-12	2026-09-12	35	0	0	0	0	1240387
 www.town.togitsu.nagasaki.jp	長崎県	時津町	2026-09-19	2026-09-19	35	3	0	0	0	1117126
 www.vill.doshi.lg.jp	山梨県	道志村	2026-09-12	2026-09-12	35	0	2	0	0	1054923
+www.vill.nishihara.kumamoto.jp	熊本県	西原村	2026-09-20	2026-09-20	35	2	2	0	0	4088637
 www.vill.tamakawa.fukushima.jp	福島県	玉川村	2026-09-12	2026-09-12	35	0	1	0	0	1220080
 izunotabi.com	静岡県	伊豆の国市観光	2026-09-10	2026-09-10	34	0	0	0	0	1181282
 kusumachi.jp	大分県	玖珠町観光	2026-09-19	2026-09-19	34	2	0	0	0	5412941
@@ -757,6 +854,7 @@ www.kankomie.or.jp	三重県	熊野市観光	2026-09-12	2026-09-12	34	0	0	0	0	36
 www.katsurao.org	福島県	葛尾村	2026-09-12	2026-09-12	34	0	1	0	0	1048903
 www.suzaka-kankokyokai.jp	長野県	須坂市観光	2026-09-12	2026-09-12	34	0	1	0	0	7147095
 www.town.hanawa.fukushima.jp	福島県	塙町	2026-09-12	2026-09-12	34	0	1	0	0	453332
+www.town.kumamoto-misato.lg.jp	熊本県	美里町	2026-09-20	2026-09-20	34	2	0	0	0	1989884
 www.vill.katashina.gunma.jp	群馬県	片品村	2026-09-12	2026-09-12	34	0	1	0	0	969920
 www.vill.otari.nagano.jp	長野県	小谷村	2026-09-12	2026-09-12	34	0	0	0	0	1414522
 www.vill.totsukawa.lg.jp	奈良県	十津川村	2026-09-12	2026-09-12	34	0	0	0	0	1058829
@@ -767,6 +865,7 @@ www.city.futtsu.lg.jp	千葉県	富津市	2026-09-11	2026-09-11	33	0	2	0	0	14005
 www.city.izu.shizuoka.jp	静岡県	伊豆市	2026-09-08	2026-09-10	33	0	8	0	0	2054516
 www.city.kitsuki.lg.jp	大分県	杵築市	2026-09-19	2026-09-19	33	2	2	0	0	1304026
 www.city.nasukarasuyama.lg.jp	栃木県	那須烏山市	2026-09-11	2026-09-11	33	0	4	0	0	758984
+www.city.saito.lg.jp	宮崎県	西都市	2026-09-20	2026-09-20	33	2	0	0	0	1644153
 www.city.sumida.lg.jp	東京都	墨田区	2026-09-11	2026-09-11	33	0	0	0	0	3692453
 www.city.yatomi.lg.jp	愛知県	弥富市	2026-09-08	2026-09-10	33	0	2	0	0	695338
 www.e-yuzawa.gr.jp	新潟県	湯沢町観光	2026-09-12	2026-09-12	33	0	0	0	0	1503239
@@ -800,8 +899,10 @@ www.town.oji.nara.jp	奈良県	王寺町	2026-09-12	2026-09-12	32	0	0	0	0	161012
 www.town.sakuho.nagano.jp	長野県	佐久穂町	2026-09-12	2026-09-12	32	0	0	0	0	1443307
 www.town.shirako.lg.jp	千葉県	白子町	2026-09-11	2026-09-11	32	0	3	0	0	872308
 www.town.tohnosho.chiba.jp	千葉県	東庄町	2026-09-11	2026-09-11	32	0	0	0	0	1587925
+www.town.yakushima.kagoshima.jp	鹿児島県	屋久島町	2026-09-20	2026-09-20	32	2	0	0	0	2065681
 dansuki.jp	長野県	松川町観光	2026-09-12	2026-09-12	31	0	0	0	0	1151225
 kameyama-kanko.com	三重県	亀山市観光	2026-09-12	2026-09-12	31	0	1	0	0	1152853
+okinoerabujima.info	鹿児島県	知名町観光	2026-09-20	2026-09-20	31	1	1	0	0	4567306
 tsushima-kankou.com	愛知県	津島市観光	2026-09-08	2026-09-08	31	0	0	0	0	1334116
 vill.higashiyoshino.nara.jp	奈良県	東吉野村	2026-09-12	2026-09-12	31	0	0	0	0	791817
 www.city.agano.niigata.jp	新潟県	阿賀野市	2026-09-12	2026-09-12	31	0	0	0	0	1959147
@@ -817,6 +918,7 @@ www.karatsu-kankou.jp	佐賀県	唐津市観光	2026-09-19	2026-09-19	31	1	0	0	0
 www.sekigahara1600.com	岐阜県	関ケ原町観光	2026-09-12	2026-09-12	31	0	2	0	0	481404
 www.town.hasami.lg.jp	長崎県	波佐見町	2026-09-19	2026-09-19	31	2	2	0	0	2675675
 www.town.kiyama.lg.jp	佐賀県	基山町	2026-09-19	2026-09-19	31	2	3	0	0	3021399
+www.town.kumamoto-nishiki.lg.jp	熊本県	錦町	2026-09-20	2026-09-20	31	2	1	0	0	3499321
 www.town.mashiko.lg.jp	栃木県	益子町	2026-09-11	2026-09-11	31	0	1	0	0	430459
 www.town.minano.saitama.jp	埼玉県	皆野町	2026-09-11	2026-09-11	31	0	1	0	0	3342422
 www.town.tako.chiba.jp	千葉県	多古町	2026-09-11	2026-09-11	31	0	0	0	0	543387
@@ -824,10 +926,12 @@ www.town.tateshina.nagano.jp	長野県	立科町	2026-09-12	2026-09-12	31	0	1	0	
 www.vill.awashimaura.lg.jp	新潟県	粟島浦村	2026-09-12	2026-09-12	31	0	0	0	0	921545
 www.vill.sekikawa.niigata.jp	新潟県	関川村	2026-09-12	2026-09-12	31	0	2	0	0	4174304
 www.vill.yahiko.niigata.jp	新潟県	弥彦村	2026-09-12	2026-09-12	31	0	0	0	0	754568
+www.youmore-minamioguni.com	熊本県	南小国町観光	2026-09-20	2026-09-20	31	1	1	0	0	1474365
 chita-kanko.com	愛知県	知多市観光	2026-09-10	2026-09-10	30	0	0	0	0	1301661
 mcity-kankokyokai.com	神奈川県	南足柄市観光	2026-09-11	2026-09-11	30	0	1	0	0	2521829
 minokanko.com	岐阜県	美濃市観光	2026-09-12	2026-09-12	30	0	0	0	0	4091155
 numazukanko.jp	静岡県	沼津市観光	2026-09-10	2026-09-10	30	0	1	0	0	12787280
+tanekan.jp	鹿児島県	中種子町観光	2026-09-20	2026-09-20	30	2	0	0	0	1769529
 www.city.ota.gunma.jp	群馬県	太田市	2026-09-12	2026-09-12	30	0	2	0	0	934781
 www.city.saitama.lg.jp	埼玉県	さいたま市	2026-09-11	2026-09-11	30	0	2	0	0	5070461
 www.city.satte.lg.jp	埼玉県	幸手市	2026-09-11	2026-09-11	30	0	0	0	0	1605966
@@ -841,6 +945,7 @@ www.matsusaka-kanko.com	三重県	松阪市観光	2026-09-12	2026-09-12	30	0	0	0
 www.minami-ise.jp	三重県	南伊勢町観光	2026-09-12	2026-09-12	30	0	3	0	0	323852
 www.mitsue-kanko.jp	奈良県	御杖村観光	2026-09-12	2026-09-12	30	0	0	0	0	4653266
 www.miyakikankou.jp	佐賀県	みやき町観光	2026-09-19	2026-09-19	30	2	1	0	0	385722
+www.morotsuka-tourism.jp	宮崎県	諸塚村観光	2026-09-20	2026-09-20	30	1	0	0	0	1211988
 www.town.fujikawaguchiko.lg.jp	山梨県	富士河口湖町	2026-09-12	2026-09-12	30	0	1	0	0	991770
 www.town.hidakagawa.lg.jp	和歌山県	日高川町	2026-09-12	2026-09-12	30	0	1	0	0	1091353
 www.town.mibu.tochigi.jp	栃木県	壬生町	2026-09-11	2026-09-11	30	0	1	0	0	1689065
@@ -880,10 +985,12 @@ www.kanko-ogano.jp	埼玉県	小鹿野町観光	2026-09-11	2026-09-11	28	0	0	0	0
 www.kashihara-kanko.or.jp	奈良県	橿原市観光	2026-09-12	2026-09-12	28	0	1	0	0	800491
 www.nagawa.info	長野県	長和町観光	2026-09-12	2026-09-12	28	0	1	0	0	1365308
 www.town-kiso.com	長野県	木曽町	2026-09-12	2026-09-12	28	0	1	0	0	664590
+www.town.mifune.kumamoto.jp	熊本県	御船町	2026-09-20	2026-09-20	28	2	1	1	0	3697308
 www.town.naganohara.gunma.jp	群馬県	長野原町	2026-09-12	2026-09-12	28	0	0	0	0	678004
 www.town.nishiaizu.fukushima.jp	福島県	西会津町	2026-09-12	2026-09-12	28	0	1	0	0	721937
 www.town.shirakawa.lg.jp	岐阜県	白川町	2026-09-12	2026-09-12	28	0	1	0	0	696994
 www.town.toei.aichi.jp	愛知県	東栄町	2026-09-08	2026-09-10	28	0	1	0	0	1569946
+www.town.tsunagi.lg.jp	熊本県	津奈木町	2026-09-20	2026-09-20	28	2	1	0	0	3063969
 www.town.yuasa.wakayama.jp	和歌山県	湯浅町	2026-09-12	2026-09-12	28	0	1	0	0	701378
 www.vill.ooshika.nagano.jp	長野県	大鹿村	2026-09-12	2026-09-12	28	0	0	0	0	905298
 atarimae-kanko.com	佐賀県	佐賀市観光	2026-09-19	2026-09-19	27	1	0	0	0	4682767
@@ -905,6 +1012,7 @@ www.city.ogaki.lg.jp	岐阜県	大垣市	2026-09-12	2026-09-12	27	0	1	0	0	766425
 www.city.tokai.aichi.jp	愛知県	東海市	2026-09-08	2026-09-10	27	0	1	0	0	700277
 www.kainankanko.com	和歌山県	海南市観光	2026-09-12	2026-09-12	27	0	0	0	0	1274243
 www.nasukogen.org	栃木県	那須町観光	2026-09-11	2026-09-11	27	0	2	0	0	663090
+www.town.hinokage.lg.jp	宮崎県	日之影町	2026-09-20	2026-09-20	27	2	1	0	0	458165
 www.town.ichinomiya.chiba.jp	千葉県	一宮町	2026-09-11	2026-09-11	27	0	19	0	0	719386
 www.town.nagawa.nagano.jp	長野県	長和町	2026-09-12	2026-09-12	27	0	0	0	0	1172258
 www.town.ogano.lg.jp	埼玉県	小鹿野町	2026-09-11	2026-09-11	27	0	0	0	0	1087826
@@ -928,6 +1036,7 @@ www.city.choshi.chiba.jp	千葉県	銚子市	2026-09-11	2026-09-11	26	0	0	0	0	65
 www.city.hida.gifu.jp	岐阜県	飛騨市	2026-09-12	2026-09-12	26	0	1	0	0	750433
 www.city.mobara.chiba.jp	千葉県	茂原市	2026-09-11	2026-09-11	26	0	1	0	0	555057
 www.city.sano.lg.jp	栃木県	佐野市	2026-09-11	2026-09-11	26	0	0	0	0	1458593
+www.city.tamana.lg.jp	熊本県	玉名市	2026-09-20	2026-09-20	26	2	0	0	0	1553870
 www.city.tateyama.chiba.jp	千葉県	館山市	2026-09-11	2026-09-11	26	0	1	0	0	595463
 www.go-nagano.net	長野県	麻績村観光	2026-09-12	2026-09-12	26	0	4	0	0	10807276
 www.kagamiishi-kanko.jp	福島県	鏡石町観光	2026-09-12	2026-09-12	26	0	0	0	0	282666
@@ -943,6 +1052,7 @@ ashigara-local.jp	神奈川県	松田町観光	2026-09-11	2026-09-11	25	0	0	0	0	
 hidakagawa-kanko.jp	和歌山県	日高川町観光	2026-09-12	2026-09-12	25	0	0	0	0	1940736
 mibu-kankou.org	栃木県	壬生町観光	2026-09-11	2026-09-11	25	0	21	0	0	1099795
 shonan-ninomiya-kankou.com	神奈川県	二宮町観光	2026-09-11	2026-09-11	25	0	0	0	0	1015344
+town.nakatane.kagoshima.jp	鹿児島県	中種子町	2026-09-20	2026-09-20	25	2	1	0	0	360365
 tsukanko.jp	三重県	津市観光	2026-09-12	2026-09-12	25	0	0	0	0	2987549
 visitsaitamacity.jp	埼玉県	さいたま市観光	2026-09-11	2026-09-11	25	0	0	0	0	4342260
 www.city.chita.lg.jp	愛知県	知多市	2026-09-08	2026-09-10	25	0	1	0	0	890083
@@ -952,6 +1062,7 @@ www.city.minamiashigara.kanagawa.jp	神奈川県	南足柄市	2026-09-11	2026-09
 www.city.noda.chiba.jp	千葉県	野田市	2026-09-11	2026-09-11	25	0	1	0	0	691781
 www.city.togane.chiba.jp	千葉県	東金市	2026-09-11	2026-09-11	25	0	1	0	0	676740
 www.city.tsuruga.lg.jp	福井県	敦賀市	2026-09-12	2026-09-12	25	0	1	0	0	1015396
+www.miyazaki-city.tourism.or.jp	宮崎県	宮崎市観光	2026-09-20	2026-09-20	25	1	1	0	0	10599443
 www.nishiizu-kankou.com	静岡県	西伊豆町観光	2026-09-10	2026-09-10	25	0	2	0	0	1732611
 www.satte-k.com	埼玉県	幸手市観光	2026-09-11	2026-09-11	25	0	0	0	0	1176516
 www.town.kudoyama.lg.jp	和歌山県	九度山町	2026-09-12	2026-09-12	25	0	0	0	0	388167
@@ -960,6 +1071,7 @@ www.town.miyaki.lg.jp	佐賀県	みやき町	2026-09-19	2026-09-19	25	2	1	0	0	69
 www.urayasu-kankou.jp	千葉県	浦安市観光	2026-09-11	2026-09-11	25	0	0	0	0	1393549
 www.vill.kawaba.gunma.jp	群馬県	川場村	2026-09-12	2026-09-12	25	0	1	0	0	490497
 www.vill.mitsue.nara.jp	奈良県	御杖村	2026-09-12	2026-09-12	25	0	0	0	0	459042
+www.vill.morotsuka.miyazaki.jp	宮崎県	諸塚村	2026-09-20	2026-09-20	25	2	0	0	0	1233515
 agano-spot.com	新潟県	阿賀野市観光	2026-09-12	2026-09-12	24	0	0	0	0	1952692
 hanno-tourism.jp	埼玉県	飯能市観光	2026-09-11	2026-09-11	24	0	0	0	0	2837207
 hasami-kankou.jp	長崎県	波佐見町観光	2026-09-19	2026-09-19	24	1	0	0	0	874329
@@ -974,6 +1086,7 @@ www.kanko.suzuka.mie.jp	三重県	鈴鹿市観光	2026-09-12	2026-09-12	24	0	0	0
 www.kankoshitara.jp	愛知県	設楽町観光	2026-09-10	2026-09-10	24	0	0	0	0	800844
 www.minano.gr.jp	埼玉県	皆野町観光	2026-09-11	2026-09-11	24	0	0	0	0	1282283
 www.nihon-kankou.or.jp	埼玉県	上里町観光	2026-09-11	2026-09-11	24	0	0	0	0	10392336
+www.town.china.lg.jp	鹿児島県	知名町	2026-09-20	2026-09-20	24	2	0	0	0	1777639
 www.town.fukui-mihama.lg.jp	福井県	美浜町	2026-09-12	2026-09-12	24	0	1	0	0	951279
 www.town.iizuna.nagano.jp	長野県	飯綱町	2026-09-12	2026-09-12	24	0	1	0	0	767044
 www.town.matsukawa.lg.jp	長野県	松川町	2026-09-12	2026-09-12	24	0	0	0	0	809523
@@ -983,6 +1096,7 @@ www.town.saitama-misato.lg.jp	埼玉県	美里町	2026-09-11	2026-09-11	24	0	1	0
 www.welcome.city.yokohama.jp	神奈川県	横浜市観光	2026-09-11	2026-09-11	24	0	1	0	0	1156190
 yuki-kankou.com	茨城県	結城市観光	2026-09-07	2026-09-08	24	0	1	0	0	567596
 gotembatourism.jp	静岡県	御殿場市観光	2026-09-10	2026-09-10	23	0	0	0	0	1578153
+hinokage-kanko.jp	宮崎県	日之影町観光	2026-09-20	2026-09-20	23	1	22	0	0	2951319
 home.oji-kanko.kokosil.net	奈良県	王寺町観光	2026-09-12	2026-09-12	23	0	1	0	0	1474823
 kihoku-kanko.com	三重県	紀北町観光	2026-09-12	2026-09-12	23	0	0	0	0	669804
 tsubame-kankou.jp	新潟県	燕市観光	2026-09-12	2026-09-12	23	0	0	0	0	800128
@@ -991,14 +1105,19 @@ www.arita.jp	佐賀県	有田町観光	2026-09-19	2026-09-19	23	1	0	0	0	569518
 www.city.ashikaga.tochigi.jp	栃木県	足利市	2026-09-11	2026-09-11	23	0	0	0	0	3050277
 www.city.chikuma.lg.jp	長野県	千曲市	2026-09-12	2026-09-12	23	0	1	0	0	1128325
 www.city.fujieda.shizuoka.jp	静岡県	藤枝市	2026-09-08	2026-09-10	23	0	0	0	0	1801036
+www.city.hyuga.miyazaki.jp	宮崎県	日向市	2026-09-20	2026-09-20	23	2	1	0	0	422784
+www.city.nobeoka.miyazaki.jp	宮崎県	延岡市	2026-09-20	2026-09-20	23	2	6	0	0	1059547
 www.city.toyoake.lg.jp	愛知県	豊明市	2026-09-08	2026-09-10	23	0	1	0	0	1384300
 www.kota-kanko.jp	愛知県	幸田町観光	2026-09-10	2026-09-10	23	0	0	0	0	952640
+www.misato-kankou.com	宮崎県	美郷町観光	2026-09-20	2026-09-20	23	2	1	0	0	551702
 www.tohnosho-kanko.jp	千葉県	東庄町観光	2026-09-11	2026-09-11	23	0	0	0	0	2947299
 www.town.kaminokawa.lg.jp	栃木県	上三川町	2026-09-11	2026-09-11	23	0	2	0	0	989417
 www.town.tadami.lg.jp	福島県	只見町	2026-09-12	2026-09-12	23	0	1	0	0	760298
 www.yk-kankou.jp	奈良県	大和郡山市観光	2026-09-12	2026-09-12	23	0	1	0	0	492938
 yachiho-kogen.jp	長野県	佐久穂町観光	2026-09-12	2026-09-12	23	0	0	0	0	625244
+yakukan.jp	鹿児島県	屋久島町観光	2026-09-20	2026-09-20	23	1	0	0	0	1199076
 flat-shiroishi.jp	佐賀県	白石町観光	2026-09-19	2026-09-19	22	1	0	0	0	511187
+isa-kanko.com	鹿児島県	伊佐市観光	2026-09-20	2026-09-20	22	1	0	0	0	1430316
 kit-suki.com	大分県	杵築市観光	2026-09-19	2026-09-19	22	2	0	0	0	3106579
 kitabiwako.jp	滋賀県	長浜市観光	2026-09-12	2026-09-12	22	0	0	0	0	1209376
 tawaramoton.com	奈良県	田原本町観光	2026-09-12	2026-09-12	22	0	11	0	0	1907526
@@ -1013,6 +1132,8 @@ www.city.soma.fukushima.jp	福島県	相馬市	2026-09-12	2026-09-12	22	0	0	0	0	
 www.city.ureshino.lg.jp	佐賀県	嬉野市	2026-09-19	2026-09-19	22	2	0	0	0	550841
 www.koumi-kankou.jp	長野県	小海町観光	2026-09-12	2026-09-12	22	0	0	0	0	876024
 www.ritto-kanko.com	滋賀県	栗東市観光	2026-09-12	2026-09-12	22	0	0	0	0	374711
+www.saito-kanko.jp	宮崎県	西都市観光	2026-09-20	2026-09-20	22	2	1	0	0	1604496
+www.town.kawaminami.miyazaki.jp	宮崎県	川南町	2026-09-20	2026-09-20	22	2	1	0	0	581813
 www.town.kujukuri.chiba.jp	千葉県	九十九里町	2026-09-11	2026-09-11	22	0	1	0	0	336136
 www.town.yuzawa.lg.jp	新潟県	湯沢町	2026-09-12	2026-09-12	22	0	0	0	0	1244974
 www.vill.nozawaonsen.nagano.jp	長野県	野沢温泉村	2026-09-12	2026-09-12	22	0	1	0	0	342381
@@ -1023,6 +1144,7 @@ info-otari.jp	長野県	小谷村観光	2026-09-12	2026-09-12	21	0	0	0	0	3048231
 kanko-kusatsu.com	滋賀県	草津市観光	2026-09-12	2026-09-12	21	0	0	0	0	1420487
 kanko-omachi.gr.jp	長野県	大町市観光	2026-09-12	2026-09-12	21	0	0	0	0	634147
 oze-katashina.info	群馬県	片品村観光	2026-09-12	2026-09-12	21	0	0	0	0	1534492
+reihoku-kumamoto.jp	熊本県	苓北町	2026-09-20	2026-09-20	21	2	1	0	0	2441356
 www.aisho-kanko.com	滋賀県	愛荘町観光	2026-09-12	2026-09-12	21	0	0	0	0	1961192
 www.bandaisan.or.jp	福島県	猪苗代町観光	2026-09-12	2026-09-12	21	0	0	0	0	10683580
 www.chuo-kanko.or.jp	東京都	中央区観光	2026-09-11	2026-09-11	21	0	0	0	0	3465745
@@ -1032,11 +1154,13 @@ www.city.owase.lg.jp	三重県	尾鷲市	2026-09-12	2026-09-12	21	0	1	0	0	568881
 www.city.suzaka.nagano.jp	長野県	須坂市	2026-09-12	2026-09-12	21	0	0	0	0	1269701
 www.isahaya-kankou.com	長崎県	諫早市観光	2026-09-19	2026-09-19	21	2	0	0	0	1052816
 www.kusatsu-onsen.ne.jp	群馬県	草津町観光	2026-09-12	2026-09-12	21	0	0	0	0	893373
+www.misato-kanko.com	埼玉県	美里町観光	2026-09-11	2026-09-20	21	1	0	0	0	1001441
 www.sake3.com	新潟県	村上市観光	2026-09-12	2026-09-12	21	0	1	0	0	653281
 www.town.kusu.oita.jp	大分県	玖珠町	2026-09-19	2026-09-19	21	2	0	0	0	852698
 www.vill.tsumagoi.gunma.jp	群馬県	嬬恋村	2026-09-12	2026-09-12	21	0	2	0	0	303044
 www.yamanashishi-kankou.com	山梨県	山梨市観光	2026-09-12	2026-09-12	21	0	0	0	0	628872
 yoshinoyama-kankou.com	奈良県	吉野町観光	2026-09-12	2026-09-12	21	0	2	0	0	1739597
+aira-kankou.jp	鹿児島県	姶良市観光	2026-09-20	2026-09-20	20	2	0	0	0	2188390
 chikugo.net	福岡県	筑後市観光	2026-09-19	2026-09-19	20	4	3	0	0	796602
 hashimoto-tourism.com	和歌山県	橋本市観光	2026-09-12	2026-09-12	20	0	0	0	0	1099921
 ikoma-kanko.jp	奈良県	生駒市観光	2026-09-12	2026-09-12	20	0	0	0	0	1213238
@@ -1046,6 +1170,7 @@ shinagawa-kanko.or.jp	東京都	品川区観光	2026-09-11	2026-09-11	20	0	0	0	0
 taga-kankou.com	滋賀県	多賀町観光	2026-09-12	2026-09-12	20	0	0	0	0	461474
 tanoshimu-togitsu.com	長崎県	時津町観光	2026-09-19	2026-09-19	20	1	0	0	0	651383
 ukihalove.jp	福岡県	うきは市観光	2026-09-19	2026-09-19	20	1	0	0	0	1213466
+www.amami-tourism.org	鹿児島県	奄美市観光	2026-09-20	2026-09-20	20	1	0	0	0	1277287
 www.city.fuefuki.yamanashi.jp	山梨県	笛吹市	2026-09-12	2026-09-12	20	0	0	0	0	569822
 www.city.ikoma.lg.jp	奈良県	生駒市	2026-09-12	2026-09-12	20	0	1	0	0	882831
 www.city.kanzaki.saga.jp	佐賀県	神埼市	2026-09-19	2026-09-19	20	2	2	1	0	465532
@@ -1063,12 +1188,14 @@ www.omekanko.gr.jp	東京都	青梅市観光	2026-09-11	2026-09-11	20	0	0	0	0	69
 www.town.aisho.shiga.jp	滋賀県	愛荘町	2026-09-12	2026-09-12	20	0	0	0	0	1190567
 beppu-tourism.com	大分県	別府市観光	2026-09-19	2026-09-19	19	1	0	0	0	1972498
 kanko-iwata.jp	静岡県	磐田市観光	2026-09-10	2026-09-10	19	0	0	0	0	934427
+kankou.reihoku-kumamoto.jp	熊本県	苓北町観光	2026-09-20	2026-09-20	19	1	1	0	0	1271310
 kofu-tourism.com	山梨県	甲府市観光	2026-09-12	2026-09-12	19	0	0	0	0	1533995
 nakanojo-kanko.jp	群馬県	中之条町観光	2026-09-12	2026-09-12	19	0	0	0	0	1458207
 owasekankou.com	三重県	尾鷲市観光	2026-09-12	2026-09-12	19	0	0	0	0	1537162
 www.city.ena.lg.jp	岐阜県	恵那市	2026-09-12	2026-09-12	19	0	1	0	0	1128544
 www.city.isahaya.nagasaki.jp	長崎県	諫早市	2026-09-19	2026-09-19	19	2	1	0	0	346402
 www.kanko-oyama.jp	静岡県	小山町観光	2026-09-11	2026-09-11	19	0	2	0	0	978573
+www.kankou-nichinan.jp	宮崎県	日南市観光	2026-09-20	2026-09-20	19	1	1	0	0	643136
 www.koshigaya-sightseeing.jp	埼玉県	越谷市観光	2026-09-11	2026-09-11	19	0	0	0	0	599678
 www.toba.gr.jp	三重県	鳥羽市観光	2026-09-12	2026-09-12	19	0	0	0	0	1173632
 www.toganekanko.jp	千葉県	東金市観光	2026-09-11	2026-09-11	19	0	0	0	0	5952423
@@ -1079,6 +1206,7 @@ www.town.matsuzaki.shizuoka.jp	静岡県	松崎町	2026-09-08	2026-09-10	19	0	6	
 www.tsumagoi-kankou.jp	群馬県	嬬恋村観光	2026-09-12	2026-09-12	19	0	5	0	0	31549293
 99kankou.com	千葉県	九十九里町観光	2026-09-11	2026-09-11	18	0	0	0	0	747351
 asahi-taiken.com	長野県	朝日村観光	2026-09-12	2026-09-12	18	0	0	0	0	3039815
+kawaminami-kanko.com	宮崎県	川南町観光	2026-09-20	2026-09-20	18	1	0	0	0	886261
 kiyosu-kanko.org	愛知県	清須市観光	2026-09-10	2026-09-10	18	0	0	0	0	425227
 minamichita-kk.com	愛知県	南知多町観光	2026-09-10	2026-09-10	18	0	2	0	0	556870
 nogi-kankou.com	栃木県	野木町観光	2026-09-11	2026-09-11	18	0	0	0	0	1760216
@@ -1087,6 +1215,8 @@ ooshika-kanko.com	長野県	大鹿村観光	2026-09-12	2026-09-12	18	0	0	0	0	110
 spa-u.net	佐賀県	嬉野市観光	2026-09-19	2026-09-19	18	1	1	0	0	299021
 www.atsugi-kankou.jp	神奈川県	厚木市観光	2026-09-11	2026-09-11	18	0	1	0	0	448874
 www.city.iki.nagasaki.jp	長崎県	壱岐市	2026-09-19	2026-09-19	18	2	0	0	0	440907
+www.city.isa.kagoshima.jp	鹿児島県	伊佐市	2026-09-20	2026-09-20	18	2	0	0	0	1289504
+www.city.minamisatsuma.lg.jp	鹿児島県	南さつま市	2026-09-20	2026-09-20	18	2	0	0	0	1685273
 www.city.nagahama.lg.jp	滋賀県	長浜市	2026-09-12	2026-09-12	18	0	1	0	0	488500
 www.handa-kankou.com	愛知県	半田市観光	2026-09-08	2026-09-08	18	0	0	0	0	1207515
 www.izumozaki.net	新潟県	出雲崎町観光	2026-09-12	2026-09-12	18	0	0	0	0	616210
@@ -1099,6 +1229,8 @@ k-miyachan.com	大分県	九重町観光	2026-09-19	2026-09-19	17	1	1	0	0	217341
 kakamigahara-kankou.jp	岐阜県	各務原市観光	2026-09-12	2026-09-12	17	0	0	0	0	3034645
 kanko.town.heguri.nara.jp	奈良県	平群町観光	2026-09-12	2026-09-12	17	0	0	0	0	379384
 kankou-minamiminowa.nagano.jp	長野県	南箕輪村観光	2026-09-12	2026-09-12	17	0	0	0	0	1120559
+nobekan.jp	宮崎県	延岡市観光	2026-09-20	2026-09-20	17	1	0	0	0	2070298
+soo-navi.jp	鹿児島県	曽於市観光	2026-09-20	2026-09-20	17	1	0	0	0	863398
 tako-kankou.or.jp	千葉県	多古町観光	2026-09-11	2026-09-11	17	0	1	0	0	1301560
 wakasa-mihama.jp	福井県	美浜町観光	2026-09-12	2026-09-12	17	0	0	0	0	1045662
 welcome-toyoake.jp	愛知県	豊明市観光	2026-09-10	2026-09-10	17	0	1	0	0	608621
@@ -1109,18 +1241,21 @@ www.city.komagane.nagano.jp	長野県	駒ヶ根市	2026-09-12	2026-09-12	17	0	0	
 www.city.komoro.lg.jp	長野県	小諸市	2026-09-12	2026-09-12	17	0	1	0	0	754491
 www.city.sosa.lg.jp	千葉県	匝瑳市	2026-09-11	2026-09-11	17	0	2	0	0	283113
 www.hirokankou.org	福岡県	広川町観光	2026-09-19	2026-09-19	17	2	3	0	0	1301862
+www.hyuga.or.jp	宮崎県	日向市観光	2026-09-20	2026-09-20	17	1	5	0	0	172928
 www.ono-kankou.jp	福井県	大野市観光	2026-09-12	2026-09-12	17	0	2	0	0	1314819
 www.tadami-net.com	福島県	只見町観光	2026-09-12	2026-09-12	17	0	0	0	0	807394
+www.town.minamioguni.lg.jp	熊本県	南小国町	2026-09-20	2026-09-20	17	2	1	0	0	438679
+www.town.miyazaki-misato.lg.jp	宮崎県	美郷町	2026-09-20	2026-09-20	17	2	1	0	0	1829003
 www.town.shirahama.wakayama.jp	和歌山県	白浜町	2026-09-12	2026-09-12	17	0	0	0	0	947432
 1127.info	長野県	飯綱町観光	2026-09-12	2026-09-12	16	0	0	0	0	492086
 awara.info	福井県	あわら市観光	2026-09-12	2026-09-12	16	0	0	0	0	1211868
 kaminokawa-kankou.net	栃木県	上三川町観光	2026-09-11	2026-09-11	16	0	0	0	0	638906
 ogose-kanko.jp	埼玉県	越生町観光	2026-09-11	2026-09-11	16	0	0	0	0	4001024
 onjuku-kankou.com	千葉県	御宿町観光	2026-09-11	2026-09-11	16	0	0	0	0	618432
+ozukankou.jp	熊本県	大津町観光	2026-09-20	2026-09-20	16	1	0	0	0	1383255
 tateyamacity.com	千葉県	館山市観光	2026-09-11	2026-09-11	16	0	0	0	0	1818493
 www.city.okaya.lg.jp	長野県	岡谷市	2026-09-12	2026-09-12	16	0	0	0	0	1104136
 www.city.shinjuku.lg.jp	東京都	新宿区	2026-09-11	2026-09-11	16	0	1	0	0	1045017
-www.misato-kanko.com	埼玉県	美里町観光	2026-09-11	2026-09-11	16	0	0	0	0	874554
 www.oamishirasato-kanko.net	千葉県	大網白里市観光	2026-09-12	2026-09-12	16	0	1	0	0	616149
 www.ranzan-kanko.jp	埼玉県	嵐山町観光	2026-09-11	2026-09-11	16	0	0	0	0	15998999
 www.town.hinode.tokyo.jp	東京都	日の出町	2026-09-11	2026-09-11	16	0	1	0	0	446348
@@ -1128,6 +1263,8 @@ www.town.kamisato.saitama.jp	埼玉県	上里町	2026-09-11	2026-09-11	16	0	0	0	
 www.town.shitara.lg.jp	愛知県	設楽町	2026-09-08	2026-09-10	16	0	1	0	0	471642
 www.vill.oshino.lg.jp	山梨県	忍野村	2026-09-12	2026-09-12	16	0	1	0	0	379818
 www.yokosuka-kanko.com	神奈川県	横須賀市観光	2026-09-12	2026-09-12	16	0	0	0	0	885708
+go-akune.jp	鹿児島県	阿久根市観光	2026-09-20	2026-09-20	15	2	3	0	0	631678
+hiokishi-kankou.com	鹿児島県	日置市観光	2026-09-20	2026-09-20	15	1	1	0	0	755663
 kanko.shimonita.jp	群馬県	下仁田町観光	2026-09-12	2026-09-12	15	0	0	0	0	872825
 kitakyushucity.guide	福岡県	北九州市観光	2026-09-19	2026-09-19	15	1	0	0	0	803154
 mid-chiba-chosei.com	千葉県	茂原市観光	2026-09-11	2026-09-11	15	0	0	0	0	613195
@@ -1136,12 +1273,14 @@ tsushima-kanko.net	長崎県	対馬市観光	2026-09-19	2026-09-19	15	1	0	0	0	46
 ueda-kanko.or.jp	長野県	上田市観光	2026-09-12	2026-09-12	15	0	0	0	0	885718
 www.choshikanko.com	千葉県	銚子市観光	2026-09-11	2026-09-11	15	0	0	0	0	1036309
 www.city.mitaka.lg.jp	東京都	三鷹市	2026-09-11	2026-09-11	15	0	1	0	0	364830
+www.city.miyazaki.miyazaki.jp	宮崎県	宮崎市	2026-09-20	2026-09-20	15	2	1	0	0	464287
 www.hidaka-kankou.jp	和歌山県	日高町観光	2026-09-12	2026-09-12	15	0	1	0	0	1179605
 www.sakukankou.jp	長野県	佐久市観光	2026-09-12	2026-09-12	15	0	0	0	0	3335218
 www.samukawa-kankou.jp	神奈川県	寒川町観光	2026-09-11	2026-09-11	15	0	0	0	0	804666
 www.town.ninomiya.kanagawa.jp	神奈川県	二宮町	2026-09-11	2026-09-11	15	0	1	0	0	300055
 www.vill-nagano-toyooka-kanko.jp	長野県	豊丘村観光	2026-09-12	2026-09-12	15	0	0	0	0	3976899
 aguitown-kanko.com	愛知県	阿久比町観光	2026-09-10	2026-09-10	14	0	0	0	0	214565
+amamikke.com	鹿児島県	龍郷町観光	2026-09-20	2026-09-20	14	2	13	0	0	1784750
 kikugawakanko.com	静岡県	菊川市観光	2026-09-10	2026-09-10	14	0	0	0	0	1284638
 kiminokanko.com	和歌山県	紀美野町観光	2026-09-12	2026-09-12	14	0	1	0	0	515483
 shinshu-takayama-onsenkyo.com	長野県	高山村観光	2026-09-12	2026-09-12	14	0	0	0	0	900086
@@ -1156,10 +1295,12 @@ www.city.yokkaichi.lg.jp	三重県	四日市市	2026-09-12	2026-09-12	14	0	1	0	0
 www.echizen-tourism.jp	福井県	越前市観光	2026-09-12	2026-09-12	14	0	1	0	0	864727
 www.gifucvb.or.jp	岐阜県	岐阜市観光	2026-09-12	2026-09-12	14	0	0	0	0	555329
 www.hokuto-kanko.jp	山梨県	北杜市観光	2026-09-12	2026-09-12	14	0	1	0	0	1112093
+www.ibusukikankou.com	鹿児島県	指宿市観光	2026-09-20	2026-09-20	14	2	0	0	0	392357
 www.koya.org	和歌山県	高野町観光	2026-09-12	2026-09-12	14	0	0	0	0	4331714
 www.mori-kanko.jp	静岡県	森町観光	2026-09-10	2026-09-10	14	0	1	0	0	407201
 www.numata-kankou.jp	群馬県	沼田市観光	2026-09-12	2026-09-12	14	0	1	0	0	231619
 www.ogakikanko.jp	岐阜県	大垣市観光	2026-09-12	2026-09-12	14	0	1	0	0	280014
+www.tamana-tamatebako.net	熊本県	玉名市観光	2026-09-20	2026-09-20	14	1	2	0	0	331856
 www.town.oguchi.lg.jp	愛知県	大口町	2026-09-08	2026-09-10	14	0	1	0	0	443414
 www.yaita-kankou.com	栃木県	矢板市観光	2026-09-11	2026-09-11	14	0	0	0	0	1370215
 hirugamionsen.jp	長野県	阿智村観光	2026-09-12	2026-09-12	13	0	0	0	0	1455431
@@ -1188,17 +1329,21 @@ www.usa-kanko.jp	大分県	宇佐市観光	2026-09-19	2026-09-19	13	2	0	1	0	8933
 www.vill.showa.fukushima.jp	福島県	昭和村	2026-09-12	2026-09-12	13	0	0	0	0	642781
 www.yamakita.net	神奈川県	山北町観光	2026-09-11	2026-09-11	13	0	0	0	0	238013
 kodaira-tourism.com	東京都	小平市観光	2026-09-11	2026-09-11	12	0	1	0	0	789587
+minamiosumi-tourism.com	鹿児島県	南大隅町観光	2026-09-20	2026-09-20	12	1	0	0	0	604118
 musashino-kanko.com	東京都	武蔵野市観光	2026-09-11	2026-09-11	12	0	0	0	0	677425
 naganohara.com	群馬県	長野原町観光	2026-09-12	2026-09-12	12	0	4	0	0	712778
 nishiaizu-kanko.org	福島県	西会津町観光	2026-09-12	2026-09-12	12	0	1	0	0	470445
+tsunagi-minagi.jp	熊本県	津奈木町観光	2026-09-20	2026-09-20	12	2	6	0	0	1461011
 www.city.fukushima-date.lg.jp	福島県	伊達市	2026-09-12	2026-09-12	12	0	1	0	0	461515
 www.city.hekinan.aichi.jp	愛知県	碧南市観光	2026-09-08	2026-09-08	12	0	0	0	0	337057
 www.ikedamachi.net	長野県	池田町	2026-09-12	2026-09-12	12	0	1	0	0	286912
+www.mifune-kankou.jp	熊本県	御船町観光	2026-09-20	2026-09-20	12	2	0	0	0	449179
 www.nerimakanko.jp	東京都	練馬区観光	2026-09-11	2026-09-11	12	0	1	0	0	425625
 www.ota-kanko.jp	群馬県	太田市観光	2026-09-12	2026-09-12	12	0	1	0	0	499079
 www.saiki-kankou.com	大分県	佐伯市観光	2026-09-19	2026-09-19	12	2	0	0	0	661675
 www.sakurashi-kankou.or.jp	千葉県	佐倉市観光	2026-09-11	2026-09-11	12	0	0	0	0	497374
 www.toeinavi.jp	愛知県	東栄町観光	2026-09-10	2026-09-10	12	0	1	0	0	504227
+arao-kankou.jp	熊本県	荒尾市観光	2026-09-20	2026-09-20	11	1	0	0	0	1393475
 hayakawakankou.jp	山梨県	早川町観光	2026-09-12	2026-09-12	11	0	0	0	0	570943
 kanko-sakai.com	福井県	坂井市観光	2026-09-11	2026-09-12	11	0	0	0	0	458684
 kankou-kushimoto.jp	和歌山県	串本町観光	2026-09-12	2026-09-12	11	0	1	0	0	563095
@@ -1215,6 +1360,7 @@ chikujokanko.com	福岡県	築上町観光	2026-09-19	2026-09-19	10	1	0	0	0	2050
 fujisan.ne.jp	山梨県	富士河口湖町観光	2026-09-12	2026-09-12	10	0	0	0	0	911352
 nakagawamachi-kanko.org	栃木県	那珂川町観光	2026-09-11	2026-09-11	10	0	0	0	0	224832
 tamaki-kanko.localinfo.jp	三重県	玉城町観光	2026-09-12	2026-09-12	10	0	0	0	0	718319
+ubu-lab.com	熊本県	産山村観光	2026-09-20	2026-09-20	10	1	0	0	0	908182
 visit.city.abiko.chiba.jp	千葉県	我孫子市観光	2026-09-11	2026-09-11	10	0	1	0	0	634835
 www.fukuroi-kankou.jp	静岡県	袋井市観光	2026-09-10	2026-09-10	10	0	0	0	0	267444
 www.kanko-nagaizumi.com	静岡県	長泉町観光	2026-09-12	2026-09-12	10	0	0	0	0	482341
@@ -1229,9 +1375,11 @@ higashiyoshino.com	奈良県	東吉野村観光	2026-09-12	2026-09-12	9	0	1	0	0	
 kani-kankou.jp	岐阜県	可児市観光	2026-09-12	2026-09-12	9	0	0	0	0	162078
 kankotaiken.kiyamanet.com	佐賀県	基山町観光	2026-09-19	2026-09-19	9	1	0	0	0	1942706
 kanuma-kanko.jp	栃木県	鹿沼市観光	2026-09-11	2026-09-11	9	0	0	0	0	1177299
+kijokanko.com	宮崎県	木城町観光	2026-09-20	2026-09-20	9	1	0	0	0	406420
 kunimachi.jp	東京都	国立市観光	2026-09-11	2026-09-11	9	0	0	0	0	515248
 mukeinet.tobunken.go.jp			2026-09-11	2026-09-11	9	0	0	0	0	100019
 myokotourism.jp	新潟県	妙高市観光	2026-09-12	2026-09-12	9	0	0	0	0	979183
+nishiki-kuma.com	熊本県	錦町観光	2026-09-20	2026-09-20	9	1	0	0	0	1904851
 nogata-kankoh.com	福岡県	直方市観光	2026-09-19	2026-09-19	9	1	0	0	0	450427
 www.city.karatsu.lg.jp	佐賀県	唐津市	2026-09-19	2026-09-19	9	2	1	0	0	393377
 www.e-yahiko.com	新潟県	弥彦村観光	2026-09-12	2026-09-12	9	0	1	0	0	368479
@@ -1266,8 +1414,10 @@ www.kanko-koriyama.gr.jp	福島県	郡山市観光	2026-09-12	2026-09-12	8	0	0	0
 www.kankou-nabari.jp	三重県	名張市観光	2026-09-12	2026-09-12	8	0	1	0	0	285336
 www.minobu.info	山梨県	身延町観光	2026-09-12	2026-09-12	8	0	5	0	0	150260
 www.moka-kankou.org	栃木県	真岡市観光	2026-09-11	2026-09-11	8	0	0	0	0	260535
+www.setouchi-welcome.com	鹿児島県	瀬戸内町観光	2026-09-20	2026-09-20	8	1	1	0	0	5577912
 www.shimoda-city.info	静岡県	下田市観光	2026-09-10	2026-09-10	8	0	0	0	0	9225653
 hagamachi-kanko.com	栃木県	芳賀町観光	2026-09-11	2026-09-11	7	0	1	0	0	703924
+kankonogyo-park.jp	鹿児島県	鹿児島市観光	2026-09-20	2026-09-20	7	2	0	0	0	448413
 oi-river-trip.com	静岡県	島田市観光	2026-09-10	2026-09-10	7	0	0	0	0	468884
 tarachokankou.web.fc2.com	佐賀県	太良町観光	2026-09-19	2026-09-19	7	1	0	0	0	172160
 tokoro-kankou.jp	埼玉県	所沢市観光	2026-09-11	2026-09-11	7	0	0	0	0	572477
@@ -1281,6 +1431,7 @@ www.info-yamanouchi.net	長野県	山ノ内町観光	2026-09-12	2026-09-12	7	0	0
 www.koshu-kankou.jp	山梨県	甲州市観光	2026-09-12	2026-09-12	7	0	1	0	0	212112
 www.matsukawamura.com	長野県	松川村観光	2026-09-12	2026-09-12	7	0	1	0	0	78795
 www.nasukarasuyama.com	栃木県	那須烏山市観光	2026-09-11	2026-09-11	7	0	0	0	0	286200
+www.ogunikankou.jp	熊本県	小国町観光	2026-09-20	2026-09-20	7	2	0	0	0	425863
 www.omi8.com	滋賀県	近江八幡市観光	2026-09-12	2026-09-12	7	0	1	0	0	283618
 www.susonokanko.jp	静岡県	裾野市観光	2026-09-10	2026-09-10	7	0	3	0	0	418256
 www.town.hakone.kanagawa.jp	神奈川県	箱根町	2026-09-11	2026-09-11	7	0	2	0	0	125870
@@ -1289,6 +1440,7 @@ hamura-kankou.org	東京都	羽村市観光	2026-09-11	2026-09-11	6	0	0	0	0	2293
 ittenbe.jp	群馬県	甘楽町観光	2026-09-12	2026-09-12	6	0	0	0	0	371085
 katsurao-village.com	福島県	葛尾村観光	2026-09-12	2026-09-12	6	0	1	0	0	105293
 koganei-kanko.jp	東京都	小金井市観光	2026-09-11	2026-09-11	6	0	0	0	0	276273
+osaki.fun	鹿児島県	大崎町観光	2026-09-20	2026-09-20	6	1	1	0	0	306409
 www.city.itoshima.lg.jp	福岡県	糸島市	2026-09-19	2026-09-19	6	3	0	0	0	4691334
 www.city.kumano.lg.jp	三重県	熊野市	2026-09-12	2026-09-12	6	0	0	0	0	184115
 www.cm-boso.com	千葉県	南房総市観光	2026-09-11	2026-09-11	6	0	1	0	0	102401
@@ -1313,12 +1465,14 @@ mitake-kankou.jp	岐阜県	御嵩町観光	2026-09-12	2026-09-12	5	0	0	0	0	23639
 namietourism.jp	福島県	浪江町観光	2026-09-12	2026-09-12	5	0	0	0	0	324927
 narashikanko.or.jp	奈良県	奈良市観光	2026-09-12	2026-09-12	5	0	1	0	0	191146
 place.sonogi.net	長崎県	東彼杵町観光	2026-09-19	2026-09-19	5	1	0	0	0	735210
+takarajima-tokara.com	鹿児島県	十島村観光	2026-09-20	2026-09-20	5	1	0	0	0	363206
 www.ama-kankou.jp	愛知県	あま市観光	2026-09-10	2026-09-10	5	0	0	0	0	604689
 www.city.iida.lg.jp	長野県	飯田市	2026-09-12	2026-09-12	5	0	1	0	0	150840
 www.city.iwaki.lg.jp	福島県	いわき市	2026-09-12	2026-09-12	5	0	1	0	0	208542
 www.kanda-kanko.com	福岡県	苅田町観光	2026-09-19	2026-09-19	5	2	0	0	0	332112
 www.kanko-iwade.com	和歌山県	岩出市観光	2026-09-12	2026-09-12	5	0	2	0	0	99786
 www.nishigo-kankou.jp	福島県	西郷村観光	2026-09-12	2026-09-12	5	0	0	0	0	180205
+www.nishiharakanko.com	熊本県	西原村観光	2026-09-20	2026-09-20	5	2	0	0	0	229202
 www.tamakawa-kanko.jp	福島県	玉川村観光	2026-09-12	2026-09-12	5	0	3	0	0	123796
 www.town.nagatoro.saitama.jp	埼玉県	長瀞町	2026-09-11	2026-09-11	5	0	1	0	0	462441
 www.tsuru-kankou.com	山梨県	都留市観光	2026-09-12	2026-09-12	5	0	0	0	0	1134345
@@ -1329,8 +1483,10 @@ www.yukuhashi-kankou.jp	福岡県	行橋市観光	2026-09-19	2026-09-19	5	4	39	0
 g-tourism.jp	奈良県	川上村観光	2026-09-12	2026-09-12	4	0	0	0	0	249553
 hanyu-kanko.jp	埼玉県	羽生市観光	2026-09-11	2026-09-11	4	0	2	0	0	97701
 karuizawa-kanko.jp	長野県	軽井沢町観光	2026-09-12	2026-09-12	4	0	0	0	0	115511
+kikuchikanko.ne.jp	熊本県	菊池市観光	2026-09-20	2026-09-20	4	1	0	0	0	199407
 meguro-kanko.com	東京都	目黒区観光	2026-09-11	2026-09-11	4	0	0	0	0	102155
 minami-alpskankou.jp	山梨県	南アルプス市観光	2026-09-12	2026-09-12	4	0	1	0	0	250801
+mishimakanko.thebase.in	鹿児島県	三島村観光	2026-09-20	2026-09-20	4	1	0	0	0	326895
 nishi-josyu.com	群馬県	上野村観光	2026-09-12	2026-09-12	4	0	0	0	0	268896
 sukagawakanko.shop-pro.jp	福島県	須賀川市観光	2026-09-12	2026-09-12	4	0	0	0	0	107001
 uminpia-ohi.com	福井県	おおい町観光	2026-09-12	2026-09-12	4	0	0	0	0	163925
@@ -1338,6 +1494,7 @@ www.aisaikankou.jp	愛知県	愛西市観光	2026-09-10	2026-09-10	4	0	0	0	0	562
 www.guidoor.jp	静岡県	掛川市観光	2026-09-10	2026-09-12	4	0	0	0	0	258808
 www.inzai-kankou.jp	千葉県	印西市観光	2026-09-12	2026-09-12	4	0	0	0	0	267350
 www.izu-oshima.or.jp	東京都	大島町観光	2026-09-11	2026-09-11	4	0	1	0	0	170048
+www.kankou-kimotsuki.net	鹿児島県	肝付町観光	2026-09-20	2026-09-20	4	3	0	0	0	268294
 www.nrtk.jp	千葉県	成田市観光	2026-09-11	2026-09-11	4	0	0	0	0	171939
 www.oishiimati-oita.jp	大分県	大分市観光	2026-09-19	2026-09-19	4	1	0	0	0	156033
 www.sagamihara-kanko.com	神奈川県	相模原市観光	2026-09-12	2026-09-12	4	0	0	0	0	1684722
@@ -1348,6 +1505,7 @@ iju.go-iijima.nagano.jp	長野県	飯島町観光	2026-09-12	2026-09-12	3	0	0	0	
 inakanko.com	埼玉県	伊奈町観光	2026-09-11	2026-09-11	3	0	0	0	0	115818
 itabashi-kanko.jp	東京都	板橋区観光	2026-09-11	2026-09-11	3	0	1	0	0	132628
 kankou.yaotsu.jp	岐阜県	八百津町観光	2026-09-12	2026-09-12	3	0	0	0	0	107388
+kanoyashi-kankokyokai.jp	鹿児島県	鹿屋市観光	2026-09-20	2026-09-20	3	1	0	0	0	140187
 kujakusou.kankou-kawatana.jp	長崎県	川棚町観光	2026-09-19	2026-09-19	3	1	0	0	0	90274
 motegi-k.com	栃木県	茂木町観光	2026-09-11	2026-09-11	3	0	0	0	0	370540
 rurubu.jp			2026-09-07	2026-09-08	3	0	0	0	0	335148
@@ -1357,6 +1515,7 @@ www.asukamura.jp			2026-09-12	2026-09-12	3	0	0	0	0	84361
 www.city.akiruno.tokyo.jp	東京都	あきる野市	2026-09-11	2026-09-11	3	0	1	0	0	81296
 www.city.saga-kashima.lg.jp	佐賀県	鹿島市	2026-09-19	2026-09-19	3	2	1	1	0	88276
 www.city.takahama.lg.jp	愛知県	高浜市	2026-09-08	2026-09-10	3	0	1	0	0	47049
+www.ebino-kankou.com	宮崎県	えびの市観光	2026-09-20	2026-09-20	3	2	0	0	0	164715
 www.gobokanko.com	和歌山県	御坊市観光	2026-09-12	2026-09-12	3	0	0	0	0	71924
 www.hidatakayama.or.jp	岐阜県	高山市観光	2026-09-12	2026-09-12	3	0	1	0	0	190066
 www.ikaho-kankou.com	群馬県	渋川市観光	2026-09-12	2026-09-12	3	0	0	0	0	261757
@@ -1364,6 +1523,7 @@ www.kanko-tenri.jp	奈良県	天理市観光	2026-09-12	2026-09-12	3	0	0	0	0	111
 www.nanmoku-kankoukyoukai.com	群馬県	南牧村観光	2026-09-12	2026-09-12	3	0	0	0	0	2984486
 www.narusawa-kanko.jp	山梨県	鳴沢村観光	2026-09-12	2026-09-12	3	0	0	0	0	33000
 www.ojiyakanko.com	新潟県	小千谷市観光	2026-09-12	2026-09-12	3	0	1	0	0	63070
+www.okinoerabujima.info	鹿児島県	和泊町観光	2026-09-20	2026-09-20	3	1	1	0	0	301657
 www.okuooi.gr.jp	静岡県	川根本町観光	2026-09-10	2026-09-10	3	0	1	0	0	51776
 www.showakanko.or.jp	群馬県	昭和村観光	2026-09-12	2026-09-12	3	0	0	0	0	136536
 www.suwa-tourism.jp	長野県	富士見町観光	2026-09-12	2026-09-12	3	0	1	0	0	82935
@@ -1374,6 +1534,7 @@ www.tomikan.jp	長野県	東御市観光	2026-09-12	2026-09-12	3	0	0	0	0	339699
 www.yokoshibahikari-kankou.com	千葉県	横芝光町観光	2026-09-12	2026-09-12	3	0	0	0	0	225129
 asukakyo.jp	奈良県	明日香村観光	2026-09-12	2026-09-12	2	0	0	0	0	501422
 echizenkaigan.com	福井県	越前町観光	2026-09-12	2026-09-12	2	0	0	0	0	69444
+goo.gl	宮崎県	椎葉村観光	2026-09-20	2026-09-20	2	2	8	0	0	375412
 kaisei-kankou.com			2026-09-12	2026-09-12	2	0	0	0	0	552102
 kamo-tourism.com	新潟県	加茂市観光	2026-09-12	2026-09-12	2	0	0	0	0	31733
 kanko-toshima.jp			2026-09-12	2026-09-12	2	0	0	0	0	77356
@@ -1381,15 +1542,19 @@ kashima-kankou.jp			2026-09-11	2026-09-11	2	0	0	0	0	383068
 kashiwa-kankou.com			2026-09-12	2026-09-12	2	0	0	0	0	180758
 komae-kankou.jp	東京都	狛江市観光	2026-09-11	2026-09-11	2	0	0	0	0	81285
 kotakekanko.com	福岡県	小竹町観光	2026-09-19	2026-09-19	2	3	3	0	0	154140
+makutabi.jp	鹿児島県	枕崎市観光	2026-09-20	2026-09-20	2	1	0	0	0	99965
 minato-kanko.com			2026-09-12	2026-09-12	2	0	0	0	0	195838
 moroyama-kanko.jp	埼玉県	毛呂山町観光	2026-09-11	2026-09-11	2	0	1	0	0	77212
+nagomi-kankou.jp	熊本県	和水町観光	2026-09-20	2026-09-20	2	1	0	0	0	64927
 oiso-kankou.or.jp			2026-09-12	2026-09-12	2	0	0	0	0	77212
 ota-kanko.jp			2026-09-12	2026-09-12	2	0	0	0	0	87816
 sekikanko.jp	岐阜県	関市観光	2026-09-12	2026-09-12	2	0	1	0	0	69059
 ta-kankoukyoukai.com	山梨県	丹波山村観光	2026-09-12	2026-09-12	2	0	0	0	0	31415
 vill.nakajima.jp			2026-09-12	2026-09-12	2	0	0	0	0	1380
 www.ageo-kankou.com	埼玉県	上尾市観光	2026-09-12	2026-09-12	2	0	0	0	0	77272
+www.amakusakanko.com	熊本県	天草市観光	2026-09-20	2026-09-20	2	2	0	0	0	81485
 www.arida-kanko.com	和歌山県	有田市観光	2026-09-12	2026-09-12	2	0	0	0	0	70128
+www.asokanko.com	熊本県	阿蘇市観光	2026-09-20	2026-09-20	2	2	0	0	0	55315
 www.buzen-kk.jp	福岡県	豊前市観光	2026-09-19	2026-09-19	2	1	0	0	0	686536
 www.chofu-kanko.jp	東京都	調布市観光	2026-09-12	2026-09-12	2	0	0	0	0	107902
 www.city.ichihara.chiba.jp	千葉県	市原市	2026-09-11	2026-09-11	2	0	0	0	0	6710
@@ -1397,8 +1562,10 @@ www.city.nasushiobara.lg.jp	栃木県	那須塩原市	2026-09-11	2026-09-11	2	0	
 www.city.oamishirasato.lg.jp	千葉県	大網白里市	2026-09-12	2026-09-12	2	0	0	0	0	34612
 www.city.sasebo.lg.jp	長崎県	佐世保市	2026-09-19	2026-09-19	2	2	0	0	0	364296
 www.city.uda.lg.jp	奈良県	宇陀市	2026-09-12	2026-09-12	2	0	1	0	0	54315
+www.city.uki.kumamoto.jp	熊本県	宇城市	2026-09-20	2026-09-20	2	2	0	0	0	276925
 www.diamond-kanko.jp	埼玉県	白岡市観光	2026-09-11	2026-09-11	2	0	0	0	0	170788
 www.fujiyoshida-kanko.net	山梨県	富士吉田市観光	2026-09-12	2026-09-12	2	0	0	0	0	86641
+www.gokase-kanko.jp	宮崎県	五ヶ瀬町観光	2026-09-20	2026-09-20	2	2	0	0	0	186314
 www.gosen-kankou.niigata.jp	新潟県	五泉市観光	2026-09-12	2026-09-12	2	0	0	0	0	77677
 www.hachijo.gr.jp	東京都	八丈町観光	2026-09-11	2026-09-11	2	0	0	0	0	70243
 www.hashimakanko.jp	岐阜県	羽島市観光	2026-09-12	2026-09-12	2	0	0	0	0	94243
@@ -1408,14 +1575,18 @@ www.hino-kanko.jp	滋賀県	日野町観光	2026-09-12	2026-09-12	2	0	0	0	0	4714
 www.hitachinaka-sa.com	茨城県	ひたちなか市観光	2026-09-07	2026-09-07	2	0	0	0	0	103470
 www.iga-kanko.com	三重県	伊賀市観光	2026-09-12	2026-09-12	2	0	0	0	0	174494
 www.iruma-kanko.jp	埼玉県	入間市観光	2026-09-12	2026-09-12	2	0	0	0	0	127648
+www.itsuki-kanko.com	熊本県	五木村観光	2026-09-20	2026-09-20	2	2	2	0	0	74175
 www.ittenbee-tokyomizuho.jp	東京都	瑞穂町観光	2026-09-11	2026-09-11	2	0	0	0	0	77212
+www.izumi-kanko.jp	鹿児島県	出水市観光	2026-09-20	2026-09-20	2	2	0	0	0	70707
 www.kanko-kinokawa.jp	和歌山県	紀の川市観光	2026-09-12	2026-09-12	2	0	9	0	0	1798115
 www.kanko-sakai.com			2026-09-11	2026-09-11	2	0	0	0	0	99424
 www.kanko-shiki.com	埼玉県	志木市観光	2026-09-12	2026-09-12	2	0	0	0	0	115846
 www.kanko-toshima.jp			2026-09-12	2026-09-12	2	0	0	0	0	77356
 www.kankou-fuchu.com	東京都	府中市観光	2026-09-11	2026-09-11	2	0	0	0	0	91455
+www.kankou-kobayashi.jp	宮崎県	小林市観光	2026-09-20	2026-09-20	2	2	2	0	0	291776
 www.kashima-kankou.jp			2026-09-11	2026-09-11	2	0	0	0	0	383068
 www.kashiwa-kankou.com			2026-09-12	2026-09-12	2	0	0	0	0	180758
+www.kirishimakankou.com	鹿児島県	霧島市観光	2026-09-20	2026-09-20	2	2	0	0	0	126873
 www.kisarazu.gr.jp	千葉県	木更津市観光	2026-09-11	2026-09-11	2	0	1	0	0	116360
 www.minami-izu.jp	静岡県	南伊豆町観光	2026-09-10	2026-09-10	2	0	0	0	0	78384
 www.minato-kanko.com			2026-09-12	2026-09-12	2	0	0	0	0	195838
@@ -1435,12 +1606,17 @@ www.sasagurikanko.com	福岡県	篠栗町観光	2026-09-19	2026-09-19	2	2	0	0	0	
 www.shimojo-kanko.jp	長野県	下條村観光	2026-09-12	2026-09-12	2	0	0	0	0	62128
 www.shirakawa-go.gr.jp	岐阜県	白川村観光	2026-09-12	2026-09-12	2	0	0	0	0	98771
 www.soumu.go.jp			2026-09-07	2026-09-07	2	0	0	0	0	138233
+www.taragi-kankou.com	熊本県	多良木町観光	2026-09-20	2026-09-20	2	1	0	0	0	799230
 www.tosu-kanko.jp	佐賀県	鳥栖市観光	2026-09-19	2026-09-19	2	2	4	0	0	82328
+www.town.ashikita.lg.jp	熊本県	芦北町	2026-09-20	2026-09-20	2	2	0	0	0	160082
 www.town.miharu.fukushima.jp	福島県	三春町	2026-09-12	2026-09-12	2	0	2	0	0	34582
 www.town.ryuoh.shiga.jp	滋賀県	竜王町	2026-09-12	2026-09-12	2	0	1	0	0	57712
+www.town.tsuno.lg.jp	宮崎県	都農町	2026-09-20	2026-09-20	2	2	0	0	0	7598
 www.utsunomiya-kankou.com	栃木県	宇都宮市観光	2026-09-11	2026-09-11	2	0	3	0	0	8200
 www.wakakanko.jp	福岡県	宮若市観光	2026-09-19	2026-09-19	2	1	0	0	0	13402
+www.yamato-kanko.com	熊本県	山都町観光	2026-09-20	2026-09-20	2	2	0	0	0	43592
 www.yashio-kankouji.org	埼玉県	八潮市観光	2026-09-11	2026-09-11	2	0	0	0	0	19584
+amakusa-kankou.com			2026-09-20	2026-09-20	1	1	0	0	0	106359
 anan-kankou.jp			2026-09-12	2026-09-12	1	0	0	0	0	16285
 arakawa-kanko.com			2026-09-12	2026-09-12	1	0	0	0	0	43108
 asahi-kanko.com			2026-09-12	2026-09-12	1	0	0	0	0	31054
@@ -1481,24 +1657,31 @@ kanko-kijimadaira.com			2026-09-12	2026-09-12	1	0	1	0	0	31886
 kankou-miyoshi.jp			2026-09-12	2026-09-12	1	0	0	0	0	3731
 kankou-ogawa.com			2026-09-12	2026-09-12	1	0	0	0	0	28057
 kashihara-kankou.com			2026-09-12	2026-09-12	1	0	0	0	0	530885
-kashima-kankou.com			2026-09-11	2026-09-11	1	0	1	0	0	46887
+kashima-kanko.com			2026-09-20	2026-09-20	1	1	0	0	0	28724
+kashima-kankou.com			2026-09-11	2026-09-20	1	0	3	0	0	46887
 kashiwazaki-kanko.com			2026-09-12	2026-09-12	1	0	0	0	0	67581
 kawagoe-kankou.net			2026-09-12	2026-09-12	1	0	0	0	0	27746
 keisen-kankou.com			2026-09-19	2026-09-19	1	1	0	0	0	68188
 kijimadairakanko.jp			2026-09-12	2026-09-12	1	0	0	0	0	79422
+kirishima-kanko.jp			2026-09-20	2026-09-20	1	1	0	0	0	23532
 kisokankou.com			2026-09-12	2026-09-12	1	0	0	0	0	54910
 kitakata-kankou.com			2026-09-12	2026-09-12	1	0	0	0	0	5509
+kobayashikankou.com			2026-09-20	2026-09-20	1	1	0	0	0	41520
+kobayashikankou.net			2026-09-20	2026-09-20	1	1	0	0	0	265445
 kogakanko.com			2026-09-19	2026-09-19	1	1	0	0	0	173228
 kogakanko.jp			2026-09-19	2026-09-19	1	1	0	0	0	201480
 konan-kankou.jp			2026-09-12	2026-09-12	1	0	0	0	0	63528
 konankanko.jp			2026-09-12	2026-09-12	1	0	0	0	0	22574
 koto-kanko.jp	東京都	江東区観光	2026-09-11	2026-09-11	1	0	2	0	0	91710
 kozagawakanko.jp			2026-09-12	2026-09-12	1	0	0	0	0	13904
+kuma-kanko.com			2026-09-20	2026-09-20	1	1	0	0	0	123818
 kunishitei.bunka.go.jp			2026-09-07	2026-09-07	1	0	1	0	0	82424
 local-media.heteml.net			2026-09-07	2026-09-07	1	0	0	0	0	339376
 matsumoto-kanko.jp			2026-09-12	2026-09-12	1	0	0	0	0	45857
 matsuri-no-hi.com			2026-09-07	2026-09-07	1	0	0	0	0	206662
+minamiasokanko.jp			2026-09-20	2026-09-20	1	1	0	0	0	63648
 minamikanko.co.jp	東京都	日野市観光	2026-09-11	2026-09-11	1	0	1	0	0	76745
+misato-kankou.com			2026-09-20	2026-09-20	1	1	2	0	0	28470
 mishima-kankou.com			2026-09-12	2026-09-12	1	0	0	0	0	77584
 mishima-kankou.net			2026-09-12	2026-09-12	1	0	0	0	0	287927
 mitokoumon.com			2026-09-07	2026-09-07	1	0	0	0	0	35781
@@ -1521,9 +1704,12 @@ oshikakankou.com			2026-09-12	2026-09-12	1	0	0	0	0	98264
 otakikanko.jp			2026-09-12	2026-09-12	1	0	1	0	0	2945
 otakikankou.net			2026-09-12	2026-09-12	1	0	0	0	0	80995
 otsuki-kanko.jp			2026-09-12	2026-09-12	1	0	0	0	0	91055
+reihoku-kanko.net			2026-09-20	2026-09-20	1	1	0	0	0	9328
 sadokankou.gr.jp			2026-09-12	2026-09-12	1	0	1	0	0	31535
+sagarakanko.net			2026-09-20	2026-09-20	1	1	0	0	0	42795
 saikaikankou.jp			2026-09-19	2026-09-19	1	1	0	0	0	282397
 sakadokankou.com			2026-09-12	2026-09-12	1	0	1	0	0	4387
+satsuma-kankou.com			2026-09-20	2026-09-20	1	1	0	0	0	30484
 shibatakankou.com			2026-09-12	2026-09-12	1	0	0	0	0	43857
 shinshirokanko.com			2026-09-12	2026-09-12	1	0	0	0	0	39606
 showa-kanko.com			2026-09-12	2026-09-12	1	0	1	0	0	42321
@@ -1537,11 +1723,16 @@ tatsuno-kanko.com			2026-09-12	2026-09-12	1	0	0	0	0	13425
 toho-kanko.com			2026-09-19	2026-09-19	1	1	6	0	0	14
 toho-kanko.jp			2026-09-19	2026-09-19	1	1	0	0	0	22
 tonekanko.com			2026-09-11	2026-09-11	1	0	0	0	0	33409
+town.reihoku.jp			2026-09-20	2026-09-20	1	1	2	0	0	678
+town.satsuma.jp			2026-09-20	2026-09-20	1	1	2	0	0	697
 tripre.jp			2026-09-07	2026-09-07	1	0	0	0	0	812910
 tsuchiura-kasumigaura-ishioka.goguynet.jp			2026-09-07	2026-09-07	1	0	0	0	0	219394
+ubuyama-kanko.com			2026-09-20	2026-09-20	1	1	2	0	0	31866
 ueno-kanko.com			2026-09-12	2026-09-12	1	0	0	0	0	107611
 unzen-kankou.com			2026-09-19	2026-09-19	1	1	0	0	0	39706
 uonuma-kanko.jp			2026-09-12	2026-09-12	1	0	0	0	0	60377
+vill.uken.jp			2026-09-20	2026-09-20	1	1	4	0	0	678
+www.amakusa-kankou.com			2026-09-20	2026-09-20	1	1	0	0	0	106359
 www.anan-kankou.jp			2026-09-12	2026-09-12	1	0	0	0	0	16285
 www.arakawa-kanko.com			2026-09-12	2026-09-12	1	0	0	0	0	43108
 www.asahi-kanko.com			2026-09-12	2026-09-12	1	0	0	0	0	31054
@@ -1590,20 +1781,25 @@ www.kankou-miyoshi.jp			2026-09-12	2026-09-12	1	0	0	0	0	3731
 www.kankou-takahama.gr.jp			2026-09-12	2026-09-12	1	0	0	0	0	100617
 www.karuizawa-kanko.jp			2026-09-12	2026-09-12	1	0	0	0	0	196
 www.kasamatsu-kankou.com			2026-09-12	2026-09-12	1	0	0	0	0	103516
-www.kashima-kankou.com			2026-09-11	2026-09-11	1	0	1	0	0	46887
+www.kashima-kankou.com			2026-09-11	2026-09-20	1	0	3	0	0	46887
 www.kashiwazaki-kanko.com			2026-09-12	2026-09-12	1	0	0	0	0	67581
 www.kawagoe-kankou.net			2026-09-12	2026-09-12	1	0	0	0	0	27362
 www.keisen-kankou.com			2026-09-19	2026-09-19	1	1	0	0	0	68188
 www.kijimadairakanko.jp			2026-09-12	2026-09-12	1	0	0	0	0	79422
+www.kirishima-kanko.jp			2026-09-20	2026-09-20	1	1	0	0	0	23532
 www.kisokankou.com			2026-09-12	2026-09-12	1	0	0	0	0	54910
 www.kitakata-kankou.com			2026-09-12	2026-09-12	1	0	0	0	0	5509
+www.kobayashikankou.com			2026-09-20	2026-09-20	1	1	0	0	0	41520
+www.kobayashikankou.net			2026-09-20	2026-09-20	1	1	0	0	0	265445
 www.kogakanko.com			2026-09-19	2026-09-19	1	1	0	0	0	173228
 www.konankanko.jp			2026-09-12	2026-09-12	1	0	0	0	0	22574
+www.kumakanko.com			2026-09-20	2026-09-20	1	1	0	0	0	26370
 www.kusatsukanko.com			2026-09-12	2026-09-12	1	0	0	0	0	40134
 www.kuwana-kanko.com	三重県	桑名市観光	2026-09-12	2026-09-12	1	0	10	0	0	21711
 www.matsumoto-kanko.jp			2026-09-12	2026-09-12	1	0	0	0	0	45857
 www.matsuurakanko.com			2026-09-19	2026-09-19	1	1	0	0	0	1076761
 www.meiwa-kanko.jp	群馬県	明和町観光	2026-09-12	2026-09-12	1	0	2	0	0	16319
+www.minamiasokanko.jp			2026-09-20	2026-09-20	1	1	0	0	0	63648
 www.mishima-kankou.net			2026-09-12	2026-09-12	1	0	0	0	0	287927
 www.miyake-kanko.jp			2026-09-12	2026-09-12	1	0	0	0	0	55864
 www.miyako-kanko.jp	福岡県	みやこ町観光	2026-09-19	2026-09-19	1	2	5	0	0	40027
@@ -1628,10 +1824,13 @@ www.otakikanko.jp			2026-09-12	2026-09-12	1	0	1	0	0	2945
 www.otakikankou.net			2026-09-12	2026-09-12	1	0	0	0	0	1358
 www.otsuki-kanko.jp			2026-09-12	2026-09-12	1	0	0	0	0	91055
 www.pref.aomori.lg.jp			2026-09-07	2026-09-07	1	0	0	0	0	49953
+www.reihoku-kanko.net			2026-09-20	2026-09-20	1	1	2	0	0	9328
 www.sadokankou.gr.jp			2026-09-12	2026-09-12	1	0	1	0	0	31535
+www.sagarakanko.net			2026-09-20	2026-09-20	1	1	0	0	0	42795
 www.saikaikankou.jp			2026-09-19	2026-09-19	1	1	0	0	0	282397
 www.sakura-kankou.jp	栃木県	さくら市観光	2026-09-11	2026-09-11	1	0	1	0	0	77014
 www.sammukanko.jp	千葉県	山武市観光	2026-09-12	2026-09-12	1	0	1	0	0	95840
+www.satsuma-kankou.com			2026-09-20	2026-09-20	1	1	0	0	0	30484
 www.shibatakankou.com			2026-09-12	2026-09-12	1	0	0	0	0	43857
 www.shinshirokanko.com			2026-09-12	2026-09-12	1	0	0	0	0	39662
 www.showa-kanko.com			2026-09-12	2026-09-12	1	0	1	0	0	42321
@@ -1639,6 +1838,7 @@ www.showa-kanko.jp			2026-09-12	2026-09-12	1	0	1	0	0	31479
 www.showakanko.jp			2026-09-12	2026-09-12	1	0	0	0	0	56899
 www.soeda-kankou.com			2026-09-19	2026-09-19	1	1	0	0	0	919816
 www.taikikankou.com			2026-09-12	2026-09-12	1	0	0	0	0	843099
+www.takachiho-kanko.jp	宮崎県	高千穂町観光	2026-09-20	2026-09-20	1	2	1	0	0	77792
 www.takagikankou.com			2026-09-12	2026-09-12	1	0	1	0	0	43201
 www.takasaki-kankou.com			2026-09-12	2026-09-12	1	0	0	0	0	59229
 www.tatsuno-kanko.com			2026-09-12	2026-09-12	1	0	0	0	0	13425
@@ -1649,26 +1849,44 @@ www.tonekanko.com			2026-09-11	2026-09-11	1	0	1	0	0	697
 www.town.chonan.lg.jp			2026-09-11	2026-09-11	1	0	0	0	0	332
 www.town.komono.mie.jp	三重県	菰野町	2026-09-12	2026-09-12	1	0	1	0	0	376
 www.town.ono.fukushima.jp	福島県	小野町	2026-09-12	2026-09-12	1	0	1	0	0	5113
+www.town.reihoku.jp			2026-09-20	2026-09-20	1	1	2	0	0	678
+www.town.satsuma.jp			2026-09-20	2026-09-20	1	1	2	0	0	697
 www.town.shinkamigoto.nagasaki.jp			2026-09-19	2026-09-19	1	2	5	0	0	2124
 www.tsukubasanjinja.jp			2026-09-08	2026-09-08	1	0	0	0	0	38575
+www.ubuyama-kanko.com			2026-09-20	2026-09-20	1	1	2	0	0	31870
 www.ueno-kanko.com			2026-09-12	2026-09-12	1	0	0	0	0	107611
 www.unzen-kankou.com			2026-09-19	2026-09-19	1	1	4	0	0	39672
 www.uonuma-kanko.jp			2026-09-12	2026-09-12	1	0	0	0	0	60377
 www.vill.nakajima.jp			2026-09-12	2026-09-12	1	0	1	0	0	690
+www.vill.uken.jp			2026-09-20	2026-09-20	1	1	4	0	0	678
 www.yamagatakanko.com			2026-09-12	2026-09-12	1	0	0	0	0	34965
 www.yamagatakanko.jp			2026-09-12	2026-09-12	1	0	0	0	0	34965
+www.yamato-kanko.net			2026-09-20	2026-09-20	1	1	0	0	0	1167097
+www.yamatokanko.com			2026-09-20	2026-09-20	1	1	0	0	0	6291
+www.yamatokanko.jp			2026-09-20	2026-09-20	1	1	0	0	0	151579
+www.yamatokankou.jp			2026-09-20	2026-09-20	1	1	2	0	0	21934
+www.yatsushiro-kanko.jp			2026-09-20	2026-09-20	1	1	0	0	0	90073
 www.yoshida-kanko.com			2026-09-12	2026-09-12	1	0	1	0	0	18498
 www.yoshida-kanko.jp			2026-09-12	2026-09-12	1	0	0	0	0	12427
 www.yoshikawakanko.com			2026-09-12	2026-09-12	1	0	0	0	0	84489
 www.yoshimi-kanko.net			2026-09-12	2026-09-12	1	0	0	0	0	172969
 www.yufukankou.com			2026-09-19	2026-09-19	1	1	0	0	0	35465
+www.yusuikanko.com			2026-09-20	2026-09-20	1	1	0	0	0	2015058
 yamagatakanko.com			2026-09-12	2026-09-12	1	0	0	0	0	34965
 yamagatakanko.jp			2026-09-12	2026-09-12	1	0	0	0	0	34965
+yamato-kanko.com			2026-09-20	2026-09-20	1	1	0	0	0	42562
+yamato-kanko.net			2026-09-20	2026-09-20	1	1	0	0	0	1167097
+yamato-kankou.com			2026-09-20	2026-09-20	1	1	0	0	0	64692
+yamatokanko.com			2026-09-20	2026-09-20	1	1	0	0	0	6291
+yamatokanko.jp			2026-09-20	2026-09-20	1	1	0	0	0	151579
+yamatokankou.jp			2026-09-20	2026-09-20	1	1	2	0	0	21934
+yatsushiro-kanko.jp			2026-09-20	2026-09-20	1	1	0	0	0	90073
 yoshida-kanko.com			2026-09-12	2026-09-12	1	0	1	0	0	18498
 yoshida-kanko.jp			2026-09-12	2026-09-12	1	0	0	0	0	12427
 yoshikawakanko.com			2026-09-12	2026-09-12	1	0	0	0	0	84489
 yoshimi-kanko.net			2026-09-12	2026-09-12	1	0	0	0	0	172969
 yufukankou.com			2026-09-19	2026-09-19	1	1	0	0	0	35465
+yusuikanko.com			2026-09-20	2026-09-20	1	1	0	0	0	2015058
 			ailed>	ailed>	0	0	1	0	0	0
 aoki-kanko.com			2026-09-12	2026-09-12	0	0	2	0	0	0
 aokikanko.com			2026-09-12	2026-09-12	0	0	2	0	0	0
@@ -1909,6 +2127,15 @@ city.ina.nagano.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 city.inashi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 city.inashi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 city.inashi.nagano.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+city.izumi.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+city.izumi.kagoshima.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+city.izumi.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+city.kagoshima-kirishima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+city.kagoshima-kirishima.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+city.kagoshima-kirishima.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+city.kagoshima-kirishimashi.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+city.kagoshima-kirishimashi.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+city.kagoshima-kirishimashi.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
 city.kanuma.chigi.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 city.kanuma.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 city.kanuma.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
@@ -1920,6 +2147,12 @@ city.kashima.lg.jp			2026-09-19	2026-09-19	0	0	4	0	0	0
 city.kashima.saga.jp			2026-09-19	2026-09-19	0	0	4	0	0	0
 city.kawasaki.kanagawa.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 city.kawasaki.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
+city.kirishima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+city.kirishima.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+city.kirishima.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+city.kirishimashi.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+city.kirishimashi.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+city.kirishimashi.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
 city.koga.ibaraki.jp			2026-09-07	2026-09-07	0	0	1	0	0	0
 city.koga.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 city.koga.lg.jp			2026-09-07	2026-09-07	0	0	1	0	0	0
@@ -1944,6 +2177,8 @@ city.kooryama.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 city.kooryamashi.fukushima.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 city.kooryamashi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 city.kooryamashi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+city.kumamoto.kumamoto.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+city.kumamoto.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 city.maebashi.gumma.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 city.maebashi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 city.maebashi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -2272,6 +2507,7 @@ iga-kankou.or.jp			2026-09-12	2026-09-12	0	0	2	0	0	0
 kamakura-kanko.com			2026-09-12	2026-09-12	0	0	1	0	0	0
 kankou-kawatana.jp			2026-09-19	2026-09-19	0	4	4	0	0	0
 kasugakankou.com			2026-09-19	2026-09-19	0	0	8	0	0	0
+kumakanko.com			2026-09-20	2026-09-20	0	0	8	0	0	0
 kyoiku.pref.aichi.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 kyoiku.pref.chiba.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 kyoiku.pref.chigi.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
@@ -2290,6 +2526,8 @@ nanbu-kanko.com			2026-09-12	2026-09-12	0	0	2	0	0	0
 pref.chigi.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 pref.tokyo.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 sabae-kankou.jp			2026-09-12	2026-09-12	0	0	2	0	0	0
+satsumasendai.gr.jp	鹿児島県	薩摩川内市観光	2026-09-20	2026-09-20	0	1	2	0	0	0
+takanabe-kankou.com	宮崎県	高鍋町観光	2026-09-20	2026-09-20	0	0	3	0	0	0
 tanagura-kanko.jp			2026-09-12	2026-09-12	0	0	2	0	0	0
 tatsuno-kankou.com			2026-09-12	2026-09-12	0	0	2	0	0	0
 tenryu-kanko.com			2026-09-12	2026-09-12	0	0	2	0	0	0
@@ -2747,6 +2985,15 @@ town.higashiagatsumacho.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.higashiagatsumamachi.gumma.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.higashiagatsumamachi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.higashiagatsumamachi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+town.higashikushira.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.higashikushira.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.higashikushira.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.higashikushiracho.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.higashikushiracho.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.higashikushiracho.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.higashikushiramachi.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.higashikushiramachi.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.higashikushiramachi.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
 town.higashiura.aichi.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 town.higashiura.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 town.higashiura.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
@@ -2787,6 +3034,78 @@ town.itakuracho.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.itakuramachi.gumma.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.itakuramachi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.itakuramachi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+town.kagoshima-higashikushira.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.kagoshima-higashikushira.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.kagoshima-higashikushira.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.kagoshima-higashikushiracho.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.kagoshima-higashikushiracho.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.kagoshima-higashikushiracho.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.kagoshima-higashikushiramachi.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.kagoshima-higashikushiramachi.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.kagoshima-higashikushiramachi.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.kagoshima-kimotsuki.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-kimotsuki.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-kimotsuki.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-kimotsukicho.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-kimotsukicho.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-kimotsukicho.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-kimotsukimachi.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-kimotsukimachi.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-kimotsukimachi.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-minamitane.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.kagoshima-minamitane.kagoshima.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.kagoshima-minamitane.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.kagoshima-minamitanecho.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.kagoshima-minamitanecho.kagoshima.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.kagoshima-minamitanecho.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.kagoshima-minamitanemachi.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.kagoshima-minamitanemachi.kagoshima.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.kagoshima-minamitanemachi.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.kagoshima-satsuma.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.kagoshima-satsuma.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.kagoshima-satsuma.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.kagoshima-satsumacho.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.kagoshima-satsumacho.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.kagoshima-satsumacho.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.kagoshima-satsumamachi.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.kagoshima-satsumamachi.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.kagoshima-satsumamachi.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.kagoshima-setochi.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-setochi.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-setochi.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-setochicho.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-setochicho.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-setochicho.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-setochimachi.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-setochimachi.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-setochimachi.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-tokunoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-tokunoshima.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-tokunoshima.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-tokunoshimacho.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-tokunoshimacho.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-tokunoshimacho.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-tokunoshimamachi.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-tokunoshimamachi.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-tokunoshimamachi.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-yoron.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-yoron.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-yoron.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-yoroncho.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-yoroncho.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-yoroncho.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-yoronmachi.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-yoronmachi.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-yoronmachi.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kagoshima-yuusui.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.kagoshima-yuusui.kagoshima.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.kagoshima-yuusui.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.kagoshima-yuusuicho.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.kagoshima-yuusuicho.kagoshima.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.kagoshima-yuusuicho.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.kagoshima-yuusuimachi.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.kagoshima-yuusuimachi.kagoshima.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.kagoshima-yuusuimachi.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 town.kammaki.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.kammaki.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.kammaki.nara.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -2805,6 +3124,9 @@ town.kannacho.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.kannamachi.gumma.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.kannamachi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.kannamachi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+town.kashima.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.kashima.kumamoto.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.kashima.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 town.kawabe.gifu.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.kawabe.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.kawabe.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -2841,6 +3163,15 @@ town.kawatanamachi.nagasaki.jp			2026-09-19	2026-09-19	0	0	8	0	0	0
 town.kihoku.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.kihoku.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.kihoku.mie.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+town.kimotsuki.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kimotsuki.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kimotsuki.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kimotsukicho.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kimotsukicho.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kimotsukicho.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kimotsukimachi.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kimotsukimachi.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.kimotsukimachi.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
 town.kiso.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.kiso.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.kiso.nagano.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -2931,6 +3262,15 @@ town.kujyuukuricho.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 town.kujyuukurimachi.chiba.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 town.kujyuukurimachi.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 town.kujyuukurimachi.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
+town.kumamoto-reihoku.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.kumamoto-reihoku.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.kumamoto-reihoku.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.kumamoto-reihokucho.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.kumamoto-reihokucho.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.kumamoto-reihokucho.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.kumamoto-reihokumachi.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.kumamoto-reihokumachi.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.kumamoto-reihokumachi.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
 town.kusatsu.gumma.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.kusatsu.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.kusatsu.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -3006,9 +3346,29 @@ town.minakamicho.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.minakamimachi.gumma.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.minakamimachi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.minakamimachi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
-town.misato.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
-town.misato.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
+town.minamitane.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.minamitane.kagoshima.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.minamitane.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.minamitanecho.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.minamitanecho.kagoshima.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.minamitanecho.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.minamitanemachi.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.minamitanemachi.kagoshima.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.minamitanemachi.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.misato.jp			2026-09-11	2026-09-20	0	0	5	0	0	0
+town.misato.kumamoto.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.misato.lg.jp			2026-09-11	2026-09-20	0	0	5	0	0	0
+town.misato.miyazaki.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 town.misato.saitama.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
+town.miyazaki-takachiho.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.miyazaki-takachiho.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.miyazaki-takachiho.miyazaki.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.miyazaki-takachihocho.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.miyazaki-takachihocho.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.miyazaki-takachihocho.miyazaki.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.miyazaki-takachihomachi.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.miyazaki-takachihomachi.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.miyazaki-takachihomachi.miyazaki.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
 town.miyoshi.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 town.miyoshi.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 town.miyoshi.saitama.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
@@ -3157,6 +3517,7 @@ town.nakanojyomachi.gumma.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.nakanojyomachi.gunma.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.nakanojyomachi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.nakanojyomachi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+town.nakatane.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 town.nambu.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.nambu.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.nambu.yamanashi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -3184,6 +3545,9 @@ town.nara-koriyocho.nara.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.nara-koriyomachi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.nara-koriyomachi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.nara-koriyomachi.nara.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+town.nishiki.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.nishiki.kumamoto.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.nishiki.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 town.odai.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.odai.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.odai.mie.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -3193,6 +3557,9 @@ town.odaicho.mie.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.odaimachi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.odaimachi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.odaimachi.mie.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+town.oguni.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.oguni.kumamoto.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.oguni.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 town.oi.fukui.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.oi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.oi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -3256,6 +3623,9 @@ town.oracho.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.oramachi.gumma.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.oramachi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.oramachi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+town.osaki.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.osaki.kagoshima.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.osaki.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 town.oyama.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 town.oyama.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 town.oyama.shizuoka.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
@@ -3265,6 +3635,14 @@ town.oyamacho.shizuoka.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 town.oyamamachi.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 town.oyamamachi.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 town.oyamamachi.shizuoka.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
+town.reihoku.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.reihoku.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.reihokucho.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.reihokucho.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.reihokucho.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.reihokumachi.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.reihokumachi.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.reihokumachi.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
 town.riyuo.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.riyuo.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.riyuo.shiga.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -3313,6 +3691,14 @@ town.saga-kohokumachi.saga.jp			2026-09-19	2026-09-19	0	0	8	0	0	0
 town.sakai.ibaraki.jp			2026-09-07	2026-09-07	0	0	1	0	0	0
 town.sakai.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 town.sakai.lg.jp			2026-09-07	2026-09-07	0	0	1	0	0	0
+town.satsuma.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.satsuma.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.satsumacho.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.satsumacho.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.satsumacho.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.satsumamachi.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.satsumamachi.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.satsumamachi.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
 town.saza.jp			2026-09-19	2026-09-19	0	0	8	0	0	0
 town.saza.lg.jp			2026-09-19	2026-09-19	0	0	8	0	0	0
 town.saza.nagasaki.jp			2026-09-19	2026-09-19	0	0	8	0	0	0
@@ -3322,6 +3708,15 @@ town.sazacho.nagasaki.jp			2026-09-19	2026-09-19	0	0	8	0	0	0
 town.sazamachi.jp			2026-09-19	2026-09-19	0	0	8	0	0	0
 town.sazamachi.lg.jp			2026-09-19	2026-09-19	0	0	8	0	0	0
 town.sazamachi.nagasaki.jp			2026-09-19	2026-09-19	0	0	8	0	0	0
+town.setochi.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.setochi.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.setochi.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.setochicho.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.setochicho.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.setochicho.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.setochimachi.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.setochimachi.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.setochimachi.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
 town.shiga-kora.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.shiga-kora.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.shiga-kora.shiga.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -3415,8 +3810,18 @@ town.shizuoka-oyamacho.shizuoka.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 town.shizuoka-oyamamachi.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 town.shizuoka-oyamamachi.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 town.shizuoka-oyamamachi.shizuoka.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
-town.takamori.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
-town.takamori.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+town.takachiho.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.takachiho.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.takachiho.miyazaki.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.takachihocho.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.takachihocho.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.takachihocho.miyazaki.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.takachihomachi.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.takachihomachi.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.takachihomachi.miyazaki.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+town.takamori.jp			2026-09-12	2026-09-20	0	0	3	0	0	0
+town.takamori.kumamoto.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.takamori.lg.jp			2026-09-12	2026-09-20	0	0	3	0	0	0
 town.takamori.nagano.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.takanezawa.chigi.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 town.takanezawa.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
@@ -3439,6 +3844,15 @@ town.tamakimachi.mie.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.togo.aichi.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 town.togo.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 town.togo.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
+town.tokunoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.tokunoshima.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.tokunoshima.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.tokunoshimacho.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.tokunoshimacho.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.tokunoshimacho.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.tokunoshimamachi.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.tokunoshimamachi.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.tokunoshimamachi.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
 town.tomioka.fukushima.jp			2026-09-12	2026-09-12	0	0	2	0	0	0
 town.tomioka.jp			2026-09-12	2026-09-12	0	0	2	0	0	0
 town.tomioka.lg.jp			2026-09-12	2026-09-12	0	0	2	0	0	0
@@ -3517,6 +3931,18 @@ town.yamanochicho.nagano.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.yamanochimachi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.yamanochimachi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.yamanochimachi.nagano.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+town.yamato.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.yamato.kumamoto.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.yamato.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.yoron.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.yoron.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.yoron.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.yoroncho.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.yoroncho.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.yoroncho.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.yoronmachi.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.yoronmachi.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+town.yoronmachi.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
 town.yura.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.yura.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.yura.wakayama.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -3526,6 +3952,15 @@ town.yuracho.wakayama.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.yuramachi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.yuramachi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 town.yuramachi.wakayama.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+town.yuusui.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.yuusui.kagoshima.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.yuusui.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.yuusuicho.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.yuusuicho.kagoshima.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.yuusuicho.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.yuusuimachi.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.yuusuimachi.kagoshima.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+town.yuusuimachi.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 unzen-kanko.com			2026-09-19	2026-09-19	0	4	4	0	0	92
 vill-hakuba.nagano.jp	長野県	白馬村観光	2026-09-12	2026-09-12	0	0	2	0	0	0
 vill.aka.fukuoka.jp			2026-09-19	2026-09-19	0	0	8	0	0	0
@@ -3718,6 +4153,33 @@ vill.ikusakamura.nagano.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 vill.ikusakason.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 vill.ikusakason.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 vill.ikusakason.nagano.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+vill.kagoshima-mishima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kagoshima-mishima.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kagoshima-mishima.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kagoshima-mishimamura.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kagoshima-mishimamura.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kagoshima-mishimamura.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kagoshima-mishimason.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kagoshima-mishimason.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kagoshima-mishimason.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kagoshima-toshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kagoshima-toshima.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kagoshima-toshima.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kagoshima-toshimamura.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kagoshima-toshimamura.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kagoshima-toshimamura.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kagoshima-toshimason.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kagoshima-toshimason.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kagoshima-toshimason.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kagoshima-uken.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+vill.kagoshima-uken.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+vill.kagoshima-uken.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+vill.kagoshima-ukenmura.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+vill.kagoshima-ukenmura.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+vill.kagoshima-ukenmura.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+vill.kagoshima-ukenson.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+vill.kagoshima-ukenson.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+vill.kagoshima-ukenson.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
 vill.kanagawa-kiyokawa.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 vill.kanagawa-kiyokawa.kanagawa.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 vill.kanagawa-kiyokawa.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
@@ -3826,6 +4288,33 @@ vill.kozushimamura.tokyo.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 vill.kozushimason.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 vill.kozushimason.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 vill.kozushimason.tokyo.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
+vill.kuma.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kuma.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kuma.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kumamoto-kuma.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kumamoto-kuma.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kumamoto-kuma.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kumamoto-kumamura.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kumamoto-kumamura.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kumamoto-kumamura.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kumamoto-kumason.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kumamoto-kumason.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kumamoto-kumason.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kumamoto-ubuyama.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kumamoto-ubuyama.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kumamoto-ubuyama.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kumamoto-ubuyamamura.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kumamoto-ubuyamamura.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kumamoto-ubuyamamura.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kumamoto-ubuyamason.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kumamoto-ubuyamason.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kumamoto-ubuyamason.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kumamura.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kumamura.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kumamura.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kumason.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kumason.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.kumason.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
 vill.kyokawa.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 vill.kyokawa.kanagawa.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 vill.kyokawa.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
@@ -3862,6 +4351,15 @@ vill.minamimakimura.nagano.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 vill.minamimakison.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 vill.minamimakison.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 vill.minamimakison.nagano.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+vill.mishima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.mishima.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.mishima.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.mishimamura.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.mishimamura.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.mishimamura.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.mishimason.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.mishimason.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.mishimason.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
 vill.nagano-hiraya.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 vill.nagano-hiraya.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 vill.nagano-hiraya.nagano.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -4179,14 +4677,17 @@ vill.tokyo-toshimamura.tokyo.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 vill.tokyo-toshimason.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 vill.tokyo-toshimason.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 vill.tokyo-toshimason.tokyo.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
-vill.toshima.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
-vill.toshima.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
+vill.toshima.jp			2026-09-11	2026-09-20	0	0	5	0	0	0
+vill.toshima.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.toshima.lg.jp			2026-09-11	2026-09-20	0	0	5	0	0	0
 vill.toshima.tokyo.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
-vill.toshimamura.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
-vill.toshimamura.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
+vill.toshimamura.jp			2026-09-11	2026-09-20	0	0	5	0	0	0
+vill.toshimamura.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.toshimamura.lg.jp			2026-09-11	2026-09-20	0	0	5	0	0	0
 vill.toshimamura.tokyo.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
-vill.toshimason.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
-vill.toshimason.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
+vill.toshimason.jp			2026-09-11	2026-09-20	0	0	5	0	0	0
+vill.toshimason.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.toshimason.lg.jp			2026-09-11	2026-09-20	0	0	5	0	0	0
 vill.toshimason.tokyo.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 vill.toyooka.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 vill.toyooka.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -4200,6 +4701,15 @@ vill.tsumagoimura.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 vill.tsumagoison.gumma.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 vill.tsumagoison.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 vill.tsumagoison.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+vill.ubuyama.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.ubuyama.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.ubuyama.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.ubuyamamura.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.ubuyamamura.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.ubuyamamura.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.ubuyamason.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.ubuyamason.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+vill.ubuyamason.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
 vill.ueno.gumma.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 vill.ueno.gunma.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 vill.ueno.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -4212,6 +4722,14 @@ vill.uenoson.gumma.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 vill.uenoson.gunma.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 vill.uenoson.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 vill.uenoson.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+vill.uken.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+vill.uken.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+vill.ukenmura.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+vill.ukenmura.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+vill.ukenmura.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+vill.ukenson.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+vill.ukenson.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+vill.ukenson.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
 vill.urugi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 vill.urugi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 vill.urugi.nagano.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -4256,6 +4774,7 @@ www.city.aichi-nagoya.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 www.city.aizuwakamatsu.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.city.akiruno.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.city.ama.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
+www.city.amakusa.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.city.anjo.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 www.city.arakawa.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.city.ashikaga.chigi.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
@@ -4264,6 +4783,7 @@ www.city.ashikaga.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.city.ashikagashi.chigi.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.city.ashikagashi.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.city.ashikagashi.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
+www.city.aso.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.city.atsugi.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.city.ayase.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.city.azumino.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -4494,6 +5014,7 @@ www.city.higashimurayamashi.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.city.higashimurayamashi.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.city.higashimurayamashi.tokyo.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.city.higashiomi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+www.city.hioki.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.city.hirado.lg.jp			2026-09-19	2026-09-19	0	0	4	0	0	0
 www.city.hiratsuka.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.city.hita.lg.jp			2026-09-19	2026-09-19	0	0	4	0	0	0
@@ -4511,6 +5032,7 @@ www.city.honjyo.saitama.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.city.honjyoshi.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.city.honjyoshi.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.city.honjyoshi.saitama.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
+www.city.hyuga.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.city.ibaraki-yuuki.ibaraki.jp			2026-09-07	2026-09-07	0	0	1	0	0	0
 www.city.ibaraki-yuuki.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.city.ibaraki-yuuki.lg.jp			2026-09-07	2026-09-07	0	0	1	0	0	0
@@ -4532,6 +5054,7 @@ www.city.inashi.nagano.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.city.inazawa.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 www.city.inuyama.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 www.city.iruma.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
+www.city.isa.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.city.isahaya.lg.jp			2026-09-19	2026-09-19	0	0	4	0	0	0
 www.city.ise.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.city.isehara.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
@@ -4540,13 +5063,23 @@ www.city.ito.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 www.city.iwakura.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 www.city.iwata.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 www.city.izu.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
+www.city.izumi.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.city.izumi.kagoshima.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.city.izumi.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.city.izunokuni.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 www.city.joetsu.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+www.city.kagoshima-kirishima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.city.kagoshima-kirishima.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.city.kagoshima-kirishima.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.city.kagoshima-kirishimashi.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.city.kagoshima-kirishimashi.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.city.kagoshima-kirishimashi.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
 www.city.kai.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.city.kakegawa.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 www.city.kamagaya.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.city.kamakura.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.city.kameyama.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+www.city.kamiamakusa.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.city.kamisu.lg.jp			2026-09-07	2026-09-07	0	0	1	0	0	0
 www.city.kamo.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.city.kanuma.chigi.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
@@ -4567,6 +5100,12 @@ www.city.kawagoe.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.city.kawasaki.kanagawa.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.city.kawasaki.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.city.kikugawa.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
+www.city.kirishima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.city.kirishima.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.city.kirishima.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.city.kirishimashi.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.city.kirishimashi.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.city.kirishimashi.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
 www.city.kitakata.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.city.kiyosu.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 www.city.kodaira.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
@@ -4601,6 +5140,8 @@ www.city.kooryamashi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.city.kosai.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 www.city.koshigaya.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.city.koshu.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+www.city.kumamoto.kumamoto.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.city.kumamoto.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.city.kunisaki.lg.jp			2026-09-19	2026-09-19	0	0	4	0	0	0
 www.city.kunitachi.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.city.kurume.lg.jp			2026-09-19	2026-09-19	0	0	4	0	0	0
@@ -4655,6 +5196,8 @@ www.city.mino.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.city.mishima.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 www.city.mitsuke.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.city.miura.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
+www.city.miyakonojo.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.city.miyazaki.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.city.miyoshi.aichi.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 www.city.miyoshi.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 www.city.miyoshi.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
@@ -4729,6 +5272,7 @@ www.city.niigata-tookamachishi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.city.niigata-tookamachishi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.city.niigata-tookamachishi.niigata.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.city.nishio.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
+www.city.nobeoka.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.city.noda.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.city.nogata.lg.jp			2026-09-19	2026-09-19	0	0	4	0	0	0
 www.city.noogata.fukuoka.jp			2026-09-19	2026-09-19	0	0	4	0	0	0
@@ -4881,6 +5425,7 @@ www.city.shirakawa.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.city.shiroi.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.city.soka.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.city.soma.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+www.city.soo.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.city.suginami.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.city.sukagawa.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.city.susono.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
@@ -4960,6 +5505,7 @@ www.city.tsushi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.city.tsushi.mie.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.city.ueda.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.city.uenohara.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+www.city.uki.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.city.ukiha.lg.jp			2026-09-19	2026-09-19	0	0	4	0	0	0
 www.city.unzen.lg.jp			2026-09-19	2026-09-19	0	0	4	0	0	0
 www.city.usa.lg.jp			2026-09-19	2026-09-19	0	0	4	0	0	0
@@ -4978,6 +5524,7 @@ www.city.yaita.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.city.yaitashi.chigi.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.city.yaitashi.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.city.yaitashi.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
+www.city.yamaga.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.city.yamagata.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.city.yamanashi-minamiarupusu.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.city.yamanashi-minamiarupusu.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -5038,6 +5585,7 @@ www.kasugakankou.com			2026-09-19	2026-09-19	0	0	8	0	0	0
 www.katsuragi-kanko.jp	和歌山県	かつらぎ町観光	2026-09-12	2026-09-12	0	0	2	0	0	0
 www.katsuura-kankou.net 	千葉県	勝浦市観光	2026-09-11	2026-09-11	0	0	2	0	0	0
 www.kozagawakanko.jp			2026-09-12	2026-09-12	0	0	2	0	0	0
+www.kuma-kanko.com			2026-09-20	2026-09-20	0	0	8	0	0	0
 www.kyoiku.metro.aichi.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 www.kyoiku.metro.chiba.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.kyoiku.metro.chigi.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
@@ -5117,6 +5665,7 @@ www.town.asahimachi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.asahimachi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.asahimachi.mie.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.asakawa.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+www.town.aya.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.town.bandai.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.chiba-kiyonan.chiba.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.town.chiba-kiyonan.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
@@ -5380,6 +5929,7 @@ www.town.gifu-wanochimachi.gifu.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.gifu-wanochimachi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.gifu-wanochimachi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.godo.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+www.town.gokase.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.town.gumma-chiyoda.gumma.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.gumma-chiyoda.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.gumma-chiyoda.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -5515,6 +6065,7 @@ www.town.gunma-nakanojyocho.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.gunma-nakanojyomachi.gunma.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.gunma-nakanojyomachi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.gunma-nakanojyomachi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+www.town.gyokuto.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.town.hachijo.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.town.haga.chigi.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.town.haga.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
@@ -5558,9 +6109,19 @@ www.town.higashiagatsumacho.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.higashiagatsumamachi.gumma.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.higashiagatsumamachi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.higashiagatsumamachi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+www.town.higashikushira.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.higashikushira.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.higashikushira.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.higashikushiracho.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.higashikushiracho.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.higashikushiracho.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.higashikushiramachi.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.higashikushiramachi.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.higashikushiramachi.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
 www.town.higashiura.aichi.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 www.town.higashiura.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 www.town.higashiura.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
+www.town.hikawa.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.town.hino.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.hino.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.hino.shiga.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -5599,6 +6160,7 @@ www.town.inami.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.inami.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.inami.wakayama.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.inawashiro.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+www.town.isen.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.town.ishikawa.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.itakura.gumma.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.itakura.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -5611,6 +6173,78 @@ www.town.itakuramachi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.itakuramachi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.izumozaki.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.kagamiishi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+www.town.kagoshima-higashikushira.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.kagoshima-higashikushira.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.kagoshima-higashikushira.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.kagoshima-higashikushiracho.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.kagoshima-higashikushiracho.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.kagoshima-higashikushiracho.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.kagoshima-higashikushiramachi.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.kagoshima-higashikushiramachi.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.kagoshima-higashikushiramachi.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.kagoshima-kimotsuki.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-kimotsuki.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-kimotsuki.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-kimotsukicho.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-kimotsukicho.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-kimotsukicho.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-kimotsukimachi.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-kimotsukimachi.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-kimotsukimachi.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-minamitane.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.kagoshima-minamitane.kagoshima.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.kagoshima-minamitane.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.kagoshima-minamitanecho.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.kagoshima-minamitanecho.kagoshima.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.kagoshima-minamitanecho.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.kagoshima-minamitanemachi.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.kagoshima-minamitanemachi.kagoshima.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.kagoshima-minamitanemachi.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.kagoshima-satsuma.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.kagoshima-satsuma.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.kagoshima-satsuma.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.kagoshima-satsumacho.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.kagoshima-satsumacho.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.kagoshima-satsumacho.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.kagoshima-satsumamachi.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.kagoshima-satsumamachi.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.kagoshima-satsumamachi.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.kagoshima-setochi.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-setochi.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-setochi.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-setochicho.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-setochicho.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-setochicho.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-setochimachi.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-setochimachi.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-setochimachi.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-tokunoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-tokunoshima.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-tokunoshima.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-tokunoshimacho.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-tokunoshimacho.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-tokunoshimacho.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-tokunoshimamachi.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-tokunoshimamachi.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-tokunoshimamachi.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-yoron.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-yoron.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-yoron.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-yoroncho.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-yoroncho.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-yoroncho.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-yoronmachi.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-yoronmachi.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-yoronmachi.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kagoshima-yuusui.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.kagoshima-yuusui.kagoshima.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.kagoshima-yuusui.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.kagoshima-yuusuicho.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.kagoshima-yuusuicho.kagoshima.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.kagoshima-yuusuicho.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.kagoshima-yuusuimachi.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.kagoshima-yuusuimachi.kagoshima.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.kagoshima-yuusuimachi.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.town.kaisei.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.town.kamikawa.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.town.kamisato.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
@@ -5636,6 +6270,9 @@ www.town.kannamachi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.kannamachi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.kannami.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 www.town.kasamatsu.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+www.town.kashima.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.kashima.kumamoto.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.kashima.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.town.kasuya.lg.jp			2026-09-19	2026-09-19	0	0	4	0	0	0
 www.town.katsuragi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.kawabe.gifu.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -5653,6 +6290,7 @@ www.town.kawachi.lg.jp			2026-09-07	2026-09-07	0	0	1	0	0	0
 www.town.kawagoe.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.kawai.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.kawajima.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
+www.town.kawaminami.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.town.kawanehon.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 www.town.kawanishi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.kawanishi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -5682,6 +6320,15 @@ www.town.kihoku.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.kihoku.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.kihoku.mie.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.kimino.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+www.town.kimotsuki.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kimotsuki.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kimotsuki.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kimotsukicho.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kimotsukicho.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kimotsukicho.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kimotsukimachi.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kimotsukimachi.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.kimotsukimachi.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
 www.town.kiso.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.kiso.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.kiso.nagano.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -5781,7 +6428,17 @@ www.town.kujyuukuricho.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.town.kujyuukurimachi.chiba.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.town.kujyuukurimachi.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.town.kujyuukurimachi.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
+www.town.kumamoto-reihoku.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.kumamoto-reihoku.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.kumamoto-reihoku.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.kumamoto-reihokucho.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.kumamoto-reihokucho.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.kumamoto-reihokucho.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.kumamoto-reihokumachi.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.kumamoto-reihokumachi.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.kumamoto-reihokumachi.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
 www.town.kunimi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+www.town.kunitomi.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.town.kusatsu.gumma.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.kusatsu.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.kusatsu.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -5843,6 +6500,7 @@ www.town.mie-tamakicho.mie.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.mie-tamakimachi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.mie-tamakimachi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.mie-tamakimachi.mie.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+www.town.mifune.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.town.mihama.aichi.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 www.town.mihama.fukui.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.mihama.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
@@ -5865,11 +6523,30 @@ www.town.minakamimachi.gumma.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.minakamimachi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.minakamimachi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.minamiizu.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
+www.town.minamitane.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.minamitane.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.minamitanecho.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.minamitanecho.kagoshima.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.minamitanecho.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.minamitanemachi.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.minamitanemachi.kagoshima.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.minamitanemachi.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.town.minano.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
-www.town.misato.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
-www.town.misato.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
+www.town.misato.jp			2026-09-11	2026-09-20	0	0	5	0	0	0
+www.town.misato.kumamoto.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.misato.lg.jp			2026-09-11	2026-09-20	0	0	5	0	0	0
+www.town.misato.miyazaki.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.town.misato.saitama.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.town.mishima.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+www.town.miyazaki-takachiho.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.miyazaki-takachiho.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.miyazaki-takachiho.miyazaki.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.miyazaki-takachihocho.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.miyazaki-takachihocho.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.miyazaki-takachihocho.miyazaki.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.miyazaki-takachihomachi.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.miyazaki-takachihomachi.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.miyazaki-takachihomachi.miyazaki.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
 www.town.miyoshi.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.town.miyoshi.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.town.miyoshi.saitama.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
@@ -6029,6 +6706,8 @@ www.town.nakanojyomachi.gumma.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.nakanojyomachi.gunma.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.nakanojyomachi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.nakanojyomachi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+www.town.nakatane.kagoshima.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.nakatane.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.town.nambu.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.nambu.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.nambu.yamanashi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -6063,6 +6742,9 @@ www.town.ninomiya.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.town.nishiaizu.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.nishiizu.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 www.town.nishikatsura.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+www.town.nishiki.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.nishiki.kumamoto.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.nishiki.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.town.obuse.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.odai.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.odai.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -6075,6 +6757,9 @@ www.town.odaimachi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.odaimachi.mie.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.ogawa.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.town.ogose.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
+www.town.oguni.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.oguni.kumamoto.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.oguni.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.town.oharu.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 www.town.oi.fukui.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.oi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -6143,6 +6828,9 @@ www.town.oracho.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.oramachi.gumma.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.oramachi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.oramachi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+www.town.osaki.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.osaki.kagoshima.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.osaki.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.town.oshima.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.town.otaki.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.town.oto.lg.jp			2026-09-19	2026-09-19	0	0	4	0	0	0
@@ -6155,7 +6843,16 @@ www.town.oyamacho.shizuoka.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 www.town.oyamamachi.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 www.town.oyamamachi.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 www.town.oyamamachi.shizuoka.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
+www.town.ozu.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.town.ranzan.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
+www.town.reihoku.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.reihoku.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.reihokucho.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.reihokucho.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.reihokucho.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.reihokumachi.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.reihokumachi.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.reihokumachi.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
 www.town.riyuo.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.riyuo.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.riyuo.shiga.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -6211,6 +6908,14 @@ www.town.sakuho.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.samukawa.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.town.sango.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.sasaguri.lg.jp			2026-09-19	2026-09-19	0	0	4	0	0	0
+www.town.satsuma.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.satsuma.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.satsumacho.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.satsumacho.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.satsumacho.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.satsumamachi.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.satsumamachi.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.satsumamachi.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
 www.town.saza.jp			2026-09-19	2026-09-19	0	0	8	0	0	0
 www.town.saza.lg.jp			2026-09-19	2026-09-19	0	0	12	0	0	0
 www.town.saza.nagasaki.jp			2026-09-19	2026-09-19	0	0	10	0	0	0
@@ -6222,6 +6927,15 @@ www.town.sazamachi.lg.jp			2026-09-19	2026-09-19	0	0	8	0	0	0
 www.town.sazamachi.nagasaki.jp			2026-09-19	2026-09-19	0	0	8	0	0	0
 www.town.seiro.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.sekigahara.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+www.town.setochi.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.setochi.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.setochi.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.setochicho.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.setochicho.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.setochicho.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.setochimachi.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.setochimachi.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.setochimachi.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
 www.town.shiga-kora.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.shiga-kora.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.shiga-kora.shiga.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -6326,9 +7040,19 @@ www.town.tachiarai.lg.jp			2026-09-19	2026-09-19	0	0	4	0	0	0
 www.town.tagami.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.taiji.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.taiki.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+www.town.takachiho.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.takachiho.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.takachiho.miyazaki.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.takachihocho.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.takachihocho.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.takachihocho.miyazaki.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.takachihomachi.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.takachihomachi.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.town.takachihomachi.miyazaki.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
 www.town.takahama.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
-www.town.takamori.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
-www.town.takamori.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+www.town.takamori.jp			2026-09-12	2026-09-20	0	0	3	0	0	0
+www.town.takamori.kumamoto.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.takamori.lg.jp			2026-09-12	2026-09-20	0	0	3	0	0	0
 www.town.takamori.nagano.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.takanezawa.chigi.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.town.takanezawa.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
@@ -6359,6 +7083,15 @@ www.town.togitsu.lg.jp			2026-09-19	2026-09-19	0	0	4	0	0	0
 www.town.togo.aichi.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 www.town.togo.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 www.town.togo.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
+www.town.tokunoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.tokunoshima.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.tokunoshima.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.tokunoshimacho.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.tokunoshimacho.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.tokunoshimacho.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.tokunoshimamachi.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.tokunoshimamachi.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.tokunoshimamachi.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
 www.town.tomika.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.tomioka.fukushima.jp			2026-09-12	2026-09-12	0	0	2	0	0	0
 www.town.tomioka.jp			2026-09-12	2026-09-12	0	0	2	0	0	0
@@ -6424,6 +7157,7 @@ www.town.yabuki.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.yachiyo.ibaraki.jp			2026-09-07	2026-09-07	0	0	1	0	0	0
 www.town.yachiyo.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.town.yachiyo.lg.jp			2026-09-07	2026-09-07	0	0	1	0	0	0
+www.town.yakushima.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.town.yamakita.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.town.yamanashi-nambu.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.yamanashi-nambu.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -6443,12 +7177,24 @@ www.town.yamanochicho.nagano.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.yamanochimachi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.yamanochimachi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.yamanochimachi.nagano.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+www.town.yamato.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.yamato.kumamoto.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.yamato.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.town.yamatsuri.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.yanaizu.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.yokoshibahikari.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.town.yokoze.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.town.yorii.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.town.yoro.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+www.town.yoron.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.yoron.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.yoron.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.yoroncho.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.yoroncho.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.yoroncho.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.yoronmachi.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.yoronmachi.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.town.yoronmachi.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
 www.town.yoshida.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 www.town.yoshimi.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.town.yoshino.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -6463,6 +7209,16 @@ www.town.yuracho.wakayama.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.yuramachi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.yuramachi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.town.yuramachi.wakayama.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+www.town.yusui.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.yuusui.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.yuusui.kagoshima.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.yuusui.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.yuusuicho.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.yuusuicho.kagoshima.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.yuusuicho.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.yuusuimachi.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.yuusuimachi.kagoshima.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
+www.town.yuusuimachi.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.ttca.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 www.unzen-kanko.com			2026-09-19	2026-09-19	0	4	4	0	0	92
 www.vill.aka.fukuoka.jp			2026-09-19	2026-09-19	0	0	8	0	0	0
@@ -6665,6 +7421,33 @@ www.vill.ikusakason.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.vill.ikusakason.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.vill.ikusakason.nagano.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.vill.izumizaki.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+www.vill.kagoshima-mishima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kagoshima-mishima.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kagoshima-mishima.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kagoshima-mishimamura.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kagoshima-mishimamura.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kagoshima-mishimamura.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kagoshima-mishimason.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kagoshima-mishimason.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kagoshima-mishimason.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kagoshima-toshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kagoshima-toshima.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kagoshima-toshima.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kagoshima-toshimamura.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kagoshima-toshimamura.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kagoshima-toshimamura.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kagoshima-toshimason.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kagoshima-toshimason.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kagoshima-toshimason.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kagoshima-uken.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.vill.kagoshima-uken.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.vill.kagoshima-uken.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.vill.kagoshima-ukenmura.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.vill.kagoshima-ukenmura.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.vill.kagoshima-ukenmura.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.vill.kagoshima-ukenson.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.vill.kagoshima-ukenson.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.vill.kagoshima-ukenson.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
 www.vill.kamikitayama.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.vill.kanagawa-kiyokawa.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.vill.kanagawa-kiyokawa.kanagawa.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
@@ -6775,6 +7558,33 @@ www.vill.kozushimamura.tokyo.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.vill.kozushimason.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.vill.kozushimason.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.vill.kozushimason.tokyo.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
+www.vill.kuma.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kuma.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kuma.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kumamoto-kuma.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kumamoto-kuma.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kumamoto-kuma.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kumamoto-kumamura.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kumamoto-kumamura.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kumamoto-kumamura.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kumamoto-kumason.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kumamoto-kumason.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kumamoto-kumason.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kumamoto-ubuyama.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kumamoto-ubuyama.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kumamoto-ubuyama.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kumamoto-ubuyamamura.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kumamoto-ubuyamamura.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kumamoto-ubuyamamura.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kumamoto-ubuyamason.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kumamoto-ubuyamason.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kumamoto-ubuyamason.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kumamura.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kumamura.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kumamura.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kumason.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kumason.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.kumason.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
 www.vill.kurotaki.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.vill.kyokawa.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.vill.kyokawa.kanagawa.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
@@ -6813,9 +7623,19 @@ www.vill.minamimakimura.nagano.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.vill.minamimakison.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.vill.minamimakison.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.vill.minamimakison.nagano.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+www.vill.mishima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.mishima.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.mishima.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.mishimamura.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.mishimamura.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.mishimamura.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.mishimason.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.mishimason.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.mishimason.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
 www.vill.mitsue.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.vill.miyada.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.vill.miyake.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
+www.vill.morotsuka.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.vill.nagano-hiraya.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.vill.nagano-hiraya.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.vill.nagano-hiraya.nagano.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -7001,6 +7821,7 @@ www.vill.nijimason.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.vill.nijimason.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.vill.nijimason.tokyo.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.vill.nishigo.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+www.vill.nishihara.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.vill.nosegawa.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.vill.nozawaonsen.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.vill.ogasawara.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
@@ -7044,6 +7865,7 @@ www.vill.sekikawamura.niigata.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.vill.sekikawason.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.vill.sekikawason.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.vill.sekikawason.niigata.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+www.vill.shiiba.lg.jp			2026-09-20	2026-09-20	0	0	2	0	0	0
 www.vill.shimojo.jp			2026-09-12	2026-09-12	0	0	2	0	0	0
 www.vill.shimojo.lg.jp			2026-09-12	2026-09-12	0	0	2	0	0	0
 www.vill.shimojo.nagano.jp			2026-09-12	2026-09-12	0	0	2	0	0	0
@@ -7151,14 +7973,17 @@ www.vill.tokyo-toshimamura.tokyo.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.vill.tokyo-toshimason.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.vill.tokyo-toshimason.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.vill.tokyo-toshimason.tokyo.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
-www.vill.toshima.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
-www.vill.toshima.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
+www.vill.toshima.jp			2026-09-11	2026-09-20	0	0	5	0	0	0
+www.vill.toshima.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.toshima.lg.jp			2026-09-11	2026-09-20	0	0	5	0	0	0
 www.vill.toshima.tokyo.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
-www.vill.toshimamura.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
-www.vill.toshimamura.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
+www.vill.toshimamura.jp			2026-09-11	2026-09-20	0	0	5	0	0	0
+www.vill.toshimamura.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.toshimamura.lg.jp			2026-09-11	2026-09-20	0	0	5	0	0	0
 www.vill.toshimamura.tokyo.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
-www.vill.toshimason.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
-www.vill.toshimason.lg.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
+www.vill.toshimason.jp			2026-09-11	2026-09-20	0	0	5	0	0	0
+www.vill.toshimason.kagoshima.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.toshimason.lg.jp			2026-09-11	2026-09-20	0	0	5	0	0	0
 www.vill.toshimason.tokyo.jp			2026-09-11	2026-09-11	0	0	1	0	0	0
 www.vill.toyone.lg.jp			2026-09-08	2026-09-08	0	0	1	0	0	0
 www.vill.toyooka.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -7173,6 +7998,15 @@ www.vill.tsumagoimura.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.vill.tsumagoison.gumma.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.vill.tsumagoison.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.vill.tsumagoison.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+www.vill.ubuyama.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.ubuyama.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.ubuyama.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.ubuyamamura.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.ubuyamamura.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.ubuyamamura.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.ubuyamason.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.ubuyamason.kumamoto.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
+www.vill.ubuyamason.lg.jp			2026-09-20	2026-09-20	0	0	4	0	0	0
 www.vill.ueno.gumma.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.vill.ueno.gunma.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.vill.ueno.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
@@ -7185,6 +8019,14 @@ www.vill.uenoson.gumma.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.vill.uenoson.gunma.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.vill.uenoson.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.vill.uenoson.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
+www.vill.uken.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.vill.uken.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.vill.ukenmura.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.vill.ukenmura.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.vill.ukenmura.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.vill.ukenson.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.vill.ukenson.kagoshima.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
+www.vill.ukenson.lg.jp			2026-09-20	2026-09-20	0	0	8	0	0	0
 www.vill.urugi.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.vill.urugi.lg.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
 www.vill.urugi.nagano.jp			2026-09-12	2026-09-12	0	0	1	0	0	0
