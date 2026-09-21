@@ -2,6 +2,10 @@
 
 AIエージェントによる地域・テーマ別調査レポートを保存します。
 
+また、クローラーがどのサイトにいつ何回アクセスしたかの記録も置きます
+(`access-log.md` が要約、`access-hosts.tsv` がホスト別)。
+`python pipeline/access_report.py` で更新する。詳細は RUNBOOK.md「アクセス台帳」。
+
 推奨ファイル名:
 
 `YYYY-MM-DD-<scope>.md`

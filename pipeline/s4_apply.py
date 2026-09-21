@@ -368,6 +368,7 @@ def _place_sources(prefecture: str) -> dict:
     if prefecture in _PLACE_CACHE:
         return _PLACE_CACHE[prefecture]
     desig: dict[str, str] = {}
+    wide: set[str] = set()
     for name in ("bunkazai_local.tsv", "bunkazai_ai.tsv", "bunkazai_tobunken.tsv"):
         path = REGISTRY_DIR / name
         if not path.exists():
@@ -381,7 +382,14 @@ def _place_sources(prefecture: str) -> dict:
                 continue
             r = dict(zip(header, ln.split("\t")))
             muni = r.get("municipality", "")
-            if r.get("prefecture") == prefecture and muni and muni != PREFECTURE_WIDE:
+            if r.get("prefecture") != prefecture or not muni:
+                continue
+            if muni == PREFECTURE_WIDE:
+                # 台帳が「複数市町村にまたがる」と言っている行事。語幹の一致で
+                # 1つの市町村に寄せてはいけない (「能登のまだら」= 七尾市・輪島市
+                # が、能登町の語幹「能登」に当たって能登町に置かれた)。
+                wide.add(dedup_key(r.get("name", "")))
+            else:
                 desig.setdefault(dedup_key(r.get("name", "")), muni)
     stems: dict[str, str] = {}
     muni_path = REGISTRY_DIR / "municipalities.tsv"
@@ -398,7 +406,7 @@ def _place_sources(prefecture: str) -> dict:
             stem = re.sub(r"[市町村区]$", "", m)
             if len(stem) >= 2:
                 stems[m] = stem
-    out = {"desig": desig, "stems": stems}
+    out = {"desig": desig, "stems": stems, "wide": wide}
     _PLACE_CACHE[prefecture] = out
     return out
 
@@ -413,6 +421,8 @@ def _guess_place(row: dict, prefecture: str) -> tuple[str, str]:
     hit = src["desig"].get(key)
     if hit:
         return hit, "designation"
+    if key in src["wide"]:
+        return "", ""
     blob = " ".join([row.get("name", ""), row.get("venue", ""),
                      row.get("date_note", "")])
     for muni, stem in src["stems"].items():

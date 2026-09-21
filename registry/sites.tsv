@@ -404,6 +404,40 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 155047	新潟県	刈羽村			robots.txt が全UAを拒否
 155811	新潟県	関川村	http://www.vill.sekikawa.niigata.jp/	http://www.sekikawa-kankou.com/	本文に自治体名を確認
 155861	新潟県	粟島浦村	https://www.vill.awashimaura.lg.jp/	http://awa-isle.jp/	本文に自治体名を確認
+162019	富山県	富山市	https://www.city.toyama.lg.jp/	https://www.toyamashi-kankoukyoukai.jp/	本文に自治体名を確認
+162027	富山県	高岡市	https://www.city.takaoka.toyama.jp/		本文に自治体名を確認
+162043	富山県	魚津市	https://www.city.uozu.toyama.jp/		本文に自治体名を確認
+162051	富山県	氷見市	https://www.city.himi.toyama.jp/	https://www.kitokitohimi.com/	本文に自治体名を確認
+162060	富山県	滑川市	https://www.city.namerikawa.toyama.jp/	https://namerikawa-kanko.jp/	本文に自治体名を確認
+162078	富山県	黒部市	https://www.city.kurobe.toyama.jp/		本文に自治体名を確認
+162086	富山県	砺波市	https://www.city.tonami.lg.jp/	https://www.tonami-kankou.org/	本文に自治体名を確認
+162094	富山県	小矢部市	https://www.city.oyabe.toyama.jp/	https://www.oyabe.info/	本文に自治体名を確認
+162108	富山県	南砺市	https://www.city.nanto.toyama.jp/	https://www.tabi-nanto.jp/	本文に自治体名を確認
+162116	富山県	射水市	https://www.city.imizu.toyama.jp/	https://www.imizu-kanko.jp/	本文に自治体名を確認
+163210	富山県	舟橋村	https://www.vill.funahashi.toyama.jp/		本文に自治体名を確認
+163228	富山県	上市町	https://www.town.kamiichi.toyama.jp/	http://kami1tabi.net/	本文に自治体名を確認
+163236	富山県	立山町	https://www.town.tateyama.toyama.jp/		本文に自治体名を確認
+163422	富山県	入善町	https://www.town.nyuzen.toyama.jp/	http://www.nyuzen-kanko.jp/	本文に自治体名を確認
+163431	富山県	朝日町	https://www.town.asahi.toyama.jp/	https://www.asahi-tabi.com/	本文に自治体名を確認
+172014	石川県	金沢市	https://www4.city.kanazawa.lg.jp/	https://www.kanazawa-kankoukyoukai.or.jp/	検索で特定 (本文に自治体名を確認)
+172022	石川県	七尾市	https://www.city.nanao.lg.jp/	https://www.wakura.or.jp/	本文に自治体名を確認
+172031	石川県	小松市	https://www.city.komatsu.lg.jp/		本文に自治体名を確認
+172049	石川県	輪島市	https://www.city.wajima.ishikawa.jp/	https://wajimanavi.jp/	本文に自治体名を確認
+172057	石川県	珠洲市	https://www.city.suzu.lg.jp/	https://suzu-tourism.com/	本文に自治体名を確認
+172065	石川県	加賀市	https://www.city.kaga.ishikawa.jp/	http://www.tabimati.net/	本文に自治体名を確認
+172073	石川県	羽咋市	https://www.city.hakui.lg.jp/		本文に自治体名を確認
+172090	石川県	かほく市	https://www.city.kahoku.lg.jp/	https://kanko-kahoku.com/	本文に自治体名を確認
+172103	石川県	白山市	https://www.city.hakusan.lg.jp/	https://www.urara-hakusanbito.com/	本文に自治体名を確認
+172111	石川県	能美市	https://www.city.nomi.lg.jp/	https://www.nomi-kanko.com/	本文に自治体名を確認
+172120	石川県	野々市市	https://www.city.nonoichi.lg.jp/	https://www.nonoichi-kanko.jp/	本文に自治体名を確認
+173240	石川県	川北町	https://www.town.kawakita.ishikawa.jp/		本文に自治体名を確認
+173614	石川県	津幡町	https://www.town.tsubata.lg.jp/		本文に自治体名を確認
+173657	石川県	内灘町	https://www.town.uchinada.lg.jp/	https://uchinadakankou.com/	本文に自治体名を確認
+173843	石川県	志賀町	https://www.town.shika.lg.jp/		本文に自治体名を確認
+173860	石川県	宝達志水町	https://www.hodatsushimizu.jp/		検索で特定 (本文に自治体名を確認)
+174076	石川県	中能登町	https://www.town.nakanoto.ishikawa.jp/	https://www.nakanotokanko.com/	本文に自治体名を確認
+174611	石川県	穴水町	https://www.town.anamizu.lg.jp/	https://www.anamizu-kankou.jp/	本文に自治体名を確認
+174637	石川県	能登町	https://www.town.noto.lg.jp/	http://www.notokanko.com/	本文に自治体名を確認
 182010	福井県	福井市	https://www.city.fukui.lg.jp/		本文に自治体名を確認
 182028	福井県	敦賀市	https://www.city.tsuruga.lg.jp/	https://tsuruga-kanko.jp/	本文に自治体名を確認
 182044	福井県	小浜市	https://www1.city.obama.fukui.jp/	https://www.wakasa-obama.jp/	検索で特定 (本文に自治体名を確認)
@@ -773,3 +807,236 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 304247	和歌山県	古座川町	https://www.town.kozagawa.lg.jp/		本文に自治体名を確認
 304271	和歌山県	北山村	https://www.vill.kitayama.wakayama.jp/		本文に自治体名を確認
 304280	和歌山県	串本町	https://www.town.kushimoto.wakayama.jp/	https://kankou-kushimoto.jp/	本文に自治体名を確認
+401005	福岡県	北九州市	https://www.city.kitakyushu.lg.jp/	https://kitakyushucity.guide/	本文に自治体名を確認
+401307	福岡県	福岡市	https://www.city.fukuoka.lg.jp/		本文に自治体名を確認
+402028	福岡県	大牟田市	https://www.city.omuta.lg.jp/		本文に自治体名を確認
+402036	福岡県	久留米市	https://www.city.kurume.fukuoka.jp/	https://welcome-kurume.com/	本文に自治体名を確認
+402044	福岡県	直方市	https://www.city.nogata.fukuoka.jp/	https://nogata-kankoh.com/	本文に自治体名を確認
+402052	福岡県	飯塚市	https://www.city.iizuka.lg.jp/	https://www.kankou-iizuka.jp/	本文に自治体名を確認
+402061	福岡県	田川市	https://www.joho.tagawa.fukuoka.jp/		検索で特定 (本文に自治体名を確認)
+402079	福岡県	柳川市	https://www.city.yanagawa.fukuoka.jp/	https://www.yanagawa-net.com/	本文に自治体名を確認
+402109	福岡県	八女市	https://www.city.yame.fukuoka.jp/	https://yame.travel/	本文に自治体名を確認
+402117	福岡県	筑後市	https://www.city.chikugo.lg.jp/	https://chikugo.net/	本文に自治体名を確認
+402125	福岡県	大川市	https://www.city.okawa.lg.jp/	http://www.okawa-kk.com/	本文に自治体名を確認
+402133	福岡県	行橋市	https://www.city.yukuhashi.fukuoka.jp/	https://www.yukuhashi-kankou.jp/	本文に自治体名を確認
+402141	福岡県	豊前市	https://www.city.buzen.lg.jp/	http://www.buzen-kk.jp/	本文に自治体名を確認
+402150	福岡県	中間市	https://www.city.nakama.lg.jp/		本文に自治体名を確認
+402168	福岡県	小郡市	https://www.city.ogori.fukuoka.jp/	https://kanko-ogori.net/	本文に自治体名を確認
+402176	福岡県	筑紫野市	https://www.city.chikushino.fukuoka.jp/		本文に自治体名を確認
+402184	福岡県	春日市	https://www.city.kasuga.fukuoka.jp/		本文に自治体名を確認
+402192	福岡県	大野城市	https://www.city.onojo.fukuoka.jp/		本文に自治体名を確認
+402206	福岡県	宗像市	https://www.city.munakata.lg.jp/	https://www.munakatakanko.com/	本文に自治体名を確認
+402214	福岡県	太宰府市	https://www.city.dazaifu.lg.jp/		本文に自治体名を確認
+402231	福岡県	古賀市	https://www.city.koga.fukuoka.jp/		本文に自治体名を確認
+402249	福岡県	福津市	https://www.city.fukutsu.lg.jp/	https://dmofukutsu.com/	本文に自治体名を確認
+402257	福岡県	うきは市	https://www.city.ukiha.fukuoka.jp/	https://ukihalove.jp/	本文に自治体名を確認
+402265	福岡県	宮若市	https://www.city.miyawaka.lg.jp/	https://www.wakakanko.jp/	本文に自治体名を確認
+402273	福岡県	嘉麻市	https://www.city.kama.lg.jp/	https://www.kama-kanko.com/	本文に自治体名を確認
+402281	福岡県	朝倉市	https://www.city.asakura.lg.jp/		本文に自治体名を確認
+402290	福岡県	みやま市	https://www.city.miyama.lg.jp/		本文に自治体名を確認
+402303	福岡県	糸島市	https://www.city.itoshima.lg.jp/	https://kanko-itoshima.jp/	本文に自治体名を確認
+402311	福岡県	那珂川市	https://www.city.nakagawa.lg.jp/		本文に自治体名を確認
+403415	福岡県	宇美町	https://www.town.umi.lg.jp/		本文に自治体名を確認
+403423	福岡県	篠栗町	https://www.town.sasaguri.fukuoka.jp/	https://www.sasagurikanko.com/	本文に自治体名を確認
+403431	福岡県	志免町	https://www.town.shime.lg.jp/		本文に自治体名を確認
+403440	福岡県	須恵町	https://www.town.sue.fukuoka.jp/	https://slowrhythm-sue.jp/	本文に自治体名を確認
+403458	福岡県	新宮町	https://www.town.shingu.fukuoka.jp/		本文に自治体名を確認
+403482	福岡県	久山町	https://www.town.hisayama.fukuoka.jp/		本文に自治体名を確認
+403491	福岡県	粕屋町	https://www.town.kasuya.fukuoka.jp/		本文に自治体名を確認
+403814	福岡県	芦屋町	https://www.town.ashiya.lg.jp/		本文に自治体名を確認
+403822	福岡県	水巻町	https://www.town.mizumaki.lg.jp/		本文に自治体名を確認
+403831	福岡県	岡垣町	https://www.town.okagaki.lg.jp/	http://okagaki-kankou.com/	本文に自治体名を確認
+403849	福岡県	遠賀町	https://www.town.onga.lg.jp/		本文に自治体名を確認
+404012	福岡県	小竹町	https://town.kotake.lg.jp/	https://kotakekanko.com/	本文に自治体名を確認
+404021	福岡県	鞍手町	https://www.town.kurate.lg.jp/		本文に自治体名を確認
+404217	福岡県	桂川町	https://www.town.keisen.fukuoka.jp/		本文に自治体名を確認
+404471	福岡県	筑前町	https://www.town.chikuzen.fukuoka.jp/		本文に自治体名を確認
+404489	福岡県	東峰村	https://toho.main.jp/		検索で特定 (本文に自治体名を確認)
+405035	福岡県	大刀洗町	https://www.town.tachiarai.fukuoka.jp/		本文に自治体名を確認
+405221	福岡県	大木町	https://www.town.ooki.lg.jp/		検索で特定 (本文に自治体名を確認)
+405442	福岡県	広川町	https://www.town.hirokawa.fukuoka.jp/	https://www.hirokankou.org/	本文に自治体名を確認
+406015	福岡県	香春町	https://www.town.kawara.fukuoka.jp/	https://kawara-kankoh.com/	本文に自治体名を確認
+406023	福岡県	添田町	https://www.town.soeda.fukuoka.jp/		本文に自治体名を確認
+406040	福岡県	糸田町	https://www.town.itoda.lg.jp/		本文に自治体名を確認
+406058	福岡県	川崎町	https://www.town-kawasaki.com/		検索で特定 (本文に自治体名を確認)
+406082	福岡県	大任町	https://www.town.oto.fukuoka.jp/		本文に自治体名を確認
+406091	福岡県	赤村	https://www.akamura.net/		検索で特定 (本文に自治体名を確認)
+406104	福岡県	福智町	https://www.town.fukuchi.lg.jp/		本文に自治体名を確認
+406210	福岡県	苅田町	https://www.town.kanda.lg.jp/	https://www.kanda-kanko.com/	本文に自治体名を確認
+406252	福岡県	みやこ町	https://www.town.miyako.lg.jp/	http://www.miyako-kanko.jp/	本文に自治体名を確認
+406422	福岡県	吉富町	https://www.town.yoshitomi.lg.jp/		本文に自治体名を確認
+406465	福岡県	上毛町	https://www.town.koge.lg.jp/		本文に自治体名を確認
+406473	福岡県	築上町	https://www.town.chikujo.fukuoka.jp/	https://chikujokanko.com/	本文に自治体名を確認
+412015	佐賀県	佐賀市	https://www.city.saga.lg.jp/	https://atarimae-kanko.com/	本文に自治体名を確認
+412023	佐賀県	唐津市	https://www.city.karatsu.lg.jp/	https://www.karatsu-kankou.jp/	本文に自治体名を確認
+412031	佐賀県	鳥栖市	https://www.city.tosu.lg.jp/	http://www.tosu-kanko.jp/	本文に自治体名を確認
+412040	佐賀県	多久市	https://www.city.taku.lg.jp/	http://taku-kankou.com/	本文に自治体名を確認
+412058	佐賀県	伊万里市	https://www.city.imari.lg.jp/	http://imari-kankou.com/	本文に自治体名を確認
+412066	佐賀県	武雄市	https://www.city.takeo.lg.jp/	http://www.takeo-kk.net/	本文に自治体名を確認
+412074	佐賀県	鹿島市	https://www.city.saga-kashima.lg.jp/	https://saga-kashima-kankou.com/	本文に自治体名を確認
+412082	佐賀県	小城市	https://www.city.ogi.lg.jp/	https://www.ogi-kankou.com/	本文に自治体名を確認
+412091	佐賀県	嬉野市	https://www.city.ureshino.lg.jp/	https://spa-u.net/	本文に自治体名を確認
+412104	佐賀県	神埼市	https://www.city.kanzaki.saga.jp/	http://kanzaki.sagan.jp/	本文に自治体名を確認
+413275	佐賀県	吉野ヶ里町	https://www.town.yoshinogari.lg.jp/		本文に自治体名を確認
+413411	佐賀県	基山町	https://www.town.kiyama.lg.jp/	https://kankotaiken.kiyamanet.com/	本文に自治体名を確認
+413453	佐賀県	上峰町	https://www.town.kamimine.lg.jp/		本文に自治体名を確認
+413461	佐賀県	みやき町	https://www.town.miyaki.lg.jp/	https://www.miyakikankou.jp/	本文に自治体名を確認
+413879	佐賀県	玄海町	https://www.town.genkai.lg.jp/		本文に自治体名を確認
+414018	佐賀県	有田町	https://www.town.arita.lg.jp/	https://www.arita.jp/	本文に自治体名を確認
+414239	佐賀県	大町町	https://www.town.omachi.lg.jp/		本文に自治体名を確認
+414247	佐賀県	江北町	https://www.town.kouhoku.saga.jp/		検索で特定 (本文に自治体名を確認)
+414255	佐賀県	白石町	https://www.town.shiroishi.lg.jp/	https://flat-shiroishi.jp/	本文に自治体名を確認
+414417	佐賀県	太良町	https://www.town.tara.lg.jp/	http://tarachokankou.web.fc2.com/	本文に自治体名を確認
+422011	長崎県	長崎市	https://www.city.nagasaki.lg.jp/		本文に自治体名を確認
+422029	長崎県	佐世保市	https://www.city.sasebo.lg.jp/	https://www.sasebo99.com/	本文に自治体名を確認
+422037	長崎県	島原市	https://www.city.shimabara.lg.jp/		本文に自治体名を確認
+422045	長崎県	諫早市	https://www.city.isahaya.nagasaki.jp/	https://www.isahaya-kankou.com/	本文に自治体名を確認
+422053	長崎県	大村市	https://www.city.omura.nagasaki.jp/		本文に自治体名を確認
+422070	長崎県	平戸市	https://www.city.hirado.nagasaki.jp/	https://www.hirado-net.com/	本文に自治体名を確認
+422088	長崎県	松浦市	https://www.city-matsuura.jp/	http://matsuura-guide.com/	検索で特定 (本文に自治体名を確認)
+422096	長崎県	対馬市	https://www.city.tsushima.nagasaki.jp/	https://tsushima-kanko.net/	本文に自治体名を確認
+422100	長崎県	壱岐市	https://www.city.iki.nagasaki.jp/	https://www.ikikankou.com/	本文に自治体名を確認
+422118	長崎県	五島市	https://www.city.goto.nagasaki.jp/	https://www.gotokanko.jp/	本文に自治体名を確認
+422126	長崎県	西海市	https://www.city.saikai.nagasaki.jp/		本文に自治体名を確認
+422134	長崎県	雲仙市	https://www.city.unzen.nagasaki.jp/		本文に自治体名を確認
+422142	長崎県	南島原市	https://www.city.minamishimabara.lg.jp/		本文に自治体名を確認
+423076	長崎県	長与町	https://webtown.nagayo.jp/		検索で特定 (本文に自治体名を確認)
+423084	長崎県	時津町	https://www.town.togitsu.nagasaki.jp/	https://tanoshimu-togitsu.com/	本文に自治体名を確認
+423211	長崎県	東彼杵町	https://www.town.higashisonogi.lg.jp/	https://place.sonogi.net/	本文に自治体名を確認
+423220	長崎県	川棚町	https://www.kawatana.jp/	https://kujakusou.kankou-kawatana.jp/	検索で特定 (本文に自治体名を確認)
+423238	長崎県	波佐見町	https://www.town.hasami.lg.jp/	http://hasami-kankou.jp/	本文に自治体名を確認
+423831	長崎県	小値賀町	https://www.town.ojika.lg.jp/		本文に自治体名を確認
+423912	長崎県	佐々町	https://www.sazacho-nagasaki.jp/		検索で特定 (本文に自治体名を確認)
+424111	長崎県	新上五島町	https://official.shinkamigoto.net/		検索で特定 (本文に自治体名を確認)
+431001	熊本県	熊本市	https://www.city.kumamoto.jp/		本文に自治体名を確認
+432024	熊本県	八代市	https://www.city.yatsushiro.lg.jp/		本文に自治体名を確認
+432032	熊本県	人吉市	https://www.city.hitoyoshi.lg.jp/		本文に自治体名を確認
+432041	熊本県	荒尾市	https://www.city.arao.lg.jp/	https://arao-kankou.jp/	本文に自治体名を確認
+432059	熊本県	水俣市	https://www.city.minamata.lg.jp/		本文に自治体名を確認
+432067	熊本県	玉名市	https://www.city.tamana.lg.jp/	http://www.tamana-tamatebako.net/	本文に自治体名を確認
+432083	熊本県	山鹿市	https://www.city.yamaga.kumamoto.jp/		本文に自治体名を確認
+432105	熊本県	菊池市	https://www.city.kikuchi.lg.jp/	https://kikuchikanko.ne.jp/	本文に自治体名を確認
+432113	熊本県	宇土市	https://www.city.uto.lg.jp/		本文に自治体名を確認
+432121	熊本県	上天草市	https://www.city.kamiamakusa.kumamoto.jp/		本文に自治体名を確認
+432130	熊本県	宇城市	https://www.city.uki.kumamoto.jp/	https://ukitrip.city.uki.kumamoto.jp/	本文に自治体名を確認
+432148	熊本県	阿蘇市	https://www.city.aso.kumamoto.jp/	https://www.asokanko.com/	本文に自治体名を確認
+432156	熊本県	天草市	https://www.city.amakusa.kumamoto.jp/	https://www.amakusakanko.com/	本文に自治体名を確認
+432164	熊本県	合志市	https://www.city.koshi.lg.jp/		本文に自治体名を確認
+433489	熊本県	美里町	https://www.town.kumamoto-misato.lg.jp/	https://www.misato-kanko.com/	本文に自治体名を確認
+433641	熊本県	玉東町	https://www.town.gyokuto.kumamoto.jp/		本文に自治体名を確認
+433675	熊本県	南関町	https://www.town.nankan.lg.jp/		本文に自治体名を確認
+433683	熊本県	長洲町	https://www.town.nagasu.lg.jp/		本文に自治体名を確認
+433691	熊本県	和水町	https://www.town.nagomi.lg.jp/	https://nagomi-kankou.jp/	本文に自治体名を確認
+434035	熊本県	大津町	https://www.town.ozu.kumamoto.jp/	https://ozukankou.jp/	本文に自治体名を確認
+434043	熊本県	菊陽町	https://www.town.kikuyo.lg.jp/		本文に自治体名を確認
+434230	熊本県	南小国町	https://www.town.minamioguni.lg.jp/	https://www.youmore-minamioguni.com/	本文に自治体名を確認
+434248	熊本県	小国町	https://www.town.kumamoto-oguni.lg.jp/	https://www.ogunikankou.jp/	本文に自治体名を確認
+434256	熊本県	産山村	https://www.ubuyama-v.jp/	https://ubu-lab.com/	検索で特定 (本文に自治体名を確認)
+434281	熊本県	高森町	https://www.town.kumamoto-takamori.lg.jp/		本文に自治体名を確認
+434329	熊本県	西原村	https://www.vill.nishihara.kumamoto.jp/	https://www.nishiharakanko.com/	本文に自治体名を確認
+434337	熊本県	南阿蘇村	https://www.vill.minamiaso.lg.jp/		本文に自治体名を確認
+434418	熊本県	御船町	https://www.town.mifune.kumamoto.jp/	http://www.mifune-kankou.jp/	本文に自治体名を確認
+434426	熊本県	嘉島町	https://www.town.kumamoto-kashima.lg.jp/		本文に自治体名を確認
+434434	熊本県	益城町	https://www.town.mashiki.lg.jp/		本文に自治体名を確認
+434442	熊本県	甲佐町	https://www.town.kosa.lg.jp/		本文に自治体名を確認
+434477	熊本県	山都町	https://www.town.kumamoto-yamato.lg.jp/	https://www.yamato-kanko.com/	本文に自治体名を確認
+434680	熊本県	氷川町	https://www.town.hikawa.kumamoto.jp/		本文に自治体名を確認
+434825	熊本県	芦北町	https://www.town.ashikita.lg.jp/	http://ashikita-kankou.com/	本文に自治体名を確認
+434841	熊本県	津奈木町	https://www.town.tsunagi.lg.jp/	http://tsunagi-minagi.jp/	本文に自治体名を確認
+435015	熊本県	錦町	https://www.town.kumamoto-nishiki.lg.jp/	https://nishiki-kuma.com/	本文に自治体名を確認
+435058	熊本県	多良木町	https://www.town.taragi.lg.jp/	https://www.taragi-kankou.com/	本文に自治体名を確認
+435066	熊本県	湯前町	https://www.town.yunomae.lg.jp/		本文に自治体名を確認
+435074	熊本県	水上村	https://www.vill.mizukami.lg.jp/		本文に自治体名を確認
+435104	熊本県	相良村	https://www.vill.sagara.lg.jp/		本文に自治体名を確認
+435112	熊本県	五木村	https://www.vill.itsuki.lg.jp/	http://www.itsuki-kanko.com/	本文に自治体名を確認
+435121	熊本県	山江村	https://www.vill.yamae.lg.jp/		本文に自治体名を確認
+435139	熊本県	球磨村	https://www.kumamura.com/		検索で特定 (本文に自治体名を確認)
+435147	熊本県	あさぎり町	https://www.town.asagiri.lg.jp/		本文に自治体名を確認
+435317	熊本県	苓北町	https://reihoku-kumamoto.jp/	https://kankou.reihoku-kumamoto.jp/	検索で特定 (本文に自治体名を確認)
+442011	大分県	大分市	https://www.city.oita.oita.jp/	https://www.oishiimati-oita.jp/	本文に自治体名を確認
+442020	大分県	別府市	https://www.city.beppu.oita.jp/	https://beppu-tourism.com/	本文に自治体名を確認
+442038	大分県	中津市	https://www.city-nakatsu.jp/	https://nakatsuyaba.com/	検索で特定 (本文に自治体名を確認)
+442046	大分県	日田市	https://www.city.hita.oita.jp/		本文に自治体名を確認
+442054	大分県	佐伯市	https://www.city.saiki.oita.jp/	https://www.saiki-kankou.com/	本文に自治体名を確認
+442062	大分県	臼杵市	https://www.city.usuki.oita.jp/	http://www.usuki-kanko.com/	本文に自治体名を確認
+442071	大分県	津久見市	https://www.city.tsukumi.oita.jp/	https://tsukumiryoku.com/	本文に自治体名を確認
+442089	大分県	竹田市	https://www.city.taketa.oita.jp/	https://taketa.guide/	本文に自治体名を確認
+442097	大分県	豊後高田市	https://www.city.bungotakada.oita.jp/		本文に自治体名を確認
+442101	大分県	杵築市	https://www.city.kitsuki.lg.jp/	http://kit-suki.com/	本文に自治体名を確認
+442119	大分県	宇佐市	https://www.city.usa.oita.jp/	https://www.usa-kanko.jp/	本文に自治体名を確認
+442127	大分県	豊後大野市	https://www.bungo-ohno.jp/	https://sato-no-tabi.jp/	検索で特定 (本文に自治体名を確認)
+442135	大分県	由布市	https://www.city.yufu.oita.jp/		本文に自治体名を確認
+442143	大分県	国東市	https://www.city.kunisaki.oita.jp/		本文に自治体名を確認
+443221	大分県	姫島村	https://www.himeshima.jp/	https://www.himeshima-ecotourism.or.jp/	検索で特定 (本文に自治体名を確認)
+443417	大分県	日出町	https://www.town.hiji.lg.jp/		本文に自治体名を確認
+444618	大分県	九重町	https://www.town.kokonoe.oita.jp/	https://k-miyachan.com/	本文に自治体名を確認
+444626	大分県	玖珠町	https://www.town.kusu.oita.jp/	http://kusumachi.jp/	本文に自治体名を確認
+452017	宮崎県	宮崎市	https://www.city.miyazaki.miyazaki.jp/	https://www.miyazaki-city.tourism.or.jp/	本文に自治体名を確認
+452025	宮崎県	都城市	https://www.city.miyakonojo.miyazaki.jp/		本文に自治体名を確認
+452033	宮崎県	延岡市	https://www.city.nobeoka.miyazaki.jp/	https://nobekan.jp/	本文に自治体名を確認
+452041	宮崎県	日南市	https://www.city.nichinan.lg.jp/	https://www.kankou-nichinan.jp/	本文に自治体名を確認
+452050	宮崎県	小林市	https://www.city.kobayashi.lg.jp/	http://www.kankou-kobayashi.jp/	本文に自治体名を確認
+452068	宮崎県	日向市	https://www.city.hyuga.miyazaki.jp/	http://www.hyuga.or.jp/	本文に自治体名を確認
+452076	宮崎県	串間市	https://www.city.kushima.lg.jp/		本文に自治体名を確認
+452084	宮崎県	西都市	https://www.city.saito.lg.jp/	http://www.saito-kanko.jp/	本文に自治体名を確認
+452092	宮崎県	えびの市	https://www.city.ebino.lg.jp/	https://www.ebino-kankou.com/	本文に自治体名を確認
+453412	宮崎県	三股町	https://www.town.mimata.lg.jp/		本文に自治体名を確認
+453617	宮崎県	高原町	https://www.town.takaharu.lg.jp/		本文に自治体名を確認
+453820	宮崎県	国富町	https://www.town.kunitomi.miyazaki.jp/		本文に自治体名を確認
+453838	宮崎県	綾町	https://www.town.aya.miyazaki.jp/		本文に自治体名を確認
+454010	宮崎県	高鍋町	https://www.town.takanabe.lg.jp/	https://takanabe-kankou.com/	本文に自治体名を確認
+454028	宮崎県	新富町	https://www.town.shintomi.lg.jp/		本文に自治体名を確認
+454036	宮崎県	西米良村	https://www.vill.nishimera.lg.jp/		本文に自治体名を確認
+454044	宮崎県	木城町	https://www.town.kijo.lg.jp/	https://kijokanko.com/	本文に自治体名を確認
+454052	宮崎県	川南町	https://www.town.kawaminami.miyazaki.jp/	https://kawaminami-kanko.com/	本文に自治体名を確認
+454061	宮崎県	都農町	https://www.town.tsuno.lg.jp/	https://www.tsunokanko.com/	本文に自治体名を確認
+454214	宮崎県	門川町	https://www.town.kadogawa.lg.jp/		本文に自治体名を確認
+454290	宮崎県	諸塚村	https://www.vill.morotsuka.miyazaki.jp/	https://www.morotsuka-tourism.jp/	本文に自治体名を確認
+454303	宮崎県	椎葉村	https://www.vill.shiiba.miyazaki.jp/	https://goo.gl/	本文に自治体名を確認
+454311	宮崎県	美郷町	https://www.town.miyazaki-misato.lg.jp/	https://www.misato-kankou.com/	本文に自治体名を確認
+454419	宮崎県	高千穂町	https://www.town-takachiho.jp/	https://www.takachiho-kanko.jp/	検索で特定 (本文に自治体名を確認)
+454427	宮崎県	日之影町	https://www.town.hinokage.lg.jp/	https://hinokage-kanko.jp/	本文に自治体名を確認
+454435	宮崎県	五ヶ瀬町	https://www.town.gokase.miyazaki.jp/	https://www.gokase-kanko.jp/	本文に自治体名を確認
+462012	鹿児島県	鹿児島市	https://www.city.kagoshima.lg.jp/	http://kankonogyo-park.jp/	本文に自治体名を確認
+462039	鹿児島県	鹿屋市	https://www.city.kanoya.lg.jp/	https://kanoyashi-kankokyokai.jp/	本文に自治体名を確認
+462047	鹿児島県	枕崎市	https://www.city.makurazaki.lg.jp/	http://makutabi.jp/	本文に自治体名を確認
+462063	鹿児島県	阿久根市	https://www.city.akune.lg.jp/	http://go-akune.jp/	本文に自治体名を確認
+462080	鹿児島県	出水市	https://www.city.kagoshima-izumi.lg.jp/	https://www.izumi-kanko.jp/	本文に自治体名を確認
+462101	鹿児島県	指宿市	https://www.city.ibusuki.lg.jp/	https://www.ibusukikankou.com/	本文に自治体名を確認
+462136	鹿児島県	西之表市	https://www.city.nishinoomote.lg.jp/		本文に自治体名を確認
+462144	鹿児島県	垂水市	https://www.city.tarumizu.lg.jp/		本文に自治体名を確認
+462152	鹿児島県	薩摩川内市	https://www.city.satsumasendai.lg.jp/	https://satsumasendai.gr.jp/	本文に自治体名を確認
+462161	鹿児島県	日置市	https://www.city.hioki.kagoshima.jp/	https://hiokishi-kankou.com/	本文に自治体名を確認
+462179	鹿児島県	曽於市	https://www.city.soo.kagoshima.jp/	https://soo-navi.jp/	本文に自治体名を確認
+462187	鹿児島県	霧島市	https://www.city-kirishima.jp/	https://www.kirishimakankou.com/	検索で特定 (本文に自治体名を確認)
+462195	鹿児島県	いちき串木野市	https://www.city.ichikikushikino.lg.jp/		本文に自治体名を確認
+462209	鹿児島県	南さつま市	https://www.city.minamisatsuma.lg.jp/	https://kanko-minamisatsuma.jp/	本文に自治体名を確認
+462217	鹿児島県	志布志市	https://www.city.shibushi.lg.jp/		本文に自治体名を確認
+462225	鹿児島県	奄美市	https://www.city.amami.lg.jp/	https://www.amami-tourism.org/	本文に自治体名を確認
+462233	鹿児島県	南九州市	https://www.city.minamikyushu.lg.jp/		本文に自治体名を確認
+462241	鹿児島県	伊佐市	https://www.city.isa.kagoshima.jp/	https://isa-kanko.com/	本文に自治体名を確認
+462250	鹿児島県	姶良市	https://www.city.aira.lg.jp/	http://aira-kankou.jp/	本文に自治体名を確認
+463035	鹿児島県	三島村	https://mishimamura.com/	https://mishimakanko.thebase.in/	検索で特定 (本文に自治体名を確認)
+463043	鹿児島県	十島村	https://www.tokara.jp/	https://takarajima-tokara.com/	検索で特定 (本文に自治体名を確認)
+463922	鹿児島県	さつま町	https://www.satsuma-net.jp/	https://www.kanko-satsuma.jp/	検索で特定 (本文に自治体名を確認)
+464040	鹿児島県	長島町	https://www.town.nagashima.lg.jp/		本文に自治体名を確認
+464520	鹿児島県	湧水町	https://www.town.yusui.kagoshima.jp/		本文に自治体名を確認
+464686	鹿児島県	大崎町	https://www.town.kagoshima-osaki.lg.jp/	https://osaki.fun/	本文に自治体名を確認
+464821	鹿児島県	東串良町	https://www.higashikushira.com/		検索で特定 (本文に自治体名を確認)
+464902	鹿児島県	錦江町	https://www.town.kinko.lg.jp/		本文に自治体名を確認
+464911	鹿児島県	南大隅町	https://www.town.minamiosumi.lg.jp/	https://minamiosumi-tourism.com/	本文に自治体名を確認
+464929	鹿児島県	肝付町	https://kimotsuki-town.jp/	http://www.kankou-kimotsuki.net/	検索で特定 (本文に自治体名を確認)
+465011	鹿児島県	中種子町	https://town.nakatane.kagoshima.jp/	http://tanekan.jp/	本文に自治体名を確認
+465020	鹿児島県	南種子町	http://www.town.minamitane.kagoshima.jp/		本文に自治体名を確認
+465054	鹿児島県	屋久島町	https://www.town.yakushima.kagoshima.jp/	https://yakukan.jp/	本文に自治体名を確認
+465232	鹿児島県	大和村	https://www.vill.yamato.lg.jp/		本文に自治体名を確認
+465241	鹿児島県	宇検村	https://www.uken.net/		検索で特定 (本文に自治体名を確認)
+465259	鹿児島県	瀬戸内町	https://www.town.setouchi.lg.jp/	https://www.setouchi-welcome.com/	検索で特定 (本文に自治体名を確認)
+465275	鹿児島県	龍郷町	https://www.town.tatsugo.lg.jp/	http://amamikke.com/	本文に自治体名を確認
+465291	鹿児島県	喜界町	https://www.town.kikai.lg.jp/		本文に自治体名を確認
+465305	鹿児島県	徳之島町	https://www.tokunoshima-town.org/	http://www.tokunoshima-kanko.com/	検索で特定 (本文に自治体名を確認)
+465313	鹿児島県	天城町	https://www.town.amagi.lg.jp/		本文に自治体名を確認
+465321	鹿児島県	伊仙町	https://www.town.isen.kagoshima.jp/	http://www.tokunoshima-kanko.com/	本文に自治体名を確認
+465330	鹿児島県	和泊町	https://www.town.wadomari.lg.jp/	http://www.okinoerabujima.info/	本文に自治体名を確認
+465348	鹿児島県	知名町	https://www.town.china.lg.jp/	https://okinoerabujima.info/	本文に自治体名を確認
+465356	鹿児島県	与論町	https://www.yoron.jp/		検索で特定 (本文に自治体名を確認)
