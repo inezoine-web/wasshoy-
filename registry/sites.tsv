@@ -404,6 +404,40 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 155047	新潟県	刈羽村			robots.txt が全UAを拒否
 155811	新潟県	関川村	http://www.vill.sekikawa.niigata.jp/	http://www.sekikawa-kankou.com/	本文に自治体名を確認
 155861	新潟県	粟島浦村	https://www.vill.awashimaura.lg.jp/	http://awa-isle.jp/	本文に自治体名を確認
+162019	富山県	富山市	https://www.city.toyama.lg.jp/	https://www.toyamashi-kankoukyoukai.jp/	本文に自治体名を確認
+162027	富山県	高岡市	https://www.city.takaoka.toyama.jp/		本文に自治体名を確認
+162043	富山県	魚津市	https://www.city.uozu.toyama.jp/		本文に自治体名を確認
+162051	富山県	氷見市	https://www.city.himi.toyama.jp/	https://www.kitokitohimi.com/	本文に自治体名を確認
+162060	富山県	滑川市	https://www.city.namerikawa.toyama.jp/	https://namerikawa-kanko.jp/	本文に自治体名を確認
+162078	富山県	黒部市	https://www.city.kurobe.toyama.jp/		本文に自治体名を確認
+162086	富山県	砺波市	https://www.city.tonami.lg.jp/	https://www.tonami-kankou.org/	本文に自治体名を確認
+162094	富山県	小矢部市	https://www.city.oyabe.toyama.jp/	https://www.oyabe.info/	本文に自治体名を確認
+162108	富山県	南砺市	https://www.city.nanto.toyama.jp/	https://www.tabi-nanto.jp/	本文に自治体名を確認
+162116	富山県	射水市	https://www.city.imizu.toyama.jp/	https://www.imizu-kanko.jp/	本文に自治体名を確認
+163210	富山県	舟橋村	https://www.vill.funahashi.toyama.jp/		本文に自治体名を確認
+163228	富山県	上市町	https://www.town.kamiichi.toyama.jp/	http://kami1tabi.net/	本文に自治体名を確認
+163236	富山県	立山町	https://www.town.tateyama.toyama.jp/		本文に自治体名を確認
+163422	富山県	入善町	https://www.town.nyuzen.toyama.jp/	http://www.nyuzen-kanko.jp/	本文に自治体名を確認
+163431	富山県	朝日町	https://www.town.asahi.toyama.jp/	https://www.asahi-tabi.com/	本文に自治体名を確認
+172014	石川県	金沢市	https://www4.city.kanazawa.lg.jp/	https://www.kanazawa-kankoukyoukai.or.jp/	検索で特定 (本文に自治体名を確認)
+172022	石川県	七尾市	https://www.city.nanao.lg.jp/	https://www.wakura.or.jp/	本文に自治体名を確認
+172031	石川県	小松市	https://www.city.komatsu.lg.jp/		本文に自治体名を確認
+172049	石川県	輪島市	https://www.city.wajima.ishikawa.jp/	https://wajimanavi.jp/	本文に自治体名を確認
+172057	石川県	珠洲市	https://www.city.suzu.lg.jp/	https://suzu-tourism.com/	本文に自治体名を確認
+172065	石川県	加賀市	https://www.city.kaga.ishikawa.jp/	http://www.tabimati.net/	本文に自治体名を確認
+172073	石川県	羽咋市	https://www.city.hakui.lg.jp/		本文に自治体名を確認
+172090	石川県	かほく市	https://www.city.kahoku.lg.jp/	https://kanko-kahoku.com/	本文に自治体名を確認
+172103	石川県	白山市	https://www.city.hakusan.lg.jp/	https://www.urara-hakusanbito.com/	本文に自治体名を確認
+172111	石川県	能美市	https://www.city.nomi.lg.jp/	https://www.nomi-kanko.com/	本文に自治体名を確認
+172120	石川県	野々市市	https://www.city.nonoichi.lg.jp/	https://www.nonoichi-kanko.jp/	本文に自治体名を確認
+173240	石川県	川北町	https://www.town.kawakita.ishikawa.jp/		本文に自治体名を確認
+173614	石川県	津幡町	https://www.town.tsubata.lg.jp/		本文に自治体名を確認
+173657	石川県	内灘町	https://www.town.uchinada.lg.jp/	https://uchinadakankou.com/	本文に自治体名を確認
+173843	石川県	志賀町	https://www.town.shika.lg.jp/		本文に自治体名を確認
+173860	石川県	宝達志水町	https://www.hodatsushimizu.jp/		検索で特定 (本文に自治体名を確認)
+174076	石川県	中能登町	https://www.town.nakanoto.ishikawa.jp/	https://www.nakanotokanko.com/	本文に自治体名を確認
+174611	石川県	穴水町	https://www.town.anamizu.lg.jp/	https://www.anamizu-kankou.jp/	本文に自治体名を確認
+174637	石川県	能登町	https://www.town.noto.lg.jp/	http://www.notokanko.com/	本文に自治体名を確認
 182010	福井県	福井市	https://www.city.fukui.lg.jp/		本文に自治体名を確認
 182028	福井県	敦賀市	https://www.city.tsuruga.lg.jp/	https://tsuruga-kanko.jp/	本文に自治体名を確認
 182044	福井県	小浜市	https://www1.city.obama.fukui.jp/	https://www.wakasa-obama.jp/	検索で特定 (本文に自治体名を確認)
