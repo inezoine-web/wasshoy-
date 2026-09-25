@@ -279,11 +279,11 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 124419	千葉県	大多喜町	https://www.town.otaki.chiba.jp/	http://kankouotaki.com/	本文に自治体名を確認
 124435	千葉県	御宿町	https://www.town.onjuku.chiba.jp/	https://onjuku-kankou.com/	県公式サイトのリンク集から (本文に自治体名を確認)
 124630	千葉県	鋸南町	https://www.town.kyonan.chiba.jp/		本文に自治体名を確認
-131016	東京都	千代田区	https://www.city.chiyoda.lg.jp/	http://www.kanko-chiyoda.jp/	本文に自治体名を確認
+131016	東京都	千代田区	https://www.city.chiyoda.lg.jp/	https://visit-chiyoda.tokyo/	本文に自治体名を確認
 131024	東京都	中央区	https://www.city.chuo.lg.jp/	https://www.chuo-kanko.or.jp/	本文に自治体名を確認
 131032	東京都	港区	https://www.city.minato.tokyo.jp/		本文に自治体名を確認
 131041	東京都	新宿区	https://www.city.shinjuku.lg.jp/	https://www.kanko-shinjuku.jp/	本文に自治体名を確認
-131059	東京都	文京区	https://www.city.bunkyo.lg.jp/	http://www.b-kanko.jp/	本文に自治体名を確認
+131059	東京都	文京区	https://www.city.bunkyo.lg.jp/	https://b-kanko.jp/	本文に自治体名を確認
 131067	東京都	台東区	https://www.city.taito.lg.jp/		本文に自治体名を確認
 131075	東京都	墨田区	https://www.city.sumida.lg.jp/	https://visit-sumida.jp/	本文に自治体名を確認
 131083	東京都	江東区	https://www.city.koto.lg.jp/	https://koto-kanko.jp/	本文に自治体名を確認
@@ -294,7 +294,7 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 131130	東京都	渋谷区	https://www.city.shibuya.tokyo.jp/		本文に自治体名を確認
 131148	東京都	中野区	https://www.city.tokyo-nakano.lg.jp/	https://www.nakano-kanko.com/	本文に自治体名を確認
 131156	東京都	杉並区	https://www.city.suginami.tokyo.jp/		本文に自治体名を確認
-131164	東京都	豊島区	https://www.city.toshima.lg.jp/	https://www.gotokyo.org/	本文に自治体名を確認
+131164	東京都	豊島区	https://www.city.toshima.lg.jp/		本文に自治体名を確認
 131172	東京都	北区	https://www.city.kita.lg.jp/	http://prkita.jp/	本文に自治体名を確認
 131181	東京都	荒川区	https://www.city.arakawa.tokyo.jp/		本文に自治体名を確認
 131199	東京都	板橋区	https://www.city.itabashi.tokyo.jp/	http://itabashi-kanko.jp/	本文に自治体名を確認
@@ -308,17 +308,17 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 132047	東京都	三鷹市	https://www.city.mitaka.lg.jp/	http://kanko.mitaka.ne.jp/	本文に自治体名を確認
 132055	東京都	青梅市	https://www.city.ome.tokyo.jp/	https://www.omekanko.gr.jp/	本文に自治体名を確認
 132063	東京都	府中市	https://www.city.fuchu.tokyo.jp/	https://www.kankou-fuchu.com/	本文に自治体名を確認
-132071	東京都	昭島市	https://www.city.akishima.lg.jp/	https://www.akishima-kanko.org/	本文に自治体名を確認
-132080	東京都	調布市	https://www.city.chofu.lg.jp/	https://www.chofu-kanko.jp/	本文に自治体名を確認
+132071	東京都	昭島市	https://www.city.akishima.lg.jp/	https://akishima-kanko.org/	本文に自治体名を確認
+132080	東京都	調布市	https://www.city.chofu.lg.jp/	https://chofu-kanko.jp/	本文に自治体名を確認
 132098	東京都	町田市	https://www.city.machida.tokyo.jp/		本文に自治体名を確認
 132101	東京都	小金井市	https://www.city.koganei.lg.jp/	https://koganei-kanko.jp/	本文に自治体名を確認
 132110	東京都	小平市	https://www.city.kodaira.tokyo.jp/	https://kodaira-tourism.com/	本文に自治体名を確認
-132128	東京都	日野市	https://www.city.hino.lg.jp/	http://minamikanko.co.jp/	本文に自治体名を確認
+132128	東京都	日野市	https://www.city.hino.lg.jp/		本文に自治体名を確認
 132136	東京都	東村山市			候補URLがすべて外れ
 132144	東京都	国分寺市	https://www.city.kokubunji.tokyo.jp/		本文に自治体名を確認
 132152	東京都	国立市	https://www.city.kunitachi.tokyo.jp/	https://kunimachi.jp/	本文に自治体名を確認
 132187	東京都	福生市	https://www.city.fussa.tokyo.jp/	https://www.fussakanko.jp/	本文に自治体名を確認
-132195	東京都	狛江市	https://www.city.komae.tokyo.jp/	http://komae-kankou.jp/	本文に自治体名を確認
+132195	東京都	狛江市	https://www.city.komae.tokyo.jp/	https://www.komae-kankou.jp/	本文に自治体名を確認
 132209	東京都	東大和市	https://www.city.higashiyamato.lg.jp/		本文に自治体名を確認
 132217	東京都	清瀬市	https://www.city.kiyose.lg.jp/	https://www.kiyosekanko.tokyo/	本文に自治体名を確認
 132225	東京都	東久留米市	https://www.city.higashikurume.lg.jp/		本文に自治体名を確認
@@ -333,11 +333,11 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 133078	東京都	檜原村	https://www.vill.hinohara.tokyo.jp/	https://hinohara-kankou.jp/	本文に自治体名を確認
 133086	東京都	奥多摩町	https://www.town.okutama.tokyo.jp/		本文に自治体名を確認
 133612	東京都	大島町	https://www.town.oshima.tokyo.jp/	http://www.izu-oshima.or.jp/	本文に自治体名を確認
-133621	東京都	利島村			候補URLがすべて外れ
-133639	東京都	新島村			候補URLがすべて外れ
-133647	東京都	神津島村			候補URLがすべて外れ
+133621	東京都	利島村	https://www.toshimamura.org/		検索で特定 (本文に自治体名を確認)
+133639	東京都	新島村	https://www.niijima.com/	https://niijima-info.jp/	検索で特定 (本文に自治体名を確認)
+133647	東京都	神津島村	https://vill.kouzushima.tokyo.jp/	https://kozushima.com/	検索で特定 (本文に自治体名を確認)
 133817	東京都	三宅村	https://www.vill.miyake.tokyo.jp/	http://www.miyakejima.gr.jp/	本文に自治体名を確認
-133825	東京都	御蔵島村			候補URLがすべて外れ
+133825	東京都	御蔵島村	http://mikurasima.jp/		検索で特定 (本文に自治体名を確認)
 134015	東京都	八丈町	https://www.town.hachijo.tokyo.jp/	https://www.hachijo.gr.jp/	本文に自治体名を確認
 134023	東京都	青ヶ島村	https://www.vill.aogashima.tokyo.jp/		本文に自治体名を確認
 134210	東京都	小笠原村	https://www.vill.ogasawara.tokyo.jp/	http://www.visitogasawara.com/	本文に自治体名を確認
