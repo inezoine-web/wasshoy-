@@ -38,6 +38,10 @@ header span,.meta,.place{color:var(--muted);font-size:.78rem}
 .grid h3{font-size:.98rem;line-height:1.35;margin:0;font-weight:700;overflow-wrap:anywhere}
 .grid h3 a{color:inherit;text-decoration:none;border-bottom:2px solid var(--red);padding-bottom:1px}
 .grid h3 a:hover,.grid h3 a:focus{color:var(--red)}
+/* 祭り名の右の虫めがね。名前のリンク(出典)とは別行き先なので、下線は付けない */
+.grid h3 a.search{border-bottom:0;margin-left:.35em;font-size:.82em;opacity:.45;text-decoration:none;white-space:nowrap}
+.grid h3 a.search:hover,.grid h3 a.search:focus{opacity:1}
+
 .place{margin:0;font-size:.72rem}
 .summary{margin:2px 0 0;font-size:.82rem;color:#4a463f;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:2px}
