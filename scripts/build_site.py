@@ -9,10 +9,28 @@ import re
 import shutil
 from collections import defaultdict
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import quote_plus, urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "_site"
+
+# 名称に抱き込まれた振り仮名 「白山社（はくさんしゃ）の祭礼」「母ヶ浦(ほうがうら)面浮立」。
+# 表示はそのままにして、検索語からだけ外す (2026-09-25 時点で295件)。
+_FURIGANA_IN_NAME = re.compile(r"[（(]\s*[ぁ-ゖァ-ヺー・\s]+\s*[）)]")
+
+
+def search_url(prefecture: str, municipality: str, name: str) -> str:
+    """祭り名でウェブ検索するURL。
+
+    **名称だけでは引けない。** 20,142件のうち1,906件 (9%) は名前が他とかぶり、
+    「獅子舞」29件・「桜まつり」22件・「盆踊り」18件のような一般名が並ぶ。
+    4文字以下の名称も2,496件ある。都道府県と市区町村を添えて土地に寄せる。
+    """
+    # 振り仮名を抜くと「白山社 （ はくさんしゃ ） の祭礼」が「白山社  の祭礼」になるので畳む
+    cleaned = re.sub(r"[\s　]+", " ", _FURIGANA_IN_NAME.sub("", name)).strip()
+    return "https://www.google.com/search?q=" + quote_plus(
+        " ".join((prefecture, municipality, cleaned))
+    )
 
 
 def inline(text: str) -> str:
@@ -101,12 +119,23 @@ def main() -> None:
         # 概要が未確認でも、出典へ飛べれば「なんだこれ?」を確かめられる。
         # 祭り名そのものをリンクにして、行き先のホスト名を meta に出す。
         sources = festival.get("sources") or []
-        heading = f"<h3>{name}</h3>"
+        # 出典は「その自治体が何を書いていたか」、検索は「ほかに何が分かるか」。
+        # 出典が無いカードでも検索は出す。
+        search = html.escape(
+            search_url(festival["prefecture"], festival["municipality"], festival["name"]),
+            quote=True,
+        )
+        search_link = (
+            f'<a class="search" href="{search}" target="_blank" rel="noopener noreferrer"'
+            f' title="{name} をウェブ検索" aria-label="{name} をウェブ検索">🔍</a>'
+        )
+        heading = f"<h3>{name}{search_link}</h3>"
         source_line = ""
         if sources and sources[0].get("url"):
             url = html.escape(sources[0]["url"], quote=True)
             heading = (
-                f'<h3><a href="{url}" target="_blank" rel="noopener noreferrer">{name}</a></h3>'
+                f'<h3><a href="{url}" target="_blank" rel="noopener noreferrer">{name}</a>'
+                f"{search_link}</h3>"
             )
             host = html.escape(urlparse(sources[0]["url"]).netloc)
             more = f"　ほか{len(sources) - 1}件" if len(sources) > 1 else ""
