@@ -1,4 +1,287 @@
 code	prefecture	municipality	official_url	tourism_url	resolved
+011002	北海道	札幌市	https://www.city.sapporo.jp/	https://www.sapporo.travel/	本文に自治体名を確認
+012025	北海道	函館市	https://www.city.hakodate.hokkaido.jp/	https://www.hakobura.jp/	本文に自治体名を確認
+012033	北海道	小樽市	https://www.city.otaru.lg.jp/	http://www.otaru-kankou.com/	本文に自治体名を確認
+012041	北海道	旭川市	https://www.city.asahikawa.hokkaido.jp/		本文に自治体名を確認
+012050	北海道	室蘭市	https://www.city.muroran.lg.jp/	http://muro-kanko.com/	本文に自治体名を確認
+012068	北海道	釧路市	https://www.city.kushiro.lg.jp/		本文に自治体名を確認
+012076	北海道	帯広市	https://www.city.obihiro.hokkaido.jp/	http://obikan.jp/	本文に自治体名を確認
+012084	北海道	北見市	https://www.city.kitami.lg.jp/	https://www.kitami-kanko.jp/	本文に自治体名を確認
+012092	北海道	夕張市	https://www.city.yubari.lg.jp/		本文に自治体名を確認
+012106	北海道	岩見沢市	https://www.city.iwamizawa.hokkaido.jp/	https://iwamizawa-kankou.jp/	本文に自治体名を確認
+012114	北海道	網走市	https://www.city.abashiri.hokkaido.jp/		本文に自治体名を確認
+012122	北海道	留萌市	http://www.e-rumoi.jp/		手で候補を立て本文に自治体名を確認
+012131	北海道	苫小牧市	https://www.city.tomakomai.hokkaido.jp/	http://www.tomakomai-kanko.jp/	本文に自治体名を確認
+012149	北海道	稚内市	https://www.city.wakkanai.hokkaido.jp/	https://www.north-hokkaido.com/	本文に自治体名を確認
+012157	北海道	美唄市	https://www.city.bibai.hokkaido.jp/	https://bibaikanko.jp/	本文に自治体名を確認
+012165	北海道	芦別市	https://www.city.ashibetsu.hokkaido.jp/	https://go-to-ashibetsu.com/	本文に自治体名を確認
+012173	北海道	江別市	https://www.city.ebetsu.hokkaido.jp/	https://www.ebetsu-kanko.jp/	本文に自治体名を確認
+012181	北海道	赤平市	https://www.city.akabira.hokkaido.jp/	http://akabirakankoukyoukai.jp/	本文に自治体名を確認
+012190	北海道	紋別市	https://mombetsu.jp/		手で候補を立て本文に自治体名を確認
+012203	北海道	士別市	https://www.city.shibetsu.lg.jp/	https://www.shibetsu-kanko.com/	本文に自治体名を確認
+012211	北海道	名寄市	http://www.city.nayoro.lg.jp/	http://www.nayoro-kankou.com/	本文に自治体名を確認
+012220	北海道	三笠市	https://www.city.mikasa.hokkaido.jp/	https://www.mikasa-kanko.jp/	本文に自治体名を確認
+012238	北海道	根室市	https://www.city.nemuro.hokkaido.jp/	https://www.nemuro-kankou.com/	本文に自治体名を確認
+012246	北海道	千歳市	https://www.city.chitose.lg.jp/		本文に自治体名を確認
+012254	北海道	滝川市	https://www.city.takikawa.lg.jp/	https://kankou-takikawa.jp/	本文に自治体名を確認
+012262	北海道	砂川市	https://www.city.sunagawa.hokkaido.jp/	https://www.sunagawa-kankou.com/	本文に自治体名を確認
+012271	北海道	歌志内市	https://www.city.utashinai.hokkaido.jp/		本文に自治体名を確認
+012289	北海道	深川市	https://www.city.fukagawa.lg.jp/		本文に自治体名を確認
+012297	北海道	富良野市	https://www.city.furano.hokkaido.jp/	http://www.furanotourism.com/	本文に自治体名を確認
+012301	北海道	登別市	https://www.city.noboribetsu.lg.jp/		本文に自治体名を確認
+012319	北海道	恵庭市	https://www.city.eniwa.hokkaido.jp/		本文に自治体名を確認
+012335	北海道	伊達市	https://www.city.date.hokkaido.jp/	https://date-kanko.jp/	本文に自治体名を確認
+012343	北海道	北広島市	https://www.city.kitahiroshima.hokkaido.jp/		本文に自治体名を確認
+012351	北海道	石狩市	https://www.city.ishikari.hokkaido.jp/	http://www.ishikari-kankou.net/	本文に自治体名を確認
+012360	北海道	北斗市	https://www.city.hokuto.hokkaido.jp/	http://hokutoinfo.com/	本文に自治体名を確認
+013030	北海道	当別町	https://www.town.tobetsu.hokkaido.jp/	https://kanko-tobetsu.jp/	本文に自治体名を確認
+013048	北海道	新篠津村	https://www.vill.shinshinotsu.hokkaido.jp/		本文に自治体名を確認
+013315	北海道	松前町	https://www.town.matsumae.hokkaido.jp/	https://travel-matsumae.jp/	本文に自治体名を確認
+013323	北海道	福島町	https://www.town.fukushima.hokkaido.jp/		本文に自治体名を確認
+013331	北海道	知内町	https://www.town.shiriuchi.hokkaido.jp/		本文に自治体名を確認
+013340	北海道	木古内町	https://www.town.kikonai.hokkaido.jp/		本文に自治体名を確認
+013374	北海道	七飯町	https://www.town.nanae.hokkaido.jp/		本文に自治体名を確認
+013439	北海道	鹿部町	https://www.town.shikabe.lg.jp/	http://shikabe.jp/	本文に自治体名を確認
+013455	北海道	森町	https://www.town.hokkaido-mori.lg.jp/	https://www.mori-kanko.jp/	本文に自治体名を確認
+013463	北海道	八雲町	https://www.town.yakumo.lg.jp/		本文に自治体名を確認
+013471	北海道	長万部町	https://www.town.oshamambe.lg.jp/	https://www.osyamanbe-kankou.jp/	本文に自治体名を確認
+013617	北海道	江差町	https://www.hokkaido-esashi.jp/		手で候補を立て本文に自治体名を確認
+013625	北海道	上ノ国町	https://www.town.kaminokuni.lg.jp/		本文に自治体名を確認
+013633	北海道	厚沢部町	https://www.town.assabu.lg.jp/		本文に自治体名を確認
+013641	北海道	乙部町	https://www.town.otobe.lg.jp/		本文に自治体名を確認
+013676	北海道	奥尻町	https://www.town.okushiri.lg.jp/		本文に自治体名を確認
+013706	北海道	今金町	https://www.town.imakane.lg.jp/		本文に自治体名を確認
+013714	北海道	せたな町	https://www.town.setana.lg.jp/	http://setanavi.jp/	本文に自治体名を確認
+013919	北海道	島牧村	https://www.vill.shimamaki.lg.jp/		本文に自治体名を確認
+013927	北海道	寿都町	http://www.town.suttu.lg.jp/		手で候補を立て本文に自治体名を確認
+013935	北海道	黒松内町	http://www.kuromatsunai.com/		手で候補を立て本文に自治体名を確認
+013943	北海道	蘭越町	https://www.town.rankoshi.hokkaido.jp/		本文に自治体名を確認
+013951	北海道	ニセコ町	https://www.town.niseko.lg.jp/	http://www.niseko-ta.jp/	本文に自治体名を確認
+013960	北海道	真狩村	https://www.vill.makkari.lg.jp/	https://www.makkari-kanko.jp/	本文に自治体名を確認
+013978	北海道	留寿都村	https://www.vill.rusutsu.lg.jp/		本文に自治体名を確認
+013986	北海道	喜茂別町	https://www.town.kimobetsu.hokkaido.jp/	https://kimobetsu-kankou.com/	本文に自治体名を確認
+013994	北海道	京極町		https://www.kyogoku-kanko.jp/	候補URLがすべて外れ
+014001	北海道	倶知安町	https://www.town.kutchan.hokkaido.jp/	http://www.niseko.co.jp/	本文に自治体名を確認
+014010	北海道	共和町	https://www.town.kyowa.hokkaido.jp/	https://gan-wu.com/	本文に自治体名を確認
+014028	北海道	岩内町	https://www.town.iwanai.hokkaido.jp/	https://www.iwanai-kanko.jp/	本文に自治体名を確認
+014036	北海道	泊村	https://www.vill.tomari.hokkaido.jp/	https://gan-wu.com/	本文に自治体名を確認
+014044	北海道	神恵内村	https://www.vill.kamoenai.hokkaido.jp/		本文に自治体名を確認
+014052	北海道	積丹町	https://www.town.shakotan.lg.jp/	https://www.kanko-shakotan.jp/	本文に自治体名を確認
+014061	北海道	古平町	https://www.town.furubira.lg.jp/	https://furubira-kanko.com/	本文に自治体名を確認
+014079	北海道	仁木町	https://www.town.niki.hokkaido.jp/	http://www.niki-kanko.jp/	本文に自治体名を確認
+014087	北海道	余市町	https://www.town.yoichi.hokkaido.jp/	https://yoichi-kankoukyoukai.com/	本文に自治体名を確認
+014095	北海道	赤井川村	https://www.akaigawa.com/		手で候補を立て本文に自治体名を確認
+014231	北海道	南幌町	https://www.town.nanporo.hokkaido.jp/		本文に自治体名を確認
+014249	北海道	奈井江町	https://www.town.naie.hokkaido.jp/	https://www.naiekankou.com/	本文に自治体名を確認
+014257	北海道	上砂川町	https://town.kamisunagawa.hokkaido.jp/		転送先の実ホストに揃えた
+014273	北海道	由仁町	https://www.town.yuni.lg.jp/	https://www.yuni-kankou.com/	本文に自治体名を確認
+014281	北海道	長沼町	https://www.maoi-net.jp/	https://www.naganuma-kanko.com/	手で候補を立て本文に自治体名を確認
+014290	北海道	栗山町	https://www.town.kuriyama.hokkaido.jp/	https://kuriyama-kankou.jp/	本文に自治体名を確認
+014303	北海道	月形町	https://www.town.tsukigata.hokkaido.jp/		本文に自治体名を確認
+014311	北海道	浦臼町	https://www.town.urausu.hokkaido.jp/		本文に自治体名を確認
+014320	北海道	新十津川町	https://www.town.shintotsukawa.lg.jp/		本文に自治体名を確認
+014338	北海道	妹背牛町	https://www.town.moseushi.hokkaido.jp/		本文に自治体名を確認
+014346	北海道	秩父別町	https://www.town.chippubetsu.hokkaido.jp/		本文に自治体名を確認
+014362	北海道	雨竜町	https://www.town.uryu.hokkaido.jp/		本文に自治体名を確認
+014371	北海道	北竜町	https://www.town.hokuryu.hokkaido.jp/	https://hokuryu-kankou.com/	本文に自治体名を確認
+014389	北海道	沼田町	https://www.town.numata.hokkaido.jp/		本文に自治体名を確認
+014524	北海道	鷹栖町	https://www.town.takasu.hokkaido.jp/		本文に自治体名を確認
+014532	北海道	東神楽町	https://www.town.higashikagura.lg.jp/	http://www.asahikawa-daisetsu.jp/	本文に自治体名を確認
+014541	北海道	当麻町	https://www.town.tohma.hokkaido.jp/		手で候補を立て本文に自治体名を確認
+014559	北海道	比布町	https://www.town.pippu.hokkaido.jp/	http://pippu-kanko.sakura.ne.jp/	本文に自治体名を確認
+014567	北海道	愛別町	https://www.town.aibetsu.hokkaido.jp/		本文に自治体名を確認
+014575	北海道	上川町	https://www.town.hokkaido-kamikawa.lg.jp/	http://www.sounkyo.net/	本文に自治体名を確認
+014583	北海道	東川町	https://higashikawa-town.jp/		転送先の実ホストに揃えた
+014591	北海道	美瑛町	https://www.town.biei.hokkaido.jp/		本文に自治体名を確認
+014605	北海道	上富良野町	https://www.town.kamifurano.hokkaido.jp/	https://www.kamifurano.jp/	本文に自治体名を確認
+014613	北海道	中富良野町	https://www.town.nakafurano.lg.jp/		本文に自治体名を確認
+014621	北海道	南富良野町	https://www.town.minamifurano.hokkaido.jp/	http://www.minamifurano.jp/	本文に自治体名を確認
+014630	北海道	占冠村	https://www.vill.shimukappu.lg.jp/		本文に自治体名を確認
+014648	北海道	和寒町	https://www.town.wassamu.hokkaido.jp/		転送先の実ホストに揃えた
+014656	北海道	剣淵町	https://www.town.kembuchi.hokkaido.jp/	http://www.kembuchi-kankou.com/	本文に自治体名を確認
+014681	北海道	下川町	https://www.town.shimokawa.hokkaido.jp/	http://www.shimokawa-time.net/	本文に自治体名を確認
+014699	北海道	美深町	https://www.town.bifuka.hokkaido.jp/	http://www.bifuka-kankou.com/	本文に自治体名を確認
+014702	北海道	音威子府村	https://www.vill.otoineppu.hokkaido.jp/		本文に自治体名を確認
+014711	北海道	中川町	https://www.town.nakagawa.hokkaido.jp/	https://nakagawatourism.com/	本文に自治体名を確認
+014729	北海道	幌加内町	https://www.town.horokanai.hokkaido.jp/	http://www.horokanai-kankou.com/	本文に自治体名を確認
+014818	北海道	増毛町	https://www.town.mashike.hokkaido.jp/	https://mashike.jp/	本文に自治体名を確認
+014826	北海道	小平町	https://www.town.obira.hokkaido.jp/		本文に自治体名を確認
+014834	北海道	苫前町	http://www.town.tomamae.lg.jp/		本文に自治体名を確認
+014842	北海道	羽幌町	https://www.town.haboro.lg.jp/	http://www.haboro.tv/	本文に自治体名を確認
+014851	北海道	初山別村	https://www.vill.shosanbetsu.lg.jp/		本文に自治体名を確認
+014869	北海道	遠別町	https://www.town.embetsu.hokkaido.jp/		本文に自治体名を確認
+014877	北海道	天塩町	https://www.teshiotown.hokkaido.jp/		手で候補を立て本文に自治体名を確認
+015113	北海道	猿払村	https://www.vill.sarufutsu.hokkaido.jp/		本文に自治体名を確認
+015121	北海道	浜頓別町	http://www.town.hamatonbetsu.hokkaido.jp/		本文に自治体名を確認
+015130	北海道	中頓別町	https://www.town.nakatombetsu.hokkaido.jp/	https://nakatom.com/	本文に自治体名を確認
+015148	北海道	枝幸町	https://www.esashi.jp/	https://www.esashi-kankou.com/	手で候補を立て本文に自治体名を確認
+015164	北海道	豊富町	https://www.town.toyotomi.hokkaido.jp/	http://toyotomi-kanko.net/	本文に自治体名を確認
+015172	北海道	礼文町	https://www.town.rebun.hokkaido.jp/	http://www.rebun-island.jp/	本文に自治体名を確認
+015181	北海道	利尻町	https://rishiri-town.jp/		手で候補を立て本文に自治体名を確認
+015199	北海道	利尻富士町	https://www.town.rishirifuji.hokkaido.jp/rishirifuji/		転送先の実ホストに揃えた
+015202	北海道	幌延町	https://www.town.horonobe.lg.jp/		本文に自治体名を確認
+015431	北海道	美幌町	https://www.town.bihoro.hokkaido.jp/		本文に自治体名を確認
+015440	北海道	津別町	https://www.town.tsubetsu.hokkaido.jp/		本文に自治体名を確認
+015458	北海道	斜里町	https://www.town.shari.hokkaido.jp/	https://www.shiretoko.asia/	本文に自治体名を確認
+015466	北海道	清里町	https://www.town.kiyosato.hokkaido.jp/	https://www.kiyosatokankou.com/	本文に自治体名を確認
+015474	北海道	小清水町	https://www.town.koshimizu.hokkaido.jp/	https://www.koshimizu-kanko.com/	本文に自治体名を確認
+015491	北海道	訓子府町	https://www.town.kunneppu.hokkaido.jp/		本文に自治体名を確認
+015504	北海道	置戸町	https://www.town.oketo.hokkaido.jp/		本文に自治体名を確認
+015521	北海道	佐呂間町	https://www.town.saroma.hokkaido.jp/	https://nposaroma.org/	本文に自治体名を確認
+015555	北海道	遠軽町	https://engaru.jp/	https://www.engaru-kankou.jp/	手で候補を立て本文に自治体名を確認
+015598	北海道	湧別町	https://www.town.yubetsu.lg.jp/	http://www.yubetsu-kanko.jp/	本文に自治体名を確認
+015601	北海道	滝上町	https://town.takinoue.hokkaido.jp/		手で候補を立て本文に自治体名を確認
+015610	北海道	興部町	https://www.town.okoppe.lg.jp/	http://www.okoppekankou.com/	本文に自治体名を確認
+015628	北海道	西興部村	https://www.vill.nishiokoppe.lg.jp/		本文に自治体名を確認
+015636	北海道	雄武町	https://www.town.oumu.hokkaido.jp/		手で候補を立て本文に自治体名を確認
+015644	北海道	大空町	https://www.town.ozora.hokkaido.jp/	http://www.ooz-kankou.com/	本文に自治体名を確認
+015717	北海道	豊浦町	https://www.town.toyoura.hokkaido.jp/		手で候補を立て本文に自治体名を確認
+015750	北海道	壮瞥町	https://www.town.sobetsu.lg.jp/	https://sobetsu-kanko.com/	本文に自治体名を確認
+015784	北海道	白老町	https://www.town.shiraoi.hokkaido.jp/	https://shiraoi.net/	本文に自治体名を確認
+015814	北海道	厚真町	https://www.town.atsuma.lg.jp/		本文に自治体名を確認
+015849	北海道	洞爺湖町	http://www.town.toyako.lg.jp/	http://www.toyakanko.com/	本文に自治体名を確認
+015857	北海道	安平町	https://www.town.abira.lg.jp/		本文に自治体名を確認
+015865	北海道	むかわ町	https://www.town.mukawa.lg.jp/	https://www.mukawa-kanko.com/	本文に自治体名を確認
+016012	北海道	日高町	https://www.town.hidaka.hokkaido.jp/	https://hidaka-kankou.jp/	本文に自治体名を確認
+016021	北海道	平取町	https://www.town.biratori.hokkaido.jp/	https://biratori-kanko.jp/	本文に自治体名を確認
+016047	北海道	新冠町	https://www.niikappu.jp/		手で候補を立て本文に自治体名を確認
+016071	北海道	浦河町	https://www.town.urakawa.hokkaido.jp/		本文に自治体名を確認
+016080	北海道	様似町	http://www.samani.jp/		手で候補を立て本文に自治体名を確認
+016098	北海道	えりも町	https://www.town.erimo.lg.jp/		本文に自治体名を確認
+016101	北海道	新ひだか町	https://www.shinhidaka-hokkaido.jp/	https://www.shinhidaka-kanko.com/	手で候補を立て本文に自治体名を確認
+016314	北海道	音更町	https://www.town.otofuke.hokkaido.jp/	http://www.tokachigawa.net/	本文に自治体名を確認
+016322	北海道	士幌町	https://www.shihoro.jp/	https://www.shihoro-kankou.jp/	手で候補を立て本文に自治体名を確認
+016331	北海道	上士幌町	https://www.kamishihoro.jp/		手で候補を立て本文に自治体名を確認
+016349	北海道	鹿追町	https://www.town.shikaoi.lg.jp/	https://www.shikaoi.net/	本文に自治体名を確認
+016357	北海道	新得町	https://www.shintoku-town.jp/		手で候補を立て本文に自治体名を確認
+016365	北海道	清水町	https://www.town.shimizu.hokkaido.jp/	https://www.shimizu-hokkaido-ta.jp/	本文に自治体名を確認
+016373	北海道	芽室町	https://www.memuro.net/		手で候補を立て本文に自治体名を確認
+016381	北海道	中札内村	https://www.vill.nakasatsunai.hokkaido.jp/	https://kankou-nakasatsunai.com/	本文に自治体名を確認
+016390	北海道	更別村	https://www.sarabetsu.jp/		手で候補を立て本文に自治体名を確認
+016411	北海道	大樹町	https://www.town.taiki.hokkaido.jp/		本文に自治体名を確認
+016420	北海道	広尾町	https://www.town.hiroo.lg.jp/	https://hiroo-kanko.jp/	本文に自治体名を確認
+016438	北海道	幕別町	https://www.town.makubetsu.lg.jp/		本文に自治体名を確認
+016446	北海道	池田町	https://www.town.hokkaido-ikeda.lg.jp/	https://kankou-ikeda.com/	本文に自治体名を確認
+016454	北海道	豊頃町	https://www.toyokoro.jp/		手で候補を立て本文に自治体名を確認
+016462	北海道	本別町	https://www.town.honbetsu.hokkaido.jp/		本文に自治体名を確認
+016471	北海道	足寄町	https://www.town.ashoro.hokkaido.jp/	https://www.ashoro-kanko.jp/	本文に自治体名を確認
+016489	北海道	陸別町	https://www.rikubetsu.jp/	https://www.rikubetsu-kanko.com/	手で候補を立て本文に自治体名を確認
+016497	北海道	浦幌町	https://www.urahoro.jp/	https://www.urahorokanko.jp/	手で候補を立て本文に自治体名を確認
+016616	北海道	釧路町	http://www.town.kushiro.lg.jp/		本文に自治体名を確認
+016624	北海道	厚岸町	https://www.akkeshi-town.jp/		手で候補を立て本文に自治体名を確認
+016632	北海道	浜中町	https://www.townhamanaka.jp/		手で候補を立て本文に自治体名を確認
+016641	北海道	標茶町	https://town.shibecha.hokkaido.jp/top/	https://shibecha-kanko.com/	転送先の実ホストに揃えた
+016659	北海道	弟子屈町	https://www.town.teshikaga.hokkaido.jp/		本文に自治体名を確認
+016675	北海道	鶴居村	https://www.vill.tsurui.lg.jp/	https://tsuruimura.com/	本文に自治体名を確認
+016683	北海道	白糠町	https://www.town.shiranuka.lg.jp/		本文に自治体名を確認
+016918	北海道	別海町	https://betsukai.jp/	https://www.betsukai-kanko.jp/	手で候補を立て本文に自治体名を確認
+016926	北海道	中標津町	https://www.nakashibetsu.jp/		手で候補を立て本文に自治体名を確認
+016934	北海道	標津町	https://www.shibetsutown.jp/		手で候補を立て本文に自治体名を確認
+016942	北海道	羅臼町	https://www.rausu-town.jp/		手で候補を立て本文に自治体名を確認
+016951	北海道	色丹村			候補URLがすべて外れ
+016969	北海道	泊村	https://www.vill.tomari.hokkaido.jp/	https://gan-wu.com/	本文に自治体名を確認
+016977	北海道	留夜別村			候補URLがすべて外れ
+016985	北海道	留別村			候補URLがすべて外れ
+016993	北海道	紗那村			候補URLがすべて外れ
+017001	北海道	蘂取村			候補URLがすべて外れ
+022012	青森県	青森市	https://www.city.aomori.aomori.jp/		本文に自治体名を確認
+022021	青森県	弘前市	https://www.city.hirosaki.aomori.jp/	https://www.hirosaki-kanko.or.jp/	本文に自治体名を確認
+022039	青森県	八戸市	https://www.city.hachinohe.aomori.jp/		本文に自治体名を確認
+022047	青森県	黒石市	https://www.city.kuroishi.aomori.jp/	https://kuroishi.or.jp/	本文に自治体名を確認
+022055	青森県	五所川原市	https://www.city.goshogawara.lg.jp/		本文に自治体名を確認
+022063	青森県	十和田市	https://www.city.towada.lg.jp/	https://www.towada-kankou.jp/	本文に自治体名を確認
+022071	青森県	三沢市	https://www.city.misawa.lg.jp/		本文に自治体名を確認
+022080	青森県	むつ市	https://www.city.mutsu.lg.jp/	https://www.mutsu-kanko.jp/	本文に自治体名を確認
+022098	青森県	つがる市	https://www.city.tsugaru.aomori.jp/	https://ma-day.net/	本文に自治体名を確認
+022101	青森県	平川市	https://www.city.hirakawa.lg.jp/	https://hirakawa-kankou.com/	本文に自治体名を確認
+023019	青森県	平内町	https://www.town.hiranai.aomori.jp/	https://aomori-tourism.com/	本文に自治体名を確認
+023035	青森県	今別町	https://www.town.imabetsu.lg.jp/		本文に自治体名を確認
+023043	青森県	蓬田村	https://www.vill.yomogita.lg.jp/		本文に自治体名を確認
+023078	青森県	外ヶ浜町	https://www.town.sotogahama.lg.jp/		本文に自治体名を確認
+023213	青森県	鰺ヶ沢町	https://www.town.ajigasawa.lg.jp/	http://www.ajigasawa.info/	本文に自治体名を確認
+023230	青森県	深浦町	https://www.town.fukaura.lg.jp/	https://www.fukaurakankou.com/	本文に自治体名を確認
+023434	青森県	西目屋村			候補URLがすべて外れ
+023612	青森県	藤崎町	https://www.town.fujisaki.lg.jp/	https://www.fujisaki-kanko.jp/	本文に自治体名を確認
+023621	青森県	大鰐町	http://www.town.owani.lg.jp/		本文に自治体名を確認
+023671	青森県	田舎館村	http://www.vill.inakadate.lg.jp/		本文に自治体名を確認
+023817	青森県	板柳町	https://www.town.itayanagi.aomori.jp/		本文に自治体名を確認
+023841	青森県	鶴田町	https://www.town.tsuruta.lg.jp/		本文に自治体名を確認
+023876	青森県	中泊町	https://www.town.nakadomari.lg.jp/		本文に自治体名を確認
+024015	青森県	野辺地町	https://www.town.noheji.aomori.jp/	https://noheji-kankou.com/	本文に自治体名を確認
+024023	青森県	七戸町	https://www.town.shichinohe.lg.jp/	https://www.shichinohe-kankou.jp/	本文に自治体名を確認
+024058	青森県	六戸町	https://www.town.rokunohe.aomori.jp/		本文に自治体名を確認
+024066	青森県	横浜町	https://www.town.yokohama.lg.jp/		本文に自治体名を確認
+024082	青森県	東北町	https://www.town.tohoku.lg.jp/	https://tohoku-kankou.com/	本文に自治体名を確認
+024112	青森県	六ヶ所村			候補URLがすべて外れ
+024121	青森県	おいらせ町	https://www.town.oirase.aomori.jp/	https://www.oirase-kankou.com/	本文に自治体名を確認
+024236	青森県	大間町			候補URLがすべて外れ
+024244	青森県	東通村	http://www.vill.higashidoori.lg.jp/		本文に自治体名を確認
+024252	青森県	風間浦村			候補URLがすべて外れ
+024261	青森県	佐井村	https://www.vill.sai.lg.jp/	https://saikanko.sakura.ne.jp/	本文に自治体名を確認
+024414	青森県	三戸町	https://www.town.sannohe.aomori.jp/	https://www.sannohe-kankou.com/	本文に自治体名を確認
+024422	青森県	五戸町	https://www.town.gonohe.aomori.jp/	https://www.gonohe-kankou.jp/	本文に自治体名を確認
+024431	青森県	田子町	https://www.town.takko.lg.jp/	https://www.takko-kanko.com/	本文に自治体名を確認
+024457	青森県	南部町	https://www.town.aomori-nanbu.lg.jp/	https://nanbu-kanko.net/	本文に自治体名を確認
+024465	青森県	階上町	https://www.town.hashikami.lg.jp/		本文に自治体名を確認
+024503	青森県	新郷村	https://www.vill.shingo.aomori.jp/		本文に自治体名を確認
+032018	岩手県	盛岡市	https://www.city.morioka.iwate.jp/	https://www.morioka-kankou.com/	本文に自治体名を確認
+032026	岩手県	宮古市	https://www.city.miyako.iwate.jp/		本文に自治体名を確認
+032034	岩手県	大船渡市	https://www.city.ofunato.iwate.jp/	https://www.pref.iwate.jp/	本文に自治体名を確認
+032051	岩手県	花巻市	https://www.city.hanamaki.iwate.jp/	https://www.hanamaki-kanko.com/	本文に自治体名を確認
+032069	岩手県	北上市	https://www.city.kitakami.iwate.jp/	http://www.kitakami-kanko.jp/	本文に自治体名を確認
+032077	岩手県	久慈市	https://www.city.kuji.lg.jp/	https://www.kuji-kankou.com/	本文に自治体名を確認
+032085	岩手県	遠野市	https://www.city.tono.iwate.jp/	http://www.tonokanko.com/	本文に自治体名を確認
+032093	岩手県	一関市	https://www.city.ichinoseki.iwate.jp/	https://www.ichitabi.jp/	本文に自治体名を確認
+032107	岩手県	陸前高田市	https://www.city.rikuzentakata.iwate.jp/		本文に自治体名を確認
+032115	岩手県	釜石市	https://www.city.kamaishi.iwate.jp/	http://kamaishi-kankou.sakura.ne.jp/	本文に自治体名を確認
+032131	岩手県	二戸市	https://www.city.ninohe.lg.jp/	https://www.ninohe-kanko.com/	本文に自治体名を確認
+032140	岩手県	八幡平市	https://www.city.hachimantai.lg.jp/	https://www.hachimantai.or.jp/	本文に自治体名を確認
+032158	岩手県	奥州市	https://www.city.oshu.iwate.jp/	https://www.oshu-kankou.jp/	本文に自治体名を確認
+032166	岩手県	滝沢市	https://www.city.takizawa.iwate.jp/	https://takizawa-kankou.jp/	本文に自治体名を確認
+033014	岩手県	雫石町	https://www.town.shizukuishi.iwate.jp/	https://shizukuishi-kanko.gr.jp/	本文に自治体名を確認
+033022	岩手県	葛巻町	https://www.town.kuzumaki.lg.jp/	https://kuzumaki-milne.com/	本文に自治体名を確認
+033031	岩手県	岩手町	https://www.town.iwate.iwate.jp/		本文に自治体名を確認
+033219	岩手県	紫波町	https://www.town.shiwa.iwate.jp/	https://www.shiwa-kanko.jp/	本文に自治体名を確認
+033227	岩手県	矢巾町	https://www.town.yahaba.iwate.jp/	https://www.yahabakanko.jp/	本文に自治体名を確認
+033669	岩手県	西和賀町	https://www.town.nishiwaga.lg.jp/	http://www.yamanoideyu.com/	本文に自治体名を確認
+033812	岩手県	金ケ崎町	https://www.town.kanegasaki.iwate.jp/	https://www.comeon-kanegasaki.jp/	本文に自治体名を確認
+034029	岩手県	平泉町	https://www.town.hiraizumi.iwate.jp/	https://hiraizumi.or.jp/	本文に自治体名を確認
+034410	岩手県	住田町	https://www.town.sumita.iwate.jp/	http://sumita-kankou.wix.com/	本文に自治体名を確認
+034614	岩手県	大槌町	https://www.town.otsuchi.iwate.jp/		本文に自治体名を確認
+034827	岩手県	山田町	https://www.town.yamada.iwate.jp/	https://www.yamada-kankou.jp/	本文に自治体名を確認
+034835	岩手県	岩泉町	https://www.town.iwaizumi.lg.jp/	https://iwaizumi-kankou.jp/	本文に自治体名を確認
+034843	岩手県	田野畑村	https://www.vill.tanohata.iwate.jp/		本文に自治体名を確認
+034851	岩手県	普代村	https://www.vill.fudai.iwate.jp/	https://fudai-tourism.8586shouten.com/	本文に自治体名を確認
+035017	岩手県	軽米町	https://www.town.karumai.iwate.jp/	http://www.karumai-kanko.jp/	本文に自治体名を確認
+035033	岩手県	野田村	https://www.vill.noda.iwate.jp/	https://www.noda-kanko.com/	本文に自治体名を確認
+035068	岩手県	九戸村	https://www.vill.kunohe.iwate.jp/		本文に自治体名を確認
+035076	岩手県	洋野町	https://www.town.hirono.iwate.jp/	https://hirono-kankou.jp/	本文に自治体名を確認
+035246	岩手県	一戸町	https://www.town.ichinohe.iwate.jp/	https://www.ichinohekankou.jp/	本文に自治体名を確認
+052019	秋田県	秋田市	https://www.city.akita.lg.jp/		本文に自治体名を確認
+052027	秋田県	能代市	https://www.city.noshiro.lg.jp/	http://futatsui.com/	本文に自治体名を確認
+052035	秋田県	横手市	https://www.city.yokote.lg.jp/	https://yokote-kankou.jp/	本文に自治体名を確認
+052043	秋田県	大館市	https://www.city.odate.lg.jp/	http://www.dodasuka.com/	本文に自治体名を確認
+052060	秋田県	男鹿市	https://www.city.oga.akita.jp/	https://oganavi.com/	本文に自治体名を確認
+052078	秋田県	湯沢市			候補URLがすべて外れ
+052094	秋田県	鹿角市	https://www.city.kazuno.lg.jp/		本文に自治体名を確認
+052108	秋田県	由利本荘市	https://www.city.yurihonjo.lg.jp/	https://yurihonjo-kanko.jp/	本文に自治体名を確認
+052116	秋田県	潟上市	https://www.city.katagami.lg.jp/	https://www.katagami-kankou.com/	本文に自治体名を確認
+052124	秋田県	大仙市	https://www.city.daisen.lg.jp/	https://daisenkankou.com/	本文に自治体名を確認
+052132	秋田県	北秋田市	https://www.city.kitaakita.akita.jp/	https://k-akita.com/	本文に自治体名を確認
+052141	秋田県	にかほ市	https://www.city.nikaho.akita.jp/	https://navi.nikaho-kanko.jp/	本文に自治体名を確認
+052159	秋田県	仙北市	https://www.city.semboku.akita.jp/	https://akita-fun.jp/	本文に自治体名を確認
+053031	秋田県	小坂町	https://www.town.kosaka.akita.jp/		本文に自治体名を確認
+053279	秋田県	上小阿仁村	https://www.vill.kamikoani.akita.jp/		本文に自治体名を確認
+053465	秋田県	藤里町	https://www.town.fujisato.akita.jp/		本文に自治体名を確認
+053481	秋田県	三種町	https://www.town.mitane.akita.jp/	https://mitanekanko.com/	本文に自治体名を確認
+053490	秋田県	八峰町	https://www.town.happo.lg.jp/	https://happouta.jp/	本文に自治体名を確認
+053619	秋田県	五城目町	https://www.town.gojome.akita.jp/		本文に自治体名を確認
+053635	秋田県	八郎潟町	https://www.town.hachirogata.akita.jp/		本文に自治体名を確認
+053660	秋田県	井川町	https://www.town.ikawa.akita.jp/		本文に自治体名を確認
+053686	秋田県	大潟村			候補URLがすべて外れ
+054348	秋田県	美郷町	https://www.town.misato.akita.jp/	https://kanko.akita-misato.com/	本文に自治体名を確認
+054631	秋田県	羽後町	https://www.town.ugo.lg.jp/	https://ugokanko.com/	本文に自治体名を確認
+054640	秋田県	東成瀬村	https://vill.higashinaruse.lg.jp/	https://higashinaruse-kanko.com/	本文に自治体名を確認
 072010	福島県	福島市	https://www.city.fukushima.fukushima.jp/	https://www.f-kankou.jp/	本文に自治体名を確認
 072028	福島県	会津若松市	https://www.city.aizuwakamatsu.fukushima.jp/		本文に自治体名を確認
 072036	福島県	郡山市	https://www.city.koriyama.lg.jp/	https://www.kanko-koriyama.gr.jp/	本文に自治体名を確認

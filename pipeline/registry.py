@@ -117,11 +117,14 @@ def build_municipalities(fetcher: Fetcher) -> Path:
         pref = re.sub(r"[ァ-ヶー]+$", "", pref)  # 那珂川市の行は都道府県側も同じ
         pref_kana = from_halfwidth_katakana(pref_kana_hw)
         muni_kana = from_halfwidth_katakana(muni_kana_hw)
-        # 都道府県の接尾辞 (ケン/フ/ト/ドウ) は**末尾だけ**落とす。
+        # 都道府県の接尾辞 (ケン/フ/ト) は**末尾だけ**落とす。
         # 以前は replace で全文字を消していたため、トチギ→チギ (chigi)、
         # フクイ→クイ (kui)、トットリ→リ (rri)、フクシマ→クシマ (徳島と衝突)
         # になっていた。茨城・静岡・愛知は該当文字を含まず気づけなかった。
-        pref_romaji = romanize(re.sub(r"(?:ケン|フ|ト|ドウ)$", "", strip_suffix_kana(pref_kana))) or ""
+        # ドウは落とさない。北海道は「hokkaido」が名前そのもので、ドメインも
+        # town.xxx.hokkaido.jp。落とすと hokkai になり、IDの頭とドメイン候補の
+        # 両方が狂う (2026-09-27、北海道を始めて気づいた)。
+        pref_romaji = romanize(re.sub(r"(?:ケン|フ|ト)$", "", strip_suffix_kana(pref_kana))) or ""
         muni_romaji = romanize(strip_suffix_kana(muni_kana)) or ""
         out_rows.append(
             [
