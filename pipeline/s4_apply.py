@@ -469,6 +469,23 @@ def main(argv: list[str] | None = None) -> int:
     rows.sort(key=lambda r: (r["municipality"], r["name"]))
     by_id = {f"{i:05d}": r for i, r in enumerate(rows, start=1)}
 
+    # id は「市町村・名称でソートした順の連番」なので、s4_prepare の後に
+    # normalized.tsv が別県の normalize で上書きされると、答えが別の行に当たる。
+    # 北海道のように S4 を数日に分ける県で起こりうるので、索引と突き合わせて止める。
+    drift = [
+        rid for rid, ix in index.items()
+        if rid not in by_id
+        or (by_id[rid]["municipality"], by_id[rid]["name"]) != (ix["municipality"], ix["name"])
+    ]
+    if drift:
+        raise SystemExit(
+            f"normalized.tsv が s4_prepare の時点と食い違う "
+            f"(索引 {len(index)} 行のうち不一致 {len(drift)} 件: {drift[:5]})。\n"
+            f"  別の県で normalize.py を回していないか。回したなら "
+            f"extract --pages work/pages.<県>.tsv → tobunken --seed → normalize を"
+            f"やり直してから適用する"
+        )
+
     # --- 検証 ---
     kept_ids = {
         rid for rid, v in verdicts.items() if v.get("verdict") == "keep"
