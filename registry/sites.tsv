@@ -200,7 +200,7 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 023078	青森県	外ヶ浜町	https://www.town.sotogahama.lg.jp/		本文に自治体名を確認
 023213	青森県	鰺ヶ沢町	https://www.town.ajigasawa.lg.jp/	http://www.ajigasawa.info/	本文に自治体名を確認
 023230	青森県	深浦町	https://www.town.fukaura.lg.jp/	https://www.fukaurakankou.com/	本文に自治体名を確認
-023434	青森県	西目屋村			候補URLがすべて外れ
+023434	青森県	西目屋村	https://www.nishimeya.jp/		手で候補を立て本文に自治体名を確認
 023612	青森県	藤崎町	https://www.town.fujisaki.lg.jp/	https://www.fujisaki-kanko.jp/	本文に自治体名を確認
 023621	青森県	大鰐町	http://www.town.owani.lg.jp/		本文に自治体名を確認
 023671	青森県	田舎館村	http://www.vill.inakadate.lg.jp/		本文に自治体名を確認
@@ -212,11 +212,11 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 024058	青森県	六戸町	https://www.town.rokunohe.aomori.jp/		本文に自治体名を確認
 024066	青森県	横浜町	https://www.town.yokohama.lg.jp/		本文に自治体名を確認
 024082	青森県	東北町	https://www.town.tohoku.lg.jp/	https://tohoku-kankou.com/	本文に自治体名を確認
-024112	青森県	六ヶ所村			候補URLがすべて外れ
+024112	青森県	六ヶ所村	https://www.rokkasho.jp/		手で候補を立て本文に自治体名を確認
 024121	青森県	おいらせ町	https://www.town.oirase.aomori.jp/	https://www.oirase-kankou.com/	本文に自治体名を確認
 024236	青森県	大間町			候補URLがすべて外れ
 024244	青森県	東通村	http://www.vill.higashidoori.lg.jp/		本文に自治体名を確認
-024252	青森県	風間浦村			候補URLがすべて外れ
+024252	青森県	風間浦村	https://www.kazamaura.jp/		手で候補を立て本文に自治体名を確認
 024261	青森県	佐井村	https://www.vill.sai.lg.jp/	https://saikanko.sakura.ne.jp/	本文に自治体名を確認
 024414	青森県	三戸町	https://www.town.sannohe.aomori.jp/	https://www.sannohe-kankou.com/	本文に自治体名を確認
 024422	青森県	五戸町	https://www.town.gonohe.aomori.jp/	https://www.gonohe-kankou.jp/	本文に自治体名を確認
@@ -262,7 +262,7 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 052035	秋田県	横手市	https://www.city.yokote.lg.jp/	https://yokote-kankou.jp/	本文に自治体名を確認
 052043	秋田県	大館市	https://www.city.odate.lg.jp/	http://www.dodasuka.com/	本文に自治体名を確認
 052060	秋田県	男鹿市	https://www.city.oga.akita.jp/	https://oganavi.com/	本文に自治体名を確認
-052078	秋田県	湯沢市			候補URLがすべて外れ
+052078	秋田県	湯沢市	https://www.city-yuzawa.jp/		手で候補を立て本文に自治体名を確認
 052094	秋田県	鹿角市	https://www.city.kazuno.lg.jp/		本文に自治体名を確認
 052108	秋田県	由利本荘市	https://www.city.yurihonjo.lg.jp/	https://yurihonjo-kanko.jp/	本文に自治体名を確認
 052116	秋田県	潟上市	https://www.city.katagami.lg.jp/	https://www.katagami-kankou.com/	本文に自治体名を確認
