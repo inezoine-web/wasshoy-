@@ -188,15 +188,18 @@ def main(argv: list[str] | None = None) -> int:
     from normalize import dedup_key  # 既存データは読まない側のモジュール
     guard = existing if args.add else curated
     have = {f["id"] for f in guard}
+    # 名称一致は市町村単位で見る。県単位だと「盆踊り」「産業まつり」のような
+    # 一般的な名前が、1つの町にあるだけで県内の他の町の分まで落とされる
+    # (北海道で札幌・清里・新篠津の盆踊りなど12件が落ちていた)。
     have_names = {
-        (f["prefecture"], dedup_key(n))
+        (f["prefecture"], f["municipality"], dedup_key(n))
         for f in guard for n in [f["name"], *f.get("aliases", [])]
     }
     before = len(new_rows)
     new_rows = [r for r in new_rows if r["slug"] not in have]
     by_id = before - len(new_rows)
     new_rows = [r for r in new_rows
-                if (r["prefecture"], dedup_key(r["name"])) not in have_names]
+                if (r["prefecture"], r["municipality"], dedup_key(r["name"])) not in have_names]
     if by_id or before != len(new_rows):
         print(f"既存とのID重複 {by_id} 件・名称一致 {before - by_id - len(new_rows)} 件を除く")
     if curated:
