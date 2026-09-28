@@ -60,7 +60,7 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 013960	北海道	真狩村	https://www.vill.makkari.lg.jp/	https://www.makkari-kanko.jp/	本文に自治体名を確認
 013978	北海道	留寿都村	https://www.vill.rusutsu.lg.jp/		本文に自治体名を確認
 013986	北海道	喜茂別町	https://www.town.kimobetsu.hokkaido.jp/	https://kimobetsu-kankou.com/	本文に自治体名を確認
-013994	北海道	京極町		https://www.kyogoku-kanko.jp/	候補URLがすべて外れ
+013994	北海道	京極町	https://www.town-kyogoku.jp/	https://www.kyogoku-kanko.jp/	ユーザー提供・本文に自治体名を確認
 014001	北海道	倶知安町	https://www.town.kutchan.hokkaido.jp/	http://www.niseko.co.jp/	本文に自治体名を確認
 014010	北海道	共和町	https://www.town.kyowa.hokkaido.jp/	https://gan-wu.com/	本文に自治体名を確認
 014028	北海道	岩内町	https://www.town.iwanai.hokkaido.jp/	https://www.iwanai-kanko.jp/	本文に自治体名を確認
