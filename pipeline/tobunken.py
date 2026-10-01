@@ -195,6 +195,10 @@ def resolve_place(pref: str, muni: str, registry: tuple[set[tuple[str, str]], se
     muni = _MUNI_ALIAS.get(muni, muni)
     if (pref, muni) in pairs:
         return pref, muni
+    # 「金ヶ崎町」(東文研) と「金ケ崎町」(総務省コード表) のように小書きのケが揺れる
+    for alt in (muni.replace("ヶ", "ケ"), muni.replace("ケ", "ヶ")):
+        if (pref, alt) in pairs:
+            return pref, alt
     return pref, PREFECTURE_WIDE
 
 
