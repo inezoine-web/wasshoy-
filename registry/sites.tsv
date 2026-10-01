@@ -214,7 +214,7 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 024082	青森県	東北町	https://www.town.tohoku.lg.jp/	https://tohoku-kankou.com/	本文に自治体名を確認
 024112	青森県	六ヶ所村	https://www.rokkasho.jp/		手で候補を立て本文に自治体名を確認
 024121	青森県	おいらせ町	https://www.town.oirase.aomori.jp/	https://www.oirase-kankou.com/	本文に自治体名を確認
-024236	青森県	大間町			候補URLがすべて外れ
+024236	青森県	大間町	https://www.town.ooma.lg.jp/		ユーザー提供・本文に自治体名を確認
 024244	青森県	東通村	http://www.vill.higashidoori.lg.jp/		本文に自治体名を確認
 024252	青森県	風間浦村	https://www.kazamaura.jp/		手で候補を立て本文に自治体名を確認
 024261	青森県	佐井村	https://www.vill.sai.lg.jp/	https://saikanko.sakura.ne.jp/	本文に自治体名を確認
@@ -278,7 +278,7 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 053619	秋田県	五城目町	https://www.town.gojome.akita.jp/		本文に自治体名を確認
 053635	秋田県	八郎潟町	https://www.town.hachirogata.akita.jp/		本文に自治体名を確認
 053660	秋田県	井川町	https://www.town.ikawa.akita.jp/		本文に自治体名を確認
-053686	秋田県	大潟村			候補URLがすべて外れ
+053686	秋田県	大潟村	https://www.vill.ogata.akita.jp/genre/living		ユーザー提供・トップが空応答のため /genre/living を入口・本文に自治体名を確認
 054348	秋田県	美郷町	https://www.town.misato.akita.jp/	https://kanko.akita-misato.com/	本文に自治体名を確認
 054631	秋田県	羽後町	https://www.town.ugo.lg.jp/	https://ugokanko.com/	本文に自治体名を確認
 054640	秋田県	東成瀬村	https://vill.higashinaruse.lg.jp/	https://higashinaruse-kanko.com/	本文に自治体名を確認
