@@ -1160,6 +1160,25 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 304247	和歌山県	古座川町	https://www.town.kozagawa.lg.jp/		本文に自治体名を確認
 304271	和歌山県	北山村	https://www.vill.kitayama.wakayama.jp/		本文に自治体名を確認
 304280	和歌山県	串本町	https://www.town.kushimoto.wakayama.jp/	https://kankou-kushimoto.jp/	本文に自治体名を確認
+312011	鳥取県	鳥取市	https://www.city.tottori.lg.jp/	https://www.torican.jp/	本文に自治体名を確認
+312029	鳥取県	米子市	https://www.city.yonago.lg.jp/	http://www.yonago-navi.jp/	本文に自治体名を確認
+312037	鳥取県	倉吉市	https://www.city.kurayoshi.lg.jp/	https://www.kurayoshi-kankou.jp/	本文に自治体名を確認
+312045	鳥取県	境港市		https://www.sakaiminato.net/	公式は robots.txt で全ボット拒否 (主要検索/AIのみ許可) のため観光ガイドのみ
+313025	鳥取県	岩美町	https://www.iwami.gr.jp/	https://www.iwamikanko.org/	手で候補・本文に自治体名を確認
+313254	鳥取県	若桜町	https://www.town.wakasa.tottori.jp/	https://kanko.town.wakasa.tottori.jp/	本文に自治体名を確認
+313289	鳥取県	智頭町	https://www1.town.chizu.tottori.jp/		手で候補・本文に自治体名を確認
+313297	鳥取県	八頭町	https://www.town.yazu.tottori.jp/	https://yazukanko.jp/	本文に自治体名を確認
+313645	鳥取県	三朝町	https://www.town.misasa.tottori.jp/	http://spa-misasa.jp/	本文に自治体名を確認
+313700	鳥取県	湯梨浜町	https://www.yurihama.jp/	https://www.yurihama-kankou.jp/	手で候補・本文に自治体名を確認
+313718	鳥取県	琴浦町	https://www.town.kotoura.tottori.jp/		手で候補・本文に自治体名を確認
+313726	鳥取県	北栄町	https://www.e-hokuei.net/	https://www.hokuei-kankou.jp/	手で候補・本文に自治体名を確認
+313840	鳥取県	日吉津村	https://www.hiezu.jp/		手で候補・本文に自治体名を確認
+313866	鳥取県	大山町	https://www.daisen.jp/		手で候補・本文に自治体名を確認
+313891	鳥取県	南部町	https://www.town.nanbu.tottori.jp/	https://tottorinanbu-kanko.jp/	本文に自治体名を確認
+313904	鳥取県	伯耆町	https://www.houki-town.jp/		手で候補・本文に自治体名を確認
+314013	鳥取県	日南町	https://www.town.nichinan.lg.jp/		本文に自治体名を確認
+314021	鳥取県	日野町	https://www.town.hino.tottori.jp/		本文に自治体名を確認・観光欄の hino-kanko.jp は滋賀県日野町のものだったので外した
+314030	鳥取県	江府町	https://www.town-kofu.jp/		手で候補・本文に自治体名を確認
 362018	徳島県	徳島市	https://www.city.tokushima.tokushima.jp/	https://funfun-tokushima.jp/	本文に自治体名を確認
 362026	徳島県	鳴門市	https://www.city.naruto.lg.jp/	https://naruto-tourism.jp/	本文に自治体名を確認
 362034	徳島県	小松島市	https://www.city.komatsushima.lg.jp/		本文に自治体名を確認
