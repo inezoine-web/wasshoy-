@@ -1418,3 +1418,44 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 465330	鹿児島県	和泊町	https://www.town.wadomari.lg.jp/	http://www.okinoerabujima.info/	本文に自治体名を確認
 465348	鹿児島県	知名町	https://www.town.china.lg.jp/	https://okinoerabujima.info/	本文に自治体名を確認
 465356	鹿児島県	与論町	https://www.yoron.jp/		検索で特定 (本文に自治体名を確認)
+472018	沖縄県	那覇市	https://www.city.naha.okinawa.jp/		本文に自治体名を確認
+472051	沖縄県	宜野湾市	https://www.city.ginowan.lg.jp/		本文に自治体名を確認
+472077	沖縄県	石垣市	https://www.city.ishigaki.okinawa.jp/	https://www.kanko-ishigaki.org/	本文に自治体名を確認
+472085	沖縄県	浦添市	https://www.city.urasoe.lg.jp/		本文に自治体名を確認
+472093	沖縄県	名護市	https://www.city.nago.okinawa.jp/		本文に自治体名を確認
+472107	沖縄県	糸満市	https://www.city.itoman.lg.jp/	https://www.itoman-okinawa.jp/	本文に自治体名を確認
+472115	沖縄県	沖縄市	https://www.city.okinawa.okinawa.jp/		本文に自治体名を確認
+472123	沖縄県	豊見城市	https://www.city.tomigusuku.lg.jp/	https://www.guidoor.jp/	本文に自治体名を確認
+472131	沖縄県	うるま市	https://www.city.uruma.lg.jp/	https://uruma-ru.jp/	本文に自治体名を確認
+472140	沖縄県	宮古島市	https://www.city.miyakojima.lg.jp/	http://www.ocvb.or.jp/	本文に自治体名を確認
+472158	沖縄県	南城市	https://www.city.nanjo.okinawa.jp/	https://okinawa-nanjo.jp/	本文に自治体名を確認
+473014	沖縄県	国頭村	https://www.vill.kunigami.okinawa.jp/	http://kunigami-kikakukanko.com/	本文に自治体名を確認
+473022	沖縄県	大宜味村	https://www.vill.ogimi.okinawa.jp/	https://www.ogimi-kanko.com/	本文に自治体名を確認
+473031	沖縄県	東村	https://www.vill.higashi.okinawa.jp/	https://higashi-kanko.or.jp/	本文に自治体名を確認
+473065	沖縄県	今帰仁村	https://www.nakijin.jp/		手で候補・本文に自治体名を確認
+473081	沖縄県	本部町	https://www.town.motobu.okinawa.jp/	https://www.motobu-ka.com/	本文に自治体名を確認
+473111	沖縄県	恩納村	https://www.vill.onna.okinawa.jp/	https://www.onnanavi.com/	本文に自治体名を確認
+473138	沖縄県	宜野座村	https://www.vill.ginoza.okinawa.jp/	https://ginozanavi.com/	本文に自治体名を確認
+473146	沖縄県	金武町	https://www.town.kin.okinawa.jp/	https://www.visitkintown.jp/	本文に自治体名を確認
+473154	沖縄県	伊江村	https://www.iejima.org/	https://www.ie-kankou.jp/	手で候補・本文に自治体名を確認
+473243	沖縄県	読谷村	https://www.vill.yomitan.okinawa.jp/	https://www.yomitan-kankou.jp/	本文に自治体名を確認
+473251	沖縄県	嘉手納町	https://www.town.kadena.okinawa.jp/	https://go-kadena.com/	本文に自治体名を確認
+473260	沖縄県	北谷町	https://www.chatan.jp/		手で候補・本文に自治体名を確認
+473278	沖縄県	北中城村	https://www.vill.kitanakagusuku.lg.jp/	http://kitapo.jp/	本文に自治体名を確認
+473286	沖縄県	中城村	https://www.vill.nakagusuku.okinawa.jp/		本文に自治体名を確認
+473294	沖縄県	西原町	https://www.town.nishihara.okinawa.jp/		本文に自治体名を確認
+473481	沖縄県	与那原町	https://www.town.yonabaru.okinawa.jp/	http://www.yonabarukanko.com/	本文に自治体名を確認
+473502	沖縄県	南風原町	https://www.town.haebaru.lg.jp/	https://www.haebaru-kankou.jp/	本文に自治体名を確認
+473537	沖縄県	渡嘉敷村	https://www.vill.tokashiki.okinawa.jp/		本文に自治体名を確認
+473545	沖縄県	座間味村	https://www.vill.zamami.okinawa.jp/	https://www.zamamitourism.com/	本文に自治体名を確認
+473553	沖縄県	粟国村	https://www.vill.aguni.okinawa.jp/	http://www.aguni-kankou.jp/	本文に自治体名を確認
+473561	沖縄県	渡名喜村	https://www.vill.tonaki.okinawa.jp/	https://www.tonaki-kanko.com/	本文に自治体名を確認
+473570	沖縄県	南大東村	https://www.vill.minamidaito.okinawa.jp/		本文に自治体名を確認
+473588	沖縄県	北大東村	https://www.vill.kitadaito.okinawa.jp/		本文に自治体名を確認
+473596	沖縄県	伊平屋村	https://www.vill.iheya.okinawa.jp/	http://iheya-kanko.jp/	本文に自治体名を確認
+473600	沖縄県	伊是名村	https://www.vill.izena.okinawa.jp/	http://izena-kanko.jp/	本文に自治体名を確認
+473618	沖縄県	久米島町	https://www.town.kumejima.okinawa.jp/	http://www.kanko-kumejima.com/	本文に自治体名を確認
+473626	沖縄県	八重瀬町	https://www.town.yaese.lg.jp/	https://yaese-kankou.com/	本文に自治体名を確認
+473758	沖縄県	多良間村	https://www.vill.tarama.okinawa.jp/		本文に自治体名を確認
+473812	沖縄県	竹富町	https://www.town.taketomi.lg.jp/	https://shimamiyage.com/	本文に自治体名を確認
+473821	沖縄県	与那国町	https://www.town.yonaguni.okinawa.jp/	http://welcome-yonaguni.jp/	本文に自治体名を確認
