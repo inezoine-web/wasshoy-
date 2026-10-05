@@ -291,7 +291,11 @@ def looks_like_festival(name: str, municipality: str = "") -> str | None:
         return "seasonal"
     if MARKET_WORD.search(probe):
         return "market"
-    if REGIONAL_WORD is not None and REGIONAL_WORD.search(probe):
+    # 神奈川の地域語彙「サイト」(道祖神の火祭り) は、ウェブの「サイト」と同じ字面。
+    # 横浜市はリンク文字の末尾に必ず「（外部サイト）」を付けるので、企業・アプリへの
+    # リンクがすべて候補になっていた (区クロールで4,220件、2026-10-06)。
+    web = re.sub(r"(?:外部|公式|ウェブ|Web|WEB|特設|申込|観光|関連)サイト|サイトマップ|サイトポリシー", "", probe)
+    if REGIONAL_WORD is not None and REGIONAL_WORD.search(web):
         return "regional_vocab"
     return None
 
