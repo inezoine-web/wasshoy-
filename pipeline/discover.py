@@ -341,6 +341,15 @@ def discover_site(
         if doc is None or doc.status != 200:
             continue
 
+        # 入口が別ホストへ転送されたら、転送先も同じサイトとして歩く。
+        # 美咲町は台帳の town.misaki.okayama.jp が town.okayama-misaki.lg.jp へ
+        # 移っていて、転送先のリンク119本を「別サイト」として全部捨て、2ページで
+        # 止まっていた (佐用町の観光サイト・北海道の5町も同じ型だった)。
+        if kind == "seed":
+            final_host = urllib.parse.urlparse(doc.final_url).netloc
+            if final_host and final_host not in hosts:
+                hosts.add(final_host)
+
         is_xml = is_feed_or_sitemap(doc.text)
         records.append(
             {
