@@ -463,7 +463,7 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 092061	栃木県	日光市	https://www.city.nikko.lg.jp/	https://www.nikko-kankou.org/	本文に自治体名を確認
 092088	栃木県	小山市	https://www.city.oyama.tochigi.jp/		本文に自治体名を確認 / kanko-oyama.jp は静岡県小山町の観光協会だった
 092096	栃木県	真岡市	https://www.city.moka.lg.jp/	https://www.moka-kankou.org/	本文に自治体名を確認
-092100	栃木県	大田原市			候補URLがすべて外れ
+092100	栃木県	大田原市	https://www.city.ohtawara.tochigi.jp/	http://www.ohtawara.info/	検索で特定 (本文に自治体名を確認)
 092118	栃木県	矢板市	https://www.city.yaita.tochigi.jp/	http://www.yaita-kankou.com/	本文に自治体名を確認
 092134	栃木県	那須塩原市	https://www.city.nasushiobara.lg.jp/	https://nasushiobara-kanko.jp/	本文に自治体名を確認
 092142	栃木県	さくら市	https://www.city.tochigi-sakura.lg.jp/	https://www.sakura-kankou.jp/	本文に自治体名を確認
@@ -524,12 +524,12 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 112089	埼玉県	所沢市	https://www.city.tokorozawa.saitama.jp/	https://tokoro-kankou.jp/	本文に自治体名を確認
 112097	埼玉県	飯能市	https://www.city.hanno.lg.jp/	https://hanno-tourism.jp/	本文に自治体名を確認
 112101	埼玉県	加須市	https://www.city.kazo.lg.jp/	https://www.kazo-tourism.or.jp/	本文に自治体名を確認
-112119	埼玉県	本庄市			候補URLがすべて外れ
+112119	埼玉県	本庄市	https://www.city.honjo.lg.jp/	https://www.honjo-kanko.jp/	検索で特定 (本文に自治体名を確認)
 112127	埼玉県	東松山市	https://www.city.higashimatsuyama.lg.jp/	https://www.higashimatsuyama-kanko.com/	本文に自治体名を確認
 112143	埼玉県	春日部市	https://www.city.kasukabe.lg.jp/		本文に自治体名を確認
 112151	埼玉県	狭山市	https://www.city.sayama.saitama.jp/	https://www.sayama-kanko.jp/	本文に自治体名を確認
 112160	埼玉県	羽生市	https://www.city.hanyu.lg.jp/	http://hanyu-kanko.jp/	本文に自治体名を確認
-112178	埼玉県	鴻巣市		https://www.konosu-kanko.jp/	候補URLがすべて外れ
+112178	埼玉県	鴻巣市	https://www.city.kounosu.saitama.jp/	https://www.konosu-kanko.jp/	検索で特定 (本文に自治体名を確認)
 112186	埼玉県	深谷市	https://www.city.fukaya.saitama.jp/	http://www.fukaya-ta.com/	本文に自治体名を確認
 112194	埼玉県	上尾市	https://www.city.ageo.lg.jp/	https://www.ageo-kankou.com/	本文に自治体名を確認
 112216	埼玉県	草加市	https://www.city.soka.saitama.jp/		本文に自治体名を確認
@@ -726,7 +726,7 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 143839	神奈川県	真鶴町	https://www.town.manazuru.kanagawa.jp/	http://www.manazuru.net/	本文に自治体名を確認
 143847	神奈川県	湯河原町	https://www.town.yugawara.kanagawa.jp/		本文に自治体名を確認
 144011	神奈川県	愛川町	https://www.town.aikawa.kanagawa.jp/		本文に自治体名を確認
-144029	神奈川県	清川村			候補URLがすべて外れ
+144029	神奈川県	清川村	https://www.town.kiyokawa.kanagawa.jp/		検索で特定 (本文に自治体名を確認)
 151009	新潟県	新潟市	https://www.city.niigata.lg.jp/	https://www.nvcb.or.jp/	本文に自治体名を確認
 152021	新潟県	長岡市	https://www.city.nagaoka.niigata.jp/		本文に自治体名を確認
 152048	新潟県	三条市	https://www.city.sanjo.niigata.jp/		本文に自治体名を確認
@@ -939,16 +939,16 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 213616	岐阜県	垂井町	https://www.town.tarui.lg.jp/		本文に自治体名を確認
 213624	岐阜県	関ケ原町	https://www.town.sekigahara.gifu.jp/	https://www.sekigahara1600.com/	本文に自治体名を確認
 213811	岐阜県	神戸町	https://www.town.godo.gifu.jp/		本文に自治体名を確認
-213829	岐阜県	輪之内町			候補URLがすべて外れ
-213837	岐阜県	安八町			候補URLがすべて外れ
+213829	岐阜県	輪之内町	https://town.wanouchi.gifu.jp/		検索で特定 (本文に自治体名を確認)
+213837	岐阜県	安八町	https://www.town.anpachi.lg.jp/		検索で特定 (本文に自治体名を確認)
 214019	岐阜県	揖斐川町	https://www.town.ibigawa.lg.jp/		本文に自治体名を確認
-214035	岐阜県	大野町			候補URLがすべて外れ
+214035	岐阜県	大野町	https://www.town-ono.jp/		検索で特定 (本文に自治体名を確認)
 214043	岐阜県	池田町	https://www.town.gifu-ikeda.lg.jp/	https://www.ikeda-kanko.jp/	本文に自治体名を確認
 214213	岐阜県	北方町	https://www.town.kitagata.gifu.jp/		本文に自治体名を確認
 215015	岐阜県	坂祝町	https://www.town.sakahogi.gifu.jp/		本文に自治体名を確認
 215023	岐阜県	富加町	https://www.town.tomika.gifu.jp/		本文に自治体名を確認
-215031	岐阜県	川辺町			候補URLがすべて外れ
-215040	岐阜県	七宗町			候補URLがすべて外れ
+215031	岐阜県	川辺町	https://www.kawabe-gifu.jp/		検索で特定 (本文に自治体名を確認)
+215040	岐阜県	七宗町	https://www.hichiso.jp/		検索で特定 (本文に自治体名を確認)
 215058	岐阜県	八百津町	https://www.town.yaotsu.lg.jp/	https://kankou.yaotsu.jp/	本文に自治体名を確認
 215066	岐阜県	白川町	https://www.town.shirakawa.lg.jp/	https://mino-shirakawa.com/	本文に自治体名を確認
 215074	岐阜県	東白川村	https://www.vill.higashishirakawa.gifu.jp/		本文に自治体名を確認
@@ -1256,9 +1256,9 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 303615	和歌山県	湯浅町	https://www.town.yuasa.wakayama.jp/	https://www.yuasa-kankokyokai.com/	本文に自治体名を確認
 303623	和歌山県	広川町	https://www.town.hirogawa.wakayama.jp/		本文に自治体名を確認
 303666	和歌山県	有田川町	https://www.town.aridagawa.lg.jp/	https://www.wakayama-kanko.or.jp/	本文に自治体名を確認
-303810	和歌山県	美浜町			候補URLがすべて外れ
-303828	和歌山県	日高町		https://www.hidaka-kankou.jp/	候補URLがすべて外れ
-303836	和歌山県	由良町			候補URLがすべて外れ
+303810	和歌山県	美浜町	http://www.town.wakayama-mihama.lg.jp/		検索で特定 (本文に自治体名を確認)
+303828	和歌山県	日高町	http://www.town.wakayama-hidaka.lg.jp/		検索で特定 (本文に自治体名を確認)
+303836	和歌山県	由良町	http://www.town.yura.wakayama.jp/	http://www.yura-wakayama-kanko.jp/	検索で特定 (本文に自治体名を確認)
 303909	和歌山県	印南町	https://www.town.wakayama-inami.lg.jp/		本文に自治体名を確認
 303917	和歌山県	みなべ町	https://www.town.minabe.lg.jp/	https://www.minabe-kanko.jp/	本文に自治体名を確認
 303925	和歌山県	日高川町	https://www.town.hidakagawa.lg.jp/	http://hidakagawa-kanko.jp/	本文に自治体名を確認
