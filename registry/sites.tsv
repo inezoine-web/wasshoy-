@@ -1263,6 +1263,44 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 314013	鳥取県	日南町	https://www.town.nichinan.lg.jp/		本文に自治体名を確認
 314021	鳥取県	日野町	https://www.town.hino.tottori.jp/		本文に自治体名を確認・観光欄の hino-kanko.jp は滋賀県日野町のものだったので外した
 314030	鳥取県	江府町	https://www.town-kofu.jp/		手で候補・本文に自治体名を確認
+322016	島根県	松江市	https://www.city.matsue.lg.jp/	https://www.kankou-matsue.jp/	本文に自治体名を確認
+322024	島根県	浜田市	https://www.city.hamada.shimane.jp/	https://www.kankou-hamada.org/	本文に自治体名を確認
+322032	島根県	出雲市	https://www.city.izumo.shimane.jp/	https://www.izumo-kankou.gr.jp/	本文に自治体名を確認
+322041	島根県	益田市	https://www.city.masuda.lg.jp/		本文に自治体名を確認
+322059	島根県	大田市	https://www.city.oda.lg.jp/		本文に自治体名を確認
+322067	島根県	安来市	https://www.city.yasugi.shimane.jp/	http://www.yasugi-kankou.com/	本文に自治体名を確認
+322075	島根県	江津市	https://www.city.gotsu.lg.jp/	https://www.gotsu-kanko.jp/	本文に自治体名を確認
+322091	島根県	雲南市	https://www.city.unnan.shimane.jp/	http://www.unnan-kankou.jp/	本文に自治体名を確認
+323438	島根県	奥出雲町	https://www.town.okuizumo.shimane.jp/	https://okuizumo.org/	本文に自治体名を確認
+323861	島根県	飯南町	https://www.iinan.jp/		検索で特定 (本文に自治体名を確認)
+324418	島根県	川本町	https://www.town.shimane-kawamoto.lg.jp/	https://www.kawamoto-kankou.jp/	本文に自治体名を確認
+324485	島根県	美郷町	https://www.town.misato.shimane.jp/	https://www.misato-kankou.com/	本文に自治体名を確認
+324493	島根県	邑南町	https://www.town.ohnan.lg.jp/	https://ohnan-kanko.com/	検索で特定 (本文に自治体名を確認)
+325015	島根県	津和野町	https://www.town.tsuwano.lg.jp/	http://tsuwano-kanko.net/	本文に自治体名を確認
+325058	島根県	吉賀町	https://www.town.yoshika.lg.jp/	http://yoshika-kankou.jp/	本文に自治体名を確認
+325252	島根県	海士町	https://www.town.ama.shimane.jp/		本文に自治体名を確認
+325261	島根県	西ノ島町	https://www.town.nishinoshima.shimane.jp/	http://nkk-oki.com/	本文に自治体名を確認
+325279	島根県	知夫村	http://www.vill.chibu.lg.jp/	http://www.chibu.jp/	本文に自治体名を確認
+325287	島根県	隠岐の島町	https://www.town.okinoshima.shimane.jp/		本文に自治体名を確認
+352012	山口県	下関市	https://www.city.shimonoseki.lg.jp/	https://shimonoseki.travel/	本文に自治体名を確認
+352021	山口県	宇部市	https://www.city.ube.yamaguchi.jp/	https://ube-kankou.or.jp/	本文に自治体名を確認
+352039	山口県	山口市	https://www.city.yamaguchi.lg.jp/	https://yamaguchi-city.jp/	本文に自治体名を確認
+352047	山口県	萩市	https://www.city.hagi.lg.jp/	http://www.hagishi.com/	本文に自治体名を確認
+352063	山口県	防府市	https://www.city.hofu.yamaguchi.jp/	https://visit-hofu.jp/	本文に自治体名を確認
+352071	山口県	下松市	https://www.city.kudamatsu.lg.jp/	https://kudamatsu-kanko.jp/	本文に自治体名を確認
+352080	山口県	岩国市	https://www.city.iwakuni.lg.jp/	http://kankou.iwakuni-city.net/	本文に自治体名を確認
+352101	山口県	光市	https://www.city.hikari.lg.jp/	https://www.hikari-kanko.org/	本文に自治体名を確認
+352110	山口県	長門市	https://www.city.nagato.yamaguchi.jp/	https://nanavi.jp/	本文に自治体名を確認
+352128	山口県	柳井市	https://www.city-yanai.jp/	https://www.yanai-kankou.jp/	検索で特定 (本文に自治体名を確認)
+352136	山口県	美祢市	https://www2.city.mine.lg.jp/	https://karusuto.com/	検索で特定 (本文に自治体名を確認)
+352152	山口県	周南市	https://www.city.shunan.lg.jp/		本文に自治体名を確認
+352161	山口県	山陽小野田市	https://www.city.sanyo-onoda.lg.jp/	https://www.sanyoonoda-kanko.com/	検索で特定 (本文に自治体名を確認)
+353051	山口県	周防大島町	https://www.town.suo-oshima.lg.jp/	https://suo-oshima-kanko.net/	検索で特定 (本文に自治体名を確認)
+353213	山口県	和木町	https://www.town.waki.lg.jp/		本文に自治体名を確認
+353418	山口県	上関町	https://www.town.kaminoseki.lg.jp/	http://www.kaminoseki-kanko.jp/	本文に自治体名を確認
+353434	山口県	田布施町	https://www.town.tabuse.lg.jp/		本文に自治体名を確認
+353442	山口県	平生町	https://www.town.hirao.lg.jp/	https://www.hirao-kankou.net/	本文に自治体名を確認
+355020	山口県	阿武町	https://www.town.abu.lg.jp/		本文に自治体名を確認
 362018	徳島県	徳島市	https://www.city.tokushima.tokushima.jp/	https://funfun-tokushima.jp/	本文に自治体名を確認
 362026	徳島県	鳴門市	https://www.city.naruto.lg.jp/	https://naruto-tourism.jp/	本文に自治体名を確認
 362034	徳島県	小松島市	https://www.city.komatsushima.lg.jp/		本文に自治体名を確認
