@@ -708,6 +708,10 @@ def load_wards(fetcher: Fetcher) -> list[dict[str, str]]:
         if not code or not name:
             continue
         kana = from_halfwidth_katakana(kana_hw)
+        # 1枚目と同じく、後から政令市になった市 (熊本市・相模原市) の行は
+        # 名称セルに読みが連結されている (「熊本市クマモトシ」)
+        name = re.sub(r"[ァ-ヶー]+$", "", name)
+        pref = re.sub(r"[ァ-ヶー]+$", "", pref)
         if name.endswith("市"):
             cities[name] = kana
             continue
@@ -758,7 +762,8 @@ def _verify_ward(fetcher: Fetcher, url: str, city: str, ward: str) -> tuple[bool
         return False, "取得できず"
     text = re.sub(r"<[^>]+>", " ", doc.text)
     # 区名だけ (北区・中央区) は他の市にもあるので、市名つきか「区役所」で確かめる
-    if city + ward in text or ward + "役所" in text:
+    # さいたま市は「さいたま市／西区」と区切りが入る
+    if re.search(re.escape(city) + r"[\s／/・:：|｜-]{0,2}" + re.escape(ward), text) or ward + "役所" in text:
         return True, "本文に区名を確認"
     return False, "本文に区名が見つからない"
 
@@ -793,11 +798,27 @@ def resolve_wards(fetcher: Fetcher, prefecture: str | None) -> Path:
                     if d2 is not None and d2.status == 200:
                         links += _links_with_labels(d2.text, d2.final_url)
         for w in ws:
-            cands = [u for label, u in links if _ward_label_matches(label, city, w["ward"])]
+            # 市と同じホストだけ。さいたま市は「西区」が窓口混雑状況の外部サービスも指している
+            city_host = urllib.parse.urlparse(top).netloc
+            cands = [u for label, u in links
+                     if _ward_label_matches(label, city, w["ward"])
+                     and urllib.parse.urlparse(u).netloc == city_host]
+            # 区名のリンクが区のトップとは限らない。さいたま市はトップの「西区」が
+            # /nishi/001/003/003/p068849.html を指していて、区の範囲が奥の1階層だけになり
+            # 区あたり4〜13ページしか取れなかった。浅いURLを先に試す。
+            def depth(u: str) -> int:
+                # ディレクトリの深さ (末尾の index.html は数えない)
+                return urllib.parse.urlparse(_ward_scope(u)).path.rstrip("/").count("/")
+            # 区のローマ字を含むURLを先に、その中では浅い順に (浜松は区役所の地図 /maps/c-ward.html が浅い)
+            cands.sort(key=lambda u: (not (w["romaji"] and w["romaji"] in u), depth(u)))
             if top and w["romaji"]:
                 host = _ward_scope(top).split("/", 3)
                 base = f"{host[0]}//{host[2]}"
-                cands += [f"{base}/{w['romaji']}/", f"{base}/{w['romaji']}ku/"]
+                guesses = [f"{base}/{w['romaji']}/", f"{base}/{w['romaji']}ku/"]
+                # リンクが3階層以上の奥しか無いときは、ローマ字の区トップを先に試す。
+                # 浅いリンクがあるとき (大阪 /kita/、神戸 /kuyakusho/nadaku/) はリンクを優先
+                deep = not cands or depth(cands[0]) >= 3
+                cands = guesses + cands if (deep and cands) else cands + guesses
             row = {"code": w["code"], "prefecture": pref, "municipality": city,
                    "ward": w["ward"], "official_url": "", "scope": "",
                    "resolved": "候補URLがすべて外れ"}
