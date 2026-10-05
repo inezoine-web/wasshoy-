@@ -12,7 +12,9 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import re
 import sys
+import urllib.parse
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -28,6 +30,17 @@ def main(argv: list[str] | None = None) -> int:
     with WARDS.open(encoding="utf-8", newline="") as fh:
         scopes = [(r["prefecture"], r["municipality"], r["ward"], r["scope"])
                   for r in csv.DictReader(fh, delimiter="\t") if r["scope"]]
+    # discover.py --wards と同じ範囲: 区のパスの前に1段 (神戸市の /c63604/ など) を許す
+    matchers = [
+        (pref, city, ward, urllib.parse.urlparse(scope).netloc,
+         re.compile(r"^(?:/[^/]+)?" + re.escape(urllib.parse.urlparse(scope).path)))
+        for pref, city, ward, scope in scopes
+    ]
+
+    def in_ward(url: str, host: str, pat: re.Pattern) -> bool:
+        p = urllib.parse.urlparse(url)
+        return p.netloc == host and bool(pat.match(p.path))
+
     data = json.loads(DATA.read_text(encoding="utf-8"))
     filled = mixed = 0
     for f in data["festivals"]:
@@ -35,10 +48,10 @@ def main(argv: list[str] | None = None) -> int:
             continue
         wards = {
             ward
-            for pref, city, ward, scope in scopes
+            for pref, city, ward, host, pat in matchers
             if f["prefecture"] == pref and f["municipality"] == city
             for s in f.get("sources", [])
-            if (s.get("url") or "").startswith(scope)
+            if in_ward(s.get("url") or "", host, pat)
         }
         if len(wards) == 1:
             f["district"] = wards.pop()
