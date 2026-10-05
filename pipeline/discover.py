@@ -253,6 +253,9 @@ def same_site(url: str, hosts: set[str]) -> bool:
     return urllib.parse.urlparse(url).netloc in hosts
 
 
+_same_site = same_site
+
+
 def link_priority(url: str, label: str) -> int:
     """探索順の優先度。小さいほど先に見る。
 
@@ -285,9 +288,24 @@ def discover_site(
     max_pages: int,
     max_depth: int,
     bunkazai_pages: int = 0,
+    scope: str = "",
 ) -> list[dict[str, str]]:
-    """1自治体分の探索。訪問したページの記録を返す。"""
+    """1自治体分の探索。訪問したページの記録を返す。
+
+    scope を渡すと、そのURLで始まるページだけを歩く (政令市の区役所の配下)。
+    """
     hosts = {urllib.parse.urlparse(s).netloc for s in seeds if s}
+
+    # 神戸市は区のトップが /kuyakusho/nadaku/ で、中身は /c63604/kuyakusho/nadaku/...
+    # のように頭にカテゴリ番号が1段付く。前方一致だけだと区のページを
+    # ほとんど取りこぼす (9区で43ページだった)。先頭1段の差は許す。
+    scope_path = urllib.parse.urlparse(scope).path if scope else ""
+    in_scope = re.compile(r"^(?:/[^/]+)?" + re.escape(scope_path)) if scope else None
+
+    def same_site(url: str, hosts: set[str]) -> bool:
+        if not _same_site(url, hosts):
+            return False
+        return in_scope is None or bool(in_scope.match(urllib.parse.urlparse(url).path))
     visited: set[str] = set()
     records: list[dict[str, str]] = []
     # 優先度付きキュー。1自治体あたりの取得数には上限があるので、
@@ -309,8 +327,10 @@ def discover_site(
     for s in seeds:
         if s:
             push(s, 0, "seed", -1)
-            # sitemap.xml は無い自治体が多いが、あれば一番安い経路
-            push(urllib.parse.urljoin(s, "/sitemap.xml"), 0, "sitemap", -1)
+            # sitemap.xml は無い自治体が多いが、あれば一番安い経路。
+            # 区で絞るときは市全体のサイトマップになるので見ない
+            if not scope:
+                push(urllib.parse.urljoin(s, "/sitemap.xml"), 0, "sitemap", -1)
 
     while queue and len(records) < max_pages:
         _priority, depth, _seq, url, kind = heapq.heappop(queue)
@@ -433,6 +453,29 @@ def load_prefecture_sites(prefecture: str | None) -> list[dict[str, str]]:
     return out
 
 
+def load_ward_sites(prefecture: str | None, municipality: str | None) -> list[dict[str, str]]:
+    """registry/ward_sites.tsv (registry.py --resolve-wards) を探索対象にする。
+
+    municipality は市のまま、区は district に持つ。抽出・公開は市の行事として扱う。
+    """
+    path = REGISTRY_DIR / "ward_sites.tsv"
+    if not path.is_file():
+        raise SystemExit("先に registry.py --resolve-wards を実行してください")
+    with path.open(encoding="utf-8", newline="") as fh:
+        rows = [r for r in csv.DictReader(fh, delimiter="\t") if r["scope"]]
+    if prefecture:
+        rows = [r for r in rows if r["prefecture"] == prefecture]
+    if municipality:
+        wanted = {m.strip() for m in municipality.split(",") if m.strip()}
+        rows = [r for r in rows if r["municipality"] in wanted]
+    return [
+        {"prefecture": r["prefecture"], "municipality": r["municipality"],
+         "district": r["ward"], "official_url": r["official_url"],
+         "tourism_url": "", "scope": r["scope"]}
+        for r in rows
+    ]
+
+
 def already_done(path: Path) -> set[tuple[str, str]]:
     """pages.tsv に既に記録がある (都道府県, 市町村) を返す。
 
@@ -443,7 +486,8 @@ def already_done(path: Path) -> set[tuple[str, str]]:
     if not path.is_file():
         return set()
     with path.open(encoding="utf-8", newline="") as fh:
-        return {(r["prefecture"], r["municipality"]) for r in csv.DictReader(fh, delimiter="\t")}
+        return {(r["prefecture"], r.get("district") or r["municipality"])
+                for r in csv.DictReader(fh, delimiter="\t")}
 
 
 def load_sites(prefecture: str | None, municipality: str | None) -> list[dict[str, str]]:
@@ -494,29 +538,36 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--offline", action="store_true")
     ap.add_argument("--tourism-only", action="store_true",
                     help="観光協会サイトだけを起点にする (後から解決した自治体の追いクロール)")
+    ap.add_argument("--wards", action="store_true",
+                    help="政令市の区役所の配下を区ごとに歩く (registry/ward_sites.tsv)。"
+                         "出力は work/pages.wards.tsv。県単位レンズは使わない")
     ap.add_argument("--resume", action="store_true",
                     help="pages.tsv に既に記録がある市町村を飛ばして追記する")
     args = ap.parse_args(argv)
 
-    sites = load_sites(args.prefecture, args.municipality)
+    if args.wards:
+        sites = load_ward_sites(args.prefecture, args.municipality)
+    else:
+        sites = load_sites(args.prefecture, args.municipality)
     pref_sites = (
         []
-        if (args.no_prefecture_lens or args.municipality)
+        if (args.no_prefecture_lens or args.municipality or args.wards)
         else load_prefecture_sites(args.prefecture)
     )
+    out = WORK_DIR / ("pages.wards.tsv" if args.wards else "pages.tsv")
     targets = sites + pref_sites
     done: set = set()
     if args.resume:
-        done = already_done(WORK_DIR / "pages.tsv")
+        done = already_done(out)
         before = len(targets)
-        targets = [t for t in targets if (t["prefecture"], t["municipality"]) not in done]
+        targets = [t for t in targets
+                   if (t["prefecture"], t.get("district") or t["municipality"]) not in done]
         print(f"--resume: {before - len(targets)} 市町村は済んでいるので飛ばす")
     if not targets:
         raise SystemExit("対象がありません" if not done else "すべて済んでいる")
 
     fetcher = Fetcher(delay=args.delay, offline=args.offline)
     WORK_DIR.mkdir(parents=True, exist_ok=True)
-    out = WORK_DIR / "pages.tsv"
     written = 0
     # --resume で既に済んだ分があるときだけ追記。それ以外は作り直す。
     mode = "a" if (args.resume and done) else "w"
@@ -525,7 +576,8 @@ def main(argv: list[str] | None = None) -> int:
             fh,
             delimiter="\t",
             lineterminator="\n",
-            fieldnames=["prefecture", "municipality", "url", "fetch_url", "kind", "depth", "title"],
+            fieldnames=["prefecture", "municipality", "url", "fetch_url", "kind", "depth", "title"]
+            + (["district"] if args.wards else []),
         )
         if mode == "w":
             w.writeheader()
@@ -546,7 +598,7 @@ def main(argv: list[str] | None = None) -> int:
             )
             try:
                 return site, discover_site(fetcher, seeds, budget, args.max_depth,
-                                           args.bunkazai_pages)
+                                           args.bunkazai_pages, site.get("scope", ""))
             except Exception as exc:  # noqa: BLE001
                 # 1自治体で落ちても他の43件を巻き添えにしない。
                 # 静岡県では壊れた href 1本で県全体が失敗した。
@@ -567,18 +619,20 @@ def main(argv: list[str] | None = None) -> int:
                 gc.collect()
                 for r in recs:
                     r.update(prefecture=site["prefecture"], municipality=site["municipality"])
+                    if args.wards:
+                        r["district"] = site["district"]
                     # タブと改行はTSVを壊すので落とす
                     r["title"] = r["title"].replace("\t", " ")
                 w.writerows(recs)
                 fh.flush()
                 written += len(recs)
                 print(
-                    f"  {site['municipality']:12s} {len(recs):3d} pages  "
+                    f"  {site['municipality'] + site.get('district', ''):12s} {len(recs):3d} pages  "
                     f"(net={fetcher.stats['network']} cache={fetcher.stats['cache']})",
                     flush=True,
                 )
 
-    print(f"\npages.tsv: {written} ページ")
+    print(f"\n{out.name}: {written} ページ")
     print("fetcher stats:", fetcher.stats)
     return 0
 
