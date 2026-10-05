@@ -685,10 +685,151 @@ def resolve_prefecture_sites(fetcher: Fetcher, prefecture: str | None) -> Path:
     return out
 
 
+# --- 政令市の区 -----------------------------------------------------------
+# 政令市は市全体を1自治体として40ページで歩くと、区役所のページ (区民まつり・
+# 地域の盆踊り・神社の例祭) まで届かない。2026-10-05 時点で大阪市21件・札幌市20件と、
+# 人口数千の町と変わらない件数だった。区役所の配下を区ごとに別枠で歩くための台帳。
+# 公開データ上は市の行事のまま (ID・municipality は市)。区は探索の単位でしかない。
+
+_WARD_FIELDS = ["code", "prefecture", "municipality", "ward", "official_url", "scope", "resolved"]
+_WARD_INDEX_LABEL = re.compile(r"区役所|各区|区の(?:ホームページ|情報)|区のページ")
+
+
+def load_wards(fetcher: Fetcher) -> list[dict[str, str]]:
+    """総務省コード表の2枚目 (政令指定都市) から区の一覧を返す。"""
+    data = fetcher.get_bytes(SOUMU_CODE_XLSX)
+    if data is None:
+        raise SystemExit(f"取得できませんでした: {SOUMU_CODE_XLSX}")
+    rows = parse_xlsx(data, "xl/worksheets/sheet2.xml")
+    cities: dict[str, str] = {}  # 市名 -> 市のカナ
+    out = []
+    for cells in rows[1:]:
+        code, pref, name, _pk, kana_hw = (cells + [""] * 5)[:5]
+        if not code or not name:
+            continue
+        kana = from_halfwidth_katakana(kana_hw)
+        if name.endswith("市"):
+            cities[name] = kana
+            continue
+        city = next((c for c in cities if name.startswith(c)), "")
+        if not city:
+            continue
+        ward = name[len(city):]
+        ward_kana = kana[len(cities[city]):] if kana.startswith(cities[city]) else ""
+        out.append({
+            "code": code, "prefecture": pref, "municipality": city, "ward": ward,
+            "romaji": romanize(strip_suffix_kana(ward_kana)) or "",
+        })
+    return out
+
+
+def _links_with_labels(text: str, base_url: str) -> list[tuple[str, str]]:
+    out = []
+    for m in re.finditer(r'<a[^>]+href="([^"#]+)[^"]*"[^>]*>(.*?)</a>', text, re.S):
+        url = safe_join(base_url, html.unescape(m.group(1)))
+        if not url.startswith("http"):
+            continue
+        label = html.unescape(re.sub(r"<[^>]+>", "", m.group(2)))
+        out.append((re.sub(r"\s+", "", label), url))
+    return out
+
+
+def _ward_label_matches(label: str, city: str, ward: str) -> bool:
+    # 「北区」「大阪市北区」「北区役所」「北区（北区役所）」は当てる。
+    # 「北区（北神区役所）」(神戸市の北神出張所) は当てない: 括弧の中も見る。
+    label = label.removeprefix(city)
+    inner = re.findall(r"[（(]([^）)]*)[）)]", label)
+    head = re.sub(r"[（(].*$", "", label)
+    if head not in (ward, ward + "役所", ward + "ホームページ"):
+        return False
+    return all(i.removeprefix(city) in (ward, ward + "役所") for i in inner)
+
+
+def _ward_scope(url: str) -> str:
+    """区のページのディレクトリ。これより下だけを歩く。"""
+    p = urllib.parse.urlparse(url)
+    path = p.path if p.path.endswith("/") else p.path.rsplit("/", 1)[0] + "/"
+    return f"{p.scheme}://{p.netloc}{path}"
+
+
+def _verify_ward(fetcher: Fetcher, url: str, city: str, ward: str) -> tuple[bool, str]:
+    doc = fetcher.get(url)
+    if doc is None or doc.status != 200:
+        return False, "取得できず"
+    text = re.sub(r"<[^>]+>", " ", doc.text)
+    # 区名だけ (北区・中央区) は他の市にもあるので、市名つきか「区役所」で確かめる
+    if city + ward in text or ward + "役所" in text:
+        return True, "本文に区名を確認"
+    return False, "本文に区名が見つからない"
+
+
+def resolve_wards(fetcher: Fetcher, prefecture: str | None) -> Path:
+    wards = load_wards(fetcher)
+    if prefecture:
+        wards = [w for w in wards if w["prefecture"] == prefecture]
+    with (REGISTRY_DIR / "sites.tsv").open(encoding="utf-8", newline="") as fh:
+        city_url = {(r["prefecture"], r["municipality"]): r["official_url"]
+                    for r in csv.DictReader(fh, delimiter="\t")}
+    out = REGISTRY_DIR / "ward_sites.tsv"
+    existing: dict[str, dict[str, str]] = {}
+    if out.is_file():
+        with out.open(encoding="utf-8", newline="") as fh:
+            existing = {r["code"]: r for r in csv.DictReader(fh, delimiter="\t")}
+
+    by_city: dict[tuple[str, str], list[dict[str, str]]] = {}
+    for w in wards:
+        by_city.setdefault((w["prefecture"], w["municipality"]), []).append(w)
+
+    for (pref, city), ws in by_city.items():
+        top = city_url.get((pref, city), "")
+        links: list[tuple[str, str]] = []
+        if top:
+            doc = fetcher.get(top)
+            if doc is not None and doc.status == 200:
+                links = _links_with_labels(doc.text, doc.final_url)
+                # トップに区の一覧が無い市は「区役所」の索引ページを1〜3枚見る
+                for _label, u in [x for x in links if _WARD_INDEX_LABEL.search(x[0])][:3]:
+                    d2 = fetcher.get(u)
+                    if d2 is not None and d2.status == 200:
+                        links += _links_with_labels(d2.text, d2.final_url)
+        for w in ws:
+            cands = [u for label, u in links if _ward_label_matches(label, city, w["ward"])]
+            if top and w["romaji"]:
+                host = _ward_scope(top).split("/", 3)
+                base = f"{host[0]}//{host[2]}"
+                cands += [f"{base}/{w['romaji']}/", f"{base}/{w['romaji']}ku/"]
+            row = {"code": w["code"], "prefecture": pref, "municipality": city,
+                   "ward": w["ward"], "official_url": "", "scope": "",
+                   "resolved": "候補URLがすべて外れ"}
+            seen: set[str] = set()
+            for u in cands:
+                if u in seen:
+                    continue
+                seen.add(u)
+                ok, why = _verify_ward(fetcher, u, city, w["ward"])
+                scope = _ward_scope(u)
+                # スコープが市のトップと同じなら区で分ける意味が無い
+                if ok and scope != _ward_scope(top):
+                    row.update(official_url=u, scope=scope, resolved=why)
+                    break
+            existing[w["code"]] = row
+            print(f"  {city}{w['ward']:6s} {row['scope'] or '-'}", flush=True)
+
+    with out.open("w", encoding="utf-8", newline="\n") as fh:
+        wr = csv.DictWriter(fh, delimiter="\t", lineterminator="\n", fieldnames=_WARD_FIELDS)
+        wr.writeheader()
+        wr.writerows(sorted(existing.values(), key=lambda r: r["code"]))
+    hit = sum(1 for r in existing.values() if r["scope"])
+    print(f"\nward_sites.tsv: {len(existing)} 区 / 解決 {hit}")
+    return out
+
+
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--build-municipalities", action="store_true")
     ap.add_argument("--resolve-sites", action="store_true")
+    ap.add_argument("--resolve-wards", action="store_true",
+                    help="政令市の区役所ページを解決して registry/ward_sites.tsv に書く")
     ap.add_argument("--resolve-prefecture-sites", action="store_true")
     ap.add_argument("--prefecture")
     ap.add_argument("--offline", action="store_true")
@@ -702,7 +843,10 @@ def main(argv: list[str] | None = None) -> int:
         resolve_sites(fetcher, args.prefecture)
     if args.resolve_prefecture_sites:
         resolve_prefecture_sites(fetcher, args.prefecture)
-    if not (args.build_municipalities or args.resolve_sites or args.resolve_prefecture_sites):
+    if args.resolve_wards:
+        resolve_wards(fetcher, args.prefecture)
+    if not (args.build_municipalities or args.resolve_sites or args.resolve_prefecture_sites
+            or args.resolve_wards):
         ap.print_help()
         return 2
     return 0
