@@ -791,7 +791,7 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 174076	石川県	中能登町	https://www.town.nakanoto.ishikawa.jp/	https://www.nakanotokanko.com/	本文に自治体名を確認
 174611	石川県	穴水町	https://www.town.anamizu.lg.jp/	https://www.anamizu-kankou.jp/	本文に自治体名を確認
 174637	石川県	能登町	https://www.town.noto.lg.jp/	http://www.notokanko.com/	本文に自治体名を確認
-182010	福井県	福井市	https://www.city.fukui.lg.jp/		本文に自治体名を確認
+182010	福井県	福井市	https://www.city.fukui.lg.jp/	https://fuku-iro.jp/	本文に自治体名を確認
 182028	福井県	敦賀市	https://www.city.tsuruga.lg.jp/	https://tsuruga-kanko.jp/	本文に自治体名を確認
 182044	福井県	小浜市	https://www1.city.obama.fukui.jp/	https://www.wakasa-obama.jp/	検索で特定 (本文に自治体名を確認)
 182052	福井県	大野市	https://www.city.ono.fukui.jp/	http://www.ono-kankou.jp/	本文に自治体名を確認
@@ -1552,7 +1552,7 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 414247	佐賀県	江北町	https://www.town.kouhoku.saga.jp/		検索で特定 (本文に自治体名を確認)
 414255	佐賀県	白石町	https://www.town.shiroishi.lg.jp/	https://flat-shiroishi.jp/	本文に自治体名を確認
 414417	佐賀県	太良町	https://www.town.tara.lg.jp/	http://tarachokankou.web.fc2.com/	本文に自治体名を確認
-422011	長崎県	長崎市	https://www.city.nagasaki.lg.jp/		本文に自治体名を確認
+422011	長崎県	長崎市	https://www.city.nagasaki.lg.jp/	https://www.at-nagasaki.jp/	本文に自治体名を確認
 422029	長崎県	佐世保市	https://www.city.sasebo.lg.jp/	https://www.sasebo99.com/	本文に自治体名を確認
 422037	長崎県	島原市	https://www.city.shimabara.lg.jp/		本文に自治体名を確認
 422045	長崎県	諫早市	https://www.city.isahaya.nagasaki.jp/	https://www.isahaya-kankou.com/	本文に自治体名を確認
@@ -1573,7 +1573,7 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 423831	長崎県	小値賀町	https://www.town.ojika.lg.jp/		本文に自治体名を確認
 423912	長崎県	佐々町	https://www.sazacho-nagasaki.jp/		検索で特定 (本文に自治体名を確認)
 424111	長崎県	新上五島町	https://official.shinkamigoto.net/		検索で特定 (本文に自治体名を確認)
-431001	熊本県	熊本市	https://www.city.kumamoto.jp/		本文に自治体名を確認
+431001	熊本県	熊本市	https://www.city.kumamoto.jp/	https://kumamoto-guide.jp/	本文に自治体名を確認
 432024	熊本県	八代市	https://www.city.yatsushiro.lg.jp/		本文に自治体名を確認
 432032	熊本県	人吉市	https://www.city.hitoyoshi.lg.jp/		本文に自治体名を確認
 432041	熊本県	荒尾市	https://www.city.arao.lg.jp/	https://arao-kankou.jp/	本文に自治体名を確認
@@ -1705,7 +1705,7 @@ code	prefecture	municipality	official_url	tourism_url	resolved
 465330	鹿児島県	和泊町	https://www.town.wadomari.lg.jp/	http://www.okinoerabujima.info/	本文に自治体名を確認
 465348	鹿児島県	知名町	https://www.town.china.lg.jp/	https://okinoerabujima.info/	本文に自治体名を確認
 465356	鹿児島県	与論町	https://www.yoron.jp/		検索で特定 (本文に自治体名を確認)
-472018	沖縄県	那覇市	https://www.city.naha.okinawa.jp/		本文に自治体名を確認
+472018	沖縄県	那覇市	https://www.city.naha.okinawa.jp/	https://www.naha-navi.or.jp/	本文に自治体名を確認
 472051	沖縄県	宜野湾市	https://www.city.ginowan.lg.jp/		本文に自治体名を確認
 472077	沖縄県	石垣市	https://www.city.ishigaki.okinawa.jp/	https://www.kanko-ishigaki.org/	本文に自治体名を確認
 472085	沖縄県	浦添市	https://www.city.urasoe.lg.jp/		本文に自治体名を確認
